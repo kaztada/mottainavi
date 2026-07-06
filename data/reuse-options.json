@@ -6,27 +6,27 @@
     "options": [
       {
         "type": "official",
-        "title_ja": "大阪市の拠点回収(マタニティ・ベビー・子ども服)",
+        "title_ja": "大阪市の拠点回収に持っていく(マタニティ・ベビー・子ども服)",
         "title_en": "City collection points (maternity/baby/kids clothing)",
-        "desc_ja": "使用可能なものは環境事業センターで回収し、展示提供されています。",
+        "desc_ja": "まだ着られる服は環境事業センターで回収され、次の家族へ展示提供されています。お出かけついでに、という手も。",
         "url": "https://www.city.osaka.lg.jp/kankyo/page/0000009050.html",
         "effort": "medium",
         "money": "free"
       },
       {
         "type": "resale",
-        "title_ja": "フリマアプリ・リサイクルショップで売る",
+        "title_ja": "フリマアプリ・古着屋で売る",
         "title_en": "Sell via flea market apps or secondhand shops",
-        "desc_ja": "状態の良いものは次の着る人へ。",
+        "desc_ja": "状態のいいものは、次に着る人へバトンタッチ。意外な値段がつくこともあります。",
         "url": null,
         "effort": "medium",
         "money": "earn"
       },
       {
         "type": "donation",
-        "title_ja": "衣類回収・寄付プログラムに出す",
+        "title_ja": "店頭回収・寄付プログラムに出す",
         "title_en": "Donate through clothing collection programs",
-        "desc_ja": "店頭回収(ユニクロ・H&M等)や寄付団体の宅配回収など。",
+        "desc_ja": "ユニクロ・H&Mなどの店頭ボックスや、寄付団体の宅配回収など。買い物ついでに出せる気軽さです。",
         "url": null,
         "effort": "low",
         "money": "free"
@@ -40,18 +40,18 @@
     "options": [
       {
         "type": "official",
-        "title_ja": "小型家電リサイクル回収(市の回収ボックス/宅配便)",
+        "title_ja": "小型家電リサイクル回収へ(回収ボックス/宅配便)",
         "title_en": "City small-appliance recycling (drop box / courier)",
-        "desc_ja": "資源として回収されます。",
+        "desc_ja": "市の回収ボックスや宅配回収で、中の金属が資源としてもう一働きしてくれます。",
         "url": "https://www.city.osaka.lg.jp/kankyo/page/0000523872.html",
         "effort": "low",
         "money": "free"
       },
       {
         "type": "resale",
-        "title_ja": "動くものは買取・フリマへ",
+        "title_ja": "動くうちに買取・フリマへ",
         "title_en": "Working items: sell or trade in",
-        "desc_ja": "製造5年以内なら値がつくことも。",
+        "desc_ja": "製造5年以内なら値がつくことも。動くうちが手放しどき、かもしれません。",
         "url": null,
         "effort": "medium",
         "money": "earn"
@@ -65,18 +65,18 @@
     "options": [
       {
         "type": "give",
-        "title_ja": "地域の譲り合い(ジモティー等)",
+        "title_ja": "地域の譲り合いで、もらい手を探す(ジモティーなど)",
         "title_en": "Local giveaway platforms",
-        "desc_ja": "粗大ごみ手数料を払う前に、もらい手を探す選択肢。",
+        "desc_ja": "粗大ごみ手数料を払う前に、近所で欲しい人を探してみる手もあります。引き取りに来てもらえることも。",
         "url": null,
         "effort": "medium",
         "money": "free"
       },
       {
         "type": "resale",
-        "title_ja": "出張買取・リサイクルショップ",
+        "title_ja": "出張買取・リサイクルショップに相談",
         "title_en": "Secondhand furniture buyers",
-        "desc_ja": "ブランド家具・状態良好なら買取対象に。",
+        "desc_ja": "ブランド家具や状態のいいものは買取対象になることも。写真を送るだけで査定してくれるお店もあります。",
         "url": null,
         "effort": "medium",
         "money": "earn"
@@ -89,19 +89,28 @@
     "label_en": "Books & Media",
     "options": [
       {
+        "type": "official",
+        "title_ja": "絵本は大阪市の拠点回収へ",
+        "title_en": "Picture books: city collection points",
+        "desc_ja": "読み終えた絵本は環境事業センターで回収され、次の読み手に届けられています。",
+        "url": "https://www.city.osaka.lg.jp/kankyo/page/0000009050.html",
+        "effort": "medium",
+        "money": "free"
+      },
+      {
         "type": "resale",
-        "title_ja": "古本買取・宅配買取",
+        "title_ja": "古本買取・宅配買取に出す",
         "title_en": "Used book buyback",
-        "desc_ja": "段ボールに詰めて送るだけの宅配買取も。",
+        "desc_ja": "段ボールに詰めて送るだけの宅配買取も。本棚がすっきりして、ちょっとしたお小遣いにもなるかも。",
         "url": null,
         "effort": "low",
         "money": "earn"
       },
       {
         "type": "donation",
-        "title_ja": "図書施設・団体への寄贈",
+        "title_ja": "図書施設や団体に寄贈する",
         "title_en": "Donate to libraries/charities",
-        "desc_ja": "地域の文庫や寄付プログラムへ。",
+        "desc_ja": "地域の文庫や寄付プログラムへ。誰かの「はじめての一冊」になるかもしれません。",
         "url": null,
         "effort": "medium",
         "money": "free"
@@ -115,18 +124,18 @@
     "options": [
       {
         "type": "official",
-        "title_ja": "大阪市の拠点回収(絵本など)",
+        "title_ja": "大阪市の拠点回収に持っていく(絵本など)",
         "title_en": "City collection points (picture books etc.)",
-        "desc_ja": "絵本は拠点回収で次の読み手へ。",
+        "desc_ja": "絵本は拠点回収で次の読み手へ。まだ遊べるおもちゃも、譲り先を探してみる価値ありです。",
         "url": "https://www.city.osaka.lg.jp/kankyo/page/0000009050.html",
         "effort": "low",
         "money": "free"
       },
       {
         "type": "give",
-        "title_ja": "おさがり・譲り合い",
+        "title_ja": "おさがり・譲り合いへ",
         "title_en": "Hand-me-downs & giveaways",
-        "desc_ja": "地域コミュニティや知人へ。",
+        "desc_ja": "地域のコミュニティや、親戚・友人へ。子どものものは、使ってくれる人がいるだけでうれしいものです。",
         "url": null,
         "effort": "low",
         "money": "free"
@@ -140,9 +149,9 @@
     "options": [
       {
         "type": "resale",
-        "title_ja": "楽器店の買取・下取り",
+        "title_ja": "楽器店の買取・下取りに出す",
         "title_en": "Instrument shop trade-in",
-        "desc_ja": "楽器は循環市場が成熟。捨てるのは最後の手段に。",
+        "desc_ja": "楽器は中古市場がしっかりあります。捨てるのは最後の手段にして、まず査定だけでも、という手も。",
         "url": null,
         "effort": "medium",
         "money": "earn"
@@ -156,9 +165,9 @@
     "options": [
       {
         "type": "official",
-        "title_ja": "購入店・販売店へ返却",
+        "title_ja": "購入店・販売店へ返す",
         "title_en": "Return to the retailer",
-        "desc_ja": "ビールびん・一升びんは再使用(リユース)されます。",
+        "desc_ja": "ビールびんや一升びんは、返せばそのまま再使用(リユース)されます。いちばんシンプルなリユース、かもしれません。",
         "url": null,
         "effort": "low",
         "money": "free"

@@ -27,6 +27,11 @@ export function ItemCard({
           </span>
         )}
       </div>
+      {item.r && (
+        <p className="mt-1.5 text-xs text-accent-strong">
+          ♻️ 手放す選択肢あり
+        </p>
+      )}
     </Link>
   )
 }

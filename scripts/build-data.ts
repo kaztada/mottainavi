@@ -209,6 +209,7 @@ async function main() {
     e: i.name_en,
     c: [...new Set(i.dispositions.map((d) => d.category_id))],
     f: i.sodai_fee_yen,
+    r: i.reuse_category,
   }))
   SearchIndexFileSchema.parse(searchIndex)
   await writeFile(

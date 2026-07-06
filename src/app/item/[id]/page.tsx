@@ -3,8 +3,15 @@ import Link from "next/link"
 import { notFound } from "next/navigation"
 import { ChevronLeft, Phone } from "lucide-react"
 import { DispositionCard } from "@/components/DispositionCard"
+import { ReuseOptionCard } from "@/components/ReuseOptionCard"
 import { SourceNote } from "@/components/SourceNote"
-import { getCategoryById, getItemById, getItems, getMunicipality } from "@/lib/data"
+import {
+  getCategoryById,
+  getItemById,
+  getItems,
+  getMunicipality,
+  getReuseCategoryById,
+} from "@/lib/data"
 
 // 全品目をビルド時にSSGし、未知IDは404にする
 export const dynamicParams = false
@@ -54,7 +61,22 @@ export default async function ItemPage({
       <main className="flex-1">
         <h1 className="text-xl font-bold leading-snug">{item.name_ja}</h1>
 
-        {/* Phase 3: ここに「♻️ 捨てる前に、こんな手も」(手放しセクション)が入る */}
+        {/* 手放すが先、捨てるが後(screens.md §5)。ただし軽いカードで押しつけない */}
+        {item.reuse_category && (
+          <section className="mt-6">
+            <h2 className="text-base font-bold">♻️ 捨てる前に、こんな手も</h2>
+            <p className="mt-1 text-xs text-muted">
+              まだ使えるものなら、こんな選択肢もあります
+            </p>
+            <div className="mt-3 flex flex-col gap-2.5">
+              {getReuseCategoryById(item.reuse_category).options.map(
+                (option, idx) => (
+                  <ReuseOptionCard key={idx} option={option} />
+                )
+              )}
+            </div>
+          </section>
+        )}
 
         <section className="mt-6">
           <h2 className="mb-3 text-base font-bold">🗑 大阪市での捨て方</h2>

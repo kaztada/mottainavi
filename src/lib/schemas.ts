@@ -107,6 +107,8 @@ export const SearchIndexItemSchema = z.object({
   c: z.array(CategoryIdSchema).min(1),
   /** sodai_fee_yen */
   f: z.number().int().positive().nullable(),
+  /** reuse_category(♻️インジケータ用) */
+  r: ReuseCategoryIdSchema.nullable(),
 })
 export type SearchIndexItem = z.infer<typeof SearchIndexItemSchema>
 

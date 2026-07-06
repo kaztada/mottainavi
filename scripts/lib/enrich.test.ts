@@ -117,4 +117,18 @@ describe("inferReuseCategory", () => {
       inferReuseCategory("ガスコンロ・ガステーブル", ["sodai"], [null])
     ).toBeNull()
   })
+  it("収納系(カラーボックス・ラック)は furniture", () => {
+    expect(
+      inferReuseCategory("カラーボックス(最大の辺または径が30センチメートルを超えるもの)", ["sodai"], [null])
+    ).toBe("furniture")
+    expect(inferReuseCategory("押入れ収納ラック", ["sodai"], [null])).toBe(
+      "furniture"
+    )
+  })
+  it("子ども用遊具・三輪車は toys-baby", () => {
+    expect(
+      inferReuseCategory("子ども用遊具(ジム、滑り台等)", ["sodai"], [null])
+    ).toBe("toys-baby")
+    expect(inferReuseCategory("三輪車", ["futsu"], [null])).toBe("toys-baby")
+  })
 })

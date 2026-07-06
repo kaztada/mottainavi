@@ -1,6 +1,6 @@
 {
   "municipality_id": "osaka-city",
-  "generated_at": "2026-07-06T17:05:56.830Z",
+  "generated_at": "2026-07-06T23:52:47.332Z",
   "source_url": "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html",
   "item_count": 1056,
   "items": [
@@ -2243,7 +2243,7 @@
         }
       ],
       "sodai_fee_yen": 200,
-      "reuse_category": null,
+      "reuse_category": "furniture",
       "name_en": null
     },
     {
@@ -2398,7 +2398,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "small-appliance",
+      "reuse_category": "instruments",
       "name_en": null
     },
     {
@@ -2829,7 +2829,7 @@
         }
       ],
       "sodai_fee_yen": 200,
-      "reuse_category": null,
+      "reuse_category": "furniture",
       "name_en": null
     },
     {
@@ -3476,7 +3476,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": null,
+      "reuse_category": "furniture",
       "name_en": null
     },
     {
@@ -3960,7 +3960,7 @@
         }
       ],
       "sodai_fee_yen": 200,
-      "reuse_category": "small-appliance",
+      "reuse_category": "instruments",
       "name_en": null
     },
     {
@@ -3986,7 +3986,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "small-appliance",
+      "reuse_category": "instruments",
       "name_en": null
     },
     {
@@ -4792,7 +4792,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": null,
+      "reuse_category": "furniture",
       "name_en": null
     },
     {
@@ -5124,7 +5124,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": null,
+      "reuse_category": "furniture",
       "name_en": null
     },
     {
@@ -5451,7 +5451,7 @@
         }
       ],
       "sodai_fee_yen": 200,
-      "reuse_category": null,
+      "reuse_category": "toys-baby",
       "name_en": null
     },
     {
@@ -6455,7 +6455,7 @@
         }
       ],
       "sodai_fee_yen": 200,
-      "reuse_category": null,
+      "reuse_category": "toys-baby",
       "name_en": null
     },
     {
@@ -8523,7 +8523,7 @@
         }
       ],
       "sodai_fee_yen": 200,
-      "reuse_category": null,
+      "reuse_category": "toys-baby",
       "name_en": null
     },
     {
@@ -16091,6 +16091,9 @@
         "書籍",
         "単行本",
         "文庫本",
+        "絵本",
+        "えほん",
+        "picture book",
         "book"
       ],
       "dispositions": [
