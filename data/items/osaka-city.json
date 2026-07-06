@@ -1,6 +1,6 @@
 {
   "municipality_id": "osaka-city",
-  "generated_at": "2026-07-06T11:53:22.732Z",
+  "generated_at": "2026-07-06T17:05:56.830Z",
   "source_url": "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html",
   "item_count": 1056,
   "items": [
@@ -240,7 +240,10 @@
       "id": "osk-0015",
       "name_ja": "アイロン台(最大の辺または径が30センチメートルを超えるもの)",
       "name_kana": "あいろんだい(さいだいのあたりまたは径が30せんちめーとるをこえるもの)",
-      "aliases": [],
+      "aliases": [
+        "スチームアイロン",
+        "iron"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -256,7 +259,10 @@
       "id": "osk-0016",
       "name_ja": "アイロンプリント紙（捺染紙）",
       "name_kana": "あいろんぷりんとし（なっせんし）",
-      "aliases": [],
+      "aliases": [
+        "スチームアイロン",
+        "iron"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -272,7 +278,12 @@
       "id": "osk-0017",
       "name_ja": "空き缶（飲料用・食用のもので一斗缶以下の大きさもの）",
       "name_kana": "あきかん（いんりょうよう・しょくようのものでいちとかんいかのおおきさもの）",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -288,7 +299,12 @@
       "id": "osk-0018",
       "name_ja": "空き缶（飲料用・食用以外のもので一斗缶以下の大きさもの）",
       "name_kana": "あきかん（いんりょうよう・しょくよういがいのものでいちとかんいかのおおきさもの）",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -304,7 +320,12 @@
       "id": "osk-0019",
       "name_ja": "空き缶のキャップ・ふた（金属製）",
       "name_kana": "あきかんのきゃっぷ・ふた（きんぞくせい）",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -320,7 +341,12 @@
       "id": "osk-0020",
       "name_ja": "空き缶のキャップ・ふた（プラスチック製）",
       "name_kana": "あきかんのきゃっぷ・ふた（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -336,7 +362,15 @@
       "id": "osk-0021",
       "name_ja": "空きびん（飲料用・食料品・日用品で一升びん以下の大きさのもの）",
       "name_kana": "あきびん（いんりょうよう・しょくりょうひん・にちようひんでいちしょうびんいかのおおきさのもの）",
-      "aliases": [],
+      "aliases": [
+        "びん",
+        "瓶",
+        "ガラスびん",
+        "bottle",
+        "glass bottle",
+        "一升瓶",
+        "sake bottle"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -352,7 +386,13 @@
       "id": "osk-0022",
       "name_ja": "空きびん（薬品の入っていたもの）",
       "name_kana": "あきびん（やくひんのはいっていたもの）",
-      "aliases": [],
+      "aliases": [
+        "びん",
+        "瓶",
+        "ガラスびん",
+        "bottle",
+        "glass bottle"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -368,7 +408,13 @@
       "id": "osk-0023",
       "name_ja": "空きびんのキャップ（金属製）",
       "name_kana": "あきびんのきゃっぷ（きんぞくせい）",
-      "aliases": [],
+      "aliases": [
+        "びん",
+        "瓶",
+        "ガラスびん",
+        "bottle",
+        "glass bottle"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -384,7 +430,13 @@
       "id": "osk-0024",
       "name_ja": "空きびんのキャップ（プラスチック製）",
       "name_kana": "あきびんのきゃっぷ（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "びん",
+        "瓶",
+        "ガラスびん",
+        "bottle",
+        "glass bottle"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -464,7 +516,9 @@
       "id": "osk-0029",
       "name_ja": "アコーデオンカーテン",
       "name_kana": "あこーでおんかーてん",
-      "aliases": [],
+      "aliases": [
+        "curtain"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -704,7 +758,12 @@
       "id": "osk-0044",
       "name_ja": "アルカリ乾電池・マンガン乾電池",
       "name_kana": "あるかりかんでんち・まんがんかんでんち",
-      "aliases": [],
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
       "dispositions": [
         {
           "category_id": "kyoten",
@@ -933,7 +992,12 @@
       "id": "osk-0058",
       "name_ja": "いす・座いす(一人掛け用で回転機能の付いていないもの、ロッキングチェアを除く)",
       "name_kana": "いす・ざいす(いちにんかけようでかいてんきのうのついていないもの、ろっきんぐちぇあをのぞく)",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -949,7 +1013,12 @@
       "id": "osk-0059",
       "name_ja": "いす(一人掛け用で回転機能付のもの、ロッキングチェア)",
       "name_kana": "いす(いちにんかけようでかいてんきのうづけのもの、ろっきんぐちぇあ)",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -965,7 +1034,12 @@
       "id": "osk-0060",
       "name_ja": "いす(二人掛け用以上)",
       "name_kana": "いす(ににんかけよういじょう)",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -1198,7 +1272,13 @@
       "id": "osk-0074",
       "name_ja": "衣類（マタニティウェア・ベビー服・子ども服）",
       "name_kana": "いるい（またにてぃうぇあ・べびーふく・こどもふく）",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "kyoten",
@@ -1214,7 +1294,13 @@
       "id": "osk-0075",
       "name_ja": "衣類のうち汚れているものや革製品、綿の入ったもの、ナイロン製のもの",
       "name_kana": "いるいのうちよごれているものやかわせいひん、めんのはいったもの、ないろんせいのもの",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -1262,7 +1348,13 @@
       "id": "osk-0078",
       "name_ja": "衣類乾燥機",
       "name_kana": "いるいかんそうき",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "not-collected",
@@ -1566,7 +1658,13 @@
       "id": "osk-0097",
       "name_ja": "ウッドカーペット(5畳未満)",
       "name_kana": "うっどかーぺっと(5じょうみまん)",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -1582,7 +1680,13 @@
       "id": "osk-0098",
       "name_ja": "ウッドカーペット(5畳以上)",
       "name_kana": "うっどかーぺっと(5じょういじょう)",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -1630,7 +1734,12 @@
       "id": "osk-0101",
       "name_ja": "腕時計",
       "name_kana": "うでどけい",
-      "aliases": [],
+      "aliases": [
+        "掛け時計",
+        "腕時計",
+        "clock",
+        "watch"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -1794,7 +1903,13 @@
       "id": "osk-0111",
       "name_ja": "液晶ディスプレイ（パソコン）",
       "name_kana": "えきしょうでぃすぷれい（ぱそこん）",
-      "aliases": [],
+      "aliases": [
+        "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
+        "laptop",
+        "computer"
+      ],
       "dispositions": [
         {
           "category_id": "pc-recycle",
@@ -1810,7 +1925,13 @@
       "id": "osk-0112",
       "name_ja": "液晶ディスプレイ一体型パソコン",
       "name_kana": "えきしょうでぃすぷれいいちたいけいぱそこん",
-      "aliases": [],
+      "aliases": [
+        "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
+        "laptop",
+        "computer"
+      ],
       "dispositions": [
         {
           "category_id": "pc-recycle",
@@ -2225,7 +2346,10 @@
       "id": "osk-0137",
       "name_ja": "おもちゃ（プラスチック製）",
       "name_kana": "おもちゃ（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "玩具",
+        "toy"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -2241,7 +2365,10 @@
       "id": "osk-0138",
       "name_ja": "おもちゃ（プラスチック製以外）",
       "name_kana": "おもちゃ（ぷらすちっくせいいがい）",
-      "aliases": [],
+      "aliases": [
+        "玩具",
+        "toy"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -2368,7 +2495,9 @@
       "id": "osk-0145",
       "name_ja": "カーテン(最大の辺または径が30センチメートル以内のもの)",
       "name_kana": "かーてん(さいだいのあたりまたは径が30せんちめーとるいないのもの)",
-      "aliases": [],
+      "aliases": [
+        "curtain"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -2384,7 +2513,9 @@
       "id": "osk-0146",
       "name_ja": "カーテンレール(長さが1メートル以内のもの)",
       "name_kana": "かーてんれーる(ながさが1めーとるいないのもの)",
-      "aliases": [],
+      "aliases": [
+        "curtain"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -2437,7 +2568,13 @@
       "id": "osk-0149",
       "name_ja": "カーペット・じゅうたん（織物製で6畳未満のもの）",
       "name_kana": "かーぺっと・じゅうたん（おりものせいで6じょうみまんのもの）",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -2453,7 +2590,13 @@
       "id": "osk-0150",
       "name_ja": "カーペット・じゅうたん（織物製で6畳以上のもの）",
       "name_kana": "かーぺっと・じゅうたん（おりものせいで6じょういじょうのもの）",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -2501,7 +2644,10 @@
       "id": "osk-0153",
       "name_ja": "介護用ベッド（解体済みのもの。マットレス類を除く。）",
       "name_kana": "かいごようべっど（かいたいずみのもの。まっとれするいをのぞく。）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -3041,7 +3187,12 @@
       "id": "osk-0185",
       "name_ja": "かばん(最大の辺または径が30センチメートル以内のもの)",
       "name_kana": "かばん(さいだいのあたりまたは径が30せんちめーとるいないのもの)",
-      "aliases": [],
+      "aliases": [
+        "バッグ",
+        "カバン",
+        "鞄",
+        "bag"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -3217,7 +3368,10 @@
       "id": "osk-0196",
       "name_ja": "紙パック（牛乳パックなどの、内側の白いもの）",
       "name_kana": "かみぱっく（ぎゅうにゅうぱっくなどの、うちがわのしろいもの）",
-      "aliases": [],
+      "aliases": [
+        "紙パック",
+        "milk carton"
+      ],
       "dispositions": [
         {
           "category_id": "koshi-irui",
@@ -3419,7 +3573,11 @@
       "id": "osk-0208",
       "name_ja": "ガラスクリーナー（金属スプレー缶）",
       "name_kana": "がらすくりーなー（きんぞくすぷれーかん）",
-      "aliases": [],
+      "aliases": [
+        "スプレー",
+        "エアゾール缶",
+        "spray can"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -3499,7 +3657,13 @@
       "id": "osk-0213",
       "name_ja": "革製の衣類",
       "name_kana": "かわせいのいるい",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -3648,7 +3812,13 @@
       "id": "osk-0222",
       "name_ja": "乾燥機（衣類乾燥機）",
       "name_kana": "かんそうき（いるいかんそうき）",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "not-collected",
@@ -3680,7 +3850,12 @@
       "id": "osk-0224",
       "name_ja": "乾電池（アルカリ乾電池・マンガン乾電池）",
       "name_kana": "かんでんち（あるかりかんでんち・まんがんかんでんち）",
-      "aliases": [],
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
       "dispositions": [
         {
           "category_id": "kyoten",
@@ -3744,7 +3919,13 @@
       "id": "osk-0228",
       "name_ja": "キーボード（パソコン）",
       "name_kana": "きーぼーど（ぱそこん）",
-      "aliases": [],
+      "aliases": [
+        "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
+        "laptop",
+        "computer"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -3786,7 +3967,12 @@
       "id": "osk-0230",
       "name_ja": "ギター、エレキギター",
       "name_kana": "ぎたー、えれきぎたー",
-      "aliases": [],
+      "aliases": [
+        "エレキギター",
+        "アコースティックギター",
+        "アコギ",
+        "guitar"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -3967,7 +4153,10 @@
       "id": "osk-0241",
       "name_ja": "牛乳パック（内側の白いもの、500ミリリットル・1リットルのもの）",
       "name_kana": "ぎゅうにゅうぱっく（うちがわのしろいもの、500みりりっとる・1りっとるのもの）",
-      "aliases": [],
+      "aliases": [
+        "紙パック",
+        "milk carton"
+      ],
       "dispositions": [
         {
           "category_id": "koshi-irui",
@@ -4079,7 +4268,12 @@
       "id": "osk-0248",
       "name_ja": "空気入れ（自転車用、ボール用などで長さが1メートル以内のもの）",
       "name_kana": "くうきいれ（じてんしゃよう、ぼーるようなどでながさが1めーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -4701,7 +4895,12 @@
       "id": "osk-0286",
       "name_ja": "車いす（電動以外のもの）",
       "name_kana": "くるまいす（でんどういがいのもの）",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -4717,7 +4916,12 @@
       "id": "osk-0287",
       "name_ja": "車いす（電動式）",
       "name_kana": "くるまいす（でんどうしき）",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -4797,7 +5001,10 @@
       "id": "osk-0292",
       "name_ja": "蛍光灯管",
       "name_kana": "けいこうとうかん",
-      "aliases": [],
+      "aliases": [
+        "蛍光管",
+        "fluorescent light"
+      ],
       "dispositions": [
         {
           "category_id": "kyoten",
@@ -4813,7 +5020,12 @@
       "id": "osk-0293",
       "name_ja": "携帯ゲーム機",
       "name_kana": "けいたいげーむき",
-      "aliases": [],
+      "aliases": [
+        "ゲーム",
+        "Switch",
+        "PlayStation",
+        "game console"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -4999,7 +5211,12 @@
       "id": "osk-0304",
       "name_ja": "原動機付自転車",
       "name_kana": "げんどうきづけじてんしゃ",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "not-collected",
@@ -5100,7 +5317,10 @@
       "id": "osk-0310",
       "name_ja": "小型扇風機",
       "name_kana": "こがたせんぷうき",
-      "aliases": [],
+      "aliases": [
+        "サーキュレーター",
+        "fan"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -5840,7 +6060,10 @@
       "id": "osk-0355",
       "name_ja": "酒類のびん(一升びん以下の大きさのもの)",
       "name_kana": "しゅるいのびん(いちしょうびんいかのおおきさのもの)",
-      "aliases": [],
+      "aliases": [
+        "一升瓶",
+        "sake bottle"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -5904,7 +6127,11 @@
       "id": "osk-0359",
       "name_ja": "殺虫剤のスプレー缶",
       "name_kana": "さっちゅうざいのすぷれーかん",
-      "aliases": [],
+      "aliases": [
+        "スプレー",
+        "エアゾール缶",
+        "spray can"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -5938,7 +6165,11 @@
       "id": "osk-0361",
       "name_ja": "座布団(最大の辺または径が30センチメートル以内のもの)",
       "name_kana": "ざぶとん(さいだいのあたりまたは径が30せんちめーとるいないのもの)",
-      "aliases": [],
+      "aliases": [
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -6194,7 +6425,12 @@
       "id": "osk-0377",
       "name_ja": "三輪自転車（大人用）",
       "name_kana": "さんりんじてんしゃ（おとなよう）",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6226,7 +6462,13 @@
       "id": "osk-0379",
       "name_ja": "CRTディスプレイ（パソコン、キーボード、マウス、ケーブル、スピーカーなど）",
       "name_kana": "CRTでぃすぷれい（ぱそこん、きーぼーど、まうす、けーぶる、すぴーかーなど）",
-      "aliases": [],
+      "aliases": [
+        "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
+        "laptop",
+        "computer"
+      ],
       "dispositions": [
         {
           "category_id": "pc-recycle",
@@ -6277,7 +6519,10 @@
       "id": "osk-0382",
       "name_ja": "CDケース",
       "name_kana": "CDけーす",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -6293,7 +6538,10 @@
       "id": "osk-0383",
       "name_ja": "CDの包装フィルム",
       "name_kana": "CDのほうそうふぃるむ",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -6309,7 +6557,10 @@
       "id": "osk-0384",
       "name_ja": "CDプレイヤー",
       "name_kana": "CDぷれいやー",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -6330,7 +6581,10 @@
       "id": "osk-0385",
       "name_ja": "CDラジカセ",
       "name_kana": "CDらじかせ",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -6479,7 +6733,12 @@
       "id": "osk-0394",
       "name_ja": "自転車（電動式以外のもの）",
       "name_kana": "じてんしゃ（でんどうしきいがいのもの）",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6495,7 +6754,12 @@
       "id": "osk-0395",
       "name_ja": "自転車（電動式のもの）",
       "name_kana": "じてんしゃ（でんどうしきのもの）",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6511,7 +6775,12 @@
       "id": "osk-0396",
       "name_ja": "自転車用空気入れ（長さが1メートル以内のもの）",
       "name_kana": "じてんしゃようくうきいれ（ながさが1めーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -6639,7 +6908,12 @@
       "id": "osk-0404",
       "name_ja": "ジュースのペットボトル",
       "name_kana": "じゅーすのぺっとぼとる",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -6655,7 +6929,12 @@
       "id": "osk-0405",
       "name_ja": "ジュースのペットボトルのキャップ（プラスチック製）",
       "name_kana": "じゅーすのぺっとぼとるのきゃっぷ（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -6671,7 +6950,12 @@
       "id": "osk-0406",
       "name_ja": "ジュースのペットボトルのラベル（プラスチック製）",
       "name_kana": "じゅーすのぺっとぼとるのらべる（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -6687,7 +6971,13 @@
       "id": "osk-0407",
       "name_ja": "じゅうたん・カーペット（織物製で6畳未満）",
       "name_kana": "じゅうたん・かーぺっと（おりものせいで6じょうみまん）",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6703,7 +6993,13 @@
       "id": "osk-0408",
       "name_ja": "じゅうたん・カーペット（織物製で6畳以上）",
       "name_kana": "じゅうたん・かーぺっと（おりものせいで6じょういじょう）",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7039,7 +7335,12 @@
       "id": "osk-0429",
       "name_ja": "しょうゆのペットボトル",
       "name_kana": "しょうゆのぺっとぼとる",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -7156,7 +7457,13 @@
       "id": "osk-0436",
       "name_ja": "食器（金属製で最大の辺または径が30センチメートル以内のもの）",
       "name_kana": "しょっき（きんぞくせいでさいだいのあたりまたは径が30せんちめーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -7172,7 +7479,13 @@
       "id": "osk-0437",
       "name_ja": "食器（プラスチック製で最大の辺または径が30センチメートル以内のもの）",
       "name_kana": "しょっき（ぷらすちっくせいでさいだいのあたりまたは径が30せんちめーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -7188,7 +7501,13 @@
       "id": "osk-0438",
       "name_ja": "食器（せともの、ガラス製、木製、複合品で最大の辺または径が30センチメートル以内のもの）",
       "name_kana": "しょっき（せともの、がらすせい、もくせい、ふくごうひんでさいだいのあたりまたは径が30せんちめーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -7204,7 +7523,13 @@
       "id": "osk-0439",
       "name_ja": "食器洗い乾燥機（卓上型）",
       "name_kana": "しょっきあらいかんそうき（たくじょうがた）",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -7225,7 +7550,13 @@
       "id": "osk-0440",
       "name_ja": "食器乾燥機（卓上型）",
       "name_kana": "しょっきかんそうき（たくじょうがた）",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -7390,7 +7721,10 @@
       "id": "osk-0450",
       "name_ja": "新聞紙・折込チラシ",
       "name_kana": "しんぶんし・おりこみちらし",
-      "aliases": [],
+      "aliases": [
+        "新聞紙",
+        "newspaper"
+      ],
       "dispositions": [
         {
           "category_id": "koshi-irui",
@@ -7454,7 +7788,10 @@
       "id": "osk-0454",
       "name_ja": "炊飯器(最大の辺または径が30センチメートルを超えるもの)",
       "name_kana": "すいはんき(さいだいのあたりまたは径が30せんちめーとるをこえるもの)",
-      "aliases": [],
+      "aliases": [
+        "炊飯ジャー",
+        "rice cooker"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -8119,7 +8456,10 @@
       "id": "osk-0494",
       "name_ja": "スプリングマットレス（シングル・ベッド本体を除く）",
       "name_kana": "すぷりんぐまっとれす（しんぐる・べっどほんたいをのぞく）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -8135,7 +8475,10 @@
       "id": "osk-0495",
       "name_ja": "スプリングマットレス（セミダブル、ダブル、ベッド本体を除く）",
       "name_kana": "すぷりんぐまっとれす（せみだぶる、だぶる、べっどほんたいをのぞく）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -8423,7 +8766,13 @@
       "id": "osk-0512",
       "name_ja": "せともの（食器、置物などで最大の辺または径が30センチメートル以内のもの）",
       "name_kana": "せともの（しょっき、おきものなどでさいだいのあたりまたは径が30せんちめーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -8674,7 +9023,10 @@
       "id": "osk-0527",
       "name_ja": "扇風機（小型・携帯型）",
       "name_kana": "せんぷうき（こがた・けいたいがた）",
-      "aliases": [],
+      "aliases": [
+        "サーキュレーター",
+        "fan"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -8874,7 +9226,12 @@
       "id": "osk-0539",
       "name_ja": "ソファー(一人掛け用)",
       "name_kana": "そふぁー(いちにんかけよう)",
-      "aliases": [],
+      "aliases": [
+        "ソファ",
+        "カウチ",
+        "sofa",
+        "couch"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -8890,7 +9247,12 @@
       "id": "osk-0540",
       "name_ja": "ソファー(二人掛け用以上)",
       "name_kana": "そふぁー(ににんかけよういじょう)",
-      "aliases": [],
+      "aliases": [
+        "ソファ",
+        "カウチ",
+        "sofa",
+        "couch"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -9044,7 +9406,10 @@
       "id": "osk-0549",
       "name_ja": "タイプライター",
       "name_kana": "たいぷらいたー",
-      "aliases": [],
+      "aliases": [
+        "百円ライター",
+        "lighter"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -9081,7 +9446,12 @@
       "id": "osk-0551",
       "name_ja": "タイヤ・タイヤチューブ（自転車用）",
       "name_kana": "たいや・たいやちゅーぶ（じてんしゃよう）",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -9262,7 +9632,13 @@
       "id": "osk-0562",
       "name_ja": "棚（本棚・食器棚などで最大の辺または径が30センチメートルを超えるもの）",
       "name_kana": "たな（ほんだな・しょっきたななどでさいだいのあたりまたは径が30せんちめーとるをこえるもの）",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -9342,7 +9718,10 @@
       "id": "osk-0567",
       "name_ja": "タブレット端末",
       "name_kana": "たぶれっとたんまつ",
-      "aliases": [],
+      "aliases": [
+        "iPad",
+        "tablet"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -9680,7 +10059,12 @@
       "id": "osk-0588",
       "name_ja": "チューブ（自転車用）",
       "name_kana": "ちゅーぶ（じてんしゃよう）",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -10000,7 +10384,13 @@
       "id": "osk-0608",
       "name_ja": "ディスプレイ（パソコン用）",
       "name_kana": "でぃすぷれい（ぱそこんよう）",
-      "aliases": [],
+      "aliases": [
+        "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
+        "laptop",
+        "computer"
+      ],
       "dispositions": [
         {
           "category_id": "pc-recycle",
@@ -10084,7 +10474,11 @@
       "id": "osk-0613",
       "name_ja": "DVDのケース（プラスチック製）",
       "name_kana": "DVDのけーす（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "ディーブイディー",
+        "ブルーレイ",
+        "Blu-ray"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -10100,7 +10494,11 @@
       "id": "osk-0614",
       "name_ja": "DVDの包装フィルム",
       "name_kana": "DVDのほうそうふぃるむ",
-      "aliases": [],
+      "aliases": [
+        "ディーブイディー",
+        "ブルーレイ",
+        "Blu-ray"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -10116,7 +10514,11 @@
       "id": "osk-0615",
       "name_ja": "DVDプレーヤー",
       "name_kana": "DVDぷれーやー",
-      "aliases": [],
+      "aliases": [
+        "ディーブイディー",
+        "ブルーレイ",
+        "Blu-ray"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -10222,7 +10624,13 @@
       "id": "osk-0621",
       "name_ja": "デスクトップパソコン本体（キーボード、マウス、ケーブル、スピーカーなど）",
       "name_kana": "ですくとっぷぱそこんほんたい（きーぼーど、まうす、けーぶる、すぴーかーなど）",
-      "aliases": [],
+      "aliases": [
+        "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
+        "laptop",
+        "computer"
+      ],
       "dispositions": [
         {
           "category_id": "pc-recycle",
@@ -10355,7 +10763,16 @@
       "id": "osk-0629",
       "name_ja": "テレビゲーム機",
       "name_kana": "てれびげーむき",
-      "aliases": [],
+      "aliases": [
+        "TV",
+        "液晶テレビ",
+        "ブラウン管テレビ",
+        "television",
+        "ゲーム",
+        "Switch",
+        "PlayStation",
+        "game console"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -10376,7 +10793,12 @@
       "id": "osk-0630",
       "name_ja": "テレビゲームのソフト",
       "name_kana": "てれびげーむのそふと",
-      "aliases": [],
+      "aliases": [
+        "TV",
+        "液晶テレビ",
+        "ブラウン管テレビ",
+        "television"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -10392,7 +10814,12 @@
       "id": "osk-0631",
       "name_ja": "テレビ台(最大の辺または径が30センチメートルを超えるもの）",
       "name_kana": "てれびだい(さいだいのあたりまたは径が30せんちめーとるをこえるもの）",
-      "aliases": [],
+      "aliases": [
+        "TV",
+        "液晶テレビ",
+        "ブラウン管テレビ",
+        "television"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10424,7 +10851,13 @@
       "id": "osk-0633",
       "name_ja": "電気カーペット",
       "name_kana": "でんきかーぺっと",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -10540,7 +10973,11 @@
       "id": "osk-0639",
       "name_ja": "電気ポット",
       "name_kana": "でんきぽっと",
-      "aliases": [],
+      "aliases": [
+        "電気ポット",
+        "電気ケトル",
+        "kettle"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -10665,7 +11102,11 @@
       "id": "osk-0646",
       "name_ja": "電子ピアノ",
       "name_kana": "でんしぴあの",
-      "aliases": [],
+      "aliases": [
+        "電子ピアノ",
+        "キーボード",
+        "piano"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -10764,7 +11205,12 @@
       "id": "osk-0651",
       "name_ja": "電池（アルカリ乾電池、マンガン乾電池）",
       "name_kana": "でんち（あるかりかんでんち、まんがんかんでんち）",
-      "aliases": [],
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
       "dispositions": [
         {
           "category_id": "kyoten",
@@ -10849,7 +11295,12 @@
       "id": "osk-0656",
       "name_ja": "電動アシスト自転車（電動機付自転車）",
       "name_kana": "でんどうあしすとじてんしゃ（でんどうきづけじてんしゃ）",
-      "aliases": [],
+      "aliases": [
+        "チャリ",
+        "ママチャリ",
+        "bicycle",
+        "bike"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10865,7 +11316,12 @@
       "id": "osk-0657",
       "name_ja": "電動式車いす（バッテリーははずしてください）",
       "name_kana": "でんどうしきくるまいす（ばってりーははずしてください）",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10993,7 +11449,13 @@
       "id": "osk-0665",
       "name_ja": "陶器・せともの（食器、置物などで最大の辺または径が30センチメートル以内のもの）",
       "name_kana": "とうき・せともの（しょっき、おきものなどでさいだいのあたりまたは径が30せんちめーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -11216,7 +11678,10 @@
       "id": "osk-0678",
       "name_ja": "ドライヤー（ヘアドライヤー）",
       "name_kana": "どらいやー（へあどらいやー）",
-      "aliases": [],
+      "aliases": [
+        "ヘアドライヤー",
+        "hair dryer"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -11349,7 +11814,11 @@
       "id": "osk-0686",
       "name_ja": "塗料（ペンキなど）のスプレー缶",
       "name_kana": "とりょう（ぺんきなど）のすぷれーかん",
-      "aliases": [],
+      "aliases": [
+        "スプレー",
+        "エアゾール缶",
+        "spray can"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -11493,7 +11962,10 @@
       "id": "osk-0695",
       "name_ja": "捺染紙（アイロンプリント紙）",
       "name_kana": "なっせんし（あいろんぷりんとし）",
-      "aliases": [],
+      "aliases": [
+        "スチームアイロン",
+        "iron"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -11722,7 +12194,10 @@
       "id": "osk-0709",
       "name_ja": "人形・ぬいぐるみ(最大の辺または径が30センチメートル以内のもの)",
       "name_kana": "にんぎょう・ぬいぐるみ(さいだいのあたりまたは径が30せんちめーとるいないのもの)",
-      "aliases": [],
+      "aliases": [
+        "stuffed animal",
+        "plush toy"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -11754,7 +12229,10 @@
       "id": "osk-0711",
       "name_ja": "ぬいぐるみ(最大の辺または径が30センチメートル以内のもの)",
       "name_kana": "ぬいぐるみ(さいだいのあたりまたは径が30せんちめーとるいないのもの)",
-      "aliases": [],
+      "aliases": [
+        "stuffed animal",
+        "plush toy"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -11770,7 +12248,13 @@
       "id": "osk-0712",
       "name_ja": "布(衣類以外)",
       "name_kana": "ぬの(いるいいがい)",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -11994,7 +12478,13 @@
       "id": "osk-0726",
       "name_ja": "ノートパソコン本体（キーボード、マウス、ケーブル、スピーカーなど）",
       "name_kana": "のーとぱそこんほんたい（きーぼーど、まうす、けーぶる、すぴーかーなど）",
-      "aliases": [],
+      "aliases": [
+        "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
+        "laptop",
+        "computer"
+      ],
       "dispositions": [
         {
           "category_id": "pc-recycle",
@@ -12484,7 +12974,13 @@
       "id": "osk-0756",
       "name_ja": "パソコン本体・ディスプレイ（キーボード、マウス、ケーブル、スピーカーなど）",
       "name_kana": "ぱそこんほんたい・でぃすぷれい（きーぼーど、まうす、けーぶる、すぴーかーなど）",
-      "aliases": [],
+      "aliases": [
+        "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
+        "laptop",
+        "computer"
+      ],
       "dispositions": [
         {
           "category_id": "pc-recycle",
@@ -12548,7 +13044,12 @@
       "id": "osk-0760",
       "name_ja": "バッグ（かばん）",
       "name_kana": "ばっぐ（かばん）",
-      "aliases": [],
+      "aliases": [
+        "バッグ",
+        "カバン",
+        "鞄",
+        "bag"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -12564,7 +13065,12 @@
       "id": "osk-0761",
       "name_ja": "バッテリー（自動車用・バイク用・電動車いす用・発電機用など）",
       "name_kana": "ばってりー（じどうしゃよう・ばいくよう・でんどうくるまいすよう・はつでんきようなど）",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "not-collected",
@@ -13072,7 +13578,10 @@
       "id": "osk-0792",
       "name_ja": "ビールびんの王冠（金属製）",
       "name_kana": "びーるびんのおうかん（きんぞくせい）",
-      "aliases": [],
+      "aliases": [
+        "ビール瓶",
+        "beer bottle"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -13269,7 +13778,13 @@
       "id": "osk-0804",
       "name_ja": "ビニール製の衣類",
       "name_kana": "びにーるせいのいるい",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -13365,7 +13880,10 @@
       "id": "osk-0810",
       "name_ja": "びん（飲料用・食料品・日用品のもので一升びん以下の大きさのもの）",
       "name_kana": "びん（いんりょうよう・しょくりょうひん・にちようひんのものでいちしょうびんいかのおおきさのもの）",
-      "aliases": [],
+      "aliases": [
+        "一升瓶",
+        "sake bottle"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -13727,7 +14245,10 @@
       "id": "osk-0832",
       "name_ja": "ふとん・毛布",
       "name_kana": "ふとん・もうふ",
-      "aliases": [],
+      "aliases": [
+        "ブランケット",
+        "blanket"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -13828,7 +14349,9 @@
       "id": "osk-0838",
       "name_ja": "フライパン（金属製で最大の辺または径が30センチメートル以内（柄の部分を除く）のもの）",
       "name_kana": "ふらいぱん（きんぞくせいでさいだいのあたりまたは径が30せんちめーとるいない（えのぶぶんをのぞく）のもの）",
-      "aliases": [],
+      "aliases": [
+        "frying pan"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -13844,7 +14367,9 @@
       "id": "osk-0839",
       "name_ja": "フライパン（ガラス製、ホーロー製品で最大の辺または径が30センチメートル以内（柄の部分を除く）のもの）",
       "name_kana": "ふらいぱん（がらすせい、ほーろーせいひんでさいだいのあたりまたは径が30せんちめーとるいない（えのぶぶんをのぞく）のもの）",
-      "aliases": [],
+      "aliases": [
+        "frying pan"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -14211,7 +14736,12 @@
       "id": "osk-0861",
       "name_ja": "風呂のいす（プラスチック製で最大の辺が30センチメートル以内のもの）",
       "name_kana": "ふろのいす（ぷらすちっくせいでさいだいのあたりが30せんちめーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -14227,7 +14757,12 @@
       "id": "osk-0862",
       "name_ja": "風呂のいす（プラスチック製以外のもので最大の辺が30センチメートル以内のもの）",
       "name_kana": "ふろのいす（ぷらすちっくせいいがいのものでさいだいのあたりが30せんちめーとるいないのもの）",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -14307,7 +14842,10 @@
       "id": "osk-0867",
       "name_ja": "ヘアアイロン",
       "name_kana": "へああいろん",
-      "aliases": [],
+      "aliases": [
+        "スチームアイロン",
+        "iron"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -14323,7 +14861,11 @@
       "id": "osk-0868",
       "name_ja": "ヘアスプレー缶",
       "name_kana": "へあすぷれーかん",
-      "aliases": [],
+      "aliases": [
+        "スプレー",
+        "エアゾール缶",
+        "spray can"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -14355,7 +14897,10 @@
       "id": "osk-0870",
       "name_ja": "ヘアドライヤー",
       "name_kana": "へあどらいやー",
-      "aliases": [],
+      "aliases": [
+        "ヘアドライヤー",
+        "hair dryer"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -14371,7 +14916,10 @@
       "id": "osk-0871",
       "name_ja": "ベッド本体（マットレス類を除く。ベッドは解体してください）",
       "name_kana": "べっどほんたい（まっとれするいをのぞく。べっどはかいたいしてください）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -14387,7 +14935,10 @@
       "id": "osk-0872",
       "name_ja": "ベッドのマットレス（折りたたみを含む）",
       "name_kana": "べっどのまっとれす（おりたたみをふくむ）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -14403,7 +14954,10 @@
       "id": "osk-0873",
       "name_ja": "ベッドのスプリングマットレス（シングル、ベッド本体を除く）",
       "name_kana": "べっどのすぷりんぐまっとれす（しんぐる、べっどほんたいをのぞく）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -14419,7 +14973,10 @@
       "id": "osk-0874",
       "name_ja": "ベッドのスプリングマットレス（セミダブル、ダブル、ベッド本体を除く）",
       "name_kana": "べっどのすぷりんぐまっとれす（せみだぶる、だぶる、べっどほんたいをのぞく）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -14451,7 +15008,12 @@
       "id": "osk-0876",
       "name_ja": "ペットボトル（本体、飲料用・しょうゆ・酒類など）",
       "name_kana": "ぺっとぼとる（ほんたい、いんりょうよう・しょうゆ・しゅるいなど）",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -14467,7 +15029,12 @@
       "id": "osk-0877",
       "name_ja": "ペットボトルのキャップ",
       "name_kana": "ぺっとぼとるのきゃっぷ",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -14483,7 +15050,12 @@
       "id": "osk-0878",
       "name_ja": "ペットボトルのラベル（紙製）",
       "name_kana": "ぺっとぼとるのらべる（かみせい）",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "koshi-irui",
@@ -14499,7 +15071,12 @@
       "id": "osk-0879",
       "name_ja": "ペットボトルのラベル（プラスチック製）",
       "name_kana": "ぺっとぼとるのらべる（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -14758,7 +15335,11 @@
       "id": "osk-0894",
       "name_ja": "ペンキのスプレー缶",
       "name_kana": "ぺんきのすぷれーかん",
-      "aliases": [],
+      "aliases": [
+        "スプレー",
+        "エアゾール缶",
+        "spray can"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -15145,7 +15726,13 @@
       "id": "osk-0918",
       "name_ja": "ポータブルプレイヤー（DVD・MD・CD） 最大の辺または径が30cm以内のもの",
       "name_kana": "ぽーたぶるぷれいやー（DVD・MD・CD） さいだいのあたりまたは径が30cmいないのもの",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク",
+        "ディーブイディー",
+        "ブルーレイ",
+        "Blu-ray"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden",
@@ -15675,7 +16262,12 @@
       "id": "osk-0949",
       "name_ja": "マッサージ機（いす型）",
       "name_kana": "まっさーじき（いすがた）",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -15691,7 +16283,12 @@
       "id": "osk-0950",
       "name_ja": "マッサージ機（座いす型）",
       "name_kana": "まっさーじき（ざいすがた）",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "kogata-kaden-takuhai",
@@ -15760,7 +16357,9 @@
       "id": "osk-0954",
       "name_ja": "マットレス（折りたためるもの）",
       "name_kana": "まっとれす（おりたためるもの）",
-      "aliases": [],
+      "aliases": [
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -15776,7 +16375,10 @@
       "id": "osk-0955",
       "name_ja": "マットレス（スプリング入り、シングル・ベッド本体除く）",
       "name_kana": "まっとれす（すぷりんぐいり、しんぐる・べっどほんたいのぞく）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -15792,7 +16394,10 @@
       "id": "osk-0956",
       "name_ja": "マットレス（スプリング入り、セミダブル以上・ベッド本体除く）",
       "name_kana": "まっとれす（すぷりんぐいり、せみだぶるいじょう・べっどほんたいのぞく）",
-      "aliases": [],
+      "aliases": [
+        "bed",
+        "mattress"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -15824,7 +16429,13 @@
       "id": "osk-0958",
       "name_ja": "マフラー（衣類）",
       "name_kana": "まふらー（いるい）",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "koshi-irui",
@@ -16004,7 +16615,12 @@
       "id": "osk-0968",
       "name_ja": "みりんの容器（ガラス製・ペットボトル）",
       "name_kana": "みりんのようき（がらすせい・ぺっとぼとる）",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -16020,7 +16636,12 @@
       "id": "osk-0969",
       "name_ja": "みりんの容器（ペットボトル以外のプラスチック製）",
       "name_kana": "みりんのようき（ぺっとぼとるいがいのぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -16164,7 +16785,10 @@
       "id": "osk-0978",
       "name_ja": "毛布・ふとん",
       "name_kana": "もうふ・ふとん",
-      "aliases": [],
+      "aliases": [
+        "ブランケット",
+        "blanket"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -16509,7 +17133,13 @@
       "id": "osk-0999",
       "name_ja": "洋服などの衣類を買った際の外袋（プラスチック製）",
       "name_kana": "ようふくなどのいるいをかったさいのそとぶくろ（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -16525,7 +17155,13 @@
       "id": "osk-1000",
       "name_ja": "洋服などの衣類を買った際の留め具（プラスチック製）",
       "name_kana": "ようふくなどのいるいをかったさいのとめぐ（ぷらすちっくせい）",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "plastic",
@@ -16996,7 +17632,12 @@
       "id": "osk-1028",
       "name_ja": "冷蔵庫・冷凍庫",
       "name_kana": "れいぞうこ・れいとうこ",
-      "aliases": [],
+      "aliases": [
+        "冷凍庫",
+        "冷凍冷蔵庫",
+        "refrigerator",
+        "fridge"
+      ],
       "dispositions": [
         {
           "category_id": "not-collected",

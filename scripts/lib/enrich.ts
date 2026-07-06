@@ -1,11 +1,7 @@
 import type { CategoryId, ReuseCategoryId } from "../../src/lib/schemas"
 
-/** カタカナ→ひらがな変換(記号・英数はそのまま) */
-export function katakanaToHiragana(text: string): string {
-  return text.replace(/[ァ-ヶ]/g, (ch) =>
-    String.fromCharCode(ch.charCodeAt(0) - 0x60)
-  )
-}
+// かな変換はアプリの検索正規化と同一ロジックを共用する
+export { katakanaToHiragana } from "../../src/lib/search"
 
 /**
  * ポイント欄から粗大ごみ処理手数料を抽出。

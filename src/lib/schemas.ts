@@ -92,6 +92,26 @@ export const ItemSchema = z.object({
 })
 export type Item = z.infer<typeof ItemSchema>
 
+/** クライアント配信用の軽量検索インデックス(1エントリ=1品目) */
+export const SearchIndexItemSchema = z.object({
+  id: z.string().regex(/^osk-\d{4}$/),
+  /** name_ja */
+  n: z.string().min(1),
+  /** name_kana */
+  k: z.string().min(1),
+  /** aliases */
+  a: z.array(z.string()),
+  /** name_en */
+  e: z.string().nullable(),
+  /** 区分ID(重複除去済み) */
+  c: z.array(CategoryIdSchema).min(1),
+  /** sodai_fee_yen */
+  f: z.number().int().positive().nullable(),
+})
+export type SearchIndexItem = z.infer<typeof SearchIndexItemSchema>
+
+export const SearchIndexFileSchema = z.array(SearchIndexItemSchema)
+
 export const ItemsFileSchema = z.object({
   municipality_id: z.string().min(1),
   generated_at: z.string().min(1),

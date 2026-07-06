@@ -13,10 +13,12 @@ import kuromoji from "kuromoji"
 
 import {
   ItemsFileSchema,
+  SearchIndexFileSchema,
   type CategoryId,
   type Item,
   type ItemsFile,
   type ReuseCategoryId,
+  type SearchIndexItem,
   ReuseCategoryIdSchema,
 } from "../src/lib/schemas"
 import { fetchWithCache } from "./lib/fetch-cache"
@@ -32,6 +34,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..")
 const SOURCE_URL = "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html"
 const CACHE_PATH = join(ROOT, "data/cache/osaka-items.html")
 const OUT_PATH = join(ROOT, "data/items/osaka-city.json")
+const SEARCH_OUT_PATH = join(ROOT, "data/items/osaka-city.search.json")
 const ALIASES_PATH = join(ROOT, "data/aliases.json")
 const OVERRIDES_PATH = join(ROOT, "data/reuse-overrides.json")
 const ITEMS_EN_PATH = join(ROOT, "data/i18n/items.en.json")
@@ -131,11 +134,20 @@ async function main() {
       reuse = inferReuseCategory(raw.name_ja, categoryIds, notes)
     }
 
+    // 別名マージ: 完全一致に加え、2文字以上のキーは品目名への部分一致でも付与
+    // (例: 「ペットボトル」の別名 PET を「ジュースのペットボトル」にも)
+    const aliasSet = new Set<string>(aliasesDict[raw.name_ja] ?? [])
+    for (const [key, vals] of Object.entries(aliasesDict)) {
+      if (key.length >= 2 && key !== raw.name_ja && raw.name_ja.includes(key)) {
+        for (const v of vals) aliasSet.add(v)
+      }
+    }
+
     items.push({
       id: `osk-${String(seq).padStart(4, "0")}`,
       name_ja: raw.name_ja,
       name_kana: toKana(tokenizer, raw.name_ja),
-      aliases: aliasesDict[raw.name_ja] ?? [],
+      aliases: [...aliasSet],
       dispositions,
       sodai_fee_yen: notes.reduce<number | null>(
         (acc, n) => acc ?? extractSodaiFee(n),
@@ -187,6 +199,24 @@ async function main() {
   await mkdir(dirname(OUT_PATH), { recursive: true })
   await writeFile(OUT_PATH, JSON.stringify(out, null, 2) + "\n", "utf-8")
   console.log(`✓ emit: ${OUT_PATH}`)
+
+  // クライアント配信用の軽量検索インデックス(改行なし=サイズ優先)
+  const searchIndex: SearchIndexItem[] = items.map((i) => ({
+    id: i.id,
+    n: i.name_ja,
+    k: i.name_kana,
+    a: i.aliases,
+    e: i.name_en,
+    c: [...new Set(i.dispositions.map((d) => d.category_id))],
+    f: i.sodai_fee_yen,
+  }))
+  SearchIndexFileSchema.parse(searchIndex)
+  await writeFile(
+    SEARCH_OUT_PATH,
+    JSON.stringify(searchIndex) + "\n",
+    "utf-8"
+  )
+  console.log(`✓ emit: ${SEARCH_OUT_PATH}`)
 
   // ---- 統計サマリ ----
   console.log("\n===== 統計サマリ =====")
