@@ -1,0 +1,168 @@
+[
+  {
+    "id": "clothing",
+    "label_ja": "衣類・ファッション",
+    "label_en": "Clothing & Fashion",
+    "options": [
+      {
+        "type": "official",
+        "title_ja": "大阪市の拠点回収(マタニティ・ベビー・子ども服)",
+        "title_en": "City collection points (maternity/baby/kids clothing)",
+        "desc_ja": "使用可能なものは環境事業センターで回収し、展示提供されています。",
+        "url": "https://www.city.osaka.lg.jp/kankyo/page/0000009050.html",
+        "effort": "medium",
+        "money": "free"
+      },
+      {
+        "type": "resale",
+        "title_ja": "フリマアプリ・リサイクルショップで売る",
+        "title_en": "Sell via flea market apps or secondhand shops",
+        "desc_ja": "状態の良いものは次の着る人へ。",
+        "url": null,
+        "effort": "medium",
+        "money": "earn"
+      },
+      {
+        "type": "donation",
+        "title_ja": "衣類回収・寄付プログラムに出す",
+        "title_en": "Donate through clothing collection programs",
+        "desc_ja": "店頭回収(ユニクロ・H&M等)や寄付団体の宅配回収など。",
+        "url": null,
+        "effort": "low",
+        "money": "free"
+      }
+    ]
+  },
+  {
+    "id": "small-appliance",
+    "label_ja": "小型家電",
+    "label_en": "Small Appliances",
+    "options": [
+      {
+        "type": "official",
+        "title_ja": "小型家電リサイクル回収(市の回収ボックス/宅配便)",
+        "title_en": "City small-appliance recycling (drop box / courier)",
+        "desc_ja": "資源として回収されます。",
+        "url": "https://www.city.osaka.lg.jp/kankyo/page/0000523872.html",
+        "effort": "low",
+        "money": "free"
+      },
+      {
+        "type": "resale",
+        "title_ja": "動くものは買取・フリマへ",
+        "title_en": "Working items: sell or trade in",
+        "desc_ja": "製造5年以内なら値がつくことも。",
+        "url": null,
+        "effort": "medium",
+        "money": "earn"
+      }
+    ]
+  },
+  {
+    "id": "furniture",
+    "label_ja": "家具",
+    "label_en": "Furniture",
+    "options": [
+      {
+        "type": "give",
+        "title_ja": "地域の譲り合い(ジモティー等)",
+        "title_en": "Local giveaway platforms",
+        "desc_ja": "粗大ごみ手数料を払う前に、もらい手を探す選択肢。",
+        "url": null,
+        "effort": "medium",
+        "money": "free"
+      },
+      {
+        "type": "resale",
+        "title_ja": "出張買取・リサイクルショップ",
+        "title_en": "Secondhand furniture buyers",
+        "desc_ja": "ブランド家具・状態良好なら買取対象に。",
+        "url": null,
+        "effort": "medium",
+        "money": "earn"
+      }
+    ]
+  },
+  {
+    "id": "books-media",
+    "label_ja": "本・メディア",
+    "label_en": "Books & Media",
+    "options": [
+      {
+        "type": "resale",
+        "title_ja": "古本買取・宅配買取",
+        "title_en": "Used book buyback",
+        "desc_ja": "段ボールに詰めて送るだけの宅配買取も。",
+        "url": null,
+        "effort": "low",
+        "money": "earn"
+      },
+      {
+        "type": "donation",
+        "title_ja": "図書施設・団体への寄贈",
+        "title_en": "Donate to libraries/charities",
+        "desc_ja": "地域の文庫や寄付プログラムへ。",
+        "url": null,
+        "effort": "medium",
+        "money": "free"
+      }
+    ]
+  },
+  {
+    "id": "toys-baby",
+    "label_ja": "おもちゃ・ベビー用品",
+    "label_en": "Toys & Baby Goods",
+    "options": [
+      {
+        "type": "official",
+        "title_ja": "大阪市の拠点回収(絵本など)",
+        "title_en": "City collection points (picture books etc.)",
+        "desc_ja": "絵本は拠点回収で次の読み手へ。",
+        "url": "https://www.city.osaka.lg.jp/kankyo/page/0000009050.html",
+        "effort": "low",
+        "money": "free"
+      },
+      {
+        "type": "give",
+        "title_ja": "おさがり・譲り合い",
+        "title_en": "Hand-me-downs & giveaways",
+        "desc_ja": "地域コミュニティや知人へ。",
+        "url": null,
+        "effort": "low",
+        "money": "free"
+      }
+    ]
+  },
+  {
+    "id": "instruments",
+    "label_ja": "楽器",
+    "label_en": "Musical Instruments",
+    "options": [
+      {
+        "type": "resale",
+        "title_ja": "楽器店の買取・下取り",
+        "title_en": "Instrument shop trade-in",
+        "desc_ja": "楽器は循環市場が成熟。捨てるのは最後の手段に。",
+        "url": null,
+        "effort": "medium",
+        "money": "earn"
+      }
+    ]
+  },
+  {
+    "id": "returnable",
+    "label_ja": "リターナブル容器",
+    "label_en": "Returnable Containers",
+    "options": [
+      {
+        "type": "official",
+        "title_ja": "購入店・販売店へ返却",
+        "title_en": "Return to the retailer",
+        "desc_ja": "ビールびん・一升びんは再使用(リユース)されます。",
+        "url": null,
+        "effort": "low",
+        "money": "free"
+      }
+    ]
+  }
+]

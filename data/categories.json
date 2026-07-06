@@ -1,0 +1,86 @@
+[
+  {
+    "id": "futsu",
+    "name_ja": "普通ごみ",
+    "name_en": "Regular Waste",
+    "color": "#8E8E93",
+    "icon": "trash"
+  },
+  {
+    "id": "shigen",
+    "name_ja": "資源ごみ",
+    "name_en": "Recyclables (Cans/Bottles/PET)",
+    "color": "#34C759",
+    "icon": "recycle"
+  },
+  {
+    "id": "plastic",
+    "name_ja": "プラスチック資源",
+    "name_en": "Plastic Resources",
+    "color": "#FF9F0A",
+    "icon": "package"
+  },
+  {
+    "id": "koshi-irui",
+    "name_ja": "古紙・衣類",
+    "name_en": "Paper & Clothing",
+    "color": "#5AC8FA",
+    "icon": "shirt"
+  },
+  {
+    "id": "sodai",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (fee required)",
+    "color": "#AF52DE",
+    "icon": "sofa"
+  },
+  {
+    "id": "kogata-kaden",
+    "name_ja": "小型家電リサイクル回収",
+    "name_en": "Small Appliance Recycling",
+    "color": "#007AFF",
+    "icon": "smartphone"
+  },
+  {
+    "id": "kogata-kaden-takuhai",
+    "name_ja": "小型家電リサイクル回収(宅配便)",
+    "name_en": "Small Appliance Recycling (Courier)",
+    "color": "#007AFF",
+    "icon": "truck"
+  },
+  {
+    "id": "pc-recycle",
+    "name_ja": "パソコンリサイクル回収",
+    "name_en": "PC Recycling",
+    "color": "#007AFF",
+    "icon": "laptop"
+  },
+  {
+    "id": "kyoten",
+    "name_ja": "拠点回収",
+    "name_en": "Collection Point Drop-off",
+    "color": "#00C7BE",
+    "icon": "map-pin"
+  },
+  {
+    "id": "shudan-kaishu",
+    "name_ja": "資源集団回収",
+    "name_en": "Community Group Collection",
+    "color": "#66A85C",
+    "icon": "users"
+  },
+  {
+    "id": "li-ion",
+    "name_ja": "リチウムイオン電池等の回収",
+    "name_en": "Li-ion Battery Collection",
+    "color": "#FF3B30",
+    "icon": "battery"
+  },
+  {
+    "id": "not-collected",
+    "name_ja": "収集しません",
+    "name_en": "Not Collected by City",
+    "color": "#1C1C1E",
+    "icon": "x-circle"
+  }
+]
