@@ -5,10 +5,11 @@
   --background: #faf9f6;
   --foreground: #3a382f;
   --card: #ffffff;
-  --muted: #8a867a;
+  /* muted/accent-strong は生成り背景・白カード上で WCAG AA(4.5:1)以上を確保 */
+  --muted: #6f6b60;
   --border: #e9e5da;
   --accent: #7fa874;
-  --accent-strong: #55804b;
+  --accent-strong: #4d7544;
   --accent-soft: #eef3ea;
 }
 

@@ -39,5 +39,21 @@
   "footer.unofficial": "ⓘ 非公式ツールです。",
   "footer.attribution": "出典: 大阪市「品目別収集区分一覧表」(CC-BY 4.0)",
   "footer.fetchedAt": "(データ取得日: {date})",
-  "lang.toggle": "EN"
+  "lang.toggle": "EN",
+  "footer.about": "このサイトについて",
+  "about.title": "このサイトについて",
+  "about.purposeHeading": "🌱 なにをするサイト?",
+  "about.purposeBody": "てばなしナビは、大阪市の品目別ごみ分別検索に「捨てる前の選択肢」(リユース・回収・買取など)を添えた、非公式の検索ツールです。捨てる前に、ちょっとだけ立ち止まれる場所になれたらと思っています。",
+  "about.unofficialHeading": "ⓘ 非公式ツールです",
+  "about.unofficialBody": "大阪市とは関係のない個人が運営しています。分別ルールは変わることがあります。最新・正確な情報は必ず大阪市の公式サイトでご確認ください。",
+  "about.sourceHeading": "📄 出典とライセンス",
+  "about.sourceBody": "品目データは大阪市「品目別収集区分一覧表」(CC-BY 4.0)を加工して作成しています。",
+  "about.sourceFetched": "データ取得日: {date}",
+  "about.sourceLink": "出典ページ ↗",
+  "about.authorHeading": "🎸 つくった人",
+  "about.authorBody": "Kaz Tada — 音楽と暮らしのなかで、ゆるくエコを楽しむ #ちるエコ日和 をやっています。このサイトもその一環です。",
+  "about.authorLink": "kaztada.eco ↗",
+  "about.contactHeading": "🛠 まちがいを見つけたら",
+  "about.contactBody": "分別情報の誤りや不具合は、GitHub Issues からお知らせいただけるとうれしいです。",
+  "about.contactLink": "GitHub Issues ↗"
 }

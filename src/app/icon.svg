@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- 生成り背景+ふたば(てばなしナビのシンボル) -->
+  <rect width="64" height="64" rx="14" fill="#FAF9F6"/>
+  <path d="M32 52 V30" stroke="#4D7544" stroke-width="4" stroke-linecap="round"/>
+  <path d="M32 34 C32 22 22 16 12 16 C12 28 22 34 32 34 Z" fill="#7FA874"/>
+  <path d="M32 30 C32 20 40 14 50 14 C50 24 42 30 32 30 Z" fill="#4D7544"/>
+</svg>

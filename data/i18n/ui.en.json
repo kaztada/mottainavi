@@ -39,5 +39,21 @@
   "footer.unofficial": "ⓘ This is an unofficial tool.",
   "footer.attribution": "Source: Osaka City \"Item Collection Category List\" (CC-BY 4.0)",
   "footer.fetchedAt": "(Data fetched: {date})",
-  "lang.toggle": "日本語"
+  "lang.toggle": "日本語",
+  "footer.about": "About this site",
+  "about.title": "About this site",
+  "about.purposeHeading": "🌱 What is this?",
+  "about.purposeBody": "Tebanashi Navi is an unofficial search tool that pairs Osaka City's waste sorting rules with reuse options (donation, collection programs, resale) — a place to pause for a moment before you throw something away.",
+  "about.unofficialHeading": "ⓘ Unofficial tool",
+  "about.unofficialBody": "This site is run by an individual with no affiliation to Osaka City. Rules can change — always check the official Osaka City website for the latest information.",
+  "about.sourceHeading": "📄 Source & license",
+  "about.sourceBody": "Item data is adapted from Osaka City's \"Item Collection Category List\" (CC-BY 4.0).",
+  "about.sourceFetched": "Data fetched: {date}",
+  "about.sourceLink": "Source page ↗",
+  "about.authorHeading": "🎸 Who made this",
+  "about.authorBody": "Kaz Tada — I make music and enjoy easygoing eco living under the banner of #chill-eco-biyori. This site is part of that.",
+  "about.authorLink": "kaztada.eco ↗",
+  "about.contactHeading": "🛠 Found a mistake?",
+  "about.contactBody": "If you spot incorrect sorting info or a bug, I'd be happy to hear about it via GitHub Issues.",
+  "about.contactLink": "GitHub Issues ↗"
 }

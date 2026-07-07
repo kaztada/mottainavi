@@ -1,5 +1,6 @@
 "use client"
 
+import Link from "next/link"
 import type { Category, Municipality } from "@/lib/schemas"
 import { useT } from "@/lib/i18n"
 import { LangToggle } from "./LangToggle"
@@ -34,6 +35,14 @@ export function HomeShell({
 
       <footer className="mt-10 border-t border-border pt-4">
         <SourceNote municipality={municipality} />
+        <p className="mt-2">
+          <Link
+            href="/about"
+            className="inline-block py-2 text-xs text-accent-strong underline underline-offset-2"
+          >
+            {t("footer.about")}
+          </Link>
+        </p>
       </footer>
     </div>
   )

@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌱 てばなしナビ
 
-## Getting Started
+**大阪市の「これ、どう手放す?」— 捨て方と、捨てる前の選択肢をまとめて調べられる非公式ナビ**
 
-First, run the development server:
+https://tebanashi-navi.vercel.app
+
+![てばなしナビ OGP](public/ogp.png)
+
+品目名を検索すると、大阪市での正しい分別区分・出し方に加えて、**捨てる前に検討できる選択肢**(リユース・拠点回収・寄付・買取・譲り合い)を1画面で提示します。コンセプトは「捨てる前に、ちょっとだけ立ち止まれる場所」。
+
+## 特徴
+
+- 🔍 **1,000品目超のあいまい検索** — ひらがな・カタカナ・漢字・別名・英語のどれでもヒット(例:「ぎたー」「PET」「iron」)
+- ♻️ **手放し導線** — 品目カテゴリに応じたリユース選択肢を、押しつけないトーンで提案
+- 🗑 **正確さ優先の分別情報** — 市の注意文言を原文のまま全文表示。粗大ごみは手数料と申込先(ネット/電話)つき
+- 🌏 **日英切替** — UI全文言+主要299品目の英訳。英訳のない品目はローマ字表示でフォロー
+- 📱 **モバイルファースト・静的サイト** — サーバもDBも使わない SSG。すべての品目ページを事前生成
+
+## 技術スタック
+
+- Next.js 15 (App Router) + TypeScript / Tailwind CSS v4
+- 検索: Fuse.js(クライアントサイド・軽量インデックスを遅延ロード)
+- データ検証: zod(パイプラインとアプリで共用)
+- データパイプライン: TypeScript + cheerio + kuromoji(`scripts/build-data.ts`)
+- ホスティング: Vercel
+
+## 開発
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+npm run dev          # 開発サーバ
+npm run build-data   # 市サイトから品目データ生成(キャッシュ優先。--refresh で再取得)
+npm test             # Vitest(パース・検索正規化のユニットテスト)
+npm run build        # 本番ビルド(全品目SSG)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+データ更新は `npm run build-data` → 差分コミット → push(Vercel が自動デプロイ)。
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## データ出典
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+品目データは大阪市「[品目別収集区分一覧表](https://www.city.osaka.lg.jp/kankyo/page/0000201907.html)」([CC-BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja))を加工して作成しています。
 
-## Learn More
+**本サイトは大阪市の公式サービスではありません。** 分別ルールは変わることがあります。最新・正確な情報は必ず[大阪市公式サイト](https://www.city.osaka.lg.jp/kurashi/category/3016-1-2-0-0-0-0-0-0-0.html)でご確認ください。
 
-To learn more about Next.js, take a look at the following resources:
+## ライセンス
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- コード: [MIT](LICENSE)
+- 品目データ: 出典 大阪市「品目別収集区分一覧表」(CC-BY 4.0)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 作者
 
-## Deploy on Vercel
+Kaz Tada — [kaztada.eco](https://kaztada.eco) / #ちるエコ日和
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+誤りの報告・提案は [Issues](https://github.com/kaztada/tebanashi-navi/issues) へどうぞ。
