@@ -58,6 +58,7 @@ export const ReuseOptionSchema = z.object({
   title_ja: z.string().min(1),
   title_en: z.string().min(1),
   desc_ja: z.string().min(1),
+  desc_en: z.string().min(1),
   url: z.string().url().nullable(),
   effort: z.enum(["low", "medium", "high"]),
   money: z.enum(["free", "earn", "cost"]),
@@ -84,6 +85,8 @@ export const ItemSchema = z.object({
   id: z.string().regex(/^osk-\d{4}$/),
   name_ja: z.string().min(1),
   name_kana: z.string().min(1),
+  /** 英語モードで name_en が無い品目のフォロー表示用(かな→ヘボン式) */
+  name_romaji: z.string().min(1),
   aliases: z.array(z.string()),
   dispositions: z.array(DispositionSchema).min(1),
   sodai_fee_yen: z.number().int().positive().nullable(),

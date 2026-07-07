@@ -9,21 +9,34 @@ import {
   searchItems,
   type SearchEntry,
 } from "@/lib/search"
+import { useLang, useT } from "@/lib/i18n"
 import { SearchBox } from "./SearchBox"
 import { ItemCard } from "./ItemCard"
 import { CategoryBadge } from "./CategoryBadge"
 
-/** よく調べられるもの(静的チップ) */
-const POPULAR = [
-  "ソファー",
-  "スプレー缶",
-  "モバイルバッテリー",
-  "傘",
-  "自転車",
-  "ペットボトル",
-  "エアコン",
-  "布団",
-]
+/** よく調べられるもの(静的チップ)。EN時は英語で検索させる(aliasでヒット) */
+const POPULAR: Record<"ja" | "en", string[]> = {
+  ja: [
+    "ソファー",
+    "スプレー缶",
+    "モバイルバッテリー",
+    "傘",
+    "自転車",
+    "ペットボトル",
+    "エアコン",
+    "布団",
+  ],
+  en: [
+    "sofa",
+    "spray can",
+    "battery",
+    "umbrella",
+    "bicycle",
+    "plastic bottle",
+    "air conditioner",
+    "futon",
+  ],
+}
 
 const PAGE_SIZE = 20
 
@@ -44,6 +57,8 @@ export function SearchSection({
   const [limit, setLimit] = useState(PAGE_SIZE)
   const [index, setIndex] = useState<SearchIndexItem[] | null>(null)
   const fuseRef = useRef<Fuse<SearchEntry> | null>(null)
+  const { lang } = useLang()
+  const t = useT()
 
   // 軽量インデックスの遅延ロード(初期表示を軽く保つ)
   useEffect(() => {
@@ -102,30 +117,35 @@ export function SearchSection({
           {categoryFilter && !searching && (
             <div className="flex items-center justify-between">
               <p className="text-sm text-muted">
-                {categoriesById.get(categoryFilter)?.name_ja}の品目(
-                {list.length}件)
+                {t("search.categoryCount", {
+                  category:
+                    (lang === "en"
+                      ? categoriesById.get(categoryFilter)?.name_en
+                      : categoriesById.get(categoryFilter)?.name_ja) ?? "",
+                  n: list.length,
+                })}
               </p>
               <button
                 type="button"
                 onClick={() => setCategoryFilter(null)}
                 className="text-sm text-accent-strong underline underline-offset-2 px-2 py-2"
               >
-                解除
+                {t("search.clearFilter")}
               </button>
             </div>
           )}
           {list.length === 0 ? (
             <div className="rounded-2xl bg-card border border-border p-5 text-sm leading-relaxed">
-              <p>見つかりませんでした。</p>
+              <p>{t("search.noResults")}</p>
               <p className="mt-1 text-muted">
-                別の言い方(ひらがな・カタカナ・別名)で試すか、大阪市の一覧表もどうぞ →{" "}
+                {t("search.noResultsHint")}{" "}
                 <a
                   href={officialListUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-accent-strong underline underline-offset-2"
                 >
-                  公式の品目一覧表
+                  {t("search.officialList")}
                 </a>
               </p>
             </div>
@@ -144,7 +164,7 @@ export function SearchSection({
                   onClick={() => setLimit((n) => n + PAGE_SIZE)}
                   className="mt-1 rounded-2xl border border-border bg-card py-3 text-sm text-accent-strong"
                 >
-                  もっと見る(あと{list.length - limit}件)
+                  {t("search.more", { n: list.length - limit })}
                 </button>
               )}
             </>
@@ -156,9 +176,9 @@ export function SearchSection({
       {list === null && (
         <>
           <section>
-            <h2 className="mb-2.5 text-sm text-muted">よく調べられるもの</h2>
+            <h2 className="mb-2.5 text-sm text-muted">{t("search.popular")}</h2>
             <div className="flex flex-wrap gap-2">
-              {POPULAR.map((word) => (
+              {POPULAR[lang].map((word) => (
                 <button
                   key={word}
                   type="button"
@@ -172,7 +192,9 @@ export function SearchSection({
           </section>
 
           <section>
-            <h2 className="mb-2.5 text-sm text-muted">収集区分から見る</h2>
+            <h2 className="mb-2.5 text-sm text-muted">
+              {t("search.byCategory")}
+            </h2>
             <div className="flex flex-wrap gap-2">
               {categories.map((cat) => (
                 <button

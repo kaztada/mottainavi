@@ -1,4 +1,7 @@
+"use client"
+
 import type { Municipality } from "@/lib/schemas"
+import { useT } from "@/lib/i18n"
 
 /**
  * 出典表記+非公式ツールの断り書き。全ページに常設(CC-BY 4.0 の義務+誤案内リスク対策)。
@@ -11,24 +14,25 @@ export function SourceNote({
   municipality: Municipality
   full?: boolean
 }) {
+  const t = useT()
   return (
     <div className="text-xs leading-relaxed text-muted">
       {full && (
         <p className="mb-1">
-          ⓘ 最新・正確な情報は大阪市公式サイトでご確認ください{" "}
+          {t("footer.checkOfficial")}{" "}
           <a
             href={municipality.source_url}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent-strong underline underline-offset-2"
           >
-            公式ページ ↗
+            {t("footer.officialPage")}
           </a>
         </p>
       )}
       <p>
-        ⓘ 非公式ツールです。{municipality.source_attribution}
-        (データ取得日: {municipality.data_fetched_at})
+        {t("footer.unofficial")} {t("footer.attribution")}{" "}
+        {t("footer.fetchedAt", { date: municipality.data_fetched_at })}
       </p>
     </div>
   )

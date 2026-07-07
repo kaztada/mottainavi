@@ -10,6 +10,7 @@ import { readFile, writeFile, mkdir } from "node:fs/promises"
 import { dirname, join } from "node:path"
 import { fileURLToPath } from "node:url"
 import kuromoji from "kuromoji"
+import { toRomaji } from "wanakana"
 
 import {
   ItemsFileSchema,
@@ -143,10 +144,14 @@ async function main() {
       }
     }
 
+    const nameKana = toKana(tokenizer, raw.name_ja)
+
     items.push({
       id: `osk-${String(seq).padStart(4, "0")}`,
       name_ja: raw.name_ja,
-      name_kana: toKana(tokenizer, raw.name_ja),
+      name_kana: nameKana,
+      // 英語モードのフォロー表示用(かな→ローマ字。かなに残った漢字はそのまま)
+      name_romaji: toRomaji(nameKana),
       aliases: [...aliasSet],
       dispositions,
       sodai_fee_yen: notes.reduce<number | null>(

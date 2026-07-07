@@ -1,3 +1,5 @@
+"use client"
+
 import {
   Battery,
   Laptop,
@@ -14,6 +16,7 @@ import {
   type LucideIcon,
 } from "lucide-react"
 import type { Category } from "@/lib/schemas"
+import { useLang } from "@/lib/i18n"
 
 // categories.json の icon 名 → lucide コンポーネント
 const ICONS: Record<string, LucideIcon> = {
@@ -42,6 +45,7 @@ export function CategoryBadge({
   category: Category
   size?: "sm" | "md"
 }) {
+  const { lang } = useLang()
   const Icon = ICONS[category.icon] ?? Trash2
   const sizeClass =
     size === "md" ? "text-sm px-3 py-1.5 gap-1.5" : "text-xs px-2 py-1 gap-1"
@@ -59,7 +63,7 @@ export function CategoryBadge({
         style={{ color: category.color }}
         className={size === "md" ? "size-4" : "size-3.5"}
       />
-      {category.name_ja}
+      {lang === "en" ? category.name_en : category.name_ja}
     </span>
   )
 }

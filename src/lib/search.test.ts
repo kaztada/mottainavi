@@ -66,4 +66,22 @@ describe("実インデックスでの検索(完了条件)", () => {
   it("空クエリは空配列", () => {
     expect(searchItems(fuse, "  ")).toEqual([])
   })
+
+  // Phase 4 完了条件: 英語での検索ヒット
+  it("「sofa」でソファーがヒットする", () => {
+    const names = searchItems(fuse, "sofa").map((i) => i.n)
+    expect(names.some((n) => n.includes("ソファー"))).toBe(true)
+  })
+
+  it("「battery」で電池系がヒットする", () => {
+    const names = searchItems(fuse, "battery").map((i) => i.n)
+    expect(
+      names.some((n) => n.includes("電池") || n.includes("バッテリー"))
+    ).toBe(true)
+  })
+
+  it("「guitar」でギターがヒットする", () => {
+    const names = searchItems(fuse, "guitar").map((i) => i.n)
+    expect(names.some((n) => n.includes("ギター"))).toBe(true)
+  })
 })
