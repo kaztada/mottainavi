@@ -7,10 +7,12 @@ import { useT } from "@/lib/i18n"
 export function SearchBox({
   value,
   onChange,
+  onFocus,
   autoFocus = true,
 }: {
   value: string
   onChange: (value: string) => void
+  onFocus?: () => void
   autoFocus?: boolean
 }) {
   const t = useT()
@@ -26,6 +28,7 @@ export function SearchBox({
         enterKeyHint="search"
         autoFocus={autoFocus}
         value={value}
+        onFocus={onFocus}
         onChange={(e) => onChange(e.target.value)}
         placeholder={t("search.placeholder")}
         aria-label={t("search.ariaLabel")}

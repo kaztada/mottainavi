@@ -1,14 +1,9 @@
 "use client"
 
-import { useEffect, useMemo, useRef, useState } from "react"
+import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import type Fuse from "fuse.js"
 import type { Category, CategoryId, SearchIndexItem } from "@/lib/schemas"
-import {
-  buildSearchEntries,
-  createFuse,
-  searchItems,
-  type SearchEntry,
-} from "@/lib/search"
+import type { SearchEntry } from "@/lib/search"
 import { useLang, useT } from "@/lib/i18n"
 import { SearchBox } from "./SearchBox"
 import { ItemCard } from "./ItemCard"
@@ -42,7 +37,8 @@ const PAGE_SIZE = 20
 
 /**
  * S1(検索ホーム)/S2(結果リスト)を1画面の状態変化として実装。
- * 検索インデックスは初回マウント時に遅延ロードし、Fuseも遅延構築する。
+ * 検索インデックスとFuse.js本体は初回インタラクション(フォーカス/入力)時に
+ * 動的ロードする。初期バンドルとLCPを軽く保つため(tech-stack.md §5)。
  */
 export function SearchSection({
   categories,
@@ -59,16 +55,20 @@ export function SearchSection({
   const fuseRef = useRef<Fuse<SearchEntry> | null>(null)
   const { lang } = useLang()
   const t = useT()
+  // 検索モジュール(fuse.js含む)。初回インタラクションで動的import
+  const searchLibRef = useRef<typeof import("@/lib/search") | null>(null)
+  const loadStartedRef = useRef(false)
 
-  // 軽量インデックスの遅延ロード(初期表示を軽く保つ)
-  useEffect(() => {
-    let cancelled = false
-    import("../../data/items/osaka-city.search.json").then((mod) => {
-      if (!cancelled) setIndex(mod.default as SearchIndexItem[])
+  const ensureSearchReady = useCallback(() => {
+    if (loadStartedRef.current) return
+    loadStartedRef.current = true
+    Promise.all([
+      import("@/lib/search"),
+      import("../../data/items/osaka-city.search.json"),
+    ]).then(([lib, idx]) => {
+      searchLibRef.current = lib
+      setIndex(idx.default as SearchIndexItem[])
     })
-    return () => {
-      cancelled = true
-    }
   }, [])
 
   // 150msデバウンス
@@ -86,11 +86,12 @@ export function SearchSection({
   )
 
   const results = useMemo(() => {
-    if (!index || !query.trim()) return null
+    const lib = searchLibRef.current
+    if (!index || !lib || !query.trim()) return null
     if (!fuseRef.current) {
-      fuseRef.current = createFuse(buildSearchEntries(index))
+      fuseRef.current = lib.createFuse(lib.buildSearchEntries(index))
     }
-    return searchItems(fuseRef.current, query)
+    return lib.searchItems(fuseRef.current, query)
   }, [index, query])
 
   const filtered = useMemo(() => {
@@ -100,16 +101,27 @@ export function SearchSection({
 
   const searching = query.trim().length > 0
   const list = searching ? results : filtered
+  // 入力済みだが検索モジュール読み込み中(チップ画面に戻さない)
+  const loadingSearch =
+    (searching || categoryFilter !== null) && list === null
 
   return (
     <div className="flex flex-col gap-6">
       <SearchBox
         value={rawQuery}
+        onFocus={ensureSearchReady}
         onChange={(v) => {
+          ensureSearchReady()
           setRawQuery(v)
           if (v) setCategoryFilter(null)
         }}
       />
+
+      {loadingSearch && (
+        <p aria-live="polite" className="text-sm text-muted">
+          …
+        </p>
+      )}
 
       {/* 結果リスト(検索 or 区分フィルタ) */}
       {list !== null && (
@@ -173,7 +185,7 @@ export function SearchSection({
       )}
 
       {/* S1: チップと区分一覧(未入力・未フィルタ時のみ) */}
-      {list === null && (
+      {list === null && !loadingSearch && (
         <>
           <section>
             <h2 className="mb-2.5 text-sm text-muted">{t("search.popular")}</h2>
@@ -182,7 +194,10 @@ export function SearchSection({
                 <button
                   key={word}
                   type="button"
-                  onClick={() => setRawQuery(word)}
+                  onClick={() => {
+                    ensureSearchReady()
+                    setRawQuery(word)
+                  }}
                   className="rounded-full border border-border bg-card px-4 py-2.5 text-sm active:bg-accent-soft"
                 >
                   {word}
@@ -200,7 +215,10 @@ export function SearchSection({
                 <button
                   key={cat.id}
                   type="button"
-                  onClick={() => setCategoryFilter(cat.id)}
+                  onClick={() => {
+                    ensureSearchReady()
+                    setCategoryFilter(cat.id)
+                  }}
                   className="active:opacity-70"
                 >
                   <CategoryBadge category={cat} size="md" />
