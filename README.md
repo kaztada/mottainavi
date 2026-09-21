@@ -2,7 +2,7 @@
 
 **大阪市の「これ、どう手放す?」— 捨て方と、捨てる前の選択肢をまとめて調べられる非公式ナビ**
 
-https://tebanashi-navi.vercel.app
+https://tebanashi.kaztada.eco
 
 ![てばなしナビ OGP](public/ogp.png)
 

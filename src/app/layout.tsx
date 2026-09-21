@@ -3,7 +3,7 @@ import { Analytics } from "@vercel/analytics/react"
 import { LanguageProvider } from "@/lib/i18n"
 import "./globals.css"
 
-const SITE_URL = "https://tebanashi-navi.vercel.app"
+const SITE_URL = "https://tebanashi.kaztada.eco"
 const TITLE = "てばなしナビ"
 const DESCRIPTION =
   "大阪市の「これ、どう手放す?」— 捨て方と、捨てる前の選択肢をまとめて調べられる非公式ナビ"
