@@ -10256,8 +10256,8 @@
     "pref": "大阪府",
     "name_ja": "東大阪市",
     "name_en": "Higashiosaka City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www.city.higashiosaka.lg.jp/category/14-4-1-0-0.html"
   },
   {
     "slug": "sennan-city",

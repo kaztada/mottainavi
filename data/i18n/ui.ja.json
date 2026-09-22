@@ -19,7 +19,7 @@
   "item.officialLink": "この区分の出し方(公式)↗",
   "item.noteTemplate": "この区分のルールに従って出してください。詳細は公式ページ(日本語)をご確認ください。",
   "item.showOriginalNote": "注意事項の原文(日本語)を見る",
-  "item.sodaiHeading": "粗大ごみは事前申込みが必要です",
+  "item.sodaiHeading": "{category}は事前申込みが必要です",
   "item.sodaiFee": "処理手数料:",
   "item.applyOnline": "ネットで申込む ↗",
   "item.telLandline": "固定電話から",
@@ -79,5 +79,7 @@
   "item.notFoundHint": "URLが変わったか、品目がなくなった可能性があります。検索から探しなおしてみてください。",
   "item.loadError": "データを読み込めませんでした。通信状況を確かめて、もう一度お試しください。",
   "about.coverageHeading": "🗾 対応している自治体",
-  "about.coverageBody": "いまは{list}に対応しています。ほかの市区町村も、公開データやライセンスを確かめながら、順番に増やしていく予定です。まだ対応していない自治体では、そのことをはっきりお伝えして公式サイトをご案内します。"
+  "about.coverageBody": "いまは{list}に対応しています。ほかの市区町村も、公開データやライセンスを確かめながら、順番に増やしていく予定です。まだ対応していない自治体では、そのことをはっきりお伝えして公式サイトをご案内します。",
+  "item.tel": "電話で申込む",
+  "item.telSingleNote": "{tel}(受付センター)"
 }

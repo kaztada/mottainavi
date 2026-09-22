@@ -65,6 +65,17 @@
         "municipality_id": "yokohama-city"
       },
       {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(本庁・行政サービスセンターなど)",
+        "title_en": "Drop it in a city small-appliance collection box (city hall, service centers, etc.)",
+        "desc_ja": "回収ボックスに入る大きさの小型家電は、市の施設で回収しています。中の金属が資源としてもう一働き。個人情報の入ったものは消してから。",
+        "desc_en": "Small appliances that fit the box are collected at city facilities. The metals inside get another life. Wipe personal data first.",
+        "url": "https://www.city.higashiosaka.lg.jp/0000012601.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "higashiosaka-city"
+      },
+      {
         "type": "resale",
         "title_ja": "動くうちに買取・フリマへ",
         "title_en": "Working items: sell or trade in",
