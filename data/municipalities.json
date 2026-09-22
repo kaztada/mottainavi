@@ -10103,8 +10103,8 @@
     "pref": "大阪府",
     "name_ja": "枚方市",
     "name_en": "Hirakata City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www.city.hirakata.osaka.jp/0000002820.html"
   },
   {
     "slug": "ibaraki-city",

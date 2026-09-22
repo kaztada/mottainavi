@@ -1,0 +1,81 @@
+[
+  {
+    "id": "ippan",
+    "kind": "burnable",
+    "name_ja": "一般ごみ",
+    "name_en": "General Waste (Burnable)"
+  },
+  {
+    "id": "pet-pla",
+    "kind": "plastic",
+    "name_ja": "ペットボトル・プラスチック製容器包装",
+    "name_en": "PET Bottles & Plastic Packaging"
+  },
+  {
+    "id": "kan-bin",
+    "kind": "recyclable",
+    "name_ja": "空き缶・びん・ガラス類",
+    "name_en": "Cans, Bottles & Glass"
+  },
+  {
+    "id": "kami",
+    "kind": "paper",
+    "name_ja": "紙類",
+    "name_en": "Paper"
+  },
+  {
+    "id": "bunbetsu",
+    "kind": "drop-off",
+    "name_ja": "分別回収",
+    "name_en": "Separate Collection (drop-off)"
+  },
+  {
+    "id": "aragomi",
+    "kind": "bulky",
+    "name_ja": "粗ごみ",
+    "name_en": "Coarse Waste (free, reservation required)",
+    "color": "#8E6FC2"
+  },
+  {
+    "id": "ogata",
+    "kind": "bulky",
+    "name_ja": "大型ごみ",
+    "name_en": "Large Waste (fee required)"
+  },
+  {
+    "id": "aragomi-ogata",
+    "kind": "bulky",
+    "name_ja": "粗ごみ・大型ごみ(サイズで判断)",
+    "name_en": "Coarse / Large Waste (by size)"
+  },
+  {
+    "id": "konnan",
+    "kind": "not-collected",
+    "name_ja": "処理困難物",
+    "name_en": "Hard-to-Process Items (not collected by city)"
+  },
+  {
+    "id": "shori-shinai",
+    "kind": "not-collected",
+    "name_ja": "市で処理しないもの",
+    "name_en": "Not Handled by City"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "家電リサイクル品目",
+    "name_en": "Home Appliance Recycling (not collected by city)"
+  },
+  {
+    "id": "pc",
+    "kind": "maker-recycle",
+    "name_ja": "PCリサイクル品目",
+    "name_en": "PC Recycling"
+  },
+  {
+    "id": "kobetsu",
+    "kind": "other",
+    "name_ja": "個別の出し方",
+    "name_en": "Special Handling"
+  }
+]

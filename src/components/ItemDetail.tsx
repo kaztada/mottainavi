@@ -118,7 +118,11 @@ export function ItemDetail({
           <section className="mt-5 rounded-2xl border border-border bg-accent-soft p-4">
             <h2 className="text-sm font-bold">
               {t("item.sodaiHeading", {
-                category: bulkyCategory?.name_ja ?? "",
+                // 見出しでは末尾のかっこ書き(「(サイズで判断)」等)を外す
+                category: (bulkyCategory?.name_ja ?? "").replace(
+                  /[(（][^()（）]*[)）]$/,
+                  ""
+                ),
               })}
             </h2>
             {item.sodai_fee_yen !== null && (
