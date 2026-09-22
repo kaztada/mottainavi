@@ -1,0 +1,78 @@
+[
+  {
+    "id": "katei",
+    "kind": "burnable",
+    "name_ja": "家庭ごみ(もえる物)",
+    "name_en": "Household Waste (Burnable)"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃の小物",
+    "name_en": "Small Non-burnable Items"
+  },
+  {
+    "id": "kan-bin",
+    "kind": "recyclable",
+    "name_ja": "あきかん・あきびん",
+    "name_en": "Cans & Bottles"
+  },
+  {
+    "id": "plastic",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装",
+    "name_en": "Plastic Containers & Packaging"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles",
+    "color": "#2F9E63"
+  },
+  {
+    "id": "ogata",
+    "kind": "bulky",
+    "name_ja": "大型ごみ",
+    "name_en": "Bulky Waste (fee required)"
+  },
+  {
+    "id": "kogata-box",
+    "kind": "small-appliance",
+    "name_ja": "小型家電回収ボックス",
+    "name_en": "Small Appliance Collection Box"
+  },
+  {
+    "id": "shudan",
+    "kind": "drop-off",
+    "name_ja": "地域の集団回収",
+    "name_en": "Community Group Collection",
+    "color": "#66A85C",
+    "icon": "users"
+  },
+  {
+    "id": "kyoten",
+    "kind": "drop-off",
+    "name_ja": "拠点回収",
+    "name_en": "Collection Point Drop-off"
+  },
+  {
+    "id": "kyoryokuten",
+    "kind": "drop-off",
+    "name_ja": "回収協力店・回収ボックス",
+    "name_en": "Retailer Collection Box",
+    "icon": "battery"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市では収集しません",
+    "name_en": "Not Collected by City"
+  },
+  {
+    "id": "kobetsu",
+    "kind": "other",
+    "name_ja": "個別の出し方",
+    "name_en": "Special Handling"
+  }
+]

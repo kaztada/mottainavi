@@ -79,5 +79,7 @@
   "item.notFoundHint": "The link may have changed or the item may have been removed. Try searching again.",
   "item.loadError": "Couldn't load the data. Please check your connection and try again.",
   "about.coverageHeading": "🗾 Supported municipalities",
-  "about.coverageBody": "Currently supported: {list}. We're adding more municipalities step by step, after checking their open data and licenses. For municipalities we don't support yet, we say so clearly and point you to the official website."
+  "about.coverageBody": "Currently supported: {list}. We're adding more municipalities step by step, after checking their open data and licenses. For municipalities we don't support yet, we say so clearly and point you to the official website.",
+  "item.tel": "Apply by phone",
+  "item.telSingleNote": "{tel} (Reception Center)"
 }

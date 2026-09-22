@@ -26,9 +26,11 @@ export function ItemDetail({
   const t = useT()
   const categoriesById = new Map(categories.map((c) => [c.id, c]))
   // 粗大ごみの判定は区分IDではなく kind で行う(区分名・IDは自治体ごとに違う)
-  const hasBulky = item.dispositions.some(
-    (d) => categoriesById.get(d.category_id)?.kind === "bulky"
-  )
+  // 見出しには自治体の呼び方(粗大ごみ・大型ごみ等)を使う
+  const bulkyCategory = item.dispositions
+    .map((d) => categoriesById.get(d.category_id))
+    .find((c) => c?.kind === "bulky")
+  const hasBulky = bulkyCategory !== undefined
   // 申込先が1つも登録されていない自治体では申込セクションを出さない
   const hasSodaiContact = Boolean(
     municipality.sodai_apply_url ||
@@ -36,6 +38,14 @@ export function ItemDetail({
     municipality.sodai_tel_mobile
   )
   const muniName = lang === "en" ? municipality.name_en : municipality.name_ja
+  // 固定・携帯で番号が同じ(または片方だけ)なら「電話で申込む」1ボタンにする
+  const telNumbers = [
+    ...new Set(
+      [municipality.sodai_tel_landline, municipality.sodai_tel_mobile].filter(
+        (n): n is string => Boolean(n)
+      )
+    ),
+  ]
   // 英語モードの品目名: name_en 優先。無ければ日本語名+ローマ字かな(screens.md §5)
   const showEn = lang === "en"
 
@@ -106,7 +116,11 @@ export function ItemDetail({
 
         {hasBulky && hasSodaiContact && (
           <section className="mt-5 rounded-2xl border border-border bg-accent-soft p-4">
-            <h2 className="text-sm font-bold">{t("item.sodaiHeading")}</h2>
+            <h2 className="text-sm font-bold">
+              {t("item.sodaiHeading", {
+                category: bulkyCategory?.name_ja ?? "",
+              })}
+            </h2>
             {item.sodai_fee_yen !== null && (
               <p className="mt-2 text-sm">
                 {t("item.sodaiFee")}{" "}
@@ -127,10 +141,23 @@ export function ItemDetail({
                   {t("item.applyOnline")}
                 </a>
               )}
-              {(municipality.sodai_tel_landline ||
-                municipality.sodai_tel_mobile) && (
-                <div className="flex gap-2">
-                  {municipality.sodai_tel_landline && (
+              {telNumbers.length === 1 && (
+                <>
+                  <a
+                    href={`tel:${telNumbers[0]}`}
+                    className="flex items-center justify-center gap-1.5 rounded-2xl border border-border bg-card py-3 text-sm"
+                  >
+                    <Phone className="size-4 text-accent-strong" aria-hidden />
+                    {t("item.tel")}
+                  </a>
+                  <p className="text-xs text-muted">
+                    {t("item.telSingleNote", { tel: telNumbers[0] })}
+                  </p>
+                </>
+              )}
+              {telNumbers.length === 2 && (
+                <>
+                  <div className="flex gap-2">
                     <a
                       href={`tel:${municipality.sodai_tel_landline}`}
                       className="flex flex-1 items-center justify-center gap-1.5 rounded-2xl border border-border bg-card py-3 text-sm"
@@ -141,8 +168,6 @@ export function ItemDetail({
                       />
                       {t("item.telLandline")}
                     </a>
-                  )}
-                  {municipality.sodai_tel_mobile && (
                     <a
                       href={`tel:${municipality.sodai_tel_mobile}`}
                       className="flex flex-1 items-center justify-center gap-1.5 rounded-2xl border border-border bg-card py-3 text-sm"
@@ -153,18 +178,15 @@ export function ItemDetail({
                       />
                       {t("item.telMobile")}
                     </a>
-                  )}
-                </div>
-              )}
-              {municipality.sodai_tel_landline &&
-                municipality.sodai_tel_mobile && (
+                  </div>
                   <p className="text-xs text-muted">
                     {t("item.telNote", {
-                      landline: municipality.sodai_tel_landline,
-                      mobile: municipality.sodai_tel_mobile,
+                      landline: municipality.sodai_tel_landline ?? "",
+                      mobile: municipality.sodai_tel_mobile ?? "",
                     })}
                   </p>
-                )}
+                </>
+              )}
             </div>
           </section>
         )}

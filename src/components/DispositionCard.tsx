@@ -2,26 +2,26 @@
 
 import type { Category, Disposition } from "@/lib/schemas"
 import { useLang, useT } from "@/lib/i18n"
+import { splitNoteLinks } from "@/lib/note-links"
 import { CategoryBadge } from "./CategoryBadge"
 
-/** note中の生URLをリンク化して表示する */
+/** note中の生URLをリンク化して表示する(URL の切り出しは splitNoteLinks) */
 function NoteText({ text }: { text: string }) {
-  const parts = text.split(/(https?:\/\/[^\s()「」()]+)/g)
   return (
     <>
-      {parts.map((part, idx) =>
-        /^https?:\/\//.test(part) ? (
+      {splitNoteLinks(text).map((part, idx) =>
+        part.type === "link" ? (
           <a
             key={idx}
-            href={part}
+            href={part.value}
             target="_blank"
             rel="noopener noreferrer"
             className="break-all text-accent-strong underline underline-offset-2"
           >
-            {part}
+            {part.value}
           </a>
         ) : (
-          <span key={idx}>{part}</span>
+          <span key={idx}>{part.value}</span>
         )
       )}
     </>
@@ -76,7 +76,7 @@ export function DispositionCard({
           href={disposition.official_link}
           target="_blank"
           rel="noopener noreferrer"
-          className="mt-3 inline-block text-sm text-accent-strong underline underline-offset-2"
+          className="mt-3 block w-fit text-sm text-accent-strong underline underline-offset-2"
         >
           {t("item.officialLink")}
         </a>
