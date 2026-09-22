@@ -1,6 +1,7 @@
 import type { MunicipalityAdapter } from "../core/types"
 import { higashiosakaCityAdapter } from "./higashiosaka-city"
 import { hirakataCityAdapter } from "./hirakata-city"
+import { kawachinaganoCityAdapter } from "./kawachinagano-city"
 import { osakaCityAdapter } from "./osaka-city"
 import { yokohamaCityAdapter } from "./yokohama-city"
 
@@ -10,4 +11,5 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [yokohamaCityAdapter.slug]: yokohamaCityAdapter,
   [higashiosakaCityAdapter.slug]: higashiosakaCityAdapter,
   [hirakataCityAdapter.slug]: hirakataCityAdapter,
+  [kawachinaganoCityAdapter.slug]: kawachinaganoCityAdapter,
 }

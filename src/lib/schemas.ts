@@ -108,7 +108,7 @@ export const MunicipalityMetaSchema = z.object({
   slug: SlugSchema,
   item_id_prefix: z.string().regex(/^[a-z0-9]{2,8}$/),
   source_url: z.string().url(),
-  source_type: z.enum(["opendata-csv", "html-table", "manual"]),
+  source_type: z.enum(["opendata-csv", "opendata-pdf", "html-table", "manual"]),
   source_license: z.string().min(1),
   source_attribution: z.string().min(1),
   source_attribution_en: z.string().min(1),
