@@ -25,7 +25,7 @@ export async function generateMetadata({
   const item = getItemById(id)
   if (!item) return {}
   return {
-    title: `${item.name_ja}の捨て方・手放し方 | てばなしナビ`,
+    title: `${item.name_ja}の捨て方・手放し方 | もったいナビ`,
     description: `大阪市での「${item.name_ja}」の分別区分と出し方、捨てる前の選択肢。`,
   }
 }

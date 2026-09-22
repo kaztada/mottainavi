@@ -27,7 +27,7 @@
 ## 3. プロジェクト構造
 
 ```
-tebanashi-navi/
+mottainavi/
 ├── CLAUDE.md
 ├── docs/                      # 設計書一式(このセット)
 ├── data/                      # data-model.md 参照

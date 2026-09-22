@@ -7,7 +7,7 @@ import { useT } from "@/lib/i18n"
 import { LangToggle } from "./LangToggle"
 import { SourceNote } from "./SourceNote"
 
-const GITHUB_ISSUES_URL = "https://github.com/kaztada/tebanashi-navi/issues"
+const GITHUB_ISSUES_URL = "https://github.com/kaztada/mottainavi/issues"
 const AUTHOR_URL = "https://kaztada.eco"
 
 function Section({

@@ -19,7 +19,7 @@ export async function fetchWithCache(
   const res = await fetch(url, {
     headers: {
       // 個人開発の分別検索ツール。問い合わせ可能なUAを名乗る
-      "User-Agent": "tebanashi-navi/0.1 (personal recycling-guide project)",
+      "User-Agent": "mottainavi/0.1 (personal recycling-guide project)",
     },
   })
   if (!res.ok) {

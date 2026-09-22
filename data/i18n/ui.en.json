@@ -1,5 +1,5 @@
 {
-  "app.title": "🌱 Tebanashi Navi",
+  "app.title": "🌱 Mottainavi",
   "app.tagline": "How to let go of things in Osaka City — disposal rules and reuse options",
   "search.placeholder": "Search items (e.g. sofa)",
   "search.ariaLabel": "Search by item name",
@@ -43,7 +43,7 @@
   "footer.about": "About this site",
   "about.title": "About this site",
   "about.purposeHeading": "🌱 What is this?",
-  "about.purposeBody": "Tebanashi Navi is an unofficial search tool that pairs Osaka City's waste sorting rules with reuse options (donation, collection programs, resale) — a place to pause for a moment before you throw something away.",
+  "about.purposeBody": "Mottainavi is an unofficial search tool that pairs Osaka City's waste sorting rules with reuse options (donation, collection programs, resale) — a place to pause for a moment before you throw something away.",
   "about.unofficialHeading": "ⓘ Unofficial tool",
   "about.unofficialBody": "This site is run by an individual with no affiliation to Osaka City. Rules can change — always check the official Osaka City website for the latest information.",
   "about.sourceHeading": "📄 Source & license",

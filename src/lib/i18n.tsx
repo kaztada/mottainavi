@@ -12,7 +12,7 @@ import uiEn from "../../data/i18n/ui.en.json"
 
 export type Lang = "ja" | "en"
 
-const STORAGE_KEY = "tebanashi-lang"
+const STORAGE_KEY = "mottainavi-lang"
 const DICTS: Record<Lang, Record<string, string>> = {
   ja: uiJa,
   en: uiEn,

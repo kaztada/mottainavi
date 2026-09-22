@@ -1,10 +1,10 @@
-# 🌱 てばなしナビ
+# 🌱 もったいナビ
 
 **大阪市の「これ、どう手放す?」— 捨て方と、捨てる前の選択肢をまとめて調べられる非公式ナビ**
 
-https://tebanashi.kaztada.eco
+https://mottainavi.kaztada.eco
 
-![てばなしナビ OGP](public/ogp.png)
+![もったいナビ OGP](public/ogp.png)
 
 品目名を検索すると、大阪市での正しい分別区分・出し方に加えて、**捨てる前に検討できる選択肢**(リユース・拠点回収・寄付・買取・譲り合い)を1画面で提示します。コンセプトは「捨てる前に、ちょっとだけ立ち止まれる場所」。
 
@@ -51,4 +51,4 @@ npm run build        # 本番ビルド(全品目SSG)
 
 Kaz Tada — [kaztada.eco](https://kaztada.eco) / #ちるエコ日和
 
-誤りの報告・提案は [Issues](https://github.com/kaztada/tebanashi-navi/issues) へどうぞ。
+誤りの報告・提案は [Issues](https://github.com/kaztada/mottainavi/issues) へどうぞ。
