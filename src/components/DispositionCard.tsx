@@ -29,7 +29,7 @@ function NoteText({ text }: { text: string }) {
 }
 
 /**
- * 捨て方カード(1区分ぶん)。注意文言は原文を全文表示する(欠落させない)。
+ * 捨て方カード(1区分ぶん)。注意文言は原文を全文表示する(欠落させない)。改行も原文どおりに出す(whitespace-pre-line)。
  * 英語モード: 誤訳=誤案内リスクを避けるため定型英文+原文は折りたたみで日本語表示(screens.md §5)。
  */
 export function DispositionCard({
@@ -55,7 +55,10 @@ export function DispositionCard({
               <summary className="cursor-pointer text-xs text-muted">
                 {t("item.showOriginalNote")}
               </summary>
-              <p className="mt-2 text-sm leading-relaxed" lang="ja">
+              <p
+                className="mt-2 whitespace-pre-line text-sm leading-relaxed"
+                lang="ja"
+              >
                 <NoteText text={disposition.note_ja} />
               </p>
             </details>
@@ -63,7 +66,7 @@ export function DispositionCard({
         </>
       ) : (
         disposition.note_ja && (
-          <p className="mt-3 text-sm leading-relaxed">
+          <p className="mt-3 whitespace-pre-line text-sm leading-relaxed">
             <NoteText text={disposition.note_ja} />
           </p>
         )

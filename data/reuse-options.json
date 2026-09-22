@@ -54,6 +54,17 @@
         "municipality_id": "osaka-city"
       },
       {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(市庁舎・区役所・一部スーパーなど)",
+        "title_en": "Drop it in a city small-appliance collection box (city hall, ward offices, some supermarkets)",
+        "desc_ja": "30cm未満の電気・電池で動く製品が対象で、無料です。中の金属が資源としてもう一働き。個人情報の入ったものは消してから。",
+        "desc_en": "Free for electric or battery-powered items under 30 cm. The metals inside get another life. Wipe personal data first.",
+        "url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/tyokusetsu/koden.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "yokohama-city"
+      },
+      {
         "type": "resale",
         "title_ja": "動くうちに買取・フリマへ",
         "title_en": "Working items: sell or trade in",
