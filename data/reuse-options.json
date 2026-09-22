@@ -76,6 +76,17 @@
         "municipality_id": "higashiosaka-city"
       },
       {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(支所・図書館・協力店舗など17か所)",
+        "title_en": "Drop it in a city small-appliance collection box (17 locations incl. branch offices, libraries, partner stores)",
+        "desc_ja": "投入口(20cm×30cm)に入る大きさの小型家電が対象です。中の金属が資源としてもう一働き。個人情報の入ったものは消してから。",
+        "desc_en": "For small appliances that fit the 20 cm x 30 cm slot. The metals inside get another life. Wipe personal data first.",
+        "url": "https://www.city.hirakata.osaka.jp/0000010718.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "hirakata-city"
+      },
+      {
         "type": "resale",
         "title_ja": "動くうちに買取・フリマへ",
         "title_en": "Working items: sell or trade in",
