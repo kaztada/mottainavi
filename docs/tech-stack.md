@@ -203,6 +203,8 @@ Phase A は大阪市アダプタへの切り出しと CLI 引数化まで。`--a
 3. 手作業転記(小規模自治体の最終手段)
 
 いずれも同じ Adapter 契約の実装違いとして扱い、`source_type` に由来を記録する。
+実例: `scripts/adapters/osaka-city/`(HTML表のスクレイピング)と `scripts/adapters/yokohama-city/`(オープンデータ CSV。CP932 の復号と RFC 4180 の CSV パーサはアダプタ内に持つ)。
+`npm run build-data -- --all` で登録済みの全自治体を順に生成する(1つ失敗しても残りは続け、最後に異常終了コード)。
 市サイトへのアクセスは core 側で1回取得+キャッシュを強制し、連続アクセスしない。
 
 ## 12. パフォーマンス予算(更新)

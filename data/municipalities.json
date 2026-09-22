@@ -6206,8 +6206,8 @@
     "pref": "神奈川県",
     "name_ja": "横浜市",
     "name_en": "Yokohama City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/"
   },
   {
     "slug": "kawasaki-city",
@@ -10023,7 +10023,7 @@
     "name_ja": "堺市",
     "name_en": "Sakai City",
     "status": "unsupported",
-    "official_url": null
+    "official_url": "https://manage.delight-system.com/threeR/web/bunbetsu?menu=bunbetsu&jichitaiId=sakaishi&lang=ja"
   },
   {
     "slug": "kishiwada-city",

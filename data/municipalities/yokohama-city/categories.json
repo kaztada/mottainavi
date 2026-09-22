@@ -1,0 +1,99 @@
+[
+  {
+    "id": "moyasu",
+    "kind": "burnable",
+    "name_ja": "燃やすごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moenai",
+    "kind": "non-burnable",
+    "name_ja": "燃えないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "plastic",
+    "kind": "plastic",
+    "name_ja": "プラスチック資源",
+    "name_en": "Plastic Resources"
+  },
+  {
+    "id": "kan-bin-pet",
+    "kind": "recyclable",
+    "name_ja": "缶・びん・ペットボトル",
+    "name_en": "Cans, Bottles & PET"
+  },
+  {
+    "id": "kinzoku",
+    "kind": "recyclable",
+    "name_ja": "小さな金属類",
+    "name_en": "Small Metal Items",
+    "color": "#2F9E63",
+    "icon": "package"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "古紙",
+    "name_en": "Paper (Recycling)"
+  },
+  {
+    "id": "kofu",
+    "kind": "paper",
+    "name_ja": "古布",
+    "name_en": "Used Textiles",
+    "color": "#C08A5E",
+    "icon": "shirt"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (fee required)"
+  },
+  {
+    "id": "spray",
+    "kind": "hazardous",
+    "name_ja": "スプレー缶",
+    "name_en": "Spray Cans",
+    "color": "#FF6B3D"
+  },
+  {
+    "id": "denchi",
+    "kind": "hazardous",
+    "name_ja": "電池類",
+    "name_en": "Batteries",
+    "icon": "battery"
+  },
+  {
+    "id": "kogata-box",
+    "kind": "small-appliance",
+    "name_ja": "小型家電回収ボックス",
+    "name_en": "Small Appliance Collection Box"
+  },
+  {
+    "id": "kaden-recycle",
+    "kind": "not-collected",
+    "name_ja": "家電リサイクル",
+    "name_en": "Home Appliance Recycling (not collected by city)"
+  },
+  {
+    "id": "pc-recycle",
+    "kind": "maker-recycle",
+    "name_ja": "パソコンリサイクル",
+    "name_en": "PC Recycling"
+  },
+  {
+    "id": "hanbaiten",
+    "kind": "maker-recycle",
+    "name_ja": "販売店へ相談",
+    "name_en": "Consult the Retailer",
+    "icon": "users"
+  },
+  {
+    "id": "kobetsu",
+    "kind": "other",
+    "name_ja": "個別の出し方",
+    "name_en": "Special Handling"
+  }
+]
