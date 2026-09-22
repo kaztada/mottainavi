@@ -51,9 +51,7 @@ describe("inferReuseCategory", () => {
     ).toBe("returnable")
   })
   it("衣類 → clothing", () => {
-    expect(inferReuseCategory("子ども服", ["paper"], [null])).toBe(
-      "clothing"
-    )
+    expect(inferReuseCategory("子ども服", ["paper"], [null])).toBe("clothing")
   })
   it("該当なし → null", () => {
     expect(inferReuseCategory("生ごみ", ["burnable"], [null])).toBeNull()
@@ -76,25 +74,33 @@ describe("inferReuseCategory", () => {
       )
     ).toBeNull()
     expect(
-      inferReuseCategory("パソコン本体・ディスプレイ", ["maker-recycle"], [null])
+      inferReuseCategory(
+        "パソコン本体・ディスプレイ",
+        ["maker-recycle"],
+        [null]
+      )
     ).toBeNull()
     // PCリサイクル(メーカー回収)は市の小型家電回収と別制度。small-appliance を案内しない
   })
   it("衣装ケース・衣類乾燥機・薬(服用)を clothing にしない", () => {
-    expect(inferReuseCategory("衣装ケース(衣装箱)", ["bulky"], [null])).toBeNull()
+    expect(
+      inferReuseCategory("衣装ケース(衣装箱)", ["bulky"], [null])
+    ).toBeNull()
     expect(
       inferReuseCategory("衣類乾燥機", ["not-collected"], [null])
     ).toBeNull()
     expect(
-      inferReuseCategory("薬(粉薬、錠剤で、服用する必要がなくなり余った場合)", ["burnable"], [null])
+      inferReuseCategory(
+        "薬(粉薬、錠剤で、服用する必要がなくなり余った場合)",
+        ["burnable"],
+        [null]
+      )
     ).toBeNull()
   })
   it("CDケースは books-media にしないが、CD・週刊誌はする", () => {
     expect(inferReuseCategory("CDケース", ["plastic"], [null])).toBeNull()
     expect(inferReuseCategory("CD", ["burnable"], [null])).toBe("books-media")
-    expect(inferReuseCategory("週刊誌", ["paper"], [null])).toBe(
-      "books-media"
-    )
+    expect(inferReuseCategory("週刊誌", ["paper"], [null])).toBe("books-media")
   })
   it("ガスコンロ・ガステーブルを furniture にしない", () => {
     expect(
@@ -103,7 +109,11 @@ describe("inferReuseCategory", () => {
   })
   it("収納系(カラーボックス・ラック)は furniture", () => {
     expect(
-      inferReuseCategory("カラーボックス(最大の辺または径が30センチメートルを超えるもの)", ["bulky"], [null])
+      inferReuseCategory(
+        "カラーボックス(最大の辺または径が30センチメートルを超えるもの)",
+        ["bulky"],
+        [null]
+      )
     ).toBe("furniture")
     expect(inferReuseCategory("押入れ収納ラック", ["bulky"], [null])).toBe(
       "furniture"

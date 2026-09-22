@@ -19,7 +19,9 @@ export interface RawDispositionRow {
 export interface MunicipalityAdapter {
   slug: string
   /** 原本を取得する。キャッシュ優先(refresh=true のときだけ再取得) */
-  fetchSource(opts: { refresh: boolean }): Promise<{ source: string; fromCache: boolean; location: string }>
+  fetchSource(opts: {
+    refresh: boolean
+  }): Promise<{ source: string; fromCache: boolean; location: string }>
   /** 原本 → 生レコード */
   parse(source: string): RawItem[]
   /** 区分ラベル → この自治体の区分ID。未知ラベルは null */

@@ -31,7 +31,9 @@ export function inferReuseCategory(
   const allNotes = notes.filter(Boolean).join(" ")
 
   // リターナブル容器(ポイント欄の文言で判定。名前より優先度高)
-  if (/リターナブル|購入店・販売店(へ|などに)|販売店へ(の)?返却/.test(allNotes)) {
+  if (
+    /リターナブル|購入店・販売店(へ|などに)|販売店へ(の)?返却/.test(allNotes)
+  ) {
     return "returnable"
   }
   // 衣類(着るもののみ。ケース・乾燥機・「服用」等の誤検知を除外)
@@ -39,18 +41,22 @@ export function inferReuseCategory(
     /衣類|ウェア|ウエア|服(?!用)|下着|セーター|スーツ|ジャケット|コート|マフラー|着物|浴衣/.test(
       name
     ) &&
-    !/ケース|箱|袋|留め具|乾燥機|洗濯|ダンス|タンス|ハンガー|タッパー/.test(name)
+    !/ケース|箱|袋|留め具|乾燥機|洗濯|ダンス|タンス|ハンガー|タッパー/.test(
+      name
+    )
   ) {
     return "clothing"
   }
   // 小型家電
-  if (
-    kinds.includes("small-appliance")
-  ) {
+  if (kinds.includes("small-appliance")) {
     return "small-appliance"
   }
   // おもちゃ・ベビー(家具・本より先に判定: 「ベビーベッド」「絵本」対策)
-  if (/おもちゃ|玩具|ベビー|絵本|乳母車|ぬいぐるみ|人形|遊具|滑り台|三輪車/.test(name)) {
+  if (
+    /おもちゃ|玩具|ベビー|絵本|乳母車|ぬいぐるみ|人形|遊具|滑り台|三輪車/.test(
+      name
+    )
+  ) {
     return "toys-baby"
   }
   // 楽器
@@ -63,7 +69,9 @@ export function inferReuseCategory(
       /書籍|絵本|文庫|単行本|漫画|コミック|雑誌|週刊誌|新書|レコード|ビデオテープ|CD|DVD|ブルーレイ/.test(
         name
       )) &&
-    !/ケース|フィルム|プレーヤー|ラジカセ|コンポ|デッキ|ラック|本体|日本/.test(name)
+    !/ケース|フィルム|プレーヤー|ラジカセ|コンポ|デッキ|ラック|本体|日本/.test(
+      name
+    )
   ) {
     return "books-media"
   }

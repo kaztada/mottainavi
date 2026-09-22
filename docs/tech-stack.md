@@ -122,7 +122,7 @@ URL が自治体を自己記述するため、共有リンクが受け手の loc
 
 比較:
 
-| 案 | 0円維持 | 品目別OGP | Lighthouse | 1,724自治体×1,000品目 |
+| 案 | 0円維持 | 品目別OGP | Lighthouse | 1,741自治体×1,000品目 |
 |---|---|---|---|---|
 | A. 全品目SSG(v0.1) | ○ | ◎ | ◎ | ✗ 約182万ページでビルド不能 |
 | B. ISR/オンデマンド生成 | △ 無料枠と Hobby 規約に依存 | ◎ | ○ | △ 関数バンドル上限 |
@@ -135,7 +135,7 @@ URL が自治体を自己記述するため、共有リンクが受け手の loc
 **Cの仕組み**:
 1. `next.config.ts` の `rewrites()` で `/:municipality/item/:id` → `/:municipality/item`
 2. `/[municipality]/item` を自治体ごとにSSG(シェル1枚)
-3. シェルが `usePathname()` から品目IDを読み、`public/data/<muni>/items/NN.json` を fetch
+3. シェルが `window.location.pathname` から品目IDを読み(rewrite 後の SSG 時パスとの食い違いを避けるため `usePathname()` は使わない)、`public/data/<muni>/items/NN.json` を fetch
 4. タイトルは `document.title` をクライアントで設定
 
 **トレードオフ(承認済み)**:
@@ -151,7 +151,10 @@ URL が自治体を自己記述するため、共有リンクが受け手の loc
 `public/data/` からの fetch に統一する。バンドラが自治体数に比例して肥大するのを避けるため。
 
 - 検索: `/data/<muni>/search.json?v=<data_version>`(gzip 34KB)を初回インタラクション時に fetch
-- 詳細: `/data/<muni>/items/NN.json?v=<data_version>`(gzip 5〜6KB)を該当シャード1本だけ fetch
+- 詳細: `/data/<muni>/items/NN.json?v=<data_version>`(gzip 約4KB)を該当シャード1本だけ fetch
+- 自治体選択: `/data/municipalities.json?v=<内容ハッシュ>`(gzip 約29KB)を都道府県を選ぶときに fetch
+- 配信データの形式とURLは `src/lib/public-data.ts` に集約(ビルドスクリプトとアプリで共用)
+- ブラウザ側では zod を使わない(配信データはビルド時に検証済み。バンドル削減のため)
 - `next.config.ts` の `headers()` で `/data/*` に `Cache-Control: public, max-age=31536000, immutable`
 - 更新時は `data_version` が変わり、クエリ違いで新規取得される
 - 配信元URLは定数1つに集約し、将来 Blob/R2 等の外部ストレージへ差し替えられるようにする
@@ -164,6 +167,7 @@ URL が自治体を自己記述するため、共有リンクが受け手の loc
 scripts/
 ├── build-data.ts          # CLI: --municipality <slug> [--refresh] / --all
 ├── build-registry.ts      # 全国地方公共団体コードから municipalities.json を生成
+├── registry/slug.ts       # slug 生成規則(data-model.md §15)
 ├── build-public-data.ts   # prebuild: data/ → public/data/(シャード分割)
 ├── core/                  # 自治体を知らない共通処理
 │   ├── pipeline.ts        # enrich → validate → emit → id-map 更新
@@ -176,17 +180,21 @@ scripts/
         └── category-map.ts # 現 scripts/lib/category-map.ts を移動
 ```
 
-Adapter の契約は2関数のみ:
+Adapter の契約(`scripts/core/types.ts`):
 
 ```ts
 interface MunicipalityAdapter {
   slug: string
-  fetch(opts: { refresh: boolean }): Promise<string | Buffer>
-  parse(source: string | Buffer): RawItem[]  // category_id まで解決済み
+  fetchSource(opts: { refresh: boolean }): Promise<{ source: string; fromCache: boolean; location: string }>
+  parse(source: string): RawItem[]                 // 区分ラベルは自治体の表記のまま
+  resolveCategoryId(label: string): string | null  // ラベル → この自治体の区分ID
+  expectedMinItems: number                         // 下回ったらパーサ破損を疑う
 }
 ```
 
+区分の解決をアダプタに分けたのは、未解決ラベルの一覧を共通 core 側で集計して報告するため。
 共通 core は自治体を知らず、`kind` と汎用スキーマだけで enrich / validate / emit を行う。
+品目IDは id-map で固定し、品目数が前回から10%超変動したら警告する。
 Phase A は大阪市アダプタへの切り出しと CLI 引数化まで。`--all` の実装は Phase B。
 
 **データ取得方針の優先順位**:
@@ -203,12 +211,50 @@ Phase A は大阪市アダプタへの切り出しと CLI 引数化まで。`--a
 |---|---|---|
 | `/`(自治体選択) | LCP 2.0s以下 | 全国リスト(gzip 約40KB)は選択UIを開いたときだけ fetch |
 | `/[municipality]`(検索) | 現行維持(Perf 98) | 検索インデックスは初回インタラクション時ロード(現行どおり) |
-| `/[municipality]/item/[id]` | Perf 90+ | シェルは静的。LCP はシャード fetch(gzip 5〜6KB)の完了で決まる |
+| `/[municipality]/item/[id]` | Perf 90+ | シェルは静的。LCP はシャード fetch(gzip 約4KB)の完了で決まる |
 
 詳細ページの Lighthouse モバイル 90+ 維持は Phase A の完了条件に含め、実測で確認する。
 
 ## 13. 将来のデータ量(Phase C 以降の未決事項)
 
-1,724自治体 × 約1,000品目では `data/` が約1.4GB となり git リポジトリに収まらない。
+1,741自治体 × 約1,000品目では `data/` が約1.4GB となり git リポジトリに収まらない。
 Phase A では配信元URLを定数1つに集約するところまでとし、
 外部ストレージへの移行判断は Phase C で行う。
+
+## 14. Phase A 実装後のプロジェクト構造(2026-09-23)
+
+§3 の構造図は v0.1 のもの。Phase A 後の主要部分は次のとおり。
+
+```
+src/
+├── app/
+│   ├── layout.tsx
+│   ├── page.tsx                      # S0 自治体選択(保存済みなら描画前に直行)
+│   └── [municipality]/
+│       ├── page.tsx                  # S1/S2 検索 or S0' 未対応(全1,741件SSG)
+│       ├── item/page.tsx             # S3 シェル(対応自治体のみSSG。rewrite で /item/<id> を受ける)
+│       └── about/page.tsx            # S4
+├── components/
+│   ├── SelectShell.tsx / UnsupportedShell.tsx / MunicipalitySwitch.tsx / RememberMunicipality.tsx
+│   ├── ItemDetailLoader.tsx          # シャード fetch → ItemDetail
+│   └── (既存: HomeShell, SearchSection, ItemCard, ItemDetail, CategoryBadge, …)
+└── lib/
+    ├── schemas.ts                    # zod スキーマ(サーバ・スクリプト用)
+    ├── category-kind.ts              # kind と既定の色・アイコン(zod 非依存)
+    ├── public-data.ts                # 配信データのURL・シャード計算・導出
+    ├── municipality-storage.ts       # localStorage キーと自動転送スクリプト
+    └── data.ts                       # SSG 時の自治体データ読み込み
+scripts/
+├── build-data.ts / build-registry.ts / build-public-data.ts
+├── core/ (pipeline, enrich, ids, fetch-cache, paths, types)
+├── adapters/ (index.ts, osaka-city/)
+└── registry/slug.ts
+```
+
+コマンド:
+
+| コマンド | 内容 |
+|---|---|
+| `npm run build-data -- --municipality osaka-city` | 自治体の品目データを生成(キャッシュ優先) |
+| `npm run build-registry` | 全国レジストリを再生成(手で保守した値は引き継ぐ) |
+| `npm run build` | prebuild で public/data を導出してからビルド |

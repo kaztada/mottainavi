@@ -25,7 +25,9 @@ async function main() {
   }
   const adapter = ADAPTERS[slug]
   if (!adapter) {
-    console.error(`アダプタ未登録の自治体です: ${slug}(scripts/adapters/index.ts に追加してください)`)
+    console.error(
+      `アダプタ未登録の自治体です: ${slug}(scripts/adapters/index.ts に追加してください)`
+    )
     process.exit(1)
   }
   const result = await runPipeline(adapter, { refresh })

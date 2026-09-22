@@ -30,7 +30,11 @@ export function searchIndexUrl(slug: string, version: string): string {
 }
 
 /** 品目を含むシャードのURL */
-export function itemShardUrl(slug: string, itemId: string, version: string): string {
+export function itemShardUrl(
+  slug: string,
+  itemId: string,
+  version: string
+): string {
   return `${DATA_BASE_URL}/${slug}/items/${shardFileName(shardOf(itemId))}?v=${encodeURIComponent(version)}`
 }
 

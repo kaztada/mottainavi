@@ -26,7 +26,10 @@ export function kanaToHiragana(kana: string): string {
 }
 
 /** 読みから種別の末尾(し/ちょう/まち 等)を取り除く */
-export function stripSuffixReading(hiragana: string, type: MunicipalityType): string {
+export function stripSuffixReading(
+  hiragana: string,
+  type: MunicipalityType
+): string {
   for (const s of SUFFIX_READINGS[type]) {
     if (hiragana.endsWith(s) && hiragana.length > s.length) {
       return hiragana.slice(0, -s.length)
@@ -51,7 +54,9 @@ export function hiraganaToSlugPart(hiragana: string): string {
 /** 市区町村の slug を作る(例: 大阪市/ｵｵｻｶｼ → osaka-city) */
 export function municipalitySlug(nameJa: string, kana: string): string {
   const type = municipalityType(nameJa)
-  const base = hiraganaToSlugPart(stripSuffixReading(kanaToHiragana(kana), type))
+  const base = hiraganaToSlugPart(
+    stripSuffixReading(kanaToHiragana(kana), type)
+  )
   if (!base) throw new Error(`slugを生成できません: ${nameJa}`)
   return `${base}-${type}`
 }
@@ -74,6 +79,8 @@ export function municipalityNameEn(slug: string): string {
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ")
-  const suffix = { city: "City", town: "Town", village: "Village", ku: "City" }[m[2] as MunicipalityType]
+  const suffix = { city: "City", town: "Town", village: "Village", ku: "City" }[
+    m[2] as MunicipalityType
+  ]
   return `${base} ${suffix}`
 }

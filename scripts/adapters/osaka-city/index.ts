@@ -12,7 +12,11 @@ const CACHE_PATH = join(CACHE_DIR, "osaka-city.html")
 export const osakaCityAdapter: MunicipalityAdapter = {
   slug: "osaka-city",
   async fetchSource({ refresh }) {
-    const { html, fromCache } = await fetchWithCache(SOURCE_URL, CACHE_PATH, refresh)
+    const { html, fromCache } = await fetchWithCache(
+      SOURCE_URL,
+      CACHE_PATH,
+      refresh
+    )
     return { source: html, fromCache, location: CACHE_PATH }
   },
   parse(source) {

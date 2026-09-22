@@ -12,7 +12,8 @@
         "desc_en": "Wearable clothing is collected at Environmental Business Centers and displayed for the next family. Easy to drop off while you are out.",
         "url": "https://www.city.osaka.lg.jp/kankyo/page/0000009050.html",
         "effort": "medium",
-        "money": "free"
+        "money": "free",
+        "municipality_id": "osaka-city"
       },
       {
         "type": "resale",
@@ -49,7 +50,8 @@
         "desc_en": "City drop boxes or courier pickup let the metals inside work one more time as resources.",
         "url": "https://www.city.osaka.lg.jp/kankyo/page/0000523872.html",
         "effort": "low",
-        "money": "free"
+        "money": "free",
+        "municipality_id": "osaka-city"
       },
       {
         "type": "resale",
@@ -103,7 +105,8 @@
         "desc_en": "Finished picture books are collected at Environmental Business Centers and passed on to the next reader.",
         "url": "https://www.city.osaka.lg.jp/kankyo/page/0000009050.html",
         "effort": "medium",
-        "money": "free"
+        "money": "free",
+        "municipality_id": "osaka-city"
       },
       {
         "type": "resale",
@@ -140,7 +143,8 @@
         "desc_en": "Picture books go to the next reader via city collection points. Playable toys are worth rehoming too.",
         "url": "https://www.city.osaka.lg.jp/kankyo/page/0000009050.html",
         "effort": "low",
-        "money": "free"
+        "money": "free",
+        "municipality_id": "osaka-city"
       },
       {
         "type": "give",

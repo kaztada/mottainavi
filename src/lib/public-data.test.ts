@@ -1,7 +1,13 @@
 import { describe, expect, it } from "vitest"
 import itemsFile from "../../data/municipalities/osaka-city/items.json"
 import { ItemsFileSchema } from "./schemas"
-import { SHARD_COUNT, itemShardUrl, shardOf, toSearchIndex, toShards } from "./public-data"
+import {
+  SHARD_COUNT,
+  itemShardUrl,
+  shardOf,
+  toSearchIndex,
+  toShards,
+} from "./public-data"
 
 const items = ItemsFileSchema.parse(itemsFile).items
 
@@ -22,7 +28,8 @@ describe("toShards", () => {
     expect(shards).toHaveLength(SHARD_COUNT)
     const total = shards.reduce((n, s) => n + Object.keys(s).length, 0)
     expect(total).toBe(items.length)
-    for (const item of items) expect(shards[shardOf(item.id)][item.id]).toEqual(item)
+    for (const item of items)
+      expect(shards[shardOf(item.id)][item.id]).toEqual(item)
   })
 })
 

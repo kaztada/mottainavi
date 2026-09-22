@@ -246,24 +246,25 @@ data/
 
 ```
 data/
-├── municipalities.json                  # 全国レジストリ(1,724件。git管理)
+├── municipalities.json                  # 全国レジストリ(1,741件。git管理)
 ├── municipalities/
 │   └── osaka-city/
 │       ├── municipality.json            # 出典・ライセンス・粗大申込先・取得日・prefix
 │       ├── categories.json              # この自治体の収集区分
 │       ├── items.json                   # パイプライン出力(整形済み。差分レビュー用)
 │       ├── id-map.json                  # 品目名 → 品目ID(追記専用)
-│       ├── aliases.json                 # 別名辞書(自治体固有分)
+│       ├── aliases.json                 # 別名辞書(自治体固有分。任意、共通辞書より優先)
 │       ├── reuse-overrides.json
-│       └── items.en.json
+│       └── items.en.json                # 品目名英訳(自治体固有分。任意、共通より優先)
 ├── reuse-options.json                   # 手放し導線マスタ(全国共通+自治体別)
-├── aliases.common.json                  # 全国共通の別名辞書
-└── i18n/ui.ja.json, ui.en.json
+├── aliases.common.json                  # 全国共通の別名辞書(品目名に対する別名。自治体を問わない)
+├── cache/                               # 原本キャッシュ(<slug>.html、soumu-lg-code.xlsx)
+└── i18n/ui.ja.json, ui.en.json, items.en.json(全国共通の品目名英訳)
 
 public/data/                             # prebuild で導出(.gitignore)
 └── osaka-city/
     ├── search.json                      # 検索インデックス(gzip 約34KB)
-    └── items/00.json … 31.json          # 詳細用シャード(1本あたり gzip 5〜6KB)
+    └── items/00.json … 31.json          # 詳細用シャード(1本あたり gzip 約4KB)
 ```
 
 原本は `data/` のみ。`public/data/` は `npm run build` の prebuild で毎回生成するため、
@@ -271,7 +272,7 @@ public/data/                             # prebuild で導出(.gitignore)
 
 ## 8. municipalities.json(全国レジストリ)
 
-全国1,724市区町村を1ファイルで持つ。総務省「全国地方公共団体コード」から
+全国1,741市区町村(市町村1,718+特別区23)を1ファイルで持つ。総務省「全国地方公共団体コード」から
 `scripts/build-registry.ts` で一度生成し、以後は `status` と `slug` を手で保守する。
 
 ```json
@@ -286,7 +287,7 @@ public/data/                             # prebuild で導出(.gitignore)
     "official_url": "https://www.city.osaka.lg.jp/kurashi/category/3016-1-2-0-0-0-0-0-0-0.html"
   },
   {
-    "slug": "sakai-city",
+    "slug": "osaka-sakai-city",
     "lg_code": "271403",
     "pref": "大阪府",
     "name_ja": "堺市",
@@ -320,7 +321,7 @@ v0.1 の municipalities.json 1件ぶんに相当。粗大ごみの申込先な�
   "source_type": "html-table",
   "source_license": "CC-BY 4.0",
   "source_attribution": "出典: 大阪市「品目別収集区分一覧表」(CC-BY 4.0)",
-  "official_url": "https://www.city.osaka.lg.jp/kurashi/category/3016-1-2-0-0-0-0-0-0-0.html",
+  "source_attribution_en": "Source: Osaka City \"Item Collection Category List\" (CC-BY 4.0)",
   "sodai_apply_url": "https://ecolife.e-tumo.jp/kankyo-osaka-u/",
   "sodai_tel_landline": "0120-79-0053",
   "sodai_tel_mobile": "06-6530-1530",
@@ -349,12 +350,13 @@ kind の enum(アプリ側固定):
 | paper | 古紙・紙類(衣類含む場合あり) | — |
 | bulky | 粗大ごみ | 詳細ページに申込セクション(手数料・申込URL・電話)を表示 |
 | small-appliance | 小型家電・PC等のリサイクル回収 | reuse_category を `small-appliance` と推定 |
+| maker-recycle | メーカー・販売店による回収(パソコンリサイクル等) | small-appliance の推定をしない(市の小型家電回収と別制度) |
 | hazardous | 電池・スプレー缶など危険物 | — |
 | drop-off | 拠点回収・集団回収 | — |
 | not-collected | 市が収集しない | 注意文言の欠落をパイプラインが警告(誤案内リスク最大) |
 | other | 上記に当てはまらない | — |
 
-色とアイコンは kind ごとの既定値をコード側(`src/lib/category-kind.ts`)に持ち、
+色とアイコンは kind ごとの既定値をコード側(`src/lib/category-kind.ts`。クライアントでも読むため zod 非依存)に持ち、
 自治体の categories.json で任意に上書きできる。既定値は現行の大阪市の配色をそのまま採用するため、
 Phase A で見た目は変わらない。
 
@@ -369,7 +371,7 @@ Phase A で見た目は変わらない。
 | sodai | 粗大ごみ | bulky |
 | kogata-kaden | 小型家電リサイクル回収 | small-appliance |
 | kogata-kaden-takuhai | 小型家電リサイクル回収(宅配便) | small-appliance |
-| pc-recycle | パソコンリサイクル回収 | small-appliance |
+| pc-recycle | パソコンリサイクル回収 | maker-recycle |
 | kyoten | 拠点回収 | drop-off |
 | shudan-kaishu | 資源集団回収 | drop-off |
 | li-ion | リチウムイオン電池等の回収 | hazardous |
@@ -402,7 +404,8 @@ Phase A で見た目は変わらない。
 | ファイル | 内容 | サイズ(大阪市実測) |
 |---|---|---|
 | `public/data/<muni>/search.json` | 検索インデックス(現行と同形式) | 200KB / gzip 34KB |
-| `public/data/<muni>/items/NN.json` | 詳細データ。`NN = 連番 % 32` | 1本あたり約33品目 / gzip 5〜6KB |
+| `public/data/<muni>/items/NN.json` | 詳細データ。`NN = 連番 % 32` | 1本あたり約33品目 / gzip 約4KB |
+| `public/data/municipalities.json` | 自治体選択UI用のレジストリ(slug・都道府県・名前・status のみ) | gzip 約29KB |
 
 詳細ページは品目IDからシャード番号を計算し、該当する1本だけを fetch する。
 `?v=<data_version>` を付け、`/data/*` には長期キャッシュヘッダを設定する。
@@ -422,3 +425,21 @@ Phase A で見た目は変わらない。
 
 対象キー: `app.tagline` / `search.noResultsHint` / `item.disposalHeading` /
 `footer.checkOfficial` / `about.purposeBody` / `about.unofficialBody` / `about.sourceBody`
+
+## 15. Phase A 実装で確定した事項(2026-09-23)
+
+設計(§6〜§14)から、実装時に次の点を確定・変更した。
+
+- **kind は12種**: `maker-recycle`(メーカー回収)を追加。大阪市のパソコンリサイクル7品目は従来どおり手放し導線なし(市の小型家電回収を誤案内しないため)
+- **レジストリは1,741件**: 総務省データの1,747件から、団体コードはあるが行政事務を行っていない北方領土の6村を除外
+- **slug の生成規則**(`scripts/registry/slug.ts`):
+  - カナ読みから種別の読み(し/ちょう/まち/むら/そん/く)を除いてローマ字化し、`-city` `-town` `-village` `-ku` を付ける
+  - 長音は慣用表記に寄せる(おお→o、おう→o、うう→u。例 おおさか→osaka、とうきょう→tokyo)
+  - 同名(同じslug)の自治体は都道府県を前置する。堺市は福井県の坂井市と衝突するため `osaka-sakai-city`
+  - 同じ都道府県内で読みまで同じ江差町・枝幸町は、振興局名で手動指定(`hokkaido-hiyama-esashi-town` / `hokkaido-soya-esashi-town`)
+  - **一度公開した slug は変えない**: 再生成時は団体コードが一致する既存エントリの slug・status・official_url を引き継ぐ
+  - 予約語(about / item / data / api など、URL第1階層と衝突する語)はスキーマ検証で拒否
+- **official_url はレジストリ側に持つ**(未対応自治体にも公式URLを入れられるように)。municipality.json には持たない
+- **出典表記の英語版** `source_attribution_en` を municipality.json に追加
+- **別名辞書と品目名英訳は全国共通を基本**にした(品目名に対する辞書で、自治体に依存しないため)。自治体固有分は任意ファイルで上書き
+- **レジストリ生成の出典**: 総務省「都道府県コード及び市区町村コード」(令和6年1月1日更新、Excel)。`npm run build-registry` で再生成

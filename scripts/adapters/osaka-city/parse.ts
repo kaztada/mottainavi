@@ -7,7 +7,10 @@ export type { RawDispositionRow, RawItem }
 
 /** セル内テキストの正規化: 改行・連続空白(全角含む)を単一スペースに、前後trim */
 export function cleanCellText(text: string): string {
-  return text.replace(/[\r\n\t]+/g, " ").replace(/\s+/g, " ").trim()
+  return text
+    .replace(/[\r\n\t]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
 }
 
 /**

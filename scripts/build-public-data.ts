@@ -7,7 +7,12 @@
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises"
 import { join } from "node:path"
 
-import { SHARD_COUNT, shardFileName, toSearchIndex, toShards } from "../src/lib/public-data"
+import {
+  SHARD_COUNT,
+  shardFileName,
+  toSearchIndex,
+  toShards,
+} from "../src/lib/public-data"
 import {
   ItemsFileSchema,
   MunicipalityMetaSchema,
@@ -34,15 +39,24 @@ async function main() {
     name_en,
     status,
   }))
-  await writeFile(join(PUBLIC_DATA_DIR, "municipalities.json"), JSON.stringify(slim))
+  await writeFile(
+    join(PUBLIC_DATA_DIR, "municipalities.json"),
+    JSON.stringify(slim)
+  )
 
   const supported = registry.filter((e) => e.status === "supported")
   for (const entry of supported) {
     const slug = entry.slug
-    const meta = MunicipalityMetaSchema.parse(await readJson(municipalityFile(slug, "municipality.json")))
-    const itemsFile = ItemsFileSchema.parse(await readJson(municipalityFile(slug, "items.json")))
+    const meta = MunicipalityMetaSchema.parse(
+      await readJson(municipalityFile(slug, "municipality.json"))
+    )
+    const itemsFile = ItemsFileSchema.parse(
+      await readJson(municipalityFile(slug, "items.json"))
+    )
     if (meta.slug !== slug || itemsFile.municipality_id !== slug) {
-      throw new Error(`slug の不一致: registry=${slug} meta=${meta.slug} items=${itemsFile.municipality_id}`)
+      throw new Error(
+        `slug の不一致: registry=${slug} meta=${meta.slug} items=${itemsFile.municipality_id}`
+      )
     }
 
     const dir = join(PUBLIC_DATA_DIR, slug)
@@ -53,11 +67,18 @@ async function main() {
 
     const shards = toShards(itemsFile.items)
     for (let s = 0; s < SHARD_COUNT; s++) {
-      await writeFile(join(dir, "items", shardFileName(s)), JSON.stringify(shards[s]))
+      await writeFile(
+        join(dir, "items", shardFileName(s)),
+        JSON.stringify(shards[s])
+      )
     }
-    console.log(`✓ public/data/${slug}: 検索 ${index.length} 件 / シャード ${SHARD_COUNT} 本`)
+    console.log(
+      `✓ public/data/${slug}: 検索 ${index.length} 件 / シャード ${SHARD_COUNT} 本`
+    )
   }
-  console.log(`✓ public/data/municipalities.json: ${registry.length} 自治体(対応 ${supported.length})`)
+  console.log(
+    `✓ public/data/municipalities.json: ${registry.length} 自治体(対応 ${supported.length})`
+  )
 }
 
 main().catch((err) => {

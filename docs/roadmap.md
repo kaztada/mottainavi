@@ -136,7 +136,7 @@ Phase B で設計を検証するため、「2つ目が入る前提の最小改�
 
 | # | 内容 | 主な対象 |
 |---|---|---|
-| A-1 | 全国レジストリ生成(1,724件)と自治体ディレクトリへの移行 | `scripts/build-registry.ts`、`data/municipalities.json`、`data/municipalities/osaka-city/` |
+| A-1 | 全国レジストリ生成(1,741件)と自治体ディレクトリへの移行 | `scripts/build-registry.ts`、`data/municipalities.json`、`data/municipalities/osaka-city/` |
 | A-2 | 収集区分のデータ化(自治体別ID + 共通 `kind`) | `src/lib/schemas.ts`、`src/lib/category-kind.ts`、`categories.json` |
 | A-3 | 品目IDの安定化(`id-map.json`)★既存不具合の修正 | `scripts/core/ids.ts`、`data/municipalities/osaka-city/id-map.json` |
 | A-4 | URL再編(`/[municipality]/…`)と旧URLの308転送 | `src/app/`、`next.config.ts` |
@@ -150,16 +150,16 @@ Phase B で設計を検証するため、「2つ目が入る前提の最小改�
 後戻りしにくいデータ構造とIDを先に固め、UIは後から載せる。
 
 完了条件:
-- [ ] `npm run build-data -- --municipality osaka-city` で現行と同じ1,056品目が生成され、**全品目のIDが現行と一致**する
-- [ ] 一覧表に品目を1件追加した想定テストで、既存品目のIDが変わらないことを確認(id-map の回帰テスト)
-- [ ] zodスキーマ検証パス。未解決の区分ラベル0。「収集しません」の注意文言欠落なし
-- [ ] `/item/osk-0001` が `/osaka-city/item/osk-0001` へ308転送される
-- [ ] 大阪市の全画面が現行と同じ内容・同じ見た目で表示される(区分の色・アイコン含む)
-- [ ] 未対応自治体(例 `/sakai-city`)が「対応していません+公式サイトへ」を表示し、検索UIを出さない
-- [ ] localStorage に大阪市が保存され、再訪時に `/osaka-city` へ直行する
-- [ ] Lighthouse モバイル: ホーム Perf 90+、**詳細ページ Perf 90+**、A11y 100 を実測
+- [x] `npm run build-data -- --municipality osaka-city` で現行と同じ1,056品目が生成され、**全品目のIDが現行と一致**する(改修前の出力と完全一致を確認)
+- [x] 一覧表に品目を1件追加した想定テストで、既存品目のIDが変わらないことを確認(id-map の回帰テスト)
+- [x] zodスキーマ検証パス。未解決の区分ラベル0。「収集しません」の注意文言欠落なし
+- [ ] `/item/osk-0001` が `/osaka-city/item/osk-0001` へ308転送される(ローカル確認済み。本番確認待ち)
+- [x] 大阪市の全画面が現行と同じ内容・同じ見た目で表示される(区分の色・アイコン含む。詳細12品目で本文・注意文言・色を機械比較。ヘッダに自治体切替ボタンが加わる点のみ差分)
+- [x] 未対応自治体(例 `/yokohama-city`)が「対応していません+公式サイトへ」を表示し、検索UIを出さない
+- [x] localStorage に大阪市が保存され、再訪時に `/osaka-city` へ直行する
+- [ ] Lighthouse モバイル: ホーム Perf 90+、**詳細ページ Perf 90+**、A11y 100 を実測(ローカル実測: ホーム99/詳細97/A11y100。本番計測待ち)
 - [ ] スマホ実機(iPhone Safari)で検索→詳細→自治体切替を確認
-- [ ] 既存テスト(search / parse / enrich)がパスし、id-map と kind 判定のテストが追加されている
+- [x] 既存テスト(search / parse / enrich)がパスし、id-map と kind 判定のテストが追加されている
 
 注意:
 - 大阪市のデータは既存の `data/items/osaka-city.json` から移行する。**市サイトへ再fetchしない**
@@ -167,7 +167,7 @@ Phase B で設計を検証するため、「2つ目が入る前提の最小改�
 
 ## Phase B: 2つ目の自治体投入(設計検証)★本当の分水嶺
 
-候補は堺市(近接・政令市)または横浜市(オープンデータCSVあり)。1つだけ選ぶ。
+候補は堺市(近接・政令市。slug は `osaka-sakai-city`)または横浜市(オープンデータCSVあり)。1つだけ選ぶ。
 
 やること:
 - 選んだ自治体のアダプタを1本書く(`scripts/adapters/<slug>/`)

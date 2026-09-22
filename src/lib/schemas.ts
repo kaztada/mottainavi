@@ -1,5 +1,5 @@
 import { z } from "zod"
-import { CategoryKindSchema } from "./category-kind"
+import { CATEGORY_KINDS } from "./category-kind"
 
 // ---- 共通ID ----
 
@@ -12,6 +12,8 @@ export const SlugSchema = KebabSchema
 export const ItemIdSchema = z.string().regex(/^[a-z0-9]{2,8}-\d{4}$/)
 
 // ---- 収集区分(自治体ごと) ----
+
+export const CategoryKindSchema = z.enum(CATEGORY_KINDS)
 
 /** 区分IDは自治体ごとの自由文字列。存在確認は自治体の categories.json に対して行う */
 export const CategoryIdSchema = KebabSchema

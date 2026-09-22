@@ -22,9 +22,18 @@ import {
   type ItemsFile,
   type ReuseCategoryId,
 } from "../../src/lib/schemas"
-import { extractSodaiFee, inferReuseCategory, katakanaToHiragana } from "./enrich"
+import {
+  extractSodaiFee,
+  inferReuseCategory,
+  katakanaToHiragana,
+} from "./enrich"
 import { assignIds, emptyIdMap } from "./ids"
-import { COMMON_ALIASES_PATH, COMMON_ITEMS_EN_PATH, ROOT, municipalityFile } from "./paths"
+import {
+  COMMON_ALIASES_PATH,
+  COMMON_ITEMS_EN_PATH,
+  ROOT,
+  municipalityFile,
+} from "./paths"
 import type { MunicipalityAdapter } from "./types"
 
 async function readJsonIfExists<T>(path: string): Promise<T | null> {
@@ -38,7 +47,9 @@ async function writeJson(path: string, value: unknown): Promise<void> {
 }
 
 /** kuromoji トークナイザ(ビルド時のみ使用) */
-function buildTokenizer(): Promise<kuromoji.Tokenizer<kuromoji.IpadicFeatures>> {
+function buildTokenizer(): Promise<
+  kuromoji.Tokenizer<kuromoji.IpadicFeatures>
+> {
   return new Promise((resolve, reject) => {
     kuromoji
       .builder({ dicPath: join(ROOT, "node_modules/kuromoji/dict") })
@@ -61,7 +72,10 @@ function toKana(
 }
 
 /** 共通辞書と自治体辞書をマージ(自治体側が優先) */
-async function loadMergedDict<T>(commonPath: string, localPath: string): Promise<Record<string, T>> {
+async function loadMergedDict<T>(
+  commonPath: string,
+  localPath: string
+): Promise<Record<string, T>> {
   const common = (await readJsonIfExists<Record<string, T>>(commonPath)) ?? {}
   const local = (await readJsonIfExists<Record<string, T>>(localPath)) ?? {}
   return { ...common, ...local }
@@ -81,12 +95,18 @@ export async function runPipeline(
 
   // ---- 自治体の設定 ----
   const meta = MunicipalityMetaSchema.parse(
-    JSON.parse(await readFile(municipalityFile(slug, "municipality.json"), "utf-8"))
+    JSON.parse(
+      await readFile(municipalityFile(slug, "municipality.json"), "utf-8")
+    )
   )
   const categories = CategoriesFileSchema.parse(
-    JSON.parse(await readFile(municipalityFile(slug, "categories.json"), "utf-8"))
+    JSON.parse(
+      await readFile(municipalityFile(slug, "categories.json"), "utf-8")
+    )
   )
-  const kindById = new Map<string, CategoryKind>(categories.map((c) => [c.id, c.kind]))
+  const kindById = new Map<string, CategoryKind>(
+    categories.map((c) => [c.id, c.kind])
+  )
 
   // ---- fetch ----
   const { source, fromCache, location } = await adapter.fetchSource(opts)
@@ -170,7 +190,10 @@ export async function runPipeline(
       name_romaji: toRomaji(nameKana),
       aliases: [...aliasSet],
       dispositions,
-      sodai_fee_yen: notes.reduce<number | null>((acc, n) => acc ?? extractSodaiFee(n), null),
+      sodai_fee_yen: notes.reduce<number | null>(
+        (acc, n) => acc ?? extractSodaiFee(n),
+        null
+      ),
       reuse_category: reuse,
       name_en: itemsEn[raw.name_ja] ?? null,
     })
@@ -223,9 +246,12 @@ export async function runPipeline(
       `⚠ 品目数が目安(${adapter.expectedMinItems})を下回っています: ${items.length} 件。パーサ破損の可能性を確認してください`
     )
   }
-  const prevItems = await readJsonIfExists<ItemsFile>(municipalityFile(slug, "items.json"))
+  const prevItems = await readJsonIfExists<ItemsFile>(
+    municipalityFile(slug, "items.json")
+  )
   if (prevItems && prevItems.item_count > 0) {
-    const ratio = Math.abs(items.length - prevItems.item_count) / prevItems.item_count
+    const ratio =
+      Math.abs(items.length - prevItems.item_count) / prevItems.item_count
     if (ratio > 0.1) {
       console.warn(
         `⚠ 品目数が前回から10%超変動: ${prevItems.item_count} → ${items.length}。パーサ破損の可能性を確認してください`
@@ -235,7 +261,9 @@ export async function runPipeline(
 
   // 「収集しません」系の区分で注意文言が無いのは欠落の疑い(誤案内リスク最大)
   const notCollectedWithoutNote = items.filter((i) =>
-    i.dispositions.some((d) => kindById.get(d.category_id) === "not-collected" && !d.note_ja)
+    i.dispositions.some(
+      (d) => kindById.get(d.category_id) === "not-collected" && !d.note_ja
+    )
   )
   if (notCollectedWithoutNote.length > 0) {
     console.warn(
@@ -251,7 +279,9 @@ export async function runPipeline(
   console.log(`✓ emit: ${municipalityFile(slug, "items.json")}`)
   if (JSON.stringify(idMap) !== JSON.stringify(prevIdMap)) {
     await writeJson(idMapPath, idMap)
-    console.log(`✓ emit: ${idMapPath}(新規採番 ${added.length} 件: ${added.slice(0, 5).join(", ")}${added.length > 5 ? " ..." : ""})`)
+    console.log(
+      `✓ emit: ${idMapPath}(新規採番 ${added.length} 件: ${added.slice(0, 5).join(", ")}${added.length > 5 ? " ..." : ""})`
+    )
   } else {
     console.log("✓ id-map: 変更なし(全品目が既存IDを再利用)")
   }
@@ -266,10 +296,15 @@ export async function runPipeline(
     }
   }
   console.log("区分別件数(延べ):")
-  for (const [cat, count] of [...byCategory.entries()].sort((a, b) => b[1] - a[1])) {
-    console.log(`  ${cat.padEnd(22)} ${String(count).padStart(4)}  (${kindById.get(cat)})`)
+  for (const [cat, count] of [...byCategory.entries()].sort(
+    (a, b) => b[1] - a[1]
+  )) {
+    console.log(
+      `  ${cat.padEnd(22)} ${String(count).padStart(4)}  (${kindById.get(cat)})`
+    )
   }
-  const pct = (n: number, d: number) => `${n}/${d} (${((n / Math.max(d, 1)) * 100).toFixed(1)}%)`
+  const pct = (n: number, d: number) =>
+    `${n}/${d} (${((n / Math.max(d, 1)) * 100).toFixed(1)}%)`
   const withReuse = items.filter((i) => i.reuse_category !== null)
   console.log(`reuse付与率: ${pct(withReuse.length, items.length)}`)
   const bulkyItems = items.filter((i) =>
@@ -278,8 +313,12 @@ export async function runPipeline(
   console.log(
     `粗大ごみ品目のreuse付与率: ${pct(bulkyItems.filter((i) => i.reuse_category !== null).length, bulkyItems.length)}`
   )
-  console.log(`alias付与品目数: ${items.filter((i) => i.aliases.length > 0).length}`)
-  console.log(`sodai_fee抽出数: ${items.filter((i) => i.sodai_fee_yen !== null).length}`)
+  console.log(
+    `alias付与品目数: ${items.filter((i) => i.aliases.length > 0).length}`
+  )
+  console.log(
+    `sodai_fee抽出数: ${items.filter((i) => i.sodai_fee_yen !== null).length}`
+  )
 
   if (unresolvedLabels.size > 0) {
     console.warn(`\n⚠ 未解決の区分ラベル: ${unresolvedLabels.size} 種`)

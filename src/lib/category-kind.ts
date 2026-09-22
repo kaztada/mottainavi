@@ -1,11 +1,11 @@
-import { z } from "zod"
-
 /**
  * 収集区分の「意味種別」(data-model.md §10)。
  * 区分名・区分数は自治体ごとに違うが、UIロジックとパイプラインは区分IDではなく kind で判定する。
  * 例: 粗大ごみ申込セクションの表示(bulky)、注意文言欠落チェック(not-collected)
+ *
+ * このモジュールはクライアントからも読むため zod に依存させない(スキーマは schemas.ts)。
  */
-export const CategoryKindSchema = z.enum([
+export const CATEGORY_KINDS = [
   "burnable", // 可燃・普通ごみ
   "non-burnable", // 不燃ごみ
   "recyclable", // 資源(缶・びん・PET)
@@ -18,14 +18,17 @@ export const CategoryKindSchema = z.enum([
   "drop-off", // 拠点回収・集団回収
   "not-collected", // 市が収集しない
   "other",
-])
-export type CategoryKind = z.infer<typeof CategoryKindSchema>
+] as const
+export type CategoryKind = (typeof CATEGORY_KINDS)[number]
 
 /**
  * kind ごとの既定の色・アイコン。自治体の categories.json で color/icon を省略したときに使う。
  * 値は大阪市版(v0.1)の配色を踏襲している。
  */
-export const KIND_DEFAULTS: Record<CategoryKind, { color: string; icon: string }> = {
+export const KIND_DEFAULTS: Record<
+  CategoryKind,
+  { color: string; icon: string }
+> = {
   burnable: { color: "#8E8E93", icon: "trash" },
   "non-burnable": { color: "#636366", icon: "package-x" },
   recyclable: { color: "#34C759", icon: "recycle" },
