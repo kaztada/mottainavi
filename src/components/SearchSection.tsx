@@ -2,7 +2,13 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
 import type Fuse from "fuse.js"
-import type { Category, CategoryId, SearchIndexItem } from "@/lib/schemas"
+import type {
+  Category,
+  CategoryId,
+  Municipality,
+  SearchIndexItem,
+} from "@/lib/schemas"
+import { searchIndexUrl } from "@/lib/public-data"
 import type { SearchEntry } from "@/lib/search"
 import { useLang, useT } from "@/lib/i18n"
 import { SearchBox } from "./SearchBox"
@@ -42,16 +48,18 @@ const PAGE_SIZE = 20
  */
 export function SearchSection({
   categories,
-  officialListUrl,
+  municipality,
 }: {
   categories: Category[]
-  officialListUrl: string
+  municipality: Municipality
 }) {
+  const officialListUrl = municipality.source_url
   const [rawQuery, setRawQuery] = useState("")
   const [query, setQuery] = useState("") // デバウンス後
   const [categoryFilter, setCategoryFilter] = useState<CategoryId | null>(null)
   const [limit, setLimit] = useState(PAGE_SIZE)
   const [index, setIndex] = useState<SearchIndexItem[] | null>(null)
+  const [loadError, setLoadError] = useState(false)
   const fuseRef = useRef<Fuse<SearchEntry> | null>(null)
   const { lang } = useLang()
   const t = useT()
@@ -62,14 +70,28 @@ export function SearchSection({
   const ensureSearchReady = useCallback(() => {
     if (loadStartedRef.current) return
     loadStartedRef.current = true
+    setLoadError(false)
     Promise.all([
       import("@/lib/search"),
-      import("../../data/items/osaka-city.search.json"),
-    ]).then(([lib, idx]) => {
-      searchLibRef.current = lib
-      setIndex(idx.default as SearchIndexItem[])
-    })
-  }, [])
+      fetch(searchIndexUrl(municipality.slug, municipality.data_version)).then(
+        (r) => {
+          if (!r.ok)
+            throw new Error(`検索インデックスの取得に失敗: ${r.status}`)
+          return r.json() as Promise<SearchIndexItem[]>
+        }
+      ),
+    ])
+      .then(([lib, idx]) => {
+        searchLibRef.current = lib
+        setIndex(idx)
+      })
+      .catch((err) => {
+        console.error(err)
+        // 次のインタラクションで再試行できるようにする
+        loadStartedRef.current = false
+        setLoadError(true)
+      })
+  }, [municipality.slug, municipality.data_version])
 
   // 150msデバウンス
   useEffect(() => {
@@ -102,8 +124,7 @@ export function SearchSection({
   const searching = query.trim().length > 0
   const list = searching ? results : filtered
   // 入力済みだが検索モジュール読み込み中(チップ画面に戻さない)
-  const loadingSearch =
-    (searching || categoryFilter !== null) && list === null
+  const loadingSearch = (searching || categoryFilter !== null) && list === null
 
   return (
     <div className="flex flex-col gap-6">
@@ -117,9 +138,14 @@ export function SearchSection({
         }}
       />
 
-      {loadingSearch && (
+      {loadingSearch && !loadError && (
         <p aria-live="polite" className="text-sm text-muted">
           …
+        </p>
+      )}
+      {loadError && (
+        <p role="alert" className="text-sm text-muted">
+          {t("item.loadError")}
         </p>
       )}
 
@@ -150,7 +176,10 @@ export function SearchSection({
             <div className="rounded-2xl bg-card border border-border p-5 text-sm leading-relaxed">
               <p>{t("search.noResults")}</p>
               <p className="mt-1 text-muted">
-                {t("search.noResultsHint")}{" "}
+                {t("search.noResultsHint", {
+                  municipality:
+                    lang === "en" ? municipality.name_en : municipality.name_ja,
+                })}{" "}
                 <a
                   href={officialListUrl}
                   target="_blank"
@@ -167,6 +196,7 @@ export function SearchSection({
                 <ItemCard
                   key={item.id}
                   item={item}
+                  slug={municipality.slug}
                   categoriesById={categoriesById}
                 />
               ))}

@@ -29,12 +29,13 @@ https://mottainavi.kaztada.eco
 ```bash
 npm install
 npm run dev          # 開発サーバ
-npm run build-data   # 市サイトから品目データ生成(キャッシュ優先。--refresh で再取得)
+npm run build-data -- --municipality osaka-city   # 自治体の品目データ生成(キャッシュ優先。--refresh で再取得)
+npm run build-registry   # 全国の自治体レジストリを総務省コードから再生成(通常は不要)
 npm test             # Vitest(パース・検索正規化のユニットテスト)
 npm run build        # 本番ビルド(全品目SSG)
 ```
 
-データ更新は `npm run build-data` → 差分コミット → push(Vercel が自動デプロイ)。
+データ更新は `npm run build-data -- --municipality <slug>` → 差分コミット → push(Vercel が自動デプロイ)。配信用の `public/data/` は `npm run build` の prebuild で自動生成される。
 
 ## データ出典
 

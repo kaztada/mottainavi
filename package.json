@@ -4,12 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
+    "prebuild": "tsx scripts/build-public-data.ts",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run --passWithNoTests",
     "format": "prettier --write .",
-    "build-data": "tsx scripts/build-data.ts"
+    "build-data": "tsx scripts/build-data.ts",
+    "build-registry": "tsx scripts/build-registry.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
@@ -30,6 +32,7 @@
     "cheerio": "^1.2.0",
     "eslint": "^9",
     "eslint-config-next": "15.5.20",
+    "exceljs": "^4.4.0",
     "kuromoji": "^0.1.2",
     "prettier": "^3.9.4",
     "tailwindcss": "^4",

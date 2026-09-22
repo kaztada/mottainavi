@@ -4,7 +4,6 @@ import {
   inferReuseCategory,
   katakanaToHiragana,
 } from "./enrich"
-import { normalizeLabel, resolveCategoryId } from "./category-map"
 
 describe("katakanaToHiragana", () => {
   it("カタカナをひらがなに変換する", () => {
@@ -27,53 +26,35 @@ describe("extractSodaiFee", () => {
   })
 })
 
-describe("resolveCategoryId / normalizeLabel", () => {
-  it("全角括弧・空白ゆらぎを吸収して解決する", () => {
-    expect(resolveCategoryId("小型家電リサイクル回収(宅配便)")).toBe(
-      "kogata-kaden-takuhai"
-    )
-    expect(resolveCategoryId(" 普通ごみ ")).toBe("futsu")
-    expect(resolveCategoryId("収集しません")).toBe("not-collected")
-  })
-  it("未知ラベルは null", () => {
-    expect(resolveCategoryId("謎の区分")).toBeNull()
-  })
-  it("normalizeLabel は NFKC+空白除去+括弧統一", () => {
-    expect(normalizeLabel("普通 ごみ")).toBe("普通ごみ")
-  })
-})
-
 describe("inferReuseCategory", () => {
-  it("小型家電区分 → small-appliance", () => {
+  it("small-appliance kind → small-appliance", () => {
     expect(
-      inferReuseCategory("ギターアンプ", ["kogata-kaden-takuhai"], [null])
+      inferReuseCategory("ギターアンプ", ["small-appliance"], [null])
     ).toBe("small-appliance")
   })
   it("楽器名 → instruments(小型家電区分が無い場合)", () => {
-    expect(inferReuseCategory("ギター", ["sodai"], [null])).toBe("instruments")
+    expect(inferReuseCategory("ギター", ["bulky"], [null])).toBe("instruments")
   })
-  it("粗大ごみ+家具名 → furniture", () => {
-    expect(inferReuseCategory("ソファー", ["sodai"], [null])).toBe("furniture")
+  it("bulky kind+家具名 → furniture", () => {
+    expect(inferReuseCategory("ソファー", ["bulky"], [null])).toBe("furniture")
   })
   it("絵本 → toys-baby(books-mediaより優先)", () => {
-    expect(inferReuseCategory("絵本", ["kyoten"], [null])).toBe("toys-baby")
+    expect(inferReuseCategory("絵本", ["drop-off"], [null])).toBe("toys-baby")
   })
   it("リターナブル文言 → returnable", () => {
     expect(
       inferReuseCategory(
         "一升びん",
-        ["shigen"],
+        ["recyclable"],
         ["リターナブルびんは購入店・販売店へ返却してください"]
       )
     ).toBe("returnable")
   })
   it("衣類 → clothing", () => {
-    expect(inferReuseCategory("子ども服", ["koshi-irui"], [null])).toBe(
-      "clothing"
-    )
+    expect(inferReuseCategory("子ども服", ["paper"], [null])).toBe("clothing")
   })
   it("該当なし → null", () => {
-    expect(inferReuseCategory("生ごみ", ["futsu"], [null])).toBeNull()
+    expect(inferReuseCategory("生ごみ", ["burnable"], [null])).toBeNull()
   })
 
   // 実データで見つかった誤検知の回帰テスト
@@ -81,54 +62,67 @@ describe("inferReuseCategory", () => {
     expect(
       inferReuseCategory(
         "ベッド本体(マットレス類を除く。ベッドは解体してください)",
-        ["sodai"],
+        ["bulky"],
         [null]
       )
     ).toBe("furniture")
     expect(
       inferReuseCategory(
         "紙パック(日本酒などの、内側がアルミコーティングされているもの)",
-        ["futsu"],
+        ["burnable"],
         [null]
       )
     ).toBeNull()
     expect(
-      inferReuseCategory("パソコン本体・ディスプレイ", ["pc-recycle"], [null])
+      inferReuseCategory(
+        "パソコン本体・ディスプレイ",
+        ["maker-recycle"],
+        [null]
+      )
     ).toBeNull()
+    // PCリサイクル(メーカー回収)は市の小型家電回収と別制度。small-appliance を案内しない
   })
   it("衣装ケース・衣類乾燥機・薬(服用)を clothing にしない", () => {
-    expect(inferReuseCategory("衣装ケース(衣装箱)", ["sodai"], [null])).toBeNull()
+    expect(
+      inferReuseCategory("衣装ケース(衣装箱)", ["bulky"], [null])
+    ).toBeNull()
     expect(
       inferReuseCategory("衣類乾燥機", ["not-collected"], [null])
     ).toBeNull()
     expect(
-      inferReuseCategory("薬(粉薬、錠剤で、服用する必要がなくなり余った場合)", ["futsu"], [null])
+      inferReuseCategory(
+        "薬(粉薬、錠剤で、服用する必要がなくなり余った場合)",
+        ["burnable"],
+        [null]
+      )
     ).toBeNull()
   })
   it("CDケースは books-media にしないが、CD・週刊誌はする", () => {
     expect(inferReuseCategory("CDケース", ["plastic"], [null])).toBeNull()
-    expect(inferReuseCategory("CD", ["futsu"], [null])).toBe("books-media")
-    expect(inferReuseCategory("週刊誌", ["koshi-irui"], [null])).toBe(
-      "books-media"
-    )
+    expect(inferReuseCategory("CD", ["burnable"], [null])).toBe("books-media")
+    expect(inferReuseCategory("週刊誌", ["paper"], [null])).toBe("books-media")
   })
   it("ガスコンロ・ガステーブルを furniture にしない", () => {
     expect(
-      inferReuseCategory("ガスコンロ・ガステーブル", ["sodai"], [null])
+      inferReuseCategory("ガスコンロ・ガステーブル", ["bulky"], [null])
     ).toBeNull()
   })
   it("収納系(カラーボックス・ラック)は furniture", () => {
     expect(
-      inferReuseCategory("カラーボックス(最大の辺または径が30センチメートルを超えるもの)", ["sodai"], [null])
+      inferReuseCategory(
+        "カラーボックス(最大の辺または径が30センチメートルを超えるもの)",
+        ["bulky"],
+        [null]
+      )
     ).toBe("furniture")
-    expect(inferReuseCategory("押入れ収納ラック", ["sodai"], [null])).toBe(
+    expect(inferReuseCategory("押入れ収納ラック", ["bulky"], [null])).toBe(
       "furniture"
     )
   })
   it("子ども用遊具・三輪車は toys-baby", () => {
     expect(
-      inferReuseCategory("子ども用遊具(ジム、滑り台等)", ["sodai"], [null])
+      inferReuseCategory("子ども用遊具(ジム、滑り台等)", ["bulky"], [null])
     ).toBe("toys-baby")
-    expect(inferReuseCategory("三輪車", ["futsu"], [null])).toBe("toys-baby")
+    expect(inferReuseCategory("三輪車", ["burnable"], [null])).toBe("toys-baby")
   })
 })

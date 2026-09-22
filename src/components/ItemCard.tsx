@@ -8,9 +8,11 @@ import { CategoryBadge } from "./CategoryBadge"
 /** 検索結果リストの1行。品目名+区分バッジ+粗大手数料+♻️インジケータ */
 export function ItemCard({
   item,
+  slug,
   categoriesById,
 }: {
   item: SearchIndexItem
+  slug: string
   categoriesById: Map<string, Category>
 }) {
   const { lang } = useLang()
@@ -19,7 +21,7 @@ export function ItemCard({
 
   return (
     <Link
-      href={`/item/${item.id}`}
+      href={`/${slug}/item/${item.id}`}
       className="block rounded-2xl bg-card border border-border px-4 py-3.5 shadow-[0_1px_2px_rgba(0,0,0,0.04)] active:bg-accent-soft transition-colors"
     >
       <p className="font-medium leading-snug">{showEn ? item.e : item.n}</p>
