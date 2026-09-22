@@ -94,3 +94,121 @@ mottainavi/
 - 自治体追加: data/items/[municipality-id].json を増やし、トップに自治体選択を追加するだけで済む構造を維持
 - 言語追加: ui.[lang].json と items.[lang].json の追加で対応可能に
 - 写真判定: S3のUIに「写真で調べる(準備中)」の場所だけ想定しておく(実装しない)
+
+---
+
+# 全国展開対応(v0.2 / 2026-09-22 承認)
+
+§3・§5・§7 の記述と矛盾する箇所は、この §8 以降が優先する。
+
+## 8. URL設計
+
+| パス | 内容 | 生成方法 |
+|---|---|---|
+| `/` | 自治体選択(S0) | SSG 1枚 |
+| `/[municipality]` | 検索ホーム(S1/S2) | SSG(対応自治体+未対応自治体の全件) |
+| `/[municipality]/item/[id]` | 品目詳細(S3) | rewrite → 自治体ごとのシェル1枚 |
+| `/[municipality]/about` | このサイトについて(S4) | SSG |
+| `/item/[id]`(旧) | — | 308 で `/osaka-city/item/[id]` へ転送 |
+
+URL が自治体を自己記述するため、共有リンクが受け手の localStorage 設定に左右されない。
+旧URLは `next.config.ts` の `redirects()` で恒久転送し、公開済みリンクと被リンクを引き継ぐ。
+
+自治体スラッグはレジストリの `slug`。同名自治体は都道府県を前置して衝突回避する(data-model.md §8)。
+
+## 9. 詳細ページのレンダリング方式
+
+**採用: クライアント描画(静的シェル + rewrite)**。`generateStaticParams` による全品目SSGは廃止する。
+
+比較:
+
+| 案 | 0円維持 | 品目別OGP | Lighthouse | 1,724自治体×1,000品目 |
+|---|---|---|---|---|
+| A. 全品目SSG(v0.1) | ○ | ◎ | ◎ | ✗ 約182万ページでビルド不能 |
+| B. ISR/オンデマンド生成 | △ 無料枠と Hobby 規約に依存 | ◎ | ○ | △ 関数バンドル上限 |
+| C. クライアント描画(採用) | ◎ 純静的 | ✗ | ○ | ◎ 上限なし |
+| D. 代表品目のみSSG + C | ◎ | △ 一部 | ○ | ◎ |
+
+**Bを採らない理由**: 「サーバ・DBを使わない」という本プロジェクトの前提を破り、
+0円運用が無料枠の上限と Hobby の非商用条項に依存する形になる。これは後戻りしにくい依存。
+
+**Cの仕組み**:
+1. `next.config.ts` の `rewrites()` で `/:municipality/item/:id` → `/:municipality/item`
+2. `/[municipality]/item` を自治体ごとにSSG(シェル1枚)
+3. シェルが `usePathname()` から品目IDを読み、`public/data/<muni>/items/NN.json` を fetch
+4. タイトルは `document.title` をクライアントで設定
+
+**トレードオフ(承認済み)**:
+- 品目別の OGP 画像とメタ説明は失われる。サイト共通OGPのみになる
+- 品目ページは検索エンジンにインデックスされない。長尾SEOは取りに行かない
+- 存在しないIDはソフト404(HTTP 200 + 「見つかりません」表示)になる
+- 品目別SSG(案D。対応自治体 × よく調べられる品目50件程度)は Phase B 以降の上乗せ候補。
+  SSG済みパスと rewrite の優先順位の検証が必要
+
+## 10. データ配信と遅延ロード
+
+バンドルへの静的 import(`import items from "../../data/items/osaka-city.json"`)を廃止し、
+`public/data/` からの fetch に統一する。バンドラが自治体数に比例して肥大するのを避けるため。
+
+- 検索: `/data/<muni>/search.json?v=<data_version>`(gzip 34KB)を初回インタラクション時に fetch
+- 詳細: `/data/<muni>/items/NN.json?v=<data_version>`(gzip 5〜6KB)を該当シャード1本だけ fetch
+- `next.config.ts` の `headers()` で `/data/*` に `Cache-Control: public, max-age=31536000, immutable`
+- 更新時は `data_version` が変わり、クエリ違いで新規取得される
+- 配信元URLは定数1つに集約し、将来 Blob/R2 等の外部ストレージへ差し替えられるようにする
+
+`public/data/` は `prebuild` スクリプトで `data/municipalities/**` から毎回導出する(git管理外)。
+
+## 11. パイプラインのアダプタ構造
+
+```
+scripts/
+├── build-data.ts          # CLI: --municipality <slug> [--refresh] / --all
+├── build-registry.ts      # 全国地方公共団体コードから municipalities.json を生成
+├── build-public-data.ts   # prebuild: data/ → public/data/(シャード分割)
+├── core/                  # 自治体を知らない共通処理
+│   ├── pipeline.ts        # enrich → validate → emit → id-map 更新
+│   ├── fetch-cache.ts     # 1回取得・キャッシュ優先・連続アクセス抑止を強制
+│   ├── enrich.ts, ids.ts, validate.ts, types.ts
+└── adapters/
+    └── osaka-city/
+        ├── index.ts       # Adapter 実装
+        ├── parse.ts       # 現 scripts/lib/parse.ts を移動
+        └── category-map.ts # 現 scripts/lib/category-map.ts を移動
+```
+
+Adapter の契約は2関数のみ:
+
+```ts
+interface MunicipalityAdapter {
+  slug: string
+  fetch(opts: { refresh: boolean }): Promise<string | Buffer>
+  parse(source: string | Buffer): RawItem[]  // category_id まで解決済み
+}
+```
+
+共通 core は自治体を知らず、`kind` と汎用スキーマだけで enrich / validate / emit を行う。
+Phase A は大阪市アダプタへの切り出しと CLI 引数化まで。`--all` の実装は Phase B。
+
+**データ取得方針の優先順位**:
+1. オープンデータ(CSV/Excel)— ライセンスが明示され、構造が安定
+2. 構造の安定したHTML表のスクレイピング
+3. 手作業転記(小規模自治体の最終手段)
+
+いずれも同じ Adapter 契約の実装違いとして扱い、`source_type` に由来を記録する。
+市サイトへのアクセスは core 側で1回取得+キャッシュを強制し、連続アクセスしない。
+
+## 12. パフォーマンス予算(更新)
+
+| 画面 | 目標 | 備考 |
+|---|---|---|
+| `/`(自治体選択) | LCP 2.0s以下 | 全国リスト(gzip 約40KB)は選択UIを開いたときだけ fetch |
+| `/[municipality]`(検索) | 現行維持(Perf 98) | 検索インデックスは初回インタラクション時ロード(現行どおり) |
+| `/[municipality]/item/[id]` | Perf 90+ | シェルは静的。LCP はシャード fetch(gzip 5〜6KB)の完了で決まる |
+
+詳細ページの Lighthouse モバイル 90+ 維持は Phase A の完了条件に含め、実測で確認する。
+
+## 13. 将来のデータ量(Phase C 以降の未決事項)
+
+1,724自治体 × 約1,000品目では `data/` が約1.4GB となり git リポジトリに収まらない。
+Phase A では配信元URLを定数1つに集約するところまでとし、
+外部ストレージへの移行判断は Phase C で行う。

@@ -224,3 +224,201 @@ data/
 - UI文言: `ui.ja.json` / `ui.en.json` の完全対訳(キーは共通)
 - 品目名英訳: 検索頻度が高そうな300品目を `items.en.json` に整備(Claude Codeで下訳生成 → Kazがレビュー)。英訳が無い品目は日本語名表示+区分・注意点は英語UI文言でフォロー
 - 検索は日英どちらの入力でもヒットするよう、Fuse.jsのkeysに name_ja / name_kana / aliases / name_en を含める
+
+---
+
+# 全国展開対応(v0.2 / 2026-09-22 承認)
+
+以下は Phase A(土台改修)で導入するデータ構造。§1〜§5 は大阪市単独時点の記述であり、
+矛盾する箇所はこの §6 以降が優先する。
+
+## 6. 設計方針の変更点
+
+| 論点 | v0.1(大阪市のみ) | v0.2(全国) |
+|---|---|---|
+| 収集区分 | 全自治体共通の enum 12種 | 自治体ごとに定義+アプリ共通の `kind`(意味種別)を必須付与 |
+| 品目ID | `osk-` + パース順の連番 | prefix は自治体属性。`id-map.json` で品目名↔IDを固定 |
+| データ配置 | `data/items/<muni>.json` をバンドルに同梱 | `data/municipalities/<muni>/` に原本、`public/data/<muni>/` に配信用を導出 |
+| 手放し導線 | 全品目共通 | `municipality_id` を持つ選択肢は該当自治体でのみ表示 |
+| UI文言 | 「大阪市」をベタ書き | `{municipality}` プレースホルダ |
+
+## 7. ディレクトリ構成
+
+```
+data/
+├── municipalities.json                  # 全国レジストリ(1,724件。git管理)
+├── municipalities/
+│   └── osaka-city/
+│       ├── municipality.json            # 出典・ライセンス・粗大申込先・取得日・prefix
+│       ├── categories.json              # この自治体の収集区分
+│       ├── items.json                   # パイプライン出力(整形済み。差分レビュー用)
+│       ├── id-map.json                  # 品目名 → 品目ID(追記専用)
+│       ├── aliases.json                 # 別名辞書(自治体固有分)
+│       ├── reuse-overrides.json
+│       └── items.en.json
+├── reuse-options.json                   # 手放し導線マスタ(全国共通+自治体別)
+├── aliases.common.json                  # 全国共通の別名辞書
+└── i18n/ui.ja.json, ui.en.json
+
+public/data/                             # prebuild で導出(.gitignore)
+└── osaka-city/
+    ├── search.json                      # 検索インデックス(gzip 約34KB)
+    └── items/00.json … 31.json          # 詳細用シャード(1本あたり gzip 5〜6KB)
+```
+
+原本は `data/` のみ。`public/data/` は `npm run build` の prebuild で毎回生成するため、
+二重管理にならない。
+
+## 8. municipalities.json(全国レジストリ)
+
+全国1,724市区町村を1ファイルで持つ。総務省「全国地方公共団体コード」から
+`scripts/build-registry.ts` で一度生成し、以後は `status` と `slug` を手で保守する。
+
+```json
+[
+  {
+    "slug": "osaka-city",
+    "lg_code": "271004",
+    "pref": "大阪府",
+    "name_ja": "大阪市",
+    "name_en": "Osaka City",
+    "status": "supported",
+    "official_url": "https://www.city.osaka.lg.jp/kurashi/category/3016-1-2-0-0-0-0-0-0-0.html"
+  },
+  {
+    "slug": "sakai-city",
+    "lg_code": "271403",
+    "pref": "大阪府",
+    "name_ja": "堺市",
+    "name_en": "Sakai City",
+    "status": "unsupported",
+    "official_url": null
+  }
+]
+```
+
+| フィールド | 仕様 |
+|---|---|
+| slug | URL に出る自治体ID。`^[a-z0-9-]+$`。レジストリ内で一意(zod + 重複検査で保証) |
+| lg_code | 全国地方公共団体コード6桁。オープンデータ連携の主キー |
+| status | `supported`(品目データあり) / `unsupported`(未対応) |
+| official_url | 未対応自治体でも判明していれば入れる。無ければ null |
+
+**同名自治体の slug 衝突**: 府中市(東京都/広島県)、伊達市(北海道/福島県)など。
+衝突する場合のみ都道府県を前置する(`tokyo-fuchu-city` / `hiroshima-fuchu-city`)。
+衝突しない自治体に都道府県は付けない(既存の `osaka-city` を変えないため)。
+
+## 9. 自治体別 municipality.json
+
+v0.1 の municipalities.json 1件ぶんに相当。粗大ごみの申込先など自治体固有情報を持つ。
+
+```json
+{
+  "slug": "osaka-city",
+  "item_id_prefix": "osk",
+  "source_url": "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html",
+  "source_type": "html-table",
+  "source_license": "CC-BY 4.0",
+  "source_attribution": "出典: 大阪市「品目別収集区分一覧表」(CC-BY 4.0)",
+  "official_url": "https://www.city.osaka.lg.jp/kurashi/category/3016-1-2-0-0-0-0-0-0-0.html",
+  "sodai_apply_url": "https://ecolife.e-tumo.jp/kankyo-osaka-u/",
+  "sodai_tel_landline": "0120-79-0053",
+  "sodai_tel_mobile": "06-6530-1530",
+  "data_fetched_at": "2026-07-06",
+  "data_version": "20260706"
+}
+```
+
+- `source_type`: `opendata-csv` / `html-table` / `manual`。取得手段の由来を必ず記録する
+- `data_version`: 配信JSONのキャッシュバスター(`?v=` クエリ)に使う
+- 粗大ごみ制度が無い自治体もあるため、`sodai_*` はすべて任意(null 可)
+
+## 10. categories.json の自治体別化と kind
+
+区分IDは自治体ごとの自由文字列(`^[a-z0-9-]+$`)にし、アプリ共通の `kind` を必須にする。
+**UIロジックとパイプラインは区分IDではなく kind で判定する**。
+
+kind の enum(アプリ側固定):
+
+| kind | 意味 | アプリ側の挙動 |
+|---|---|---|
+| burnable | 可燃・普通ごみ | — |
+| non-burnable | 不燃ごみ | — |
+| recyclable | 資源(缶・びん・PET) | — |
+| plastic | プラスチック資源 | — |
+| paper | 古紙・紙類(衣類含む場合あり) | — |
+| bulky | 粗大ごみ | 詳細ページに申込セクション(手数料・申込URL・電話)を表示 |
+| small-appliance | 小型家電・PC等のリサイクル回収 | reuse_category を `small-appliance` と推定 |
+| hazardous | 電池・スプレー缶など危険物 | — |
+| drop-off | 拠点回収・集団回収 | — |
+| not-collected | 市が収集しない | 注意文言の欠落をパイプラインが警告(誤案内リスク最大) |
+| other | 上記に当てはまらない | — |
+
+色とアイコンは kind ごとの既定値をコード側(`src/lib/category-kind.ts`)に持ち、
+自治体の categories.json で任意に上書きできる。既定値は現行の大阪市の配色をそのまま採用するため、
+Phase A で見た目は変わらない。
+
+大阪市の categories.json(kind 付与後):
+
+| 区分ID | name_ja | kind |
+|---|---|---|
+| futsu | 普通ごみ | burnable |
+| shigen | 資源ごみ | recyclable |
+| plastic | プラスチック資源 | plastic |
+| koshi-irui | 古紙・衣類 | paper |
+| sodai | 粗大ごみ | bulky |
+| kogata-kaden | 小型家電リサイクル回収 | small-appliance |
+| kogata-kaden-takuhai | 小型家電リサイクル回収(宅配便) | small-appliance |
+| pc-recycle | パソコンリサイクル回収 | small-appliance |
+| kyoten | 拠点回収 | drop-off |
+| shudan-kaishu | 資源集団回収 | drop-off |
+| li-ion | リチウムイオン電池等の回収 | hazardous |
+| not-collected | 収集しません | not-collected |
+
+品目の `category_id` がその自治体の categories.json に存在することを、
+パイプラインの validate とアプリのデータ読み込み時の双方で検証する。
+
+## 11. 品目IDの安定化(id-map.json)
+
+**v0.1 の不具合**: パース順の連番で採番していたため、市が一覧表に1行追加すると
+以降の全IDがずれ、公開済みURLが別の品目を指す(誤案内)。Phase A で修正する。
+
+```json
+{
+  "prefix": "osk",
+  "next_seq": 1057,
+  "map": { "アイロン": "osk-0001", "アイスノン": "osk-0002" }
+}
+```
+
+- パイプラインは品目名で `map` を引き、既存品目は同じIDを再利用する
+- 未登録の品目のみ `next_seq` から採番し、`map` に追記する
+- 削除された品目のエントリは残す(IDの再利用を防ぐ)。再登場時に同じIDへ戻る
+- 既存の1,056件は現行 items.json の値でそのまま初期化するため、公開中のURLは変わらない
+- スキーマは `^[a-z0-9]{2,8}-\d{4}$`(prefix は自治体属性)
+
+## 12. 配信データとシャード
+
+| ファイル | 内容 | サイズ(大阪市実測) |
+|---|---|---|
+| `public/data/<muni>/search.json` | 検索インデックス(現行と同形式) | 200KB / gzip 34KB |
+| `public/data/<muni>/items/NN.json` | 詳細データ。`NN = 連番 % 32` | 1本あたり約33品目 / gzip 5〜6KB |
+
+詳細ページは品目IDからシャード番号を計算し、該当する1本だけを fetch する。
+`?v=<data_version>` を付け、`/data/*` には長期キャッシュヘッダを設定する。
+
+## 13. 手放し導線の自治体別フィルタ
+
+`reuse-options.json` の選択肢に任意の `municipality_id` を追加する。
+値があればその自治体でのみ表示し、無ければ全国共通として扱う。
+
+現状 `type: "official"` の4件(大阪市の拠点回収URL)に `"osaka-city"` を付与する。
+これを行わないと、2つ目の自治体で大阪市の回収拠点を案内してしまう。
+
+## 14. UI文言のプレースホルダ化
+
+`ui.ja.json` / `ui.en.json` に含まれる「大阪市」のベタ書き7箇所を
+`{municipality}` に置き換え、描画時に自治体名を差し込む。
+
+対象キー: `app.tagline` / `search.noResultsHint` / `item.disposalHeading` /
+`footer.checkOfficial` / `about.purposeBody` / `about.unofficialBody` / `about.sourceBody`
