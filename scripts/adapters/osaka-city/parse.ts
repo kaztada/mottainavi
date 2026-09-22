@@ -1,17 +1,9 @@
 import * as cheerio from "cheerio"
 import type { Element } from "domhandler"
 
-/** パース直後の生レコード(1品目=複数区分行を集約済み) */
-export interface RawItem {
-  name_ja: string
-  rows: RawDispositionRow[]
-}
+import type { RawDispositionRow, RawItem } from "../../core/types"
 
-export interface RawDispositionRow {
-  category_label: string
-  note: string | null
-  official_link: string | null
-}
+export type { RawDispositionRow, RawItem }
 
 /** セル内テキストの正規化: 改行・連続空白(全角含む)を単一スペースに、前後trim */
 export function cleanCellText(text: string): string {

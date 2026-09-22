@@ -1,4 +1,5 @@
-import type { CategoryId, ReuseCategoryId } from "../../src/lib/schemas"
+import type { CategoryKind } from "../../src/lib/category-kind"
+import type { ReuseCategoryId } from "../../src/lib/schemas"
 
 // かな変換はアプリの検索正規化と同一ロジックを共用する
 export { katakanaToHiragana } from "../../src/lib/search"
@@ -19,11 +20,12 @@ export function extractSodaiFee(note: string | null): number | null {
 
 /**
  * reuse_category 付与ヒューリスティック(data-model.md §4)。
+ * 区分は自治体ごとに違うため、区分IDではなく kind(意味種別)で判定する。
  * 上から順に評価し、最初にマッチしたものを返す。
  */
 export function inferReuseCategory(
   name: string,
-  categoryIds: CategoryId[],
+  kinds: CategoryKind[],
   notes: (string | null)[]
 ): ReuseCategoryId | null {
   const allNotes = notes.filter(Boolean).join(" ")
@@ -43,8 +45,7 @@ export function inferReuseCategory(
   }
   // 小型家電
   if (
-    categoryIds.includes("kogata-kaden") ||
-    categoryIds.includes("kogata-kaden-takuhai")
+    kinds.includes("small-appliance")
   ) {
     return "small-appliance"
   }
@@ -68,7 +69,7 @@ export function inferReuseCategory(
   }
   // 家具(粗大ごみ かつ 家具らしい名前。コンロ・調理器具は除外)
   if (
-    categoryIds.includes("sodai") &&
+    kinds.includes("bulky") &&
     /いす|椅子|イス|チェア|棚|机|デスク|テーブル|タンス|たんす|箪笥|チェスト|ベッド|ソファ|ソファー|マットレス|鏡台|ドレッサー|食器棚|本棚|ラック|カラーボックス|靴箱|下駄箱|傘立て/.test(
       name
     ) &&

@@ -6,8 +6,9 @@ import {
   normalizeForSearch,
   searchItems,
 } from "./search"
-import { SearchIndexFileSchema } from "./schemas"
-import rawIndex from "../../data/items/osaka-city.search.json"
+import itemsFile from "../../data/municipalities/osaka-city/items.json"
+import { ItemsFileSchema, SearchIndexFileSchema } from "./schemas"
+import { toSearchIndex } from "./public-data"
 
 describe("normalizeForSearch", () => {
   it("カタカナをひらがなに変換する", () => {
@@ -33,7 +34,9 @@ describe("katakanaToHiragana", () => {
 
 // Phase 2 完了条件の統合テスト: 実データの検索インデックスでヒットを確認
 describe("実インデックスでの検索(完了条件)", () => {
-  const index = SearchIndexFileSchema.parse(rawIndex)
+  const index = SearchIndexFileSchema.parse(
+    toSearchIndex(ItemsFileSchema.parse(itemsFile).items)
+  )
   const fuse = createFuse(buildSearchEntries(index))
 
   it("「ぎたー」でギターがヒットする", () => {

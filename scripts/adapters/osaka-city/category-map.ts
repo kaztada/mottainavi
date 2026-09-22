@@ -1,10 +1,11 @@
-import type { CategoryId } from "../../src/lib/schemas"
+import type { CategoryId } from "../../../src/lib/schemas"
 
 /**
  * 市ページの収集区分ラベル → category_id のマッピング。
  * ラベルは正規化(空白除去・括弧統一)してから引く。
  */
-const LABEL_TO_ID: Record<string, CategoryId> = {
+export const LABEL_TO_ID: Record<string, CategoryId> = {
+  // 大阪市の区分ID(data/municipalities/osaka-city/categories.json と一致させる)
   普通ごみ: "futsu",
   資源ごみ: "shigen",
   プラスチック資源: "plastic",
