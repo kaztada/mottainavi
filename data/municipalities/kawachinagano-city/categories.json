@@ -1,0 +1,85 @@
+[
+  {
+    "id": "moeru",
+    "kind": "burnable",
+    "name_ja": "もえるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moenai-sodai",
+    "kind": "non-burnable",
+    "name_ja": "もえないごみ・粗大ごみ",
+    "name_en": "Non-burnable & Bulky Waste (monthly, sticker)",
+    "icon": "sofa"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(カン)",
+    "name_en": "Recyclables (Cans)"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(びん)",
+    "name_en": "Recyclables (Bottles)"
+  },
+  {
+    "id": "kinzoku",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(小型金属)",
+    "name_en": "Recyclables (Small Metal)",
+    "color": "#2F9E63",
+    "icon": "package"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(ペットボトル)",
+    "name_en": "Recyclables (PET Bottles)"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "資源ごみ(プラスチック製容器包装)",
+    "name_en": "Recyclables (Plastic Packaging)"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "資源ごみ(古紙)",
+    "name_en": "Recyclables (Paper)"
+  },
+  {
+    "id": "kofu",
+    "kind": "paper",
+    "name_ja": "資源ごみ(古布)",
+    "name_en": "Recyclables (Textiles)",
+    "color": "#C08A5E",
+    "icon": "shirt"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "回収できません",
+    "name_en": "Not Collected by City"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "通常の収集では回収できません",
+    "name_en": "Not Collected in Regular Collection"
+  },
+  {
+    "id": "haiyu",
+    "kind": "drop-off",
+    "name_ja": "廃油回収",
+    "name_en": "Used Cooking Oil Collection"
+  },
+  {
+    "id": "kobetsu",
+    "kind": "other",
+    "name_ja": "個別の出し方",
+    "name_en": "Special Handling"
+  }
+]
