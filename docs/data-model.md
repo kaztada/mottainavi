@@ -332,6 +332,7 @@ v0.1 の municipalities.json 1件ぶんに相当。粗大ごみの申込先な�
 
 - `source_type`: `opendata-csv` / `html-table` / `manual`。取得手段の由来を必ず記録する
 - `data_version`: 配信JSONのキャッシュバスター(`?v=` クエリ)に使う
+  - **items.json の中身が変わったら必ず上げる**(市のデータ更新だけでなく、手放し導線の推定などパイプラインの変更でも)。`/data/*` は1年キャッシュ(immutable)なので、上げ忘れると一度見た人のブラウザに古いデータが残る。値は変更日(`20260925`)。`data_fetched_at`(市から取得した日)は変えない
 - 粗大ごみ制度が無い自治体もあるため、`sodai_*` はすべて任意(null 可)
 
 ## 10. categories.json の自治体別化と kind
