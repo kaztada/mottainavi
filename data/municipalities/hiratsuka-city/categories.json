@@ -1,0 +1,110 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste (Batteries, Mercury, Lighters)"
+  },
+  {
+    "id": "kinzoku",
+    "kind": "recyclable",
+    "name_ja": "金属(資源再生物)",
+    "name_en": "Metal (Recyclables)"
+  },
+  {
+    "id": "akikan",
+    "kind": "recyclable",
+    "name_ja": "空き缶類(資源再生物)",
+    "name_en": "Cans (Recyclables)"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "ビン(資源再生物)",
+    "name_en": "Glass Bottles (Recyclables)"
+  },
+  {
+    "id": "haiyu",
+    "kind": "recyclable",
+    "name_ja": "廃食用油(資源再生物)",
+    "name_en": "Used Cooking Oil (Recyclables)"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "古紙類(資源再生物)",
+    "name_en": "Paper (Recyclables)"
+  },
+  {
+    "id": "nuno",
+    "kind": "paper",
+    "name_ja": "布類(資源再生物)",
+    "name_en": "Textiles (Recyclables)"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "容器包装プラスチック",
+    "name_en": "Plastic Containers & Packaging"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (reservation, fee)"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(回収ボックス)",
+    "name_en": "Small Appliances (Collection Box)"
+  },
+  {
+    "id": "recycle",
+    "kind": "maker-recycle",
+    "name_ja": "回収協力店・メーカー回収",
+    "name_en": "Retailer / Manufacturer Take-back"
+  },
+  {
+    "id": "sentei",
+    "kind": "other",
+    "name_ja": "剪定枝(無料の各戸収集)",
+    "name_en": "Pruned Branches (free pickup on request)"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "家電リサイクル法の対象",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "konnan",
+    "kind": "not-collected",
+    "name_ja": "処理困難物(市では収集しません)",
+    "name_en": "Difficult-to-Process Items (not collected by the city)"
+  },
+  {
+    "id": "sangyo",
+    "kind": "not-collected",
+    "name_ja": "産業廃棄物(市では収集しません)",
+    "name_en": "Industrial Waste (not collected by the city)"
+  }
+]
