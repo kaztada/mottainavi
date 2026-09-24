@@ -31,6 +31,11 @@ export const CategorySchema = z.object({
     .optional(),
   /** 省略時は kind の既定アイコン */
   icon: z.string().min(1).optional(),
+  /**
+   * 申込制ではないが、家具など大型の品目もこの区分で出せる。
+   * 手放し導線の家具推定で bulky と同じに扱う(表示・申込セクションには使わない)
+   */
+  accepts_large_items: z.boolean().optional(),
 })
 export type Category = z.infer<typeof CategorySchema>
 

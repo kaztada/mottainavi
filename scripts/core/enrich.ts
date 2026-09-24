@@ -22,11 +22,14 @@ export function extractSodaiFee(note: string | null): number | null {
  * reuse_category 付与ヒューリスティック(data-model.md §4)。
  * 区分は自治体ごとに違うため、区分IDではなく kind(意味種別)で判定する。
  * 上から順に評価し、最初にマッチしたものを返す。
+ * opts.largeItem: 申込制でない区分でも大型品を出せる場合(categories.json の accepts_large_items)。
+ * 家具の判定だけ bulky と同じに扱う。
  */
 export function inferReuseCategory(
   name: string,
   kinds: CategoryKind[],
-  notes: (string | null)[]
+  notes: (string | null)[],
+  opts: { largeItem?: boolean } = {}
 ): ReuseCategoryId | null {
   const allNotes = notes.filter(Boolean).join(" ")
 
@@ -75,13 +78,14 @@ export function inferReuseCategory(
   ) {
     return "books-media"
   }
-  // 家具(粗大ごみ かつ 家具らしい名前。コンロ・調理器具は除外)
+  // 家具(粗大ごみ(または大型品も出せる区分) かつ 家具らしい名前。
+  // コンロ・調理器具と、「イス」を含むだけの語(アイス・スライス)は除外)
   if (
-    kinds.includes("bulky") &&
+    (kinds.includes("bulky") || opts.largeItem === true) &&
     /いす|椅子|イス|チェア|棚|机|デスク|テーブル|タンス|たんす|箪笥|チェスト|ベッド|ソファ|ソファー|マットレス|鏡台|ドレッサー|食器棚|本棚|ラック|カラーボックス|靴箱|下駄箱|傘立て/.test(
       name
     ) &&
-    !/ガス|コンロ|クッキング|IH/.test(name)
+    !/ガス|コンロ|クッキング|IH|アイス|スライス/.test(name)
   ) {
     return "furniture"
   }
