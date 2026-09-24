@@ -10,7 +10,8 @@
     "kind": "non-burnable",
     "name_ja": "もえないごみ・粗大ごみ",
     "name_en": "Non-burnable & Bulky Waste (monthly, sticker)",
-    "icon": "sofa"
+    "icon": "sofa",
+    "accepts_large_items": true
   },
   {
     "id": "kan",

@@ -53,6 +53,25 @@ describe("inferReuseCategory", () => {
   it("衣類 → clothing", () => {
     expect(inferReuseCategory("子ども服", ["paper"], [null])).toBe("clothing")
   })
+  it("申込制でない大型品の区分(largeItem)+家具名 → furniture", () => {
+    expect(
+      inferReuseCategory("タンス", ["non-burnable"], [null], { largeItem: true })
+    ).toBe("furniture")
+    // 印のない不燃ごみは従来どおり家具にしない
+    expect(inferReuseCategory("タンス", ["non-burnable"], [null])).toBeNull()
+  })
+  it("「イス」を含むだけの品目(アイス・スライス)を furniture にしない", () => {
+    expect(inferReuseCategory("アイスピック", ["bulky"], [null])).toBeNull()
+    expect(
+      inferReuseCategory("アイスピック", ["non-burnable"], [null], {
+        largeItem: true,
+      })
+    ).toBeNull()
+    expect(inferReuseCategory("スライスカッター", ["bulky"], [null])).toBeNull()
+    expect(inferReuseCategory("パイプいす", ["bulky"], [null])).toBe(
+      "furniture"
+    )
+  })
   it("該当なし → null", () => {
     expect(inferReuseCategory("生ごみ", ["burnable"], [null])).toBeNull()
   })

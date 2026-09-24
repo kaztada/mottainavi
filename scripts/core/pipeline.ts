@@ -107,6 +107,10 @@ export async function runPipeline(
   const kindById = new Map<string, CategoryKind>(
     categories.map((c) => [c.id, c.kind])
   )
+  // 申込制でないが大型品も出せる区分(家具の手放し推定で bulky と同じに扱う)
+  const largeItemIds = new Set(
+    categories.filter((c) => c.accepts_large_items).map((c) => c.id)
+  )
 
   // ---- fetch ----
   const { source, fromCache, location } = await adapter.fetchSource(opts)
@@ -170,7 +174,9 @@ export async function runPipeline(
       const o = overrides[raw.name_ja]
       reuse = o === null ? null : ReuseCategoryIdSchema.parse(o)
     } else {
-      reuse = inferReuseCategory(raw.name_ja, kinds, notes)
+      reuse = inferReuseCategory(raw.name_ja, kinds, notes, {
+        largeItem: dispositions.some((d) => largeItemIds.has(d.category_id)),
+      })
     }
 
     // 別名マージ: 完全一致に加え、2文字以上のキーは品目名への部分一致でも付与
@@ -308,7 +314,11 @@ export async function runPipeline(
   const withReuse = items.filter((i) => i.reuse_category !== null)
   console.log(`reuse付与率: ${pct(withReuse.length, items.length)}`)
   const bulkyItems = items.filter((i) =>
-    i.dispositions.some((d) => kindById.get(d.category_id) === "bulky")
+    i.dispositions.some(
+      (d) =>
+        kindById.get(d.category_id) === "bulky" ||
+        largeItemIds.has(d.category_id)
+    )
   )
   console.log(
     `粗大ごみ品目のreuse付与率: ${pct(bulkyItems.filter((i) => i.reuse_category !== null).length, bulkyItems.length)}`
