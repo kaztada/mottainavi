@@ -6242,8 +6242,8 @@
     "pref": "神奈川県",
     "name_ja": "平塚市",
     "name_en": "Hiratsuka City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www.city.hiratsuka.kanagawa.jp/kankyo/gomi_kankyo.html"
   },
   {
     "slug": "kamakura-city",

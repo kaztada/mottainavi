@@ -1,0 +1,14 @@
+{
+  "slug": "hiratsuka-city",
+  "item_id_prefix": "hrt",
+  "source_url": "https://www.city.hiratsuka.kanagawa.jp/keikaku/page81_00019.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このデータベースは以下の著作物を改変して利用しています。ごみの分別方法一覧、平塚市、クリエイティブ・コモンズ・ライセンス 表示 4.0 国際",
+  "source_attribution_en": "Source: This database adapts \"Garbage Sorting List\", Hiratsuka City, Creative Commons Attribution 4.0 International",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": "0463-71-5100",
+  "sodai_tel_mobile": "0463-71-5100",
+  "data_fetched_at": "2026-09-25",
+  "data_version": "20260925"
+}

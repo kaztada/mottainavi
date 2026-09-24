@@ -87,6 +87,17 @@
         "municipality_id": "hirakata-city"
       },
       {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(公民館・市役所・リサイクルプラザなど)",
+        "title_en": "Drop it in a city small-appliance collection box (community centers, City Hall, Recycle Plaza, etc.)",
+        "desc_ja": "公民館や市役所などに置いてある回収ボックスに入る大きさの小型家電が対象です。中の金属が資源としてもう一働き。個人情報の入ったものは消してから。",
+        "desc_en": "Small appliances that fit the boxes at community centers, City Hall and other city facilities are collected. The metals inside get another life. Wipe personal data first.",
+        "url": "https://www.city.hiratsuka.kanagawa.jp/kankyo/page-c_01216.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "hiratsuka-city"
+      },
+      {
         "type": "resale",
         "title_ja": "動くうちに買取・フリマへ",
         "title_en": "Working items: sell or trade in",
