@@ -98,6 +98,17 @@
         "municipality_id": "hiratsuka-city"
       },
       {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(市役所・支所・協力店舗など)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall, branch offices, partner stores)",
+        "desc_ja": "投入口(25cm×10cm)に入る携帯電話・デジタルカメラ・電卓・ACアダプターなど14品目が対象です。中の金属が資源としてもう一働き。電池は外し、個人情報は消してから。",
+        "desc_en": "For 14 kinds of small devices that fit the 25 cm x 10 cm slot (phones, digital cameras, calculators, AC adapters, etc.). The metals inside get another life. Remove batteries and wipe personal data first.",
+        "url": "https://www.city.kagoshima.lg.jp/shigenseisaku/gomi/kate/dashikata/wakekata/kogatakaden.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "kagoshima-city"
+      },
+      {
         "type": "resale",
         "title_ja": "動くうちに買取・フリマへ",
         "title_en": "Working items: sell or trade in",

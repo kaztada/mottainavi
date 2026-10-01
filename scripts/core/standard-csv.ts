@@ -38,6 +38,16 @@ export interface StandardCsvConfig {
   labelSeparator?: string
   /** 品目名・注意点の半角カナを全角にする */
   fullWidthKana?: boolean
+  /**
+   * 注意点のほかに注意文言へ足す列(接頭辞を除いた列名。例: 「料金備考」「備考」)。
+   * 市がこれらの列に出し方の注意を書いているとき、原文のまま注意点の後ろに足す(注意文言を欠落させない)
+   */
+  extraNoteColumns?: readonly string[]
+  /**
+   * 品目ごとの注記(品目名 → 文言)。市の現行の案内とデータが食い違う品目に、
+   * 市のデータは書き換えずに注意文言の先頭へ添える。該当する品目が CSV に無ければエラーにする
+   */
+  itemNotes?: Record<string, string>
 }
 
 export interface StandardCsvAdapter extends MunicipalityAdapter {
@@ -78,6 +88,8 @@ export interface StandardCsvRow {
   name: string
   label: string
   note: string
+  /** extraNoteColumns の各列の値(設定が無ければ空) */
+  extra: string[]
 }
 
 /** CSV テキスト → 行オブジェクト(ヘッダ検証つき。市が列構成を変えたら気づけるように) */
@@ -93,6 +105,15 @@ export function readRows(
       `${config.name}CSVの列構成が想定と違います: ${JSON.stringify(header)}`
     )
   }
+  const extraCols = (config.extraNoteColumns ?? []).map((col) => {
+    const i = header.indexOf(config.headerPrefix + col)
+    if (i < 0) {
+      throw new Error(
+        `${config.name}CSVに列がありません: ${config.headerPrefix + col}`
+      )
+    }
+    return i
+  })
   const kana = config.fullWidthKana ? toFullWidthKana : (s: string) => s
   return rows
     .slice(1)
@@ -101,6 +122,7 @@ export function readRows(
       name: kana(r[2].trim()),
       label: r[3].trim(),
       note: kana((r[4] ?? "").trim()),
+      extra: extraCols.map((i) => kana((r[i] ?? "").trim())),
     }))
 }
 
@@ -115,19 +137,22 @@ export function splitLabels(config: StandardCsvConfig, label: string): string[] 
 
 /**
  * 市の表記を残した注意文言を作る(市の注意点は変えない)。順番は固定:
+ * 0. 品目ごとの注記(itemNote。市の現行の案内と食い違う品目だけ)
  * 1. 市では収集しない区分は「市では収集しません。」(誤案内リスク最大の区分のため、注意点が無くても必ず)
  * 2. 市の表記: 1セル2区分の原文(combinedLabel)、または区分名と違う表記を「出し方: …。」
  * 3. 区分の説明(categoryNotes)
- * 4. 市の注意点
+ * 4. 市の注意点、続けて extraNoteColumns の列(extraNotes)
  */
 export function buildNote(
   config: StandardCsvConfig,
   label: string,
   categoryId: string | null,
   rawNote: string,
-  combinedLabel: string | null = null
+  combinedLabel: string | null = null,
+  more: { itemNote?: string | null; extraNotes?: readonly string[] } = {}
 ): string | null {
   const parts: string[] = []
+  if (more.itemNote) parts.push(more.itemNote)
   if (categoryId && config.notCollectedIds?.includes(categoryId)) {
     parts.push(NOT_COLLECTED_NOTE)
   }
@@ -142,8 +167,10 @@ export function buildNote(
   }
   const categoryNote = categoryId ? config.categoryNotes?.[categoryId] : null
   if (categoryNote) parts.push(categoryNote)
-  const body = rawNote.replace(/\n{3,}/g, "\n\n").trim()
-  if (body) parts.push(body)
+  for (const raw of [rawNote, ...(more.extraNotes ?? [])]) {
+    const body = raw.replace(/\n{3,}/g, "\n\n").trim()
+    if (body) parts.push(body)
+  }
   return parts.length ? parts.join("\n") : null
 }
 
@@ -152,9 +179,12 @@ export function parseStandardCsv(
   config: StandardCsvConfig,
   csvText: string
 ): RawItem[] {
-  return readRows(config, csvText).map((r) => {
+  const itemNotes = config.itemNotes ?? {}
+  const usedItemNotes = new Set<string>()
+  const items = readRows(config, csvText).map((r) => {
     const labels = splitLabels(config, r.label)
     const combined = labels.length > 1 ? r.label : null
+    if (r.name in itemNotes) usedItemNotes.add(r.name)
     return {
       name_ja: r.name,
       rows: labels.map((label, i) => {
@@ -166,7 +196,12 @@ export function parseStandardCsv(
             label,
             categoryId,
             r.note,
-            i === 0 ? combined : null
+            i === 0 ? combined : null,
+            {
+              // 品目ごとの注記は1枚目のカードにだけ添える
+              itemNote: i === 0 ? (itemNotes[r.name] ?? null) : null,
+              extraNotes: r.extra,
+            }
           ),
           official_link: categoryId
             ? (config.officialLink[categoryId] ?? null)
@@ -175,6 +210,13 @@ export function parseStandardCsv(
       }),
     }
   })
+  const unused = Object.keys(itemNotes).filter((n) => !usedItemNotes.has(n))
+  if (unused.length > 0) {
+    throw new Error(
+      `${config.name}: itemNotes の品目が CSV にありません(品目名が変わったか、削除された可能性): ${unused.join(", ")}`
+    )
+  }
+  return items
 }
 
 /**
