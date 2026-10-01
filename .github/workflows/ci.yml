@@ -1,0 +1,60 @@
+# PR の自動検査。テスト・lint・データの再現性と版番号・ビルドを確認する(docs/tech-stack.md §15)
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: lint
+        run: npm run lint
+
+      - name: テスト
+        run: npm test
+
+      # 自治体サイトへはアクセスしない(git にあるキャッシュだけで作り直す)
+      - name: データを作り直す(オフライン)
+        run: npm run build-data -- --all
+        env:
+          MOTTAINAVI_OFFLINE: "1"
+
+      - name: データの検査(再現性・版番号・変わる品目)
+        run: npm run check-data -- --base "$BASE" --report check-data-report.md
+        env:
+          BASE: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || github.event.before }}
+
+      - name: PR にレポートをコメント
+        if: always() && github.event_name == 'pull_request' && hashFiles('check-data-report.md') != ''
+        run: |
+          gh pr comment "$PR" --edit-last --body-file check-data-report.md \
+            || gh pr comment "$PR" --body-file check-data-report.md
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+
+      - name: ビルド
+        run: npm run build

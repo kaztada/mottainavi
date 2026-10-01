@@ -46,5 +46,6 @@
 ## テスト・品質
 
 - 必須テスト: lib/search.ts の正規化関数、scripts のパース関数(Vitest)
+- PR の前に `npm run build-data -- --all` → `npm run check-data` を通す。PR では CI(GitHub Actions)と Vercel の両方が成功してからマージボタンを渡す
 - Lighthouse モバイル Perf/A11y 90+ を目標
 - スマホ実機(iPhone Safari)での確認をフェーズ完了条件に含める

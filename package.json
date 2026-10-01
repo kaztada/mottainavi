@@ -11,6 +11,7 @@
     "test": "vitest run --passWithNoTests",
     "format": "prettier --write .",
     "build-data": "tsx scripts/build-data.ts",
+    "check-data": "tsx scripts/check-data.ts",
     "build-registry": "tsx scripts/build-registry.ts"
   },
   "dependencies": {
