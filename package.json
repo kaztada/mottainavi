@@ -12,6 +12,7 @@
     "format": "prettier --write .",
     "build-data": "tsx scripts/build-data.ts",
     "check-data": "tsx scripts/check-data.ts",
+    "compare-gomisaku": "tsx scripts/tools/compare-gomisaku.ts",
     "build-registry": "tsx scripts/build-registry.ts"
   },
   "dependencies": {

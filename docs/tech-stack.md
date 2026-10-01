@@ -203,7 +203,9 @@ Phase A は大阪市アダプタへの切り出しと CLI 引数化まで。`--a
 3. 手作業転記(小規模自治体の最終手段)
 
 いずれも同じ Adapter 契約の実装違いとして扱い、`source_type` に由来を記録する。
-実例: `scripts/adapters/osaka-city/`(HTML表のスクレイピング)と `scripts/adapters/yokohama-city/`(オープンデータ CSV。CP932 の復号と RFC 4180 の CSV パーサはアダプタ内に持つ)。
+実例: `scripts/adapters/osaka-city/`(HTML表のスクレイピング)と `scripts/adapters/yokohama-city/`(独自形式のオープンデータ CSV。CP932 の復号はアダプタ内に持つ)。RFC 4180 の CSV パーサは `scripts/core/csv.ts`。
+
+**国の標準形式の CSV は共通アダプタで読む(2026-10-02)**: 自治体標準オープンデータセット「ごみの分別方法」(列名が「ごみの分別方法_品目」等)は `scripts/core/standard-csv.ts` の `createStandardCsvAdapter(config)` で読む。自治体ごとに書くのは設定(`scripts/adapters/<slug>/index.ts`)だけ: 取得元、文字コード、列名の接頭辞、区分の表記 → 区分ID、区分ごとの公式リンク、収集しない区分、区分の説明、1セル2区分の区切り、半角カナの変換。注意文言の組み立て順は固定(収集しません → 市の表記 → 区分の説明 → 市の注意点)。東大阪市と平塚市がこの形で、設定と categories.json の整合は `scripts/adapters/standard-csv-configs.test.ts` が登録済みの全自治体をまとめて検査する。Excel・PDF・HTML は形式が市ごとに違うので個別アダプタのまま。
 `npm run build-data -- --all` で登録済みの全自治体を順に生成する(1つ失敗しても残りは続け、最後に異常終了コード)。
 市サイトへのアクセスは core 側で1回取得+キャッシュを強制し、連続アクセスしない。
 
@@ -261,6 +263,7 @@ scripts/
 | `npm run build-registry` | 全国レジストリを再生成(手で保守した値は引き継ぐ) |
 | `npm run build` | prebuild で public/data を導出してからビルド |
 | `npm run check-data` | データの検査(再現性・版番号・変わる品目)。先に `build-data -- --all` を実行しておく |
+| `npm run compare-gomisaku -- --code <4桁> --csv <path>` | 市公式の分別辞典(ごみサク)と照合して、データの鮮度を確かめる(§16) |
 
 ## 15. PR の自動検査(CI、2026-10-02)
 
@@ -277,3 +280,9 @@ scripts/
 ローカルでも同じ検査ができる: コミットしてから `npm run build-data -- --all` → `npm run check-data`(比較元は既定で origin/main。`--base <ref>` で変更可)。
 
 本番への反映(マージ)は人が行う。マージボタンを渡す前に、Vercel と CI の両方が成功していることを確認する。
+
+## 16. 自治体追加の手順(2026-10-02)
+
+開発のパイプライン化の第2段階。自治体の追加は、手順書 `.claude/skills/add-municipality/SKILL.md` のとおりに進める(「〇〇市を追加して」で起動)。流れは 調査 → 鮮度の照合 → **Kaz が入れるか保留かを決める** → 実装 → 検証 → PR → **Kaz がマージ** → 本番確認 → 記録。これまでの教訓(申込制でない粗大ごみを bulky にしない、収集しない区分の注意文言、出典の書式など)も手順書にまとめてある。
+
+鮮度の照合には `npm run compare-gomisaku -- --code <4桁> (--csv <path> | --municipality <slug>)` を使う(`scripts/tools/`)。市公式のネット版分別辞典「ごみサク」と品目名で突き合わせ、区分が食い違う候補と、危険物など個別に確認する品目を出す。ごみサクのデータは照合に使うだけでリポジトリには置かない(利用条件が不明のため、OS の一時フォルダに1回だけ取得)。ごみサクのほうが古いこともあるので、結果は判断材料として扱う。
