@@ -260,3 +260,20 @@ scripts/
 | `npm run build-data -- --municipality osaka-city` | 自治体の品目データを生成(キャッシュ優先) |
 | `npm run build-registry` | 全国レジストリを再生成(手で保守した値は引き継ぐ) |
 | `npm run build` | prebuild で public/data を導出してからビルド |
+| `npm run check-data` | データの検査(再現性・版番号・変わる品目)。先に `build-data -- --all` を実行しておく |
+
+## 15. PR の自動検査(CI、2026-10-02)
+
+開発のパイプライン化の第1段階(roadmap.md「開発の自動化」)。GitHub Actions(`.github/workflows/ci.yml`)が、PR と main への push のたびに次を実行する。公開リポジトリなので無料。
+
+1. `npm run lint` / `npm test`
+2. `MOTTAINAVI_OFFLINE=1 npm run build-data -- --all` — git にあるキャッシュだけで全自治体のデータを作り直す。**CI から自治体サイトへはアクセスしない**(キャッシュが無ければ取得せずエラー。`scripts/core/fetch-cache.ts`)
+3. `npm run check-data`(`scripts/check-data.ts`、比較ロジックは `scripts/core/data-check.ts`)
+   - **再現性**: コミットされた items.json / id-map.json が、パイプラインの出力と一致すること(generated_at は無視)。作り直し忘れ、手での書き換え、共通コードの変更による他市への波及を検出する
+   - **版番号**: 比較元(PR のマージ先)から品目データの中身が変わった自治体は、`data_version` も変わっていること。`/data/*` は1年キャッシュなので、上げ忘れると一度見たブラウザに古いデータが残る(2026-09-25 に実際に起きた)
+   - **変わる品目の一覧**: 自治体ごとの追加・削除・変更を PR にコメントする(合否には使わない。人が「良い変化か」を確認するため)
+4. `npm run build`
+
+ローカルでも同じ検査ができる: コミットしてから `npm run build-data -- --all` → `npm run check-data`(比較元は既定で origin/main。`--base <ref>` で変更可)。
+
+本番への反映(マージ)は人が行う。マージボタンを渡す前に、Vercel と CI の両方が成功していることを確認する。

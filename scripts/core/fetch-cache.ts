@@ -10,6 +10,12 @@ const USER_AGENT = "mottainavi/0.2 (personal recycling-guide project)"
  * キャッシュが無いとき(または refresh=true)の1回のみ。連続アクセスしない。
  */
 async function fetchBytes(url: string): Promise<Buffer> {
+  // CI など、自治体サイトへ出てはいけない環境ではキャッシュ必須にする
+  if (process.env.MOTTAINAVI_OFFLINE === "1") {
+    throw new Error(
+      `オフライン実行(MOTTAINAVI_OFFLINE=1)のため取得しません。キャッシュがありません: ${url}`
+    )
+  }
   const res = await fetch(url, { headers: { "User-Agent": USER_AGENT } })
   if (!res.ok) {
     throw new Error(`取得失敗: ${res.status} ${res.statusText} (${url})`)
