@@ -1,0 +1,110 @@
+[
+  {
+    "id": "moyaseru",
+    "kind": "burnable",
+    "name_ja": "もやせるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moyasenai",
+    "kind": "non-burnable",
+    "name_ja": "もやせないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "kinzoku",
+    "kind": "recyclable",
+    "name_ja": "金属類",
+    "name_en": "Metal (Recyclables)"
+  },
+  {
+    "id": "kan-bin",
+    "kind": "recyclable",
+    "name_ja": "缶・びん",
+    "name_en": "Cans & Bottles"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "denkyu",
+    "kind": "recyclable",
+    "name_ja": "電球・蛍光灯",
+    "name_en": "Light Bulbs & Fluorescent Tubes"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック容器類",
+    "name_en": "Plastic Containers & Packaging"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "古紙",
+    "name_en": "Paper (Recyclables)"
+  },
+  {
+    "id": "irui",
+    "kind": "paper",
+    "name_ja": "衣類",
+    "name_en": "Clothing (Recyclables)"
+  },
+  {
+    "id": "kandenchi",
+    "kind": "hazardous",
+    "name_ja": "乾電池",
+    "name_en": "Dry-cell Batteries"
+  },
+  {
+    "id": "juden",
+    "kind": "hazardous",
+    "name_ja": "小型充電式電池等",
+    "name_en": "Small Rechargeable Batteries & Devices"
+  },
+  {
+    "id": "spray",
+    "kind": "hazardous",
+    "name_ja": "スプレー缶類",
+    "name_en": "Spray Cans & Gas Cartridges"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (reservation, fee)"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(回収ボックス)",
+    "name_en": "Small Appliances (Collection Box)"
+  },
+  {
+    "id": "sentei",
+    "kind": "other",
+    "name_ja": "剪定枝(戸別収集の申込み・自己処理)",
+    "name_en": "Pruned Branches (pickup on request)"
+  },
+  {
+    "id": "mochikomi",
+    "kind": "drop-off",
+    "name_ja": "水銀製品(市の窓口へ持ち込み)",
+    "name_en": "Mercury Items (bring to a city office)"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "リサイクル家電(市では収集しません)",
+    "name_en": "Home Appliance Recycling Law Items (not collected by the city)"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "収集・受入しない",
+    "name_en": "Not Collected or Accepted by the City"
+  }
+]

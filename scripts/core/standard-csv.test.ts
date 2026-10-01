@@ -176,6 +176,45 @@ describe("parseStandardCsv", () => {
     expect(items[0].rows[0].note).toBe("回収ボックスへ。\n\n詳しくはこちら")
     expect(items[1].rows[0].official_link).toBe(base.officialLink.sodai)
   })
+  it("extraNoteColumns の列を、注意点の後ろに原文のまま足す", () => {
+    const cfg = { ...base, extraNoteColumns: ["料金備考", "備考"] }
+    const text =
+      header(cfg.headerPrefix) +
+      "462012,kg1,いす,可燃ごみ,袋に入らなければ粗大ごみ,無料,-,粗大ごみの料金に準じる,申し込みは電話で\n" +
+      "462012,kg2,割りばし,可燃ごみ,,無料,-,,\n" +
+      "462012,kg3,消火器,処理困難物,,無料,-,,指定の引取り場所へ\n"
+    const items = parseStandardCsv(cfg, text)
+    expect(items[0].rows[0].note).toBe(
+      "袋に入らなければ粗大ごみ\n粗大ごみの料金に準じる\n申し込みは電話で"
+    )
+    expect(items[1].rows[0].note).toBeNull()
+    expect(items[2].rows[0].note).toBe(
+      `${NOT_COLLECTED_NOTE}\n指定の引取り場所へ`
+    )
+    // 設定した列が CSV に無ければエラー
+    expect(() =>
+      parseStandardCsv({ ...base, extraNoteColumns: ["謎の列"] }, text)
+    ).toThrow("謎の列")
+  })
+  it("itemNotes は市のデータを変えずに注意文言の先頭へ添え、該当品目が無ければエラー", () => {
+    const text =
+      header(base.headerPrefix) +
+      "462012,kg1,化粧品の容器<プラ製>,可燃ごみ,洗って出す,,,,\n" +
+      "462012,kg2,割りばし,可燃ごみ,,,,,\n"
+    const cfg = {
+      ...base,
+      itemNotes: { "化粧品の容器<プラ製>": "※注: 市のページでは別の区分です。" },
+    }
+    const items = parseStandardCsv(cfg, text)
+    expect(items[0].rows[0].category_label).toBe("可燃ごみ")
+    expect(items[0].rows[0].note).toBe(
+      "※注: 市のページでは別の区分です。\n洗って出す"
+    )
+    expect(items[1].rows[0].note).toBeNull()
+    expect(() =>
+      parseStandardCsv({ ...base, itemNotes: { 無い品目: "注記" } }, text)
+    ).toThrow("無い品目")
+  })
   it("列構成や接頭辞が違えばエラー", () => {
     expect(() => readRows(base, "品目,分別区分\na,b\n")).toThrow("テスト市")
     expect(() => readRows(base, header("ゴミの分別方法_") + "1,,a,b,\n")).toThrow()

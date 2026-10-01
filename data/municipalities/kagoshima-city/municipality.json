@@ -1,0 +1,14 @@
+{
+  "slug": "kagoshima-city",
+  "item_id_prefix": "kag",
+  "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このデータベースは以下の著作物を改変して利用しています。ごみの分別一覧、鹿児島市、CC BY 4.0(https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "source_attribution_en": "Source: This database adapts \"Garbage Sorting List\", Kagoshima City, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+  "sodai_apply_url": "https://sodaigomi-city-kagoshima.jp/kagoshima/Web/login",
+  "sodai_tel_landline": "099-806-8141",
+  "sodai_tel_mobile": "099-806-8141",
+  "data_fetched_at": "2026-10-02",
+  "data_version": "20261002"
+}
