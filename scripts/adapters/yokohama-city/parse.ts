@@ -1,5 +1,5 @@
 import type { RawDispositionRow, RawItem } from "../../core/types"
-import { parseCsv } from "./csv"
+import { parseCsv } from "../../core/csv"
 import {
   CATEGORY_NAME,
   KOGATA_BOX_LABEL,

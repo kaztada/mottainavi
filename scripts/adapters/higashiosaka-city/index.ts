@@ -1,30 +1,79 @@
-import { join } from "node:path"
-import { fetchWithCache } from "../../core/fetch-cache"
-import { CACHE_DIR } from "../../core/paths"
-import type { MunicipalityAdapter } from "../../core/types"
-import { resolveCategoryId } from "./category-map"
-import { parseHigashiosakaCsv } from "./parse"
+import {
+  type StandardCsvConfig,
+  createStandardCsvAdapter,
+} from "../../core/standard-csv"
 
 /**
  * 東大阪市「ゴミの分別方法一覧」(BODIK オープンデータ、CC BY 4.0、UTF-8 CSV)。
+ * 国の標準形式なので共通アダプタ(scripts/core/standard-csv.ts)の設定だけを書く。
  * 市の品目IDは空欄のため、品目IDは共通パイプラインの id-map で品目名から採番する。
- * 更新時は BODIK のデータセット(272272_28)で新しい CSV の URL を確認して SOURCE_URL を差し替える。
+ * 更新時は BODIK のデータセット(272272_28)で新しい CSV の URL を確認して sourceUrl を差し替える。
  */
-const SOURCE_URL =
-  "https://data.bodik.jp/dataset/79c62354-752d-4f88-a63c-168c15481ff9/resource/4e103a30-3af6-43f1-ac71-9c5145844576/download/272272_garbage_separation.csv"
-const CACHE_PATH = join(CACHE_DIR, "higashiosaka-city.csv")
+const BASE = "https://www.city.higashiosaka.lg.jp/"
+const GUIDE = BASE + "0000030162.html" // ごみの分け方・出し方(保存版)
 
-export const higashiosakaCityAdapter: MunicipalityAdapter = {
+export const higashiosakaCityConfig: StandardCsvConfig = {
   slug: "higashiosaka-city",
-  async fetchSource({ refresh }) {
-    const { html, fromCache } = await fetchWithCache(
-      SOURCE_URL,
-      CACHE_PATH,
-      refresh
-    )
-    return { source: html, fromCache, location: CACHE_PATH }
-  },
-  parse: parseHigashiosakaCsv,
-  resolveCategoryId,
+  name: "東大阪市",
+  sourceUrl:
+    "https://data.bodik.jp/dataset/79c62354-752d-4f88-a63c-168c15481ff9/resource/4e103a30-3af6-43f1-ac71-9c5145844576/download/272272_garbage_separation.csv",
+  encoding: "utf-8",
+  headerPrefix: "ゴミの分別方法_",
   expectedMinItems: 850,
+  // 表記ゆれ(「かんびん」「家庭ごみ(もえるもの）」等)はここで吸収する
+  labelToId: {
+    "家庭ごみ(もえる物)": "katei",
+    "家庭ごみ(もえるもの)": "katei",
+    "不燃の小物(もえない小物)": "funen",
+    "不燃の小物(燃えないごみ)": "funen",
+    "あきかん・あきびん": "kan-bin",
+    かんびん: "kan-bin",
+    プラスチック製容器包装: "plastic",
+    ペットボトル: "pet",
+    大型ごみ: "ogata",
+    小型家電回収ボックス: "kogata-box",
+    地域の集団回収へ: "shudan",
+    拠点回収: "kyoten",
+    回収協力店: "kyoryokuten",
+    JBRCの回収協力店の回収BOXへ: "kyoryokuten",
+    電池工業会の回収BOXへ: "kyoryokuten",
+    不可: "fuka",
+    在宅医療廃棄物収集: "kobetsu",
+    "電話申込・持ち込み": "kobetsu",
+  },
+  officialLink: {
+    katei: GUIDE,
+    funen: BASE + "0000035308.html",
+    "kan-bin": GUIDE,
+    plastic: BASE + "0000000180.html",
+    pet: BASE + "0000000180.html",
+    ogata: BASE + "0000023472.html",
+    "kogata-box": BASE + "0000012601.html",
+    shudan: GUIDE,
+    kyoten: BASE + "0000010406.html",
+    kyoryokuten: BASE + "0000010406.html",
+    fuka: GUIDE,
+    kobetsu: GUIDE,
+  },
+  notCollectedIds: ["fuka"],
+  // これ以外で区分名と違う表記(回収協力店の種類・個別指示)は「出し方: …。」として残す
+  sameAsCategory: new Set([
+    "家庭ごみ(もえる物)",
+    "家庭ごみ(もえるもの)",
+    "不燃の小物(もえない小物)",
+    "不燃の小物(燃えないごみ)",
+    "あきかん・あきびん",
+    "かんびん",
+    "プラスチック製容器包装",
+    "ペットボトル",
+    "大型ごみ",
+    "小型家電回収ボックス",
+    "地域の集団回収へ",
+    "拠点回収",
+    "不可",
+  ]),
 }
+
+export const higashiosakaCityAdapter = createStandardCsvAdapter(
+  higashiosakaCityConfig
+)
