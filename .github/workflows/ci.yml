@@ -5,7 +5,7 @@ on:
   pull_request:
   push:
     branches: [main]
-  # データ更新の見張りが作った PR 用(ボットの PR では自動で走らないため、ここから起動する)
+  # 手動で検査だけ走らせたいとき用(gh workflow run ci.yml --ref <ブランチ>)
   workflow_dispatch:
 
 concurrency:
