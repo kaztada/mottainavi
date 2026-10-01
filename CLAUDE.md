@@ -46,6 +46,7 @@
 ## テスト・品質
 
 - 必須テスト: lib/search.ts の正規化関数、scripts のパース関数(Vitest)
+- データ更新(週1回の見張りが作る PR・Issue への対応)は `.claude/skills/update-municipality-data/SKILL.md` の手順で行う。取得元の URL は `data/municipalities/<slug>/source.json`
 - 自治体の追加は `.claude/skills/add-municipality/SKILL.md` の手順で行う(調査 → 照合 → Kaz の判断 → 実装 → 検証 → PR → 本番確認 → 記録)
 - PR の前に `npm run build-data -- --all` → `npm run check-data` を通す。PR では CI(GitHub Actions)と Vercel の両方が成功してからマージボタンを渡す
 - Lighthouse モバイル Perf/A11y 90+ を目標

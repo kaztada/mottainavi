@@ -15,7 +15,7 @@ import {
 const base: StandardCsvConfig = {
   slug: "test-city",
   name: "テスト市",
-  sourceUrl: "https://example.com/gomi.csv",
+  watch: { kind: "ckan", api: "https://example.com/api" },
   encoding: "utf-8",
   headerPrefix: "ごみの分別方法_",
   expectedMinItems: 1,

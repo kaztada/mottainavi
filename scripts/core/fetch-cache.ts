@@ -23,6 +23,11 @@ async function fetchBytes(url: string): Promise<Buffer> {
   return Buffer.from(await res.arrayBuffer())
 }
 
+/** キャッシュを使わない取得(データ更新の見張り用。1回の確認につき1回だけ呼ぶこと) */
+export async function fetchFresh(url: string): Promise<Buffer> {
+  return fetchBytes(url)
+}
+
 /** テキスト(HTML/CSV)をキャッシュ優先で取得 */
 export async function fetchWithCache(
   url: string,

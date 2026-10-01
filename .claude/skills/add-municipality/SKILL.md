@@ -59,7 +59,7 @@ CLAUDE.md の「プラン → 承認 → 実装」に従い、プランモード
 
 共通アダプタ(`scripts/core/standard-csv.ts`)を使う。書くのは設定とデータだけ。手本は `scripts/adapters/hiratsuka-city/index.ts` と `scripts/adapters/higashiosaka-city/index.ts`。
 
-1. `scripts/adapters/<slug>/index.ts` — `StandardCsvConfig`(取得元、文字コード、列名の接頭辞、区分の表記 → 区分ID、公式リンク、収集しない区分、区分の説明)
+1. `scripts/adapters/<slug>/index.ts` — `StandardCsvConfig`(更新の見張り方 `watch`、文字コード、列名の接頭辞、区分の表記 → 区分ID、公式リンク、収集しない区分、区分の説明)。取得元の URL は `data/municipalities/<slug>/source.json`(`file_url` と `fingerprint`。`fingerprint` は空文字で始めれば、最初の見張りが記録する)
 2. `scripts/adapters/index.ts` に1行追加
 3. `data/municipalities/<slug>/categories.json`、`municipality.json`、`reuse-overrides.json`(最初は `{}`)
 4. `data/municipalities.json` の該当行を `supported` にし、`official_url` を入れる

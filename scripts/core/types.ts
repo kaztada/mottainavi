@@ -28,4 +28,17 @@ export interface MunicipalityAdapter {
   resolveCategoryId(label: string): string | null
   /** 品目数がこれを下回ったらパーサ破損を疑って警告する */
   expectedMinItems: number
+  /** データ更新の見張り方(tech-stack.md §17)。無ければ見張らない */
+  watch?: WatchSpec
+  /** 更新を検出しても自動では作り直せない理由(あれば、作り直さずに知らせる) */
+  manualUpdateReason?: string
 }
+
+/** データ更新の検出方法。週1回、対象を1回だけ取得して前回の目印(fingerprint)と比べる */
+export type WatchSpec =
+  /** BODIK(CKAN)の API。いちばん新しい CSV のリソースの URL と更新日時を見る */
+  | { kind: "ckan"; api: string; resourceName?: RegExp }
+  /** 掲載ページの中の、データファイルへのリンク(リンクの文言で特定する) */
+  | { kind: "page-link"; pageUrl: string; linkText: RegExp }
+  /** ページ自体がデータ。select で選んだ内容のハッシュを見る */
+  | { kind: "page-content"; pageUrl: string; select: (html: string) => string }

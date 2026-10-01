@@ -1,0 +1,148 @@
+# データ更新の見張り(docs/tech-stack.md §17)。
+# 週1回、各市の掲載ページ(または BODIK の API)を1回ずつ見て、データが更新されていれば
+# 作り直して PR を作る。自動では直せないものは Issue で知らせる。マージは人が行う。
+name: データ更新の見張り
+
+on:
+  schedule:
+    - cron: "0 21 * * 0" # 毎週月曜 6:00(日本時間)
+  workflow_dispatch:
+    inputs:
+      apply:
+        description: "更新があれば作り直して PR を作る(オフなら確認だけ)"
+        type: boolean
+        default: true
+  # 見張りの仕組みを変える PR では、確認だけを実行して動作を確かめる(何も書き換えない)
+  pull_request:
+    paths:
+      - ".github/workflows/update-data.yml"
+      - "scripts/update-data.ts"
+      - "scripts/core/watch.ts"
+      - "scripts/core/update.ts"
+
+concurrency:
+  group: update-data
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+  actions: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      APPLY: ${{ github.event_name == 'schedule' || (github.event_name == 'workflow_dispatch' && inputs.apply) }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # 前回の自動 PR がまだ開いていれば、同じ更新をもう一度 PR にしない(今週は確認だけ)
+      - name: 開いたままの自動 PR を数える
+        id: open
+        run: |
+          n=$(gh pr list --state open --json headRefName --jq '[.[] | select(.headRefName | startswith("auto/data-update-"))] | length')
+          echo "count=$n" >> "$GITHUB_OUTPUT"
+
+      - name: 更新の確認と作り直し
+        id: upd
+        run: |
+          if [ "$APPLY" = "true" ] && [ "${{ steps.open.outputs.count }}" = "0" ]; then
+            npm run update-data -- --all --apply --report update-report.md --issues update-issues.md
+          else
+            npm run update-data -- --all --report update-report.md --issues update-issues.md
+          fi
+
+      - name: ブランチにコミット
+        if: steps.upd.outputs.changed == 'true'
+        env:
+          TITLE: ${{ steps.upd.outputs.title }}
+        run: |
+          BRANCH="auto/data-update-$(TZ=Asia/Tokyo date +%Y%m%d)-${{ github.run_number }}"
+          echo "BRANCH=$BRANCH" >> "$GITHUB_ENV"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$BRANCH"
+          git add data/
+          git commit -m "$TITLE"
+
+      - name: lint
+        if: steps.upd.outputs.changed == 'true'
+        run: npm run lint
+
+      - name: テスト
+        if: steps.upd.outputs.changed == 'true'
+        run: npm test
+
+      # コミットした内容が、キャッシュからの作り直しと一致すること・版番号を上げていることを確かめる
+      - name: データの検査(再現性・版番号・変わる品目)
+        if: steps.upd.outputs.changed == 'true'
+        run: |
+          npm run build-data -- --all
+          npm run check-data -- --base origin/main --report check-data-report.md
+          git checkout -- data/
+        env:
+          MOTTAINAVI_OFFLINE: "1"
+
+      - name: ビルド
+        if: steps.upd.outputs.changed == 'true'
+        run: npm run build
+
+      - name: PR を作る
+        if: steps.upd.outputs.changed == 'true'
+        env:
+          TITLE: ${{ steps.upd.outputs.title }}
+        run: |
+          git push origin "$BRANCH"
+          {
+            cat update-report.md
+            echo
+            cat check-data-report.md
+            echo
+            echo "---"
+            echo "週1回の見張り(GitHub Actions)が自動で作った PR です。内容を確認してからマージしてください。Claude に「PR を確認して」と伝えると、確認の観点に沿って見ます。"
+          } > pr-body.md
+          if gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file pr-body.md; then
+            # ボットが作った PR では CI が自動で走らないので、手動起動の口から走らせる
+            gh workflow run ci.yml --ref "$BRANCH"
+          else
+            {
+              echo "## PR を作れませんでした"
+              echo
+              echo "更新したデータはブランチ \`$BRANCH\` にあります。GitHub Actions に PR の作成を許可する設定(Settings → Actions → General → Workflow permissions)がオフの可能性があります。"
+              echo "Claude に「データ更新を進めて」と伝えると、このブランチから PR を作ります。"
+              echo
+              cat update-report.md
+            } >> update-issues.md
+            echo "PR_FAILED=true" >> "$GITHUB_ENV"
+          fi
+
+      - name: 対応が必要なものを Issue で知らせる
+        if: github.event_name != 'pull_request' && (steps.upd.outputs.needs_attention == 'true' || env.PR_FAILED == 'true')
+        run: |
+          TITLE="データ更新: 対応が必要です"
+          existing=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number --jq '.[0].number // empty')
+          if [ -n "$existing" ]; then
+            gh issue comment "$existing" --body-file update-issues.md
+          else
+            gh issue create --title "$TITLE" --body-file update-issues.md
+          fi
+
+      # 仕組みを変える PR では、確認できない市があれば失敗にして気づけるようにする
+      - name: 確認できなかった市があれば失敗にする(PR のとき)
+        if: github.event_name == 'pull_request' && steps.upd.outputs.needs_attention == 'true'
+        run: |
+          cat update-issues.md
+          exit 1
