@@ -25,6 +25,7 @@ export function municipalityFile(
     | "aliases.json"
     | "reuse-overrides.json"
     | "items.en.json"
+    | "source.json"
 ): string {
   return join(municipalityDir(slug), name)
 }

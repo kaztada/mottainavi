@@ -3,6 +3,7 @@ import { readFile, writeFile } from "node:fs/promises"
 import { join } from "node:path"
 import { fetchBinaryWithCache } from "../../core/fetch-cache"
 import { CACHE_DIR } from "../../core/paths"
+import { readSource } from "../../core/source"
 import type { MunicipalityAdapter } from "../../core/types"
 import {
   KOGATA_BOX_LABEL,
@@ -14,15 +15,19 @@ import { parseYokohamaCsv } from "./parse"
 /**
  * 横浜市「ごみと資源物の出し方一覧表」(オープンデータ、CC BY 4.0)。
  * 原本は CP932 の CSV。キャッシュは UTF-8 に復号したものを置く(data/cache/yokohama-city.csv)。
- * 更新時は横浜市オープンデータポータルで新しい CSV の URL を確認して SOURCE_URL を差し替える。
+ * 取得元の URL は data/municipalities/yokohama-city/source.json。更新は掲載ページのリンクで見張る(scripts/update-data.ts)。
  */
-const SOURCE_URL =
-  "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.files/0141_20260209.csv"
 const CACHE_PATH = join(CACHE_DIR, "yokohama-city.csv")
 const RAW_CACHE_PATH = join(CACHE_DIR, "yokohama-city.cp932.csv")
 
 export const yokohamaCityAdapter: MunicipalityAdapter = {
   slug: "yokohama-city",
+  watch: {
+    kind: "page-link",
+    pageUrl:
+      "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
+    linkText: /ごみと資源物の出し方一覧表.*CSV/,
+  },
   async fetchSource({ refresh }) {
     if (!refresh && existsSync(CACHE_PATH)) {
       return {
@@ -32,7 +37,7 @@ export const yokohamaCityAdapter: MunicipalityAdapter = {
       }
     }
     const { data } = await fetchBinaryWithCache(
-      SOURCE_URL,
+      readSource("yokohama-city").file_url,
       RAW_CACHE_PATH,
       refresh
     )

@@ -7,7 +7,7 @@ import {
  * 東大阪市「ゴミの分別方法一覧」(BODIK オープンデータ、CC BY 4.0、UTF-8 CSV)。
  * 国の標準形式なので共通アダプタ(scripts/core/standard-csv.ts)の設定だけを書く。
  * 市の品目IDは空欄のため、品目IDは共通パイプラインの id-map で品目名から採番する。
- * 更新時は BODIK のデータセット(272272_28)で新しい CSV の URL を確認して sourceUrl を差し替える。
+ * 取得元の URL は data/municipalities/higashiosaka-city/source.json。更新は BODIK の API で見張る(scripts/update-data.ts)。
  */
 const BASE = "https://www.city.higashiosaka.lg.jp/"
 const GUIDE = BASE + "0000030162.html" // ごみの分け方・出し方(保存版)
@@ -15,8 +15,7 @@ const GUIDE = BASE + "0000030162.html" // ごみの分け方・出し方(保存�
 export const higashiosakaCityConfig: StandardCsvConfig = {
   slug: "higashiosaka-city",
   name: "東大阪市",
-  sourceUrl:
-    "https://data.bodik.jp/dataset/79c62354-752d-4f88-a63c-168c15481ff9/resource/4e103a30-3af6-43f1-ac71-9c5145844576/download/272272_garbage_separation.csv",
+  watch: { kind: "ckan", api: "https://data.bodik.jp/api/3/action/package_show?id=272272_28" },
   encoding: "utf-8",
   headerPrefix: "ゴミの分別方法_",
   expectedMinItems: 850,

@@ -7,7 +7,7 @@ import {
  * 平塚市「ごみの分別方法一覧」(平塚市オープンデータライブラリ、CC BY 4.0)。
  * 国の標準形式なので共通アダプタ(scripts/core/standard-csv.ts)の設定だけを書く。原本は CP932。
  * 市の品目ID(ff0000000001 等)は連番のため使わず、品目IDは共通パイプラインの id-map で品目名から採番する。
- * 更新時は「暮らし・防災・安全に関するデータセット」のページで新しい CSV の URL を確認して sourceUrl を差し替える。
+ * 取得元の URL は data/municipalities/hiratsuka-city/source.json。更新は「暮らし・防災・安全に関するデータセット」のページのリンクで見張る(scripts/update-data.ts)。
  */
 const BASE = "https://www.city.hiratsuka.kanagawa.jp/kankyo/"
 const GUIDE = BASE + "page-c_01152.html" // 家庭のごみ・資源の分け方・出し方
@@ -15,7 +15,11 @@ const GUIDE = BASE + "page-c_01152.html" // 家庭のごみ・資源の分け方
 export const hiratsukaCityConfig: StandardCsvConfig = {
   slug: "hiratsuka-city",
   name: "平塚市",
-  sourceUrl: "https://www.city.hiratsuka.kanagawa.jp/common/200203599.csv",
+  watch: {
+    kind: "page-link",
+    pageUrl: "https://www.city.hiratsuka.kanagawa.jp/keikaku/page81_00019.html",
+    linkText: /ごみの分別方法一覧.*CSV/,
+  },
   encoding: "shift_jis",
   headerPrefix: "ごみの分別方法_",
   expectedMinItems: 780,

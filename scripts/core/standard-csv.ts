@@ -4,7 +4,8 @@ import { join } from "node:path"
 import { parseCsv } from "./csv"
 import { fetchBinaryWithCache, fetchWithCache } from "./fetch-cache"
 import { CACHE_DIR } from "./paths"
-import type { MunicipalityAdapter, RawItem } from "./types"
+import { readSource } from "./source"
+import type { MunicipalityAdapter, RawItem, WatchSpec } from "./types"
 
 /**
  * 国の標準形式(自治体標準オープンデータセット「ごみの分別方法」)の CSV を読む共通アダプタ。
@@ -15,7 +16,8 @@ export interface StandardCsvConfig {
   slug: string
   /** エラーメッセージ用の自治体名 */
   name: string
-  sourceUrl: string
+  /** データ更新の見張り方。取得元の URL は data/municipalities/<slug>/source.json に置く */
+  watch: WatchSpec
   /** 原本の文字コード。shift_jis(CP932)のときは UTF-8 に復号したものをキャッシュに置く */
   encoding: "utf-8" | "shift_jis"
   /** 列名の接頭辞(自治体によって「ごみの分別方法_」「ゴミの分別方法_」と表記が違う) */
@@ -268,10 +270,12 @@ export function createStandardCsvAdapter(
   return {
     config,
     slug: config.slug,
+    watch: config.watch,
     async fetchSource({ refresh }) {
+      const sourceUrl = readSource(config.slug).file_url
       if (config.encoding === "utf-8") {
         const { html, fromCache } = await fetchWithCache(
-          config.sourceUrl,
+          sourceUrl,
           cachePath,
           refresh
         )
@@ -285,7 +289,7 @@ export function createStandardCsvAdapter(
         }
       }
       const { data } = await fetchBinaryWithCache(
-        config.sourceUrl,
+        sourceUrl,
         rawCachePath,
         refresh
       )

@@ -42,3 +42,6 @@ next-env.d.ts
 
 # 配信データ(prebuild で data/ から導出)
 /public/data/
+
+# CP932 の原本(UTF-8 に直したものだけをコミットする)
+/data/cache/*.cp932.csv

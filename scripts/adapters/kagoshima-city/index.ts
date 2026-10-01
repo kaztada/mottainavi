@@ -7,7 +7,7 @@ import {
  * 鹿児島市「ごみの分別一覧」(BODIK オープンデータ、鹿児島市オープンデータ利用規約で CC BY 4.0)。
  * 国の標準形式なので共通アダプタ(scripts/core/standard-csv.ts)の設定だけを書く。原本は CP932。
  * 「備考」「料金備考」の列にも出し方の注意(粗大ごみの申込先、持ち込み時の事前連絡など)があるので注意文言に足す。
- * 更新時は BODIK のデータセット(462012_gomibunbetsu)で新しい CSV の URL を確認して sourceUrl を差し替える。
+ * 取得元の URL は data/municipalities/kagoshima-city/source.json。更新は BODIK の API で見張る(scripts/update-data.ts)。
  */
 const BASE =
   "https://www.city.kagoshima.lg.jp/shigenseisaku/gomi/kate/dashikata/wakekata/"
@@ -18,8 +18,7 @@ const NOT_COLLECTED =
 export const kagoshimaCityConfig: StandardCsvConfig = {
   slug: "kagoshima-city",
   name: "鹿児島市",
-  sourceUrl:
-    "https://data.bodik.jp/dataset/14ee85c1-1782-413c-a7b7-229b4ecaa4ab/resource/fd68910d-5734-4cbb-b229-e673f6aa18e9/download/3-43_gomibunbetsu.csv",
+  watch: { kind: "ckan", api: "https://data.bodik.jp/api/3/action/package_show?id=462012_gomibunbetsu" },
   encoding: "shift_jis",
   headerPrefix: "ゴミの分別方法_",
   expectedMinItems: 1100,

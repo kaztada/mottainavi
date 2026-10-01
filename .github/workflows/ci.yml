@@ -5,6 +5,8 @@ on:
   pull_request:
   push:
     branches: [main]
+  # データ更新の見張りが作った PR 用(ボットの PR では自動で走らないため、ここから起動する)
+  workflow_dispatch:
 
 concurrency:
   group: ci-${{ github.ref }}
@@ -45,7 +47,7 @@ jobs:
       - name: データの検査(再現性・版番号・変わる品目)
         run: npm run check-data -- --base "$BASE" --report check-data-report.md
         env:
-          BASE: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || github.event.before }}
+          BASE: ${{ github.event_name == 'pull_request' && format('origin/{0}', github.base_ref) || (github.event_name == 'push' && github.event.before || 'origin/main') }}
 
       - name: PR にレポートをコメント
         if: always() && github.event_name == 'pull_request' && hashFiles('check-data-report.md') != ''
