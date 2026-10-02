@@ -132,5 +132,6 @@ gh pr merge <番号> --merge --delete-branch
 
 - `docs/data-model.md` に「§N 〇〇市で確定した事項」(出典、形式、区分の割り当てと理由、粗大ごみ、照合の結果)
 - `docs/roadmap.md` の Phase C の表(本番反映の日付と PageSpeed の値)
+- `README.md` の「対応している自治体」の表に1行(自治体名、出典のデータ名とリンク、ライセンス。実装の PR に含めてよい)
 - 記憶ファイル nationwide-expansion-plan(次に同じ形式・同じ落とし穴に出会ったときのための教訓)と MEMORY.md の市の数
 - 手順どおりに進まなかったところがあれば、このスキルを直す
