@@ -126,6 +126,17 @@
     "label_en": "Furniture",
     "options": [
       {
+        "type": "official",
+        "title_ja": "市が連携する「おいくら」で、買取の見積もりをまとめて取る",
+        "title_en": "Get buy-back quotes via Oikura (partnered with the city)",
+        "desc_ja": "須賀川市はリユースをすすめるため「おいくら」と連携しています。自分で運べない大型の家具も対象で、複数の買取店の査定を比べられます。粗大ごみの収集は予約が混み合うこともあるので、先に試してみる手もあります。",
+        "desc_en": "Sukagawa City partners with Oikura to promote reuse. Large furniture you cannot carry is also covered, and you can compare quotes from several buyers. Bulky pickup can be booked up, so it may be worth trying this first.",
+        "url": "https://www.city.sukagawa.fukushima.jp/kurashi/gomi_recycle/gomi_katei/1018455/index.html",
+        "effort": "medium",
+        "money": "earn",
+        "municipality_id": "sukagawa-city"
+      },
+      {
         "type": "give",
         "title_ja": "地域の譲り合いで、もらい手を探す(ジモティーなど)",
         "title_en": "Local giveaway platforms",

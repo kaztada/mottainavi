@@ -205,7 +205,7 @@ Phase A は大阪市アダプタへの切り出しと CLI 引数化まで。`--a
 いずれも同じ Adapter 契約の実装違いとして扱い、`source_type` に由来を記録する。
 実例: `scripts/adapters/osaka-city/`(HTML表のスクレイピング)と `scripts/adapters/yokohama-city/`(独自形式のオープンデータ CSV。CP932 の復号はアダプタ内に持つ)。RFC 4180 の CSV パーサは `scripts/core/csv.ts`。
 
-**国の標準形式の CSV は共通アダプタで読む(2026-10-02)**: 自治体標準オープンデータセット「ごみの分別方法」(列名が「ごみの分別方法_品目」等)は `scripts/core/standard-csv.ts` の `createStandardCsvAdapter(config)` で読む。自治体ごとに書くのは設定(`scripts/adapters/<slug>/index.ts`)だけ: 更新の見張り方(取得元の URL は source.json。§17)、文字コード、列名の接頭辞、区分の表記 → 区分ID、区分ごとの公式リンク、収集しない区分、区分の説明、1セル2区分の区切り、半角カナの変換、注意文言に足す列(`extraNoteColumns`。「備考」「料金備考」に注意書きがある市)、品目ごとの注記(`itemNotes`。市の現行の案内と食い違う品目に、データは変えずに添える)。注意文言の組み立て順は固定(収集しません → 市の表記 → 区分の説明 → 市の注意点)。同じ品目名の行は1品目にまとめる(同じ区分は注意点のあるほうを残し、区分が違えば区分ごとのカード)。東大阪市・平塚市・鹿児島市・沖縄市がこの形で、設定と categories.json の整合は `scripts/adapters/standard-csv-configs.test.ts` が登録済みの全自治体をまとめて検査する。Excel・PDF・HTML は形式が市ごとに違うので個別アダプタのまま。
+**国の標準形式の CSV は共通アダプタで読む(2026-10-02)**: 自治体標準オープンデータセット「ごみの分別方法」(列名が「ごみの分別方法_品目」等)は `scripts/core/standard-csv.ts` の `createStandardCsvAdapter(config)` で読む。自治体ごとに書くのは設定(`scripts/adapters/<slug>/index.ts`)だけ: 更新の見張り方(取得元の URL は source.json。§17)、文字コード、列名の接頭辞、区分の表記 → 区分ID、区分ごとの公式リンク、収集しない区分、区分の説明、1セル2区分の区切り、半角カナの変換、注意文言に足す列(`extraNoteColumns`。「備考」「料金備考」に注意書きがある市)、品目ごとの注記(`itemNotes`。市の現行の案内と食い違う品目に、データは変えずに添える)。注意文言の組み立て順は固定(収集しません → 市の表記 → 区分の説明 → 市の注意点)。同じ品目名の行は1品目にまとめる(同じ区分は注意点のあるほうを残し、区分が違えば区分ごとのカード)。列名に接頭辞が無い市は `headerPrefix` を空文字にする。東大阪市・平塚市・鹿児島市・沖縄市・須賀川市がこの形で、設定と categories.json の整合は `scripts/adapters/standard-csv-configs.test.ts` が登録済みの全自治体をまとめて検査する。Excel・PDF・HTML は形式が市ごとに違うので個別アダプタのまま。
 `npm run build-data -- --all` で登録済みの全自治体を順に生成する(1つ失敗しても残りは続け、最後に異常終了コード)。
 市サイトへのアクセスは core 側で1回取得+キャッシュを強制し、連続アクセスしない。
 

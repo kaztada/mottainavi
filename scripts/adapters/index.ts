@@ -6,6 +6,7 @@ import { kagoshimaCityAdapter } from "./kagoshima-city"
 import { kawachinaganoCityAdapter } from "./kawachinagano-city"
 import { okinawaCityAdapter } from "./okinawa-city"
 import { osakaCityAdapter } from "./osaka-city"
+import { sukagawaCityAdapter } from "./sukagawa-city"
 import { yokohamaCityAdapter } from "./yokohama-city"
 
 /** 登録済みアダプタ。自治体を追加するときはここに1行足す */
@@ -18,4 +19,5 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [hiratsukaCityAdapter.slug]: hiratsukaCityAdapter,
   [kagoshimaCityAdapter.slug]: kagoshimaCityAdapter,
   [okinawaCityAdapter.slug]: okinawaCityAdapter,
+  [sukagawaCityAdapter.slug]: sukagawaCityAdapter,
 }
