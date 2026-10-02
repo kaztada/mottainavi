@@ -158,7 +158,7 @@ data/
     ]
   },
   { "id": "furniture", "label_ja": "家具", "label_en": "Furniture", "options": [
-      { "type": "give", "title_ja": "地域の譲り合い(ジモティー等)", "title_en": "Local giveaway platforms", "desc_ja": "粗大ごみ手数料を払う前に、もらい手を探す選択肢。", "url": null, "effort": "medium", "money": "free" },
+      { "type": "give", "title_ja": "地域の譲り合い(ジモティー等)", "title_en": "Local giveaway platforms", "desc_ja": "粗大ごみに出す前に、もらい手を探す選択肢。", "url": null, "effort": "medium", "money": "free" },
       { "type": "resale", "title_ja": "出張買取・リサイクルショップ", "title_en": "Secondhand furniture buyers", "desc_ja": "ブランド家具・状態良好なら買取対象に。", "url": null, "effort": "medium", "money": "earn" }
   ]},
   { "id": "books-media", "label_ja": "本・メディア", "label_en": "Books & Media", "options": [
