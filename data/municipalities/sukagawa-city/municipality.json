@@ -1,0 +1,14 @@
+{
+  "slug": "sukagawa-city",
+  "item_id_prefix": "skg",
+  "source_url": "https://www.city.sukagawa.fukushima.jp/shisei/gaiyo/opendata/1004902/8865.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: 須賀川市「ゴミの分別方法一覧」(CC BY 4.0)を加工して利用",
+  "source_attribution_en": "Source: Sukagawa City \"Garbage Sorting List\" (CC BY 4.0), adapted",
+  "sodai_apply_url": "https://www.city.sukagawa.fukushima.jp/shisei/koho/koho_kocho_katsudo/1006812.html",
+  "sodai_tel_landline": "0248-88-9129",
+  "sodai_tel_mobile": "0248-88-9129",
+  "data_fetched_at": "2026-10-03",
+  "data_version": "20261003"
+}
