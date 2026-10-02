@@ -29,7 +29,7 @@ gh run list --workflow update-data.yml --limit 5
 1. PR の本文の「変わる品目」を読む。**「⚠ 電池・スプレー缶など…」の欄があれば、1品目ずつ市の現行のページで確かめる**(充電式電池・モバイルバッテリー・ボタン電池・スプレー缶・カセットボンベ・ライター・蛍光灯・水銀製品・パソコン・消火器)
 2. 区分が変わった品目・削除された品目が多いときは、市の告知(ごみの出し方の変更のお知らせ)を探して、変更に理由があるか確かめる。ごみサクがある市は `npm run compare-gomisaku` も使う
 3. その市の `itemNotes`(食い違いの注記)が、新しいデータでもまだ必要か見る。市がデータを直していたら注記を外す
-4. 新しく増えた品目に、手放し導線の誤判定が無いか見る(必要なら `reuse-overrides.json`)
+4. 新しく増えた品目に、手放し導線の誤判定が無いか見る(必要なら `reuse-overrides.json`)。増えた品目・名前が変わった品目は英訳が無い(「変わる品目」に「英語名: … → なし」と出る)ので、add-item-translations スキルの手順で足す。名前が変わって当たらなくなった自治体の辞書のキーは、`npm run items-en -- check` が知らせる
 5. CI を走らせる。ボットが作った PR の CI は、GitHub の仕様で「承認待ち」で止まっている(`gh pr checks` には Vercel しか出ない)。承認待ちの実行を探して承認する:
    ```
    gh run list --workflow ci.yml --branch <ブランチ> --json databaseId,status,conclusion

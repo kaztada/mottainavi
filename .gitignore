@@ -45,3 +45,6 @@ next-env.d.ts
 
 # CP932 の原本(UTF-8 に直したものだけをコミットする)
 /data/cache/*.cp932.csv
+
+# 作業用ファイル(英訳の下書き・レビュー用の一覧など。npm run items-en)
+/work/

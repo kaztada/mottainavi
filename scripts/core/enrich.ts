@@ -19,15 +19,48 @@ export function extractSodaiFee(note: string | null): number | null {
 }
 
 /**
+ * 英訳の辞書を引くときの品目名のそろえ方。全角・半角の括弧や英数字、空白の違いを吸収する
+ * (「植木鉢(陶器製)」と「植木鉢（陶器製）」を同じ品目名として扱う)。
+ */
+export function itemNameKey(name: string): string {
+  return name.normalize("NFKC").replace(/\s+/g, "")
+}
+
+/**
+ * 品目名 → 英語名 の辞書を、表記ゆれを吸収して引けるようにする。
+ * 辞書は優先順の低いものから渡す(共通辞書、自治体の辞書の順。後のものが優先)。
+ * 同じ辞書の中では、品目名がそのまま一致するキーを優先する。
+ */
+export function createItemsEnLookup(
+  ...dicts: Record<string, string>[]
+): (name: string) => string | null {
+  const layers = dicts
+    .map((dict) => ({
+      exact: dict,
+      byKey: new Map(Object.entries(dict).map(([k, v]) => [itemNameKey(k), v])),
+    }))
+    .reverse()
+  return (name) => {
+    const key = itemNameKey(name)
+    for (const { exact, byKey } of layers) {
+      const value = exact[name] ?? byKey.get(key)
+      if (value !== undefined) return value
+    }
+    return null
+  }
+}
+
+/**
  * 品目名をキーにした辞書(自治体ごとの items.en.json など)のうち、どの品目名とも一致しないキー。
  * キーの打ち間違いや、市が品目名を変えて訳が黙って外れたときに気づくために使う。
+ * 照合は英訳を引くときと同じ(itemNameKey)。
  */
 export function findUnusedKeys(
   dict: Record<string, unknown>,
   itemNames: Iterable<string>
 ): string[] {
-  const names = new Set(itemNames)
-  return Object.keys(dict).filter((key) => !names.has(key))
+  const names = new Set([...itemNames].map(itemNameKey))
+  return Object.keys(dict).filter((key) => !names.has(itemNameKey(key)))
 }
 
 /**

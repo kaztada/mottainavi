@@ -106,6 +106,7 @@ npm run build-data -- --municipality <slug>     # 未解決の区分ラベル 0�
 - **手放し導線の付与結果を全件見る**(reuse_category が付いた品目を種類ごとに一覧にする)。誤判定は `reuse-overrides.json` で null にする。共通の判定(`enrich.ts`)は変えない(他の市の出力が変わるため)
 - 楽器・本・衣類・おもちゃの誤判定も見る(例: 「バイクのマフラー」が衣類、「CDプレイヤー」が本、注意点に「販売店へ返却」とある携帯電話がリターナブルびん扱い)
 - 家具らしい名前なのに導線が付いていない品目も一覧にする。家具の推定は kind bulky が条件なので、いす・棚・テーブルが「もやせるごみ」「金属類」などに入っている市(鹿児島市)では付かない。`reuse-overrides.json` は種類の指定もできるので、該当品目に `"furniture"` を付ける
+- **英訳**: `npm run items-en -- check <slug>` で英訳の付与率を見る。共通辞書で当たらない品目は、add-item-translations スキルの手順で足す(自治体の追加とは別の PR にしてよい。英訳が無い品目は日本語名で出るだけで、誤案内にはならない)
 - コミットしてから `npm run build-data -- --all` → `npm run check-data`。合格したら `git checkout -- data/` で他市の generated_at を戻す
 - `npm test`、`npm run lint`、`npm run build`
 - ローカルの画面(preview_start の dev)で5つ確認: ①粗大ごみの品目(申込セクションと家具の手放し導線)②市が収集しない品目(「市では収集しません。」)③2区分の品目があればそのカード ④About と詳細の出典表記 ⑤検索
