@@ -1,0 +1,38 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "shigen1",
+    "kind": "recyclable",
+    "name_ja": "資源物①(びん・金属類)",
+    "name_en": "Recyclables 1 (Glass Bottles & Metal)"
+  },
+  {
+    "id": "shigen2",
+    "kind": "recyclable",
+    "name_ja": "資源物②(ペットボトル・プラスチック・古紙)",
+    "name_en": "Recyclables 2 (PET Bottles, Plastics & Paper)"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (reservation, free)"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "収集不可",
+    "name_en": "Not Collected by the City"
+  }
+]

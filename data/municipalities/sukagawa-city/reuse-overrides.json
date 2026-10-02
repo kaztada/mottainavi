@@ -1,0 +1,23 @@
+{
+  "マフラー（自動車部品）": null,
+  "LPガスボンベ": null,
+  "プロパンガスボンベ": null,
+  "介護用便座（イス型）": null,
+  "傘立て（プラスチック製）": "furniture",
+  "傘立て（金属製）": "furniture",
+  "傘立て（陶磁器製）": "furniture",
+  "こたつ（脚・天板のみも含む）": "furniture",
+  "サイドボード": "furniture",
+  "テレビボード・テレビ台": "furniture",
+  "パイプベット": "furniture",
+  "パソコンラック": "furniture",
+  "レンジ台": "furniture",
+  "洋服掛け（パイプハンガーなど）": "furniture",
+  "カメラ": "small-appliance",
+  "ゲーム機": "small-appliance",
+  "ビデオカメラ": "small-appliance",
+  "携帯電話（PHS含む）": "small-appliance",
+  "スマートフォン": "small-appliance",
+  "辞書・辞典": "books-media",
+  "古本": "books-media"
+}

@@ -18,6 +18,8 @@ const eslintConfig = [
       "out/**",
       "build/**",
       "next-env.d.ts",
+      // 別セッションの作業用コピー(.claude/worktrees)を検査対象にしない
+      ".claude/**",
     ],
   },
 ];
