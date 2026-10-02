@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest"
 import {
   extractSodaiFee,
+  findUnusedKeys,
   inferReuseCategory,
   katakanaToHiragana,
 } from "./enrich"
@@ -23,6 +24,22 @@ describe("extractSodaiFee", () => {
   it("手数料表記が無ければ null", () => {
     expect(extractSodaiFee("30cmを超えるものは粗大ごみ")).toBeNull()
     expect(extractSodaiFee(null)).toBeNull()
+  })
+})
+
+describe("findUnusedKeys", () => {
+  it("どの品目名とも一致しないキーを返す", () => {
+    expect(
+      findUnusedKeys({ 椅子: "Chair", イス: "Chair", 机: "Desk" }, [
+        "椅子",
+        "机",
+        "畳",
+      ])
+    ).toEqual(["イス"])
+  })
+  it("すべて一致すれば空", () => {
+    expect(findUnusedKeys({ 椅子: "Chair" }, ["椅子"])).toEqual([])
+    expect(findUnusedKeys({}, ["椅子"])).toEqual([])
   })
 })
 

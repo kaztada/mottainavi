@@ -19,6 +19,18 @@ export function extractSodaiFee(note: string | null): number | null {
 }
 
 /**
+ * 品目名をキーにした辞書(自治体ごとの items.en.json など)のうち、どの品目名とも一致しないキー。
+ * キーの打ち間違いや、市が品目名を変えて訳が黙って外れたときに気づくために使う。
+ */
+export function findUnusedKeys(
+  dict: Record<string, unknown>,
+  itemNames: Iterable<string>
+): string[] {
+  const names = new Set(itemNames)
+  return Object.keys(dict).filter((key) => !names.has(key))
+}
+
+/**
  * reuse_category 付与ヒューリスティック(data-model.md §4)。
  * 区分は自治体ごとに違うため、区分IDではなく kind(意味種別)で判定する。
  * 上から順に評価し、最初にマッチしたものを返す。
