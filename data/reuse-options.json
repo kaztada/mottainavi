@@ -137,6 +137,17 @@
         "municipality_id": "sukagawa-city"
       },
       {
+        "type": "official",
+        "title_ja": "市が連携する「おいくら」で、買取の見積もりをまとめて取る",
+        "title_en": "Get buy-back quotes via Oikura (partnered with the city)",
+        "desc_ja": "長浜市はリユースをすすめるため「おいくら」「ジモティー」と連携しています。自分で運べない大型の家具も対象で、複数の買取店の査定を比べられます。粗大ごみの収集は年2回なので、先に試してみる手もあります。",
+        "desc_en": "Nagahama City partners with Oikura and Jmty to promote reuse. Large furniture you cannot carry is also covered, and you can compare quotes from several buyers. Bulky waste is collected only twice a year, so it may be worth trying this first.",
+        "url": "https://www.city.nagahama.lg.jp/0000010270.html",
+        "effort": "medium",
+        "money": "earn",
+        "municipality_id": "nagahama-city"
+      },
+      {
         "type": "give",
         "title_ja": "地域の譲り合いで、もらい手を探す(ジモティーなど)",
         "title_en": "Local giveaway platforms",

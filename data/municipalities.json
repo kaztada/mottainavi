@@ -9626,8 +9626,8 @@
     "pref": "滋賀県",
     "name_ja": "長浜市",
     "name_en": "Nagahama City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www.city.nagahama.lg.jp/"
   },
   {
     "slug": "omihachiman-city",

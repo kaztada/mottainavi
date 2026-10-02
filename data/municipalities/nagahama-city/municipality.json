@@ -1,0 +1,14 @@
+{
+  "slug": "nagahama-city",
+  "item_id_prefix": "ngh",
+  "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: 長浜市「ごみ分別表」(CC BY 4.0)を加工して利用",
+  "source_attribution_en": "Source: Nagahama City \"Garbage Sorting Table\" (CC BY 4.0), adapted",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": null,
+  "sodai_tel_mobile": null,
+  "data_fetched_at": "2026-10-03",
+  "data_version": "20261003"
+}
