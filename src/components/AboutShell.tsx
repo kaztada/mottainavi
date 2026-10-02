@@ -86,8 +86,12 @@ export function AboutShell({
           </Section>
 
           <Section heading={t("about.sourceHeading")}>
-            <p>{t("about.sourceBody", { attribution })}</p>
-            <p className="mt-1 text-muted">
+            <p>{t("about.sourceBody")}</p>
+            {/* 出典表記は書式が自治体ごとに決まっているので、文中に埋め込まずそのまま出す */}
+            <p className="mt-2 rounded-xl bg-accent-soft px-3 py-2 wrap-anywhere">
+              {attribution}
+            </p>
+            <p className="mt-2 text-muted">
               {t("about.sourceFetched", {
                 date: municipality.data_fetched_at,
               })}

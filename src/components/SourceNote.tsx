@@ -7,6 +7,7 @@ import { useLang, useT } from "@/lib/i18n"
  * 出典表記+非公式ツールの断り書き。全ページに常設(CC-BY 等の義務+誤案内リスク対策)。
  * 出典は自治体ごとに異なるため municipality.json の source_attribution を使う。
  * full=true で「最新情報は公式サイトで」の文言と公式リンクを含む(詳細ページ用)。
+ * 出典に長い URL を含む自治体があるので、スマホ幅ではみ出さないよう wrap-anywhere で折り返す。
  */
 export function SourceNote({
   municipality,
@@ -23,7 +24,7 @@ export function SourceNote({
       ? municipality.source_attribution_en
       : municipality.source_attribution
   return (
-    <div className="text-xs leading-relaxed text-muted">
+    <div className="text-xs leading-relaxed text-muted wrap-anywhere">
       {full && (
         <p className="mb-1">
           {t("footer.checkOfficial", { municipality: name })}{" "}

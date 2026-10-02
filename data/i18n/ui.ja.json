@@ -46,7 +46,7 @@
   "about.unofficialHeading": "ⓘ 非公式ツールです",
   "about.unofficialBody": "自治体とは関係のない個人が運営しています。分別ルールは変わることがあります。最新・正確な情報は必ず{municipality}の公式サイトでご確認ください。",
   "about.sourceHeading": "📄 出典とライセンス",
-  "about.sourceBody": "品目データは{attribution}を加工して作成しています。",
+  "about.sourceBody": "品目データは、次の出典のデータを加工して作成しています。",
   "about.sourceFetched": "データ取得日: {date}",
   "about.sourceLink": "出典ページ ↗",
   "about.authorHeading": "🎸 つくった人",
