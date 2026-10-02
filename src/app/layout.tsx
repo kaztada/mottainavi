@@ -6,7 +6,7 @@ import "./globals.css"
 const SITE_URL = "https://mottainavi.kaztada.eco"
 const TITLE = "もったいナビ"
 const DESCRIPTION =
-  "「これ、どう手放す?」— ごみの捨て方と、捨てる前の選択肢をまとめて調べられる非公式ナビ(いまは大阪市に対応)"
+  "「これ、どう手放す?」— ごみの捨て方と、捨てる前の選択肢をまとめて調べられる非公式ナビ"
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
