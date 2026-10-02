@@ -30,7 +30,12 @@ gh run list --workflow update-data.yml --limit 5
 2. 区分が変わった品目・削除された品目が多いときは、市の告知(ごみの出し方の変更のお知らせ)を探して、変更に理由があるか確かめる。ごみサクがある市は `npm run compare-gomisaku` も使う
 3. その市の `itemNotes`(食い違いの注記)が、新しいデータでもまだ必要か見る。市がデータを直していたら注記を外す
 4. 新しく増えた品目に、手放し導線の誤判定が無いか見る(必要なら `reuse-overrides.json`)
-5. `gh pr checks <番号>` で Vercel と `check`(CI)が pass か確かめる。CI が付いていなければ `gh workflow run ci.yml --ref <ブランチ>` で起動する
+5. CI を走らせる。ボットが作った PR の CI は、GitHub の仕様で「承認待ち」で止まっている(`gh pr checks` には Vercel しか出ない)。承認待ちの実行を探して承認する:
+   ```
+   gh run list --workflow ci.yml --branch <ブランチ> --json databaseId,status,conclusion
+   gh api -X POST repos/kaztada/mottainavi/actions/runs/<conclusion が action_required の databaseId>/approve
+   ```
+   そのあと `gh pr checks <番号>` で Vercel と `check` の両方が pass になるのを待つ。PR に「データの検査」のコメントも付く(Kaz が GitHub の画面で「Approve and run」を押しても同じ)
 6. 直すところがあれば、そのブランチに追加でコミットする。問題なければ、変わる内容を平易にまとめて Kaz に伝え、マージボタンを付ける:
 
 ```bash

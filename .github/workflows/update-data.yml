@@ -28,7 +28,6 @@ permissions:
   contents: write
   pull-requests: write
   issues: write
-  actions: write
 
 jobs:
   update:
@@ -114,10 +113,9 @@ jobs:
             echo "---"
             echo "週1回の見張り(GitHub Actions)が自動で作った PR です。内容を確認してからマージしてください。Claude に「PR を確認して」と伝えると、確認の観点に沿って見ます。"
           } > pr-body.md
-          if gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file pr-body.md; then
-            # ボットが作った PR では CI が自動で走らないので、手動起動の口から走らせる
-            gh workflow run ci.yml --ref "$BRANCH"
-          else
+          # ボットが作った PR の CI は「承認待ち」で止まる(GitHub の仕様)。確認するときに承認して走らせる
+          # (手順は update-municipality-data スキル)。同じ検査はこのワークフローの中で済ませてある
+          if ! gh pr create --base main --head "$BRANCH" --title "$TITLE" --body-file pr-body.md; then
             {
               echo "## PR を作れませんでした"
               echo
