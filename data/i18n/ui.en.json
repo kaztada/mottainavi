@@ -46,7 +46,7 @@
   "about.unofficialHeading": "ⓘ Unofficial tool",
   "about.unofficialBody": "This site is run by an individual with no affiliation to any local government. Rules can change — always check the official {municipality} website for the latest information.",
   "about.sourceHeading": "📄 Source & license",
-  "about.sourceBody": "Item data is adapted from the following source. {attribution}",
+  "about.sourceBody": "Item data is adapted from the following source.",
   "about.sourceFetched": "Data fetched: {date}",
   "about.sourceLink": "Source page ↗",
   "about.authorHeading": "🎸 Who made this",
