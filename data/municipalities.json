@@ -15359,8 +15359,8 @@
     "pref": "沖縄県",
     "name_ja": "沖縄市",
     "name_en": "Okinawa City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www.city.okinawa.okinawa.jp/kurashi/gomi/gomikensaku/index.html"
   },
   {
     "slug": "tomigusuku-city",

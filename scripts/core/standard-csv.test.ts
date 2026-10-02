@@ -215,6 +215,30 @@ describe("parseStandardCsv", () => {
       parseStandardCsv({ ...base, itemNotes: { 無い品目: "注記" } }, text)
     ).toThrow("無い品目")
   })
+  it("同じ品目名の行は1品目にまとめる(同じ区分は注意点のあるほうを残し、違う区分は別のカード)", () => {
+    const text =
+      header(base.headerPrefix) +
+      "472115,172,キックボード,不燃ごみ,袋に入らない場合は粗大ごみ,,,,\n" +
+      "472115,173,タンス,粗大ごみ,,,,,\n" +
+      "472115,189,キックボード,不燃ごみ,,,,,\n" +
+      "472115,200,かさ,不燃ごみ,,,,,\n" +
+      "472115,201,かさ,粗大ごみ,長いもの,,,,\n" +
+      "472115,202,かさ,不燃ごみ,,,,,\n"
+    const items = parseStandardCsv(base, text)
+    // 並びは最初に出てきた順
+    expect(items.map((i) => i.name_ja)).toEqual(["キックボード", "タンス", "かさ"])
+    expect(items[0].rows).toEqual([
+      {
+        category_label: "不燃ごみ",
+        note: "袋に入らない場合は粗大ごみ",
+        official_link: base.officialLink.funen,
+      },
+    ])
+    expect(items[2].rows.map((r) => [r.category_label, r.note])).toEqual([
+      ["不燃ごみ", null],
+      ["粗大ごみ", "長いもの"],
+    ])
+  })
   it("列構成や接頭辞が違えばエラー", () => {
     expect(() => readRows(base, "品目,分別区分\na,b\n")).toThrow("テスト市")
     expect(() => readRows(base, header("ゴミの分別方法_") + "1,,a,b,\n")).toThrow()

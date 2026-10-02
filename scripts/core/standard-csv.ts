@@ -176,7 +176,44 @@ export function buildNote(
   return parts.length ? parts.join("\n") : null
 }
 
-/** CSV テキスト → 共通パイプラインの生レコード */
+/**
+ * 同じ品目名の行を1品目にまとめる(品目IDは品目名から振るので、同名が複数あると一意に振れない)。
+ * - 区分も注意文言も同じカードは1枚にする
+ * - 同じ区分で注意文言が「なし」と「あり」に分かれる場合は、「あり」だけ残す
+ * - 区分が違う、または注意文言が違う場合は、それぞれのカードを残す
+ * 並びは最初に出てきた順。
+ */
+export function mergeSameName(
+  config: StandardCsvConfig,
+  items: RawItem[]
+): RawItem[] {
+  const byName = new Map<string, RawItem>()
+  for (const item of items) {
+    const existing = byName.get(item.name_ja)
+    if (existing) existing.rows.push(...item.rows)
+    else byName.set(item.name_ja, { name_ja: item.name_ja, rows: [...item.rows] })
+  }
+  const categoryKey = (label: string) =>
+    resolveCategoryId(config, label) ?? normalizeLabel(label)
+  for (const item of byName.values()) {
+    if (item.rows.length < 2) continue
+    const seen = new Set<string>()
+    const withNote = new Set(
+      item.rows.filter((r) => r.note).map((r) => categoryKey(r.category_label))
+    )
+    item.rows = item.rows.filter((r) => {
+      const cat = categoryKey(r.category_label)
+      if (!r.note && withNote.has(cat)) return false
+      const key = `${cat}\u0000${r.note ?? ""}`
+      if (seen.has(key)) return false
+      seen.add(key)
+      return true
+    })
+  }
+  return [...byName.values()]
+}
+
+/** CSV テキスト → 共通パイプラインの生レコード(同じ品目名の行は1品目にまとめる) */
 export function parseStandardCsv(
   config: StandardCsvConfig,
   csvText: string
@@ -218,7 +255,7 @@ export function parseStandardCsv(
       `${config.name}: itemNotes の品目が CSV にありません(品目名が変わったか、削除された可能性): ${unused.join(", ")}`
     )
   }
-  return items
+  return mergeSameName(config, items)
 }
 
 /**
