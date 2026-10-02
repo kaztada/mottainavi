@@ -1,0 +1,62 @@
+[
+  {
+    "id": "moyaseru",
+    "kind": "burnable",
+    "name_ja": "もやせるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moyasenai",
+    "kind": "non-burnable",
+    "name_ja": "もやせないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "kami",
+    "kind": "paper",
+    "name_ja": "資源ごみ(紙)",
+    "name_en": "Recyclables (Paper)"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(びん)",
+    "name_en": "Recyclables (Glass Bottles)"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(かん)",
+    "name_en": "Recyclables (Cans)"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(ペットボトル)",
+    "name_en": "Recyclables (PET Bottles)"
+  },
+  {
+    "id": "kusaki",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(草木)",
+    "name_en": "Recyclables (Yard Waste)"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste (Batteries, Fluorescent Tubes, Lighters)"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (reservation, fee)"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "収集しません",
+    "name_en": "Not Collected by the City"
+  }
+]

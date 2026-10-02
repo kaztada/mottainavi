@@ -1,0 +1,14 @@
+{
+  "slug": "okinawa-city",
+  "item_id_prefix": "okn",
+  "source_url": "https://data.bodik.jp/dataset/472115_separate_garbage_20241201",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: 「ごみの分別方法一覧」(沖縄市)(https://data.bodik.jp/dataset/472115_separate_garbage_20241201)を加工して作成",
+  "source_attribution_en": "Source: adapted from \"Garbage Sorting List\" (Okinawa City) (https://data.bodik.jp/dataset/472115_separate_garbage_20241201)",
+  "sodai_apply_url": "https://www.city.okinawa.okinawa.jp/k017/contents/p00048.html",
+  "sodai_tel_landline": "098-938-5371",
+  "sodai_tel_mobile": "098-938-5371",
+  "data_fetched_at": "2026-10-02",
+  "data_version": "20261002"
+}
