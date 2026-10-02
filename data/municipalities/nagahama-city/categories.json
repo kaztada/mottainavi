@@ -1,0 +1,124 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "non-burnable",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (twice a year, with tag)",
+    "color": "#AF52DE",
+    "icon": "sofa",
+    "accepts_large_items": true
+  },
+  {
+    "id": "kanen-sodai",
+    "kind": "burnable",
+    "name_ja": "可燃性粗大ごみ",
+    "name_en": "Burnable Bulky Waste (twice a year, with tag)",
+    "color": "#AF52DE",
+    "icon": "sofa",
+    "accepts_large_items": true
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装",
+    "name_en": "Plastic Containers & Packaging"
+  },
+  {
+    "id": "happo",
+    "kind": "plastic",
+    "name_ja": "資源ごみ(発泡スチロール)",
+    "name_en": "Recyclables (Styrofoam)"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "資源ごみ(古紙)",
+    "name_en": "Recyclables (Paper)"
+  },
+  {
+    "id": "kami-pack",
+    "kind": "paper",
+    "name_ja": "資源ごみ(紙パック)",
+    "name_en": "Recyclables (Paper Cartons)"
+  },
+  {
+    "id": "kofu",
+    "kind": "paper",
+    "name_ja": "資源ごみ(古布・古着)",
+    "name_en": "Recyclables (Textiles)",
+    "color": "#C08A5E",
+    "icon": "shirt"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(ガラスびん)",
+    "name_en": "Recyclables (Glass Bottles)"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(空き缶類)",
+    "name_en": "Recyclables (Cans)"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(ペットボトル)",
+    "name_en": "Recyclables (PET Bottles)"
+  },
+  {
+    "id": "denchi",
+    "kind": "hazardous",
+    "name_ja": "資源ごみ(使用ずみ乾電池類)",
+    "name_en": "Recyclables (Used Batteries)"
+  },
+  {
+    "id": "spray",
+    "kind": "hazardous",
+    "name_ja": "資源ごみ(スプレー缶類)",
+    "name_en": "Recyclables (Spray Cans & Fuel Cans)"
+  },
+  {
+    "id": "lighter",
+    "kind": "hazardous",
+    "name_ja": "資源ごみ(ライター)",
+    "name_en": "Recyclables (Lighters)"
+  },
+  {
+    "id": "keikokan",
+    "kind": "hazardous",
+    "name_ja": "使用ずみ蛍光管",
+    "name_en": "Used Fluorescent Tubes (twice a year)"
+  },
+  {
+    "id": "mochikomi",
+    "kind": "other",
+    "name_ja": "直接持込品目",
+    "name_en": "Bring Directly to the Facility"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "家電リサイクル",
+    "name_en": "Home Appliance Recycling Law Items (not collected)"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "受け入れできないもの",
+    "name_en": "Not Accepted by the City"
+  }
+]
