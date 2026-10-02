@@ -1,6 +1,6 @@
 {
   "municipality_id": "okinawa-city",
-  "generated_at": "2026-10-02T15:21:26.016Z",
+  "generated_at": "2026-10-02T15:31:51.137Z",
   "source_url": "https://data.bodik.jp/dataset/472115_separate_garbage_20241201",
   "item_count": 745,
   "items": [
@@ -2104,7 +2104,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gas stove stand"
+      "name_en": "Gas range (gas stove)"
     },
     {
       "id": "okn-0121",
