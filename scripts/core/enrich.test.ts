@@ -1,7 +1,9 @@
 import { describe, expect, it } from "vitest"
 import {
+  createItemsEnLookup,
   extractSodaiFee,
   findUnusedKeys,
+  itemNameKey,
   inferReuseCategory,
   katakanaToHiragana,
 } from "./enrich"
@@ -40,6 +42,50 @@ describe("findUnusedKeys", () => {
   it("すべて一致すれば空", () => {
     expect(findUnusedKeys({ 椅子: "Chair" }, ["椅子"])).toEqual([])
     expect(findUnusedKeys({}, ["椅子"])).toEqual([])
+  })
+  it("全角・半角の括弧の違いは一致とみなす", () => {
+    expect(
+      findUnusedKeys({ "植木鉢（陶器製）": "Flowerpot (ceramic)" }, [
+        "植木鉢(陶器製)",
+      ])
+    ).toEqual([])
+  })
+})
+
+describe("itemNameKey", () => {
+  it("全角・半角の括弧と英数字、空白の違いを吸収する", () => {
+    expect(itemNameKey("植木鉢（陶器製）")).toBe(itemNameKey("植木鉢(陶器製)"))
+    expect(itemNameKey("ＣＤ プレーヤー")).toBe("CDプレーヤー")
+  })
+  it("別の品目名は別のまま", () => {
+    expect(itemNameKey("植木鉢(陶器製)")).not.toBe(
+      itemNameKey("植木鉢(プラスチック)")
+    )
+  })
+})
+
+describe("createItemsEnLookup", () => {
+  const common = { 椅子: "Chair", "植木鉢（陶器製）": "Flowerpot (ceramic)" }
+  it("品目名で引く。無ければ null", () => {
+    const lookup = createItemsEnLookup(common)
+    expect(lookup("椅子")).toBe("Chair")
+    expect(lookup("机")).toBeNull()
+  })
+  it("表記ゆれ(半角の括弧)でも当たる", () => {
+    expect(createItemsEnLookup(common)("植木鉢(陶器製)")).toBe(
+      "Flowerpot (ceramic)"
+    )
+  })
+  it("後に渡した辞書(自治体の辞書)が優先", () => {
+    const lookup = createItemsEnLookup(common, { 椅子: "Chair (wooden)" })
+    expect(lookup("椅子")).toBe("Chair (wooden)")
+    expect(lookup("植木鉢（陶器製）")).toBe("Flowerpot (ceramic)")
+  })
+  it("自治体の辞書は、表記ゆれで当たる場合も共通辞書より優先", () => {
+    const lookup = createItemsEnLookup(common, {
+      "植木鉢(陶器製)": "Plant pot (ceramic)",
+    })
+    expect(lookup("植木鉢（陶器製）")).toBe("Plant pot (ceramic)")
   })
 })
 

@@ -23,6 +23,7 @@ import {
   type ReuseCategoryId,
 } from "../../src/lib/schemas"
 import {
+  createItemsEnLookup,
   extractSodaiFee,
   findUnusedKeys,
   inferReuseCategory,
@@ -131,9 +132,15 @@ export async function runPipeline(
     COMMON_ALIASES_PATH,
     municipalityFile(slug, "aliases.json")
   )
-  const itemsEn = await loadMergedDict<string>(
-    COMMON_ITEMS_EN_PATH,
-    municipalityFile(slug, "items.en.json")
+  // 品目名の英訳: 共通辞書に自治体の辞書を重ねる(自治体側が優先)。表記ゆれは吸収して引く
+  const localItemsEn =
+    (await readJsonIfExists<Record<string, string>>(
+      municipalityFile(slug, "items.en.json")
+    )) ?? {}
+  const lookupItemEn = createItemsEnLookup(
+    (await readJsonIfExists<Record<string, string>>(COMMON_ITEMS_EN_PATH)) ??
+      {},
+    localItemsEn
   )
   const overrides =
     (await readJsonIfExists<Record<string, string | null>>(
@@ -202,7 +209,7 @@ export async function runPipeline(
         null
       ),
       reuse_category: reuse,
-      name_en: itemsEn[raw.name_ja] ?? null,
+      name_en: lookupItemEn(raw.name_ja),
     })
   }
 
@@ -333,11 +340,7 @@ export async function runPipeline(
   console.log(
     `英訳付与率: ${pct(items.filter((i) => i.name_en !== null).length, items.length)}`
   )
-  // 自治体ごとの英訳は品目名の完全一致で当たる。外れたキーは訳が出ていないので知らせる
-  const localItemsEn =
-    (await readJsonIfExists<Record<string, string>>(
-      municipalityFile(slug, "items.en.json")
-    )) ?? {}
+  // 自治体ごとの英訳のうち、どの品目名にも当たらないキーは訳が出ていないので知らせる
   const unusedEnKeys = findUnusedKeys(
     localItemsEn,
     rawItems.map((r) => r.name_ja)

@@ -14,6 +14,7 @@
     "check-data": "tsx scripts/check-data.ts",
     "update-data": "tsx scripts/update-data.ts",
     "compare-gomisaku": "tsx scripts/tools/compare-gomisaku.ts",
+    "items-en": "tsx scripts/tools/items-en.ts",
     "build-registry": "tsx scripts/build-registry.ts"
   },
   "dependencies": {

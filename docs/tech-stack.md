@@ -270,6 +270,7 @@ scripts/
 | `npm run check-data` | データの検査(再現性・版番号・変わる品目)。先に `build-data -- --all` を実行しておく |
 | `npm run update-data -- --all [--apply]` | 各市のデータ更新を確認する。`--apply` で更新があった市を作り直す(§17) |
 | `npm run compare-gomisaku -- --code <4桁> --csv <path>` | 市公式の分別辞典(ごみサク)と照合して、データの鮮度を確かめる(§16) |
+| `npm run items-en -- <todo\|apply\|check\|review\|bump> [slug]` | 品目名の英訳を足す作業の道具(未訳の一覧・辞書への反映・点検・要確認の一覧・版番号。data-model.md §25、add-item-translations スキル) |
 
 ## 15. PR の自動検査(CI、2026-10-02)
 
