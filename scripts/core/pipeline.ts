@@ -24,6 +24,7 @@ import {
 } from "../../src/lib/schemas"
 import {
   extractSodaiFee,
+  findUnusedKeys,
   inferReuseCategory,
   katakanaToHiragana,
 } from "./enrich"
@@ -329,6 +330,23 @@ export async function runPipeline(
   console.log(
     `sodai_fee抽出数: ${items.filter((i) => i.sodai_fee_yen !== null).length}`
   )
+  console.log(
+    `英訳付与率: ${pct(items.filter((i) => i.name_en !== null).length, items.length)}`
+  )
+  // 自治体ごとの英訳は品目名の完全一致で当たる。外れたキーは訳が出ていないので知らせる
+  const localItemsEn =
+    (await readJsonIfExists<Record<string, string>>(
+      municipalityFile(slug, "items.en.json")
+    )) ?? {}
+  const unusedEnKeys = findUnusedKeys(
+    localItemsEn,
+    rawItems.map((r) => r.name_ja)
+  )
+  if (unusedEnKeys.length > 0) {
+    console.warn(
+      `⚠ items.en.json に、どの品目名とも一致しないキー: ${unusedEnKeys.length} 件(${unusedEnKeys.slice(0, 5).join(", ")}${unusedEnKeys.length > 5 ? " ..." : ""})`
+    )
+  }
 
   if (unresolvedLabels.size > 0) {
     console.warn(`\n⚠ 未解決の区分ラベル: ${unresolvedLabels.size} 種`)
