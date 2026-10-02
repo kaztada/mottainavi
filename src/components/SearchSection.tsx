@@ -1,7 +1,6 @@
 "use client"
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react"
-import type Fuse from "fuse.js"
 import type {
   Category,
   CategoryId,
@@ -9,7 +8,7 @@ import type {
   SearchIndexItem,
 } from "@/lib/schemas"
 import { searchIndexUrl } from "@/lib/public-data"
-import type { SearchEntry } from "@/lib/search"
+import type { Searcher } from "@/lib/search"
 import { useLang, useT } from "@/lib/i18n"
 import { SearchBox } from "./SearchBox"
 import { ItemCard } from "./ItemCard"
@@ -60,7 +59,7 @@ export function SearchSection({
   const [limit, setLimit] = useState(PAGE_SIZE)
   const [index, setIndex] = useState<SearchIndexItem[] | null>(null)
   const [loadError, setLoadError] = useState(false)
-  const fuseRef = useRef<Fuse<SearchEntry> | null>(null)
+  const searcherRef = useRef<Searcher | null>(null)
   const { lang } = useLang()
   const t = useT()
   // 検索モジュール(fuse.js含む)。初回インタラクションで動的import
@@ -110,10 +109,10 @@ export function SearchSection({
   const results = useMemo(() => {
     const lib = searchLibRef.current
     if (!index || !lib || !query.trim()) return null
-    if (!fuseRef.current) {
-      fuseRef.current = lib.createFuse(lib.buildSearchEntries(index))
+    if (!searcherRef.current) {
+      searcherRef.current = lib.createSearcher(index)
     }
-    return lib.searchItems(fuseRef.current, query)
+    return lib.searchItems(searcherRef.current, query)
   }, [index, query])
 
   const filtered = useMemo(() => {
