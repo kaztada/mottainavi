@@ -1,6 +1,6 @@
 {
   "municipality_id": "hirakata-city",
-  "generated_at": "2026-10-03T09:10:16.758Z",
+  "generated_at": "2026-10-03T09:57:41.339Z",
   "source_url": "https://www.city.hirakata.osaka.jp/0000024067.html",
   "item_count": 1761,
   "items": [
@@ -10662,7 +10662,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Traffic cone (triangular cone)"
+      "name_en": "Traffic cone (pylon)"
     },
     {
       "id": "hrk-0609",
@@ -12382,7 +12382,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shogi board"
+      "name_en": "Shogi board (Japanese chess)"
     },
     {
       "id": "hrk-0706",

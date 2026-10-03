@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-03T09:10:21.228Z",
+  "generated_at": "2026-10-03T09:57:44.416Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -5425,7 +5425,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Work gloves (cotton)"
+      "name_en": "Work gloves (gunte)"
     },
     {
       "id": "kag-0310",
@@ -19527,7 +19527,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": "Yukata"
+      "name_en": "Yukata (casual summer kimono)"
     },
     {
       "id": "kag-1109",

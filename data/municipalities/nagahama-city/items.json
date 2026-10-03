@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-03T09:10:24.263Z",
+  "generated_at": "2026-10-03T09:57:46.682Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -321,7 +321,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Oil strainer pot (metal)"
+      "name_en": "Oil strainer (metal)"
     },
     {
       "id": "ngh-0019",
@@ -678,7 +678,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Aluminum foil pot (disposable pot, nabeyaki udon pot)"
+      "name_en": "Aluminum foil pot (disposable pot, pot for nabeyaki udon noodles)"
     },
     {
       "id": "ngh-0040",
@@ -1612,7 +1612,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Plum liquor (umeshu) jar"
+      "name_en": "Jar for making plum liquor (umeshu)"
     },
     {
       "id": "ngh-0092",
@@ -2207,7 +2207,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Oil (motor oil etc.)"
+      "name_en": "Oil (non-cooking)"
     },
     {
       "id": "ngh-0126",
@@ -3800,7 +3800,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Traffic cone"
+      "name_en": "Traffic cone (color cone)"
     },
     {
       "id": "ngh-0218",
@@ -5492,7 +5492,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Skewers (bamboo skewers for yakitori, dango)"
+      "name_en": "Skewers (bamboo skewers for yakitori chicken, dango dumplings)"
     },
     {
       "id": "ngh-0314",
@@ -6125,7 +6125,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Work gloves (cotton)"
+      "name_en": "Work gloves (gunte)"
     },
     {
       "id": "ngh-0351",
@@ -6167,7 +6167,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fluorescent lamp (bulb type) / fluorescent tube"
+      "name_en": "Fluorescent lamp (globe-shaped) / fluorescent tube"
     },
     {
       "id": "ngh-0353",
@@ -6942,7 +6942,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kotatsu quilt (futon)"
+      "name_en": "Kotatsu quilt (cover for heated table)"
     },
     {
       "id": "ngh-0398",
@@ -7936,7 +7936,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Traffic cone (triangular cone)"
+      "name_en": "Traffic cone (pylon)"
     },
     {
       "id": "ngh-0456",
@@ -8653,7 +8653,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shogi pieces"
+      "name_en": "Shogi pieces (Japanese chess)"
     },
     {
       "id": "ngh-0497",
@@ -8670,7 +8670,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shogi board"
+      "name_en": "Shogi board (Japanese chess)"
     },
     {
       "id": "ngh-0498",
@@ -8742,7 +8742,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shoji paper"
+      "name_en": "Shoji paper (paper for sliding screens)"
     },
     {
       "id": "ngh-0502",
@@ -10062,7 +10062,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bamboo / reed blind (sudare; wood, bamboo)"
+      "name_en": "Slatted blind (sudare; wood, bamboo)"
     },
     {
       "id": "ngh-0577",
@@ -11732,7 +11732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Takoyaki maker"
+      "name_en": "Takoyaki maker (octopus ball grill)"
     },
     {
       "id": "ngh-0672",
@@ -12838,7 +12838,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Film on the opening of a tissue box"
+      "name_en": "Film on the opening of a tissue box (paper box)"
     },
     {
       "id": "ngh-0736",
@@ -13086,7 +13086,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tempura oil (used cooking oil)"
+      "name_en": "Tempura oil (cooking oil)"
     },
     {
       "id": "ngh-0749",
@@ -14599,7 +14599,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Natto container"
+      "name_en": "Natto (fermented soybean) container"
     },
     {
       "id": "ngh-0834",
@@ -14616,7 +14616,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Aluminum container for nabeyaki udon etc."
+      "name_en": "Aluminum container for nabeyaki udon noodles etc."
     },
     {
       "id": "ngh-0835",
@@ -14982,7 +14982,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sticky carpet cleaner / lint roller (adhesive sheets)"
+      "name_en": "Adhesive paper sheets for sticky carpet cleaner (lint roller)"
     },
     {
       "id": "ngh-0856",
@@ -16110,7 +16110,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Folding pipe chair"
+      "name_en": "Tubular steel chair (pipe chair)"
     },
     {
       "id": "ngh-0922",
@@ -16311,7 +16311,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Hina doll set"
+      "name_en": "Hina doll set (Girls' Festival dolls)"
     },
     {
       "id": "ngh-0933",
@@ -17015,7 +17015,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Futon"
+      "name_en": "Futon (Japanese bedding)"
     },
     {
       "id": "ngh-0974",
@@ -18495,7 +18495,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Refrigerated storage unit (horeiko)"
+      "name_en": "Electric cool box (plug-in cooler)"
     },
     {
       "id": "ngh-1058",
@@ -19775,7 +19775,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Insect cage / insect breeding case"
+      "name_en": "Insect cage / insect rearing case"
     },
     {
       "id": "ngh-1131",
@@ -20106,7 +20106,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mochi maker (small)"
+      "name_en": "Mochi maker (rice cake machine; small)"
     },
     {
       "id": "ngh-1150",
@@ -20365,7 +20365,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": "Yukata"
+      "name_en": "Yukata (casual summer kimono)"
     },
     {
       "id": "ngh-1165",
@@ -21430,7 +21430,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": "Japanese clothing (wafuku)"
+      "name_en": "Traditional Japanese clothing (wafuku)"
     },
     {
       "id": "ngh-1227",

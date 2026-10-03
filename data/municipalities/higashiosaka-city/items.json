@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiosaka-city",
-  "generated_at": "2026-10-03T09:10:14.792Z",
+  "generated_at": "2026-10-03T09:57:40.094Z",
   "source_url": "https://data.bodik.jp/dataset/272272_28",
   "item_count": 913,
   "items": [
@@ -4233,7 +4233,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Work gloves (cotton)"
+      "name_en": "Work gloves (gunte)"
     },
     {
       "id": "hso-0242",
@@ -6004,7 +6004,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shogi board"
+      "name_en": "Shogi board (Japanese chess)"
     },
     {
       "id": "hso-0343",
@@ -11009,7 +11009,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Folding pipe chair"
+      "name_en": "Tubular steel chair (pipe chair)"
     },
     {
       "id": "hso-0626",

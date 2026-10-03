@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-03T09:10:12.975Z",
+  "generated_at": "2026-10-03T09:57:39.108Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -8461,7 +8461,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Traffic cone"
+      "name_en": "Traffic cone (color cone)"
     },
     {
       "id": "yok-0520",
@@ -13171,7 +13171,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Work gloves (cotton)"
+      "name_en": "Work gloves (gunte)"
     },
     {
       "id": "yok-0815",
@@ -19902,7 +19902,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shogi board"
+      "name_en": "Shogi board (Japanese chess)"
     },
     {
       "id": "yok-1218",
@@ -54584,7 +54584,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": "Yukata"
+      "name_en": "Yukata (casual summer kimono)"
     },
     {
       "id": "yok-3288",
@@ -57783,7 +57783,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": "Japanese clothing (wafuku)"
+      "name_en": "Traditional Japanese clothing (wafuku)"
     },
     {
       "id": "yok-3477",
