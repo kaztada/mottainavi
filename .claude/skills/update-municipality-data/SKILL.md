@@ -36,13 +36,14 @@ gh run list --workflow update-data.yml --limit 5
    gh api -X POST repos/kaztada/mottainavi/actions/runs/<conclusion が action_required の databaseId>/approve
    ```
    そのあと `gh pr checks <番号>` で Vercel と `check` の両方が pass になるのを待つ。PR に「データの検査」のコメントも付く(Kaz が GitHub の画面で「Approve and run」を押しても同じ)
-6. 直すところがあれば、そのブランチに追加でコミットする。問題なければ、変わる内容を平易にまとめて Kaz に伝え、マージボタンを付ける:
+6. 品目・区分・注意文言が変わる更新は、**Codex の二重チェック**をする(tech-stack.md §18): PR のブランチを手元に取り出して `npm run codex-review` を実行し、指摘を市のページと元データで確かめる。結果は PR のコメントに残す。確認記録だけの PR(`source.json` だけ)では不要
+7. 直すところがあれば、そのブランチに追加でコミットする。問題なければ、変わる内容を平易にまとめて Kaz に伝え、マージボタンを付ける:
 
 ```bash
 gh pr merge <番号> --merge --delete-branch
 ```
 
-7. マージ後: main の CI と Vercel、本番でその市の検索データ(`/data/<slug>/search.json?v=<新しい版番号>`)と品目のページを確認。`docs/roadmap.md` の表の「データ更新」と、記憶ファイルに記録する
+8. マージ後: main の CI と Vercel、本番でその市の検索データ(`/data/<slug>/search.json?v=<新しい版番号>`)と品目のページを確認。`docs/roadmap.md` の表の「データ更新」と、記憶ファイルに記録する
 
 確認記録だけの PR(タイトルが「chore: データの取得元の確認記録を更新(自動)」)は、`source.json` しか変わらない。差分がそれだけであることを見て、そのままマージボタンを渡す。
 
@@ -57,7 +58,7 @@ Issue の理由ごとに対応する。作業はブランチ `data/<slug>-<日�
 - **確認できませんでした(掲載ページのリンクが見つからない・複数ある・取得失敗)**: 市がページの構成を変えた可能性。掲載ページを開いて、アダプタの `watch`(`linkText` や `pageUrl`)を直す。GitHub のサーバーからだけ届かない場合は、その旨を Kaz に伝える
 - **PR を作れませんでした**: ブランチは push 済み。`gh pr create --head <ブランチ>` で PR を作る。Kaz に、GitHub Actions の PR 作成の許可がオフになっていないか確かめてもらう
 
-どの場合も、`data_version` を必ず上げ(`npm run check-data` が検査する)、`data_fetched_at` を取得日にする。コミットしてから `npm run build-data -- --all` → `npm run check-data` → テスト・lint・ビルド。PR を作り、Vercel と CI が緑になってからマージボタンを渡す。Issue は PR の本文に `Closes #<番号>` と書いて閉じる。
+どの場合も、`data_version` を必ず上げ(`npm run check-data` が検査する)、`data_fetched_at` を取得日にする。コミットしてから `npm run build-data -- --all` → `npm run check-data` → テスト・lint・ビルド。PR を作る前に Codex の二重チェック(`npm run codex-review`、tech-stack.md §18)をして、指摘を確かめて直す。PR を作り、Vercel と CI が緑になってからマージボタンを渡す。Issue は PR の本文に `Closes #<番号>` と書いて閉じる。
 
 ## 守ること
 
