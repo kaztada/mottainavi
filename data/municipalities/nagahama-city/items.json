@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-03T09:57:46.682Z",
+  "generated_at": "2026-10-03T10:00:08.496Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -10062,7 +10062,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Slatted blind (sudare; wood, bamboo)"
+      "name_en": "Sudare (slatted window blind; wood, bamboo)"
     },
     {
       "id": "ngh-0577",
@@ -21345,7 +21345,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wire"
+      "name_en": "Wire (wire rope / cable)"
     },
     {
       "id": "ngh-1222",

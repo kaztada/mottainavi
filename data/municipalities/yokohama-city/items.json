@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-03T09:57:39.108Z",
+  "generated_at": "2026-10-03T10:00:01.825Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -14949,7 +14949,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Health equipment"
+      "name_en": "Health / fitness equipment"
     },
     {
       "id": "yok-0921",
@@ -24420,7 +24420,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bamboo blind (sudare)"
+      "name_en": "Sudare (slatted window blind)"
     },
     {
       "id": "yok-1490",
@@ -57851,7 +57851,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wire"
+      "name_en": null
     },
     {
       "id": "yok-3481",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "sukagawa-city",
-  "generated_at": "2026-10-03T09:57:45.797Z",
+  "generated_at": "2026-10-03T10:00:07.543Z",
   "source_url": "https://www.city.sukagawa.fukushima.jp/shisei/gaiyo/opendata/1004902/8865.html",
   "item_count": 569,
   "items": [
@@ -404,7 +404,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Issho-bin (1.8 L sake bottle; excluding oil bottles)"
+      "name_en": "Issho-bin (1.8 L glass bottle; excluding oil bottles)"
     },
     {
       "id": "skg-0024",
@@ -2541,7 +2541,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kerosene pump (hand pump for refueling)"
+      "name_en": "Kerosene pump (refueling pump)"
     },
     {
       "id": "skg-0146",
@@ -2983,7 +2983,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Health equipment"
+      "name_en": "Health / fitness equipment"
     },
     {
       "id": "skg-0171",
@@ -3607,7 +3607,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Liquor bottle (sake bottle)"
+      "name_en": "Alcoholic beverage bottle"
     },
     {
       "id": "skg-0207",
@@ -4171,7 +4171,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shoji paper"
+      "name_en": "Shoji paper (paper for sliding screens)"
     },
     {
       "id": "skg-0239",
@@ -4625,7 +4625,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bamboo blind (sudare)"
+      "name_en": "Sudare (slatted window blind)"
     },
     {
       "id": "skg-0263",
@@ -9404,7 +9404,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Monitor"
+      "name_en": "Monitor (display)"
     },
     {
       "id": "skg-0532",
@@ -10035,7 +10035,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wire"
+      "name_en": "Wire (wire rope / cable)"
     },
     {
       "id": "skg-0568",

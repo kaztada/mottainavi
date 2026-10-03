@@ -1,6 +1,6 @@
 {
   "municipality_id": "hirakata-city",
-  "generated_at": "2026-10-03T09:57:41.339Z",
+  "generated_at": "2026-10-03T10:00:03.427Z",
   "source_url": "https://www.city.hirakata.osaka.jp/0000024067.html",
   "item_count": 1761,
   "items": [
@@ -6964,7 +6964,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kerosene pump (hand pump for refueling)"
+      "name_en": "Kerosene pump (refueling pump)"
     },
     {
       "id": "hrk-0396",
@@ -8555,7 +8555,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Health equipment"
+      "name_en": "Health / fitness equipment"
     },
     {
       "id": "hrk-0487",
@@ -12450,7 +12450,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shoji paper"
+      "name_en": "Shoji paper (paper for sliding screens)"
     },
     {
       "id": "hrk-0710",
@@ -28477,7 +28477,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Monitor"
+      "name_en": null
     },
     {
       "id": "hrk-1624",

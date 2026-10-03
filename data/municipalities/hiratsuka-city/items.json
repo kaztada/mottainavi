@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiratsuka-city",
-  "generated_at": "2026-10-03T09:57:43.301Z",
+  "generated_at": "2026-10-03T10:00:04.363Z",
   "source_url": "https://www.city.hiratsuka.kanagawa.jp/keikaku/page81_00019.html",
   "item_count": 805,
   "items": [
@@ -4549,7 +4549,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Health equipment"
+      "name_en": "Health / fitness equipment"
     },
     {
       "id": "hrt-0261",
@@ -6673,7 +6673,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bamboo blind (sudare)"
+      "name_en": "Sudare (slatted window blind)"
     },
     {
       "id": "hrt-0383",
@@ -14017,7 +14017,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wire"
+      "name_en": null
     },
     {
       "id": "hrt-0803",
