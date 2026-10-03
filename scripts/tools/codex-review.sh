@@ -6,6 +6,7 @@
 #   例: npm run codex-review
 #       npm run codex-review -- origin/main "長浜市の categoryNotes を直した変更です"
 #
+# - 対象はコミット済みの差分。コミットしていない変更があると止まる(指摘を直したら、コミットしてからもう一度実行する)
 # - Codex はファイルを書き換えない(-s read-only)。5〜10分かかる
 # - 動いている間は、この作業フォルダのブランチを切り替えない(同じフォルダを読んでいる)
 # - 結果(最後の回答)を標準出力に出す。途中経過のログは <結果のファイル>.log に残す
@@ -21,6 +22,14 @@ if ! command -v codex >/dev/null 2>&1; then
 fi
 
 cd "$(git rev-parse --show-toplevel)"
+
+# レビューの対象はコミット済みの差分(BASE...HEAD)。コミットしていない変更があると、
+# Codex が読むファイルとレビュー対象が食い違うので、先にコミットしてもらう
+if [ -n "$(git status --porcelain --untracked-files=no)" ]; then
+  echo "コミットしていない変更があります。コミットしてから実行してください(直したあとの再レビューも同じ)" >&2
+  git status --short --untracked-files=no >&2
+  exit 1
+fi
 OUT="$(mktemp "${TMPDIR:-/tmp}/mottainavi-codex-review.XXXXXX")"
 
 PROMPT="あなたはコードとデータのレビュー担当です。ファイルは書き換えないでください(読み取りだけ)。
