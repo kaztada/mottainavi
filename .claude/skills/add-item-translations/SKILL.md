@@ -82,6 +82,8 @@ npm run items-en -- review <slug>    # 要確認の一覧 work/items-en/<slug>.r
 
 PR を作り(`gh pr list` で、同じファイルを触る開いている PR が無いか先に見る)、CI と Vercel の緑を確認する。Kaz には要確認の一覧を渡し、とくに判断がほしい品目を報告に書き出す。Kaz の指摘を反映して緑を確かめてから、マージボタン(`gh pr merge <番号> --merge --delete-branch`)を渡す。
 
+マージボタンを渡す直前に `git fetch` して、main が進んでいたら取り込む(`git merge origin/main`)→ `npm run build-data -- --all` → `npm run items-en -- bump` → 変わった市の items.json と municipality.json をコミット。英訳の PR を出しているあいだに自治体の追加やデータの修正が main に入ると、共通辞書の訳がその市にも付くので、取り込まないと CI の再現性の検査が落ちる。
+
 ## 7. 本番確認と記録(Kaz がマージしたあと)
 
 - 本番の `/data/<slug>/search.json?v=<新しい版番号>` が main のデータと一致すること。内部ブラウザのモバイル表示で英語モードの画面を見る
