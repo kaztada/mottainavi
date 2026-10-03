@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-03T10:00:08.496Z",
+  "generated_at": "2026-10-03T19:26:24.635Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -1085,7 +1085,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cast-iron pot"
+      "name_en": "Cast metal pot (cast iron etc.)"
     },
     {
       "id": "ngh-0063",
@@ -2787,7 +2787,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Thermometer (glass)"
+      "name_en": "Thermometer (glass, non-mercury)"
     },
     {
       "id": "ngh-0159",
@@ -3443,7 +3443,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bag"
+      "name_en": "Bag (with metal fittings)"
     },
     {
       "id": "ngh-0197",
@@ -8221,7 +8221,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shaver (electric razor)"
+      "name_en": "Shaver (non-rechargeable)"
     },
     {
       "id": "ngh-0472",
@@ -13273,7 +13273,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electric razor"
+      "name_en": "Electric razor (rechargeable)"
     },
     {
       "id": "ngh-0760",
@@ -15872,7 +15872,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bag"
+      "name_en": "Bag (without metal fittings)"
     },
     {
       "id": "ngh-0908",
