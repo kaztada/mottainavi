@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-03T08:51:12.005Z",
+  "generated_at": "2026-10-03T09:35:36.753Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -9571,7 +9571,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bamboo blind (sudare)"
+      "name_en": "Sudare (slatted window blind)"
     },
     {
       "id": "kag-0545",

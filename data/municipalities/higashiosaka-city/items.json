@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiosaka-city",
-  "generated_at": "2026-10-03T08:51:07.105Z",
+  "generated_at": "2026-10-03T09:35:32.016Z",
   "source_url": "https://data.bodik.jp/dataset/272272_28",
   "item_count": 913,
   "items": [
@@ -4482,7 +4482,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Health equipment"
+      "name_en": "Health / fitness equipment"
     },
     {
       "id": "hso-0256",
@@ -6741,7 +6741,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bamboo blind (sudare)"
+      "name_en": "Sudare (slatted window blind)"
     },
     {
       "id": "hso-0384",
@@ -14730,7 +14730,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Monitor"
+      "name_en": null
     },
     {
       "id": "hso-0838",
