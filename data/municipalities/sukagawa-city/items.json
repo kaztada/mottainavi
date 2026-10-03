@@ -1,6 +1,6 @@
 {
   "municipality_id": "sukagawa-city",
-  "generated_at": "2026-10-03T09:35:38.601Z",
+  "generated_at": "2026-10-03T09:44:30.170Z",
   "source_url": "https://www.city.sukagawa.fukushima.jp/shisei/gaiyo/opendata/1004902/8865.html",
   "item_count": 569,
   "items": [
@@ -404,7 +404,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Issho-bin (1.8 L sake bottle; excluding oil bottles)"
+      "name_en": "Issho-bin (1.8 L glass bottle; excluding oil bottles)"
     },
     {
       "id": "skg-0024",
@@ -3607,7 +3607,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Liquor bottle (sake bottle)"
+      "name_en": "Alcoholic beverage bottle"
     },
     {
       "id": "skg-0207",
