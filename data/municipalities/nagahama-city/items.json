@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-04T10:25:40.462Z",
+  "generated_at": "2026-10-04T10:30:33.698Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -19,7 +19,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ice cream cup / lid (paper)"
     },
     {
       "id": "ngh-0002",
@@ -36,7 +36,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ice cream outer bag / container / lid (plastic)"
     },
     {
       "id": "ngh-0003",
@@ -53,7 +53,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ice cream stick / spoon"
     },
     {
       "id": "ngh-0004",
@@ -132,7 +132,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty can (beverage/food)"
     },
     {
       "id": "ngh-0008",
@@ -149,7 +149,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jewelry / accessories (metal, ceramic, glass, plastic)"
     },
     {
       "id": "ngh-0009",
@@ -166,7 +166,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jewelry / accessories (wood)"
     },
     {
       "id": "ngh-0010",
@@ -183,7 +183,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Acrylic sheet"
     },
     {
       "id": "ngh-0011",
@@ -200,7 +200,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Accordion"
     },
     {
       "id": "ngh-0012",
@@ -236,7 +236,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Foot mat / bath mat (cloth)"
     },
     {
       "id": "ngh-0014",
@@ -270,7 +270,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Adapter (power adapter)"
     },
     {
       "id": "ngh-0016",
@@ -287,7 +287,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sealed postcard (peel-apart postcard)"
     },
     {
       "id": "ngh-0017",
@@ -304,7 +304,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pressure cooker"
     },
     {
       "id": "ngh-0018",
@@ -321,7 +321,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil strainer (metal)"
     },
     {
       "id": "ngh-0019",
@@ -338,7 +338,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil filter paper (for cooking oil)"
     },
     {
       "id": "ngh-0020",
@@ -355,7 +355,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil splatter guard (aluminum)"
     },
     {
       "id": "ngh-0021",
@@ -372,7 +372,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil splash guard (used around the stove)"
     },
     {
       "id": "ngh-0022",
@@ -389,7 +389,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil (non-cooking)"
     },
     {
       "id": "ngh-0023",
@@ -423,7 +423,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking oil can"
     },
     {
       "id": "ngh-0025",
@@ -440,7 +440,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking oil bottle (glass)"
     },
     {
       "id": "ngh-0026",
@@ -457,7 +457,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rainwear (rain poncho)"
     },
     {
       "id": "ngh-0027",
@@ -474,7 +474,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rain gutter"
     },
     {
       "id": "ngh-0028",
@@ -508,7 +508,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window screen mesh (metal)"
     },
     {
       "id": "ngh-0030",
@@ -525,7 +525,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window screen mesh (plastic)"
     },
     {
       "id": "ngh-0031",
@@ -542,7 +542,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window screen / storm shutter"
     },
     {
       "id": "ngh-0032",
@@ -559,7 +559,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Grill grate (for barbecue)"
     },
     {
       "id": "ngh-0033",
@@ -576,7 +576,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Candy outer bag / individual wrapper (paper)"
     },
     {
       "id": "ngh-0034",
@@ -593,7 +593,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Candy outer bag / individual wrapper (plastic)"
     },
     {
       "id": "ngh-0035",
@@ -627,7 +627,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum can (beverage/food)"
     },
     {
       "id": "ngh-0037",
@@ -644,7 +644,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum-coated bag (snacks, retort-pouch food etc.)"
     },
     {
       "id": "ngh-0038",
@@ -661,7 +661,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum window sash"
     },
     {
       "id": "ngh-0039",
@@ -678,7 +678,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil pot (disposable pot, pot for nabeyaki udon noodles)"
     },
     {
       "id": "ngh-0040",
@@ -695,7 +695,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil roll core"
     },
     {
       "id": "ngh-0041",
@@ -712,7 +712,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil box"
     },
     {
       "id": "ngh-0042",
@@ -729,7 +729,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil box cutting blade (metal)"
     },
     {
       "id": "ngh-0043",
@@ -746,7 +746,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil"
     },
     {
       "id": "ngh-0044",
@@ -763,7 +763,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Foot warmer (anka)"
     },
     {
       "id": "ngh-0045",
@@ -848,7 +848,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stone mortar / millstone (ishiusu)"
     },
     {
       "id": "ngh-0050",
@@ -865,7 +865,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Clothing storage case"
     },
     {
       "id": "ngh-0051",
@@ -887,7 +887,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chair"
     },
     {
       "id": "ngh-0052",
@@ -909,7 +909,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chair (for bath)"
     },
     {
       "id": "ngh-0053",
@@ -943,7 +943,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheelbarrow tire"
     },
     {
       "id": "ngh-0055",
@@ -1011,7 +1011,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "18 L can (itto-kan; food/beverage)"
     },
     {
       "id": "ngh-0059",
@@ -1028,7 +1028,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thread / yarn"
     },
     {
       "id": "ngh-0060",
@@ -1085,7 +1085,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cast metal pot (cast iron etc.)"
     },
     {
       "id": "ngh-0063",
@@ -1102,7 +1102,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Earphones / headphones"
     },
     {
       "id": "ngh-0064",
@@ -1159,7 +1159,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Personal seal / hanko (metal, ceramic, glass, stone, plastic)"
     },
     {
       "id": "ngh-0067",
@@ -1176,7 +1176,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Personal seal / hanko (wood)"
     },
     {
       "id": "ngh-0068",
@@ -1199,7 +1199,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ink cartridge (for PC printer)"
     },
     {
       "id": "ngh-0069",
@@ -1216,7 +1216,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Instant coffee jar (glass)"
     },
     {
       "id": "ngh-0070",
@@ -1233,7 +1233,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Instant food outer bag / container / lid (plastic)"
     },
     {
       "id": "ngh-0071",
@@ -1250,7 +1250,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Intercom"
     },
     {
       "id": "ngh-0072",
@@ -1267,7 +1267,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Easel"
     },
     {
       "id": "ngh-0073",
@@ -1284,7 +1284,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wig (hairpiece)"
     },
     {
       "id": "ngh-0074",
@@ -1301,7 +1301,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Windbreaker"
     },
     {
       "id": "ngh-0075",
@@ -1318,7 +1318,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Windsurfing board"
     },
     {
       "id": "ngh-0076",
@@ -1339,7 +1339,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window air conditioner"
     },
     {
       "id": "ngh-0077",
@@ -1356,7 +1356,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window fan (evaporative air cooler)"
     },
     {
       "id": "ngh-0078",
@@ -1373,7 +1373,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pruning shears (garden shears)"
     },
     {
       "id": "ngh-0079",
@@ -1390,7 +1390,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flowerpot"
     },
     {
       "id": "ngh-0080",
@@ -1407,7 +1407,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fanny pack (waist pouch)"
     },
     {
       "id": "ngh-0081",
@@ -1424,7 +1424,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wet wipes"
     },
     {
       "id": "ngh-0082",
@@ -1463,7 +1463,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water dispenser bottle (PET)"
     },
     {
       "id": "ngh-0084",
@@ -1482,7 +1482,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Water bed"
     },
     {
       "id": "ngh-0085",
@@ -1516,7 +1516,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mortar (usu; wood)"
     },
     {
       "id": "ngh-0087",
@@ -1556,7 +1556,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wood carpet"
     },
     {
       "id": "ngh-0089",
@@ -1612,7 +1612,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jar for making plum liquor (umeshu)"
     },
     {
       "id": "ngh-0092",
@@ -1635,7 +1635,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Down comforter (feather futon)"
     },
     {
       "id": "ngh-0093",
@@ -1652,7 +1652,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Floor covering mat (goza rush mat)"
     },
     {
       "id": "ngh-0094",
@@ -1686,7 +1686,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sneakers / athletic shoes"
     },
     {
       "id": "ngh-0096",
@@ -1741,7 +1741,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Exercise bike"
     },
     {
       "id": "ngh-0099",
@@ -1758,7 +1758,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air mattress"
     },
     {
       "id": "ngh-0100",
@@ -1775,7 +1775,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Film projector"
     },
     {
       "id": "ngh-0101",
@@ -1814,7 +1814,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "LCD TV"
     },
     {
       "id": "ngh-0103",
@@ -1831,7 +1831,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Branch-cutting shears (loppers)"
     },
     {
       "id": "ngh-0104",
@@ -1848,7 +1848,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Branches / leaves"
     },
     {
       "id": "ngh-0105",
@@ -1865,7 +1865,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint tube (metal)"
     },
     {
       "id": "ngh-0106",
@@ -1882,7 +1882,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint tube (plastic)"
     },
     {
       "id": "ngh-0107",
@@ -1899,7 +1899,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint box (paper)"
     },
     {
       "id": "ngh-0108",
@@ -1916,7 +1916,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paintbrush / palette"
     },
     {
       "id": "ngh-0109",
@@ -1933,7 +1933,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Apron"
     },
     {
       "id": "ngh-0110",
@@ -1952,7 +1952,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Picture book"
     },
     {
       "id": "ngh-0111",
@@ -1986,7 +1986,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plant support pole (wood, bamboo)"
     },
     {
       "id": "ngh-0113",
@@ -2003,7 +2003,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plant support pole (metal, plastic)"
     },
     {
       "id": "ngh-0114",
@@ -2020,7 +2020,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Garden soil (potting soil)"
     },
     {
       "id": "ngh-0115",
@@ -2054,7 +2054,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Engine oil can"
     },
     {
       "id": "ngh-0117",
@@ -2071,7 +2071,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Curbstone"
     },
     {
       "id": "ngh-0118",
@@ -2088,7 +2088,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chlorine-based detergent container"
     },
     {
       "id": "ngh-0119",
@@ -2139,7 +2139,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pencil sharpener (electric, metal manual, plastic)"
     },
     {
       "id": "ngh-0122",
@@ -2156,7 +2156,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pencils / colored pencils"
     },
     {
       "id": "ngh-0123",
@@ -2173,7 +2173,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pencil / colored pencil case (paper)"
     },
     {
       "id": "ngh-0124",
@@ -2190,7 +2190,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pencil / colored pencil case (metal)"
     },
     {
       "id": "ngh-0125",
@@ -2207,7 +2207,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil (non-cooking)"
     },
     {
       "id": "ngh-0126",
@@ -2224,7 +2224,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil can"
     },
     {
       "id": "ngh-0127",
@@ -2263,7 +2263,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Reception set / lounge set (desk, table, chairs)"
     },
     {
       "id": "ngh-0129",
@@ -2280,7 +2280,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Snack / candy box / divider (paper)"
     },
     {
       "id": "ngh-0130",
@@ -2297,7 +2297,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Snack / candy tin (metal)"
     },
     {
       "id": "ngh-0131",
@@ -2314,7 +2314,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Snack / candy bag / box divider (plastic)"
     },
     {
       "id": "ngh-0132",
@@ -2336,7 +2336,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Table clock (desk clock)"
     },
     {
       "id": "ngh-0133",
@@ -2353,7 +2353,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tub / pail (oke)"
     },
     {
       "id": "ngh-0134",
@@ -2370,7 +2370,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pacifier"
     },
     {
       "id": "ngh-0135",
@@ -2387,7 +2387,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ladle (metal, ceramic, glass, plastic)"
     },
     {
       "id": "ngh-0136",
@@ -2404,7 +2404,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ladle (wood)"
     },
     {
       "id": "ngh-0137",
@@ -2421,7 +2421,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fallen leaves / dead leaves"
     },
     {
       "id": "ngh-0138",
@@ -2438,7 +2438,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tea leaves / tea bags"
     },
     {
       "id": "ngh-0139",
@@ -2455,7 +2455,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hand wipe (oshibori)"
     },
     {
       "id": "ngh-0140",
@@ -2472,7 +2472,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hand wipe outer bag"
     },
     {
       "id": "ngh-0141",
@@ -2489,7 +2489,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Axe"
     },
     {
       "id": "ngh-0142",
@@ -2506,7 +2506,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flat marbles (ohajiki; glass, plastic)"
     },
     {
       "id": "ngh-0143",
@@ -2523,7 +2523,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Obi (kimono sash)"
     },
     {
       "id": "ngh-0144",
@@ -2540,7 +2540,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tray (metal, ceramic, plastic)"
     },
     {
       "id": "ngh-0145",
@@ -2557,7 +2557,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tray (wood)"
     },
     {
       "id": "ngh-0146",
@@ -2591,7 +2591,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Diaper cover"
     },
     {
       "id": "ngh-0148",
@@ -2608,7 +2608,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Diaper (cloth, disposable)"
     },
     {
       "id": "ngh-0149",
@@ -2628,7 +2628,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty toy box (paper)"
     },
     {
       "id": "ngh-0150",
@@ -2648,7 +2648,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Toy (metal, ceramic, glass, plastic)"
     },
     {
       "id": "ngh-0151",
@@ -2719,7 +2719,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Grater (metal, ceramic, plastic)"
     },
     {
       "id": "ngh-0155",
@@ -2736,7 +2736,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Grater (wood)"
     },
     {
       "id": "ngh-0156",
@@ -2753,7 +2753,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soup bowl (metal, ceramic, plastic)"
     },
     {
       "id": "ngh-0157",
@@ -2770,7 +2770,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soup bowl (wood)"
     },
     {
       "id": "ngh-0158",
@@ -2787,7 +2787,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thermometer (glass, non-mercury)"
     },
     {
       "id": "ngh-0159",
@@ -2804,7 +2804,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thermometer (mercury)"
     },
     {
       "id": "ngh-0160",
@@ -2821,7 +2821,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Warm-air heater"
     },
     {
       "id": "ngh-0161",
@@ -2838,7 +2838,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Audio rack"
     },
     {
       "id": "ngh-0162",
@@ -2855,7 +2855,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Motorcycle (including mopeds)"
     },
     {
       "id": "ngh-0163",
@@ -2872,7 +2872,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Overcoat"
     },
     {
       "id": "ngh-0164",
@@ -2957,7 +2957,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shopping basket"
     },
     {
       "id": "ngh-0169",
@@ -2991,7 +2991,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Disposable hand warmer (kairo) outer bag"
     },
     {
       "id": "ngh-0171",
@@ -3008,7 +3008,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mirror (dressing-table mirror)"
     },
     {
       "id": "ngh-0172",
@@ -3025,7 +3025,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oyster shells"
     },
     {
       "id": "ngh-0173",
@@ -3081,7 +3081,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wall clock"
     },
     {
       "id": "ngh-0176",
@@ -3115,7 +3115,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fire alarm (household)"
     },
     {
       "id": "ngh-0178",
@@ -3132,7 +3132,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Umbrella stand"
     },
     {
       "id": "ngh-0179",
@@ -3183,7 +3183,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cassette gas canister"
     },
     {
       "id": "ngh-0182",
@@ -3200,7 +3200,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cassette gas canister cap (plastic)"
     },
     {
       "id": "ngh-0183",
@@ -3217,7 +3217,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cassette tape (including case)"
     },
     {
       "id": "ngh-0184",
@@ -3251,7 +3251,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Catalog / pamphlet"
     },
     {
       "id": "ngh-0186",
@@ -3268,7 +3268,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Utility knife (small knife)"
     },
     {
       "id": "ngh-0187",
@@ -3285,7 +3285,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Raincoat (rain poncho)"
     },
     {
       "id": "ngh-0188",
@@ -3302,7 +3302,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Instant noodle topping / soup packet"
     },
     {
       "id": "ngh-0189",
@@ -3319,7 +3319,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Instant noodle outer wrap film"
     },
     {
       "id": "ngh-0190",
@@ -3336,7 +3336,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Instant noodle cup / lid (paper)"
     },
     {
       "id": "ngh-0191",
@@ -3353,7 +3353,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Instant noodle cup / lid (plastic)"
     },
     {
       "id": "ngh-0192",
@@ -3387,7 +3387,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mosquito repellent mat"
     },
     {
       "id": "ngh-0194",
@@ -3404,7 +3404,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mosquito repellent mat device (electric vaporizer)"
     },
     {
       "id": "ngh-0195",
@@ -3421,7 +3421,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hammer"
     },
     {
       "id": "ngh-0196",
@@ -3443,7 +3443,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bag (with metal fittings)"
     },
     {
       "id": "ngh-0197",
@@ -3460,7 +3460,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vase (metal, ceramic, glass)"
     },
     {
       "id": "ngh-0198",
@@ -3494,7 +3494,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice cooking pot (kama)"
     },
     {
       "id": "ngh-0200",
@@ -3511,7 +3511,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sickle"
     },
     {
       "id": "ngh-0201",
@@ -3562,7 +3562,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Razor"
     },
     {
       "id": "ngh-0204",
@@ -3579,7 +3579,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper napkin"
     },
     {
       "id": "ngh-0205",
@@ -3613,7 +3613,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hair"
     },
     {
       "id": "ngh-0207",
@@ -3630,7 +3630,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper carton (silver inside)"
     },
     {
       "id": "ngh-0208",
@@ -3647,7 +3647,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper carton (white inside)"
     },
     {
       "id": "ngh-0209",
@@ -3664,7 +3664,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper string"
     },
     {
       "id": "ngh-0210",
@@ -3715,7 +3715,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Camera case (leather, cloth)"
     },
     {
       "id": "ngh-0213",
@@ -3732,7 +3732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Camera film (including case)"
     },
     {
       "id": "ngh-0214",
@@ -3749,7 +3749,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Camera / digital camera"
     },
     {
       "id": "ngh-0215",
@@ -3783,7 +3783,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mustard tube / cap"
     },
     {
       "id": "ngh-0217",
@@ -3800,7 +3800,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Traffic cone (color cone)"
     },
     {
       "id": "ngh-0218",
@@ -3868,7 +3868,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Calendar binding (metal)"
     },
     {
       "id": "ngh-0222",
@@ -3885,7 +3885,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Leather goods (shoes)"
     },
     {
       "id": "ngh-0223",
@@ -3902,7 +3902,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Leather goods (jackets, pants)"
     },
     {
       "id": "ngh-0224",
@@ -3919,7 +3919,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Peeler"
     },
     {
       "id": "ngh-0225",
@@ -3936,7 +3936,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Roof tile"
     },
     {
       "id": "ngh-0226",
@@ -3953,7 +3953,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Add-on Western-style toilet seat (plastic)"
     },
     {
       "id": "ngh-0227",
@@ -3987,7 +3987,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Can opener (metal)"
     },
     {
       "id": "ngh-0229",
@@ -4004,7 +4004,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Photosensitive paper"
     },
     {
       "id": "ngh-0230",
@@ -4021,7 +4021,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cushioning material (other)"
     },
     {
       "id": "ngh-0231",
@@ -4038,7 +4038,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cushioning material (plastic)"
     },
     {
       "id": "ngh-0232",
@@ -4072,7 +4072,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Canned food can / lid (beverage/food)"
     },
     {
       "id": "ngh-0234",
@@ -4111,7 +4111,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hand plane (kanna)"
     },
     {
       "id": "ngh-0236",
@@ -4128,7 +4128,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thermal paper"
     },
     {
       "id": "ngh-0237",
@@ -4162,7 +4162,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Can (beverage/food)"
     },
     {
       "id": "ngh-0239",
@@ -4181,7 +4181,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Curtains (including lace)"
     },
     {
       "id": "ngh-0240",
@@ -4234,7 +4234,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Car navigation system / car stereo"
     },
     {
       "id": "ngh-0243",
@@ -4257,7 +4257,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carpet lint roller"
     },
     {
       "id": "ngh-0244",
@@ -4280,7 +4280,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carpet lint roller adhesive tape"
     },
     {
       "id": "ngh-0245",
@@ -4303,7 +4303,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carpet (excluding electric carpets)"
     },
     {
       "id": "ngh-0246",
@@ -4337,7 +4337,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Study desk"
     },
     {
       "id": "ngh-0248",
@@ -4393,7 +4393,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas heater"
     },
     {
       "id": "ngh-0251",
@@ -4427,7 +4427,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas cylinder (LP gas)"
     },
     {
       "id": "ngh-0253",
@@ -4444,7 +4444,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas stove mat (burner cover)"
     },
     {
       "id": "ngh-0254",
@@ -4461,7 +4461,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas range / gas oven / gas oven with microwave function"
     },
     {
       "id": "ngh-0255",
@@ -4478,7 +4478,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gasoline"
     },
     {
       "id": "ngh-0256",
@@ -4495,7 +4495,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thumbtack"
     },
     {
       "id": "ngh-0257",
@@ -4546,7 +4546,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chewing gum paper wrapper (outer and individual)"
     },
     {
       "id": "ngh-0260",
@@ -4563,7 +4563,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Drawing paper"
     },
     {
       "id": "ngh-0261",
@@ -4584,7 +4584,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass cleaner spray can"
     },
     {
       "id": "ngh-0262",
@@ -4601,7 +4601,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass cleaner container (pump type)"
     },
     {
       "id": "ngh-0263",
@@ -4618,7 +4618,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass bottle (beverage/food)"
     },
     {
       "id": "ngh-0264",
@@ -4635,7 +4635,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass items"
     },
     {
       "id": "ngh-0265",
@@ -4652,7 +4652,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rubble"
     },
     {
       "id": "ngh-0266",
@@ -4669,7 +4669,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gauze"
     },
     {
       "id": "ngh-0267",
@@ -4686,7 +4686,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wood scraps"
     },
     {
       "id": "ngh-0268",
@@ -4703,7 +4703,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kitchen splash guard (aluminum)"
     },
     {
       "id": "ngh-0269",
@@ -4720,7 +4720,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper kitchen towel"
     },
     {
       "id": "ngh-0270",
@@ -4737,7 +4737,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wooden mallet"
     },
     {
       "id": "ngh-0271",
@@ -4754,7 +4754,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mochi pestle (kine)"
     },
     {
       "id": "ngh-0272",
@@ -4771,7 +4771,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tree trunk / roots"
     },
     {
       "id": "ngh-0273",
@@ -4788,7 +4788,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Kimono"
     },
     {
       "id": "ngh-0274",
@@ -4805,7 +4805,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Kimono obi (sash)"
     },
     {
       "id": "ngh-0275",
@@ -4822,7 +4822,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stepladder"
     },
     {
       "id": "ngh-0276",
@@ -4890,7 +4890,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Roof rack / carrier (for cars)"
     },
     {
       "id": "ngh-0280",
@@ -4907,7 +4907,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rolling suitcase (carry bag)"
     },
     {
       "id": "ngh-0281",
@@ -4924,7 +4924,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "First-aid box / medicine box"
     },
     {
       "id": "ngh-0282",
@@ -4941,7 +4941,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flower bulb"
     },
     {
       "id": "ngh-0283",
@@ -4958,7 +4958,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Teapot (kyusu; ceramic, glass)"
     },
     {
       "id": "ngh-0284",
@@ -4975,7 +4975,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water heater (kitchen type)"
     },
     {
       "id": "ngh-0285",
@@ -4992,7 +4992,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kerosene pump (electric, manual)"
     },
     {
       "id": "ngh-0286",
@@ -5009,7 +5009,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Textbook"
     },
     {
       "id": "ngh-0287",
@@ -5026,7 +5026,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Dressing table (vanity)"
     },
     {
       "id": "ngh-0288",
@@ -5043,7 +5043,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gimlet (kiri)"
     },
     {
       "id": "ngh-0289",
@@ -5060,7 +5060,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Quilted fabric"
     },
     {
       "id": "ngh-0290",
@@ -5094,7 +5094,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Safe (fireproof)"
     },
     {
       "id": "ngh-0292",
@@ -5111,7 +5111,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Safe (portable cash box)"
     },
     {
       "id": "ngh-0293",
@@ -5128,7 +5128,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Key case"
     },
     {
       "id": "ngh-0294",
@@ -5145,7 +5145,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Key ring / key chain"
     },
     {
       "id": "ngh-0295",
@@ -5162,7 +5162,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Key ring / key chain (non-metal)"
     },
     {
       "id": "ngh-0296",
@@ -5202,7 +5202,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Keyboard (for PC)"
     },
     {
       "id": "ngh-0298",
@@ -5224,7 +5224,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Guitar"
     },
     {
       "id": "ngh-0299",
@@ -5246,7 +5246,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Guitar case"
     },
     {
       "id": "ngh-0300",
@@ -5266,7 +5266,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Milk carton (white inside)"
     },
     {
       "id": "ngh-0301",
@@ -5300,7 +5300,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Milk bottle cap (paper)"
     },
     {
       "id": "ngh-0303",
@@ -5317,7 +5317,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Milk bottle cap (plastic)"
     },
     {
       "id": "ngh-0304",
@@ -5339,7 +5339,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air pump (for bicycles)"
     },
     {
       "id": "ngh-0305",
@@ -5390,7 +5390,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Brush cutter / lawn mower"
     },
     {
       "id": "ngh-0308",
@@ -5407,7 +5407,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chain"
     },
     {
       "id": "ngh-0309",
@@ -5424,7 +5424,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Grass / flowers"
     },
     {
       "id": "ngh-0310",
@@ -5441,7 +5441,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Skewers (metal)"
     },
     {
       "id": "ngh-0311",
@@ -5458,7 +5458,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Comb (plastic)"
     },
     {
       "id": "ngh-0312",
@@ -5475,7 +5475,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Comb (wood)"
     },
     {
       "id": "ngh-0313",
@@ -5492,7 +5492,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Skewers (bamboo skewers for yakitori chicken, dango dumplings)"
     },
     {
       "id": "ngh-0314",
@@ -5509,7 +5509,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicine bottle (other than oral medicine)"
     },
     {
       "id": "ngh-0315",
@@ -5526,7 +5526,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicine bottle (for oral medicine)"
     },
     {
       "id": "ngh-0316",
@@ -5543,7 +5543,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicine container / lid (plastic)"
     },
     {
       "id": "ngh-0317",
@@ -5560,7 +5560,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicine box / first-aid box"
     },
     {
       "id": "ngh-0318",
@@ -5577,7 +5577,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicine bag"
     },
     {
       "id": "ngh-0319",
@@ -5594,7 +5594,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicine (tablets, capsules etc.)"
     },
     {
       "id": "ngh-0320",
@@ -5611,7 +5611,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Blister pack for medicine (tablets, capsules etc.)"
     },
     {
       "id": "ngh-0321",
@@ -5628,7 +5628,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fruit / fruit peels"
     },
     {
       "id": "ngh-0322",
@@ -5645,7 +5645,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fruit pack / wrap / net"
     },
     {
       "id": "ngh-0323",
@@ -5662,7 +5662,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lipstick case"
     },
     {
       "id": "ngh-0324",
@@ -5679,7 +5679,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking heater / induction cooktop"
     },
     {
       "id": "ngh-0325",
@@ -5696,7 +5696,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking paper (kitchen paper)"
     },
     {
       "id": "ngh-0326",
@@ -5730,7 +5730,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cushion cover"
     },
     {
       "id": "ngh-0328",
@@ -5768,7 +5768,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Socks (in pairs)"
     },
     {
       "id": "ngh-0330",
@@ -5785,7 +5785,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty shoe box / paper stuffing"
     },
     {
       "id": "ngh-0331",
@@ -5802,7 +5802,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic stuffing inside shoes"
     },
     {
       "id": "ngh-0332",
@@ -5819,7 +5819,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shoehorn (metal, plastic)"
     },
     {
       "id": "ngh-0333",
@@ -5836,7 +5836,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shoehorn (wood)"
     },
     {
       "id": "ngh-0334",
@@ -5870,7 +5870,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rake"
     },
     {
       "id": "ngh-0336",
@@ -5904,7 +5904,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clip (metal)"
     },
     {
       "id": "ngh-0338",
@@ -5921,7 +5921,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dry-cleaning paper bag / backing board"
     },
     {
       "id": "ngh-0339",
@@ -5938,7 +5938,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dry-cleaning bag"
     },
     {
       "id": "ngh-0340",
@@ -5972,7 +5972,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Credit card"
     },
     {
       "id": "ngh-0342",
@@ -6006,7 +6006,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Crayon case / inner tray (paper)"
     },
     {
       "id": "ngh-0344",
@@ -6023,7 +6023,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Crayon case / inner tray (plastic)"
     },
     {
       "id": "ngh-0345",
@@ -6040,7 +6040,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hoe (kuwa)"
     },
     {
       "id": "ngh-0346",
@@ -6074,7 +6074,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air conditioner / cooler (outdoor unit)"
     },
     {
       "id": "ngh-0348",
@@ -6108,7 +6108,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glow lamp (glow starter bulb)"
     },
     {
       "id": "ngh-0350",
@@ -6125,7 +6125,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Work gloves (gunte)"
     },
     {
       "id": "ngh-0351",
@@ -6147,7 +6147,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Outer box of fluorescent lamp / light bulb"
     },
     {
       "id": "ngh-0352",
@@ -6167,7 +6167,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fluorescent lamp (globe-shaped) / fluorescent tube"
     },
     {
       "id": "ngh-0353",
@@ -6184,7 +6184,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Highlighter pen"
     },
     {
       "id": "ngh-0354",
@@ -6201,7 +6201,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Diatomaceous earth mat"
     },
     {
       "id": "ngh-0355",
@@ -6235,7 +6235,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cell phone battery"
     },
     {
       "id": "ngh-0357",
@@ -6252,7 +6252,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Yarn / thread"
     },
     {
       "id": "ngh-0358",
@@ -6269,7 +6269,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Measuring cup / measuring spoon (plastic, metal, ceramic, glass)"
     },
     {
       "id": "ngh-0359",
@@ -6286,7 +6286,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Measuring cup / measuring spoon (wood)"
     },
     {
       "id": "ngh-0360",
@@ -6303,7 +6303,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Scale (kitchen scale)"
     },
     {
       "id": "ngh-0361",
@@ -6320,7 +6320,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fur"
     },
     {
       "id": "ngh-0362",
@@ -6354,7 +6354,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dressing table (vanity)"
     },
     {
       "id": "ngh-0364",
@@ -6371,7 +6371,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Decorative box (wood, cloth)"
     },
     {
       "id": "ngh-0365",
@@ -6388,7 +6388,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cosmetics paper box"
     },
     {
       "id": "ngh-0366",
@@ -6422,7 +6422,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cosmetics bottle cap (plastic)"
     },
     {
       "id": "ngh-0368",
@@ -6439,7 +6439,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cosmetics container (metal)"
     },
     {
       "id": "ngh-0369",
@@ -6456,7 +6456,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ketchup outer bag"
     },
     {
       "id": "ngh-0370",
@@ -6473,7 +6473,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ketchup container / cap"
     },
     {
       "id": "ngh-0371",
@@ -6490,7 +6490,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Blood pressure monitor (mercury, manual)"
     },
     {
       "id": "ngh-0372",
@@ -6507,7 +6507,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Blood pressure monitor (digital)"
     },
     {
       "id": "ngh-0373",
@@ -6524,7 +6524,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tweezers"
     },
     {
       "id": "ngh-0374",
@@ -6558,7 +6558,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Microscope"
     },
     {
       "id": "ngh-0376",
@@ -6575,7 +6575,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Geta (wooden sandals)"
     },
     {
       "id": "ngh-0377",
@@ -6592,7 +6592,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Shoe cabinet (getabako)"
     },
     {
       "id": "ngh-0378",
@@ -6648,7 +6648,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cage (plastic)"
     },
     {
       "id": "ngh-0381",
@@ -6665,7 +6665,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cage (wood)"
     },
     {
       "id": "ngh-0382",
@@ -6682,7 +6682,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gateball stick (mallet)"
     },
     {
       "id": "ngh-0383",
@@ -6755,7 +6755,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Koinobori (carp streamer) pole"
     },
     {
       "id": "ngh-0387",
@@ -6772,7 +6772,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pressure washer"
     },
     {
       "id": "ngh-0388",
@@ -6789,7 +6789,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toolbox (metal)"
     },
     {
       "id": "ngh-0389",
@@ -6806,7 +6806,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Advertising flyers"
     },
     {
       "id": "ngh-0390",
@@ -6823,7 +6823,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Black tea (tea bag)"
     },
     {
       "id": "ngh-0391",
@@ -6840,7 +6840,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Black tea bag individual paper wrapper"
     },
     {
       "id": "ngh-0392",
@@ -6857,7 +6857,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Black tea bag outer box"
     },
     {
       "id": "ngh-0393",
@@ -6874,7 +6874,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ice pillow"
     },
     {
       "id": "ngh-0394",
@@ -6908,7 +6908,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Small boat (small vessel)"
     },
     {
       "id": "ngh-0396",
@@ -6925,7 +6925,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Solid fuel can"
     },
     {
       "id": "ngh-0397",
@@ -6942,7 +6942,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kotatsu quilt (cover for heated table)"
     },
     {
       "id": "ngh-0398",
@@ -6959,7 +6959,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Kotatsu (heated table) / kotatsu tabletop"
     },
     {
       "id": "ngh-0399",
@@ -6976,7 +6976,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cup (glass, ceramic, metal, plastic)"
     },
     {
       "id": "ngh-0400",
@@ -6993,7 +6993,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cup (wood)"
     },
     {
       "id": "ngh-0401",
@@ -7027,7 +7027,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Powdered milk can lid (plastic)"
     },
     {
       "id": "ngh-0403",
@@ -7061,7 +7061,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Copy paper"
     },
     {
       "id": "ngh-0405",
@@ -7078,7 +7078,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice bran"
     },
     {
       "id": "ngh-0406",
@@ -7112,7 +7112,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice bag (paper)"
     },
     {
       "id": "ngh-0408",
@@ -7129,7 +7129,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice bag (plastic)"
     },
     {
       "id": "ngh-0409",
@@ -7146,7 +7146,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice refrigerator (rice storage cooler)"
     },
     {
       "id": "ngh-0410",
@@ -7197,7 +7197,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Concrete block"
     },
     {
       "id": "ngh-0413",
@@ -7214,7 +7214,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Contact lenses"
     },
     {
       "id": "ngh-0414",
@@ -7231,7 +7231,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Contact lens case"
     },
     {
       "id": "ngh-0415",
@@ -7248,7 +7248,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Compact (makeup compact)"
     },
     {
       "id": "ngh-0416",
@@ -7282,7 +7282,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bento container from convenience stores etc. (plastic)"
     },
     {
       "id": "ngh-0418",
@@ -7299,7 +7299,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Packing string"
     },
     {
       "id": "ngh-0419",
@@ -7333,7 +7333,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stereo system (audio component system)"
     },
     {
       "id": "ngh-0421",
@@ -7350,7 +7350,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stove (tabletop stove, cassette gas stove)"
     },
     {
       "id": "ngh-0422",
@@ -7367,7 +7367,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Caulking gun"
     },
     {
       "id": "ngh-0423",
@@ -7384,7 +7384,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Caulking material / container"
     },
     {
       "id": "ngh-0424",
@@ -7401,7 +7401,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Coat rack"
     },
     {
       "id": "ngh-0425",
@@ -7418,7 +7418,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Coat (overcoat)"
     },
     {
       "id": "ngh-0426",
@@ -7435,7 +7435,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cord (electrical cord)"
     },
     {
       "id": "ngh-0427",
@@ -7469,7 +7469,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Coffee grounds and filter"
     },
     {
       "id": "ngh-0429",
@@ -7486,7 +7486,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Coffee jar inner lid (paper)"
     },
     {
       "id": "ngh-0430",
@@ -7503,7 +7503,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Coffee jar lid (plastic)"
     },
     {
       "id": "ngh-0431",
@@ -7520,7 +7520,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Coffee jar (instant coffee)"
     },
     {
       "id": "ngh-0432",
@@ -7571,7 +7571,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Boys' Festival dolls (gogatsu ningyo)"
     },
     {
       "id": "ngh-0435",
@@ -7588,7 +7588,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Goza (rush mat; indoor)"
     },
     {
       "id": "ngh-0436",
@@ -7605,7 +7605,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Go board (goban)"
     },
     {
       "id": "ngh-0437",
@@ -7639,7 +7639,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rubber gloves / rubber boots"
     },
     {
       "id": "ngh-0439",
@@ -7656,7 +7656,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Inflatable rubber boat"
     },
     {
       "id": "ngh-0440",
@@ -7673,7 +7673,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Golf clubs / golf bag"
     },
     {
       "id": "ngh-0441",
@@ -7724,7 +7724,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cycling machine (exercise bike)"
     },
     {
       "id": "ngh-0444",
@@ -7758,7 +7758,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Work clothes"
     },
     {
       "id": "ngh-0446",
@@ -7775,7 +7775,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sake carton cap"
     },
     {
       "id": "ngh-0447",
@@ -7792,7 +7792,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sake carton (aluminum foil inside)"
     },
     {
       "id": "ngh-0448",
@@ -7847,7 +7847,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rusty can (food/beverage)"
     },
     {
       "id": "ngh-0451",
@@ -7868,7 +7868,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rusty can (spray can, fuel can)"
     },
     {
       "id": "ngh-0452",
@@ -7885,7 +7885,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plate (glass, metal, ceramic, plastic)"
     },
     {
       "id": "ngh-0453",
@@ -7902,7 +7902,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plate (wood)"
     },
     {
       "id": "ngh-0454",
@@ -7919,7 +7919,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sink corner strainer (metal)"
     },
     {
       "id": "ngh-0455",
@@ -7936,7 +7936,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Traffic cone (pylon)"
     },
     {
       "id": "ngh-0456",
@@ -7987,7 +7987,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sunshade (sun screen)"
     },
     {
       "id": "ngh-0459",
@@ -8008,7 +8008,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oxygen spray can"
     },
     {
       "id": "ngh-0460",
@@ -8059,7 +8059,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air circulator (fan)"
     },
     {
       "id": "ngh-0463",
@@ -8093,7 +8093,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Legless floor chair (zaisu)"
     },
     {
       "id": "ngh-0465",
@@ -8110,7 +8110,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home medical supplies (plastic bags, tubes, catheters)"
     },
     {
       "id": "ngh-0466",
@@ -8221,7 +8221,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shaver (non-rechargeable)"
     },
     {
       "id": "ngh-0472",
@@ -8241,7 +8241,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Underblanket (quilted fabric)"
     },
     {
       "id": "ngh-0473",
@@ -8309,7 +8309,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicated compress outer bag / box (paper)"
     },
     {
       "id": "ngh-0477",
@@ -8326,7 +8326,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thin film on the surface of a medicated compress"
     },
     {
       "id": "ngh-0478",
@@ -8343,7 +8343,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bamboo sword (shinai)"
     },
     {
       "id": "ngh-0479",
@@ -8360,7 +8360,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Photographs (including negatives)"
     },
     {
       "id": "ngh-0480",
@@ -8377,7 +8377,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shirt"
     },
     {
       "id": "ngh-0481",
@@ -8394,7 +8394,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shovel"
     },
     {
       "id": "ngh-0482",
@@ -8411,7 +8411,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice paddle (shamoji)"
     },
     {
       "id": "ngh-0483",
@@ -8445,7 +8445,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shampoo hat (shampoo visor)"
     },
     {
       "id": "ngh-0485",
@@ -8479,7 +8479,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mechanical pencil lead"
     },
     {
       "id": "ngh-0487",
@@ -8513,7 +8513,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Calligraphy paper (hanshi)"
     },
     {
       "id": "ngh-0489",
@@ -8530,7 +8530,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Red ink pad (shuniku)"
     },
     {
       "id": "ngh-0490",
@@ -8547,7 +8547,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shredder waste (shredded paper)"
     },
     {
       "id": "ngh-0491",
@@ -8564,7 +8564,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shredder (manual)"
     },
     {
       "id": "ngh-0492",
@@ -8581,7 +8581,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shredder (electric)"
     },
     {
       "id": "ngh-0493",
@@ -8619,7 +8619,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fire extinguishing spray (aerosol can)"
     },
     {
       "id": "ngh-0495",
@@ -8636,7 +8636,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sublimation transfer paper"
     },
     {
       "id": "ngh-0496",
@@ -8653,7 +8653,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shogi pieces (Japanese chess)"
     },
     {
       "id": "ngh-0497",
@@ -8670,7 +8670,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shogi board (Japanese chess)"
     },
     {
       "id": "ngh-0498",
@@ -8691,7 +8691,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Deodorizer spray can"
     },
     {
       "id": "ngh-0499",
@@ -8708,7 +8708,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Deodorizer container (plastic)"
     },
     {
       "id": "ngh-0500",
@@ -8742,7 +8742,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shoji paper (paper for sliding screens)"
     },
     {
       "id": "ngh-0502",
@@ -8759,7 +8759,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Certificate tube (cylindrical type)"
     },
     {
       "id": "ngh-0503",
@@ -8793,7 +8793,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food tray (paper)"
     },
     {
       "id": "ngh-0505",
@@ -8810,7 +8810,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food tray (white)"
     },
     {
       "id": "ngh-0506",
@@ -8827,7 +8827,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food tray (colored)"
     },
     {
       "id": "ngh-0507",
@@ -8844,7 +8844,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food storage container (Tupperware etc.)"
     },
     {
       "id": "ngh-0508",
@@ -8878,7 +8878,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking oil can"
     },
     {
       "id": "ngh-0510",
@@ -8912,7 +8912,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking oil plastic bottle"
     },
     {
       "id": "ngh-0512",
@@ -8929,7 +8929,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "books-media",
-      "name_en": null
+      "name_en": "Books"
     },
     {
       "id": "ngh-0513",
@@ -8946,7 +8946,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bookshelf"
     },
     {
       "id": "ngh-0514",
@@ -8969,7 +8969,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dishwasher-dryer"
     },
     {
       "id": "ngh-0515",
@@ -9015,7 +9015,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tableware (glass, ceramic, metal, plastic)"
     },
     {
       "id": "ngh-0517",
@@ -9038,7 +9038,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tableware (wood)"
     },
     {
       "id": "ngh-0518",
@@ -9072,7 +9072,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Walker cart for seniors (silver car; push cart)"
     },
     {
       "id": "ngh-0520",
@@ -9109,7 +9109,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Newspaper"
     },
     {
       "id": "ngh-0522",
@@ -9126,7 +9126,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bed sheet"
     },
     {
       "id": "ngh-0523",
@@ -9143,7 +9143,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stickers"
     },
     {
       "id": "ngh-0524",
@@ -9160,7 +9160,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sticker backing sheet"
     },
     {
       "id": "ngh-0525",
@@ -9177,7 +9177,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Magnetic card"
     },
     {
       "id": "ngh-0526",
@@ -9255,7 +9255,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle tire / inner tube"
     },
     {
       "id": "ngh-0530",
@@ -9277,7 +9277,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle chain"
     },
     {
       "id": "ngh-0531",
@@ -9294,7 +9294,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Automobile parts (steering wheel, bumper, wheels etc.)"
     },
     {
       "id": "ngh-0532",
@@ -9311,7 +9311,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Faucet"
     },
     {
       "id": "ngh-0533",
@@ -9328,7 +9328,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jack (non-hydraulic)"
     },
     {
       "id": "ngh-0534",
@@ -9362,7 +9362,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jam jar lid (metal)"
     },
     {
       "id": "ngh-0536",
@@ -9379,7 +9379,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jam jar (glass)"
     },
     {
       "id": "ngh-0537",
@@ -9396,7 +9396,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jam jar (plastic)"
     },
     {
       "id": "ngh-0538",
@@ -9413,7 +9413,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gravel"
     },
     {
       "id": "ngh-0539",
@@ -9430,7 +9430,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Jungle gym (children's play equipment)"
     },
     {
       "id": "ngh-0540",
@@ -9447,7 +9447,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jacket (blouson)"
     },
     {
       "id": "ngh-0541",
@@ -9515,7 +9515,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Duralumin case"
     },
     {
       "id": "ngh-0545",
@@ -9549,7 +9549,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Interlocking floor mat (joint mat)"
     },
     {
       "id": "ngh-0547",
@@ -9583,7 +9583,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ruler (bamboo)"
     },
     {
       "id": "ngh-0549",
@@ -9600,7 +9600,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Blister pack sheet (for tablets)"
     },
     {
       "id": "ngh-0550",
@@ -9634,7 +9634,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water purifier (faucet-mounted)"
     },
     {
       "id": "ngh-0552",
@@ -9651,7 +9651,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Watering can"
     },
     {
       "id": "ngh-0553",
@@ -9685,7 +9685,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dehumidifying agent container"
     },
     {
       "id": "ngh-0555",
@@ -9702,7 +9702,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Herbicide (weed killer)"
     },
     {
       "id": "ngh-0556",
@@ -9719,7 +9719,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Herbicide container (household use only)"
     },
     {
       "id": "ngh-0557",
@@ -9736,7 +9736,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Artificial turf (with hard material, e.g. interlocking type)"
     },
     {
       "id": "ngh-0558",
@@ -9753,7 +9753,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Artificial turf (soft material only)"
     },
     {
       "id": "ngh-0559",
@@ -9770,7 +9770,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jeans"
     },
     {
       "id": "ngh-0560",
@@ -9787,7 +9787,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Personal watercraft (jet ski)"
     },
     {
       "id": "ngh-0561",
@@ -9821,7 +9821,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water bottle (flask)"
     },
     {
       "id": "ngh-0563",
@@ -9858,7 +9858,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Scarf"
     },
     {
       "id": "ngh-0565",
@@ -9892,7 +9892,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Skis / ski poles"
     },
     {
       "id": "ngh-0567",
@@ -9909,7 +9909,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Ski wear"
     },
     {
       "id": "ngh-0568",
@@ -9926,7 +9926,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ski carrier (for cars)"
     },
     {
       "id": "ngh-0569",
@@ -9960,7 +9960,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ski gloves"
     },
     {
       "id": "ngh-0571",
@@ -10045,7 +10045,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stamp / stamp pad"
     },
     {
       "id": "ngh-0576",
@@ -10062,7 +10062,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sudare (slatted window blind; wood, bamboo)"
     },
     {
       "id": "ngh-0577",
@@ -10079,7 +10079,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Steel can (beverage/food)"
     },
     {
       "id": "ngh-0578",
@@ -10096,7 +10096,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Steel shelf"
     },
     {
       "id": "ngh-0579",
@@ -10113,7 +10113,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stereo"
     },
     {
       "id": "ngh-0580",
@@ -10130,7 +10130,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Stereo rack"
     },
     {
       "id": "ngh-0581",
@@ -10164,7 +10164,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cardboard insert in stocking package"
     },
     {
       "id": "ngh-0583",
@@ -10181,7 +10181,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Strap"
     },
     {
       "id": "ngh-0584",
@@ -10198,7 +10198,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Straw (drinking straw)"
     },
     {
       "id": "ngh-0585",
@@ -10215,7 +10215,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Straw wrapper (paper)"
     },
     {
       "id": "ngh-0586",
@@ -10232,7 +10232,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Straw wrapper (plastic)"
     },
     {
       "id": "ngh-0587",
@@ -10249,7 +10249,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sneakers"
     },
     {
       "id": "ngh-0588",
@@ -10283,7 +10283,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Snow scoop (snow dump)"
     },
     {
       "id": "ngh-0590",
@@ -10317,7 +10317,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Snowboard boots"
     },
     {
       "id": "ngh-0592",
@@ -10334,7 +10334,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Spiked shoes (cleats)"
     },
     {
       "id": "ngh-0593",
@@ -10351,7 +10351,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wrench (spanner; tool)"
     },
     {
       "id": "ngh-0594",
@@ -10387,7 +10387,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Mattress (with springs)"
     },
     {
       "id": "ngh-0596",
@@ -10406,7 +10406,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Mattress (without springs)"
     },
     {
       "id": "ngh-0597",
@@ -10448,7 +10448,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Spray can cap (plastic)"
     },
     {
       "id": "ngh-0599",
@@ -10465,7 +10465,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Slide (children's play equipment)"
     },
     {
       "id": "ngh-0600",
@@ -10530,7 +10530,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Smartphone case"
     },
     {
       "id": "ngh-0603",
@@ -10564,7 +10564,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sumi ink (for calligraphy)"
     },
     {
       "id": "ngh-0605",
@@ -10581,7 +10581,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wooden pestle (surikogi)"
     },
     {
       "id": "ngh-0606",
@@ -10615,7 +10615,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Slipper rack"
     },
     {
       "id": "ngh-0608",
@@ -10683,7 +10683,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pants / trousers"
     },
     {
       "id": "ngh-0612",
@@ -10721,7 +10721,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hair styling product spray can"
     },
     {
       "id": "ngh-0614",
@@ -10738,7 +10738,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hair styling product container (glass)"
     },
     {
       "id": "ngh-0615",
@@ -10755,7 +10755,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hair styling product container (plastic)"
     },
     {
       "id": "ngh-0616",
@@ -10811,7 +10811,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kerosene heater / fan heater"
     },
     {
       "id": "ngh-0619",
@@ -10828,7 +10828,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kerosene pump (siphon pump)"
     },
     {
       "id": "ngh-0620",
@@ -10845,7 +10845,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soap"
     },
     {
       "id": "ngh-0621",
@@ -10862,7 +10862,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soap individual wrapper (plastic)"
     },
     {
       "id": "ngh-0622",
@@ -10879,7 +10879,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soap outer box / individual wrapper (paper)"
     },
     {
       "id": "ngh-0623",
@@ -10896,7 +10896,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gypsum board (drywall)"
     },
     {
       "id": "ngh-0624",
@@ -10930,7 +10930,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Adhesive (glue) paper box"
     },
     {
       "id": "ngh-0626",
@@ -10947,7 +10947,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Adhesive tube (metal)"
     },
     {
       "id": "ngh-0627",
@@ -10964,7 +10964,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Adhesive tube (plastic)"
     },
     {
       "id": "ngh-0628",
@@ -10981,7 +10981,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chinaware (ceramics)"
     },
     {
       "id": "ngh-0629",
@@ -10998,7 +10998,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Suit"
     },
     {
       "id": "ngh-0630",
@@ -11015,7 +11015,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cement"
     },
     {
       "id": "ngh-0631",
@@ -11049,7 +11049,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cellophane tape dispenser"
     },
     {
       "id": "ngh-0633",
@@ -11066,7 +11066,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cellophane tape core"
     },
     {
       "id": "ngh-0634",
@@ -11083,7 +11083,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Facial cleanser tube"
     },
     {
       "id": "ngh-0635",
@@ -11100,7 +11100,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Detergent paper box"
     },
     {
       "id": "ngh-0636",
@@ -11117,7 +11117,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Detergent measuring cup / spoon"
     },
     {
       "id": "ngh-0637",
@@ -11134,7 +11134,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Detergent refill pouch"
     },
     {
       "id": "ngh-0638",
@@ -11168,7 +11168,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Folding fan (wood, cloth, plastic)"
     },
     {
       "id": "ngh-0640",
@@ -11185,7 +11185,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laundry basket"
     },
     {
       "id": "ngh-0641",
@@ -11210,7 +11210,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Washing machine / clothes dryer"
     },
     {
       "id": "ngh-0642",
@@ -11227,7 +11227,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laundry net"
     },
     {
       "id": "ngh-0643",
@@ -11261,7 +11261,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pruned garden tree branches"
     },
     {
       "id": "ngh-0645",
@@ -11332,7 +11332,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Awl (senmaidoshi)"
     },
     {
       "id": "ngh-0649",
@@ -11426,7 +11426,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Sofa / sofa bed"
     },
     {
       "id": "ngh-0654",
@@ -11443,7 +11443,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sled"
     },
     {
       "id": "ngh-0655",
@@ -11477,7 +11477,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sauce container / cap"
     },
     {
       "id": "ngh-0657",
@@ -11545,7 +11545,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clinical thermometer (mercury, glass)"
     },
     {
       "id": "ngh-0661",
@@ -11562,7 +11562,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clinical thermometer (electronic)"
     },
     {
       "id": "ngh-0662",
@@ -11613,7 +11613,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tire chains (for cars)"
     },
     {
       "id": "ngh-0665",
@@ -11630,7 +11630,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tire wheel / rim (for cars)"
     },
     {
       "id": "ngh-0666",
@@ -11647,7 +11647,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tire (for cars)"
     },
     {
       "id": "ngh-0667",
@@ -11664,7 +11664,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Towel / terry-cloth blanket"
     },
     {
       "id": "ngh-0668",
@@ -11681,7 +11681,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tabletop stove"
     },
     {
       "id": "ngh-0669",
@@ -11698,7 +11698,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Courier delivery copy slip (carbon copy)"
     },
     {
       "id": "ngh-0670",
@@ -11732,7 +11732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Takoyaki maker (octopus ball grill)"
     },
     {
       "id": "ngh-0672",
@@ -11783,7 +11783,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tupperware (food storage container)"
     },
     {
       "id": "ngh-0675",
@@ -11800,7 +11800,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Doors and fittings (window sashes, fusuma sliding doors, doors etc.)"
     },
     {
       "id": "ngh-0676",
@@ -11817,7 +11817,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty cigarette pack / foil"
     },
     {
       "id": "ngh-0677",
@@ -11834,7 +11834,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cigarette butts"
     },
     {
       "id": "ngh-0678",
@@ -11851,7 +11851,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cigarette pack outer wrap film"
     },
     {
       "id": "ngh-0679",
@@ -11868,7 +11868,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tabi (split-toe socks)"
     },
     {
       "id": "ngh-0680",
@@ -11922,7 +11922,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Egg carton (paper)"
     },
     {
       "id": "ngh-0683",
@@ -11939,7 +11939,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Egg carton (plastic)"
     },
     {
       "id": "ngh-0684",
@@ -11973,7 +11973,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Scrubbing brush (tawashi; non-metal)"
     },
     {
       "id": "ngh-0686",
@@ -11990,7 +11990,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "CO2 cartridge (carbon dioxide cartridge)"
     },
     {
       "id": "ngh-0687",
@@ -12007,7 +12007,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chest of drawers (tansu)"
     },
     {
       "id": "ngh-0688",
@@ -12024,7 +12024,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tumbler"
     },
     {
       "id": "ngh-0689",
@@ -12041,7 +12041,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Platform cart (dolly; for carrying)"
     },
     {
       "id": "ngh-0690",
@@ -12058,7 +12058,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Backing board (paper; for protecting or holding products)"
     },
     {
       "id": "ngh-0691",
@@ -12075,7 +12075,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kitchen mat"
     },
     {
       "id": "ngh-0692",
@@ -12092,7 +12092,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Direct mail envelope"
     },
     {
       "id": "ngh-0693",
@@ -12109,7 +12109,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Direct mail outer bag (plastic)"
     },
     {
       "id": "ngh-0694",
@@ -12126,7 +12126,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Direct mail (flyers)"
     },
     {
       "id": "ngh-0695",
@@ -12143,7 +12143,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Absorbent cotton"
     },
     {
       "id": "ngh-0696",
@@ -12177,7 +12177,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Deodorizer container"
     },
     {
       "id": "ngh-0698",
@@ -12194,7 +12194,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oxygen absorber (packed with snacks etc.)"
     },
     {
       "id": "ngh-0699",
@@ -12211,7 +12211,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dumbbell / iron dumbbell"
     },
     {
       "id": "ngh-0700",
@@ -12248,7 +12248,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chainsaw (household)"
     },
     {
       "id": "ngh-0702",
@@ -12265,7 +12265,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Globe"
     },
     {
       "id": "ngh-0703",
@@ -12284,7 +12284,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Child car seat / booster seat"
     },
     {
       "id": "ngh-0704",
@@ -12301,7 +12301,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Used tea leaves / tea leaves"
     },
     {
       "id": "ngh-0705",
@@ -12318,7 +12318,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tea strainer (metal)"
     },
     {
       "id": "ngh-0706",
@@ -12335,7 +12335,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fire starter (solid, gel)"
     },
     {
       "id": "ngh-0707",
@@ -12355,7 +12355,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Utility lighter (ignition lighter)"
     },
     {
       "id": "ngh-0708",
@@ -12372,7 +12372,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice bowl (ceramic)"
     },
     {
       "id": "ngh-0709",
@@ -12389,7 +12389,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wok"
     },
     {
       "id": "ngh-0710",
@@ -12406,7 +12406,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Syringe needles / syringes (home medical use)"
     },
     {
       "id": "ngh-0711",
@@ -12423,7 +12423,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tuner"
     },
     {
       "id": "ngh-0712",
@@ -12457,7 +12457,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hinge"
     },
     {
       "id": "ngh-0714",
@@ -12474,7 +12474,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Seasoning bottle (glass)"
     },
     {
       "id": "ngh-0715",
@@ -12491,7 +12491,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mixing bowl (for cooking)"
     },
     {
       "id": "ngh-0716",
@@ -12508,7 +12508,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water storage tank"
     },
     {
       "id": "ngh-0717",
@@ -12545,7 +12545,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flyers / advertisements (newspaper inserts)"
     },
     {
       "id": "ngh-0719",
@@ -12562,7 +12562,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dustpan"
     },
     {
       "id": "ngh-0720",
@@ -12579,7 +12579,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Screen (partition)"
     },
     {
       "id": "ngh-0721",
@@ -12596,7 +12596,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Walking stick (cane)"
     },
     {
       "id": "ngh-0722",
@@ -12634,7 +12634,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pickle weight stone"
     },
     {
       "id": "ngh-0724",
@@ -12668,7 +12668,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tension rod"
     },
     {
       "id": "ngh-0726",
@@ -12685,7 +12685,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jar / pot (tsubo; ceramic)"
     },
     {
       "id": "ngh-0727",
@@ -12702,7 +12702,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toothpick"
     },
     {
       "id": "ngh-0728",
@@ -12736,7 +12736,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Nail clippers"
     },
     {
       "id": "ngh-0730",
@@ -12770,7 +12770,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fishing rod"
     },
     {
       "id": "ngh-0732",
@@ -12787,7 +12787,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fishhook / fishing reel"
     },
     {
       "id": "ngh-0733",
@@ -12804,7 +12804,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Facial tissue (tissue paper)"
     },
     {
       "id": "ngh-0734",
@@ -12821,7 +12821,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tissue box (paper box)"
     },
     {
       "id": "ngh-0735",
@@ -12838,7 +12838,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Film on the opening of a tissue box (paper box)"
     },
     {
       "id": "ngh-0736",
@@ -12855,7 +12855,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pocket notebook / planner"
     },
     {
       "id": "ngh-0737",
@@ -12954,7 +12954,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Video game software"
     },
     {
       "id": "ngh-0742",
@@ -12976,7 +12976,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "TV stand"
     },
     {
       "id": "ngh-0743",
@@ -13035,7 +13035,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lighter wand (utility lighter)"
     },
     {
       "id": "ngh-0746",
@@ -13069,7 +13069,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tent"
     },
     {
       "id": "ngh-0748",
@@ -13086,7 +13086,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tempura oil (cooking oil)"
     },
     {
       "id": "ngh-0749",
@@ -13120,7 +13120,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tablecloth (cloth)"
     },
     {
       "id": "ngh-0751",
@@ -13137,7 +13137,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tablecloth (plastic)"
     },
     {
       "id": "ngh-0752",
@@ -13154,7 +13154,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tape recorder (battery-operated)"
     },
     {
       "id": "ngh-0753",
@@ -13171,7 +13171,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tape (vinyl, paper)"
     },
     {
       "id": "ngh-0754",
@@ -13188,7 +13188,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Digital audio player"
     },
     {
       "id": "ngh-0755",
@@ -13222,7 +13222,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cushioning material for electrical appliances (styrofoam)"
     },
     {
       "id": "ngh-0757",
@@ -13239,7 +13239,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric foot warmer (anka)"
     },
     {
       "id": "ngh-0758",
@@ -13273,7 +13273,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric razor (rechargeable)"
     },
     {
       "id": "ngh-0760",
@@ -13290,7 +13290,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric razor cleaning station"
     },
     {
       "id": "ngh-0761",
@@ -13367,7 +13367,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric rice cooker"
     },
     {
       "id": "ngh-0765",
@@ -13426,7 +13426,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric vacuum cleaner"
     },
     {
       "id": "ngh-0768",
@@ -13443,7 +13443,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric hair clippers"
     },
     {
       "id": "ngh-0769",
@@ -13521,7 +13521,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Light bulb / incandescent bulb"
     },
     {
       "id": "ngh-0773",
@@ -13542,7 +13542,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Electronic organ / electronic piano"
     },
     {
       "id": "ngh-0774",
@@ -13559,7 +13559,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electronic blood pressure monitor / electronic thermometer"
     },
     {
       "id": "ngh-0775",
@@ -13576,7 +13576,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "E-book reader"
     },
     {
       "id": "ngh-0776",
@@ -13593,7 +13593,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electronic dictionary / electronic organizer"
     },
     {
       "id": "ngh-0777",
@@ -13610,7 +13610,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "E-cigarette"
     },
     {
       "id": "ngh-0778",
@@ -13652,7 +13652,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Microwave stand"
     },
     {
       "id": "ngh-0780",
@@ -13669,7 +13669,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Calculator"
     },
     {
       "id": "ngh-0781",
@@ -13686,7 +13686,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (small rechargeable battery)"
     },
     {
       "id": "ngh-0782",
@@ -13703,7 +13703,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (button cell)"
     },
     {
       "id": "ngh-0783",
@@ -13725,7 +13725,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (manganese / alkaline dry cell)"
     },
     {
       "id": "ngh-0784",
@@ -13742,7 +13742,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (lithium battery, non-rechargeable)"
     },
     {
       "id": "ngh-0785",
@@ -13764,7 +13764,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric-assist bicycle (electric bicycle)"
     },
     {
       "id": "ngh-0786",
@@ -13783,7 +13783,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric bed (nursing care)"
     },
     {
       "id": "ngh-0787",
@@ -13822,7 +13822,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Electric massager (chair type)"
     },
     {
       "id": "ngh-0789",
@@ -13924,7 +13924,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toilet brush"
     },
     {
       "id": "ngh-0795",
@@ -13941,7 +13941,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toilet mat"
     },
     {
       "id": "ngh-0796",
@@ -13975,7 +13975,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dialysis bags and tubes (home medical use)"
     },
     {
       "id": "ngh-0798",
@@ -13992,7 +13992,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tofu pack / lid"
     },
     {
       "id": "ngh-0799",
@@ -14009,7 +14009,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kerosene plastic tank"
     },
     {
       "id": "ngh-0800",
@@ -14026,7 +14026,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hiking boots"
     },
     {
       "id": "ngh-0801",
@@ -14043,7 +14043,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Galvanized iron sheet (corrugated)"
     },
     {
       "id": "ngh-0802",
@@ -14077,7 +14077,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Trunk / suitcase"
     },
     {
       "id": "ngh-0804",
@@ -14094,7 +14094,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Playing cards"
     },
     {
       "id": "ngh-0805",
@@ -14128,7 +14128,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint"
     },
     {
       "id": "ngh-0807",
@@ -14145,7 +14145,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint container (other than cans)"
     },
     {
       "id": "ngh-0808",
@@ -14162,7 +14162,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint container (can)"
     },
     {
       "id": "ngh-0809",
@@ -14179,7 +14179,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tray (products such as serving trays; metal, plastic)"
     },
     {
       "id": "ngh-0810",
@@ -14196,7 +14196,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tray (products such as serving trays; wood)"
     },
     {
       "id": "ngh-0811",
@@ -14213,7 +14213,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sweatshirt"
     },
     {
       "id": "ngh-0812",
@@ -14230,7 +14230,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Training bench"
     },
     {
       "id": "ngh-0813",
@@ -14247,7 +14247,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic wrap from food tray"
     },
     {
       "id": "ngh-0814",
@@ -14264,7 +14264,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tray (for food; paper)"
     },
     {
       "id": "ngh-0815",
@@ -14281,7 +14281,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tray (for food; colored plastic)"
     },
     {
       "id": "ngh-0816",
@@ -14298,7 +14298,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hammer"
     },
     {
       "id": "ngh-0817",
@@ -14332,7 +14332,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Animal carcass (up to about 10 kg)"
     },
     {
       "id": "ngh-0819",
@@ -14349,7 +14349,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Animal carcass (over 10 kg)"
     },
     {
       "id": "ngh-0820",
@@ -14383,7 +14383,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Screwdriver (tool)"
     },
     {
       "id": "ngh-0822",
@@ -14400,7 +14400,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dashboard camera (drive recorder)"
     },
     {
       "id": "ngh-0823",
@@ -14454,7 +14454,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Drill (electric)"
     },
     {
       "id": "ngh-0826",
@@ -14471,7 +14471,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Dresser (vanity / dressing table)"
     },
     {
       "id": "ngh-0827",
@@ -14488,7 +14488,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dressing bottle (glass)"
     },
     {
       "id": "ngh-0828",
@@ -14510,7 +14510,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PET bottle of dressing (oil-free)"
     },
     {
       "id": "ngh-0829",
@@ -14548,7 +14548,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Seedling pot (plastic)"
     },
     {
       "id": "ngh-0831",
@@ -14582,7 +14582,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hatchet (nata)"
     },
     {
       "id": "ngh-0833",
@@ -14599,7 +14599,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Natto (fermented soybean) container"
     },
     {
       "id": "ngh-0834",
@@ -14616,7 +14616,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum container for nabeyaki udon noodles etc."
     },
     {
       "id": "ngh-0835",
@@ -14633,7 +14633,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pot (metal)"
     },
     {
       "id": "ngh-0836",
@@ -14650,7 +14650,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Corrugated sheet / PVC corrugated sheet"
     },
     {
       "id": "ngh-0837",
@@ -14667,7 +14667,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jump rope"
     },
     {
       "id": "ngh-0838",
@@ -14701,7 +14701,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Packing twine"
     },
     {
       "id": "ngh-0840",
@@ -14718,7 +14718,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Japanese sword"
     },
     {
       "id": "ngh-0841",
@@ -14735,7 +14735,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Doll display case (glass)"
     },
     {
       "id": "ngh-0842",
@@ -14752,7 +14752,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Doll (wood, cloth, plastic)"
     },
     {
       "id": "ngh-0843",
@@ -14769,7 +14769,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Doll (ceramic, glass)"
     },
     {
       "id": "ngh-0844",
@@ -14823,7 +14823,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Negative film"
     },
     {
       "id": "ngh-0847",
@@ -14857,7 +14857,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cat litter (paper, wood etc.)"
     },
     {
       "id": "ngh-0849",
@@ -14874,7 +14874,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cat litter (sand such as crushed stone)"
     },
     {
       "id": "ngh-0850",
@@ -14891,7 +14891,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Screws"
     },
     {
       "id": "ngh-0851",
@@ -14908,7 +14908,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mouse glue trap sheet"
     },
     {
       "id": "ngh-0852",
@@ -14925,7 +14925,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Net (for gardening)"
     },
     {
       "id": "ngh-0853",
@@ -14942,7 +14942,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Net (packaging for fruit etc.)"
     },
     {
       "id": "ngh-0854",
@@ -14982,7 +14982,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Adhesive paper sheets for sticky carpet cleaner (lint roller)"
     },
     {
       "id": "ngh-0856",
@@ -14999,7 +14999,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Adhesive tape"
     },
     {
       "id": "ngh-0857",
@@ -15033,7 +15033,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Agricultural machinery"
     },
     {
       "id": "ngh-0859",
@@ -15067,7 +15067,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pesticide bottle"
     },
     {
       "id": "ngh-0861",
@@ -15101,7 +15101,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chisel (nomi)"
     },
     {
       "id": "ngh-0863",
@@ -15175,7 +15175,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Urine drainage bag"
     },
     {
       "id": "ngh-0867",
@@ -15209,7 +15209,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hedge / leaf trimmings"
     },
     {
       "id": "ngh-0869",
@@ -15226,7 +15226,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Taxidermy mount"
     },
     {
       "id": "ngh-0870",
@@ -15243,7 +15243,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Brush (flat paintbrush)"
     },
     {
       "id": "ngh-0871",
@@ -15260,7 +15260,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Scissors"
     },
     {
       "id": "ngh-0872",
@@ -15294,7 +15294,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chopsticks (metal, plastic)"
     },
     {
       "id": "ngh-0874",
@@ -15311,7 +15311,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chopsticks (wood)"
     },
     {
       "id": "ngh-0875",
@@ -15328,7 +15328,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Underwear"
     },
     {
       "id": "ngh-0876",
@@ -15345,7 +15345,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bowl / planter pot (hachi)"
     },
     {
       "id": "ngh-0877",
@@ -15362,7 +15362,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Styrofoam box"
     },
     {
       "id": "ngh-0878",
@@ -15379,7 +15379,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Styrofoam (cushioning material)"
     },
     {
       "id": "ngh-0879",
@@ -15396,7 +15396,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Styrofoam (white)"
     },
     {
       "id": "ngh-0880",
@@ -15413,7 +15413,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Styrofoam (colored, patterned)"
     },
     {
       "id": "ngh-0881",
@@ -15430,7 +15430,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Emergency flare (road flare)"
     },
     {
       "id": "ngh-0882",
@@ -15481,7 +15481,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toothbrush blister pack"
     },
     {
       "id": "ngh-0885",
@@ -15498,7 +15498,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Backing card of toothbrush package"
     },
     {
       "id": "ngh-0886",
@@ -15515,7 +15515,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toothpaste tube"
     },
     {
       "id": "ngh-0887",
@@ -15583,7 +15583,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Handkerchief"
     },
     {
       "id": "ngh-0891",
@@ -15617,7 +15617,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanger (metal, plastic)"
     },
     {
       "id": "ngh-0893",
@@ -15651,7 +15651,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Personal seal / hanko (metal, ceramic, glass, stone, plastic)"
     },
     {
       "id": "ngh-0895",
@@ -15668,7 +15668,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Personal seal / hanko (wood)"
     },
     {
       "id": "ngh-0896",
@@ -15702,7 +15702,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Calligraphy paper (hanshi)"
     },
     {
       "id": "ngh-0898",
@@ -15719,7 +15719,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soldering iron"
     },
     {
       "id": "ngh-0899",
@@ -15736,7 +15736,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Handheld fan (built-in lithium-ion battery)"
     },
     {
       "id": "ngh-0900",
@@ -15753,7 +15753,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Handbag"
     },
     {
       "id": "ngh-0901",
@@ -15770,7 +15770,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hard disk drive (external)"
     },
     {
       "id": "ngh-0902",
@@ -15838,7 +15838,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bucket / wash basin (metal, plastic)"
     },
     {
       "id": "ngh-0906",
@@ -15855,7 +15855,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bath mat"
     },
     {
       "id": "ngh-0907",
@@ -15872,7 +15872,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bag (without metal fittings)"
     },
     {
       "id": "ngh-0908",
@@ -15889,7 +15889,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (for cars, motorcycles etc.)"
     },
     {
       "id": "ngh-0909",
@@ -15906,7 +15906,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bat (baseball etc.; metal, plastic)"
     },
     {
       "id": "ngh-0910",
@@ -15923,7 +15923,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking tray (metal)"
     },
     {
       "id": "ngh-0911",
@@ -15940,7 +15940,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bat (baseball etc.; wood)"
     },
     {
       "id": "ngh-0912",
@@ -15957,7 +15957,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Badminton shuttlecock"
     },
     {
       "id": "ngh-0913",
@@ -15974,7 +15974,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Badminton racket"
     },
     {
       "id": "ngh-0914",
@@ -15991,7 +15991,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Exercise ball (balance ball)"
     },
     {
       "id": "ngh-0915",
@@ -16008,7 +16008,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Baran (food divider for bento)"
     },
     {
       "id": "ngh-0916",
@@ -16025,7 +16025,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hair clippers (built-in lithium-ion battery)"
     },
     {
       "id": "ngh-0917",
@@ -16042,7 +16042,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Adhesive bandage"
     },
     {
       "id": "ngh-0918",
@@ -16059,7 +16059,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bumper (automobile part)"
     },
     {
       "id": "ngh-0919",
@@ -16076,7 +16076,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Barbecue set (grill etc.)"
     },
     {
       "id": "ngh-0920",
@@ -16110,7 +16110,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Tubular steel chair (pipe chair)"
     },
     {
       "id": "ngh-0922",
@@ -16175,7 +16175,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Computer (desktop unit, display, laptop, all-in-one)"
     },
     {
       "id": "ngh-0925",
@@ -16209,7 +16209,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Powder puff (cosmetics)"
     },
     {
       "id": "ngh-0927",
@@ -16226,7 +16226,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hole punch"
     },
     {
       "id": "ngh-0928",
@@ -16243,7 +16243,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pantyhose"
     },
     {
       "id": "ngh-0929",
@@ -16277,7 +16277,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Partition"
     },
     {
       "id": "ngh-0931",
@@ -16294,7 +16294,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Razor (metal)"
     },
     {
       "id": "ngh-0932",
@@ -16311,7 +16311,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Hina doll set (Girls' Festival dolls)"
     },
     {
       "id": "ngh-0933",
@@ -16328,7 +16328,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fire tongs"
     },
     {
       "id": "ngh-0934",
@@ -16379,7 +16379,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fertilizer bag"
     },
     {
       "id": "ngh-0937",
@@ -16413,7 +16413,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Video tape (including case)"
     },
     {
       "id": "ngh-0939",
@@ -16447,7 +16447,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vinyl products (string, rope, sheets, bags, tape)"
     },
     {
       "id": "ngh-0941",
@@ -16464,7 +16464,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Folding screen (byobu)"
     },
     {
       "id": "ngh-0942",
@@ -16481,7 +16481,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass bottle (beverage/food)"
     },
     {
       "id": "ngh-0943",
@@ -16515,7 +16515,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bead cushion (beanbag) cover"
     },
     {
       "id": "ngh-0945",
@@ -16566,7 +16566,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Beach ball"
     },
     {
       "id": "ngh-0948",
@@ -16603,7 +16603,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pianica (melodica)"
     },
     {
       "id": "ngh-0950",
@@ -16641,7 +16641,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "File folder (stationery)"
     },
     {
       "id": "ngh-0952",
@@ -16658,7 +16658,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fax machine"
     },
     {
       "id": "ngh-0953",
@@ -16675,7 +16675,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fax paper (non-thermal)"
     },
     {
       "id": "ngh-0954",
@@ -16692,7 +16692,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fax paper (thermal)"
     },
     {
       "id": "ngh-0955",
@@ -16709,7 +16709,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fax machine / facsimile"
     },
     {
       "id": "ngh-0956",
@@ -16726,7 +16726,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fan heater"
     },
     {
       "id": "ngh-0957",
@@ -16743,7 +16743,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Film (negatives) / film case"
     },
     {
       "id": "ngh-0958",
@@ -16760,7 +16760,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Balloon"
     },
     {
       "id": "ngh-0959",
@@ -16794,7 +16794,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wind chime (metal, glass)"
     },
     {
       "id": "ngh-0961",
@@ -16811,7 +16811,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Recorder (wind instrument)"
     },
     {
       "id": "ngh-0962",
@@ -16828,7 +16828,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fork / spoon (metal, ceramic)"
     },
     {
       "id": "ngh-0963",
@@ -16845,7 +16845,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fork / spoon (wood, plastic)"
     },
     {
       "id": "ngh-0964",
@@ -16862,7 +16862,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dishcloth"
     },
     {
       "id": "ngh-0965",
@@ -16896,7 +16896,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sticky notes"
     },
     {
       "id": "ngh-0967",
@@ -16913,7 +16913,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lid / cap (paper)"
     },
     {
       "id": "ngh-0968",
@@ -16930,7 +16930,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lid / cap (metal)"
     },
     {
       "id": "ngh-0969",
@@ -16947,7 +16947,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lid / cap (plastic)"
     },
     {
       "id": "ngh-0970",
@@ -16981,7 +16981,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pencil case (metal, plastic)"
     },
     {
       "id": "ngh-0972",
@@ -16998,7 +16998,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pencil case (wood, cloth)"
     },
     {
       "id": "ngh-0973",
@@ -17015,7 +17015,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon (Japanese bedding)"
     },
     {
       "id": "ngh-0974",
@@ -17032,7 +17032,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon compression bag (vacuum storage bag)"
     },
     {
       "id": "ngh-0975",
@@ -17049,7 +17049,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon cover"
     },
     {
       "id": "ngh-0976",
@@ -17083,7 +17083,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon beater"
     },
     {
       "id": "ngh-0978",
@@ -17100,7 +17100,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon clip (large clothespin)"
     },
     {
       "id": "ngh-0979",
@@ -17117,7 +17117,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Spatula / turner"
     },
     {
       "id": "ngh-0980",
@@ -17153,7 +17153,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hula hoop"
     },
     {
       "id": "ngh-0982",
@@ -17170,7 +17170,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flower stand"
     },
     {
       "id": "ngh-0983",
@@ -17187,7 +17187,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Used clothing / old cloth"
     },
     {
       "id": "ngh-0984",
@@ -17204,7 +17204,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Furoshiki (wrapping cloth; cloth)"
     },
     {
       "id": "ngh-0985",
@@ -17221,7 +17221,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Floppy disk (including case)"
     },
     {
       "id": "ngh-0986",
@@ -17238,7 +17238,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bath stool"
     },
     {
       "id": "ngh-0987",
@@ -17272,7 +17272,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sprayer (manual)"
     },
     {
       "id": "ngh-0989",
@@ -17306,7 +17306,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bookend (metal, plastic)"
     },
     {
       "id": "ngh-0991",
@@ -17323,7 +17323,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bookend (wood)"
     },
     {
       "id": "ngh-0992",
@@ -17340,7 +17340,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Book cover (paper)"
     },
     {
       "id": "ngh-0993",
@@ -17357,7 +17357,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Book cover (purchased)"
     },
     {
       "id": "ngh-0994",
@@ -17413,7 +17413,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "CRT TV"
     },
     {
       "id": "ngh-0997",
@@ -17447,7 +17447,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Swing (children's play equipment)"
     },
     {
       "id": "ngh-0999",
@@ -17501,7 +17501,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Building blocks (toy)"
     },
     {
       "id": "ngh-1002",
@@ -17535,7 +17535,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic storage case"
     },
     {
       "id": "ngh-1004",
@@ -17552,7 +17552,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Corrugated plastic sheet"
     },
     {
       "id": "ngh-1005",
@@ -17574,7 +17574,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plasma TV"
     },
     {
       "id": "ngh-1006",
@@ -17608,7 +17608,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Planter"
     },
     {
       "id": "ngh-1008",
@@ -17625,7 +17625,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Prepaid card"
     },
     {
       "id": "ngh-1009",
@@ -17676,7 +17676,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Pool (children's play equipment)"
     },
     {
       "id": "ngh-1012",
@@ -17750,7 +17750,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hairbrush (plastic)"
     },
     {
       "id": "ngh-1016",
@@ -17767,7 +17767,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hair spray"
     },
     {
       "id": "ngh-1017",
@@ -17784,7 +17784,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hair spray cap (plastic)"
     },
     {
       "id": "ngh-1018",
@@ -17801,7 +17801,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Headphones"
     },
     {
       "id": "ngh-1019",
@@ -17818,7 +17818,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Spatula (metal, rubber)"
     },
     {
       "id": "ngh-1020",
@@ -17835,7 +17835,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Spatula (wood)"
     },
     {
       "id": "ngh-1021",
@@ -17890,7 +17890,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bed pad (mattress pad)"
     },
     {
       "id": "ngh-1024",
@@ -17912,7 +17912,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Baby goods (stroller, crib etc.)"
     },
     {
       "id": "ngh-1025",
@@ -17963,7 +17963,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toilet seat cover"
     },
     {
       "id": "ngh-1028",
@@ -17980,7 +17980,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toilet holding tank (cesspit tank)"
     },
     {
       "id": "ngh-1029",
@@ -17997,7 +17997,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lunch box (metal, plastic)"
     },
     {
       "id": "ngh-1030",
@@ -18014,7 +18014,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lunch box (wood)"
     },
     {
       "id": "ngh-1031",
@@ -18031,7 +18031,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bento container (from convenience stores etc.)"
     },
     {
       "id": "ngh-1032",
@@ -18048,7 +18048,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Outer wrap film of bento container (from convenience stores etc.)"
     },
     {
       "id": "ngh-1033",
@@ -18065,7 +18065,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet carrier (cage)"
     },
     {
       "id": "ngh-1034",
@@ -18082,7 +18082,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet house (kennel)"
     },
     {
       "id": "ngh-1035",
@@ -18099,7 +18099,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet food can / lid"
     },
     {
       "id": "ngh-1036",
@@ -18121,7 +18121,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PET bottle cap (plastic)"
     },
     {
       "id": "ngh-1037",
@@ -18143,7 +18143,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PET bottle (beverages, liquor, mirin, soy sauce, noodle soup base, oil-free dressing, vinegar etc.)"
     },
     {
       "id": "ngh-1038",
@@ -18160,7 +18160,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet cage (pen)"
     },
     {
       "id": "ngh-1039",
@@ -18177,7 +18177,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet litter (paper, wood etc.)"
     },
     {
       "id": "ngh-1040",
@@ -18194,7 +18194,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet litter (sand such as crushed stone)"
     },
     {
       "id": "ngh-1041",
@@ -18228,7 +18228,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hubcap (automobile)"
     },
     {
       "id": "ngh-1043",
@@ -18279,7 +18279,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air freshener container"
     },
     {
       "id": "ngh-1046",
@@ -18313,7 +18313,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bandage"
     },
     {
       "id": "ngh-1048",
@@ -18353,7 +18353,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Knife sharpener"
     },
     {
       "id": "ngh-1050",
@@ -18370,7 +18370,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Enameled pot"
     },
     {
       "id": "ngh-1051",
@@ -18421,7 +18421,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Staples (for stapler)"
     },
     {
       "id": "ngh-1054",
@@ -18495,7 +18495,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric cool box (plug-in cooler)"
     },
     {
       "id": "ngh-1058",
@@ -18546,7 +18546,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bookshelf"
     },
     {
       "id": "ngh-1061",
@@ -18563,7 +18563,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "books-media",
-      "name_en": null
+      "name_en": "Book"
     },
     {
       "id": "ngh-1062",
@@ -18580,7 +18580,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hose reel (plastic)"
     },
     {
       "id": "ngh-1063",
@@ -18597,7 +18597,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hose (rubber, vinyl)"
     },
     {
       "id": "ngh-1064",
@@ -18631,7 +18631,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Telescope"
     },
     {
       "id": "ngh-1066",
@@ -18665,7 +18665,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Weed barrier sheet"
     },
     {
       "id": "ngh-1068",
@@ -18703,7 +18703,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Insect repellent spray can"
     },
     {
       "id": "ngh-1070",
@@ -18720,7 +18720,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bird netting"
     },
     {
       "id": "ngh-1071",
@@ -18754,7 +18754,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bowl"
     },
     {
       "id": "ngh-1073",
@@ -18771,7 +18771,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Liquid sumi ink (bokuju)"
     },
     {
       "id": "ngh-1074",
@@ -18822,7 +18822,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Button (metal, plastic)"
     },
     {
       "id": "ngh-1077",
@@ -18839,7 +18839,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Button (wood)"
     },
     {
       "id": "ngh-1078",
@@ -18856,7 +18856,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Body brush"
     },
     {
       "id": "ngh-1079",
@@ -18873,7 +18873,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Balls (for sports)"
     },
     {
       "id": "ngh-1080",
@@ -18890,7 +18890,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ballpoint pen (metal)"
     },
     {
       "id": "ngh-1081",
@@ -18929,7 +18929,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mailbox (post box)"
     },
     {
       "id": "ngh-1083",
@@ -18950,7 +18950,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thermos pot (vacuum flask)"
     },
     {
       "id": "ngh-1084",
@@ -18967,7 +18967,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Polaroid photo (instant photo)"
     },
     {
       "id": "ngh-1085",
@@ -18984,7 +18984,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic jerry can (poly tank)"
     },
     {
       "id": "ngh-1086",
@@ -19001,7 +19001,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic bag (purchased)"
     },
     {
       "id": "ngh-1087",
@@ -19018,7 +19018,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic bag (product packaging)"
     },
     {
       "id": "ngh-1088",
@@ -19035,7 +19035,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pumps"
     },
     {
       "id": "ngh-1089",
@@ -19052,7 +19052,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Portable toilet (plastic)"
     },
     {
       "id": "ngh-1090",
@@ -19086,7 +19086,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mouse pad"
     },
     {
       "id": "ngh-1092",
@@ -19109,7 +19109,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mouse (for PC)"
     },
     {
       "id": "ngh-1093",
@@ -19126,7 +19126,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Magazine rack"
     },
     {
       "id": "ngh-1094",
@@ -19143,7 +19143,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pillow"
     },
     {
       "id": "ngh-1095",
@@ -19160,7 +19160,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pillowcase"
     },
     {
       "id": "ngh-1096",
@@ -19177,7 +19177,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Magnetic sheet"
     },
     {
       "id": "ngh-1097",
@@ -19211,7 +19211,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Face mask"
     },
     {
       "id": "ngh-1099",
@@ -19262,7 +19262,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Matchbox"
     },
     {
       "id": "ngh-1102",
@@ -19281,7 +19281,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Mattress (without springs)"
     },
     {
       "id": "ngh-1103",
@@ -19332,7 +19332,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Nail polish cap"
     },
     {
       "id": "ngh-1106",
@@ -19366,7 +19366,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mannequin head (for haircut practice)"
     },
     {
       "id": "ngh-1108",
@@ -19410,7 +19410,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thermos (vacuum flask pot)"
     },
     {
       "id": "ngh-1110",
@@ -19427,7 +19427,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Coal briquettes (mametan)"
     },
     {
       "id": "ngh-1111",
@@ -19464,7 +19464,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mayonnaise outer bag"
     },
     {
       "id": "ngh-1113",
@@ -19481,7 +19481,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mayonnaise container / cap"
     },
     {
       "id": "ngh-1114",
@@ -19498,7 +19498,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mulch sheet (agricultural mulch film)"
     },
     {
       "id": "ngh-1115",
@@ -19515,7 +19515,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fountain pen (metal)"
     },
     {
       "id": "ngh-1116",
@@ -19549,7 +19549,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Marker pen (permanent marker)"
     },
     {
       "id": "ngh-1118",
@@ -19566,7 +19566,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mahjong tiles"
     },
     {
       "id": "ngh-1119",
@@ -19583,7 +19583,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mahjong mat (cloth, plastic)"
     },
     {
       "id": "ngh-1120",
@@ -19634,7 +19634,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sewing machine (industrial)"
     },
     {
       "id": "ngh-1123",
@@ -19651,7 +19651,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Miniature toy car (metal)"
     },
     {
       "id": "ngh-1124",
@@ -19685,7 +19685,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "MiniDisc (MD; including case)"
     },
     {
       "id": "ngh-1126",
@@ -19707,7 +19707,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mini electronic game device (built-in lithium-ion battery)"
     },
     {
       "id": "ngh-1127",
@@ -19724,7 +19724,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ear pick (metal)"
     },
     {
       "id": "ngh-1128",
@@ -19741,7 +19741,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ear pick (wood, plastic)"
     },
     {
       "id": "ngh-1129",
@@ -19758,7 +19758,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Straw hat"
     },
     {
       "id": "ngh-1130",
@@ -19775,7 +19775,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Insect cage / insect rearing case"
     },
     {
       "id": "ngh-1131",
@@ -19792,7 +19792,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Steamer"
     },
     {
       "id": "ngh-1132",
@@ -19809,7 +19809,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Insect pin"
     },
     {
       "id": "ngh-1133",
@@ -19826,7 +19826,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Magnifying glass"
     },
     {
       "id": "ngh-1134",
@@ -19877,7 +19877,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Eyeglasses"
     },
     {
       "id": "ngh-1137",
@@ -19894,7 +19894,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Eyeglass case (metal, plastic)"
     },
     {
       "id": "ngh-1138",
@@ -19911,7 +19911,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Eye drop container (bottle)"
     },
     {
       "id": "ngh-1139",
@@ -19933,7 +19933,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Alarm clock"
     },
     {
       "id": "ngh-1140",
@@ -19950,7 +19950,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tape measure"
     },
     {
       "id": "ngh-1141",
@@ -19967,7 +19967,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bulldog clip"
     },
     {
       "id": "ngh-1142",
@@ -19984,7 +19984,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Metronome"
     },
     {
       "id": "ngh-1143",
@@ -20035,7 +20035,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cotton swabs"
     },
     {
       "id": "ngh-1146",
@@ -20052,7 +20052,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cotton (batting)"
     },
     {
       "id": "ngh-1147",
@@ -20106,7 +20106,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mochi maker (rice cake machine; small)"
     },
     {
       "id": "ngh-1150",
@@ -20140,7 +20140,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ruler / measuring stick (metal)"
     },
     {
       "id": "ngh-1152",
@@ -20157,7 +20157,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ruler / measuring stick (bamboo)"
     },
     {
       "id": "ngh-1153",
@@ -20191,7 +20191,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laundry pole stand post"
     },
     {
       "id": "ngh-1155",
@@ -20208,7 +20208,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laundry pole stand base"
     },
     {
       "id": "ngh-1156",
@@ -20263,7 +20263,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Baseball / baseball glove"
     },
     {
       "id": "ngh-1159",
@@ -20280,7 +20280,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chemicals (hydrochloric acid etc.)"
     },
     {
       "id": "ngh-1160",
@@ -20297,7 +20297,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vegetable bundling tape (PP band)"
     },
     {
       "id": "ngh-1161",
@@ -20314,7 +20314,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vegetable outer bag (plastic)"
     },
     {
       "id": "ngh-1162",
@@ -20331,7 +20331,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Net used to wrap vegetables"
     },
     {
       "id": "ngh-1163",
@@ -20348,7 +20348,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "File / rasp (metal)"
     },
     {
       "id": "ngh-1164",
@@ -20365,7 +20365,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Yukata (casual summer kimono)"
     },
     {
       "id": "ngh-1165",
@@ -20416,7 +20416,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Clothes (Western-style clothing)"
     },
     {
       "id": "ngh-1168",
@@ -20433,7 +20433,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wardrobe"
     },
     {
       "id": "ngh-1169",
@@ -20450,7 +20450,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathtub"
     },
     {
       "id": "ngh-1170",
@@ -20467,7 +20467,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathtub cover"
     },
     {
       "id": "ngh-1171",
@@ -20504,7 +20504,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lighter (disposable)"
     },
     {
       "id": "ngh-1173",
@@ -20521,7 +20521,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Radio (portable)"
     },
     {
       "id": "ngh-1174",
@@ -20555,7 +20555,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic wrap core"
     },
     {
       "id": "ngh-1176",
@@ -20572,7 +20572,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cutting blade of plastic wrap box (metal)"
     },
     {
       "id": "ngh-1177",
@@ -20589,7 +20589,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic wrap box (including paper blade)"
     },
     {
       "id": "ngh-1178",
@@ -20606,7 +20606,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic wrap (used for store packaging)"
     },
     {
       "id": "ngh-1179",
@@ -20623,7 +20623,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic wrap (purchased / used at home)"
     },
     {
       "id": "ngh-1180",
@@ -20640,7 +20640,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ramune bottle (glass soda bottle)"
     },
     {
       "id": "ngh-1181",
@@ -20674,7 +20674,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Treadmill"
     },
     {
       "id": "ngh-1183",
@@ -20691,7 +20691,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lamp (metal)"
     },
     {
       "id": "ngh-1184",
@@ -20708,7 +20708,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Recorder (wind instrument)"
     },
     {
       "id": "ngh-1185",
@@ -20725,7 +20725,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lithium-ion battery (rechargeable)"
     },
     {
       "id": "ngh-1186",
@@ -20742,7 +20742,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lithium battery (non-rechargeable)"
     },
     {
       "id": "ngh-1187",
@@ -20793,7 +20793,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Reel (fishing tackle)"
     },
     {
       "id": "ngh-1190",
@@ -20810,7 +20810,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fishing lure (metal)"
     },
     {
       "id": "ngh-1191",
@@ -20827,7 +20827,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Loose-leaf binder"
     },
     {
       "id": "ngh-1192",
@@ -20844,7 +20844,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Roof carrier (roof rack)"
     },
     {
       "id": "ngh-1193",
@@ -20900,7 +20900,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Refrigerator (freezer)"
     },
     {
       "id": "ngh-1196",
@@ -20934,7 +20934,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Raincoat (rainwear, rain poncho)"
     },
     {
       "id": "ngh-1198",
@@ -20951,7 +20951,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "books-media",
-      "name_en": null
+      "name_en": "Vinyl record"
     },
     {
       "id": "ngh-1199",
@@ -20968,7 +20968,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Record player"
     },
     {
       "id": "ngh-1200",
@@ -20985,7 +20985,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Receipt (thermal paper)"
     },
     {
       "id": "ngh-1201",
@@ -21039,7 +21039,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Retort pouch (curry etc.)"
     },
     {
       "id": "ngh-1204",
@@ -21056,7 +21056,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Retort pouch outer box (curry etc.)"
     },
     {
       "id": "ngh-1205",
@@ -21090,7 +21090,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Range hood cover"
     },
     {
       "id": "ngh-1207",
@@ -21124,7 +21124,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "LaserDisc (LD)"
     },
     {
       "id": "ngh-1209",
@@ -21141,7 +21141,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "LaserDisc (LD) player"
     },
     {
       "id": "ngh-1210",
@@ -21158,7 +21158,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Reading glasses"
     },
     {
       "id": "ngh-1211",
@@ -21192,7 +21192,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Candle"
     },
     {
       "id": "ngh-1213",
@@ -21226,7 +21226,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Low cabinet (low board)"
     },
     {
       "id": "ngh-1215",
@@ -21243,7 +21243,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Roller skates (inline skates)"
     },
     {
       "id": "ngh-1216",
@@ -21260,7 +21260,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dress shirt"
     },
     {
       "id": "ngh-1217",
@@ -21277,7 +21277,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dress shirt outer bag"
     },
     {
       "id": "ngh-1218",
@@ -21294,7 +21294,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cardboard insert in dress shirt package"
     },
     {
       "id": "ngh-1219",
@@ -21311,7 +21311,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wiper (automobile)"
     },
     {
       "id": "ngh-1220",
@@ -21328,7 +21328,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wireless earphones / headphones"
     },
     {
       "id": "ngh-1221",
@@ -21345,7 +21345,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wire (wire rope / cable)"
     },
     {
       "id": "ngh-1222",
@@ -21362,7 +21362,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wine cellar (wine cooler)"
     },
     {
       "id": "ngh-1223",
@@ -21396,7 +21396,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rubber band box"
     },
     {
       "id": "ngh-1225",
@@ -21413,7 +21413,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wasabi tube / cap"
     },
     {
       "id": "ngh-1226",
@@ -21430,7 +21430,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Traditional Japanese clothing (wafuku)"
     },
     {
       "id": "ngh-1227",
@@ -21447,7 +21447,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Disposable chopsticks"
     },
     {
       "id": "ngh-1228",
@@ -21464,7 +21464,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Disposable chopsticks individual bag (plastic)"
     },
     {
       "id": "ngh-1229",
@@ -21481,7 +21481,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Broken glass bottle (no longer in original shape)"
     },
     {
       "id": "ngh-1230",
@@ -21515,7 +21515,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Word processor ink ribbon"
     },
     {
       "id": "ngh-1232",
@@ -21532,7 +21532,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "AC adapter"
     },
     {
       "id": "ngh-1233",
@@ -21555,7 +21555,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "CDs etc. (LD, DVD, Blu-ray; including cases)"
     },
     {
       "id": "ngh-1234",
@@ -21575,7 +21575,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "CD player"
     },
     {
       "id": "ngh-1235",
@@ -21613,7 +21613,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "ETC in-vehicle unit (electronic toll collection)"
     },
     {
       "id": "ngh-1237",
@@ -21630,7 +21630,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "IC recorder (voice recorder; built-in lithium-ion battery)"
     },
     {
       "id": "ngh-1238",
@@ -21647,7 +21647,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "LED light"
     },
     {
       "id": "ngh-1239",
@@ -21664,7 +21664,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "LP gas cylinders"
     },
     {
       "id": "ngh-1240",
@@ -21698,7 +21698,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "MD (MiniDisc; including case)"
     },
     {
       "id": "ngh-1242",
@@ -21715,7 +21715,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "MO drive"
     },
     {
       "id": "ngh-1243",
@@ -21732,7 +21732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "MO disk (magneto-optical; including case)"
     },
     {
       "id": "ngh-1244",
@@ -21749,7 +21749,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PHS (mobile handset)"
     },
     {
       "id": "ngh-1245",
@@ -21766,7 +21766,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PP band (polypropylene strapping band)"
     },
     {
       "id": "ngh-1246",
@@ -21783,7 +21783,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "SD card"
     },
     {
       "id": "ngh-1247",
@@ -21803,7 +21803,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "T-shirt"
     },
     {
       "id": "ngh-1248",
@@ -21820,7 +21820,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "USB flash drive"
     }
   ]
 }
