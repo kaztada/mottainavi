@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-03T19:26:24.635Z",
+  "generated_at": "2026-10-04T10:30:33.698Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -6161,7 +6161,7 @@
       "dispositions": [
         {
           "category_id": "keikokan",
-          "note_ja": "ＬＥＤ電球、白熱球、グロー球は不燃ごみに出してください。\n収集は粗大ごみの収集日です。資源ごみの収集日には収集しません。",
+          "note_ja": "年2回の粗大ごみの日に出します。割れた蛍光管は、安全のため紙などに包んで内容物を書き、不燃ごみの指定袋に入れて、月1回の不燃ごみの日に出します。\nＬＥＤ電球、白熱球、グロー球は不燃ごみに出してください。\n収集は粗大ごみの収集日です。資源ごみの収集日には収集しません。",
           "official_link": "https://www.city.nagahama.lg.jp/0000014876.html"
         }
       ],
