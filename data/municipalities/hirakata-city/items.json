@@ -1,6 +1,6 @@
 {
   "municipality_id": "hirakata-city",
-  "generated_at": "2026-10-04T13:01:40.390Z",
+  "generated_at": "2026-10-04T13:18:23.554Z",
   "source_url": "https://www.city.hirakata.osaka.jp/0000024067.html",
   "item_count": 1761,
   "items": [
@@ -10201,7 +10201,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sake paper carton"
+      "name_en": "Alcoholic beverage carton (paper)"
     },
     {
       "id": "hrk-0583",
@@ -19257,7 +19257,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Batteries"
+      "name_en": null
     },
     {
       "id": "hrk-1094",
