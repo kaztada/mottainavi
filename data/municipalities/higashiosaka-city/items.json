@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiosaka-city",
-  "generated_at": "2026-10-04T12:42:06.343Z",
+  "generated_at": "2026-10-04T12:56:35.948Z",
   "source_url": "https://data.bodik.jp/dataset/272272_28",
   "item_count": 913,
   "items": [
@@ -1856,7 +1856,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ohitsu (wooden container for cooked rice)"
+      "name_en": "Ohitsu (container for cooked rice)"
     },
     {
       "id": "hso-0106",
@@ -2092,7 +2092,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cartridge"
+      "name_en": "Cartridge (non-metal)"
     },
     {
       "id": "hso-0119",
@@ -9828,7 +9828,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Door (wood)"
+      "name_en": "Door (wood; construction waste)"
     },
     {
       "id": "hso-0558",
@@ -10171,7 +10171,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Drum"
+      "name_en": "Drum (musical instrument)"
     },
     {
       "id": "hso-0578",
@@ -10471,7 +10471,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Nabeyaki udon container (aluminum)"
+      "name_en": "Nabeyaki udon (hot pot noodle) container (aluminum)"
     },
     {
       "id": "hso-0595",
@@ -13631,7 +13631,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Insulated food jar (rice warmer)"
+      "name_en": "Rice warmer (insulated rice jar)"
     },
     {
       "id": "hso-0775",
@@ -14455,7 +14455,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Milk can"
+      "name_en": "Milk can (food packaging)"
     },
     {
       "id": "hso-0822",
@@ -14730,7 +14730,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Monitor (other than those with the PC recycling mark)"
+      "name_en": "Monitor (non-PC display)"
     },
     {
       "id": "hso-0838",
@@ -14849,7 +14849,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Yakiniku sauce container (glass bottle)"
+      "name_en": "Yakiniku sauce (Japanese barbecue sauce) container (glass bottle)"
     },
     {
       "id": "hso-0845",
@@ -14866,7 +14866,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Yakiniku sauce container (plastic)"
+      "name_en": "Yakiniku sauce (Japanese barbecue sauce) container (plastic)"
     },
     {
       "id": "hso-0846",
@@ -15884,7 +15884,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wine cabinet"
+      "name_en": "Wine cabinet (storage furniture)"
     },
     {
       "id": "hso-0905",

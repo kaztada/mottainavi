@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-04T12:42:14.877Z",
+  "generated_at": "2026-10-04T12:56:41.137Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -19044,7 +19044,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Milk can"
+      "name_en": "Milk can (food packaging)"
     },
     {
       "id": "kag-1081",

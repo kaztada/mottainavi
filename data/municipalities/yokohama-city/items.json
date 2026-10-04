@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-04T12:42:04.657Z",
+  "generated_at": "2026-10-04T12:56:34.521Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -5433,7 +5433,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ohitsu (wooden container for cooked rice)"
+      "name_en": "Ohitsu (container for cooked rice)"
     },
     {
       "id": "yok-0334",
@@ -50120,7 +50120,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Insulated food jar (rice warmer)"
+      "name_en": "Rice warmer (insulated rice jar)"
     },
     {
       "id": "yok-3023",
