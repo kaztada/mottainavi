@@ -134,7 +134,7 @@ gh pr merge <番号> --merge --delete-branch
 - 本番で、自治体トップ・品目の詳細・About・検索データが 200 で返ること、既存の市が壊れていないこと
 - PageSpeed Insights(モバイル)を、アプリ内ブラウザで pagespeed.web.dev を開いて計測(検索トップと詳細)。目標は Perf / A11y とも 90 以上
   - キーなしの PageSpeed API は1日の利用枠が切れていることが多い(429)
-  - ブラウザの表示が隠れていると結果の画面が描画されず、スクリーンショットも撮れない。その場合は、ページ内で XMLHttpRequest を差し替えて応答を取っておき、「分析」ボタンを押し直して、応答(batchexecute の大きいもの)から `"id": "performance", … "score": 1` の形の点数を読む。応答は前半がモバイル、後半がデスクトップ
+  - ブラウザの表示が隠れていると、計測は始まっても結果の画面に進まないことがある(スクリーンショットも撮れない)。その場合は次の順で読む: ① `pagespeed.web.dev/analysis?url=<計測する URL>&form_factor=mobile` を開いて10秒ほど待つ ② ネットワークの記録(read_network_requests、`batchexecute` で絞る)から `rpcids=nqfuif` の応答を読み、先頭の10文字ほどの ID を拾う ③ 40秒ほど待ってから、結果の URL `pagespeed.web.dev/analysis/<URL の記号をハイフンにしたもの>/<ID>?form_factor=mobile` を直接開く(例: `https-mottainavi-kaztada-eco-nagahama-city-item-ngh-0687`)④ 30秒ほど待って、ページ内で `.lh-gauge__percentage` の最初の4つ(パフォーマンス・ユーザー補助・おすすめの方法・SEO)を読む
 
 ## 8. 記録
 
