@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-04T13:33:16.502Z",
+  "generated_at": "2026-10-04T13:37:30.409Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -945,7 +945,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Electric guitar"
     },
     {
       "id": "fuk-0053",
@@ -3096,7 +3096,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fluorescent lamp"
     },
     {
       "id": "fuk-0175",
@@ -3627,7 +3627,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Exercise bike (cycling machine)"
     },
     {
       "id": "fuk-0206",
@@ -4558,7 +4558,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dish dryer"
     },
     {
       "id": "fuk-0257",
@@ -4859,7 +4859,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Scooter (motor scooter)"
     },
     {
       "id": "fuk-0274",
@@ -6298,7 +6298,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tablecloth"
     },
     {
       "id": "fuk-0354",
@@ -8816,7 +8816,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet feces"
     },
     {
       "id": "fuk-0496",
@@ -9219,7 +9219,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Button cell battery"
     },
     {
       "id": "fuk-0518",
@@ -9970,7 +9970,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Baseball"
     },
     {
       "id": "fuk-0560",
@@ -10242,7 +10242,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Recorder (wind instrument)"
     },
     {
       "id": "fuk-0576",
