@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiosaka-city",
-  "generated_at": "2026-10-04T10:30:22.613Z",
+  "generated_at": "2026-10-04T10:38:29.036Z",
   "source_url": "https://data.bodik.jp/dataset/272272_28",
   "item_count": 913,
   "items": [
@@ -554,7 +554,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Board (plank)"
     },
     {
       "id": "hso-0033",
@@ -895,7 +895,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Intercom"
     },
     {
       "id": "hso-0052",
@@ -2437,7 +2437,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Umbrella stand"
     },
     {
       "id": "hso-0138",
@@ -2663,7 +2663,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Butane gas canister (cassette type)"
     },
     {
       "id": "hso-0151",
@@ -2838,7 +2838,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vase"
     },
     {
       "id": "hso-0161",
@@ -2872,7 +2872,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice cooking pot (kama)"
     },
     {
       "id": "hso-0163",
@@ -2940,7 +2940,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Kamidana (household Shinto altar)"
     },
     {
       "id": "hso-0167",
@@ -2957,7 +2957,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper carton"
     },
     {
       "id": "hso-0168",
@@ -3110,7 +3110,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Leather shoes"
     },
     {
       "id": "hso-0177",
@@ -3443,7 +3443,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wooden box"
     },
     {
       "id": "hso-0196",
@@ -3477,7 +3477,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cap (metal)"
     },
     {
       "id": "hso-0198",
@@ -3821,7 +3821,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Grass / weeds"
     },
     {
       "id": "hso-0218",
@@ -3995,7 +3995,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Socks"
     },
     {
       "id": "hso-0228",
@@ -5864,7 +5864,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Storage case"
     },
     {
       "id": "hso-0335",
@@ -6415,7 +6415,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mercury blood pressure monitor"
     },
     {
       "id": "hso-0365",
@@ -6622,7 +6622,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ski poles"
     },
     {
       "id": "hso-0377",
@@ -7785,7 +7785,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tire"
     },
     {
       "id": "hso-0443",
@@ -7870,7 +7870,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tile"
     },
     {
       "id": "hso-0448",
@@ -7904,7 +7904,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Terry-cloth blanket (towelket)"
     },
     {
       "id": "hso-0450",
@@ -8264,7 +8264,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dumbbell"
     },
     {
       "id": "hso-0471",
@@ -8475,7 +8475,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Seasoning bottle (glass)"
     },
     {
       "id": "hso-0483",
@@ -8734,7 +8734,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fishhook"
     },
     {
       "id": "hso-0498",
@@ -9417,7 +9417,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Electronic blood pressure monitor"
     },
     {
       "id": "hso-0535",
@@ -9451,7 +9451,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Electronic clinical thermometer"
     },
     {
       "id": "hso-0537",
@@ -10222,7 +10222,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint and coatings"
     },
     {
       "id": "hso-0581",
@@ -10345,7 +10345,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Trophy"
     },
     {
       "id": "hso-0588",
@@ -10697,7 +10697,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cloth (fabric)"
     },
     {
       "id": "hso-0608",
@@ -12665,7 +12665,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathtub cover"
     },
     {
       "id": "hso-0720",
@@ -12682,7 +12682,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathroom mat"
     },
     {
       "id": "hso-0721",
@@ -13081,7 +13081,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathroom scale"
     },
     {
       "id": "hso-0743",
@@ -13913,7 +13913,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic bucket"
     },
     {
       "id": "hso-0791",
@@ -15145,7 +15145,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Racket"
     },
     {
       "id": "hso-0862",
@@ -15473,7 +15473,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Refrigerator"
     },
     {
       "id": "hso-0881",
@@ -15490,7 +15490,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Freezer"
     },
     {
       "id": "hso-0882",
@@ -15782,7 +15782,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Locker (household)"
     },
     {
       "id": "hso-0899",
