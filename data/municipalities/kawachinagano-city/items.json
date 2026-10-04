@@ -1,8 +1,8 @@
 {
   "municipality_id": "kawachinagano-city",
-  "generated_at": "2026-10-04T10:38:31.759Z",
+  "generated_at": "2026-10-04T13:16:08.363Z",
   "source_url": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html",
-  "item_count": 1081,
+  "item_count": 1089,
   "items": [
     {
       "id": "knn-0001",
@@ -1455,7 +1455,24 @@
       "dispositions": [
         {
           "category_id": "fuka",
-          "note_ja": "建材店等で引き取ってもらう。\n臼（木） 要相談 大きさ等により処理できない場合がありますので、事前にご相談ください",
+          "note_ja": "建材店等で引き取ってもらう。",
+          "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "knn-1082",
+      "name_ja": "臼（木）",
+      "name_kana": "うす（き）",
+      "name_romaji": "usu(ki)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kobetsu",
+          "note_ja": "出し方: 要相談。\n大きさ等により処理できない場合がありますので、事前にご相談ください",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html"
         }
       ],
@@ -1940,7 +1957,24 @@
       "dispositions": [
         {
           "category_id": "moeru",
-          "note_ja": "園芸用殺虫剤の容器（プラマークの表示あり）資源ごみ（プラスチック製容器包装） 洗って乾かす。",
+          "note_ja": null,
+          "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "knn-1083",
+      "name_ja": "園芸用殺虫剤の容器（プラマークの表示あり）",
+      "name_kana": "えんげいようさっちゅうざいのようき（ぷらまーくのひょうじあり）",
+      "name_romaji": "engeiyousatchuuzainoyouki(purama-kunohyoujiari)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": "洗って乾かす。",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
@@ -2110,7 +2144,7 @@
       "dispositions": [
         {
           "category_id": "fuka",
-          "note_ja": "取扱店等で引き取ってもらう。\n引き取ってもらえない場合は、「二輪車リサイクルシステム」で引取対象か確認する。",
+          "note_ja": "取扱店等で引き取ってもらう。\n引き取ってもらえない場合は、「二輪車リサイクルシステム」で引取対象か確認する。\nhttps://www.jarc.or.jp/motorcycle",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html"
         }
       ],
@@ -2120,9 +2154,9 @@
     },
     {
       "id": "knn-0118",
-      "name_ja": "https://www.jarc.or.jp/motorcycleオーブントースター",
-      "name_kana": "https://www.jarc.or.jp/motorcycleおーぶんとーすたー",
-      "name_romaji": "https://www.jarc.or.jp/motorcycleo-bunto-suta-",
+      "name_ja": "オーブントースター",
+      "name_kana": "おーぶんとーすたー",
+      "name_romaji": "o-bunto-suta-",
       "aliases": [],
       "dispositions": [
         {
@@ -2133,7 +2167,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toaster oven"
     },
     {
       "id": "knn-0119",
@@ -4177,13 +4211,30 @@
       "dispositions": [
         {
           "category_id": "moeru",
-          "note_ja": "緩衝材（ビニール製・プラスチック製・発泡スチロール）資源ごみ（プラスチック製容器包装）",
+          "note_ja": null,
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
       "name_en": "Cushioning material (paper)"
+    },
+    {
+      "id": "knn-1084",
+      "name_ja": "緩衝材（ビニール製・プラスチック製・発泡スチロール）",
+      "name_kana": "かんしょうざい（びにーるせい・ぷらすちっくせい・はっぽうすちろーる）",
+      "name_romaji": "kanshouzai(bini-rusei/purasuchikkusei/happousuchiro-ru)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": null,
+          "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
     },
     {
       "id": "knn-0235",
@@ -5398,7 +5449,7 @@
       "dispositions": [
         {
           "category_id": "moenai-sodai",
-          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n資源選別作業所へ持ち込むこともできます。",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n資源選別作業所へ持ち込むこともできます。\n（平日の13時～15時のみ）",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
@@ -5408,9 +5459,9 @@
     },
     {
       "id": "knn-0305",
-      "name_ja": "（平日の13時～15時のみ）ゲームソフト",
-      "name_kana": "（へいじつの13じ～15じのみ）げーむそふと",
-      "name_romaji": "(heijitsuno13ji～15jinomi)ge-musofuto",
+      "name_ja": "ゲームソフト",
+      "name_kana": "げーむそふと",
+      "name_romaji": "ge-musofuto",
       "aliases": [],
       "dispositions": [
         {
@@ -5421,7 +5472,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Game software"
     },
     {
       "id": "knn-0306",
@@ -5624,7 +5675,7 @@
       "dispositions": [
         {
           "category_id": "fuka",
-          "note_ja": "取扱店等で引き取ってもらう。\n引き取ってもらえない場合は、「二輪車リサイクルシステム」で引取対象か確認する。\nhttps://www.jarc.or.jp/motorcycleこコイン電池（リチウム一時電池）・ボタン電",
+          "note_ja": "取扱店等で引き取ってもらう。\n引き取ってもらえない場合は、「二輪車リサイクルシステム」で引取対象か確認する。\nhttps://www.jarc.or.jp/motorcycle",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html"
         }
       ],
@@ -5634,9 +5685,9 @@
     },
     {
       "id": "knn-0318",
-      "name_ja": "池",
-      "name_kana": "いけ",
-      "name_romaji": "ike",
+      "name_ja": "コイン電池（リチウム一時電池）・ボタン電池",
+      "name_kana": "こいんでんち（りちうむいちじでんち）・ぼたんでんち",
+      "name_romaji": "koindenchi(richiumuichijidenchi)/botandenchi",
       "aliases": [],
       "dispositions": [
         {
@@ -6957,13 +7008,30 @@
       "dispositions": [
         {
           "category_id": "moenai-sodai",
-          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\nバッテリー内蔵のものはバッテリーを外して出す。\nバッテリーの処分はバッテリー（小型充電式電池）を参照。\nバッテリーを外せない場合は、メーカー・販売店もしくは市役所にお問い合わせください。\nシェード（日よけ） もえないごみ・粗大ごみ粗大ごみ 布製で推奨袋に入るものは、「もえるごみ」として出す。",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\nバッテリー内蔵のものはバッテリーを外して出す。\nバッテリーの処分はバッテリー（小型充電式電池）を参照。\nバッテリーを外せない場合は、メーカー・販売店もしくは市役所にお問い合わせください。",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
       "name_en": "CD radio cassette player"
+    },
+    {
+      "id": "knn-1085",
+      "name_ja": "シェード（日よけ）",
+      "name_kana": "しぇーど（ひよけ）",
+      "name_romaji": "she-do(hiyoke)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "moenai-sodai",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n布製で推奨袋に入るものは、「もえるごみ」として出す。",
+          "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
     },
     {
       "id": "knn-0395",
@@ -8928,7 +8996,7 @@
       "dispositions": [
         {
           "category_id": "moenai-sodai",
-          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n家庭で使用したものに限る。",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n家庭で使用したものに限る。\n（事業者が排出する場合は、産業廃棄物）",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
@@ -8938,9 +9006,9 @@
     },
     {
       "id": "knn-0506",
-      "name_ja": "（事業者が排出する場合は、産業廃棄物）精米機",
-      "name_kana": "（じぎょうしゃがはいしゅつするばあいは、さんぎょうはいきぶつ）せいまいき",
-      "name_romaji": "(jigyoushagahaishutsusurubaaiha,sangyouhaikibutsu)seimaiki",
+      "name_ja": "精米機",
+      "name_kana": "せいまいき",
+      "name_romaji": "seimaiki",
       "aliases": [],
       "dispositions": [
         {
@@ -8951,7 +9019,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice polisher (rice milling machine)"
     },
     {
       "id": "knn-0507",
@@ -10327,13 +10395,30 @@
       "dispositions": [
         {
           "category_id": "koshi",
-          "note_ja": "チーズフォンデュ用鍋（陶器製） もえないごみ・粗大ごみ粗大ごみ 五徳も含め金属製のものは、「小型金属」として出す。",
+          "note_ja": null,
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
       "name_en": "Cardboard"
+    },
+    {
+      "id": "knn-1086",
+      "name_ja": "チーズフォンデュ用鍋（陶器製）",
+      "name_kana": "ちーずふぉんでゅようなべ（とうきせい）",
+      "name_romaji": "chi-zufuondeyuyounabe(toukisei)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "moenai-sodai",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n五徳も含め金属製のものは、「小型金属」として出す。",
+          "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
     },
     {
       "id": "knn-0586",
@@ -11180,7 +11265,7 @@
       "dispositions": [
         {
           "category_id": "moenai-sodai",
-          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\nバッテリー内蔵のものはバッテリーを外して出す。\nバッテリーの処分はバッテリー（小型充電式電池）を参照。\nバッテリーを外せない場合は、メーカー・販売店もしくは市役所にお問い合わせください。\nまた、資源選別作業所へ持ち込むこともできます。",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\nバッテリー内蔵のものはバッテリーを外して出す。\nバッテリーの処分はバッテリー（小型充電式電池）を参照。\nバッテリーを外せない場合は、メーカー・販売店もしくは市役所にお問い合わせください。\nまた、資源選別作業所へ持ち込むこともできます。\n（平日の13時～15時のみ）",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
@@ -11190,9 +11275,9 @@
     },
     {
       "id": "knn-0635",
-      "name_ja": "（平日の13時～15時のみ）鉄アレイ（ダンベル）",
-      "name_kana": "（へいじつの13じ～15じのみ）てつあれい（だんべる）",
-      "name_romaji": "(heijitsuno13ji～15jinomi)tetsuarei(danberu)",
+      "name_ja": "鉄アレイ（ダンベル）",
+      "name_kana": "てつあれい（だんべる）",
+      "name_romaji": "tetsuarei(danberu)",
       "aliases": [],
       "dispositions": [
         {
@@ -11203,7 +11288,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dumbbell (iron dumbbell)"
     },
     {
       "id": "knn-0636",
@@ -11352,7 +11437,7 @@
       "dispositions": [
         {
           "category_id": "moenai-sodai",
-          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\nバッテリー内蔵のものはバッテリーを外して出す。\nバッテリーの処分はバッテリー（小型充電式電池）を参照。\nバッテリーを外せない場合は、メーカー・販売店もしくは市役所にお問い合わせください。\nまた、資源選別作業所へ持ち込むこともできます。",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\nバッテリー内蔵のものはバッテリーを外して出す。\nバッテリーの処分はバッテリー（小型充電式電池）を参照。\nバッテリーを外せない場合は、メーカー・販売店もしくは市役所にお問い合わせください。\nまた、資源選別作業所へ持ち込むこともできます。\n（平日の13時～15時のみ）",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
@@ -11362,9 +11447,9 @@
     },
     {
       "id": "knn-0644",
-      "name_ja": "（平日の13時～15時のみ）テレビ台",
-      "name_kana": "（へいじつの13じ～15じのみ）てれびだい",
-      "name_romaji": "(heijitsuno13ji～15jinomi)terebidai",
+      "name_ja": "テレビ台",
+      "name_kana": "てれびだい",
+      "name_romaji": "terebidai",
       "aliases": [
         "TV",
         "液晶テレビ",
@@ -11380,7 +11465,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "TV stand"
     },
     {
       "id": "knn-0645",
@@ -11711,7 +11796,7 @@
       "dispositions": [
         {
           "category_id": "moenai-sodai",
-          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\nバッテリー内蔵のものはバッテリーを外して出す。\nバッテリーの処分はバッテリー（小型充電式電池）を参照。\nバッテリーを外せない場合は、メーカー・販売店もしくは市役所にお問い合わせください。\nまた、資源選別作業所へ持ち込むこともできます。",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\nバッテリー内蔵のものはバッテリーを外して出す。\nバッテリーの処分はバッテリー（小型充電式電池）を参照。\nバッテリーを外せない場合は、メーカー・販売店もしくは市役所にお問い合わせください。\nまた、資源選別作業所へ持ち込むこともできます。\n（平日の13時～15時のみ）",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
@@ -11721,9 +11806,9 @@
     },
     {
       "id": "knn-0663",
-      "name_ja": "（平日の13時～15時のみ）電子レンジ",
-      "name_kana": "（へいじつの13じ～15じのみ）でんしれんじ",
-      "name_romaji": "(heijitsuno13ji～15jinomi)denshirenji",
+      "name_ja": "電子レンジ",
+      "name_kana": "でんしれんじ",
+      "name_romaji": "denshirenji",
       "aliases": [
         "レンジ",
         "オーブンレンジ",
@@ -11738,7 +11823,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Microwave oven"
     },
     {
       "id": "knn-0664",
@@ -13169,8 +13254,25 @@
       "dispositions": [
         {
           "category_id": "moenai-sodai",
-          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n新聞紙や紙などに包んで出す。\nHDD（SSD） 回収できません。 外付け用HDDは「もえないごみ・粗大ごみ」で出せます。内蔵HDDは回収できません。",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n新聞紙や紙などに包んで出す。",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "knn-1087",
+      "name_ja": "HDD（SSD）",
+      "name_kana": "HDD（SSD）",
+      "name_romaji": "HDD(SSD)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "fuka",
+          "note_ja": "外付け用HDDは「もえないごみ・粗大ごみ」で出せます。内蔵HDDは回収できません。",
+          "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html"
         }
       ],
       "sodai_fee_yen": null,
@@ -13271,7 +13373,7 @@
       "dispositions": [
         {
           "category_id": "fuka",
-          "note_ja": "取扱店等で引き取ってもらう。\n引き取ってもらえない場合は、「二輪車リサイクルシステム」で引取対象か確認する。",
+          "note_ja": "取扱店等で引き取ってもらう。\n引き取ってもらえない場合は、「二輪車リサイクルシステム」で引取対象か確認する。\nhttps://www.jarc.or.jp/motorcycle",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html"
         }
       ],
@@ -13281,9 +13383,9 @@
     },
     {
       "id": "knn-0753",
-      "name_ja": "https://www.jarc.or.jp/motorcycle灰皿",
-      "name_kana": "https://www.jarc.or.jp/motorcycleはいざら",
-      "name_romaji": "https://www.jarc.or.jp/motorcyclehaizara",
+      "name_ja": "灰皿",
+      "name_kana": "はいざら",
+      "name_romaji": "haizara",
       "aliases": [],
       "dispositions": [
         {
@@ -13294,7 +13396,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ashtray"
     },
     {
       "id": "knn-0754",
@@ -13573,7 +13675,7 @@
       "dispositions": [
         {
           "category_id": "moenai-sodai",
-          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n家庭で使用したものに限る。",
+          "note_ja": "月1回の収集です(申込みは不要)。「もえないごみ・粗大ごみシール」を推奨ごみ袋に1枚、袋に入らない大きなものは1点につき1枚貼って出します。シールは毎年3月末に各家庭へ無料配布され、足りない場合は有料シールをごみ処理券取扱所で購入します。\n家庭で使用したものに限る。\n（事業者が排出する場合は、産業廃棄物）",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
@@ -13583,9 +13685,9 @@
     },
     {
       "id": "knn-0770",
-      "name_ja": "（事業者が排出する場合は、産業廃棄物）発煙筒",
-      "name_kana": "（じぎょうしゃがはいしゅつするばあいは、さんぎょうはいきぶつ）はつえんとう",
-      "name_romaji": "(jigyoushagahaishutsusurubaaiha,sangyouhaikibutsu)hatsuentou",
+      "name_ja": "発煙筒",
+      "name_kana": "はつえんとう",
+      "name_romaji": "hatsuentou",
       "aliases": [],
       "dispositions": [
         {
@@ -13596,7 +13698,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Smoke flare"
     },
     {
       "id": "knn-0771",
@@ -13607,7 +13709,24 @@
       "dispositions": [
         {
           "category_id": "fuka",
-          "note_ja": "取扱店等で引き取ってもらう。\nバッテリー（小型充電式電池）リチウムイオン電池、ニッケル水素電池、ニカド電池回収できません 家電量販店等の協力店や、市役所などに設置しているリサイクルボックスに出す。",
+          "note_ja": "取扱店等で引き取ってもらう。",
+          "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "knn-1088",
+      "name_ja": "バッテリー（小型充電式電池）リチウムイオン電池、ニッケル水素電池、ニカド電池",
+      "name_kana": "ばってりー（こがたじゅうでんしきでんち）りちうむいおんでんち、にっけるすいそでんち、にかどでんち",
+      "name_romaji": "batteri-(kogatajuudenshikidenchi)richiumuiondenchi,nikkerusuisodenchi,nikadodenchi",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "fuka",
+          "note_ja": "家電量販店等の協力店や、市役所などに設置しているリサイクルボックスに出す。",
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html"
         }
       ],
@@ -13709,7 +13828,24 @@
       "dispositions": [
         {
           "category_id": "pla",
-          "note_ja": "洗って乾かす。\n発泡スチロール箱（商品購入時の容器として使用されていたもの）資源ごみ（プラスチック製容器包装）発泡スチロール箱（クーラーボックス等、その",
+          "note_ja": "洗って乾かす。",
+          "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "knn-1089",
+      "name_ja": "発泡スチロール箱（商品購入時の容器として使用されていたもの）",
+      "name_kana": "はっぽうすちろーるばこ（しょうひんこうにゅうじのようきとしてしようされていたもの）",
+      "name_romaji": "happousuchiro-rubako(shouhinkounyuujinoyoukitoshiteshiyousareteitamono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": null,
           "official_link": "https://www.city.kawachinagano.lg.jp/soshiki/15/1797.html"
         }
       ],
@@ -13719,9 +13855,9 @@
     },
     {
       "id": "knn-0778",
-      "name_ja": "物自体が製品として販売されていたもの）",
-      "name_kana": "ものじたいがせいひんとしてはんばいされていたもの）",
-      "name_romaji": "monojitaigaseihintoshitehanbaisareteitamono)",
+      "name_ja": "発泡スチロール箱（クーラーボックス等、その物自体が製品として販売されていたもの）",
+      "name_kana": "はっぽうすちろーるばこ（くーらーぼっくすとう、そのものじたいがせいひんとしてはんばいされていたもの）",
+      "name_romaji": "happousuchiro-rubako(ku-ra-bokkusutou,sonomonojitaigaseihintoshitehanbaisareteitamono)",
       "aliases": [],
       "dispositions": [
         {
