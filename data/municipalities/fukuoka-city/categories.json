@@ -1,0 +1,62 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "燃えるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "燃えないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (reservation, fee)"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(回収ボックス)",
+    "name_en": "Small Appliances (collection box)"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "古紙",
+    "name_en": "Paper"
+  },
+  {
+    "id": "bin-pet",
+    "kind": "recyclable",
+    "name_ja": "空きびん・ペットボトル",
+    "name_en": "Glass Bottles & PET Bottles"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市で収集しないごみ",
+    "name_en": "Not Collected by the City"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "家電リサイクル法対象品",
+    "name_en": "Home Appliance Recycling Law Items (not collected)"
+  },
+  {
+    "id": "pasokon",
+    "kind": "not-collected",
+    "name_ja": "パソコン(メーカー・宅配での回収)",
+    "name_en": "Personal Computers (maker or mail-in recycling)"
+  },
+  {
+    "id": "kobetsu",
+    "kind": "other",
+    "name_ja": "個別の案内",
+    "name_en": "Special Handling"
+  }
+]

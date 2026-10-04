@@ -1,0 +1,14 @@
+{
+  "slug": "fukuoka-city",
+  "item_id_prefix": "fuk",
+  "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: 福岡市環境局ごみ減量推進課「福岡市 ごみの分け方（品目）検索」(https://data.bodik.jp/dataset/401307_disposing-method)(CC BY 4.0)を加工して利用",
+  "source_attribution_en": "Source: Fukuoka City Environment Bureau, \"Garbage Separation Search (by item)\" (https://data.bodik.jp/dataset/401307_disposing-method) (CC BY 4.0), adapted",
+  "sodai_apply_url": "https://sodaigomi-kankyo.city.fukuoka.lg.jp/",
+  "sodai_tel_landline": "092-731-1153",
+  "sodai_tel_mobile": "092-731-1153",
+  "data_fetched_at": "2026-10-04",
+  "data_version": "20261004"
+}

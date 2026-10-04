@@ -109,6 +109,17 @@
         "municipality_id": "kagoshima-city"
       },
       {
+        "type": "official",
+        "title_ja": "小型電子機器回収ボックスに入れる(区役所・公民館・図書館・駅など)",
+        "title_en": "Drop it in a small-electronics collection box (ward offices, community centers, libraries, stations)",
+        "desc_ja": "投入口(横25cm×縦8.5cm)に入る携帯電話・ゲーム機・カメラ・ヘッドホンなどが対象です。中の金属が資源としてもう一働き。個人情報は消し、取り外せる電池は外してから。",
+        "desc_en": "For phones, game consoles, cameras, headphones and other items that fit the 25 cm x 8.5 cm slot. The metals inside get another life. Wipe personal data and remove any removable battery first.",
+        "url": "https://www.city.fukuoka.lg.jp/kankyo/jigyokeigomi/life/raremetals.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "fukuoka-city"
+      },
+      {
         "type": "resale",
         "title_ja": "動くうちに買取・フリマへ",
         "title_en": "Working items: sell or trade in",
