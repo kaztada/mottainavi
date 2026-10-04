@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiratsuka-city",
-  "generated_at": "2026-10-04T10:38:33.025Z",
+  "generated_at": "2026-10-04T10:50:39.572Z",
   "source_url": "https://www.city.hiratsuka.kanagawa.jp/keikaku/page81_00019.html",
   "item_count": 805,
   "items": [
@@ -1409,7 +1409,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "MD recorder / player"
+      "name_en": "MiniDisc recorder / player (MD)"
     },
     {
       "id": "hrt-0081",
@@ -1548,7 +1548,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Reception set / lounge set"
+      "name_en": "Reception / lounge furniture set"
     },
     {
       "id": "hrt-0089",
@@ -6281,7 +6281,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dehumidifying agent (case)"
+      "name_en": "Dehumidifying agent case (container)"
     },
     {
       "id": "hrt-0361",
@@ -8639,7 +8639,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tissues (box)"
+      "name_en": "Tissue box"
     },
     {
       "id": "hrt-0495",
@@ -10676,7 +10676,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Hina dolls"
+      "name_en": "Hina dolls (Japanese festival dolls)"
     },
     {
       "id": "hrt-0611",
@@ -10693,7 +10693,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Hina dolls (tiered display stand)"
+      "name_en": "Tiered display stand for Hina dolls"
     },
     {
       "id": "hrt-0612",
@@ -14017,7 +14017,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wire (wire rope / cable)"
+      "name_en": "Wire (metal wire / wire rope)"
     },
     {
       "id": "hrt-0803",
