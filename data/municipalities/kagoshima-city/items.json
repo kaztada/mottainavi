@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-04T14:41:03.264Z",
+  "generated_at": "2026-10-05T08:45:16.749Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -19,7 +19,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "IH stove (tabletop, freestanding)"
+      "name_en": "Induction cooktop / IH stove (tabletop, freestanding)"
     },
     {
       "id": "kag-0002",
@@ -36,7 +36,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "IH stove (built-in type)"
+      "name_en": "Induction cooktop / IH stove (built-in type)"
     },
     {
       "id": "kag-0003",
@@ -3688,7 +3688,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Color box / three-tier storage box"
+      "name_en": "Shelving unit (color box / three-tier shelf)"
     },
     {
       "id": "kag-0210",
@@ -4463,7 +4463,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Inhaler / nebulizer (for asthma)"
+      "name_en": "Inhaler / nebulizer (electric; for asthma)"
     },
     {
       "id": "kag-0255",
@@ -5075,7 +5075,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooking heater (tabletop, freestanding)"
+      "name_en": "Electric cooktop / cooking heater (tabletop, freestanding)"
     },
     {
       "id": "kag-0290",
@@ -5442,7 +5442,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooking heater (built-in type)"
+      "name_en": "Electric cooktop / cooking heater (built-in type)"
     },
     {
       "id": "kag-0311",
@@ -5833,7 +5833,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Game console (handheld)"
+      "name_en": "Game console (handheld; removable battery)"
     },
     {
       "id": "kag-0331",
@@ -8573,7 +8573,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lighting (circuit board)"
+      "name_en": "Lighting (base unit)"
     },
     {
       "id": "kag-0489",
@@ -9069,7 +9069,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rechargeable electrical appliance (within 25 cm long)"
+      "name_en": "Rechargeable electrical appliance (non-removable battery; 25 cm or less long)"
     },
     {
       "id": "kag-0516",
@@ -9086,7 +9086,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rechargeable electrical appliance (over 25 cm long)"
+      "name_en": "Rechargeable electrical appliance (non-removable battery; over 25 cm long)"
     },
     {
       "id": "kag-0517",
@@ -10992,7 +10992,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Clinical thermometer (non-electronic)"
+      "name_en": "Clinical thermometer (non-electronic, mercury-free)"
     },
     {
       "id": "kag-0626",
@@ -11384,7 +11384,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tabletop stove (IH type)"
+      "name_en": "Tabletop stove (induction / IH type)"
     },
     {
       "id": "kag-0648",
@@ -13297,7 +13297,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (rechargeable)"
+      "name_en": "Rechargeable battery (excluding car and motorcycle batteries)"
     },
     {
       "id": "kag-0756",
@@ -13608,7 +13608,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Galvanized / corrugated sheet (plastic, e.g. Takiron; roofing etc.)"
+      "name_en": "Roofing sheet / corrugated panel (plastic, e.g. Takiron; roofing etc.)"
     },
     {
       "id": "kag-0774",
@@ -13625,7 +13625,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Galvanized / corrugated sheet (concrete-based; roofing etc.)"
+      "name_en": "Roofing sheet / corrugated panel (concrete-based; roofing etc.)"
     },
     {
       "id": "kag-0775",
@@ -14074,7 +14074,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kitchen waste composter (plastic)"
+      "name_en": "Food waste processing equipment (plastic)"
     },
     {
       "id": "kag-0801",
@@ -14091,7 +14091,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kitchen waste composter (electric)"
+      "name_en": "Food waste processor (electric)"
     },
     {
       "id": "kag-0802",
@@ -14142,7 +14142,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lactic acid drink container"
+      "name_en": "Cultured milk drink container"
     },
     {
       "id": "kag-0805",
@@ -14159,7 +14159,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lid of lactic acid drink container (aluminum)"
+      "name_en": "Lid of cultured milk drink container (aluminum)"
     },
     {
       "id": "kag-0806",
@@ -15598,7 +15598,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hair clippers (corded / battery-operated)"
+      "name_en": "Hair clippers (corded / dry-cell battery-operated)"
     },
     {
       "id": "kag-0886",
@@ -15891,7 +15891,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "PP band / cable tie"
+      "name_en": "Polypropylene strapping (PP band) / cable tie"
     },
     {
       "id": "kag-0903",
@@ -16804,7 +16804,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Plastic model (metal)"
+      "name_en": "Model kit (metal)"
     },
     {
       "id": "kag-0955",
@@ -16821,7 +16821,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Plastic model (plastic)"
+      "name_en": "Plastic model kit (plastic)"
     },
     {
       "id": "kag-0956",
@@ -16855,7 +16855,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Free paper (booklet)"
+      "name_en": "Free publication (booklet)"
     },
     {
       "id": "kag-0958",
@@ -16875,7 +16875,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Free paper (newspaper type)"
+      "name_en": "Free newspaper (free paper)"
     },
     {
       "id": "kag-0959",
@@ -18682,7 +18682,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Masu (wooden measuring box)"
+      "name_en": "Masu (traditional measuring box)"
     },
     {
       "id": "kag-1060",
@@ -20127,7 +20127,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cool / warm box (cooling and warming cabinet)"
+      "name_en": "Electric cooler / warmer (cooling and warming cabinet)"
     },
     {
       "id": "kag-1143",
@@ -20290,7 +20290,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Folding camping table (metal)"
+      "name_en": "Camping / outdoor table (metal)"
     },
     {
       "id": "kag-1152",
@@ -20307,7 +20307,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Folding camping table (plastic)"
+      "name_en": "Camping / outdoor table (plastic)"
     },
     {
       "id": "kag-1153",
@@ -20666,7 +20666,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Other items (more than half metal)"
+      "name_en": "Other items (at least half metal)"
     },
     {
       "id": "kag-1174",
@@ -20683,7 +20683,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Other items (more than half glass or ceramic)"
+      "name_en": "Other items (at least half glass or ceramic)"
     },
     {
       "id": "kag-1175",
@@ -20700,7 +20700,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Other items (more than half wood or plastic)"
+      "name_en": "Other items (at least half wood or plastic)"
     },
     {
       "id": "kag-1176",
@@ -20717,7 +20717,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Other items (more than half cloth or fiber)"
+      "name_en": "Other items (at least half cloth or fiber)"
     },
     {
       "id": "kag-1177",

@@ -1,4 +1,12 @@
 {
+  "吸入器（ぜんそく用）": "Inhaler / nebulizer (electric; for asthma)",
+  "携帯テレビ": "Portable TV",
+  "ゲーム機（携帯型）": "Game console (handheld; removable battery)",
+  "照明（基盤）": "Lighting (base unit)",
+  "充電式電化製品（長さが25cm以内）": "Rechargeable electrical appliance (non-removable battery; 25 cm or less long)",
+  "充電式電化製品（長さが25cm超）": "Rechargeable electrical appliance (non-removable battery; over 25 cm long)",
+  "体温計<電子式以外>": "Clinical thermometer (non-electronic, mercury-free)",
   "タキロン<.プラ製>": "Takiron (plastic corrugated sheet)",
+  "電池（充電式）": "Rechargeable battery (excluding car and motorcycle batteries)",
   "ワイヤ": "Wire (metal wire / wire rope)"
 }
