@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-05T08:24:09.965Z",
+  "generated_at": "2026-10-05T08:24:40.297Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -2548,7 +2548,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper towel roll core"
     },
     {
       "id": "fuk-0144",
@@ -3249,7 +3249,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Blood pressure monitor (electric)"
     },
     {
       "id": "fuk-0184",
@@ -4415,7 +4415,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food tray"
     },
     {
       "id": "fuk-0250",
@@ -6724,7 +6724,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Power tools"
     },
     {
       "id": "fuk-0377",
@@ -7060,7 +7060,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Drum set (musical instrument)"
     },
     {
       "id": "fuk-0396",
@@ -7689,7 +7689,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Postcard"
     },
     {
       "id": "fuk-0432",
@@ -10434,7 +10434,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Receipt"
     },
     {
       "id": "fuk-0587",
