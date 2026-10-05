@@ -36,8 +36,8 @@ export interface MunicipalityAdapter {
 
 /** データ更新の検出方法。週1回、対象を1回だけ取得して前回の目印(fingerprint)と比べる */
 export type WatchSpec =
-  /** BODIK(CKAN)の API。いちばん新しい CSV のリソースの URL と更新日時を見る */
-  | { kind: "ckan"; api: string; resourceName?: RegExp }
+  /** BODIK(CKAN)の API。いちばん新しいリソース(format の既定は CSV。Excel の市は "XLSX")の URL と更新日時を見る */
+  | { kind: "ckan"; api: string; resourceName?: RegExp; format?: string }
   /** 掲載ページの中の、データファイルへのリンク(リンクの文言で特定する) */
   | { kind: "page-link"; pageUrl: string; linkText: RegExp }
   /** ページ自体がデータ。select で選んだ内容のハッシュを見る */

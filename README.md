@@ -30,6 +30,7 @@ https://mottainavi.kaztada.eco
 | 沖縄市(沖縄県)     | [ごみの分別方法一覧](https://data.bodik.jp/dataset/472115_separate_garbage_20241201)                                 | CC BY 4.0    |
 | 須賀川市(福島県)   | [ゴミの分別方法一覧](https://www.city.sukagawa.fukushima.jp/shisei/gaiyo/opendata/1004902/8865.html)                 | CC BY 4.0    |
 | 長浜市(滋賀県)     | [ごみ分別表](https://data.bodik.jp/dataset/252034_garbage_separation)                                                | CC BY 4.0    |
+| 福岡市(福岡県)     | [ごみの分け方（品目）検索](https://data.bodik.jp/dataset/401307_disposing-method)                                    | CC BY 4.0    |
 
 品目データを二次利用できるライセンスで公開している自治体から、順に追加しています。まだ対応していない自治体を選ぶと、その自治体の公式サイトへの案内を表示します。
 

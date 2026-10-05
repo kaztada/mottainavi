@@ -76,6 +76,18 @@ describe("detectFromCkan", () => {
     expect(a.fingerprint).toBe("https://x/a.csv | 2024-04-07")
     expect(b.fingerprint).not.toBe(a.fingerprint)
   })
+  it("format を指定すれば、その形式(Excel など)のリソースを拾う", () => {
+    const resources = [
+      { url: "https://x/a.csv", format: "CSV", last_modified: "2026-01-01" },
+      { url: "https://x/b.xlsx", format: "XLSX", last_modified: "2025-01-07" },
+    ]
+    expect(detectFromCkan(pkg(resources), undefined, "XLSX").fileUrl).toBe(
+      "https://x/b.xlsx"
+    )
+    expect(detectFromCkan(pkg(resources)).fileUrl).toBe("https://x/a.csv")
+    expect(() => detectFromCkan(pkg(resources), undefined, "PDF")).toThrow(/PDF/)
+  })
+
   it("CSV が無ければエラー", () => {
     expect(() => detectFromCkan(pkg([{ url: "https://x/a.pdf", format: "PDF" }]))).toThrow()
     expect(() => detectFromCkan({ success: false })).toThrow()

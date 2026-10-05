@@ -71,19 +71,24 @@ interface CkanResource {
 }
 
 /**
- * BODIK(CKAN)の package_show の応答から、いちばん新しい CSV のリソースを拾う。
+ * BODIK(CKAN)の package_show の応答から、いちばん新しい指定形式(既定は CSV)のリソースを拾う。
  * 市が新しいリソースを足す場合も、同じリソースを上書きする場合も検出できる。
  */
-export function detectFromCkan(json: unknown, resourceName?: RegExp): Detected {
+export function detectFromCkan(
+  json: unknown,
+  resourceName?: RegExp,
+  format = "CSV"
+): Detected {
   const result = (json as { result?: { resources?: CkanResource[] } }).result
+  const wanted = format.toUpperCase()
   const resources = (result?.resources ?? []).filter(
     (r) =>
       r.url &&
-      (r.format ?? "").toUpperCase() === "CSV" &&
+      (r.format ?? "").toUpperCase() === wanted &&
       (!resourceName || resourceName.test(r.name ?? ""))
   )
   if (resources.length === 0) {
-    throw new Error("CKAN の応答に CSV のリソースがありません")
+    throw new Error(`CKAN の応答に ${wanted} のリソースがありません`)
   }
   const stamp = (r: CkanResource) => r.last_modified ?? r.created ?? ""
   const latest = resources.reduce((a, b) => (stamp(b) > stamp(a) ? b : a))
@@ -110,7 +115,11 @@ export async function checkWatch(
 ): Promise<Detected> {
   switch (spec.kind) {
     case "ckan":
-      return detectFromCkan(JSON.parse(await fetchText(spec.api)), spec.resourceName)
+      return detectFromCkan(
+        JSON.parse(await fetchText(spec.api)),
+        spec.resourceName,
+        spec.format
+      )
     case "page-link":
       return detectFromPage(await fetchText(spec.pageUrl), spec.pageUrl, spec.linkText)
     case "page-content":
