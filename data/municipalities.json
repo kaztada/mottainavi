@@ -13217,8 +13217,8 @@
     "pref": "福岡県",
     "name_ja": "福岡市",
     "name_en": "Fukuoka City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www.city.fukuoka.lg.jp/kankyo/jigyokeigomi/genre/01-01.html"
   },
   {
     "slug": "omuta-city",
