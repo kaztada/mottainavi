@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-06T20:34:30.784Z",
+  "generated_at": "2026-10-06T20:45:57.276Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -4111,7 +4111,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Air sheet (inflatable sheet)"
+      "name_en": "Air sheet"
     },
     {
       "id": "yok-0255",
@@ -4254,7 +4254,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Enjoy mat (folding play / exercise mat)"
+      "name_en": "Enjoy mat"
     },
     {
       "id": "yok-0263",
@@ -4373,7 +4373,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Air board (inflatable board)"
+      "name_en": "Air board"
     },
     {
       "id": "yok-0271",
@@ -6885,7 +6885,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Carbon paper (carbonless paper)"
+      "name_en": "Carbonless copy paper"
     },
     {
       "id": "yok-0426",
@@ -10733,7 +10733,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Collar (plastic collar insert)"
+      "name_en": "Collar"
     },
     {
       "id": "yok-0667",
@@ -14133,7 +14133,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glass basket"
+      "name_en": "Basket (gurasu basuketto)"
     },
     {
       "id": "yok-0876",
@@ -14847,7 +14847,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Vanity shelf (cosmetics shelf)"
+      "name_en": "Shelf (kesho-dana)"
     },
     {
       "id": "yok-0915",
@@ -17588,7 +17588,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Concrete form panel (plywood for concrete formwork)"
+      "name_en": "Concrete panel"
     },
     {
       "id": "yok-1078",
