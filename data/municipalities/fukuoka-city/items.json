@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-06T19:22:08.498Z",
+  "generated_at": "2026-10-06T19:38:09.437Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -1362,7 +1362,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water heater (tank)"
+      "name_en": "Hot water heater (onsuiki)"
     },
     {
       "id": "fuk-0077",
@@ -2935,7 +2935,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Car seat (vehicle seat)"
+      "name_en": "Automobile seat (built-in vehicle seat)"
     },
     {
       "id": "fuk-0166",
@@ -3300,7 +3300,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Coin cell battery"
+      "name_en": "Coin cell battery (CR / BR types)"
     },
     {
       "id": "fuk-0187",
@@ -3385,7 +3385,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kotatsu heater"
+      "name_en": "Kotatsu heater (for a heated table)"
     },
     {
       "id": "fuk-0192",
@@ -4001,7 +4001,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tire for bicycle / unicycle / bike trailer (riyaka; with metal wheel)"
+      "name_en": "Tire for bicycle / unicycle / hand-pulled cart (riyaka; with metal wheel)"
     },
     {
       "id": "fuk-0227",
@@ -4023,7 +4023,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tire for bicycle / unicycle / bike trailer (riyaka; tire only)"
+      "name_en": "Tire for bicycle / unicycle / hand-pulled cart (riyaka; tire only)"
     },
     {
       "id": "fuk-0228",
@@ -5185,7 +5185,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lime (calcium)"
+      "name_en": "Lime (calcium-based material)"
     },
     {
       "id": "fuk-0292",
@@ -8571,7 +8571,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Plug"
+      "name_en": "Electrical plug"
     },
     {
       "id": "fuk-0482",
@@ -9219,7 +9219,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Button cell battery"
+      "name_en": "Button cell battery (SR / LR / PR types)"
     },
     {
       "id": "fuk-0518",
@@ -9365,7 +9365,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cool / warm box (Peltier type)"
+      "name_en": "Electric cooler / warmer (thermoelectric / Peltier type)"
     },
     {
       "id": "fuk-0526",
@@ -9686,7 +9686,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mirin PET bottle"
+      "name_en": "Mirin (sweet cooking rice wine) PET bottle"
     },
     {
       "id": "fuk-0544",
@@ -10072,7 +10072,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hot water heater"
+      "name_en": "Water heater (yuwakashiki)"
     },
     {
       "id": "fuk-0566",
