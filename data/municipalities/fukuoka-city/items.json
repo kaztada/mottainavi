@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-06T19:38:09.437Z",
+  "generated_at": "2026-10-06T19:48:30.182Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -852,7 +852,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "FRP products (fiberglass-reinforced plastic)"
+      "name_en": "FRP products (fiber-reinforced plastic)"
     },
     {
       "id": "fuk-0048",
@@ -1455,7 +1455,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shells (shellfish, seashells)"
+      "name_en": "Shellfish / seashells"
     },
     {
       "id": "fuk-0082",
@@ -6707,7 +6707,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electric wheelchair (electric walker cart)"
+      "name_en": "Electric wheelchair (electric silver car)"
     },
     {
       "id": "fuk-0376",
@@ -8442,7 +8442,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bookstand (metal)"
+      "name_en": "Book stand / bookends (metal)"
     },
     {
       "id": "fuk-0475",
@@ -8459,7 +8459,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bookstand (plastic)"
+      "name_en": "Book stand / bookends (plastic)"
     },
     {
       "id": "fuk-0476",
@@ -9441,7 +9441,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bookstand (metal)"
+      "name_en": "Bookends / book rack (metal)"
     },
     {
       "id": "fuk-0530",
@@ -9458,7 +9458,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bookstand (wood, plastic)"
+      "name_en": "Bookends / book rack (wood, plastic)"
     },
     {
       "id": "fuk-0531",
