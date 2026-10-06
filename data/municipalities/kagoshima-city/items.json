@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-04T12:56:41.137Z",
+  "generated_at": "2026-10-06T19:22:07.850Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -4208,7 +4208,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper towel core (tube)"
     },
     {
       "id": "kag-0240",
@@ -5952,7 +5952,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Blood pressure monitor (electric)"
     },
     {
       "id": "kag-0338",
@@ -8662,7 +8662,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food tray"
     },
     {
       "id": "kag-0494",
@@ -13195,7 +13195,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Power tools"
     },
     {
       "id": "kag-0750",
@@ -13679,7 +13679,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Drum set (musical instrument)"
     },
     {
       "id": "kag-0778",
@@ -14706,7 +14706,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Postcards"
     },
     {
       "id": "kag-0838",
@@ -20236,7 +20236,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Receipts"
     },
     {
       "id": "kag-1149",
