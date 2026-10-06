@@ -20,12 +20,15 @@ export function MunicipalitySwitch({
     <Link
       href={CHANGE_MUNICIPALITY_HREF}
       aria-label={t("muni.changeAria", { municipality: name })}
-      className="inline-flex min-h-11 shrink-0 items-center gap-1 whitespace-nowrap rounded-full border border-border bg-card px-3.5 text-sm font-medium text-accent-strong active:bg-accent-soft"
+      className="inline-flex min-h-11 min-w-0 max-w-full items-center gap-1 rounded-full border border-border bg-card px-3.5 text-sm font-medium text-accent-strong active:bg-accent-soft"
     >
-      <MapPin aria-hidden className="size-4" />
-      {t("muni.change", { municipality: name })}
+      <MapPin aria-hidden className="size-4 shrink-0" />
+      {/* 狭い画面で長い市名(英語名など)がはみ出さないよう、市名の側を省略する */}
+      <span className="truncate">
+        {t("muni.change", { municipality: name })}
+      </span>
       {/* 市名だけだと押せる場所に見えにくいので、「変更」と言葉で添える */}
-      <span className="ml-1 border-l border-border pl-2 text-xs text-muted">
+      <span className="ml-1 shrink-0 border-l border-border pl-2 text-xs whitespace-nowrap text-muted">
         {t("muni.changeLabel")}
       </span>
     </Link>

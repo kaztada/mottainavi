@@ -57,7 +57,7 @@ export function AboutShell({
           <ChevronLeft className="size-4" aria-hidden />
           {t("item.back")}
         </Link>
-        <div className="ml-auto flex shrink-0 gap-2">
+        <div className="ml-auto flex max-w-full min-w-0 gap-2">
           <MunicipalitySwitch
             nameJa={municipality.name_ja}
             nameEn={municipality.name_en}
