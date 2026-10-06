@@ -104,6 +104,7 @@ export function AboutShell({
             >
               {t("about.sourceLink")}
             </a>
+            <p className="mt-3 text-muted">{t("about.mapSource")}</p>
           </Section>
 
           <Section heading={t("about.coverageHeading")}>

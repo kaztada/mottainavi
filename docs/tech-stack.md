@@ -158,6 +158,7 @@ URL が自治体を自己記述するため、共有リンクが受け手の loc
 - 検索: `/data/<muni>/search.json?v=<data_version>`(gzip 34KB)を初回インタラクション時に fetch
 - 詳細: `/data/<muni>/items/NN.json?v=<data_version>`(gzip 約4KB)を該当シャード1本だけ fetch
 - 自治体選択: `/data/municipalities.json?v=<内容ハッシュ>`(gzip 約29KB)を都道府県を選ぶときに fetch
+- 市区町村の地図: `/data/map/pref-<都道府県コード>.json?v=<境界データのハッシュ>`(gzip 3〜24KB)を、県を選んだときに fetch。元は `data/cache/map/municipalities.topo.json`(国土数値情報の行政区域データを軽くした TopoJSON。smartnews-smri/japan-topography の「政令指定都市の区を結合した全国版」簡素化1%、基準日 2021-01-01)。`scripts/core/map.ts` が prebuild で県ごとの SVG のパスに変換する(地図のライブラリは使わない)。レジストリにあって境界データに無い自治体があればビルドが止まる。市町村の合併・改称があったら、境界データを新しい版に差し替える
 - 配信データの形式とURLは `src/lib/public-data.ts` に集約(ビルドスクリプトとアプリで共用)
 - ブラウザ側では zod を使わない(配信データはビルド時に検証済み。バンドル削減のため)
 - `next.config.ts` の `headers()` で `/data/*` に `Cache-Control: public, max-age=31536000, immutable`

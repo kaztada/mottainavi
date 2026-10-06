@@ -1,6 +1,7 @@
 import type { Metadata } from "next"
 import { SelectShell } from "@/components/SelectShell"
 import {
+  getMapVersion,
   getPrefectures,
   getRegistryVersion,
   getSupportedEntries,
@@ -24,6 +25,7 @@ export default function Home() {
         prefectures={getPrefectures()}
         supported={supported}
         registryVersion={getRegistryVersion()}
+        mapVersion={getMapVersion()}
       />
     </>
   )

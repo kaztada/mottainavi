@@ -64,6 +64,8 @@ npm run build        # 本番ビルド
 
 品目データは、上の表の各自治体が公開しているデータを加工して作成しています。自治体ごとの出典の表記(各自治体の利用規約に沿った書き方)は、サイトの各品目ページと、自治体ごとの「このサイトについて」ページに表示しています。
 
+自治体を選ぶ画面の地図は、「[国土数値情報(行政区域データ)](https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-N03-2024.html)」(国土交通省、CC BY 4.0)を加工して作成しています(境界を軽くしたデータは、スマートニュース メディア研究所の [japan-topography](https://github.com/smartnews-smri/japan-topography) を使っています)。
+
 - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/deed.ja)
 - [CC BY 2.1 JP](https://creativecommons.org/licenses/by/2.1/jp/)
 

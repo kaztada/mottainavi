@@ -102,3 +102,9 @@ export function getRegistryVersion(): string {
   const raw = readFileSync(join(DATA_DIR, "municipalities.json"))
   return createHash("sha1").update(raw).digest("hex").slice(0, 10)
 }
+
+/** 市区町村の地図のキャッシュバスター(境界データの内容ハッシュ) */
+export function getMapVersion(): string {
+  const raw = readFileSync(join(DATA_DIR, "cache/map/municipalities.topo.json"))
+  return createHash("sha1").update(raw).digest("hex").slice(0, 10)
+}
