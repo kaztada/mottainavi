@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation"
 import { ChevronDown } from "lucide-react"
 import { useLang, useT } from "@/lib/i18n"
 import { registryUrl } from "@/lib/public-data"
+import { JapanTileMap } from "./JapanTileMap"
 import { LangToggle } from "./LangToggle"
 
 interface RegistryItem {
@@ -16,7 +17,12 @@ interface RegistryItem {
   status: "supported" | "unsupported"
 }
 
-type SupportedLink = { slug: string; name_ja: string; name_en: string }
+type SupportedLink = {
+  slug: string
+  pref: string
+  name_ja: string
+  name_en: string
+}
 
 const selectClass =
   "w-full min-h-12 appearance-none rounded-2xl border border-border bg-card pl-4 pr-10 text-base text-foreground disabled:text-muted"
@@ -35,7 +41,8 @@ function SelectFrame({ children }: { children: React.ReactNode }) {
 }
 
 /**
- * S0: 自治体選択(screens.md §9)。都道府県 → 市区町村の2段セレクト。
+ * S0: 自治体選択(screens.md §9)。デフォルメ日本地図(都道府県のタイル)と、
+ * 都道府県 → 市区町村の2段セレクト。地図とセレクトは同じ都道府県の選択を共有する。
  * 全国リストは都道府県を選ぶときに初めて fetch する(初期表示を軽く保つ)。
  * 保存済みの自治体がある再訪者は、page.tsx のインラインスクリプトで描画前に転送される。
  */
@@ -73,6 +80,12 @@ export function SelectShell({
       })
   }, [registryVersion])
 
+  const supportedPrefs = useMemo(
+    () => new Set(supported.map((m) => m.pref)),
+    [supported]
+  )
+  const muniSelectRef = useRef<HTMLSelectElement>(null)
+
   const municipalities = useMemo(
     () => (registry && pref ? registry.filter((m) => m.pref === pref) : []),
     [registry, pref]
@@ -98,6 +111,21 @@ export function SelectShell({
       <main className="flex flex-1 flex-col gap-6">
         <section className="flex flex-col gap-3">
           <h2 className="text-base font-bold">{t("select.heading")}</h2>
+          <JapanTileMap
+            selected={pref}
+            supportedPrefs={supportedPrefs}
+            label={t("select.mapLabel")}
+            onSelect={(p) => {
+              ensureRegistry()
+              setPref(p)
+              // 次に押す場所(市区町村のセレクト)が画面に入るようにする
+              muniSelectRef.current?.scrollIntoView({
+                block: "nearest",
+                behavior: "smooth",
+              })
+            }}
+          />
+          <p className="text-xs text-muted">{t("select.mapHint")}</p>
           <label className="flex flex-col gap-1.5 text-sm text-muted">
             {t("select.prefecture")}
             <SelectFrame>
@@ -124,6 +152,7 @@ export function SelectShell({
             {t("select.municipality")}
             <SelectFrame>
               <select
+                ref={muniSelectRef}
                 className={selectClass}
                 value=""
                 disabled={muniDisabled}
