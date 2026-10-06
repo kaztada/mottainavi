@@ -36,12 +36,16 @@ export function JapanTileMap({
           : isSupported
             ? "border-accent bg-accent-soft font-bold text-accent-strong underline underline-offset-2"
             : "border-border bg-card text-foreground"
-        const size =
-          t.span > 1
-            ? "text-sm"
-            : t.label.length >= 3
-              ? "text-[8px] min-[420px]:text-[10px] min-[560px]:text-xs"
-              : "text-[11px] min-[420px]:text-xs min-[560px]:text-sm"
+        // 文字の大きさはタイルの幅に合わせる(cqw = タイルの内側の幅の 1%)。
+        // 3文字の県名(神奈川・和歌山・鹿児島)は、高さを保ったまま横だけ少し詰めて収める
+        const chars = t.label.length
+        const labelStyle: React.CSSProperties =
+          chars >= 3
+            ? {
+                fontSize: `min(${t.span > 1 ? 26 : 36}cqw, 14px)`,
+                transform: t.span > 1 ? undefined : "scaleX(0.85)",
+              }
+            : { fontSize: "min(44cqw, 14px)" }
         return (
           <button
             key={t.pref}
@@ -50,13 +54,14 @@ export function JapanTileMap({
             aria-label={t.pref}
             aria-pressed={isSelected}
             onClick={() => onSelect(t.pref)}
-            className={`flex items-center justify-center overflow-hidden whitespace-nowrap rounded-md border leading-none active:bg-accent-soft ${tone} ${size}`}
+            className={`flex items-center justify-center overflow-hidden whitespace-nowrap rounded-md border leading-none active:bg-accent-soft ${tone}`}
             style={{
               gridColumn: `${t.col + 1} / span ${t.span}`,
               gridRow: `${t.row + 1} / span ${t.span}`,
+              containerType: "inline-size",
             }}
           >
-            {t.label}
+            <span style={labelStyle}>{t.label}</span>
           </button>
         )
       })}
