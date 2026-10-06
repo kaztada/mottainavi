@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-06T19:57:54.522Z",
+  "generated_at": "2026-10-06T19:59:50.253Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -331,7 +331,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Net (mesh)"
+      "name_en": "Net (non-metal)"
     },
     {
       "id": "fuk-0019",
@@ -6707,7 +6707,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electric wheelchair (electric silver car)"
+      "name_en": "Electric wheelchair (electric senior car / mobility scooter)"
     },
     {
       "id": "fuk-0376",
