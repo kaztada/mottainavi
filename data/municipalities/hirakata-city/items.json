@@ -1,6 +1,6 @@
 {
   "municipality_id": "hirakata-city",
-  "generated_at": "2026-10-06T20:36:49.040Z",
+  "generated_at": "2026-10-06T20:46:10.871Z",
   "source_url": "https://www.city.hirakata.osaka.jp/0000024067.html",
   "item_count": 1761,
   "items": [
@@ -16087,7 +16087,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Doors and fittings (tategu)"
+      "name_en": "Doors and sliding screens (tategu; interior joinery)"
     },
     {
       "id": "hrk-0917",
@@ -16104,7 +16104,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tatesu reed screen (sunshade)"
+      "name_en": "Tatesu (sunshade / outdoor shade screen)"
     },
     {
       "id": "hrk-0918",
@@ -16590,7 +16590,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Chainsaw"
+      "name_en": "Chainsaw (other than engine-driven)"
     },
     {
       "id": "hrk-0946",
@@ -16745,7 +16745,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Igniter (utility lighter such as Chakkaman etc.)"
+      "name_en": "Igniter / utility lighter (Chakkaman etc.)"
     },
     {
       "id": "hrk-0955",
@@ -17006,7 +17006,7 @@
       ],
       "sodai_fee_yen": 900,
       "reuse_category": null,
-      "name_en": "Kitchen counter (cooking table; with range, oven, dishwasher-dryer)"
+      "name_en": "Kitchen counter (cooking table; with microwave oven, oven, dishwasher-dryer)"
     },
     {
       "id": "hrk-0970",
@@ -17732,7 +17732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Display / monitor (LCD; other than for PCs)"
+      "name_en": "Display / monitor (LCD; other than for PC)"
     },
     {
       "id": "hrk-1011",
@@ -17749,7 +17749,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Display / monitor (CRT; without TV tuner)"
+      "name_en": "Display / monitor (CRT; without TV tuner; other than for PC)"
     },
     {
       "id": "hrk-1012",
@@ -17772,7 +17772,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Display / monitor (for PCs)"
+      "name_en": "Display / monitor (for PC)"
     },
     {
       "id": "hrk-1013",
@@ -17874,7 +17874,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Table (wood, metal)"
+      "name_en": "Table (wood, metal; excluding cast metal)"
     },
     {
       "id": "hrk-1019",
@@ -17959,7 +17959,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Table top (wood, metal)"
+      "name_en": "Table top (wood, metal; excluding cast metal)"
     },
     {
       "id": "hrk-1024",
@@ -19948,7 +19948,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Drafting table (drafter)"
+      "name_en": "Drafting machine (drafter; drafting table)"
     },
     {
       "id": "hrk-1134",
@@ -20275,7 +20275,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mudguard / fender (including for cars)"
+      "name_en": "Mudguard (including for cars)"
     },
     {
       "id": "hrk-1153",
@@ -20455,7 +20455,7 @@
       ],
       "sodai_fee_yen": 600,
       "reuse_category": null,
-      "name_en": "Kitchen sink unit (stainless steel, enameled; with range, oven, dishwasher-dryer)"
+      "name_en": "Kitchen sink unit (stainless steel, enameled; with microwave oven, oven, dishwasher-dryer)"
     },
     {
       "id": "hrk-1163",
@@ -21722,7 +21722,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pipe (iron piping)"
+      "name_en": "Pipe (iron)"
     },
     {
       "id": "hrk-1237",
@@ -22366,7 +22366,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (household batteries such as dry-cell and button batteries)"
+      "name_en": "Battery (dry-cell and button batteries etc.; non-rechargeable)"
     },
     {
       "id": "hrk-1273",
@@ -22627,7 +22627,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hub (for PCs)"
+      "name_en": "Hub (for PC)"
     },
     {
       "id": "hrk-1288",
@@ -24523,7 +24523,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Flower stand (plant stand; wood, metal)"
+      "name_en": "Flower stand (plant stand; wood, metal; excluding cast metal)"
     },
     {
       "id": "hrk-1398",
@@ -25004,7 +25004,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bath mat (for use inside the bathroom)"
+      "name_en": "Bathroom floor mat (for use inside the bathroom)"
     },
     {
       "id": "hrk-1426",
@@ -26427,7 +26427,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ball (for hardball baseball)"
+      "name_en": "Ball (hard baseball / hardball)"
     },
     {
       "id": "hrk-1507",
@@ -27013,7 +27013,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bookend / book stand (plastic)"
+      "name_en": "Book stand (plastic)"
     },
     {
       "id": "hrk-1540",
@@ -27030,7 +27030,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bookend / book stand (metal, wood)"
+      "name_en": "Book stand (metal, wood)"
     },
     {
       "id": "hrk-1541",
@@ -29060,7 +29060,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "UPS (small uninterruptible power supply)"
+      "name_en": "UPS (small uninterruptible power supply; outer casing only)"
     },
     {
       "id": "hrk-1657",
@@ -29094,7 +29094,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mailbox (wood, metal)"
+      "name_en": "Mailbox (wood, metal; excluding cast metal)"
     },
     {
       "id": "hrk-1659",
