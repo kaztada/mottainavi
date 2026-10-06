@@ -5,7 +5,7 @@ import { MapPin } from "lucide-react"
 import { useLang, useT } from "@/lib/i18n"
 import { CHANGE_MUNICIPALITY_HREF } from "@/lib/municipality-storage"
 
-/** ヘッダの自治体切替(言語トグルの隣)。タップで自治体選択へ(自動転送はしない) */
+/** ヘッダの自治体切替(言語トグルの隣)。「市名|変更」。タップで自治体選択(地図)へ(自動転送はしない) */
 export function MunicipalitySwitch({
   nameJa,
   nameEn,
@@ -24,6 +24,10 @@ export function MunicipalitySwitch({
     >
       <MapPin aria-hidden className="size-4" />
       {t("muni.change", { municipality: name })}
+      {/* 市名だけだと押せる場所に見えにくいので、「変更」と言葉で添える */}
+      <span className="ml-1 border-l border-border pl-2 text-xs text-muted">
+        {t("muni.changeLabel")}
+      </span>
     </Link>
   )
 }

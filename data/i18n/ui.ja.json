@@ -56,6 +56,8 @@
   "about.contactBody": "分別情報の誤りや不具合は、GitHub Issues からお知らせいただけるとうれしいです。",
   "about.contactLink": "GitHub Issues ↗",
   "muni.change": "{municipality}",
+  "muni.changeLabel": "変更",
+  "footer.changeMunicipality": "ほかの市区町村を選ぶ(地図へ)",
   "muni.changeAria": "お住まいの自治体を変える(いまは{municipality})",
   "select.heading": "お住まいの市区町村を選んでください",
   "select.intro": "市区町村ごとの分別ルールで、「捨て方」と「捨てる前の選択肢」を調べられる非公式ナビです。",
