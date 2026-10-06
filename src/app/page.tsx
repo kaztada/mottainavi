@@ -14,11 +14,9 @@ export const metadata: Metadata = {
 
 /** S0: 自治体選択。保存済みの自治体があれば描画前にそのページへ直行する */
 export default function Home() {
-  const supported = getSupportedEntries().map(({ slug, name_ja, name_en }) => ({
-    slug,
-    name_ja,
-    name_en,
-  }))
+  const supported = getSupportedEntries().map(
+    ({ slug, pref, name_ja, name_en }) => ({ slug, pref, name_ja, name_en })
+  )
   return (
     <>
       <script dangerouslySetInnerHTML={{ __html: AUTO_REDIRECT_SCRIPT }} />
