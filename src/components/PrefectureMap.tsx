@@ -4,6 +4,7 @@ import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useT } from "@/lib/i18n"
 import { prefMapUrl } from "@/lib/public-data"
+import { MapCredit } from "./MapCredit"
 
 /** 配信する県の地図(scripts/core/map.ts の PrefMap と同じ形) */
 interface PrefMapData {
@@ -98,6 +99,7 @@ export function PrefectureMap({
             <path
               key={m.s}
               d={m.d}
+              fillRule="evenodd"
               role="button"
               tabIndex={-1}
               aria-label={muni.name}
@@ -195,9 +197,7 @@ export function PrefectureMap({
           <p className="text-sm text-muted">{t("select.muniMapHint")}</p>
         )}
       </div>
-      <p className="text-[11px] leading-relaxed text-muted">
-        {t("select.muniMapCredit")}
-      </p>
+      <MapCredit className="text-[11px] leading-relaxed text-muted" />
     </div>
   )
 }

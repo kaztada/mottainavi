@@ -1,6 +1,6 @@
 /**
  * 市区町村の地図(screens.md §9)の変換。境界データ(TopoJSON)を、県ごとの SVG のパスにする。
- * 元データ: 国土数値情報(行政区域データ、国土交通省、CC BY 4.0)を軽くした公開データ
+ * 元データ: 国土数値情報(行政区域データ、国土交通省、2021年版)を軽くした公開データ
  * (smartnews-smri/japan-topography。政令指定都市の区をまとめた全国版、簡素化 1%)。
  * 地図のライブラリは使わない(TopoJSON の展開と投影は、ここの小さな関数で足りる)。
  */
@@ -45,13 +45,19 @@ function stitch(indexes: number[], arcs: Ring[]): Ring {
   return ring
 }
 
-/** 図形 → 外周の輪の一覧(穴は地図の押しやすさに関係しないので捨てる) */
-export function outerRings(geometry: TopoGeometry, arcs: Ring[]): Ring[] {
+/** 1つの面(最初の輪が外周、残りは穴) */
+export type Polygon = Ring[]
+
+/**
+ * 図形 → 面の一覧。穴も残す(穴の中には別の自治体の飛び地があり、
+ * 穴をふさぐと、あとから描いた自治体が飛び地を覆って、押したときに取り違える)。
+ */
+export function polygonsOf(geometry: TopoGeometry, arcs: Ring[]): Polygon[] {
   const polygons =
     geometry.type === "Polygon"
       ? [geometry.arcs as number[][]]
       : (geometry.arcs as number[][][])
-  return polygons.map((polygon) => stitch(polygon[0], arcs))
+  return polygons.map((polygon) => polygon.map((ring) => stitch(ring, arcs)))
 }
 
 /** 輪の面積(符号なし) */
@@ -155,8 +161,8 @@ export interface PrefMap {
 export interface PrefMapInput {
   /** 都道府県コード(2桁) */
   code: string
-  /** その県の市区町村(slug と、経度・緯度の外周の輪) */
-  municipalities: { slug: string; rings: Ring[] }[]
+  /** その県の市区町村(slug と、経度・緯度の面) */
+  municipalities: { slug: string; polygons: Polygon[] }[]
   /** 地図に描く範囲。無ければ県の全体 */
   window?: LonLatBox
 }
@@ -172,7 +178,7 @@ const MIN_RING_AREA = 12
  * 投影は正距円筒図法を県の中央の緯度で補正したもの(県の広さなら形のゆがみは小さい)。
  */
 export function buildPrefMap(input: PrefMapInput): PrefMap {
-  const all = input.municipalities.flatMap((m) => m.rings)
+  const all = input.municipalities.flatMap((m) => m.polygons.map((p) => p[0]))
   const win = input.window ?? boxOf(all)
   const [west, south, east, north] = win
   const k = Math.cos((((south + north) / 2) * Math.PI) / 180)
@@ -188,25 +194,29 @@ export function buildPrefMap(input: PrefMapInput): PrefMap {
     off: [],
   }
   for (const muni of input.municipalities) {
-    const visible = muni.rings
-      .filter((ring) => insideBox(ringCentroid(ring), win))
-      .map((ring) => ring.map(project))
-      .map((ring) => ({ ring, area: ringArea(ring) }))
+    const visible = muni.polygons
+      .filter((polygon) => insideBox(ringCentroid(polygon[0]), win))
+      .map((polygon) => polygon.map((ring) => ring.map(project)))
+      .map((polygon) => ({ polygon, area: ringArea(polygon[0]) }))
       .sort((a, b) => b.area - a.area)
     if (visible.length === 0) {
       out.off.push(muni.slug)
       continue
     }
+    // 穴は外周のあとに続けて書き、画面側は evenodd で塗る(穴の中は塗られず、押せない)
     const d = visible
-      .filter((r, i) => i === 0 || r.area >= MIN_RING_AREA)
-      .map((r) => ringToPath(r.ring))
+      .filter((p, i) => i === 0 || p.area >= MIN_RING_AREA)
+      .map((p) => {
+        const outer = ringToPath(p.polygon[0])
+        return outer ? outer + p.polygon.slice(1).map(ringToPath).join("") : ""
+      })
       .join("")
     if (!d) {
       // 丸めると点になるほど小さい市区町村は、名前で並べる側に回す
       out.off.push(muni.slug)
       continue
     }
-    const [cx, cy] = ringCentroid(visible[0].ring)
+    const [cx, cy] = ringCentroid(visible[0].polygon[0])
     out.m.push({ s: muni.slug, d, c: [Math.round(cx), Math.round(cy)] })
   }
   return out
@@ -243,7 +253,7 @@ export function buildAllPrefMaps(
   const slugByCode = new Map(
     registry.map((r) => [r.lg_code.slice(0, 5), r.slug])
   )
-  const byPref = new Map<string, { slug: string; rings: Ring[] }[]>()
+  const byPref = new Map<string, { slug: string; polygons: Polygon[] }[]>()
   const seen = new Set<string>()
   const skipped: string[] = []
   for (const object of Object.values(topo.objects)) {
@@ -259,10 +269,10 @@ export function buildAllPrefMaps(
       seen.add(code)
       const pref = code.slice(0, 2)
       const list = byPref.get(pref) ?? []
-      const rings = outerRings(g, arcs)
+      const polygons = polygonsOf(g, arcs)
       const same = list.find((m) => m.slug === slug)
-      if (same) same.rings.push(...rings)
-      else list.push({ slug, rings })
+      if (same) same.polygons.push(...polygons)
+      else list.push({ slug, polygons })
       byPref.set(pref, list)
     }
   }

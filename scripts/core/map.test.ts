@@ -6,7 +6,7 @@ import {
   buildAllPrefMaps,
   buildPrefMap,
   decodeArcs,
-  outerRings,
+  polygonsOf,
   ringArea,
   ringCentroid,
   ringToPath,
@@ -51,7 +51,7 @@ describe("TopoJSON の展開", () => {
     ])
   })
   it("逆向きの弧(~i)をつないで1本の輪にし、つなぎ目の点を重ねない", () => {
-    const [ring] = outerRings(
+    const [[ring]] = polygonsOf(
       SQUARE.objects.x.geometries[0],
       decodeArcs(SQUARE)
     )
@@ -102,8 +102,8 @@ describe("buildPrefMap", () => {
     const map = buildPrefMap({
       code: "99",
       municipalities: [
-        { slug: "west", rings: [box(135, 34, 135.5, 35)] },
-        { slug: "east", rings: [box(135.5, 34, 136, 35)] },
+        { slug: "west", polygons: [[box(135, 34, 135.5, 35)]] },
+        { slug: "east", polygons: [[box(135.5, 34, 136, 35)]] },
       ],
     })
     expect(map.w).toBe(1000)
@@ -114,6 +114,23 @@ describe("buildPrefMap", () => {
     expect(map.h).toBeGreaterThan(1150)
     expect(map.h).toBeLessThan(1280)
   })
+  it("穴(別の自治体の飛び地が入る場所)は外周のあとに続けて書き、ふさがない", () => {
+    const map = buildPrefMap({
+      code: "99",
+      municipalities: [
+        {
+          slug: "donut",
+          polygons: [[box(135, 34, 136, 35), box(135.4, 34.4, 135.6, 34.6)]],
+        },
+        { slug: "enclave", polygons: [[box(135.4, 34.4, 135.6, 34.6)]] },
+      ],
+    })
+    const donut = map.m.find((m) => m.s === "donut")!
+    const enclave = map.m.find((m) => m.s === "enclave")!
+    expect(donut.d.match(/M/g)).toHaveLength(2)
+    // 穴のパスは、飛び地のパスと同じ場所
+    expect(donut.d.endsWith(enclave.d)).toBe(true)
+  })
   it("枠の外の市区町村は off に入れ、枠の中の飛び地だけ描く", () => {
     const map = buildPrefMap({
       code: "99",
@@ -121,9 +138,9 @@ describe("buildPrefMap", () => {
       municipalities: [
         {
           slug: "main",
-          rings: [box(135, 34, 136, 35), box(140, 27, 140.1, 27.1)],
+          polygons: [[box(135, 34, 136, 35)], [box(140, 27, 140.1, 27.1)]],
         },
-        { slug: "island", rings: [box(142, 26, 142.2, 26.2)] },
+        { slug: "island", polygons: [[box(142, 26, 142.2, 26.2)]] },
       ],
     })
     expect(map.m.map((m) => m.s)).toEqual(["main"])
@@ -167,6 +184,17 @@ describe("実データ(data/cache/map)", () => {
     expect(tokyo.m.map((m) => m.s)).toContain("hachioji-city")
     expect(maps.get("47")!.m.map((m) => m.s)).toContain("okinawa-city")
     expect(maps.get("27")!.off).toEqual([])
+  })
+  it("飛び地のある市(船橋市・志布志市)を囲む側は、穴をあけてある", () => {
+    const holes = (code: string, slug: string) =>
+      (
+        maps
+          .get(code)!
+          .m.find((m) => m.s === slug)!
+          .d.match(/M/g) ?? []
+      ).length
+    expect(holes("12", "kamagaya-city")).toBeGreaterThan(1)
+    expect(holes("46", "osaki-town")).toBeGreaterThan(1)
   })
   it("レジストリにあって境界データに無い自治体があれば止める", () => {
     expect(() =>

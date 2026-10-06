@@ -2,7 +2,7 @@
 // 自治体データは data/municipalities/<slug>/ からビルド時に読み、zod検証してキャッシュする。
 // 品目データはバンドルにもページにも含めない(public/data から fetch する。tech-stack.md §10)。
 import { createHash } from "node:crypto"
-import { readFileSync } from "node:fs"
+import { existsSync, readdirSync, readFileSync } from "node:fs"
 import { join } from "node:path"
 import {
   CategoriesFileSchema,
@@ -103,8 +103,17 @@ export function getRegistryVersion(): string {
   return createHash("sha1").update(raw).digest("hex").slice(0, 10)
 }
 
-/** 市区町村の地図のキャッシュバスター(境界データの内容ハッシュ) */
+/**
+ * 市区町村の地図のキャッシュバスター。配信する地図(public/data/map/、prebuild が作る)の内容ハッシュ。
+ * 地図は境界データだけでなく、変換の処理・表示範囲・レジストリの slug でも変わるので、
+ * 元データではなく、できあがった地図から作る(/data/ は長くキャッシュされる)。
+ */
 export function getMapVersion(): string {
-  const raw = readFileSync(join(DATA_DIR, "cache/map/municipalities.topo.json"))
-  return createHash("sha1").update(raw).digest("hex").slice(0, 10)
+  const dir = join(process.cwd(), "public/data/map")
+  // 本番のビルドは prebuild が必ず先に作る。作られていないのは開発中だけ
+  if (!existsSync(dir)) return "dev"
+  const hash = createHash("sha1")
+  for (const name of readdirSync(dir).sort())
+    hash.update(name).update(readFileSync(join(dir, name)))
+  return hash.digest("hex").slice(0, 10)
 }
