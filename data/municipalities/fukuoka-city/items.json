@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-06T19:56:55.482Z",
+  "generated_at": "2026-10-06T19:57:54.522Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -10468,7 +10468,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Range (microwave / cooking range)"
+      "name_en": "Microwave oven (range)"
     },
     {
       "id": "fuk-0589",
