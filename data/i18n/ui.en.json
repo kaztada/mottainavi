@@ -59,6 +59,8 @@
   "muni.changeAria": "Change your municipality (currently {municipality})",
   "select.heading": "Choose your city, town, or village",
   "select.intro": "An unofficial guide to local waste-sorting rules — and to options for letting things go before you throw them away.",
+  "select.mapLabel": "Choose a prefecture on the map",
+  "select.mapHint": "Highlighted prefectures have supported municipalities. You can also choose from the lists below.",
   "select.prefecture": "Prefecture",
   "select.municipality": "Municipality",
   "select.prefPlaceholder": "Choose a prefecture",
