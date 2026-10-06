@@ -4,9 +4,13 @@
  */
 const BASE = "https://www.city.kawachinagano.lg.jp/"
 
-/** 品目行の区分名(PDF 上の表記)。長いものから順に照合する */
+/**
+ * 品目行の区分名(PDF 上の表記)。長いものから順に照合する。
+ * 「もえないごみ・粗大ごみ粗大ごみ」「回収できません。」「もえないごみ.粗大ごみ」は PDF 側の誤記・表記ゆれ。
+ */
 export const CATEGORY_LABELS = [
   "通常の収集（集積所からの収集）では回収できません",
+  "もえないごみ・粗大ごみ粗大ごみ",
   "もえないごみ・粗大ごみ",
   "もえないごみ.粗大ごみ",
   "資源ごみ（プラスチック製容器包装）",
@@ -18,13 +22,16 @@ export const CATEGORY_LABELS = [
   "資源ごみ（古紙）",
   "資源ごみ（古布）",
   "個別説明いたします",
+  "回収できません。",
   "回収できません",
   "廃油回収へ",
+  "要相談",
   "もえるごみ",
 ]
 
 export const LABEL_TO_ID: Record<string, string> = {
   "通常の収集（集積所からの収集）では回収できません": "kaden",
+  "もえないごみ・粗大ごみ粗大ごみ": "moenai-sodai",
   "もえないごみ・粗大ごみ": "moenai-sodai",
   "もえないごみ.粗大ごみ": "moenai-sodai",
   "資源ごみ（プラスチック製容器包装）": "pla",
@@ -36,6 +43,8 @@ export const LABEL_TO_ID: Record<string, string> = {
   "資源ごみ（古紙）": "koshi",
   "資源ごみ（古布）": "kofu",
   個別説明いたします: "kobetsu",
+  要相談: "kobetsu",
+  "回収できません。": "fuka",
   回収できません: "fuka",
   廃油回収へ: "haiyu",
   もえるごみ: "moeru",

@@ -25,7 +25,7 @@ export interface ParsedItem {
   noteLines: string[]
 }
 
-/** 表紙・ページ見出し・ページ番号を除いた本文の行 */
+/** 表紙・ページ見出し・ページ番号・単独の行になった50音見出し(「こ」)を除いた本文の行 */
 export function bodyLines(text: string): string[] {
   const lines = text.split(/\r?\n/).map((l) => l.trim())
   const start = lines.indexOf(TABLE_HEADER)
@@ -36,7 +36,12 @@ export function bodyLines(text: string): string[] {
   return lines
     .slice(start)
     .filter(
-      (l) => l && l !== PAGE_TITLE && l !== TABLE_HEADER && !/^\d+$/.test(l)
+      (l) =>
+        l &&
+        l !== PAGE_TITLE &&
+        l !== TABLE_HEADER &&
+        !/^\d+$/.test(l) &&
+        !/^[ぁ-ん]$/.test(l)
     )
 }
 
@@ -77,57 +82,103 @@ function findLabel(
   return { label: m[2], start, end: start + m[2].length }
 }
 
+/** 品目名の前半にはならない行(備考の補足のかっこ書き・URL・丸数字の箇条書き) */
+const NOTE_ONLY_RE = /^(?:[（(]|https?:\/\/|[①-⑳])/
+const URL_RE = /^https?:\/\/\S+$/
+
+/** 備考の行がそこで終わっているか(「。」で終わる、または URL だけの行) */
+function isClosed(line: string): boolean {
+  return line.endsWith("。") || URL_RE.test(line)
+}
+
+/** 区分名だけの行の前に置ける、折り返した品目名の行数の上限 */
+const MAX_NAME_LINES = 3
+
 /**
  * 本文の行 → 品目。
- * 区分名のない行は、直前の備考が文の途中(「。」で終わらない)なら備考の続き。
- * そうでなく、次の行が品目行で、その行自身が「。」で終わらなければ、次の品目名の前半とみなす。
+ * 区分名のない行は、直前の備考が文の途中(「。」でも URL でも終わらない)なら備考の続き。
+ * かっこ書き・URL・丸数字で始まる行も備考の続き(品目名の前半にしない)。
+ * そうでなく、その行自身が「。」で終わらなければ、次のどちらかのとき品目名の前半とみなす:
+ * - 次の行が品目行(品名の後半 + 区分名)
+ * - 区分名のない行が MAX_NAME_LINES 行以内で続き、その次が区分名で始まる行(品名が折り返し、区分名が独立した行にある)
  */
 export function cutItems(lines: string[]): ParsedItem[] {
   const items: ParsedItem[] = []
-  let pendingName: string | null = null
+  let pending: string[] = []
+  /** あと何行を品目名として読むか(先読みで決めた行数) */
+  let nameLinesLeft = 0
   const L = joinWrappedLabels(lines).map(stripIndex)
+  const canStartName = (l: string) => !l.endsWith("。") && !NOTE_ONLY_RE.test(l)
+  /** i 行目から始まる品目名の行数。品目名でなければ 0 */
+  const nameRun = (i: number): number => {
+    for (let n = 0; n < MAX_NAME_LINES && i + n < L.length; n++) {
+      if (!canStartName(L[i + n])) return 0
+      const next = i + n + 1 < L.length ? findLabel(L[i + n + 1]) : null
+      if (!next) continue
+      // 品名の後半 + 区分名の行が続くのは、前半が1行のときだけ(従来の規則)
+      if (next.start > 0) return n === 0 ? 1 : 0
+      return n + 1
+    }
+    return 0
+  }
   for (let i = 0; i < L.length; i++) {
     const line = L[i]
     const hit = findLabel(line)
-    if (hit && hit.start > 0) {
-      const name = (pendingName ?? "") + line.slice(0, hit.start).trim()
-      pendingName = null
+    if (hit) {
+      if (hit.start === 0 && pending.length === 0)
+        throw new Error(`区分名で始まる行の前に品目名がありません: 「${line}」`)
+      const name = pending.join("") + line.slice(0, hit.start).trim()
+      pending = []
+      nameLinesLeft = 0
       const note = line.slice(hit.end).trim()
       items.push({ name, label: hit.label, noteLines: note ? [note] : [] })
+      continue
+    }
+    if (nameLinesLeft > 0) {
+      pending.push(line)
+      nameLinesLeft--
       continue
     }
     const prev = items[items.length - 1]
     const prevOpen =
       prev !== undefined &&
       prev.noteLines.length > 0 &&
-      !prev.noteLines[prev.noteLines.length - 1].endsWith("。")
-    const nextIsItem = i + 1 < L.length && (findLabel(L[i + 1])?.start ?? 0) > 0
-    if (
-      pendingName === null &&
-      !prevOpen &&
-      !line.endsWith("。") &&
-      nextIsItem
-    ) {
-      pendingName = line
-    } else if (pendingName !== null) {
-      throw new Error(
-        `品目名の続きに区分がありません: 「${pendingName}」→「${line}」`
-      )
+      !isClosed(prev.noteLines[prev.noteLines.length - 1])
+    const run = prevOpen ? 0 : nameRun(i)
+    if (run > 0) {
+      pending.push(line)
+      nameLinesLeft = run - 1
     } else if (prev) {
+      // 「品名 区分 備考」の形のまま備考に入るのは、区分名一覧に無い区分の疑い
+      if (/\S\s+\S/.test(line))
+        throw new Error(
+          `備考の行に空白があります(未知の区分名の疑い): 「${line}」`
+        )
       prev.noteLines.push(line)
     }
   }
-  if (pendingName !== null)
-    throw new Error(`末尾に区分のない品目名があります: ${pendingName}`)
+  if (pending.length > 0)
+    throw new Error(`末尾に区分のない品目名があります: ${pending.join("")}`)
+  for (const it of items) {
+    // かっこの開きと閉じの数が合わない品目名は、折り返した品名の片方が欠けている
+    const opens = (it.name.match(/[（(]/g) ?? []).length
+    const closes = (it.name.match(/[）)]/g) ?? []).length
+    if (!it.name || opens !== closes || /^[（(）)]|^https?:|。/.test(it.name))
+      throw new Error(
+        `品目名に備考が混ざっている疑いがあります: 「${it.name}」(${it.label})`
+      )
+  }
   return items
 }
 
-/** 備考の行をつなぐ。前の行が文の途中なら改行せず、文が終わっていれば改行する */
+/** 備考の行をつなぐ。前の行が文の途中なら改行せず、文が終わっていれば(「。」または URL)改行する */
 export function joinNote(lines: string[]): string {
   let out = ""
+  let last = ""
   for (const l of lines) {
     if (!out) out = l
-    else out += out.endsWith("。") ? `\n${l}` : l
+    else out += isClosed(last) || URL_RE.test(l) ? `\n${l}` : l
+    last = l
   }
   return out
 }
