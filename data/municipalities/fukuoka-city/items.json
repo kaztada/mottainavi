@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-06T19:49:25.801Z",
+  "generated_at": "2026-10-06T19:56:55.482Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -7939,7 +7939,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Valve / bulb"
+      "name_en": "Valve"
     },
     {
       "id": "fuk-0446",
