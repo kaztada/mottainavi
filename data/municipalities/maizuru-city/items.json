@@ -1,0 +1,2065 @@
+{
+  "municipality_id": "maizuru-city",
+  "generated_at": "2026-10-07T22:20:53.492Z",
+  "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
+  "item_count": 115,
+  "items": [
+    {
+      "id": "mzr-0001",
+      "name_ja": "菓子袋（プラスチック製）",
+      "name_kana": "かしぶくろ（ぷらすちっくせい）",
+      "name_romaji": "kashibukuro(purasuchikkusei)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": "汚れの落ちないもの、紙製のものは可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Snack / candy bag (plastic)"
+    },
+    {
+      "id": "mzr-0002",
+      "name_ja": "カップ麺の容器（プラマークのあるもの）",
+      "name_kana": "かっぷめんのようき（ぷらまーくのあるもの）",
+      "name_romaji": "kappumennoyouki(purama-kunoarumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": "紙製のものは可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0003",
+      "name_ja": "サラダ油の容器（プラマークのあるもの）",
+      "name_kana": "さらだゆのようき（ぷらまーくのあるもの）",
+      "name_romaji": "saradayunoyouki(purama-kunoarumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": null,
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0004",
+      "name_ja": "シャンプーの容器（プラマークのあるもの）",
+      "name_kana": "しゃんぷーのようき（ぷらまーくのあるもの）",
+      "name_romaji": "shanpu-noyouki(purama-kunoarumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": null,
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0005",
+      "name_ja": "洗剤の容器（プラマークのあるもの）",
+      "name_kana": "せんざいのようき（ぷらまーくのあるもの）",
+      "name_romaji": "senzainoyouki(purama-kunoarumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": null,
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0006",
+      "name_ja": "発泡スチロール・発泡トレイ",
+      "name_kana": "はっぽうすちろーる・はっぽうとれい",
+      "name_romaji": "happousuchiro-ru/happoutorei",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": null,
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0007",
+      "name_ja": "ペットボトルのラベル・キャップ",
+      "name_kana": "ぺっとぼとるのらべる・きゃっぷ",
+      "name_romaji": "pettobotorunoraberu/kyappu",
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": null,
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0008",
+      "name_ja": "レジ袋",
+      "name_kana": "れじぶくろ",
+      "name_romaji": "rejibukuro",
+      "aliases": [
+        "ビニール袋",
+        "plastic bag"
+      ],
+      "dispositions": [
+        {
+          "category_id": "pla",
+          "note_ja": "汚れの落ちないものは可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Plastic shopping bag"
+    },
+    {
+      "id": "mzr-0009",
+      "name_ja": "ペットボトル",
+      "name_kana": "ぺっとぼとる",
+      "name_romaji": "pettobotoru",
+      "aliases": [
+        "PET",
+        "ペット",
+        "plastic bottle",
+        "ぺっとぼとる"
+      ],
+      "dispositions": [
+        {
+          "category_id": "pet",
+          "note_ja": "はがしたラベルやキャップはプラスチック容器包装類。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "PET bottle (plastic bottle)"
+    },
+    {
+      "id": "mzr-0010",
+      "name_ja": "飲料用空缶類",
+      "name_kana": "いんりょうようそらかんるい",
+      "name_romaji": "inryouyousorakanrui",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kan",
+          "note_ja": "ジュース、ビールなどの空缶。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0011",
+      "name_ja": "安全カミソリ（金属の刃のみ）",
+      "name_kana": "あんぜんかみそり（きんぞくのはのみ）",
+      "name_romaji": "anzenkamisori(kinzokunohanomi)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。\nプラスチックを含むものは埋立ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0012",
+      "name_ja": "オーブントースター",
+      "name_kana": "おーぶんとーすたー",
+      "name_romaji": "o-bunto-suta-",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Toaster oven"
+    },
+    {
+      "id": "mzr-0013",
+      "name_ja": "缶詰",
+      "name_kana": "かんづめ",
+      "name_romaji": "kanzume",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。\n軽くすすぐ。中身の入っているものは出せない。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0014",
+      "name_ja": "電気ストーブ",
+      "name_kana": "でんきすとーぶ",
+      "name_romaji": "denkisuto-bu",
+      "aliases": [
+        "ヒーター",
+        "heater",
+        "stove"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。\n１辺の長さが50cm以上なら粗大ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Electric heater"
+    },
+    {
+      "id": "mzr-0015",
+      "name_ja": "なべ",
+      "name_kana": "なべ",
+      "name_romaji": "nabe",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Pot (cooking pot)"
+    },
+    {
+      "id": "mzr-0016",
+      "name_ja": "ファンヒーター",
+      "name_kana": "ふぁんひーたー",
+      "name_romaji": "fuanhi-ta-",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では、ストーブなどは「灯油や電池を必ず抜いてください」と案内されています。石油ファンヒーターは、灯油を抜き、乾電池を外してから出してください。\n集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。\n１辺の長さが50cm以上なら粗大ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Fan heater"
+    },
+    {
+      "id": "mzr-0017",
+      "name_ja": "刃物・針",
+      "name_kana": "はもの・はり",
+      "name_romaji": "hamono/hari",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。\n紙に包み中のものを明記する。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0018",
+      "name_ja": "フライパン",
+      "name_kana": "ふらいぱん",
+      "name_romaji": "furaipan",
+      "aliases": [
+        "frying pan"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Frying pan"
+    },
+    {
+      "id": "mzr-0019",
+      "name_ja": "包丁",
+      "name_kana": "ほうちょう",
+      "name_romaji": "houchou",
+      "aliases": [
+        "ナイフ",
+        "knife"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では「セラミック製は埋立ごみ」と案内されています。\n集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。\n紙で包み「包丁」と明記する。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Kitchen knife"
+    },
+    {
+      "id": "mzr-0020",
+      "name_ja": "やかん",
+      "name_kana": "やかん",
+      "name_romaji": "yakan",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kinzoku",
+          "note_ja": "集積所の専用コンテナに出します。専用コンテナに入らない大きさのものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Kettle"
+    },
+    {
+      "id": "mzr-0021",
+      "name_ja": "紙製の卵ケース",
+      "name_kana": "かみせいのたまごけーす",
+      "name_romaji": "kamiseinotamagoke-su",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kami",
+          "note_ja": "その他の紙として分別。紙以外の中身は必ず取り除く。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0022",
+      "name_ja": "雑誌・カタログ",
+      "name_kana": "ざっし・かたろぐ",
+      "name_romaji": "zasshi/katarogu",
+      "aliases": [
+        "magazine"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kami",
+          "note_ja": "その他の紙として分別。紙以外の中身は必ず取り除く。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "books-media",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0023",
+      "name_ja": "シュレッダー紙",
+      "name_kana": "しゅれっだーし",
+      "name_romaji": "shuredda-shi",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kami",
+          "note_ja": "その他の紙として分別。紙以外の中身は必ず取り除く。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Shredded paper"
+    },
+    {
+      "id": "mzr-0024",
+      "name_ja": "食品の紙箱・飲料用の紙パック",
+      "name_kana": "しょくひんのかみばこ・いんりょうようのかみぱっく",
+      "name_romaji": "shokuhinnokamibako/inryouyounokamipakku",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kami",
+          "note_ja": "その他の紙として分別。紙以外の中身は必ず取り除く。酒パックなどの注ぎ口（プラスチック部分）はプラスチック容器包装類。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0025",
+      "name_ja": "新聞紙",
+      "name_kana": "しんぶんし",
+      "name_romaji": "shinbunshi",
+      "aliases": [
+        "新聞紙",
+        "newspaper"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kami",
+          "note_ja": "広告チラシも可。二つ折りまたは四つ折りにして縛る。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Newspaper"
+    },
+    {
+      "id": "mzr-0026",
+      "name_ja": "段ボール",
+      "name_kana": "だんぼーる",
+      "name_romaji": "danbo-ru",
+      "aliases": [
+        "ダンボール",
+        "cardboard"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kami",
+          "note_ja": "断面が波型のものが対象。波型でなければその他の紙として出す。テープや金具、配送伝票は取る。持ち運べる大きさで縛る。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Cardboard"
+    },
+    {
+      "id": "mzr-0027",
+      "name_ja": "封筒",
+      "name_kana": "ふうとう",
+      "name_romaji": "fuutou",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kami",
+          "note_ja": "その他の紙として分別。紙以外の中身は必ず取り除く。窓付き封筒はセロハン部分を除けば排出可。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Envelope"
+    },
+    {
+      "id": "mzr-0028",
+      "name_ja": "包装紙",
+      "name_kana": "ほうそうし",
+      "name_romaji": "housoushi",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kami",
+          "note_ja": "その他の紙として分別。紙以外の中身は必ず取り除く。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Wrapping paper"
+    },
+    {
+      "id": "mzr-0029",
+      "name_ja": "食用びん類",
+      "name_kana": "しょくようびんるい",
+      "name_romaji": "shokuyoubinrui",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "bin",
+          "note_ja": "乳白色のものや化粧びん、ガラスコップは埋立ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0030",
+      "name_ja": "ACアダプタ",
+      "name_kana": "ACあだぷた",
+      "name_romaji": "ACadaputa",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": "AC adapter"
+    },
+    {
+      "id": "mzr-0031",
+      "name_ja": "ICレコーダー（電池が取り外せるもの）",
+      "name_kana": "ICれこーだー（でんちがとりはずせるもの）",
+      "name_romaji": "ICreko-da-(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0032",
+      "name_ja": "安全カミソリ（プラスチックを含む）",
+      "name_kana": "あんぜんかみそり（ぷらすちっくをふくむ）",
+      "name_romaji": "anzenkamisori(purasuchikkuwofukumu)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n金属の刃のみの場合は金属類。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0033",
+      "name_ja": "安全靴",
+      "name_kana": "あんぜんくつ",
+      "name_romaji": "anzenkutsu",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n運動靴、革靴、草履、サンダルなどは可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Safety shoes"
+    },
+    {
+      "id": "mzr-0034",
+      "name_ja": "一輪車のタイヤ",
+      "name_kana": "いちりんしゃのたいや",
+      "name_romaji": "ichirinshanotaiya",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n農業などの事業に使っていないもので荷物などの運搬用に限る。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0035",
+      "name_ja": "植木鉢",
+      "name_kana": "うえきばち",
+      "name_romaji": "uekibachi",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では「素材により分別。金属製・木製以外は埋立ごみ」と案内されています。迷ったら市のリサイクル事務所(0773-64-7222)にご確認ください。\n埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Flowerpot"
+    },
+    {
+      "id": "mzr-0036",
+      "name_ja": "うちわ（プラスチック製）",
+      "name_kana": "うちわ（ぷらすちっくせい）",
+      "name_romaji": "uchiwa(purasuchikkusei)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n竹などの木製のものは可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0037",
+      "name_ja": "延長コード",
+      "name_kana": "えんちょうこーど",
+      "name_romaji": "enchouko-do",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Extension cord"
+    },
+    {
+      "id": "mzr-0038",
+      "name_ja": "オーブンレンジ",
+      "name_kana": "おーぶんれんじ",
+      "name_romaji": "o-bunrenji",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n45Lの埋立ごみ指定ごみ袋に入らないものは粗大ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Microwave oven with oven function"
+    },
+    {
+      "id": "mzr-0039",
+      "name_ja": "おもちゃ類",
+      "name_kana": "おもちゃるい",
+      "name_romaji": "omocharui",
+      "aliases": [
+        "玩具",
+        "toy"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "toys-baby",
+      "name_en": "Toys"
+    },
+    {
+      "id": "mzr-0040",
+      "name_ja": "温水洗浄便座",
+      "name_kana": "おんすいせんじょうべんざ",
+      "name_romaji": "onsuisenjoubenza",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n45Lの埋立ごみ指定ごみ袋に入らないものは粗大ごみ",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Bidet toilet seat"
+    },
+    {
+      "id": "mzr-0041",
+      "name_ja": "カイロ（使い捨てカイロ含む）",
+      "name_kana": "かいろ（つかいすてかいろふくむ）",
+      "name_romaji": "kairo(tsukaisutekairofukumu)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では「金属製のものは金属類へ」と案内されています。\n埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0042",
+      "name_ja": "傘",
+      "name_kana": "かさ",
+      "name_romaji": "kasa",
+      "aliases": [
+        "ビニール傘",
+        "折りたたみ傘",
+        "umbrella"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n45Lの指定ごみ袋に入れて出す。袋からはみ出しても良い。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Umbrella"
+    },
+    {
+      "id": "mzr-0043",
+      "name_ja": "ガラス",
+      "name_kana": "がらす",
+      "name_romaji": "garasu",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では「割れたものに限る」と案内されています。\n埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n45Lの埋立ごみ指定ごみ袋に入らないものは粗大ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Glass"
+    },
+    {
+      "id": "mzr-0044",
+      "name_ja": "ガラスコップ",
+      "name_kana": "がらすこっぷ",
+      "name_romaji": "garasukoppu",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Glass cup"
+    },
+    {
+      "id": "mzr-0045",
+      "name_ja": "乾燥剤（硬質プラスチックのもの）",
+      "name_kana": "かんそうざい（こうしつぷらすちっくのもの）",
+      "name_romaji": "kansouzai(koushitsupurasuchikkunomono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0046",
+      "name_ja": "ケーブル",
+      "name_kana": "けーぶる",
+      "name_romaji": "ke-buru",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": "Cable (electrical cable)"
+    },
+    {
+      "id": "mzr-0047",
+      "name_ja": "ゲーム機（電池が取り外せるもの）",
+      "name_kana": "げーむき（でんちがとりはずせるもの）",
+      "name_romaji": "ge-muki(denchigatorihazuserumono)",
+      "aliases": [
+        "ゲーム",
+        "Switch",
+        "PlayStation",
+        "game console"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0048",
+      "name_ja": "血圧計（電池が取り外せるもの）",
+      "name_kana": "けつあつけい（でんちがとりはずせるもの）",
+      "name_romaji": "ketsuatsukei(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0049",
+      "name_ja": "化粧びん",
+      "name_kana": "けしょうびん",
+      "name_romaji": "keshoubin",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0050",
+      "name_ja": "珪藻土製品",
+      "name_kana": "けいそうどせいひん",
+      "name_romaji": "keisoudoseihin",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では、法令の基準を超える石綿(アスベスト)を含む製品は市では引き取らず、「販売者の自主回収が行われるため、販売者に問い合わせ後、回収までビニール袋に入れ、テープなどで封をし保管」と案内されています。\n埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n法令の基準を超える石綿（アスベスト）を含む製品に該当していない珪藻土製品は袋を二重にし、「珪藻土製品」の旨を表示し埋立ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0051",
+      "name_ja": "ＣＤ・ＤＶＤ",
+      "name_kana": "しーでぃー・ＤＶＤ",
+      "name_romaji": "shi-dei-/ＤＶＤ",
+      "aliases": [
+        "CD",
+        "DVD",
+        "シーディー",
+        "コンパクトディスク",
+        "ディーブイディー"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n歌詞カードなどの紙は素材により、資源ごみ（その他の紙）または可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0052",
+      "name_ja": "CDプレーヤー・DVDプレーヤー（電池が取り外せるもの）",
+      "name_kana": "CDぷれーやー・DVDぷれーやー（でんちがとりはずせるもの）",
+      "name_romaji": "CDpure-ya-/DVDpure-ya-(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0053",
+      "name_ja": "充電器",
+      "name_kana": "じゅうでんき",
+      "name_romaji": "juudenki",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": "Charger"
+    },
+    {
+      "id": "mzr-0054",
+      "name_ja": "ジョイントマット",
+      "name_kana": "じょいんとまっと",
+      "name_romaji": "jointomatto",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n布製・コルク製のものは可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Interlocking floor mat (joint mat)"
+    },
+    {
+      "id": "mzr-0055",
+      "name_ja": "食用びん類（乳白色のもの）",
+      "name_kana": "しょくようびんるい（にゅうはくしょくのもの）",
+      "name_romaji": "shokuyoubinrui(nyuuhakushokunomono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n白色（透明）、茶色のびんは食用びん類。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0056",
+      "name_ja": "炊飯器（炊飯ジャー）",
+      "name_kana": "すいはんき（すいはんじゃー）",
+      "name_romaji": "suihanki(suihanja-)",
+      "aliases": [
+        "炊飯ジャー",
+        "rice cooker"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n1.5升炊き以下のものに限る。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Rice cooker (rice cooker / warmer)"
+    },
+    {
+      "id": "mzr-0057",
+      "name_ja": "扇風機",
+      "name_kana": "せんぷうき",
+      "name_romaji": "senpuuki",
+      "aliases": [
+        "サーキュレーター",
+        "fan"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n45Lの埋立ごみ指定ごみ袋に入らないものは粗大ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Electric fan"
+    },
+    {
+      "id": "mzr-0058",
+      "name_ja": "掃除機",
+      "name_kana": "そうじき",
+      "name_romaji": "soujiki",
+      "aliases": [
+        "クリーナー",
+        "vacuum cleaner"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n45Lの埋立ごみ指定ごみ袋に入らないものは粗大ごみ（中のごみは可燃ごみ）。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Vacuum cleaner"
+    },
+    {
+      "id": "mzr-0059",
+      "name_ja": "タッパー",
+      "name_kana": "たっぱー",
+      "name_romaji": "tappa-",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Tupperware (food storage container)"
+    },
+    {
+      "id": "mzr-0060",
+      "name_ja": "デジタルカメラ（電池が取り外せるもの）",
+      "name_kana": "でじたるかめら（でんちがとりはずせるもの）",
+      "name_romaji": "dejitarukamera(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0061",
+      "name_ja": "電子辞書・電卓（電池が取り外せるもの）",
+      "name_kana": "でんしじしょ・でんたく（でんちがとりはずせるもの）",
+      "name_romaji": "denshijisho/dentaku(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0062",
+      "name_ja": "電話機・ファクシミリ（電池が取り外せるもの）",
+      "name_kana": "でんわき・ふぁくしみり（でんちがとりはずせるもの）",
+      "name_romaji": "denwaki/fuakushimiri(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0063",
+      "name_ja": "体温計（電子式）",
+      "name_kana": "たいおんけい（でんししき）",
+      "name_romaji": "taionkei(denshishiki)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Clinical thermometer (electronic)"
+    },
+    {
+      "id": "mzr-0064",
+      "name_ja": "脱臭剤",
+      "name_kana": "だっしゅうざい",
+      "name_romaji": "dasshuuzai",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\nプラマークがあればプラスチック容器包装類、表示がなければ埋立ごみ",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Deodorizer"
+    },
+    {
+      "id": "mzr-0065",
+      "name_ja": "電気毛布",
+      "name_kana": "でんきもうふ",
+      "name_romaji": "denkimoufu",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Electric blanket"
+    },
+    {
+      "id": "mzr-0066",
+      "name_ja": "電球（白熱電球・LED電球）",
+      "name_kana": "でんきゅう（はくねつでんきゅう・LEDでんきゅう）",
+      "name_romaji": "denkyuu(hakunetsudenkyuu/LEDdenkyuu)",
+      "aliases": [
+        "light bulb"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電球型蛍光灯は有害ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0067",
+      "name_ja": "電子レンジ",
+      "name_kana": "でんしれんじ",
+      "name_romaji": "denshirenji",
+      "aliases": [
+        "レンジ",
+        "オーブンレンジ",
+        "microwave"
+      ],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n45Lの埋立ごみ指定ごみ袋に入らないものは粗大ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Microwave oven"
+    },
+    {
+      "id": "mzr-0068",
+      "name_ja": "陶器類（皿・茶わんなど）",
+      "name_kana": "とうきるい（さら・ちゃわんなど）",
+      "name_romaji": "toukirui(sara/chawannado)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0069",
+      "name_ja": "長靴",
+      "name_kana": "ながぐつ",
+      "name_romaji": "nagagutsu",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n運動靴、革靴、草履、サンダルなどは可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Rubber boots (rain boots)"
+    },
+    {
+      "id": "mzr-0070",
+      "name_ja": "ハードディスク付属品（電池が取り外せないもの）",
+      "name_kana": "はーどでぃすくふぞくひん（でんちがとりはずせないもの）",
+      "name_romaji": "ha-dodeisukufuzokuhin(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "※もったいナビ注: 市のデータには、この品目名で「埋立ごみ」と「有害ごみ」の2つの行があります。市の案内では、充電池や電池が本体から取り外せない小型家電は「有害ごみ」です。電池を取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。迷ったら市のリサイクル事務所(0773-64-7222)にご確認ください。\n埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        },
+        {
+          "category_id": "yugai",
+          "note_ja": "※もったいナビ注: 市のデータには、この品目名で「埋立ごみ」と「有害ごみ」の2つの行があります。市の案内では、充電池や電池が本体から取り外せない小型家電は「有害ごみ」です。電池を取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。迷ったら市のリサイクル事務所(0773-64-7222)にご確認ください。\n集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0071",
+      "name_ja": "ビデオカメラ（電池が取り外せるもの）",
+      "name_kana": "びでおかめら（でんちがとりはずせるもの）",
+      "name_romaji": "bideokamera(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0072",
+      "name_ja": "ビデオテープ",
+      "name_kana": "びでおてーぷ",
+      "name_romaji": "bideote-pu",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "books-media",
+      "name_en": "Video tape"
+    },
+    {
+      "id": "mzr-0073",
+      "name_ja": "ビデオテープ類",
+      "name_kana": "びでおてーぷるい",
+      "name_romaji": "bideote-purui",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "books-media",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0074",
+      "name_ja": "プリンター",
+      "name_kana": "ぷりんたー",
+      "name_romaji": "purinta-",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では「用紙A3以下対応の家庭用インクジェットプリンターに限る」と案内されています。迷ったら市のリサイクル事務所(0773-64-7222)にご確認ください。\n埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n用紙A4以下対応の家庭用インクジェットプリンターに限る。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Printer"
+    },
+    {
+      "id": "mzr-0075",
+      "name_ja": "ヘッドホン・イヤホン（電池が取り外せるもの）",
+      "name_kana": "へっどほん・いやほん（でんちがとりはずせるもの）",
+      "name_romaji": "heddohon/iyahon(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0076",
+      "name_ja": "ポリタンク",
+      "name_kana": "ぽりたんく",
+      "name_romaji": "poritanku",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n中身は空にする",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Plastic jerry can (poly tank)"
+    },
+    {
+      "id": "mzr-0077",
+      "name_ja": "保冷剤（硬質プラスチック製のもの）",
+      "name_kana": "ほれいざい（こうしつぷらすちっくせいのもの）",
+      "name_romaji": "horeizai(koushitsupurasuchikkuseinomono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0078",
+      "name_ja": "本（アルバム）",
+      "name_kana": "ほん（あるばむ）",
+      "name_romaji": "hon(arubamu)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n台紙などは可燃ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0079",
+      "name_ja": "リモコン（電池が取り外せるもの）",
+      "name_kana": "りもこん（でんちがとりはずせるもの）",
+      "name_romaji": "rimokon(denchigatorihazuserumono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。\n電池が取り外せないものは有害ごみ。※埋立ごみとしても出せますが、使用済小型家電として公共施設に回収ボックスを設置しています。リサイクルにご協力ください。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "small-appliance",
+      "name_en": null
+    },
+    {
+      "id": "mzr-0080",
+      "name_ja": "レジャーシート",
+      "name_kana": "れじゃーしーと",
+      "name_romaji": "reja-shi-to",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "umetate",
+          "note_ja": "埋立ごみの指定ごみ袋に入れて出します。袋に入りきらないものは集積所に出せません(下に品目ごとの案内があれば、それに従います)。充電池や電池が本体から取り外せない小型家電(電気カミソリ、電子タバコ、モバイルバッテリーなど)は、埋立ごみではなく「有害ごみ」に出します。取り外せるものは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ。リチウムイオン電池を含む製品・ライター・スプレー缶が埋立ごみに混ざると、ごみ収集車やリサイクルプラザで発火するおそれがあります。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Picnic sheet (leisure mat)"
+    },
+    {
+      "id": "mzr-0081",
+      "name_ja": "ICレコーダー（電池が取り外せないもの）",
+      "name_kana": "ICれこーだー（でんちがとりはずせないもの）",
+      "name_romaji": "ICreko-da-(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0082",
+      "name_ja": "ゲーム機（電池が取り外せないもの）",
+      "name_kana": "げーむき（でんちがとりはずせないもの）",
+      "name_romaji": "ge-muki(denchigatorihazusenaimono)",
+      "aliases": [
+        "ゲーム",
+        "Switch",
+        "PlayStation",
+        "game console"
+      ],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0083",
+      "name_ja": "乾電池",
+      "name_kana": "かんでんち",
+      "name_romaji": "kandenchi",
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Dry-cell battery"
+    },
+    {
+      "id": "mzr-0084",
+      "name_ja": "蛍光灯（電球型含む）",
+      "name_kana": "けいこうとう（でんきゅうがたふくむ）",
+      "name_romaji": "keikoutou(denkyuugatafukumu)",
+      "aliases": [
+        "蛍光管",
+        "fluorescent light",
+        "light bulb"
+      ],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n白熱電球・LED電球は埋立ごみ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0085",
+      "name_ja": "血圧計（電池が取り外せないもの）",
+      "name_kana": "けつあつけい（でんちがとりはずせないもの）",
+      "name_romaji": "ketsuatsukei(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0086",
+      "name_ja": "CDプレーヤー・DVDプレーヤー（電池が取り外せないもの）",
+      "name_kana": "CDぷれーやー・DVDぷれーやー（でんちがとりはずせないもの）",
+      "name_romaji": "CDpure-ya-/DVDpure-ya-(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0087",
+      "name_ja": "充電池",
+      "name_kana": "じゅうでんち",
+      "name_romaji": "juudenchi",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0088",
+      "name_ja": "スプレー缶",
+      "name_kana": "すぷれーかん",
+      "name_romaji": "supure-kan",
+      "aliases": [
+        "スプレー",
+        "エアゾール缶",
+        "spray can"
+      ],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n中身を完全に使い切ってから出す。穴を開けなくてもよい。穴を開けた場合も有害ごみとして出す。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Spray can (aerosol)"
+    },
+    {
+      "id": "mzr-0089",
+      "name_ja": "デジタルカメラ（電池が取り外せないもの）",
+      "name_kana": "でじたるかめら（でんちがとりはずせないもの）",
+      "name_romaji": "dejitarukamera(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0090",
+      "name_ja": "電子辞書・電卓（電池が取り外せないもの）",
+      "name_kana": "でんしじしょ・でんたく（でんちがとりはずせないもの）",
+      "name_romaji": "denshijisho/dentaku(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0091",
+      "name_ja": "体温計（水銀式）",
+      "name_kana": "たいおんけい（すいぎんしき）",
+      "name_romaji": "taionkei(suiginshiki)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n袋か付属ケースに入れて出す。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Clinical thermometer (mercury)"
+    },
+    {
+      "id": "mzr-0092",
+      "name_ja": "電話機・ファクシミリ（電池が取り外せないもの）",
+      "name_kana": "でんわき・ふぁくしみり（でんちがとりはずせないもの）",
+      "name_romaji": "denwaki/fuakushimiri(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0093",
+      "name_ja": "ビデオカメラ（電池が取り外せないもの）",
+      "name_kana": "びでおかめら（でんちがとりはずせないもの）",
+      "name_romaji": "bideokamera(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0094",
+      "name_ja": "ヘッドホン・イヤホン（電池が取り外せないもの）",
+      "name_kana": "へっどほん・いやほん（でんちがとりはずせないもの）",
+      "name_romaji": "heddohon/iyahon(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0095",
+      "name_ja": "ボタン電池",
+      "name_kana": "ぼたんでんち",
+      "name_romaji": "botandenchi",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Button battery"
+    },
+    {
+      "id": "mzr-0096",
+      "name_ja": "ライター",
+      "name_kana": "らいたー",
+      "name_romaji": "raita-",
+      "aliases": [
+        "百円ライター",
+        "lighter"
+      ],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n中身を使い切って出す。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Lighter"
+    },
+    {
+      "id": "mzr-0097",
+      "name_ja": "リモコン（電池が取り外せないもの）",
+      "name_kana": "りもこん（でんちがとりはずせないもの）",
+      "name_romaji": "rimokon(denchigatorihazusenaimono)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "yugai",
+          "note_ja": "集積所の「有害ごみ」の専用コンテナに出します。充電池・乾電池・ボタン電池は、袋に入れず裸のまま出します。電池を取り外せる小型家電は、必ず電池を外してから、本体を埋立ごみ(または使用済み小型家電の回収ボックス)へ、外した電池を有害ごみへ出します。\n電池が取り外せるものは埋立ごみ、または使用済み小型家電回収ボックスへ。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014246.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0098",
+      "name_ja": "油（食用）",
+      "name_kana": "あぶら（しょくよう）",
+      "name_romaji": "abura(shokuyou)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "凝固剤で固めるか布・紙などに吸わせる",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Oil (cooking)"
+    },
+    {
+      "id": "mzr-0099",
+      "name_ja": "アルミはく",
+      "name_kana": "あるみはく",
+      "name_romaji": "arumihaku",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "鍋焼きうどんなどのアルミ鍋は金属類",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0100",
+      "name_ja": "衣類",
+      "name_kana": "いるい",
+      "name_romaji": "irui",
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "45L以下の指定ごみ袋であれば、集積所に出せる",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "clothing",
+      "name_en": "Clothing"
+    },
+    {
+      "id": "mzr-0101",
+      "name_ja": "貝殻",
+      "name_kana": "かいがら",
+      "name_romaji": "kaigara",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "一般廃棄物のみ（100kg以上直接搬入する場合は清掃事務所へ事前に相談）",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Seashells"
+    },
+    {
+      "id": "mzr-0102",
+      "name_ja": "紙おむつ",
+      "name_kana": "かみおむつ",
+      "name_romaji": "kamiomutsu",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "中身はトイレへ",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Disposable diaper"
+    },
+    {
+      "id": "mzr-0103",
+      "name_ja": "紙粘土",
+      "name_kana": "かみねんど",
+      "name_romaji": "kaminendo",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "油粘土・陶芸用・石膏は埋め立てごみ",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Paper clay"
+    },
+    {
+      "id": "mzr-0104",
+      "name_ja": "木",
+      "name_kana": "き",
+      "name_romaji": "ki",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "木の太さは10ｃｍ以下にする。家具はリサイクルプラザへ",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0105",
+      "name_ja": "草",
+      "name_kana": "くさ",
+      "name_romaji": "kusa",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "3袋以下の場合は集積所に排出可。4袋以上出す場合は清掃事務所へ直接搬入。",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Grass / weeds"
+    },
+    {
+      "id": "mzr-0106",
+      "name_ja": "靴",
+      "name_kana": "くつ",
+      "name_romaji": "kutsu",
+      "aliases": [
+        "スニーカー",
+        "革靴",
+        "shoes"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "長靴、安全靴などは埋め立てごみ",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Shoes"
+    },
+    {
+      "id": "mzr-0107",
+      "name_ja": "ござ（燃える素材）",
+      "name_kana": "ござ（もえるそざい）",
+      "name_romaji": "goza(moerusozai)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では「粗大ごみ(切って45リットルの可燃ごみ指定ごみ袋に入れれば、可燃ごみとして出せる)」と案内されています。最新は公式サイトでご確認ください。\n(い草など)切って可燃ごみとして出す。1辺の長さが50cm以上ある場合は粗大ごみ",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0108",
+      "name_ja": "畳（スタイロ以外）",
+      "name_kana": "たたみ（すたいろいがい）",
+      "name_romaji": "tatami(sutairoigai)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "※もったいナビ注: 市の「ごみ分別ルールブック」(令和8年度版)では、清掃事務所に直接搬入できるのは「構成素材が全て自然素材のもの」と案内されています。集積所には出せません。\n切って９０Lまでの袋（透明・半透明）に入れれば清掃事務所に直接搬入可（切れない場合は、販売店・処理業者へ）",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0109",
+      "name_ja": "ぬいぐるみ",
+      "name_kana": "ぬいぐるみ",
+      "name_romaji": "nuigurumi",
+      "aliases": [
+        "stuffed animal",
+        "plush toy"
+      ],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "※もったいナビ注: 電池で動くぬいぐるみは、電池を外して本体を埋立ごみへ、外した電池は有害ごみへ出します。充電池や電池を本体から取り外せないものは、埋立ごみではなく「有害ごみ」です(市の小型家電の出し方の案内)。迷ったら市のリサイクル事務所(0773-64-7222)にご確認ください。\n電池など動力付きは埋立てごみ",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": "toys-baby",
+      "name_en": "Stuffed toy"
+    },
+    {
+      "id": "mzr-0110",
+      "name_ja": "花火（使用済み・未使用）",
+      "name_kana": "はなび（しようずみ・みしよう）",
+      "name_romaji": "hanabi(shiyouzumi/mishiyou)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "水につけてから出す",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0111",
+      "name_ja": "ふとん",
+      "name_kana": "ふとん",
+      "name_romaji": "futon",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "45L以下の指定ごみ袋であれば、集積所に出せる",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Futon (Japanese bedding)"
+    },
+    {
+      "id": "mzr-0112",
+      "name_ja": "本（百科事典）",
+      "name_kana": "ほん（ひゃっかじてん）",
+      "name_romaji": "hon(hyakkajiten)",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": "ハードカバーの部分を取り除けば紙類（資源ごみ）として出せる",
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0113",
+      "name_ja": "まくら",
+      "name_kana": "まくら",
+      "name_romaji": "makura",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": null,
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Pillow"
+    },
+    {
+      "id": "mzr-0114",
+      "name_ja": "ラップフィルム",
+      "name_kana": "らっぷふぃるむ",
+      "name_romaji": "rappufyirumu",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": null,
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": null
+    },
+    {
+      "id": "mzr-0115",
+      "name_ja": "ろうそく",
+      "name_kana": "ろうそく",
+      "name_romaji": "rousoku",
+      "aliases": [],
+      "dispositions": [
+        {
+          "category_id": "kanen",
+          "note_ja": null,
+          "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000014738.html"
+        }
+      ],
+      "sodai_fee_yen": null,
+      "reuse_category": null,
+      "name_en": "Candle (wax)"
+    }
+  ]
+}

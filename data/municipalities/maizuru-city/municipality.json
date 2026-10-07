@@ -1,0 +1,14 @@
+{
+  "slug": "maizuru-city",
+  "item_id_prefix": "mzr",
+  "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: 舞鶴市「ゴミの分別方法一覧」(CC BY 4.0)を加工して利用",
+  "source_attribution_en": "Source: Maizuru City \"Garbage Sorting List\" (CC BY 4.0), adapted",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": "0773-64-5953",
+  "sodai_tel_mobile": "0773-64-5953",
+  "data_fetched_at": "2026-10-08",
+  "data_version": "20261008"
+}
