@@ -24,7 +24,7 @@ const HEADER = ["全国地方公共団体コード", "ID", "品目", "分別区�
  * 市のデータの文字化け(2026-03-30 版)。「ござ（燃える素材）」の注意点の「50cm以上」の「cm」が
  * 置換文字(U+FFFD)+「p」になっている。市のルールブックの表記(1辺の長さが50cm以上)に合わせて、この1か所だけ直す。
  */
-const BROKEN_CM = "50�p以上"
+const BROKEN_CM = "50\uFFFDp以上"
 const FIXED_CM = "50cm以上"
 
 const quote = (s: string) => `"${s.replace(/"/g, '""')}"`
@@ -58,7 +58,7 @@ export function toStandardCsv(text: string): string {
       )
     }
     const note = rawNote.replace(BROKEN_CM, FIXED_CM)
-    if ([id, name, label, note].some((c) => c.includes("�"))) {
+    if ([id, name, label, note].some((c) => c.includes("\uFFFD"))) {
       throw new Error(
         `舞鶴市CSVの${line}行目に文字化けがあります: ${JSON.stringify(r)}`
       )

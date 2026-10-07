@@ -35,7 +35,7 @@ describe("toStandardCsv(舞鶴市の CSV → 標準形式の見出し)", () => {
     const rows = parseCsv(
       toStandardCsv(
         HEAD +
-          "108,B000000108,ござ（燃える素材）,可燃,(い草など)切って可燃ごみとして出す。1辺の長さが50�p以上ある場合は粗大ごみ,,,,\r\n"
+          "108,B000000108,ござ（燃える素材）,可燃,(い草など)切って可燃ごみとして出す。1辺の長さが50\uFFFDp以上ある場合は粗大ごみ,,,,\r\n"
       )
     )
     expect(rows[1][4]).toBe(
@@ -45,10 +45,10 @@ describe("toStandardCsv(舞鶴市の CSV → 標準形式の見出し)", () => {
 
   it("ほかの場所に文字化けがあればエラーにする", () => {
     expect(() =>
-      toStandardCsv(HEAD + "1,B000000001,なべ,金属類,10�p以下,,,,\r\n")
+      toStandardCsv(HEAD + "1,B000000001,なべ,金属類,10\uFFFDp以下,,,,\r\n")
     ).toThrow(/2行目に文字化け/)
     expect(() =>
-      toStandardCsv(HEAD + "1,B000000001,な�べ,金属類,,,,,\r\n")
+      toStandardCsv(HEAD + "1,B000000001,な\uFFFDべ,金属類,,,,,\r\n")
     ).toThrow(/文字化け/)
   })
 
