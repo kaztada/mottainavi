@@ -43,6 +43,16 @@ export function registryUrl(version: string): string {
   return `${DATA_BASE_URL}/municipalities.json?v=${encodeURIComponent(version)}`
 }
 
+/** 県の市区町村の地図のURL。code は都道府県コード(2桁)、version は境界データのハッシュ */
+export function prefMapUrl(code: string, version: string): string {
+  return `${DATA_BASE_URL}/map/pref-${code}.json?v=${encodeURIComponent(version)}`
+}
+
+/** 都道府県の並び(団体コード順)の位置 → 都道府県コード(2桁) */
+export function prefCodeAt(index: number): string {
+  return String(index + 1).padStart(2, "0")
+}
+
 /** 品目 → 検索インデックス(キー名を1文字にしてサイズを抑える) */
 export function toSearchIndex(items: Item[]): SearchIndexItem[] {
   return items.map((i) => ({
