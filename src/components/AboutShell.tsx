@@ -5,6 +5,7 @@ import { ChevronLeft } from "lucide-react"
 import type { Municipality } from "@/lib/schemas"
 import { useLang, useT } from "@/lib/i18n"
 import { LangToggle } from "./LangToggle"
+import { MapCredit } from "./MapCredit"
 import { MunicipalitySwitch } from "./MunicipalitySwitch"
 import { SourceNote } from "./SourceNote"
 
@@ -57,7 +58,7 @@ export function AboutShell({
           <ChevronLeft className="size-4" aria-hidden />
           {t("item.back")}
         </Link>
-        <div className="ml-auto flex shrink-0 gap-2">
+        <div className="ml-auto flex max-w-full min-w-0 gap-2">
           <MunicipalitySwitch
             nameJa={municipality.name_ja}
             nameEn={municipality.name_en}
@@ -104,6 +105,7 @@ export function AboutShell({
             >
               {t("about.sourceLink")}
             </a>
+            <MapCredit className="mt-3 text-muted" />
           </Section>
 
           <Section heading={t("about.coverageHeading")}>

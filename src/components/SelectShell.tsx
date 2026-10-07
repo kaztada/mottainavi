@@ -5,9 +5,10 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { ChevronDown } from "lucide-react"
 import { useLang, useT } from "@/lib/i18n"
-import { registryUrl } from "@/lib/public-data"
+import { prefCodeAt, registryUrl } from "@/lib/public-data"
 import { JapanTileMap } from "./JapanTileMap"
 import { LangToggle } from "./LangToggle"
+import { PrefectureMap } from "./PrefectureMap"
 
 interface RegistryItem {
   slug: string
@@ -41,7 +42,7 @@ function SelectFrame({ children }: { children: React.ReactNode }) {
 }
 
 /**
- * S0: 自治体選択(screens.md §9)。デフォルメ日本地図(都道府県のタイル)と、
+ * S0: 自治体選択(screens.md §9)。デフォルメ日本地図(都道府県のタイル)→ 県の市区町村の地図と、
  * 都道府県 → 市区町村の2段セレクト。地図とセレクトは同じ都道府県の選択を共有する。
  * 全国リストは都道府県を選ぶときに初めて fetch する(初期表示を軽く保つ)。
  * 保存済みの自治体がある再訪者は、page.tsx のインラインスクリプトで描画前に転送される。
@@ -50,10 +51,12 @@ export function SelectShell({
   prefectures,
   supported,
   registryVersion,
+  mapVersion,
 }: {
   prefectures: string[]
   supported: SupportedLink[]
   registryVersion: string
+  mapVersion: string
 }) {
   const { lang } = useLang()
   const t = useT()
@@ -84,11 +87,21 @@ export function SelectShell({
     () => new Set(supported.map((m) => m.pref)),
     [supported]
   )
-  const muniSelectRef = useRef<HTMLSelectElement>(null)
+  const prefMapRef = useRef<HTMLDivElement>(null)
 
   const municipalities = useMemo(
     () => (registry && pref ? registry.filter((m) => m.pref === pref) : []),
     [registry, pref]
+  )
+
+  const mapMunicipalities = useMemo(
+    () =>
+      municipalities.map((m) => ({
+        slug: m.slug,
+        name: lang === "en" ? m.name_en : m.name_ja,
+        supported: m.status === "supported",
+      })),
+    [municipalities, lang]
   )
 
   const muniDisabled = !pref || registry === null
@@ -118,14 +131,28 @@ export function SelectShell({
             onSelect={(p) => {
               ensureRegistry()
               setPref(p)
-              // 次に押す場所(市区町村のセレクト)が画面に入るようにする
-              muniSelectRef.current?.scrollIntoView({
-                block: "nearest",
-                behavior: "smooth",
-              })
+              // 次に押す場所(県の地図)が画面に入るようにする(描画のあとで)
+              requestAnimationFrame(() =>
+                prefMapRef.current?.scrollIntoView({
+                  block: "start",
+                  behavior: "smooth",
+                })
+              )
             }}
           />
           <p className="text-xs text-muted">{t("select.mapHint")}</p>
+          {pref && (
+            <div ref={prefMapRef} className="flex flex-col gap-2">
+              <h3 className="text-base font-bold">{pref}</h3>
+              <PrefectureMap
+                key={pref}
+                code={prefCodeAt(prefectures.indexOf(pref))}
+                prefName={pref}
+                municipalities={mapMunicipalities}
+                version={mapVersion}
+              />
+            </div>
+          )}
           <label className="flex flex-col gap-1.5 text-sm text-muted">
             {t("select.prefecture")}
             <SelectFrame>
@@ -152,7 +179,6 @@ export function SelectShell({
             {t("select.municipality")}
             <SelectFrame>
               <select
-                ref={muniSelectRef}
                 className={selectClass}
                 value=""
                 disabled={muniDisabled}

@@ -1,10 +1,12 @@
 "use client"
 
+import Link from "next/link"
 import type { Municipality } from "@/lib/schemas"
+import { CHANGE_MUNICIPALITY_HREF } from "@/lib/municipality-storage"
 import { useLang, useT } from "@/lib/i18n"
 
 /**
- * 出典表記+非公式ツールの断り書き。全ページに常設(CC-BY 等の義務+誤案内リスク対策)。
+ * 出典表記+非公式ツールの断り書き+自治体選択へ戻るリンク。全ページに常設(CC-BY 等の義務+誤案内リスク対策)。
  * 出典は自治体ごとに異なるため municipality.json の source_attribution を使う。
  * full=true で「最新情報は公式サイトで」の文言と公式リンクを含む(詳細ページ用)。
  * 出典に長い URL を含む自治体があるので、スマホ幅ではみ出さないよう wrap-anywhere で折り返す。
@@ -41,6 +43,15 @@ export function SourceNote({
       <p>
         {t("footer.unofficial")} {attribution}{" "}
         {t("footer.fetchedAt", { date: municipality.data_fetched_at })}
+      </p>
+      {/* 自治体選択(地図)へ戻る道を、全ページの下にも置く */}
+      <p className="mt-2">
+        <Link
+          href={CHANGE_MUNICIPALITY_HREF}
+          className="inline-block py-2 text-accent-strong underline underline-offset-2"
+        >
+          {t("footer.changeMunicipality")}
+        </Link>
       </p>
     </div>
   )

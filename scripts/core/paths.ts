@@ -8,6 +8,8 @@ export const REGISTRY_PATH = join(DATA_DIR, "municipalities.json")
 export const REUSE_OPTIONS_PATH = join(DATA_DIR, "reuse-options.json")
 export const COMMON_ALIASES_PATH = join(DATA_DIR, "aliases.common.json")
 export const COMMON_ITEMS_EN_PATH = join(DATA_DIR, "i18n/items.en.json")
+/** 市区町村の境界データ(国土数値情報を軽くした TopoJSON。政令指定都市の区はまとめてある) */
+export const MAP_SOURCE_PATH = join(CACHE_DIR, "map/municipalities.topo.json")
 export const PUBLIC_DATA_DIR = join(ROOT, "public/data")
 
 /** 対応自治体のデータディレクトリ(data/municipalities/<slug>/) */
