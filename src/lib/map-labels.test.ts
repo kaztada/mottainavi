@@ -1,5 +1,10 @@
 import { describe, expect, it } from "vitest"
-import { estimateLabelWidth, placeMapLabels, shortMapLabel } from "./map-labels"
+import {
+  estimateLabelWidth,
+  mapLabelTexts,
+  placeMapLabels,
+  shortMapLabel,
+} from "./map-labels"
 
 describe("shortMapLabel", () => {
   it("英語名の末尾の City / Town / Village / Ward を外す", () => {
@@ -32,8 +37,11 @@ describe("placeMapLabels", () => {
       size
     )
     expect(osaka.y).toBe(790)
+    expect(osaka.anchor).toBeUndefined()
     expect(higashi.x).toBe(700)
     expect(higashi.y - osaka.y).toBeGreaterThanOrEqual(size)
+    // ずらしたラベルは、元の場所(その市の中)を持つ(画面で引出線を引く)
+    expect(higashi.anchor).toEqual({ x: 700, y: 792 })
   })
   it("3つが重なっても、すべて別の段に置く", () => {
     const out = placeMapLabels(
@@ -48,8 +56,29 @@ describe("placeMapLabels", () => {
     expect(ys[1] - ys[0]).toBeGreaterThanOrEqual(size)
     expect(ys[2] - ys[1]).toBeGreaterThanOrEqual(size)
   })
+  it("下へずらすと地図の下の端を越えるときは、上へずらす", () => {
+    const [osaka, higashi] = placeMapLabels(
+      [
+        { key: "osaka", text: "Osaka", x: 500, y: 970 },
+        { key: "higashi", text: "Higashiosaka", x: 600, y: 975 },
+      ],
+      size,
+      1000
+    )
+    expect(osaka.y).toBe(970)
+    expect(higashi.y).toBeLessThan(970 - size)
+    expect(higashi.y).toBeGreaterThanOrEqual(size / 2)
+  })
   it("幅の見積もり: 全角は文字の大きさ、半角は 0.6 倍", () => {
     expect(estimateLabelWidth("大阪市", 10)).toBe(30)
     expect(estimateLabelWidth("Osaka", 10)).toBe(30)
+  })
+})
+
+describe("mapLabelTexts", () => {
+  it("短くすると同じになる名前(釧路市と釧路町)は、正式な名前のままにする", () => {
+    expect(
+      mapLabelTexts(["Kushiro City", "Kushiro Town", "Sapporo City"])
+    ).toEqual(["Kushiro City", "Kushiro Town", "Sapporo"])
   })
 })
