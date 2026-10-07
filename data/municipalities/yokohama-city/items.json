@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-06T20:45:57.276Z",
+  "generated_at": "2026-10-07T14:59:14.495Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -1238,7 +1238,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Arm stand (adjustable arm mount)"
+      "name_en": "Arm stand"
     },
     {
       "id": "yok-0077",
@@ -2667,7 +2667,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Earphone jack (non-metal)"
+      "name_en": "Earphone jack accessory (non-metal)"
     },
     {
       "id": "yok-0166",
@@ -2684,7 +2684,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Earphone jack (metal)"
+      "name_en": "Earphone jack accessory (metal)"
     },
     {
       "id": "yok-0167",
@@ -4599,7 +4599,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ever flower (decorative flower ornament)"
+      "name_en": "Ever flower (preserved flower in glass case)"
     },
     {
       "id": "yok-0285",
@@ -8750,7 +8750,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Automobile seat (built-in vehicle seat)"
+      "name_en": "Automobile seat"
     },
     {
       "id": "yok-0537",
@@ -14133,7 +14133,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Basket (gurasu basuketto)"
+      "name_en": "Grass basket (woven plant fiber)"
     },
     {
       "id": "yok-0876",
@@ -14847,7 +14847,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Shelf (kesho-dana)"
+      "name_en": "Vanity shelf (kesho-dana)"
     },
     {
       "id": "yok-0915",
@@ -17588,7 +17588,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Concrete panel"
+      "name_en": "Plywood panel for concrete forms (konpane)"
     },
     {
       "id": "yok-1078",
