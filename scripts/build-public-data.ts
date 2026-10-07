@@ -3,6 +3,7 @@
  *   public/data/municipalities.json         全国レジストリ(自治体選択UI用)
  *   public/data/<slug>/search.json          検索インデックス
  *   public/data/<slug>/items/NN.json        詳細データのシャード
+ *   public/data/map/pref-NN.json            県ごとの市区町村の地図(自治体選択UI用)
  */
 import { mkdir, readFile, rm, writeFile } from "node:fs/promises"
 import { join } from "node:path"
@@ -19,7 +20,13 @@ import {
   RegistryFileSchema,
   SearchIndexFileSchema,
 } from "../src/lib/schemas"
-import { PUBLIC_DATA_DIR, REGISTRY_PATH, municipalityFile } from "./core/paths"
+import { buildAllPrefMaps, type Topology } from "./core/map"
+import {
+  MAP_SOURCE_PATH,
+  PUBLIC_DATA_DIR,
+  REGISTRY_PATH,
+  municipalityFile,
+} from "./core/paths"
 
 async function readJson(path: string): Promise<unknown> {
   return JSON.parse(await readFile(path, "utf-8"))
@@ -78,6 +85,22 @@ async function main() {
   }
   console.log(
     `✓ public/data/municipalities.json: ${registry.length} 自治体(対応 ${supported.length})`
+  )
+
+  // 市区町村の地図(県を選んだときだけ読む)。境界データに無い自治体があればここで止まる
+  const { maps } = buildAllPrefMaps(
+    (await readJson(MAP_SOURCE_PATH)) as Topology,
+    registry
+  )
+  await mkdir(join(PUBLIC_DATA_DIR, "map"), { recursive: true })
+  let mapBytes = 0
+  for (const [code, map] of maps) {
+    const json = JSON.stringify(map)
+    mapBytes += json.length
+    await writeFile(join(PUBLIC_DATA_DIR, "map", `pref-${code}.json`), json)
+  }
+  console.log(
+    `✓ public/data/map: ${maps.size} 都道府県(合計 ${Math.round(mapBytes / 1024)} KB)`
   )
 }
 
