@@ -49,5 +49,7 @@
 - データ更新(週1回の見張りが作る PR・Issue への対応)は `.claude/skills/update-municipality-data/SKILL.md` の手順で行う。取得元の URL は `data/municipalities/<slug>/source.json`
 - 自治体の追加は `.claude/skills/add-municipality/SKILL.md` の手順で行う(調査 → 照合 → Kaz の判断 → 実装 → 検証 → PR → 本番確認 → 記録)
 - PR の前に `npm run build-data -- --all` → `npm run check-data` を通す。PR では CI(GitHub Actions)と Vercel の両方が成功してからマージボタンを渡す
+- **PR のブランチへの push は、手元の検証(check-data・テスト・lint・build・Codex の二重チェックの反映)が全部終わってから1回にまとめる**。途中の修正は手元でコミットだけして、push しない。2回目の push は、マージボタンを渡す直前に main の取り込みが要るときだけ(Vercel は push のたびにプレビューを1つ作って保存する(1回 約60〜80MB)。2026-10 に無料枠の保存容量 10GB の 82% に達したため)
+- 記録や文書だけの変更(roadmap・手順書・CLAUDE.md)は単独の PR にせず、次の作業の PR に含める
 - Lighthouse モバイル Perf/A11y 90+ を目標
 - スマホ実機(iPhone Safari)での確認をフェーズ完了条件に含める

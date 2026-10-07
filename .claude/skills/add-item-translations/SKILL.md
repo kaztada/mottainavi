@@ -111,6 +111,8 @@ npm run codex-review -- --items-en    # バックグラウンドで実行。5〜
 
 ## 6. PR と Kaz のレビュー
 
+**push は1回にまとめる**: 読み直しの反映・Codex の指摘の反映・要確認の絞り込み・roadmap の記録まで、すべて手元のコミットで進め、全部終わってから push して PR を作る。Vercel は push のたびにプレビューを1つ作って保存する(1回 約60〜80MB)。2026-10 に無料枠の保存容量 10GB の 82% に達したため(CLAUDE.md「テスト・品質」)。同じ辞書を触る PR を複数のセッションで並行させない(main の取り込みで push が増える)。
+
 ```
 npm run items-en -- review <slug>    # 要確認の一覧 work/items-en/<slug>.review.md
 ```
