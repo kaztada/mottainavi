@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useT } from "@/lib/i18n"
+import { mapLabelTexts, placeMapLabels } from "@/lib/map-labels"
 import { prefMapUrl } from "@/lib/public-data"
 import { MapCredit } from "./MapCredit"
 
@@ -83,6 +84,22 @@ export function PrefectureMap({
 
   const { data } = current
   const fontSize = Math.round(data.w / 28)
+  // 対応済みの市区町村の名前。地図の上では短い名前にし、重なるものは上下へずらす
+  const supportedOnMap = data.m.flatMap((m) => {
+    const muni = byslug.get(m.s)
+    return muni?.supported ? [{ m, name: muni.name }] : []
+  })
+  const labelTexts = mapLabelTexts(supportedOnMap.map((x) => x.name))
+  const labels = placeMapLabels(
+    supportedOnMap.map(({ m }, i) => ({
+      key: m.s,
+      text: labelTexts[i],
+      x: m.c[0],
+      y: m.c[1],
+    })),
+    fontSize,
+    data.h
+  )
   return (
     <div className="flex flex-col gap-2.5">
       <svg
@@ -118,27 +135,46 @@ export function PrefectureMap({
             />
           )
         })}
-        {data.m.map((m) => {
-          const muni = byslug.get(m.s)
-          if (!muni?.supported) return null
-          return (
-            <text
-              key={m.s}
-              x={m.c[0]}
-              y={m.c[1]}
-              textAnchor="middle"
-              dominantBaseline="central"
-              fontSize={fontSize}
-              fontWeight={700}
-              className="pointer-events-none fill-foreground stroke-card"
-              strokeWidth={fontSize / 4}
-              paintOrder="stroke"
-              aria-hidden
-            >
-              {muni.name}
-            </text>
-          )
-        })}
+        {/* ずらしたラベルは、別の市区町村の上に乗ることがある。元の場所に点を打ち、線でつなぐ */}
+        {labels.map(
+          (label) =>
+            label.anchor && (
+              <g key={`${label.key}-leader`} aria-hidden>
+                <line
+                  x1={label.anchor.x}
+                  y1={label.anchor.y}
+                  x2={label.x}
+                  y2={label.y}
+                  className="pointer-events-none stroke-foreground"
+                  strokeWidth={1.5}
+                  vectorEffect="non-scaling-stroke"
+                />
+                <circle
+                  cx={label.anchor.x}
+                  cy={label.anchor.y}
+                  r={fontSize / 6}
+                  className="pointer-events-none fill-foreground"
+                />
+              </g>
+            )
+        )}
+        {labels.map((label) => (
+          <text
+            key={label.key}
+            x={label.x}
+            y={label.y}
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontSize={fontSize}
+            fontWeight={700}
+            className="pointer-events-none fill-foreground stroke-card"
+            strokeWidth={fontSize / 4}
+            paintOrder="stroke"
+            aria-hidden
+          >
+            {label.text}
+          </text>
+        ))}
       </svg>
 
       {data.off.length > 0 && (
