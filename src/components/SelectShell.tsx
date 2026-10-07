@@ -5,6 +5,7 @@ import Link from "next/link"
 import { useRouter } from "next/navigation"
 import { ChevronDown } from "lucide-react"
 import { useLang, useT } from "@/lib/i18n"
+import { prefNameEn } from "@/lib/japan-tiles"
 import { prefCodeAt, registryUrl } from "@/lib/public-data"
 import { JapanTileMap } from "./JapanTileMap"
 import { LangToggle } from "./LangToggle"
@@ -128,6 +129,7 @@ export function SelectShell({
             selected={pref}
             supportedPrefs={supportedPrefs}
             label={t("select.mapLabel")}
+            lang={lang}
             onSelect={(p) => {
               ensureRegistry()
               setPref(p)
@@ -143,11 +145,13 @@ export function SelectShell({
           <p className="text-xs text-muted">{t("select.mapHint")}</p>
           {pref && (
             <div ref={prefMapRef} className="flex flex-col gap-2">
-              <h3 className="text-base font-bold">{pref}</h3>
+              <h3 className="text-base font-bold">
+                {lang === "en" ? prefNameEn(pref) : pref}
+              </h3>
               <PrefectureMap
                 key={pref}
                 code={prefCodeAt(prefectures.indexOf(pref))}
-                prefName={pref}
+                prefName={lang === "en" ? prefNameEn(pref) : pref}
                 municipalities={mapMunicipalities}
                 version={mapVersion}
               />
@@ -169,7 +173,7 @@ export function SelectShell({
                 <option value="">{t("select.prefPlaceholder")}</option>
                 {prefectures.map((p) => (
                   <option key={p} value={p}>
-                    {p}
+                    {lang === "en" ? prefNameEn(p) : p}
                   </option>
                 ))}
               </select>
