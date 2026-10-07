@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest"
 import registry from "../../data/municipalities.json"
-import { PREF_TILES, TILE_COLS, TILE_ROWS } from "./japan-tiles"
+import { PREF_TILES, TILE_COLS, TILE_ROWS, prefNameEn } from "./japan-tiles"
 
 describe("PREF_TILES", () => {
   it("レジストリの47都道府県を過不足なく1回ずつ持つ", () => {
@@ -27,5 +27,16 @@ describe("PREF_TILES", () => {
     expect(byPref.get("東京都")).toBe("東京")
     expect(byPref.get("京都府")).toBe("京都")
     expect(byPref.get("神奈川県")).toBe("神奈川")
+  })
+  it("47都道府県すべてに英語の名前があり、タイルの1行は5文字まで(北海道は2マス角なので除く)", () => {
+    for (const t of PREF_TILES) {
+      expect(t.en, t.pref).toMatch(/^[A-Z][a-z]+$/)
+      expect(t.enLines.join("")).toBe(t.en)
+      if (t.span === 1)
+        for (const line of t.enLines)
+          expect(line.length, `${t.pref}: ${line}`).toBeLessThanOrEqual(5)
+    }
+    expect(prefNameEn("神奈川県")).toBe("Kanagawa")
+    expect(prefNameEn("北海道")).toBe("Hokkaido")
   })
 })

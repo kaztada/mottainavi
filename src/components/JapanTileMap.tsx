@@ -11,9 +11,11 @@ export function JapanTileMap({
   selected,
   supportedPrefs,
   label,
+  lang,
   onSelect,
 }: {
   selected: string
+  lang: "ja" | "en"
   supportedPrefs: ReadonlySet<string>
   label: string
   onSelect: (pref: string) => void
@@ -37,21 +39,24 @@ export function JapanTileMap({
             ? "border-accent bg-accent-soft font-bold text-accent-strong underline underline-offset-2"
             : "border-border bg-card text-foreground"
         // 文字の大きさはタイルの幅に合わせる(cqw = タイルの内側の幅の 1%)。
-        // 3文字の県名(神奈川・和歌山・鹿児島)は、高さを保ったまま横だけ少し詰めて収める
+        // 3文字の県名(神奈川・和歌山・鹿児島)は、高さを保ったまま横だけ少し詰めて収める。
+        // 英語は1行5文字まで(長い名前は2行)なので、5文字が収まる大きさにする
         const chars = t.label.length
         const labelStyle: React.CSSProperties =
-          chars >= 3
-            ? {
-                fontSize: `min(${t.span > 1 ? 26 : 36}cqw, 14px)`,
-                transform: t.span > 1 ? undefined : "scaleX(0.85)",
-              }
-            : { fontSize: "min(44cqw, 14px)" }
+          lang === "en"
+            ? { fontSize: `min(${t.span > 1 ? 20 : 30}cqw, 14px)` }
+            : chars >= 3
+              ? {
+                  fontSize: `min(${t.span > 1 ? 26 : 36}cqw, 14px)`,
+                  transform: t.span > 1 ? undefined : "scaleX(0.85)",
+                }
+              : { fontSize: "min(44cqw, 14px)" }
         return (
           <button
             key={t.pref}
             type="button"
             tabIndex={-1}
-            aria-label={t.pref}
+            aria-label={lang === "en" ? t.en : t.pref}
             aria-pressed={isSelected}
             onClick={() => onSelect(t.pref)}
             className={`flex items-center justify-center overflow-hidden whitespace-nowrap rounded-md border leading-none active:bg-accent-soft ${tone}`}
@@ -61,7 +66,15 @@ export function JapanTileMap({
               containerType: "inline-size",
             }}
           >
-            <span style={labelStyle}>{t.label}</span>
+            <span style={labelStyle} className="text-center">
+              {lang === "en"
+                ? t.enLines.map((line) => (
+                    <span key={line} className="block">
+                      {line}
+                    </span>
+                  ))
+                : t.label}
+            </span>
           </button>
         )
       })}

@@ -8,6 +8,10 @@ export interface PrefTile {
   pref: string
   /** タイルに出す短い名前(都・府・県を外したもの。北海道はそのまま) */
   label: string
+  /** 英語の名前(Prefecture などは付けない) */
+  en: string
+  /** 英語モードのタイルに出す行。長い名前は読みの切れ目で2行に分ける(1行は5文字まで) */
+  enLines: string[]
   /** 列(西 → 東、0 始まり) */
   col: number
   /** 行(北 → 南、0 始まり) */
@@ -21,6 +25,66 @@ export const TILE_ROWS = 13
 
 function shortName(pref: string): string {
   return pref === "北海道" ? pref : pref.replace(/[都府県]$/, "")
+}
+
+/**
+ * 英語の名前。タイルは小さいので、6文字以上の名前は読みの切れ目(/)で2行に分ける。
+ * Gunma は5文字だが、幅の広い字(m)でスマホ幅のタイルからはみ出すので、2行にする。
+ * 北海道は2マス角なので分けない。
+ */
+const EN_NAMES: Record<string, string> = {
+  北海道: "Hokkaido",
+  青森県: "Ao/mori",
+  岩手県: "Iwate",
+  宮城県: "Miya/gi",
+  秋田県: "Akita",
+  山形県: "Yama/gata",
+  福島県: "Fuku/shima",
+  茨城県: "Iba/raki",
+  栃木県: "Tochi/gi",
+  群馬県: "Gun/ma",
+  埼玉県: "Sai/tama",
+  千葉県: "Chiba",
+  東京都: "Tokyo",
+  神奈川県: "Kana/gawa",
+  新潟県: "Nii/gata",
+  富山県: "To/yama",
+  石川県: "Ishi/kawa",
+  福井県: "Fukui",
+  山梨県: "Yama/nashi",
+  長野県: "Naga/no",
+  岐阜県: "Gifu",
+  静岡県: "Shizu/oka",
+  愛知県: "Aichi",
+  三重県: "Mie",
+  滋賀県: "Shiga",
+  京都府: "Kyoto",
+  大阪府: "Osaka",
+  兵庫県: "Hyogo",
+  奈良県: "Nara",
+  和歌山県: "Waka/yama",
+  鳥取県: "Tot/tori",
+  島根県: "Shi/mane",
+  岡山県: "Oka/yama",
+  広島県: "Hiro/shima",
+  山口県: "Yama/guchi",
+  徳島県: "Toku/shima",
+  香川県: "Kaga/wa",
+  愛媛県: "Ehime",
+  高知県: "Kochi",
+  福岡県: "Fuku/oka",
+  佐賀県: "Saga",
+  長崎県: "Naga/saki",
+  熊本県: "Kuma/moto",
+  大分県: "Oita",
+  宮崎県: "Miya/zaki",
+  鹿児島県: "Kago/shima",
+  沖縄県: "Oki/nawa",
+}
+
+/** 都道府県名 → 英語の名前(一覧に無い名前はそのまま返す) */
+export function prefNameEn(pref: string): string {
+  return (EN_NAMES[pref] ?? pref).replace("/", "")
 }
 
 const LAYOUT: [pref: string, col: number, row: number, span?: number][] = [
@@ -77,6 +141,8 @@ export const PREF_TILES: PrefTile[] = LAYOUT.map(
   ([pref, col, row, span = 1]) => ({
     pref,
     label: shortName(pref),
+    en: prefNameEn(pref),
+    enLines: (EN_NAMES[pref] ?? pref).split("/"),
     col,
     row,
     span,
