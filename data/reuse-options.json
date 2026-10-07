@@ -120,6 +120,17 @@
         "municipality_id": "fukuoka-city"
       },
       {
+        "type": "official",
+        "title_ja": "使用済み小型家電の回収ボックスに入れる(市役所・西支所・図書館・公民館など9か所)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall, West Branch Office, libraries, community centers; 9 locations)",
+        "desc_ja": "投入口(縦15cm×横30cm)に入る、電気・電池で動く家電製品が対象です。中の金属が資源としてもう一働き。出火などの事故につながるおそれがあるので、電池類は必ず抜いてから。個人情報は消しておきます。電球・蛍光灯・電池類、CDやDVDなどのディスク類は入れられません。",
+        "desc_en": "For electric or battery-powered devices that fit the 15 cm x 30 cm slot. The metals inside get another life. Always remove batteries first, as they can cause fires, and wipe personal data. Light bulbs, fluorescent lamps, batteries and discs (CDs, DVDs) cannot be put in the box.",
+        "url": "https://www.city.maizuru.kyoto.jp/kurashi/0000001030.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "maizuru-city"
+      },
+      {
         "type": "resale",
         "title_ja": "動くうちに買取・フリマへ",
         "title_en": "Working items: sell or trade in",

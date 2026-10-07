@@ -9797,8 +9797,8 @@
     "pref": "京都府",
     "name_ja": "舞鶴市",
     "name_en": "Maizuru City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www.city.maizuru.kyoto.jp/"
   },
   {
     "slug": "ayabe-city",

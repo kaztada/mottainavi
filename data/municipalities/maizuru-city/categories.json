@@ -1,0 +1,56 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック容器包装類",
+    "name_en": "Plastic Containers & Packaging"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "飲料用空缶類",
+    "name_en": "Drink Cans"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "食用びん類",
+    "name_en": "Food & Drink Glass Bottles"
+  },
+  {
+    "id": "kinzoku",
+    "kind": "recyclable",
+    "name_ja": "金属類",
+    "name_en": "Metal"
+  },
+  {
+    "id": "kami",
+    "kind": "paper",
+    "name_ja": "紙類(資源ごみ)",
+    "name_en": "Paper (Recyclables)"
+  },
+  {
+    "id": "umetate",
+    "kind": "non-burnable",
+    "name_ja": "埋立ごみ",
+    "name_en": "Landfill Waste (Non-burnable)"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste (Batteries, Fluorescent Lamps, Spray Cans, Lighters)"
+  }
+]
