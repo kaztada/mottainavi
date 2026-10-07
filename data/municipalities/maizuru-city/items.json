@@ -1,6 +1,6 @@
 {
   "municipality_id": "maizuru-city",
-  "generated_at": "2026-10-07T22:29:38.096Z",
+  "generated_at": "2026-10-07T22:35:27.953Z",
   "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
   "item_count": 115,
   "items": [
@@ -162,7 +162,7 @@
       "dispositions": [
         {
           "category_id": "pet",
-          "note_ja": "キャップとラベルを取り、中をすすぎ洗いして水をきり、ペットボトルだけを指定ごみ袋に入れて出します(プラスチック容器包装類とは別の袋)。\nはがしたラベルやキャップはプラスチック容器包装類。",
+          "note_ja": "キャップとラベルを取り、中をすすぎ洗いして水をきり、ペットボトルだけを指定ごみ袋に入れて出します(プラスチック容器包装類とは別の袋)。すすいでも汚れの落ちないものは埋立ごみです。\nはがしたラベルやキャップはプラスチック容器包装類。",
           "official_link": "https://www.city.maizuru.kyoto.jp/kurashi/0000012922.html"
         }
       ],
