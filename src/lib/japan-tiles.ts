@@ -29,6 +29,7 @@ function shortName(pref: string): string {
 
 /**
  * 英語の名前。タイルは小さいので、6文字以上の名前は読みの切れ目(/)で2行に分ける。
+ * Gunma は5文字だが、幅の広い字(m)でスマホ幅のタイルからはみ出すので、2行にする。
  * 北海道は2マス角なので分けない。
  */
 const EN_NAMES: Record<string, string> = {
