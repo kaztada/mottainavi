@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-07T20:31:47.328Z",
+  "generated_at": "2026-10-07T20:43:25.559Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -41802,7 +41802,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Back hanger (metal)"
+      "name_en": "Bag hanger (purse hook for table; metal)"
     },
     {
       "id": "yok-2526",
@@ -41819,7 +41819,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Back hanger (plastic)"
+      "name_en": "Bag hanger (purse hook for table; plastic)"
     },
     {
       "id": "yok-2527",
@@ -42004,7 +42004,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bird ring (cloth, plastic)"
+      "name_en": "Bird leg ring (cloth, plastic)"
     },
     {
       "id": "yok-2538",
@@ -43471,7 +43471,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Vinyl bucket"
+      "name_en": "Vinyl bucket (collapsible soft plastic bucket)"
     },
     {
       "id": "yok-2627",
@@ -44472,7 +44472,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hoop"
+      "name_en": "Hoop (exercise hoop / hula hoop)"
     },
     {
       "id": "yok-2686",
@@ -45536,7 +45536,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Crusher / pulverizer"
+      "name_en": "Crusher (pulverizer)"
     },
     {
       "id": "yok-2754",
@@ -45553,7 +45553,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Boot stand (metal)"
+      "name_en": "Boot stand (boot shaper; metal)"
     },
     {
       "id": "yok-2755",
@@ -45570,7 +45570,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Boot stand (wood, plastic)"
+      "name_en": "Boot stand (boot shaper; wood, plastic)"
     },
     {
       "id": "yok-2756",
@@ -46424,7 +46424,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fukusa (silk wrapping cloth)"
+      "name_en": "Fukusa (ceremonial wrapping cloth)"
     },
     {
       "id": "yok-2806",
@@ -49089,7 +49089,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Insect-repellent cover"
+      "name_en": "Moth-repellent garment cover"
     },
     {
       "id": "yok-2963",
@@ -50273,7 +50273,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Polyethylene cap (poly cap)"
+      "name_en": "Poly cap"
     },
     {
       "id": "yok-3032",
@@ -50392,7 +50392,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Warmer (heat-retaining appliance)"
+      "name_en": "Warmer"
     },
     {
       "id": "yok-3041",
@@ -51952,7 +51952,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Drink stirrer (muddler)"
+      "name_en": "Drink stirrer"
     },
     {
       "id": "yok-3132",
@@ -52071,7 +52071,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Maika-sen (tie-down band for plastic greenhouses)"
+      "name_en": "Mica band (flat tie-down band for plastic greenhouses)"
     },
     {
       "id": "yok-3139",
@@ -54527,7 +54527,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Salad spinner (vegetable drainer)"
+      "name_en": "Salad spinner (all-plastic)"
     },
     {
       "id": "yok-3285",
@@ -56320,7 +56320,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Linear hanger (metal)"
+      "name_en": "Linear hanger (laundry drying hanger; metal)"
     },
     {
       "id": "yok-3391",
@@ -56337,7 +56337,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Linear hanger (plastic)"
+      "name_en": "Linear hanger (laundry drying hanger; plastic)"
     },
     {
       "id": "yok-3392",
@@ -57874,7 +57874,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": "Clothing with cotton batting (feather) filling"
+      "name_en": "Clothing with batting or feather filling"
     },
     {
       "id": "yok-3482",
@@ -58078,7 +58078,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Workstation (server)"
+      "name_en": "Workstation / server (excluding personal computers)"
     },
     {
       "id": "yok-3494",
@@ -58248,7 +58248,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Winding machine (wood, plastic)"
+      "name_en": "Watch winder (winding machine; wood, plastic)"
     },
     {
       "id": "yok-3504",
@@ -58265,7 +58265,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Winding machine (metal)"
+      "name_en": "Watch winder (winding machine; metal)"
     },
     {
       "id": "yok-3505",
@@ -58411,7 +58411,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water bag"
+      "name_en": "Water bag (water-filled training weight)"
     },
     {
       "id": "yok-3514",
@@ -59238,7 +59238,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Discharger (battery discharger)"
+      "name_en": "Discharger"
     },
     {
       "id": "yok-3561",
@@ -59462,7 +59462,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Waterproof film"
+      "name_en": "Waterproof film (waterproof bandage film)"
     },
     {
       "id": "yok-3574",
