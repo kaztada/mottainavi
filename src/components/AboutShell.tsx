@@ -5,6 +5,7 @@ import { ChevronLeft } from "lucide-react"
 import type { Municipality } from "@/lib/schemas"
 import { useLang, useT } from "@/lib/i18n"
 import { LangToggle } from "./LangToggle"
+import { MapCredit } from "./MapCredit"
 import { MunicipalitySwitch } from "./MunicipalitySwitch"
 import { SourceNote } from "./SourceNote"
 
@@ -104,6 +105,7 @@ export function AboutShell({
             >
               {t("about.sourceLink")}
             </a>
+            <MapCredit className="mt-3 text-muted" />
           </Section>
 
           <Section heading={t("about.coverageHeading")}>
