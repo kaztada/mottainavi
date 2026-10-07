@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react"
 import Link from "next/link"
 import { useT } from "@/lib/i18n"
+import { placeMapLabels, shortMapLabel } from "@/lib/map-labels"
 import { prefMapUrl } from "@/lib/public-data"
 import { MapCredit } from "./MapCredit"
 
@@ -83,6 +84,16 @@ export function PrefectureMap({
 
   const { data } = current
   const fontSize = Math.round(data.w / 28)
+  // 対応済みの市区町村の名前。地図の上では短い名前にし、重なるものは下へずらす
+  const labels = placeMapLabels(
+    data.m.flatMap((m) => {
+      const muni = byslug.get(m.s)
+      return muni?.supported
+        ? [{ key: m.s, text: shortMapLabel(muni.name), x: m.c[0], y: m.c[1] }]
+        : []
+    }),
+    fontSize
+  )
   return (
     <div className="flex flex-col gap-2.5">
       <svg
@@ -118,27 +129,23 @@ export function PrefectureMap({
             />
           )
         })}
-        {data.m.map((m) => {
-          const muni = byslug.get(m.s)
-          if (!muni?.supported) return null
-          return (
-            <text
-              key={m.s}
-              x={m.c[0]}
-              y={m.c[1]}
-              textAnchor="middle"
-              dominantBaseline="central"
-              fontSize={fontSize}
-              fontWeight={700}
-              className="pointer-events-none fill-foreground stroke-card"
-              strokeWidth={fontSize / 4}
-              paintOrder="stroke"
-              aria-hidden
-            >
-              {muni.name}
-            </text>
-          )
-        })}
+        {labels.map((label) => (
+          <text
+            key={label.key}
+            x={label.x}
+            y={label.y}
+            textAnchor="middle"
+            dominantBaseline="central"
+            fontSize={fontSize}
+            fontWeight={700}
+            className="pointer-events-none fill-foreground stroke-card"
+            strokeWidth={fontSize / 4}
+            paintOrder="stroke"
+            aria-hidden
+          >
+            {label.text}
+          </text>
+        ))}
       </svg>
 
       {data.off.length > 0 && (
