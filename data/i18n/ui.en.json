@@ -56,6 +56,8 @@
   "about.contactBody": "If you spot incorrect sorting info or a bug, I'd be happy to hear about it via GitHub Issues.",
   "about.contactLink": "GitHub Issues ↗",
   "muni.change": "{municipality}",
+  "muni.changeLabel": "Change",
+  "footer.changeMunicipality": "Choose another municipality (map)",
   "muni.changeAria": "Change your municipality (currently {municipality})",
   "select.heading": "Choose your city, town, or village",
   "select.intro": "An unofficial guide to local waste-sorting rules — and to options for letting things go before you throw them away.",
