@@ -6908,8 +6908,8 @@
     "pref": "石川県",
     "name_ja": "金沢市",
     "name_en": "Kanazawa City",
-    "status": "unsupported",
-    "official_url": null
+    "status": "supported",
+    "official_url": "https://www4.city.kanazawa.lg.jp/"
   },
   {
     "slug": "nanao-city",
