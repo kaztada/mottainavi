@@ -1,0 +1,14 @@
+{
+  "slug": "kanazawa-city",
+  "item_id_prefix": "knz",
+  "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY",
+  "source_attribution": "出典: 「金沢市 ごみ分別辞典」(金沢市)(https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten)を加工して作成(CC BY)",
+  "source_attribution_en": "Source: \"Kanazawa City Garbage Sorting Dictionary\" (Kanazawa City) (https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten), adapted (CC BY)",
+  "sodai_apply_url": "https://www4.city.kanazawa.lg.jp/soshikikarasagasu/gomigenryosuishinka/gyomuannai/1/3/gomidasi_benri/line_sodaigomi.html",
+  "sodai_tel_landline": "076-220-7153",
+  "sodai_tel_mobile": "076-220-7153",
+  "data_fetched_at": "2026-10-08",
+  "data_version": "20261008"
+}

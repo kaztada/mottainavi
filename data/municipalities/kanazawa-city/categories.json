@@ -1,0 +1,92 @@
+[
+  {
+    "id": "moyasu",
+    "kind": "burnable",
+    "name_ja": "燃やすごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "umetate",
+    "kind": "non-burnable",
+    "name_ja": "燃やさないごみ(埋立ごみ)",
+    "name_en": "Non-burnable Waste (Landfill)"
+  },
+  {
+    "id": "kinzoku",
+    "kind": "recyclable",
+    "name_ja": "燃やさないごみ(金属・小型家電類)",
+    "name_en": "Non-burnable Waste (Metal & Small Appliances)"
+  },
+  {
+    "id": "lighter",
+    "kind": "hazardous",
+    "name_ja": "燃やさないごみ(ライター)",
+    "name_en": "Non-burnable Waste (Lighters)"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "資源(プラスチック資源)",
+    "name_en": "Plastic Resources"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "資源(あき缶)",
+    "name_en": "Cans"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "資源(ペットボトル)",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "あきびん",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "denchi",
+    "kind": "hazardous",
+    "name_ja": "資源(乾電池・水銀含有製品)",
+    "name_en": "Batteries & Mercury-containing Products"
+  },
+  {
+    "id": "spray",
+    "kind": "hazardous",
+    "name_ja": "資源(スプレー缶・カセットボンベ)",
+    "name_en": "Spray Cans & Gas Canisters"
+  },
+  {
+    "id": "furon",
+    "kind": "recyclable",
+    "name_ja": "資源(フロン回収製品)",
+    "name_en": "CFC-containing Products (Dehumidifiers etc.)"
+  },
+  {
+    "id": "kobetsu",
+    "kind": "bulky",
+    "name_ja": "有料戸別収集(粗大ごみ)",
+    "name_en": "Bulky Waste (reservation, fee)"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市で収集できないもの",
+    "name_en": "Not Collected by the City"
+  },
+  {
+    "id": "taryo",
+    "kind": "other",
+    "name_ja": "多量ごみ(有料戸別収集)",
+    "name_en": "Large-volume Waste (reservation, fee)"
+  },
+  {
+    "id": "pet-shitai",
+    "kind": "other",
+    "name_ja": "ペット類の死体",
+    "name_en": "Deceased Pets"
+  }
+]
