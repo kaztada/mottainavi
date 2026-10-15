@@ -1,0 +1,6009 @@
+{
+  "sapporo-city": {
+    "status": "unsurveyed"
+  },
+  "hakodate-city": {
+    "status": "unsurveyed"
+  },
+  "otaru-city": {
+    "status": "unsurveyed"
+  },
+  "asahikawa-city": {
+    "status": "unsurveyed"
+  },
+  "muroran-city": {
+    "status": "unsurveyed"
+  },
+  "kushiro-city": {
+    "status": "unsurveyed"
+  },
+  "obihiro-city": {
+    "status": "unsurveyed"
+  },
+  "kitami-city": {
+    "status": "unsurveyed"
+  },
+  "yubari-city": {
+    "status": "unsurveyed"
+  },
+  "iwamizawa-city": {
+    "status": "unsurveyed"
+  },
+  "abashiri-city": {
+    "status": "unsurveyed"
+  },
+  "rumoi-city": {
+    "status": "unsurveyed"
+  },
+  "tomakomai-city": {
+    "status": "unsurveyed"
+  },
+  "wakkanai-city": {
+    "status": "unsurveyed"
+  },
+  "bibai-city": {
+    "status": "unsurveyed"
+  },
+  "ashibetsu-city": {
+    "status": "unsurveyed"
+  },
+  "ebetsu-city": {
+    "status": "unsurveyed"
+  },
+  "akabira-city": {
+    "status": "unsurveyed"
+  },
+  "monbetsu-city": {
+    "status": "unsurveyed"
+  },
+  "shibetsu-city": {
+    "status": "unsurveyed"
+  },
+  "nayoro-city": {
+    "status": "unsurveyed"
+  },
+  "mikasa-city": {
+    "status": "unsurveyed"
+  },
+  "nemuro-city": {
+    "status": "unsurveyed"
+  },
+  "chitose-city": {
+    "status": "unsurveyed"
+  },
+  "takikawa-city": {
+    "status": "unsurveyed"
+  },
+  "sunagawa-city": {
+    "status": "unsurveyed"
+  },
+  "utashinai-city": {
+    "status": "unsurveyed"
+  },
+  "fukagawa-city": {
+    "status": "unsurveyed"
+  },
+  "furano-city": {
+    "status": "unsurveyed"
+  },
+  "noboribetsu-city": {
+    "status": "unsurveyed"
+  },
+  "eniwa-city": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-date-city": {
+    "status": "unsurveyed"
+  },
+  "kitahiroshima-city": {
+    "status": "unsurveyed"
+  },
+  "ishikari-city": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-hokuto-city": {
+    "status": "unsurveyed"
+  },
+  "tobetsu-town": {
+    "status": "unsurveyed"
+  },
+  "shinshinotsu-village": {
+    "status": "unsurveyed"
+  },
+  "matsumae-town": {
+    "status": "unsurveyed"
+  },
+  "fukushima-town": {
+    "status": "unsurveyed"
+  },
+  "shiriuchi-town": {
+    "status": "unsurveyed"
+  },
+  "kikonai-town": {
+    "status": "unsurveyed"
+  },
+  "nanae-town": {
+    "status": "unsurveyed"
+  },
+  "shikabe-town": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-mori-town": {
+    "status": "unsurveyed"
+  },
+  "yakumo-town": {
+    "status": "unsurveyed"
+  },
+  "oshamanbe-town": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-hiyama-esashi-town": {
+    "status": "unsurveyed"
+  },
+  "kaminokuni-town": {
+    "status": "unsurveyed"
+  },
+  "assabu-town": {
+    "status": "unsurveyed"
+  },
+  "otobe-town": {
+    "status": "unsurveyed"
+  },
+  "okushiri-town": {
+    "status": "unsurveyed"
+  },
+  "imakane-town": {
+    "status": "unsurveyed"
+  },
+  "setana-town": {
+    "status": "unsurveyed"
+  },
+  "shimamaki-village": {
+    "status": "unsurveyed"
+  },
+  "suttsu-town": {
+    "status": "unsurveyed"
+  },
+  "kuromatsunai-town": {
+    "status": "unsurveyed"
+  },
+  "rankoshi-town": {
+    "status": "unsurveyed"
+  },
+  "niseko-town": {
+    "status": "unsurveyed"
+  },
+  "makkari-village": {
+    "status": "unsurveyed"
+  },
+  "rusutsu-village": {
+    "status": "unsurveyed"
+  },
+  "kimobetsu-town": {
+    "status": "unsurveyed"
+  },
+  "kyogoku-town": {
+    "status": "unsurveyed"
+  },
+  "kutchan-town": {
+    "status": "unsurveyed"
+  },
+  "kyowa-town": {
+    "status": "unsurveyed"
+  },
+  "iwanai-town": {
+    "status": "unsurveyed"
+  },
+  "tomari-village": {
+    "status": "unsurveyed"
+  },
+  "kamoenai-village": {
+    "status": "unsurveyed"
+  },
+  "shakotan-town": {
+    "status": "unsurveyed"
+  },
+  "furubira-town": {
+    "status": "unsurveyed"
+  },
+  "niki-town": {
+    "status": "unsurveyed"
+  },
+  "yoichi-town": {
+    "status": "unsurveyed"
+  },
+  "akaigawa-village": {
+    "status": "unsurveyed"
+  },
+  "nanporo-town": {
+    "status": "unsurveyed"
+  },
+  "naie-town": {
+    "status": "unsurveyed"
+  },
+  "kamisunagawa-town": {
+    "status": "unsurveyed"
+  },
+  "yuni-town": {
+    "status": "unsurveyed"
+  },
+  "naganuma-town": {
+    "status": "unsurveyed"
+  },
+  "kuriyama-town": {
+    "status": "unsurveyed"
+  },
+  "tsukigata-town": {
+    "status": "unsurveyed"
+  },
+  "urausu-town": {
+    "status": "unsurveyed"
+  },
+  "shintotsukawa-town": {
+    "status": "unsurveyed"
+  },
+  "moseushi-town": {
+    "status": "unsurveyed"
+  },
+  "chippubetsu-town": {
+    "status": "unsurveyed"
+  },
+  "uryu-town": {
+    "status": "unsurveyed"
+  },
+  "hokuryu-town": {
+    "status": "unsurveyed"
+  },
+  "numata-town": {
+    "status": "unsurveyed"
+  },
+  "takasu-town": {
+    "status": "unsurveyed"
+  },
+  "higashikagura-town": {
+    "status": "unsurveyed"
+  },
+  "toma-town": {
+    "status": "unsurveyed"
+  },
+  "pippu-town": {
+    "status": "unsurveyed"
+  },
+  "aibetsu-town": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-kamikawa-town": {
+    "status": "unsurveyed"
+  },
+  "higashikawa-town": {
+    "status": "unsurveyed"
+  },
+  "biei-town": {
+    "status": "unsurveyed"
+  },
+  "kamifurano-town": {
+    "status": "unsurveyed"
+  },
+  "nakafurano-town": {
+    "status": "unsurveyed"
+  },
+  "minamifurano-town": {
+    "status": "unsurveyed"
+  },
+  "shimukappu-village": {
+    "status": "unsurveyed"
+  },
+  "wassamu-town": {
+    "status": "unsurveyed"
+  },
+  "kenbuchi-town": {
+    "status": "unsurveyed"
+  },
+  "shimokawa-town": {
+    "status": "unsurveyed"
+  },
+  "bifuka-town": {
+    "status": "unsurveyed"
+  },
+  "otoineppu-village": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-nakagawa-town": {
+    "status": "unsurveyed"
+  },
+  "horokanai-town": {
+    "status": "unsurveyed"
+  },
+  "mashike-town": {
+    "status": "unsurveyed"
+  },
+  "obira-town": {
+    "status": "unsurveyed"
+  },
+  "tomamae-town": {
+    "status": "unsurveyed"
+  },
+  "haboro-town": {
+    "status": "unsurveyed"
+  },
+  "shosanbetsu-village": {
+    "status": "unsurveyed"
+  },
+  "enbetsu-town": {
+    "status": "unsurveyed"
+  },
+  "teshio-town": {
+    "status": "unsurveyed"
+  },
+  "sarufutsu-village": {
+    "status": "unsurveyed"
+  },
+  "hamatonbetsu-town": {
+    "status": "unsurveyed"
+  },
+  "nakatonbetsu-town": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-soya-esashi-town": {
+    "status": "unsurveyed"
+  },
+  "toyotomi-town": {
+    "status": "unsurveyed"
+  },
+  "rebun-town": {
+    "status": "unsurveyed"
+  },
+  "rishiri-town": {
+    "status": "unsurveyed"
+  },
+  "rishirifuji-town": {
+    "status": "unsurveyed"
+  },
+  "horonobe-town": {
+    "status": "unsurveyed"
+  },
+  "bihoro-town": {
+    "status": "unsurveyed"
+  },
+  "tsubetsu-town": {
+    "status": "unsurveyed"
+  },
+  "shari-town": {
+    "status": "unsurveyed"
+  },
+  "kiyosato-town": {
+    "status": "unsurveyed"
+  },
+  "koshimizu-town": {
+    "status": "unsurveyed"
+  },
+  "kunneppu-town": {
+    "status": "unsurveyed"
+  },
+  "oketo-town": {
+    "status": "unsurveyed"
+  },
+  "saroma-town": {
+    "status": "unsurveyed"
+  },
+  "engaru-town": {
+    "status": "unsurveyed"
+  },
+  "yubetsu-town": {
+    "status": "unsurveyed"
+  },
+  "takinoe-town": {
+    "status": "unsurveyed"
+  },
+  "okoppe-town": {
+    "status": "unsurveyed"
+  },
+  "nishiokoppe-village": {
+    "status": "unsurveyed"
+  },
+  "omu-town": {
+    "status": "unsurveyed"
+  },
+  "ozora-town": {
+    "status": "unsurveyed"
+  },
+  "toyora-town": {
+    "status": "unsurveyed"
+  },
+  "sobetsu-town": {
+    "status": "unsurveyed"
+  },
+  "shiraoi-town": {
+    "status": "unsurveyed"
+  },
+  "atsuma-town": {
+    "status": "unsurveyed"
+  },
+  "toyako-town": {
+    "status": "unsurveyed"
+  },
+  "abira-town": {
+    "status": "unsurveyed"
+  },
+  "mukawa-town": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-hidaka-town": {
+    "status": "unsurveyed"
+  },
+  "biratori-town": {
+    "status": "unsurveyed"
+  },
+  "niikappu-town": {
+    "status": "unsurveyed"
+  },
+  "urakawa-town": {
+    "status": "unsurveyed"
+  },
+  "samani-town": {
+    "status": "unsurveyed"
+  },
+  "erimo-town": {
+    "status": "unsurveyed"
+  },
+  "shinhidaka-town": {
+    "status": "unsurveyed"
+  },
+  "otofuke-town": {
+    "status": "unsurveyed"
+  },
+  "shihoro-town": {
+    "status": "unsurveyed"
+  },
+  "kamishihoro-town": {
+    "status": "unsurveyed"
+  },
+  "shikaoi-town": {
+    "status": "unsurveyed"
+  },
+  "shintoku-town": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-shimizu-town": {
+    "status": "unsurveyed"
+  },
+  "memuro-town": {
+    "status": "unsurveyed"
+  },
+  "nakasatsunai-village": {
+    "status": "unsurveyed"
+  },
+  "sarabetsu-village": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-taiki-town": {
+    "status": "unsurveyed"
+  },
+  "hiro-town": {
+    "status": "unsurveyed"
+  },
+  "makubetsu-town": {
+    "status": "unsurveyed"
+  },
+  "hokkaido-ikeda-town": {
+    "status": "unsurveyed"
+  },
+  "toyokoro-town": {
+    "status": "unsurveyed"
+  },
+  "honbetsu-town": {
+    "status": "unsurveyed"
+  },
+  "ashoro-town": {
+    "status": "unsurveyed"
+  },
+  "rikubetsu-town": {
+    "status": "unsurveyed"
+  },
+  "urahoro-town": {
+    "status": "unsurveyed"
+  },
+  "kushiro-town": {
+    "status": "unsurveyed"
+  },
+  "akkeshi-town": {
+    "status": "unsurveyed"
+  },
+  "hamanaka-town": {
+    "status": "unsurveyed"
+  },
+  "shibecha-town": {
+    "status": "unsurveyed"
+  },
+  "teshikaga-town": {
+    "status": "unsurveyed"
+  },
+  "tsurui-village": {
+    "status": "unsurveyed"
+  },
+  "shiranuka-town": {
+    "status": "unsurveyed"
+  },
+  "betsukai-town": {
+    "status": "unsurveyed"
+  },
+  "nakashibetsu-town": {
+    "status": "unsurveyed"
+  },
+  "shibetsu-town": {
+    "status": "unsurveyed"
+  },
+  "rausu-town": {
+    "status": "unsurveyed"
+  },
+  "aomori-city": {
+    "status": "unsurveyed"
+  },
+  "hirosaki-city": {
+    "status": "unsurveyed"
+  },
+  "hachinohe-city": {
+    "status": "unsurveyed"
+  },
+  "kuroishi-city": {
+    "status": "unsurveyed"
+  },
+  "goshogawara-city": {
+    "status": "unsurveyed"
+  },
+  "towada-city": {
+    "status": "unsurveyed"
+  },
+  "misawa-city": {
+    "status": "unsurveyed"
+  },
+  "mutsu-city": {
+    "status": "unsurveyed"
+  },
+  "tsugaru-city": {
+    "status": "unsurveyed"
+  },
+  "hirakawa-city": {
+    "status": "unsurveyed"
+  },
+  "hiranai-town": {
+    "status": "unsurveyed"
+  },
+  "imabetsu-town": {
+    "status": "unsurveyed"
+  },
+  "yomogita-village": {
+    "status": "unsurveyed"
+  },
+  "sotogahama-town": {
+    "status": "unsurveyed"
+  },
+  "ajigasawa-town": {
+    "status": "unsurveyed"
+  },
+  "fukaura-town": {
+    "status": "unsurveyed"
+  },
+  "nishimeya-village": {
+    "status": "unsurveyed"
+  },
+  "fujisaki-town": {
+    "status": "unsurveyed"
+  },
+  "owani-town": {
+    "status": "unsurveyed"
+  },
+  "inakadate-village": {
+    "status": "unsurveyed"
+  },
+  "itayanagi-town": {
+    "status": "unsurveyed"
+  },
+  "tsuruta-town": {
+    "status": "unsurveyed"
+  },
+  "nakadomari-town": {
+    "status": "unsurveyed"
+  },
+  "noheji-town": {
+    "status": "unsurveyed"
+  },
+  "shichinohe-town": {
+    "status": "unsurveyed"
+  },
+  "rokunohe-town": {
+    "status": "unsurveyed"
+  },
+  "yokohama-town": {
+    "status": "unsurveyed"
+  },
+  "tohoku-town": {
+    "status": "unsurveyed"
+  },
+  "rokkasho-village": {
+    "status": "unsurveyed"
+  },
+  "oirase-town": {
+    "status": "unsurveyed"
+  },
+  "oma-town": {
+    "status": "unsurveyed"
+  },
+  "higashidori-village": {
+    "status": "unsurveyed"
+  },
+  "kazamaura-village": {
+    "status": "unsurveyed"
+  },
+  "sai-village": {
+    "status": "unsurveyed"
+  },
+  "sannohe-town": {
+    "status": "unsurveyed"
+  },
+  "gonohe-town": {
+    "status": "unsurveyed"
+  },
+  "takko-town": {
+    "status": "unsurveyed"
+  },
+  "aomori-nanbu-town": {
+    "status": "unsurveyed"
+  },
+  "hashikami-town": {
+    "status": "unsurveyed"
+  },
+  "shingo-village": {
+    "status": "unsurveyed"
+  },
+  "morioka-city": {
+    "status": "unsurveyed"
+  },
+  "miyako-city": {
+    "status": "unsurveyed"
+  },
+  "ofunato-city": {
+    "status": "unsurveyed"
+  },
+  "hanamaki-city": {
+    "status": "unsurveyed"
+  },
+  "kitakami-city": {
+    "status": "unsurveyed"
+  },
+  "kuji-city": {
+    "status": "unsurveyed"
+  },
+  "tono-city": {
+    "status": "unsurveyed"
+  },
+  "ichinoseki-city": {
+    "status": "unsurveyed"
+  },
+  "rikuzentakata-city": {
+    "status": "unsurveyed"
+  },
+  "kamaishi-city": {
+    "status": "unsurveyed"
+  },
+  "ninohe-city": {
+    "status": "unsurveyed"
+  },
+  "hachimantai-city": {
+    "status": "unsurveyed"
+  },
+  "oshu-city": {
+    "status": "unsurveyed"
+  },
+  "takizawa-city": {
+    "status": "unsurveyed"
+  },
+  "shizukuishi-town": {
+    "status": "unsurveyed"
+  },
+  "kuzumaki-town": {
+    "status": "unsurveyed"
+  },
+  "iwate-town": {
+    "status": "unsurveyed"
+  },
+  "shiwa-town": {
+    "status": "unsurveyed"
+  },
+  "yahaba-town": {
+    "status": "unsurveyed"
+  },
+  "nishiwaga-town": {
+    "status": "unsurveyed"
+  },
+  "kanegasaki-town": {
+    "status": "unsurveyed"
+  },
+  "hiraizumi-town": {
+    "status": "unsurveyed"
+  },
+  "sumita-town": {
+    "status": "unsurveyed"
+  },
+  "otsuchi-town": {
+    "status": "unsurveyed"
+  },
+  "yamada-town": {
+    "status": "unsurveyed"
+  },
+  "iwaizumi-town": {
+    "status": "unsurveyed"
+  },
+  "tanohata-village": {
+    "status": "unsurveyed"
+  },
+  "fudai-village": {
+    "status": "unsurveyed"
+  },
+  "karumai-town": {
+    "status": "unsurveyed"
+  },
+  "noda-village": {
+    "status": "unsurveyed"
+  },
+  "kunohe-village": {
+    "status": "unsurveyed"
+  },
+  "iwate-hirono-town": {
+    "status": "unsurveyed"
+  },
+  "ichinohe-town": {
+    "status": "unsurveyed"
+  },
+  "sendai-city": {
+    "status": "unsurveyed"
+  },
+  "ishinomaki-city": {
+    "status": "unsurveyed"
+  },
+  "shiogama-city": {
+    "status": "unsurveyed"
+  },
+  "kesennuma-city": {
+    "status": "unsurveyed"
+  },
+  "shiroishi-city": {
+    "status": "unsurveyed"
+  },
+  "natori-city": {
+    "status": "unsurveyed"
+  },
+  "kakuda-city": {
+    "status": "unsurveyed"
+  },
+  "tagajo-city": {
+    "status": "unsurveyed"
+  },
+  "iwanuma-city": {
+    "status": "unsurveyed"
+  },
+  "tome-city": {
+    "status": "unsurveyed"
+  },
+  "kurihara-city": {
+    "status": "unsurveyed"
+  },
+  "higashimatsushima-city": {
+    "status": "unsurveyed"
+  },
+  "osaki-city": {
+    "status": "unsurveyed"
+  },
+  "tomiya-city": {
+    "status": "unsurveyed"
+  },
+  "zao-town": {
+    "status": "unsurveyed"
+  },
+  "shichikashuku-town": {
+    "status": "unsurveyed"
+  },
+  "ogawara-town": {
+    "status": "unsurveyed"
+  },
+  "murata-town": {
+    "status": "unsurveyed"
+  },
+  "shibata-town": {
+    "status": "unsurveyed"
+  },
+  "miyagi-kawasaki-town": {
+    "status": "unsurveyed"
+  },
+  "marumori-town": {
+    "status": "unsurveyed"
+  },
+  "watari-town": {
+    "status": "unsurveyed"
+  },
+  "yamamoto-town": {
+    "status": "unsurveyed"
+  },
+  "matsushima-town": {
+    "status": "unsurveyed"
+  },
+  "shichigahama-town": {
+    "status": "unsurveyed"
+  },
+  "rifu-town": {
+    "status": "unsurveyed"
+  },
+  "taiwa-town": {
+    "status": "unsurveyed"
+  },
+  "osato-town": {
+    "status": "unsurveyed"
+  },
+  "ohira-village": {
+    "status": "unsurveyed"
+  },
+  "shikama-town": {
+    "status": "unsurveyed"
+  },
+  "miyagi-kami-town": {
+    "status": "unsurveyed"
+  },
+  "wakuya-town": {
+    "status": "unsurveyed"
+  },
+  "miyagi-misato-town": {
+    "status": "unsurveyed"
+  },
+  "onagawa-town": {
+    "status": "unsurveyed"
+  },
+  "minamisanriku-town": {
+    "status": "unsurveyed"
+  },
+  "akita-city": {
+    "status": "unsurveyed"
+  },
+  "noshiro-city": {
+    "status": "unsurveyed"
+  },
+  "yokote-city": {
+    "status": "unsurveyed"
+  },
+  "odate-city": {
+    "status": "unsurveyed"
+  },
+  "oga-city": {
+    "status": "unsurveyed"
+  },
+  "yuzawa-city": {
+    "status": "unsurveyed"
+  },
+  "kazuno-city": {
+    "status": "unsurveyed"
+  },
+  "yurihonjo-city": {
+    "status": "unsurveyed"
+  },
+  "katagami-city": {
+    "status": "unsurveyed"
+  },
+  "daisen-city": {
+    "status": "unsurveyed"
+  },
+  "kitaakita-city": {
+    "status": "unsurveyed"
+  },
+  "nikaho-city": {
+    "status": "unsurveyed"
+  },
+  "senboku-city": {
+    "status": "unsurveyed"
+  },
+  "kosaka-town": {
+    "status": "unsurveyed"
+  },
+  "kamikoani-village": {
+    "status": "unsurveyed"
+  },
+  "fujisato-town": {
+    "status": "unsurveyed"
+  },
+  "mitane-town": {
+    "status": "unsurveyed"
+  },
+  "happo-town": {
+    "status": "unsurveyed"
+  },
+  "gojome-town": {
+    "status": "unsurveyed"
+  },
+  "hachirogata-town": {
+    "status": "unsurveyed"
+  },
+  "ikawa-town": {
+    "status": "unsurveyed"
+  },
+  "ogata-village": {
+    "status": "unsurveyed"
+  },
+  "akita-misato-town": {
+    "status": "unsurveyed"
+  },
+  "ugo-town": {
+    "status": "unsurveyed"
+  },
+  "higashinaruse-village": {
+    "status": "unsurveyed"
+  },
+  "yamagata-yamagata-city": {
+    "status": "unsurveyed"
+  },
+  "yonezawa-city": {
+    "status": "unsurveyed"
+  },
+  "tsuruoka-city": {
+    "status": "unsurveyed"
+  },
+  "sakata-city": {
+    "status": "unsurveyed"
+  },
+  "shinjo-city": {
+    "status": "unsurveyed"
+  },
+  "sagae-city": {
+    "status": "unsurveyed"
+  },
+  "kaminoyama-city": {
+    "status": "unsurveyed"
+  },
+  "murayama-city": {
+    "status": "unsurveyed"
+  },
+  "nagai-city": {
+    "status": "unsurveyed"
+  },
+  "tendo-city": {
+    "status": "unsurveyed"
+  },
+  "higashine-city": {
+    "status": "unsurveyed"
+  },
+  "obanazawa-city": {
+    "status": "unsurveyed"
+  },
+  "nanyo-city": {
+    "status": "unsurveyed"
+  },
+  "yamanobe-town": {
+    "status": "unsurveyed"
+  },
+  "nakayama-town": {
+    "status": "unsurveyed"
+  },
+  "kahoku-town": {
+    "status": "unsurveyed"
+  },
+  "nishikawa-town": {
+    "status": "unsurveyed"
+  },
+  "yamagata-asahi-town": {
+    "status": "unsurveyed"
+  },
+  "oe-town": {
+    "status": "unsurveyed"
+  },
+  "oishida-town": {
+    "status": "unsurveyed"
+  },
+  "yamagata-kaneyama-town": {
+    "status": "unsurveyed"
+  },
+  "mogami-town": {
+    "status": "unsurveyed"
+  },
+  "funagata-town": {
+    "status": "unsurveyed"
+  },
+  "mamurogawa-town": {
+    "status": "unsurveyed"
+  },
+  "okura-village": {
+    "status": "unsurveyed"
+  },
+  "sakegawa-village": {
+    "status": "unsurveyed"
+  },
+  "tozawa-village": {
+    "status": "unsurveyed"
+  },
+  "takahata-town": {
+    "status": "unsurveyed"
+  },
+  "yamagata-kawanishi-town": {
+    "status": "unsurveyed"
+  },
+  "yamagata-oguni-town": {
+    "status": "unsurveyed"
+  },
+  "shirataka-town": {
+    "status": "unsurveyed"
+  },
+  "iide-town": {
+    "status": "unsurveyed"
+  },
+  "mikawa-town": {
+    "status": "unsurveyed"
+  },
+  "shiyonai-town": {
+    "status": "unsurveyed"
+  },
+  "yuza-town": {
+    "status": "unsurveyed"
+  },
+  "fukushima-city": {
+    "status": "unsurveyed"
+  },
+  "aizuwakamatsu-city": {
+    "status": "unsurveyed"
+  },
+  "koriyama-city": {
+    "status": "unsurveyed"
+  },
+  "iwaki-city": {
+    "status": "unsurveyed"
+  },
+  "shirakawa-city": {
+    "status": "unsurveyed"
+  },
+  "kitakata-city": {
+    "status": "unsurveyed"
+  },
+  "soma-city": {
+    "status": "unsurveyed"
+  },
+  "nihonmatsu-city": {
+    "status": "unsurveyed"
+  },
+  "tamura-city": {
+    "status": "unsurveyed"
+  },
+  "minamisoma-city": {
+    "status": "unsurveyed"
+  },
+  "fukushima-date-city": {
+    "status": "unsurveyed"
+  },
+  "motomiya-city": {
+    "status": "unsurveyed"
+  },
+  "kori-town": {
+    "status": "unsurveyed"
+  },
+  "kunimi-town": {
+    "status": "unsurveyed"
+  },
+  "kawamata-town": {
+    "status": "unsurveyed"
+  },
+  "otama-village": {
+    "status": "unsurveyed"
+  },
+  "kagamiishi-town": {
+    "status": "unsurveyed"
+  },
+  "tenei-village": {
+    "status": "unsurveyed"
+  },
+  "shimogo-town": {
+    "status": "unsurveyed"
+  },
+  "hinoemata-village": {
+    "status": "unsurveyed"
+  },
+  "tadami-town": {
+    "status": "unsurveyed"
+  },
+  "minamiaizu-town": {
+    "status": "unsurveyed"
+  },
+  "kitashiobara-village": {
+    "status": "unsurveyed"
+  },
+  "nishiaizu-town": {
+    "status": "unsurveyed"
+  },
+  "bandai-town": {
+    "status": "unsurveyed"
+  },
+  "inawashiro-town": {
+    "status": "unsurveyed"
+  },
+  "aizubange-town": {
+    "status": "unsurveyed"
+  },
+  "yugawa-village": {
+    "status": "unsurveyed"
+  },
+  "yanaizu-town": {
+    "status": "unsurveyed"
+  },
+  "mishima-town": {
+    "status": "unsurveyed"
+  },
+  "fukushima-kaneyama-town": {
+    "status": "unsurveyed"
+  },
+  "fukushima-showa-village": {
+    "status": "unsurveyed"
+  },
+  "aizumisato-town": {
+    "status": "unsurveyed"
+  },
+  "nishigo-village": {
+    "status": "unsurveyed"
+  },
+  "izumizaki-village": {
+    "status": "unsurveyed"
+  },
+  "nakajima-village": {
+    "status": "unsurveyed"
+  },
+  "yabuki-town": {
+    "status": "unsurveyed"
+  },
+  "tanagura-town": {
+    "status": "unsurveyed"
+  },
+  "yamatsuri-town": {
+    "status": "unsurveyed"
+  },
+  "hanawa-town": {
+    "status": "unsurveyed"
+  },
+  "samegawa-village": {
+    "status": "unsurveyed"
+  },
+  "ishikawa-town": {
+    "status": "unsurveyed"
+  },
+  "tamakawa-village": {
+    "status": "unsurveyed"
+  },
+  "hirata-village": {
+    "status": "unsurveyed"
+  },
+  "asakawa-town": {
+    "status": "unsurveyed"
+  },
+  "furudono-town": {
+    "status": "unsurveyed"
+  },
+  "miharu-town": {
+    "status": "unsurveyed"
+  },
+  "fukushima-ono-town": {
+    "status": "unsurveyed"
+  },
+  "fukushima-hirono-town": {
+    "status": "unsurveyed"
+  },
+  "naraha-town": {
+    "status": "unsurveyed"
+  },
+  "tomioka-town": {
+    "status": "unsurveyed"
+  },
+  "kawauchi-village": {
+    "status": "unsurveyed"
+  },
+  "okuma-town": {
+    "status": "unsurveyed"
+  },
+  "futaba-town": {
+    "status": "unsurveyed"
+  },
+  "namie-town": {
+    "status": "unsurveyed"
+  },
+  "katsurao-village": {
+    "status": "unsurveyed"
+  },
+  "shinchi-town": {
+    "status": "unsurveyed"
+  },
+  "iitate-village": {
+    "status": "unsurveyed"
+  },
+  "mito-city": {
+    "status": "unsurveyed"
+  },
+  "hitachi-city": {
+    "status": "unsurveyed"
+  },
+  "tsuchiura-city": {
+    "status": "unsurveyed"
+  },
+  "ibaraki-koga-city": {
+    "status": "unsurveyed"
+  },
+  "ishioka-city": {
+    "status": "unsurveyed"
+  },
+  "yuki-city": {
+    "status": "unsurveyed"
+  },
+  "ryugasaki-city": {
+    "status": "unsurveyed"
+  },
+  "shimotsuma-city": {
+    "status": "unsurveyed"
+  },
+  "joso-city": {
+    "status": "unsurveyed"
+  },
+  "hitachiota-city": {
+    "status": "unsurveyed"
+  },
+  "takahagi-city": {
+    "status": "unsurveyed"
+  },
+  "kitaibaraki-city": {
+    "status": "unsurveyed"
+  },
+  "kasama-city": {
+    "status": "unsurveyed"
+  },
+  "toride-city": {
+    "status": "unsurveyed"
+  },
+  "ushiku-city": {
+    "status": "unsurveyed"
+  },
+  "tsukuba-city": {
+    "status": "unsurveyed"
+  },
+  "hitachinaka-city": {
+    "status": "unsurveyed"
+  },
+  "ibaraki-kashima-city": {
+    "status": "unsurveyed"
+  },
+  "itako-city": {
+    "status": "unsurveyed"
+  },
+  "moriya-city": {
+    "status": "unsurveyed"
+  },
+  "hitachiomiya-city": {
+    "status": "unsurveyed"
+  },
+  "naka-city": {
+    "status": "unsurveyed"
+  },
+  "chikusei-city": {
+    "status": "unsurveyed"
+  },
+  "bando-city": {
+    "status": "unsurveyed"
+  },
+  "inashiki-city": {
+    "status": "unsurveyed"
+  },
+  "kasumigaura-city": {
+    "status": "unsurveyed"
+  },
+  "sakuragawa-city": {
+    "status": "unsurveyed"
+  },
+  "kamisu-city": {
+    "status": "unsurveyed"
+  },
+  "namegata-city": {
+    "status": "unsurveyed"
+  },
+  "hokota-city": {
+    "status": "unsurveyed"
+  },
+  "tsukubamirai-city": {
+    "status": "unsurveyed"
+  },
+  "omitama-city": {
+    "status": "unsurveyed"
+  },
+  "ibaraki-town": {
+    "status": "unsurveyed"
+  },
+  "oarai-town": {
+    "status": "unsurveyed"
+  },
+  "shirosato-town": {
+    "status": "unsurveyed"
+  },
+  "tokai-village": {
+    "status": "unsurveyed"
+  },
+  "daigo-town": {
+    "status": "unsurveyed"
+  },
+  "miho-village": {
+    "status": "unsurveyed"
+  },
+  "ami-town": {
+    "status": "unsurveyed"
+  },
+  "kawachi-town": {
+    "status": "unsurveyed"
+  },
+  "yachiyo-town": {
+    "status": "unsurveyed"
+  },
+  "goka-town": {
+    "status": "unsurveyed"
+  },
+  "sakai-town": {
+    "status": "unsurveyed"
+  },
+  "tone-town": {
+    "status": "unsurveyed"
+  },
+  "utsunomiya-city": {
+    "status": "unsurveyed"
+  },
+  "ashikaga-city": {
+    "status": "unsurveyed"
+  },
+  "tochigi-city": {
+    "status": "unsurveyed"
+  },
+  "sano-city": {
+    "status": "unsurveyed"
+  },
+  "kanuma-city": {
+    "status": "unsurveyed"
+  },
+  "nikko-city": {
+    "status": "unsurveyed"
+  },
+  "oyama-city": {
+    "status": "unsurveyed"
+  },
+  "moka-city": {
+    "status": "unsurveyed"
+  },
+  "otawara-city": {
+    "status": "unsurveyed"
+  },
+  "yaita-city": {
+    "status": "unsurveyed"
+  },
+  "nasushiobara-city": {
+    "status": "unsurveyed"
+  },
+  "tochigi-sakura-city": {
+    "status": "unsurveyed"
+  },
+  "nasukarasuyama-city": {
+    "status": "unsurveyed"
+  },
+  "shimotsuke-city": {
+    "status": "unsurveyed"
+  },
+  "kaminokawa-town": {
+    "status": "unsurveyed"
+  },
+  "mashiko-town": {
+    "status": "unsurveyed"
+  },
+  "motegi-town": {
+    "status": "unsurveyed"
+  },
+  "ichikai-town": {
+    "status": "unsurveyed"
+  },
+  "haga-town": {
+    "status": "unsurveyed"
+  },
+  "mibu-town": {
+    "status": "unsurveyed"
+  },
+  "nogi-town": {
+    "status": "unsurveyed"
+  },
+  "shioya-town": {
+    "status": "unsurveyed"
+  },
+  "takanezawa-town": {
+    "status": "unsurveyed"
+  },
+  "nasu-town": {
+    "status": "unsurveyed"
+  },
+  "tochigi-nakagawa-town": {
+    "status": "unsurveyed"
+  },
+  "maebashi-city": {
+    "status": "unsurveyed"
+  },
+  "takasaki-city": {
+    "status": "unsurveyed"
+  },
+  "kiryu-city": {
+    "status": "unsurveyed"
+  },
+  "isesaki-city": {
+    "status": "unsurveyed"
+  },
+  "ota-city": {
+    "status": "unsurveyed"
+  },
+  "numata-city": {
+    "status": "unsurveyed"
+  },
+  "tatebayashi-city": {
+    "status": "unsurveyed"
+  },
+  "shibukawa-city": {
+    "status": "unsurveyed"
+  },
+  "fujioka-city": {
+    "status": "unsurveyed"
+  },
+  "tomioka-city": {
+    "status": "unsurveyed"
+  },
+  "annaka-city": {
+    "status": "unsurveyed"
+  },
+  "midori-city": {
+    "status": "unsurveyed"
+  },
+  "shinto-village": {
+    "status": "unsurveyed"
+  },
+  "yoshioka-town": {
+    "status": "unsurveyed"
+  },
+  "ueno-village": {
+    "status": "unsurveyed"
+  },
+  "kanna-town": {
+    "status": "unsurveyed"
+  },
+  "shimonita-town": {
+    "status": "unsurveyed"
+  },
+  "nanmoku-village": {
+    "status": "unsurveyed"
+  },
+  "kanra-town": {
+    "status": "unsurveyed"
+  },
+  "nakanojiyo-town": {
+    "status": "unsurveyed"
+  },
+  "naganohara-town": {
+    "status": "unsurveyed"
+  },
+  "tsumagoi-village": {
+    "status": "unsurveyed"
+  },
+  "kusatsu-town": {
+    "status": "unsurveyed"
+  },
+  "gunma-takayama-village": {
+    "status": "unsurveyed"
+  },
+  "higashiagatsuma-town": {
+    "status": "unsurveyed"
+  },
+  "katashina-village": {
+    "status": "unsurveyed"
+  },
+  "kawaba-village": {
+    "status": "unsurveyed"
+  },
+  "gunma-showa-village": {
+    "status": "unsurveyed"
+  },
+  "minakami-town": {
+    "status": "unsurveyed"
+  },
+  "tamamura-town": {
+    "status": "unsurveyed"
+  },
+  "itakura-town": {
+    "status": "unsurveyed"
+  },
+  "gunma-meiwa-town": {
+    "status": "unsurveyed"
+  },
+  "chiyoda-town": {
+    "status": "unsurveyed"
+  },
+  "oizumi-town": {
+    "status": "unsurveyed"
+  },
+  "ora-town": {
+    "status": "unsurveyed"
+  },
+  "saitama-city": {
+    "status": "unsurveyed"
+  },
+  "kawagoe-city": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "埼玉県オープンデータポータル(942品目、2024-03、PDL1.0)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "照合が要る"
+  },
+  "kumagaya-city": {
+    "status": "unsurveyed"
+  },
+  "kawaguchi-city": {
+    "status": "unsurveyed"
+  },
+  "giyoda-city": {
+    "status": "unsurveyed"
+  },
+  "chichibu-city": {
+    "status": "unsurveyed"
+  },
+  "tokorozawa-city": {
+    "status": "unsurveyed"
+  },
+  "hanno-city": {
+    "status": "unsurveyed"
+  },
+  "kazo-city": {
+    "status": "unsurveyed"
+  },
+  "honjiyo-city": {
+    "status": "unsurveyed"
+  },
+  "higashimatsuyama-city": {
+    "status": "unsurveyed"
+  },
+  "kasukabe-city": {
+    "status": "unsurveyed"
+  },
+  "sayama-city": {
+    "status": "unsurveyed"
+  },
+  "haniyu-city": {
+    "status": "unsurveyed"
+  },
+  "konosu-city": {
+    "status": "unsurveyed"
+  },
+  "fukaya-city": {
+    "status": "unsurveyed"
+  },
+  "ageo-city": {
+    "status": "unsurveyed"
+  },
+  "soka-city": {
+    "status": "unsurveyed"
+  },
+  "koshigaya-city": {
+    "status": "unsurveyed"
+  },
+  "warabi-city": {
+    "status": "unsurveyed"
+  },
+  "toda-city": {
+    "status": "unsurveyed"
+  },
+  "iruma-city": {
+    "status": "unsurveyed"
+  },
+  "asaka-city": {
+    "status": "unsurveyed"
+  },
+  "shiki-city": {
+    "status": "unsurveyed"
+  },
+  "wako-city": {
+    "status": "unsurveyed"
+  },
+  "niiza-city": {
+    "status": "unsurveyed"
+  },
+  "okegawa-city": {
+    "status": "unsurveyed"
+  },
+  "kuki-city": {
+    "status": "unsurveyed"
+  },
+  "kitamoto-city": {
+    "status": "unsurveyed"
+  },
+  "yashio-city": {
+    "status": "unsurveyed"
+  },
+  "fujimi-city": {
+    "status": "unsurveyed"
+  },
+  "misato-city": {
+    "status": "unsurveyed"
+  },
+  "hasuda-city": {
+    "status": "unsurveyed"
+  },
+  "sakado-city": {
+    "status": "unsurveyed"
+  },
+  "satte-city": {
+    "status": "unsurveyed"
+  },
+  "tsurugashima-city": {
+    "status": "unsurveyed"
+  },
+  "hidaka-city": {
+    "status": "unsurveyed"
+  },
+  "yoshikawa-city": {
+    "status": "unsurveyed"
+  },
+  "fujimino-city": {
+    "status": "unsurveyed"
+  },
+  "shiraoka-city": {
+    "status": "unsurveyed"
+  },
+  "ina-town": {
+    "status": "unsurveyed"
+  },
+  "miyoshi-town": {
+    "status": "unsurveyed"
+  },
+  "moroyama-town": {
+    "status": "unsurveyed"
+  },
+  "ogose-town": {
+    "status": "unsurveyed"
+  },
+  "namegawa-town": {
+    "status": "unsurveyed"
+  },
+  "ranzan-town": {
+    "status": "unsurveyed"
+  },
+  "ogawa-town": {
+    "status": "unsurveyed"
+  },
+  "kawajima-town": {
+    "status": "unsurveyed"
+  },
+  "yoshimi-town": {
+    "status": "unsurveyed"
+  },
+  "hatoyama-town": {
+    "status": "unsurveyed"
+  },
+  "tokigawa-town": {
+    "status": "unsurveyed"
+  },
+  "yokoze-town": {
+    "status": "unsurveyed"
+  },
+  "minano-town": {
+    "status": "unsurveyed"
+  },
+  "nagatoro-town": {
+    "status": "unsurveyed"
+  },
+  "ogano-town": {
+    "status": "unsurveyed"
+  },
+  "higashichichibu-village": {
+    "status": "unsurveyed"
+  },
+  "saitama-misato-town": {
+    "status": "unsurveyed"
+  },
+  "saitama-kamikawa-town": {
+    "status": "unsurveyed"
+  },
+  "kamisato-town": {
+    "status": "unsurveyed"
+  },
+  "yorii-town": {
+    "status": "unsurveyed"
+  },
+  "miyashiro-town": {
+    "status": "unsurveyed"
+  },
+  "sugito-town": {
+    "status": "unsurveyed"
+  },
+  "matsubushi-town": {
+    "status": "unsurveyed"
+  },
+  "chiba-city": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "市のオープンデータ(Excel 約2,100品目、2024-05)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "CC BY の表示が添付ファイルに及ぶか未確認。2027-12 にプラ分別開始予定"
+  },
+  "choshi-city": {
+    "status": "unsurveyed"
+  },
+  "ichikawa-city": {
+    "status": "unsurveyed"
+  },
+  "funabashi-city": {
+    "status": "unsurveyed"
+  },
+  "tateyama-city": {
+    "status": "unsurveyed"
+  },
+  "kisarazu-city": {
+    "status": "unsurveyed"
+  },
+  "matsudo-city": {
+    "status": "unsurveyed"
+  },
+  "noda-city": {
+    "status": "unsurveyed"
+  },
+  "mobara-city": {
+    "status": "unsurveyed"
+  },
+  "narita-city": {
+    "status": "unsurveyed"
+  },
+  "chiba-sakura-city": {
+    "status": "unsurveyed"
+  },
+  "togane-city": {
+    "status": "unsurveyed"
+  },
+  "asahi-city": {
+    "status": "unsurveyed"
+  },
+  "narashino-city": {
+    "status": "unsurveyed"
+  },
+  "kashiwa-city": {
+    "status": "unsurveyed"
+  },
+  "katsura-city": {
+    "status": "unsurveyed"
+  },
+  "ichihara-city": {
+    "status": "unsurveyed"
+  },
+  "nagareyama-city": {
+    "status": "unsurveyed"
+  },
+  "yachiyo-city": {
+    "status": "unsurveyed"
+  },
+  "abiko-city": {
+    "status": "unsurveyed"
+  },
+  "kamogawa-city": {
+    "status": "unsurveyed"
+  },
+  "kamagaya-city": {
+    "status": "unsurveyed"
+  },
+  "kimitsu-city": {
+    "status": "unsurveyed"
+  },
+  "futtsu-city": {
+    "status": "unsurveyed"
+  },
+  "urayasu-city": {
+    "status": "unsurveyed"
+  },
+  "yotsukaido-city": {
+    "status": "unsurveyed"
+  },
+  "sodegaura-city": {
+    "status": "unsurveyed"
+  },
+  "yachimata-city": {
+    "status": "unsurveyed"
+  },
+  "inzai-city": {
+    "status": "unsurveyed"
+  },
+  "shiroi-city": {
+    "status": "unsurveyed"
+  },
+  "tomisato-city": {
+    "status": "unsurveyed"
+  },
+  "minamiboso-city": {
+    "status": "unsurveyed"
+  },
+  "sosa-city": {
+    "status": "unsurveyed"
+  },
+  "katori-city": {
+    "status": "unsurveyed"
+  },
+  "sanmu-city": {
+    "status": "unsurveyed"
+  },
+  "isumi-city": {
+    "status": "unsurveyed"
+  },
+  "oamishirasato-city": {
+    "status": "unsurveyed"
+  },
+  "shisui-town": {
+    "status": "unsurveyed"
+  },
+  "sakae-town": {
+    "status": "unsurveyed"
+  },
+  "kozaki-town": {
+    "status": "unsurveyed"
+  },
+  "tako-town": {
+    "status": "unsurveyed"
+  },
+  "chiba-tonosho-town": {
+    "status": "unsurveyed"
+  },
+  "kujiyukuri-town": {
+    "status": "unsurveyed"
+  },
+  "shibayama-town": {
+    "status": "unsurveyed"
+  },
+  "yokoshibahikari-town": {
+    "status": "unsurveyed"
+  },
+  "ichinomiya-town": {
+    "status": "unsurveyed"
+  },
+  "mutsuzawa-town": {
+    "status": "unsurveyed"
+  },
+  "chosei-village": {
+    "status": "unsurveyed"
+  },
+  "shirako-town": {
+    "status": "unsurveyed"
+  },
+  "nagara-town": {
+    "status": "unsurveyed"
+  },
+  "chonan-town": {
+    "status": "unsurveyed"
+  },
+  "otaki-town": {
+    "status": "unsurveyed"
+  },
+  "onjiyuku-town": {
+    "status": "unsurveyed"
+  },
+  "kiyonan-town": {
+    "status": "unsurveyed"
+  },
+  "chiyoda-ku": {
+    "status": "unsurveyed"
+  },
+  "chuo-ku": {
+    "status": "unsurveyed"
+  },
+  "minato-ku": {
+    "status": "unsurveyed"
+  },
+  "shinjuku-ku": {
+    "status": "unsurveyed"
+  },
+  "bunkyo-ku": {
+    "status": "unsurveyed"
+  },
+  "taito-ku": {
+    "status": "unsurveyed"
+  },
+  "sumida-ku": {
+    "status": "unsurveyed"
+  },
+  "koto-ku": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "東京都オープンデータカタログ(1,104品目、2026-01)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "ごみサク無し。区の50音 HTML で照合"
+  },
+  "shinagawa-ku": {
+    "status": "unsurveyed"
+  },
+  "meguro-ku": {
+    "status": "unsurveyed"
+  },
+  "ota-ku": {
+    "status": "unsurveyed"
+  },
+  "setagaya-ku": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "東京都オープンデータカタログの標準形式 CSV(787品目、2026-03)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "品目と区分の列が入れ替わっている。照合はごみサク 0210"
+  },
+  "shibuya-ku": {
+    "status": "unsurveyed"
+  },
+  "nakano-ku": {
+    "status": "unsurveyed"
+  },
+  "suginami-ku": {
+    "status": "unsurveyed"
+  },
+  "toshima-ku": {
+    "status": "unsurveyed"
+  },
+  "kita-ku": {
+    "status": "unsurveyed"
+  },
+  "arakawa-ku": {
+    "status": "unsurveyed"
+  },
+  "itabashi-ku": {
+    "status": "hold",
+    "checked_at": "2026-10-08",
+    "detail_ja": "公開データでは充電式電池が「出せない」となっていますが、区の現行の案内とは出し方が違っていました。",
+    "detail_en": "In the ward's open data, rechargeable batteries are listed as not accepted, which differs from the ward's current guidance.",
+    "evidence": [
+      {
+        "label": "東京都オープンデータカタログの CSV"
+      },
+      {
+        "label": "区の現行の案内: 充電式電池は不燃ごみの日に別の袋で出す(データでは「出せない」)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ]
+  },
+  "nerima-ku": {
+    "status": "unsurveyed"
+  },
+  "adachi-ku": {
+    "status": "unsurveyed"
+  },
+  "katsushika-ku": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "東京都オープンデータカタログ(755品目、2025-03)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "照合はごみサク 0371"
+  },
+  "edogawa-ku": {
+    "status": "unsurveyed"
+  },
+  "hachioji-city": {
+    "status": "available",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "東京都オープンデータカタログの標準形式 CSV(令和7年4月1日、CC BY 4.0)"
+      },
+      {
+        "label": "市の分別辞典(令和8年4月1日)と照合: 名前が一致した1,090品目中、区分の相違 6(危険物は全部一致)"
+      }
+    ],
+    "note": "Kaz が 2026-10-14 に「入れる」と判断。浄水器・うす(木製)は itemNotes。注意書きは備考・料金備考の列。区分が空の49行は備考で2種類に分ける"
+  },
+  "tachikawa-city": {
+    "status": "unsurveyed"
+  },
+  "musashino-city": {
+    "status": "unsurveyed"
+  },
+  "mitaka-city": {
+    "status": "unsurveyed"
+  },
+  "ome-city": {
+    "status": "unsurveyed"
+  },
+  "tokyo-fuchu-city": {
+    "status": "unsurveyed"
+  },
+  "akishima-city": {
+    "status": "unsurveyed"
+  },
+  "chofu-city": {
+    "status": "unsurveyed"
+  },
+  "machida-city": {
+    "status": "unsurveyed"
+  },
+  "koganei-city": {
+    "status": "unsurveyed"
+  },
+  "kodaira-city": {
+    "status": "unsurveyed"
+  },
+  "hino-city": {
+    "status": "unsurveyed"
+  },
+  "higashimurayama-city": {
+    "status": "unsurveyed"
+  },
+  "kokubunji-city": {
+    "status": "unsurveyed"
+  },
+  "kunitachi-city": {
+    "status": "unsurveyed"
+  },
+  "fussa-city": {
+    "status": "unsurveyed"
+  },
+  "komae-city": {
+    "status": "unsurveyed"
+  },
+  "higashiyamato-city": {
+    "status": "unsurveyed"
+  },
+  "kiyose-city": {
+    "status": "unsurveyed"
+  },
+  "higashikurume-city": {
+    "status": "unsurveyed"
+  },
+  "musashimurayama-city": {
+    "status": "unsurveyed"
+  },
+  "tama-city": {
+    "status": "unsurveyed"
+  },
+  "inagi-city": {
+    "status": "unsurveyed"
+  },
+  "hamura-city": {
+    "status": "unsurveyed"
+  },
+  "akiruno-city": {
+    "status": "unsurveyed"
+  },
+  "nishitokyo-city": {
+    "status": "unsurveyed"
+  },
+  "mizuho-town": {
+    "status": "unsurveyed"
+  },
+  "hinode-town": {
+    "status": "unsurveyed"
+  },
+  "hinohara-village": {
+    "status": "unsurveyed"
+  },
+  "okutama-town": {
+    "status": "unsurveyed"
+  },
+  "oshima-town": {
+    "status": "unsurveyed"
+  },
+  "tokyo-toshima-village": {
+    "status": "unsurveyed"
+  },
+  "niijima-village": {
+    "status": "unsurveyed"
+  },
+  "kozushima-village": {
+    "status": "unsurveyed"
+  },
+  "miyake-village": {
+    "status": "unsurveyed"
+  },
+  "mikurajima-village": {
+    "status": "unsurveyed"
+  },
+  "hachijo-town": {
+    "status": "unsurveyed"
+  },
+  "aogashima-village": {
+    "status": "unsurveyed"
+  },
+  "ogasawara-village": {
+    "status": "unsurveyed"
+  },
+  "kawasaki-city": {
+    "status": "unsurveyed"
+  },
+  "sagamihara-city": {
+    "status": "unsurveyed"
+  },
+  "yokosuka-city": {
+    "status": "unsurveyed"
+  },
+  "kamakura-city": {
+    "status": "unsurveyed"
+  },
+  "fujisawa-city": {
+    "status": "unsurveyed"
+  },
+  "odawara-city": {
+    "status": "unsurveyed"
+  },
+  "chigasaki-city": {
+    "status": "unsurveyed"
+  },
+  "zushi-city": {
+    "status": "unsurveyed"
+  },
+  "miura-city": {
+    "status": "unsurveyed"
+  },
+  "hadano-city": {
+    "status": "unsurveyed"
+  },
+  "atsugi-city": {
+    "status": "unsurveyed"
+  },
+  "yamato-city": {
+    "status": "unsurveyed"
+  },
+  "isehara-city": {
+    "status": "unsurveyed"
+  },
+  "ebina-city": {
+    "status": "unsurveyed"
+  },
+  "zama-city": {
+    "status": "unsurveyed"
+  },
+  "minamiashigara-city": {
+    "status": "unsurveyed"
+  },
+  "ayase-city": {
+    "status": "unsurveyed"
+  },
+  "hayama-town": {
+    "status": "unsurveyed"
+  },
+  "samukawa-town": {
+    "status": "unsurveyed"
+  },
+  "oiso-town": {
+    "status": "unsurveyed"
+  },
+  "ninomiya-town": {
+    "status": "unsurveyed"
+  },
+  "nakai-town": {
+    "status": "unsurveyed"
+  },
+  "kanagawa-oi-town": {
+    "status": "unsurveyed"
+  },
+  "matsuda-town": {
+    "status": "unsurveyed"
+  },
+  "yamakita-town": {
+    "status": "unsurveyed"
+  },
+  "kaisei-town": {
+    "status": "unsurveyed"
+  },
+  "hakone-town": {
+    "status": "unsurveyed"
+  },
+  "manazuru-town": {
+    "status": "unsurveyed"
+  },
+  "yugawara-town": {
+    "status": "unsurveyed"
+  },
+  "aikawa-town": {
+    "status": "unsurveyed"
+  },
+  "kiyokawa-village": {
+    "status": "unsurveyed"
+  },
+  "niigata-city": {
+    "status": "available",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "市のオープンデータ「ごみ分別表」od-gomibunbetsuhyou_R8.csv(2026-06-30、CC BY 2.1 JP)"
+      },
+      {
+        "label": "市の50音のページ(43ページ)・冊子(令和8年度版)と全件照合し、区分の食い違い 0"
+      }
+    ],
+    "note": "Kaz が 2026-10-14 に「入れる」と判断。品目名のセルに改行で注意書き。特定5品目の出し方・粗大の注意書きを区分の説明で補う"
+  },
+  "nagaoka-city": {
+    "status": "unsurveyed"
+  },
+  "sanjo-city": {
+    "status": "unsurveyed"
+  },
+  "kashiwazaki-city": {
+    "status": "unsurveyed"
+  },
+  "shibata-city": {
+    "status": "unsurveyed"
+  },
+  "ojiya-city": {
+    "status": "unsurveyed"
+  },
+  "kamo-city": {
+    "status": "unsurveyed"
+  },
+  "tokamachi-city": {
+    "status": "unsurveyed"
+  },
+  "mitsuke-city": {
+    "status": "unsurveyed"
+  },
+  "murakami-city": {
+    "status": "unsurveyed"
+  },
+  "tsubame-city": {
+    "status": "unsurveyed"
+  },
+  "itoigawa-city": {
+    "status": "unsurveyed"
+  },
+  "myoko-city": {
+    "status": "unsurveyed"
+  },
+  "gosen-city": {
+    "status": "unsurveyed"
+  },
+  "joetsu-city": {
+    "status": "unsurveyed"
+  },
+  "agano-city": {
+    "status": "unsurveyed"
+  },
+  "sado-city": {
+    "status": "unsurveyed"
+  },
+  "uonuma-city": {
+    "status": "unsurveyed"
+  },
+  "minamiuonuma-city": {
+    "status": "unsurveyed"
+  },
+  "tainai-city": {
+    "status": "unsurveyed"
+  },
+  "seiro-town": {
+    "status": "unsurveyed"
+  },
+  "yahiko-village": {
+    "status": "unsurveyed"
+  },
+  "tagami-town": {
+    "status": "unsurveyed"
+  },
+  "aga-town": {
+    "status": "unsurveyed"
+  },
+  "izumozaki-town": {
+    "status": "unsurveyed"
+  },
+  "yuzawa-town": {
+    "status": "unsurveyed"
+  },
+  "tsunan-town": {
+    "status": "unsurveyed"
+  },
+  "kariwa-village": {
+    "status": "unsurveyed"
+  },
+  "sekikawa-village": {
+    "status": "unsurveyed"
+  },
+  "awashimaura-village": {
+    "status": "unsurveyed"
+  },
+  "toyama-city": {
+    "status": "unsurveyed"
+  },
+  "takaoka-city": {
+    "status": "unsurveyed"
+  },
+  "uozu-city": {
+    "status": "unsurveyed"
+  },
+  "himi-city": {
+    "status": "unsurveyed"
+  },
+  "namerikawa-city": {
+    "status": "unsurveyed"
+  },
+  "kurobe-city": {
+    "status": "unsurveyed"
+  },
+  "tonami-city": {
+    "status": "unsurveyed"
+  },
+  "oyabe-city": {
+    "status": "unsurveyed"
+  },
+  "nanto-city": {
+    "status": "unsurveyed"
+  },
+  "imizu-city": {
+    "status": "unsurveyed"
+  },
+  "funahashi-village": {
+    "status": "unsurveyed"
+  },
+  "kamiichi-town": {
+    "status": "unsurveyed"
+  },
+  "tateyama-town": {
+    "status": "unsurveyed"
+  },
+  "nyuzen-town": {
+    "status": "unsurveyed"
+  },
+  "toyama-asahi-town": {
+    "status": "unsurveyed"
+  },
+  "nanao-city": {
+    "status": "unsurveyed"
+  },
+  "komatsu-city": {
+    "status": "unsurveyed"
+  },
+  "wajima-city": {
+    "status": "unsurveyed"
+  },
+  "suzu-city": {
+    "status": "unsurveyed"
+  },
+  "kaga-city": {
+    "status": "unsurveyed"
+  },
+  "hakui-city": {
+    "status": "unsurveyed"
+  },
+  "kahoku-city": {
+    "status": "unsurveyed"
+  },
+  "hakusan-city": {
+    "status": "unsurveyed"
+  },
+  "nomi-city": {
+    "status": "unsurveyed"
+  },
+  "nonoichi-city": {
+    "status": "unsurveyed"
+  },
+  "kawakita-town": {
+    "status": "unsurveyed"
+  },
+  "tsubata-town": {
+    "status": "unsurveyed"
+  },
+  "uchinada-town": {
+    "status": "unsurveyed"
+  },
+  "shika-town": {
+    "status": "unsurveyed"
+  },
+  "hodatsushimizu-town": {
+    "status": "unsurveyed"
+  },
+  "nakanoto-town": {
+    "status": "unsurveyed"
+  },
+  "anamizu-town": {
+    "status": "unsurveyed"
+  },
+  "noto-town": {
+    "status": "unsurveyed"
+  },
+  "fukui-city": {
+    "status": "unsurveyed"
+  },
+  "tsuruga-city": {
+    "status": "unsurveyed"
+  },
+  "obama-city": {
+    "status": "unsurveyed"
+  },
+  "fukui-ono-city": {
+    "status": "unsurveyed"
+  },
+  "katsuyama-city": {
+    "status": "unsurveyed"
+  },
+  "sabae-city": {
+    "status": "unsurveyed"
+  },
+  "awara-city": {
+    "status": "unsurveyed"
+  },
+  "echizen-city": {
+    "status": "unsurveyed"
+  },
+  "fukui-sakai-city": {
+    "status": "unsurveyed"
+  },
+  "eiheiji-town": {
+    "status": "unsurveyed"
+  },
+  "fukui-ikeda-town": {
+    "status": "unsurveyed"
+  },
+  "minamiechizen-town": {
+    "status": "unsurveyed"
+  },
+  "echizen-town": {
+    "status": "unsurveyed"
+  },
+  "fukui-mihama-town": {
+    "status": "unsurveyed"
+  },
+  "takahama-town": {
+    "status": "unsurveyed"
+  },
+  "fukui-oi-town": {
+    "status": "unsurveyed"
+  },
+  "fukui-wakasa-town": {
+    "status": "unsurveyed"
+  },
+  "kofu-city": {
+    "status": "unsurveyed"
+  },
+  "fujiyoshida-city": {
+    "status": "unsurveyed"
+  },
+  "tsuru-city": {
+    "status": "unsurveyed"
+  },
+  "yamanashi-city": {
+    "status": "unsurveyed"
+  },
+  "otsuki-city": {
+    "status": "unsurveyed"
+  },
+  "nirasaki-city": {
+    "status": "unsurveyed"
+  },
+  "minamiarupusu-city": {
+    "status": "unsurveyed"
+  },
+  "yamanashi-hokuto-city": {
+    "status": "unsurveyed"
+  },
+  "kai-city": {
+    "status": "unsurveyed"
+  },
+  "fuefuki-city": {
+    "status": "unsurveyed"
+  },
+  "uenohara-city": {
+    "status": "unsurveyed"
+  },
+  "koshu-city": {
+    "status": "unsurveyed"
+  },
+  "chuo-city": {
+    "status": "unsurveyed"
+  },
+  "ichikawamisato-town": {
+    "status": "unsurveyed"
+  },
+  "hayakawa-town": {
+    "status": "unsurveyed"
+  },
+  "minobu-town": {
+    "status": "unsurveyed"
+  },
+  "yamanashi-nanbu-town": {
+    "status": "unsurveyed"
+  },
+  "fujikawa-town": {
+    "status": "unsurveyed"
+  },
+  "showa-town": {
+    "status": "unsurveyed"
+  },
+  "doshi-village": {
+    "status": "unsurveyed"
+  },
+  "nishikatsura-town": {
+    "status": "unsurveyed"
+  },
+  "oshino-village": {
+    "status": "unsurveyed"
+  },
+  "yamanakako-village": {
+    "status": "unsurveyed"
+  },
+  "narusawa-village": {
+    "status": "unsurveyed"
+  },
+  "fujikawaguchiko-town": {
+    "status": "unsurveyed"
+  },
+  "kosuge-village": {
+    "status": "unsurveyed"
+  },
+  "tabayama-village": {
+    "status": "unsurveyed"
+  },
+  "nagano-city": {
+    "status": "unsurveyed"
+  },
+  "matsumoto-city": {
+    "status": "unsurveyed"
+  },
+  "ueda-city": {
+    "status": "unsurveyed"
+  },
+  "okaya-city": {
+    "status": "unsurveyed"
+  },
+  "iida-city": {
+    "status": "unsurveyed"
+  },
+  "suwa-city": {
+    "status": "unsurveyed"
+  },
+  "suzaka-city": {
+    "status": "unsurveyed"
+  },
+  "komoro-city": {
+    "status": "unsurveyed"
+  },
+  "ina-city": {
+    "status": "unsurveyed"
+  },
+  "komagane-city": {
+    "status": "unsurveyed"
+  },
+  "nakano-city": {
+    "status": "unsurveyed"
+  },
+  "omachi-city": {
+    "status": "unsurveyed"
+  },
+  "iiyama-city": {
+    "status": "unsurveyed"
+  },
+  "chino-city": {
+    "status": "unsurveyed"
+  },
+  "shiojiri-city": {
+    "status": "unsurveyed"
+  },
+  "saku-city": {
+    "status": "unsurveyed"
+  },
+  "chikuma-city": {
+    "status": "unsurveyed"
+  },
+  "tomi-city": {
+    "status": "unsurveyed"
+  },
+  "azumino-city": {
+    "status": "unsurveyed"
+  },
+  "komi-town": {
+    "status": "unsurveyed"
+  },
+  "nagano-kawakami-village": {
+    "status": "unsurveyed"
+  },
+  "minamimaki-village": {
+    "status": "unsurveyed"
+  },
+  "minamiaiki-village": {
+    "status": "unsurveyed"
+  },
+  "kitaaiki-village": {
+    "status": "unsurveyed"
+  },
+  "sakuho-town": {
+    "status": "unsurveyed"
+  },
+  "karuizawa-town": {
+    "status": "unsurveyed"
+  },
+  "miyota-town": {
+    "status": "unsurveyed"
+  },
+  "tateshina-town": {
+    "status": "unsurveyed"
+  },
+  "aoki-village": {
+    "status": "unsurveyed"
+  },
+  "nagawa-town": {
+    "status": "unsurveyed"
+  },
+  "shimosuwa-town": {
+    "status": "unsurveyed"
+  },
+  "fujimi-town": {
+    "status": "unsurveyed"
+  },
+  "hara-village": {
+    "status": "unsurveyed"
+  },
+  "tatsuno-town": {
+    "status": "unsurveyed"
+  },
+  "minowa-town": {
+    "status": "unsurveyed"
+  },
+  "iijima-town": {
+    "status": "unsurveyed"
+  },
+  "minamiminowa-village": {
+    "status": "unsurveyed"
+  },
+  "nakagawa-village": {
+    "status": "unsurveyed"
+  },
+  "miyada-village": {
+    "status": "unsurveyed"
+  },
+  "matsukawa-town": {
+    "status": "unsurveyed"
+  },
+  "nagano-takamori-town": {
+    "status": "unsurveyed"
+  },
+  "anan-town": {
+    "status": "unsurveyed"
+  },
+  "achi-village": {
+    "status": "unsurveyed"
+  },
+  "hiraya-village": {
+    "status": "unsurveyed"
+  },
+  "neba-village": {
+    "status": "unsurveyed"
+  },
+  "shimojo-village": {
+    "status": "unsurveyed"
+  },
+  "urugi-village": {
+    "status": "unsurveyed"
+  },
+  "tenryu-village": {
+    "status": "unsurveyed"
+  },
+  "yasuoka-village": {
+    "status": "unsurveyed"
+  },
+  "takagi-village": {
+    "status": "unsurveyed"
+  },
+  "toyoka-village": {
+    "status": "unsurveyed"
+  },
+  "oshika-village": {
+    "status": "unsurveyed"
+  },
+  "agematsu-town": {
+    "status": "unsurveyed"
+  },
+  "nagiso-town": {
+    "status": "unsurveyed"
+  },
+  "kiso-village": {
+    "status": "unsurveyed"
+  },
+  "otaki-village": {
+    "status": "unsurveyed"
+  },
+  "okuwa-village": {
+    "status": "unsurveyed"
+  },
+  "kiso-town": {
+    "status": "unsurveyed"
+  },
+  "omi-village": {
+    "status": "unsurveyed"
+  },
+  "ikusaka-village": {
+    "status": "unsurveyed"
+  },
+  "yamagata-village": {
+    "status": "unsurveyed"
+  },
+  "asahi-village": {
+    "status": "unsurveyed"
+  },
+  "chikuhoku-village": {
+    "status": "unsurveyed"
+  },
+  "nagano-ikeda-town": {
+    "status": "unsurveyed"
+  },
+  "matsukawa-village": {
+    "status": "unsurveyed"
+  },
+  "hakuba-village": {
+    "status": "unsurveyed"
+  },
+  "otari-village": {
+    "status": "unsurveyed"
+  },
+  "sakaki-town": {
+    "status": "unsurveyed"
+  },
+  "obuse-town": {
+    "status": "unsurveyed"
+  },
+  "nagano-takayama-village": {
+    "status": "unsurveyed"
+  },
+  "yamanochi-town": {
+    "status": "unsurveyed"
+  },
+  "kijimadaira-village": {
+    "status": "unsurveyed"
+  },
+  "nozawaonsen-village": {
+    "status": "unsurveyed"
+  },
+  "shinano-town": {
+    "status": "unsurveyed"
+  },
+  "ogawa-village": {
+    "status": "unsurveyed"
+  },
+  "iizuna-town": {
+    "status": "unsurveyed"
+  },
+  "sakae-village": {
+    "status": "unsurveyed"
+  },
+  "gifu-city": {
+    "status": "unsurveyed"
+  },
+  "ogaki-city": {
+    "status": "unsurveyed"
+  },
+  "takayama-city": {
+    "status": "unsurveyed"
+  },
+  "tajimi-city": {
+    "status": "unsurveyed"
+  },
+  "seki-city": {
+    "status": "unsurveyed"
+  },
+  "nakatsugawa-city": {
+    "status": "unsurveyed"
+  },
+  "gifu-mino-city": {
+    "status": "unsurveyed"
+  },
+  "mizunami-city": {
+    "status": "unsurveyed"
+  },
+  "hashima-city": {
+    "status": "unsurveyed"
+  },
+  "ena-city": {
+    "status": "unsurveyed"
+  },
+  "minokamo-city": {
+    "status": "unsurveyed"
+  },
+  "toki-city": {
+    "status": "unsurveyed"
+  },
+  "kakamigahara-city": {
+    "status": "unsurveyed"
+  },
+  "kani-city": {
+    "status": "unsurveyed"
+  },
+  "gifu-yamagata-city": {
+    "status": "unsurveyed"
+  },
+  "mizuho-city": {
+    "status": "unsurveyed"
+  },
+  "hida-city": {
+    "status": "unsurveyed"
+  },
+  "motosu-city": {
+    "status": "unsurveyed"
+  },
+  "gujo-city": {
+    "status": "unsurveyed"
+  },
+  "gero-city": {
+    "status": "unsurveyed"
+  },
+  "kaizu-city": {
+    "status": "unsurveyed"
+  },
+  "ginan-town": {
+    "status": "unsurveyed"
+  },
+  "kasamatsu-town": {
+    "status": "unsurveyed"
+  },
+  "yoro-town": {
+    "status": "unsurveyed"
+  },
+  "tarui-town": {
+    "status": "unsurveyed"
+  },
+  "sekigahara-town": {
+    "status": "unsurveyed"
+  },
+  "godo-town": {
+    "status": "unsurveyed"
+  },
+  "wanochi-town": {
+    "status": "unsurveyed"
+  },
+  "anpachi-town": {
+    "status": "unsurveyed"
+  },
+  "ibigawa-town": {
+    "status": "unsurveyed"
+  },
+  "gifu-ono-town": {
+    "status": "unsurveyed"
+  },
+  "gifu-ikeda-town": {
+    "status": "unsurveyed"
+  },
+  "kitagata-town": {
+    "status": "unsurveyed"
+  },
+  "sakahogi-town": {
+    "status": "unsurveyed"
+  },
+  "tomika-town": {
+    "status": "unsurveyed"
+  },
+  "kawabe-town": {
+    "status": "unsurveyed"
+  },
+  "hichiso-town": {
+    "status": "unsurveyed"
+  },
+  "yaotsu-town": {
+    "status": "unsurveyed"
+  },
+  "shirakawa-town": {
+    "status": "unsurveyed"
+  },
+  "higashishirakawa-village": {
+    "status": "unsurveyed"
+  },
+  "mitake-town": {
+    "status": "unsurveyed"
+  },
+  "shirakawa-village": {
+    "status": "unsurveyed"
+  },
+  "shizuoka-city": {
+    "status": "unsurveyed"
+  },
+  "hamamatsu-city": {
+    "status": "hold",
+    "checked_at": "2026-10-08",
+    "detail_ja": "市が2026年4月から電池一体型の小型家電の出し方を変えましたが、公開データ(2025年3月)にはまだ反映されていません。",
+    "detail_en": "The city changed how small appliances with built-in batteries are collected in April 2026, and its open data (March 2025) does not reflect this yet.",
+    "evidence": [
+      {
+        "label": "市の CSV(2025-03)"
+      },
+      {
+        "label": "市の案内: 2026-04 から電池一体型の小型家電が「特定品目」"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ]
+  },
+  "numazu-city": {
+    "status": "unsurveyed"
+  },
+  "atami-city": {
+    "status": "unsurveyed"
+  },
+  "mishima-city": {
+    "status": "unsurveyed"
+  },
+  "fujinomiya-city": {
+    "status": "unsurveyed"
+  },
+  "ito-city": {
+    "status": "unsurveyed"
+  },
+  "shimada-city": {
+    "status": "unsurveyed"
+  },
+  "fuji-city": {
+    "status": "unsurveyed"
+  },
+  "iwata-city": {
+    "status": "unsurveyed"
+  },
+  "yaizu-city": {
+    "status": "unsurveyed"
+  },
+  "kakegawa-city": {
+    "status": "unsurveyed"
+  },
+  "fujieda-city": {
+    "status": "unsurveyed"
+  },
+  "gotenba-city": {
+    "status": "unsurveyed"
+  },
+  "fukuroi-city": {
+    "status": "unsurveyed"
+  },
+  "shimoda-city": {
+    "status": "unsurveyed"
+  },
+  "susono-city": {
+    "status": "unsurveyed"
+  },
+  "kosai-city": {
+    "status": "unsurveyed"
+  },
+  "izu-city": {
+    "status": "unsurveyed"
+  },
+  "omaezaki-city": {
+    "status": "unsurveyed"
+  },
+  "kikugawa-city": {
+    "status": "unsurveyed"
+  },
+  "izunokuni-city": {
+    "status": "unsurveyed"
+  },
+  "makinohara-city": {
+    "status": "unsurveyed"
+  },
+  "higashiizu-town": {
+    "status": "unsurveyed"
+  },
+  "kawazu-town": {
+    "status": "unsurveyed"
+  },
+  "minamiizu-town": {
+    "status": "unsurveyed"
+  },
+  "matsuzaki-town": {
+    "status": "unsurveyed"
+  },
+  "nishiizu-town": {
+    "status": "unsurveyed"
+  },
+  "kannami-town": {
+    "status": "unsurveyed"
+  },
+  "shizuoka-shimizu-town": {
+    "status": "unsurveyed"
+  },
+  "nagaizumi-town": {
+    "status": "unsurveyed"
+  },
+  "oyama-town": {
+    "status": "unsurveyed"
+  },
+  "yoshida-town": {
+    "status": "unsurveyed"
+  },
+  "kawanehon-town": {
+    "status": "unsurveyed"
+  },
+  "shizuoka-mori-town": {
+    "status": "unsurveyed"
+  },
+  "nagoya-city": {
+    "status": "hold",
+    "checked_at": "2026-10-03",
+    "detail_ja": "市が2026年10月に粗大ごみの基準を変えましたが、公開データにはまだ反映されていません。",
+    "detail_en": "The city changed its bulky waste rules in October 2026, and its open data does not reflect this yet.",
+    "evidence": [
+      {
+        "label": "市の CSV(1,227品目、2025-05、CC BY 4.0)"
+      },
+      {
+        "label": "市のお知らせ: 2026-10-01 から粗大ごみの基準が「30センチメートル角を超えるもの」から「容量45リットルの指定袋に入らないもの」に変更(オープンデータは変更前の版で、32品目の区分と167品目の備考が古い)"
+      },
+      {
+        "label": "docs/roadmap.md「Phase C」の記録"
+      }
+    ],
+    "note": "Kaz 判断で保留。BODIK の CSV が 2026-10 以降に更新されたら再開"
+  },
+  "toyohashi-city": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "市のオープンデータ(710品目、2024-10)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "冊子のページ参照の注意書き。照合はごみサク 0390"
+  },
+  "okazaki-city": {
+    "status": "unsurveyed"
+  },
+  "ichinomiya-city": {
+    "status": "unsurveyed"
+  },
+  "seto-city": {
+    "status": "unsurveyed"
+  },
+  "handa-city": {
+    "status": "unsurveyed"
+  },
+  "kasugai-city": {
+    "status": "unsurveyed"
+  },
+  "toyokawa-city": {
+    "status": "unsurveyed"
+  },
+  "aichi-tsushima-city": {
+    "status": "unsurveyed"
+  },
+  "hekinan-city": {
+    "status": "unsurveyed"
+  },
+  "kariya-city": {
+    "status": "unsurveyed"
+  },
+  "toyota-city": {
+    "status": "unsurveyed"
+  },
+  "anjo-city": {
+    "status": "unsurveyed"
+  },
+  "nishio-city": {
+    "status": "unsurveyed"
+  },
+  "gamagori-city": {
+    "status": "unsurveyed"
+  },
+  "inuyama-city": {
+    "status": "unsurveyed"
+  },
+  "tokoname-city": {
+    "status": "unsurveyed"
+  },
+  "aichi-konan-city": {
+    "status": "unsurveyed"
+  },
+  "komaki-city": {
+    "status": "unsurveyed"
+  },
+  "inazawa-city": {
+    "status": "unsurveyed"
+  },
+  "shinshiro-city": {
+    "status": "unsurveyed"
+  },
+  "tokai-city": {
+    "status": "unsurveyed"
+  },
+  "obu-city": {
+    "status": "unsurveyed"
+  },
+  "chita-city": {
+    "status": "unsurveyed"
+  },
+  "chiryu-city": {
+    "status": "unsurveyed"
+  },
+  "owariasahi-city": {
+    "status": "unsurveyed"
+  },
+  "takahama-city": {
+    "status": "unsurveyed"
+  },
+  "iwakura-city": {
+    "status": "unsurveyed"
+  },
+  "toyoake-city": {
+    "status": "unsurveyed"
+  },
+  "nisshin-city": {
+    "status": "unsurveyed"
+  },
+  "tahara-city": {
+    "status": "unsurveyed"
+  },
+  "aisai-city": {
+    "status": "unsurveyed"
+  },
+  "kiyosu-city": {
+    "status": "unsurveyed"
+  },
+  "kitanagoya-city": {
+    "status": "unsurveyed"
+  },
+  "yatomi-city": {
+    "status": "unsurveyed"
+  },
+  "aichi-miyoshi-city": {
+    "status": "unsurveyed"
+  },
+  "ama-city": {
+    "status": "unsurveyed"
+  },
+  "nagakute-city": {
+    "status": "unsurveyed"
+  },
+  "togo-town": {
+    "status": "unsurveyed"
+  },
+  "toyoyama-town": {
+    "status": "unsurveyed"
+  },
+  "oguchi-town": {
+    "status": "unsurveyed"
+  },
+  "fuso-town": {
+    "status": "unsurveyed"
+  },
+  "oharu-town": {
+    "status": "unsurveyed"
+  },
+  "kanie-town": {
+    "status": "unsurveyed"
+  },
+  "tobishima-village": {
+    "status": "unsurveyed"
+  },
+  "agui-town": {
+    "status": "unsurveyed"
+  },
+  "higashiura-town": {
+    "status": "unsurveyed"
+  },
+  "minamichita-town": {
+    "status": "unsurveyed"
+  },
+  "aichi-mihama-town": {
+    "status": "unsurveyed"
+  },
+  "taketoyo-town": {
+    "status": "unsurveyed"
+  },
+  "kota-town": {
+    "status": "unsurveyed"
+  },
+  "shitara-town": {
+    "status": "unsurveyed"
+  },
+  "toei-town": {
+    "status": "unsurveyed"
+  },
+  "toyone-village": {
+    "status": "unsurveyed"
+  },
+  "tsu-city": {
+    "status": "unsurveyed"
+  },
+  "yokkaichi-city": {
+    "status": "unsurveyed"
+  },
+  "ise-city": {
+    "status": "unsurveyed"
+  },
+  "matsusaka-city": {
+    "status": "unsurveyed"
+  },
+  "kuwana-city": {
+    "status": "unsurveyed"
+  },
+  "suzuka-city": {
+    "status": "unsurveyed"
+  },
+  "nabari-city": {
+    "status": "unsurveyed"
+  },
+  "owase-city": {
+    "status": "unsurveyed"
+  },
+  "kameyama-city": {
+    "status": "unsurveyed"
+  },
+  "toba-city": {
+    "status": "unsurveyed"
+  },
+  "kumano-city": {
+    "status": "unsurveyed"
+  },
+  "inabe-city": {
+    "status": "unsurveyed"
+  },
+  "shima-city": {
+    "status": "unsurveyed"
+  },
+  "iga-city": {
+    "status": "unsurveyed"
+  },
+  "kisosaki-town": {
+    "status": "unsurveyed"
+  },
+  "toin-town": {
+    "status": "unsurveyed"
+  },
+  "komono-town": {
+    "status": "unsurveyed"
+  },
+  "mie-asahi-town": {
+    "status": "unsurveyed"
+  },
+  "kawagoe-town": {
+    "status": "unsurveyed"
+  },
+  "taki-town": {
+    "status": "unsurveyed"
+  },
+  "mie-meiwa-town": {
+    "status": "unsurveyed"
+  },
+  "odai-town": {
+    "status": "unsurveyed"
+  },
+  "tamaki-town": {
+    "status": "unsurveyed"
+  },
+  "watarai-town": {
+    "status": "unsurveyed"
+  },
+  "mie-taiki-town": {
+    "status": "unsurveyed"
+  },
+  "minamiise-town": {
+    "status": "unsurveyed"
+  },
+  "mie-kihoku-town": {
+    "status": "unsurveyed"
+  },
+  "mie-mihama-town": {
+    "status": "unsurveyed"
+  },
+  "kiho-town": {
+    "status": "unsurveyed"
+  },
+  "otsu-city": {
+    "status": "no-data",
+    "checked_at": "2026-10-08",
+    "detail_ja": "見つかった公開データは、ごみの種類ごとの説明(9行)だけで、品目ごとの分け方がありません。",
+    "detail_en": "The open data we found only describes waste types (9 rows) and does not list how to sort individual items.",
+    "evidence": [
+      {
+        "label": "市の CSV(2025-03、種類別の9行)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN の横断検索)"
+      }
+    ]
+  },
+  "hikone-city": {
+    "status": "unsurveyed"
+  },
+  "omihachiman-city": {
+    "status": "unsurveyed"
+  },
+  "kusatsu-city": {
+    "status": "unsurveyed"
+  },
+  "moriyama-city": {
+    "status": "unsurveyed"
+  },
+  "ritto-city": {
+    "status": "unsurveyed"
+  },
+  "koka-city": {
+    "status": "unsurveyed"
+  },
+  "yasu-city": {
+    "status": "unsurveyed"
+  },
+  "shiga-konan-city": {
+    "status": "unsurveyed"
+  },
+  "takashima-city": {
+    "status": "unsurveyed"
+  },
+  "higashiomi-city": {
+    "status": "unsurveyed"
+  },
+  "maibara-city": {
+    "status": "unsurveyed"
+  },
+  "shiga-hino-town": {
+    "status": "unsurveyed"
+  },
+  "riyuo-town": {
+    "status": "unsurveyed"
+  },
+  "aisho-town": {
+    "status": "unsurveyed"
+  },
+  "toyosato-town": {
+    "status": "unsurveyed"
+  },
+  "kora-town": {
+    "status": "unsurveyed"
+  },
+  "taga-town": {
+    "status": "unsurveyed"
+  },
+  "kyoto-city": {
+    "status": "unsurveyed"
+  },
+  "fukuchiyama-city": {
+    "status": "unsurveyed"
+  },
+  "ayabe-city": {
+    "status": "unsurveyed"
+  },
+  "uji-city": {
+    "status": "unsurveyed"
+  },
+  "miyazu-city": {
+    "status": "unsurveyed"
+  },
+  "kameoka-city": {
+    "status": "unsurveyed"
+  },
+  "joyo-city": {
+    "status": "unsurveyed"
+  },
+  "muko-city": {
+    "status": "unsurveyed"
+  },
+  "nagaokakyo-city": {
+    "status": "unsurveyed"
+  },
+  "yawata-city": {
+    "status": "unsurveyed"
+  },
+  "kyotanabe-city": {
+    "status": "unsurveyed"
+  },
+  "kyotango-city": {
+    "status": "unsurveyed"
+  },
+  "nantan-city": {
+    "status": "unsurveyed"
+  },
+  "kizugawa-city": {
+    "status": "unsurveyed"
+  },
+  "oyamazaki-town": {
+    "status": "unsurveyed"
+  },
+  "kumiyama-town": {
+    "status": "unsurveyed"
+  },
+  "ide-town": {
+    "status": "unsurveyed"
+  },
+  "ujitawara-town": {
+    "status": "unsurveyed"
+  },
+  "kasagi-town": {
+    "status": "unsurveyed"
+  },
+  "wazuka-town": {
+    "status": "unsurveyed"
+  },
+  "seika-town": {
+    "status": "unsurveyed"
+  },
+  "minamiyamashiro-village": {
+    "status": "unsurveyed"
+  },
+  "kyotanba-town": {
+    "status": "unsurveyed"
+  },
+  "ine-town": {
+    "status": "unsurveyed"
+  },
+  "yosano-town": {
+    "status": "unsurveyed"
+  },
+  "osaka-sakai-city": {
+    "status": "license",
+    "checked_at": "2026-09-23",
+    "detail_ja": "市の分別辞典(さんあ〜る)には、ほかのサイトで使ってよい条件が示されておらず、このアプリで使える公開データも見つかっていません。",
+    "detail_en": "The city's sorting dictionary does not state terms that allow reuse on other sites, and we have not found open data we can use.",
+    "evidence": [
+      {
+        "label": "市のサイト: サイト全体が無断転載禁止で、品目一覧に個別のライセンスが無い"
+      },
+      {
+        "label": "市の分別辞典(さんあ〜る)"
+      },
+      {
+        "label": "docs/roadmap.md「Phase C」の記録"
+      }
+    ],
+    "note": "近隣がそろった段階で市に相談する方針(2026-09-23 Kaz)"
+  },
+  "kishiwada-city": {
+    "status": "license",
+    "checked_at": "2026-09-23",
+    "detail_ja": "サイトに品目の一覧はありますが、ほかのサイトで使ってよい条件(ライセンス)が示されていません。",
+    "detail_en": "The website has a list of items, but it does not state terms (a license) that allow reuse on other sites.",
+    "evidence": [
+      {
+        "label": "岸和田市(HTML の表、約800〜900品目): ライセンスの表記なし"
+      },
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "note": "準候補。市に打診する候補"
+  },
+  "toyonaka-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "ikeda-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "suita-city": {
+    "status": "license",
+    "checked_at": "2026-09-23",
+    "detail_ja": "サイトに品目の一覧はありますが、ほかのサイトで使ってよい条件(ライセンス)が示されていません。",
+    "detail_en": "The website has a list of items, but it does not state terms (a license) that allow reuse on other sites.",
+    "evidence": [
+      {
+        "label": "吹田市(HTML の表、約200品目): ライセンスの表記なし"
+      },
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "note": "準候補。市に打診する候補"
+  },
+  "izumiotsu-city": {
+    "status": "hold",
+    "checked_at": "2026-09-25",
+    "detail_ja": "公開データの基準日が2016年4月で、市の現行の案内と、充電式電池を含む7品目で区分が違っていました。",
+    "detail_en": "The city's open data dates from April 2016, and 7 items (including rechargeable batteries) are sorted differently from its current guidance.",
+    "evidence": [
+      {
+        "label": "市の CSV(529品目、基準日 2016-04)"
+      },
+      {
+        "label": "市の冊子(R5年8月版)・ごみサクと全件照合: 7品目で区分が違った"
+      },
+      {
+        "label": "docs/roadmap.md「Phase C」の記録"
+      }
+    ],
+    "note": "Kaz 判断で保留。充電式電池・ニカド電池が CSV では「かん・びん」、現行は「市で収集できない」。市はごみサクで管理しているので CSV の書き出し直しを依頼する候補"
+  },
+  "takatsuki-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "kaizuka-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "moriguchi-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "ibaraki-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "yao-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "izumisano-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "tondabayashi-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "neyagawa-city": {
+    "status": "hold",
+    "checked_at": "2026-09-23",
+    "detail_ja": "公開データ(2022年6月)が、市の現行の案内と一部の品目で違っていました。",
+    "detail_en": "The city's open data (June 2022) differs from its current guidance for some items.",
+    "evidence": [
+      {
+        "label": "BODIK の CSV(971品目、2022-06)"
+      },
+      {
+        "label": "市の現行の家庭ごみの出し方マニュアル(2025年更新)と照合: 17品目中2品目で区分が違った"
+      },
+      {
+        "label": "docs/roadmap.md「Phase C」の記録"
+      }
+    ],
+    "note": "Kaz 判断で保留。鏡台: 不燃→臨時ごみ など。市にオープンデータの更新を依頼する候補"
+  },
+  "matsubara-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "daito-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "osaka-izumi-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "osaka-mino-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "kashiwara-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "habikino-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "kadoma-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "settsu-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "takaishi-city": {
+    "status": "license",
+    "checked_at": "2026-09-23",
+    "detail_ja": "サイトに品目の一覧はありますが、ほかのサイトで使ってよい条件(ライセンス)が示されていません。",
+    "detail_en": "The website has a list of items, but it does not state terms (a license) that allow reuse on other sites.",
+    "evidence": [
+      {
+        "label": "高石市(PDF): ライセンスの表記なし"
+      },
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "note": "準候補。市に打診する候補"
+  },
+  "fujiidera-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "sennan-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "shijiyonawate-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "katano-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "osakasayama-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "hannan-city": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "shimamoto-town": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "toyono-town": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "nose-town": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "tadaoka-town": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "kumatori-town": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "tajiri-town": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "osaka-misaki-town": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "osaka-taishi-town": {
+    "status": "license",
+    "checked_at": "2026-09-23",
+    "detail_ja": "サイトに品目の一覧はありますが、ほかのサイトで使ってよい条件(ライセンス)が示されていません。",
+    "detail_en": "The website has a list of items, but it does not state terms (a license) that allow reuse on other sites.",
+    "evidence": [
+      {
+        "label": "太子町(Excel): ライセンスの表記なし"
+      },
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "note": "準候補。市に打診する候補"
+  },
+  "kanan-town": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "chihayaakasaka-village": {
+    "status": "no-data",
+    "checked_at": "2026-09-23",
+    "evidence": [
+      {
+        "label": "docs/roadmap.md「大阪府内43市町村の棚卸し」(2026-09-23)"
+      }
+    ],
+    "searched": [
+      {
+        "label": "BODIK"
+      },
+      {
+        "label": "市町村のサイト(ごみの分別のページ・オープンデータのページ)"
+      }
+    ],
+    "note": "品目一覧は市のサイトの検索システム・PDF の冊子・アプリ・外部サービス(ごみサク・さんあ〜る)だけで、ライセンスの表記なし"
+  },
+  "kobe-city": {
+    "status": "hold",
+    "checked_at": "2026-10-08",
+    "detail_ja": "見つかった公開データが2016年のもので、いまの分け方に合っているかを確かめられません。",
+    "detail_en": "The open data we found is from 2016, and we could not confirm that it matches the current sorting rules.",
+    "evidence": [
+      {
+        "label": "市のオープンデータのページ(見つかったファイルは2016年のもの)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ]
+  },
+  "himeji-city": {
+    "status": "unsurveyed"
+  },
+  "amagasaki-city": {
+    "status": "unsurveyed"
+  },
+  "akashi-city": {
+    "status": "unsurveyed"
+  },
+  "nishinomiya-city": {
+    "status": "unsurveyed"
+  },
+  "sumoto-city": {
+    "status": "unsurveyed"
+  },
+  "ashiya-city": {
+    "status": "unsurveyed"
+  },
+  "itami-city": {
+    "status": "unsurveyed"
+  },
+  "aioi-city": {
+    "status": "unsurveyed"
+  },
+  "toyoka-city": {
+    "status": "unsurveyed"
+  },
+  "kakogawa-city": {
+    "status": "unsurveyed"
+  },
+  "ako-city": {
+    "status": "unsurveyed"
+  },
+  "nishiwaki-city": {
+    "status": "unsurveyed"
+  },
+  "takarazuka-city": {
+    "status": "unsurveyed"
+  },
+  "miki-city": {
+    "status": "unsurveyed"
+  },
+  "takasago-city": {
+    "status": "unsurveyed"
+  },
+  "kawanishi-city": {
+    "status": "unsurveyed"
+  },
+  "hyogo-ono-city": {
+    "status": "unsurveyed"
+  },
+  "sanda-city": {
+    "status": "unsurveyed"
+  },
+  "kasai-city": {
+    "status": "unsurveyed"
+  },
+  "tanbasasayama-city": {
+    "status": "unsurveyed"
+  },
+  "yabu-city": {
+    "status": "unsurveyed"
+  },
+  "tanba-city": {
+    "status": "unsurveyed"
+  },
+  "minamiawaji-city": {
+    "status": "unsurveyed"
+  },
+  "asago-city": {
+    "status": "unsurveyed"
+  },
+  "awaji-city": {
+    "status": "unsurveyed"
+  },
+  "shiso-city": {
+    "status": "unsurveyed"
+  },
+  "kato-city": {
+    "status": "unsurveyed"
+  },
+  "tatsuno-city": {
+    "status": "unsurveyed"
+  },
+  "inagawa-town": {
+    "status": "unsurveyed"
+  },
+  "taka-town": {
+    "status": "unsurveyed"
+  },
+  "hyogo-inami-town": {
+    "status": "unsurveyed"
+  },
+  "harima-town": {
+    "status": "unsurveyed"
+  },
+  "ichikawa-town": {
+    "status": "unsurveyed"
+  },
+  "fukusaki-town": {
+    "status": "unsurveyed"
+  },
+  "hyogo-kamikawa-town": {
+    "status": "unsurveyed"
+  },
+  "hyogo-taishi-town": {
+    "status": "unsurveyed"
+  },
+  "kamigori-town": {
+    "status": "unsurveyed"
+  },
+  "sayo-town": {
+    "status": "unsurveyed"
+  },
+  "hyogo-kami-town": {
+    "status": "unsurveyed"
+  },
+  "shinonsen-town": {
+    "status": "unsurveyed"
+  },
+  "nara-city": {
+    "status": "unsurveyed"
+  },
+  "yamatotakada-city": {
+    "status": "unsurveyed"
+  },
+  "yamatokoriyama-city": {
+    "status": "unsurveyed"
+  },
+  "tenri-city": {
+    "status": "unsurveyed"
+  },
+  "kashihara-city": {
+    "status": "unsurveyed"
+  },
+  "sakurai-city": {
+    "status": "unsurveyed"
+  },
+  "gojo-city": {
+    "status": "unsurveyed"
+  },
+  "gose-city": {
+    "status": "unsurveyed"
+  },
+  "ikoma-city": {
+    "status": "hold",
+    "checked_at": "2026-10-08",
+    "detail_ja": "公開データ(2023年4月)には、いまの電化製品・金属の区分が無く、多くの品目で市の現行の案内と違っていました。",
+    "detail_en": "The city's open data (April 2023) lacks the current categories for electrical appliances and metal, and many items differ from its current guidance.",
+    "evidence": [
+      {
+        "label": "BODIK 292095_1487640162「ごみ分別事典」(2023-04、CC BY 4.0)"
+      },
+      {
+        "label": "市の現行の案内と全件照合: 356品目中147品目が食い違い(電化製品・金属の区分が無い)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ]
+  },
+  "kashiba-city": {
+    "status": "unsurveyed"
+  },
+  "katsuragi-city": {
+    "status": "unsurveyed"
+  },
+  "uda-city": {
+    "status": "unsurveyed"
+  },
+  "yamazoe-village": {
+    "status": "unsurveyed"
+  },
+  "heguri-town": {
+    "status": "unsurveyed"
+  },
+  "sango-town": {
+    "status": "unsurveyed"
+  },
+  "ikaruga-town": {
+    "status": "unsurveyed"
+  },
+  "ando-town": {
+    "status": "unsurveyed"
+  },
+  "nara-kawanishi-town": {
+    "status": "unsurveyed"
+  },
+  "miyake-town": {
+    "status": "unsurveyed"
+  },
+  "tawaramoto-town": {
+    "status": "unsurveyed"
+  },
+  "soni-village": {
+    "status": "unsurveyed"
+  },
+  "mitsue-village": {
+    "status": "unsurveyed"
+  },
+  "takatori-town": {
+    "status": "unsurveyed"
+  },
+  "asuka-village": {
+    "status": "unsurveyed"
+  },
+  "kanmaki-town": {
+    "status": "unsurveyed"
+  },
+  "oji-town": {
+    "status": "unsurveyed"
+  },
+  "koriyo-town": {
+    "status": "unsurveyed"
+  },
+  "kawai-town": {
+    "status": "unsurveyed"
+  },
+  "yoshino-town": {
+    "status": "unsurveyed"
+  },
+  "oyodo-town": {
+    "status": "unsurveyed"
+  },
+  "shimoichi-town": {
+    "status": "unsurveyed"
+  },
+  "kurotaki-village": {
+    "status": "unsurveyed"
+  },
+  "tenkawa-village": {
+    "status": "unsurveyed"
+  },
+  "nosegawa-village": {
+    "status": "unsurveyed"
+  },
+  "totsukawa-village": {
+    "status": "unsurveyed"
+  },
+  "shimokitayama-village": {
+    "status": "unsurveyed"
+  },
+  "kamikitayama-village": {
+    "status": "unsurveyed"
+  },
+  "nara-kawakami-village": {
+    "status": "unsurveyed"
+  },
+  "higashiyoshino-village": {
+    "status": "unsurveyed"
+  },
+  "wakayama-city": {
+    "status": "unsurveyed"
+  },
+  "kainan-city": {
+    "status": "unsurveyed"
+  },
+  "hashimoto-city": {
+    "status": "unsurveyed"
+  },
+  "arida-city": {
+    "status": "unsurveyed"
+  },
+  "gobo-city": {
+    "status": "unsurveyed"
+  },
+  "tanabe-city": {
+    "status": "unsurveyed"
+  },
+  "shingu-city": {
+    "status": "unsurveyed"
+  },
+  "kinokawa-city": {
+    "status": "unsurveyed"
+  },
+  "iwade-city": {
+    "status": "unsurveyed"
+  },
+  "kimino-town": {
+    "status": "unsurveyed"
+  },
+  "katsuragi-town": {
+    "status": "unsurveyed"
+  },
+  "kudoyama-town": {
+    "status": "unsurveyed"
+  },
+  "koya-town": {
+    "status": "unsurveyed"
+  },
+  "yuasa-town": {
+    "status": "unsurveyed"
+  },
+  "hirogawa-town": {
+    "status": "unsurveyed"
+  },
+  "aridagawa-town": {
+    "status": "unsurveyed"
+  },
+  "wakayama-mihama-town": {
+    "status": "unsurveyed"
+  },
+  "wakayama-hidaka-town": {
+    "status": "unsurveyed"
+  },
+  "yura-town": {
+    "status": "unsurveyed"
+  },
+  "wakayama-inami-town": {
+    "status": "unsurveyed"
+  },
+  "minabe-town": {
+    "status": "unsurveyed"
+  },
+  "hidakagawa-town": {
+    "status": "unsurveyed"
+  },
+  "shirahama-town": {
+    "status": "unsurveyed"
+  },
+  "kamitonda-town": {
+    "status": "unsurveyed"
+  },
+  "susami-town": {
+    "status": "unsurveyed"
+  },
+  "nachikatsura-town": {
+    "status": "unsurveyed"
+  },
+  "taiji-town": {
+    "status": "unsurveyed"
+  },
+  "kozagawa-town": {
+    "status": "unsurveyed"
+  },
+  "kitayama-village": {
+    "status": "unsurveyed"
+  },
+  "kushimoto-town": {
+    "status": "unsurveyed"
+  },
+  "tottori-city": {
+    "status": "unsurveyed"
+  },
+  "yonago-city": {
+    "status": "unsurveyed"
+  },
+  "kurayoshi-city": {
+    "status": "unsurveyed"
+  },
+  "sakaiminato-city": {
+    "status": "unsurveyed"
+  },
+  "iwami-town": {
+    "status": "unsurveyed"
+  },
+  "tottori-wakasa-town": {
+    "status": "unsurveyed"
+  },
+  "chizu-town": {
+    "status": "unsurveyed"
+  },
+  "yazu-town": {
+    "status": "unsurveyed"
+  },
+  "misasa-town": {
+    "status": "unsurveyed"
+  },
+  "yurihama-town": {
+    "status": "unsurveyed"
+  },
+  "kotora-town": {
+    "status": "unsurveyed"
+  },
+  "hokuei-town": {
+    "status": "unsurveyed"
+  },
+  "hiezu-village": {
+    "status": "unsurveyed"
+  },
+  "daisen-town": {
+    "status": "unsurveyed"
+  },
+  "tottori-nanbu-town": {
+    "status": "unsurveyed"
+  },
+  "hoki-town": {
+    "status": "unsurveyed"
+  },
+  "nichinan-town": {
+    "status": "unsurveyed"
+  },
+  "tottori-hino-town": {
+    "status": "unsurveyed"
+  },
+  "kofu-town": {
+    "status": "unsurveyed"
+  },
+  "matsue-city": {
+    "status": "unsurveyed"
+  },
+  "hamada-city": {
+    "status": "unsurveyed"
+  },
+  "izumo-city": {
+    "status": "unsurveyed"
+  },
+  "masuda-city": {
+    "status": "unsurveyed"
+  },
+  "oda-city": {
+    "status": "unsurveyed"
+  },
+  "yasugi-city": {
+    "status": "unsurveyed"
+  },
+  "gotsu-city": {
+    "status": "unsurveyed"
+  },
+  "unnan-city": {
+    "status": "unsurveyed"
+  },
+  "okuizumo-town": {
+    "status": "unsurveyed"
+  },
+  "iinan-town": {
+    "status": "unsurveyed"
+  },
+  "kawamoto-town": {
+    "status": "unsurveyed"
+  },
+  "shimane-misato-town": {
+    "status": "unsurveyed"
+  },
+  "onan-town": {
+    "status": "unsurveyed"
+  },
+  "tsuwano-town": {
+    "status": "unsurveyed"
+  },
+  "yoshika-town": {
+    "status": "unsurveyed"
+  },
+  "ama-town": {
+    "status": "unsurveyed"
+  },
+  "nishinoshima-town": {
+    "status": "unsurveyed"
+  },
+  "chibu-village": {
+    "status": "unsurveyed"
+  },
+  "okinoshima-town": {
+    "status": "unsurveyed"
+  },
+  "okayama-city": {
+    "status": "unsurveyed"
+  },
+  "kurashiki-city": {
+    "status": "unsurveyed"
+  },
+  "tsuyama-city": {
+    "status": "unsurveyed"
+  },
+  "tamano-city": {
+    "status": "unsurveyed"
+  },
+  "kasaoka-city": {
+    "status": "unsurveyed"
+  },
+  "ibara-city": {
+    "status": "unsurveyed"
+  },
+  "sojiya-city": {
+    "status": "unsurveyed"
+  },
+  "takahashi-city": {
+    "status": "unsurveyed"
+  },
+  "niimi-city": {
+    "status": "unsurveyed"
+  },
+  "bizen-city": {
+    "status": "unsurveyed"
+  },
+  "setochi-city": {
+    "status": "unsurveyed"
+  },
+  "akaiwa-city": {
+    "status": "unsurveyed"
+  },
+  "maniwa-city": {
+    "status": "unsurveyed"
+  },
+  "mimasaka-city": {
+    "status": "unsurveyed"
+  },
+  "asakuchi-city": {
+    "status": "unsurveyed"
+  },
+  "wake-town": {
+    "status": "unsurveyed"
+  },
+  "hayashima-town": {
+    "status": "unsurveyed"
+  },
+  "satosho-town": {
+    "status": "unsurveyed"
+  },
+  "yakage-town": {
+    "status": "unsurveyed"
+  },
+  "shinjiyo-village": {
+    "status": "unsurveyed"
+  },
+  "kagamino-town": {
+    "status": "unsurveyed"
+  },
+  "shoo-town": {
+    "status": "unsurveyed"
+  },
+  "nagi-town": {
+    "status": "unsurveyed"
+  },
+  "nishiawakura-village": {
+    "status": "unsurveyed"
+  },
+  "kumenan-town": {
+    "status": "unsurveyed"
+  },
+  "okayama-misaki-town": {
+    "status": "unsurveyed"
+  },
+  "kibichuo-town": {
+    "status": "unsurveyed"
+  },
+  "hiroshima-city": {
+    "status": "unsurveyed"
+  },
+  "kure-city": {
+    "status": "unsurveyed"
+  },
+  "takehara-city": {
+    "status": "unsurveyed"
+  },
+  "mihara-city": {
+    "status": "unsurveyed"
+  },
+  "onomichi-city": {
+    "status": "unsurveyed"
+  },
+  "fukuyama-city": {
+    "status": "unsurveyed"
+  },
+  "hiroshima-fuchu-city": {
+    "status": "unsurveyed"
+  },
+  "hiroshima-miyoshi-city": {
+    "status": "unsurveyed"
+  },
+  "shobara-city": {
+    "status": "unsurveyed"
+  },
+  "otake-city": {
+    "status": "unsurveyed"
+  },
+  "higashihiroshima-city": {
+    "status": "unsurveyed"
+  },
+  "hatsukaichi-city": {
+    "status": "unsurveyed"
+  },
+  "akitakata-city": {
+    "status": "unsurveyed"
+  },
+  "etajima-city": {
+    "status": "unsurveyed"
+  },
+  "fuchu-town": {
+    "status": "unsurveyed"
+  },
+  "kaita-town": {
+    "status": "unsurveyed"
+  },
+  "kumano-town": {
+    "status": "unsurveyed"
+  },
+  "saka-town": {
+    "status": "unsurveyed"
+  },
+  "akiota-town": {
+    "status": "unsurveyed"
+  },
+  "kitahiroshima-town": {
+    "status": "unsurveyed"
+  },
+  "osakikamijima-town": {
+    "status": "unsurveyed"
+  },
+  "sera-town": {
+    "status": "unsurveyed"
+  },
+  "jinsekikogen-town": {
+    "status": "unsurveyed"
+  },
+  "shimonoseki-city": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "山口県オープンデータカタログの標準形式(878品目、2024-04、PDL1.0)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "区分が空の収集不可46件。照合はごみサク 0351"
+  },
+  "ube-city": {
+    "status": "unsurveyed"
+  },
+  "yamaguchi-city": {
+    "status": "unsurveyed"
+  },
+  "hagi-city": {
+    "status": "unsurveyed"
+  },
+  "hofu-city": {
+    "status": "unsurveyed"
+  },
+  "kudamatsu-city": {
+    "status": "unsurveyed"
+  },
+  "iwakuni-city": {
+    "status": "unsurveyed"
+  },
+  "hikari-city": {
+    "status": "unsurveyed"
+  },
+  "nagato-city": {
+    "status": "unsurveyed"
+  },
+  "yanai-city": {
+    "status": "unsurveyed"
+  },
+  "mine-city": {
+    "status": "unsurveyed"
+  },
+  "shunan-city": {
+    "status": "unsurveyed"
+  },
+  "sanyoonoda-city": {
+    "status": "unsurveyed"
+  },
+  "suooshima-town": {
+    "status": "unsurveyed"
+  },
+  "waki-town": {
+    "status": "unsurveyed"
+  },
+  "kaminoseki-town": {
+    "status": "unsurveyed"
+  },
+  "tabuse-town": {
+    "status": "unsurveyed"
+  },
+  "hirao-town": {
+    "status": "unsurveyed"
+  },
+  "abu-town": {
+    "status": "unsurveyed"
+  },
+  "tokushima-city": {
+    "status": "unsurveyed"
+  },
+  "naruto-city": {
+    "status": "unsurveyed"
+  },
+  "komatsushima-city": {
+    "status": "unsurveyed"
+  },
+  "anan-city": {
+    "status": "unsurveyed"
+  },
+  "yoshinogawa-city": {
+    "status": "unsurveyed"
+  },
+  "awa-city": {
+    "status": "unsurveyed"
+  },
+  "mima-city": {
+    "status": "unsurveyed"
+  },
+  "tokushima-miyoshi-city": {
+    "status": "unsurveyed"
+  },
+  "katsura-town": {
+    "status": "unsurveyed"
+  },
+  "kamikatsu-town": {
+    "status": "unsurveyed"
+  },
+  "sanagochi-village": {
+    "status": "unsurveyed"
+  },
+  "ishii-town": {
+    "status": "unsurveyed"
+  },
+  "kamiyama-town": {
+    "status": "unsurveyed"
+  },
+  "naka-town": {
+    "status": "unsurveyed"
+  },
+  "mugi-town": {
+    "status": "unsurveyed"
+  },
+  "minami-town": {
+    "status": "unsurveyed"
+  },
+  "kaiyo-town": {
+    "status": "unsurveyed"
+  },
+  "matsushige-town": {
+    "status": "unsurveyed"
+  },
+  "kitajima-town": {
+    "status": "unsurveyed"
+  },
+  "aizumi-town": {
+    "status": "unsurveyed"
+  },
+  "itano-town": {
+    "status": "unsurveyed"
+  },
+  "kamiita-town": {
+    "status": "unsurveyed"
+  },
+  "tsurugi-town": {
+    "status": "unsurveyed"
+  },
+  "higashimiyoshi-town": {
+    "status": "unsurveyed"
+  },
+  "takamatsu-city": {
+    "status": "unsurveyed"
+  },
+  "marugame-city": {
+    "status": "unsurveyed"
+  },
+  "sakaide-city": {
+    "status": "unsurveyed"
+  },
+  "zentsuji-city": {
+    "status": "unsurveyed"
+  },
+  "kanonji-city": {
+    "status": "unsurveyed"
+  },
+  "sanuki-city": {
+    "status": "unsurveyed"
+  },
+  "higashikagawa-city": {
+    "status": "unsurveyed"
+  },
+  "mitoyo-city": {
+    "status": "unsurveyed"
+  },
+  "kagawa-tonosho-town": {
+    "status": "unsurveyed"
+  },
+  "shodoshima-town": {
+    "status": "unsurveyed"
+  },
+  "miki-town": {
+    "status": "unsurveyed"
+  },
+  "naoshima-town": {
+    "status": "unsurveyed"
+  },
+  "utazu-town": {
+    "status": "unsurveyed"
+  },
+  "ayagawa-town": {
+    "status": "unsurveyed"
+  },
+  "kotohira-town": {
+    "status": "unsurveyed"
+  },
+  "tadotsu-town": {
+    "status": "unsurveyed"
+  },
+  "manno-town": {
+    "status": "unsurveyed"
+  },
+  "matsuyama-city": {
+    "status": "unsurveyed"
+  },
+  "imabari-city": {
+    "status": "unsurveyed"
+  },
+  "uwajima-city": {
+    "status": "unsurveyed"
+  },
+  "yawatahama-city": {
+    "status": "unsurveyed"
+  },
+  "niihama-city": {
+    "status": "unsurveyed"
+  },
+  "saijo-city": {
+    "status": "unsurveyed"
+  },
+  "ozu-city": {
+    "status": "unsurveyed"
+  },
+  "iyo-city": {
+    "status": "unsurveyed"
+  },
+  "shikokuchuo-city": {
+    "status": "unsurveyed"
+  },
+  "seiyo-city": {
+    "status": "unsurveyed"
+  },
+  "toon-city": {
+    "status": "unsurveyed"
+  },
+  "kamijima-town": {
+    "status": "unsurveyed"
+  },
+  "kumakogen-town": {
+    "status": "unsurveyed"
+  },
+  "masaki-town": {
+    "status": "unsurveyed"
+  },
+  "tobe-town": {
+    "status": "unsurveyed"
+  },
+  "uchiko-town": {
+    "status": "unsurveyed"
+  },
+  "ikata-town": {
+    "status": "unsurveyed"
+  },
+  "matsuno-town": {
+    "status": "unsurveyed"
+  },
+  "ehime-kihoku-town": {
+    "status": "unsurveyed"
+  },
+  "ainan-town": {
+    "status": "unsurveyed"
+  },
+  "kochi-city": {
+    "status": "unsurveyed"
+  },
+  "muroto-city": {
+    "status": "unsurveyed"
+  },
+  "aki-city": {
+    "status": "unsurveyed"
+  },
+  "nankoku-city": {
+    "status": "unsurveyed"
+  },
+  "tosa-city": {
+    "status": "unsurveyed"
+  },
+  "susaki-city": {
+    "status": "unsurveyed"
+  },
+  "sukumo-city": {
+    "status": "unsurveyed"
+  },
+  "tosashimizu-city": {
+    "status": "unsurveyed"
+  },
+  "shimanto-city": {
+    "status": "unsurveyed"
+  },
+  "kochi-konan-city": {
+    "status": "unsurveyed"
+  },
+  "kami-city": {
+    "status": "unsurveyed"
+  },
+  "toyo-town": {
+    "status": "unsurveyed"
+  },
+  "nahari-town": {
+    "status": "unsurveyed"
+  },
+  "tano-town": {
+    "status": "unsurveyed"
+  },
+  "yasuda-town": {
+    "status": "unsurveyed"
+  },
+  "kitagawa-village": {
+    "status": "unsurveyed"
+  },
+  "umaji-village": {
+    "status": "unsurveyed"
+  },
+  "geisei-village": {
+    "status": "unsurveyed"
+  },
+  "motoyama-town": {
+    "status": "unsurveyed"
+  },
+  "otoyo-town": {
+    "status": "unsurveyed"
+  },
+  "tosa-town": {
+    "status": "unsurveyed"
+  },
+  "okawa-village": {
+    "status": "unsurveyed"
+  },
+  "ino-town": {
+    "status": "unsurveyed"
+  },
+  "niyodogawa-town": {
+    "status": "unsurveyed"
+  },
+  "nakatosa-town": {
+    "status": "unsurveyed"
+  },
+  "sakawa-town": {
+    "status": "unsurveyed"
+  },
+  "ochi-town": {
+    "status": "unsurveyed"
+  },
+  "yusuhara-town": {
+    "status": "unsurveyed"
+  },
+  "hidaka-village": {
+    "status": "unsurveyed"
+  },
+  "kochi-tsuno-town": {
+    "status": "unsurveyed"
+  },
+  "shimanto-town": {
+    "status": "unsurveyed"
+  },
+  "otsuki-town": {
+    "status": "unsurveyed"
+  },
+  "mihara-village": {
+    "status": "unsurveyed"
+  },
+  "kuroshio-town": {
+    "status": "unsurveyed"
+  },
+  "kitakyushu-city": {
+    "status": "license",
+    "checked_at": "2026-10-08",
+    "detail_ja": "BODIK の公開データ(2018年版)は古く、現行版の分別大辞典は市のサイトで複製が認められていません。",
+    "detail_en": "The open data on BODIK (2018 edition) is outdated, and the current sorting guide on the city's site may not be reproduced.",
+    "evidence": [
+      {
+        "label": "BODIK の PDF(2018年版、文字が取れない)"
+      },
+      {
+        "label": "市のサイトの分別大辞典(2025-03、無断複製不可)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ]
+  },
+  "omuta-city": {
+    "status": "unsurveyed"
+  },
+  "kurume-city": {
+    "status": "unsurveyed"
+  },
+  "nogata-city": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "標準形式(546品目、2023-03)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "充電式電池・リチウム電池が「不燃物・注意点なし」で、現行の案内と食い違う疑い"
+  },
+  "iizuka-city": {
+    "status": "unsurveyed"
+  },
+  "tagawa-city": {
+    "status": "unsurveyed"
+  },
+  "yanagawa-city": {
+    "status": "unsurveyed"
+  },
+  "yame-city": {
+    "status": "unsurveyed"
+  },
+  "chikugo-city": {
+    "status": "unsurveyed"
+  },
+  "okawa-city": {
+    "status": "unsurveyed"
+  },
+  "yukuhashi-city": {
+    "status": "unsurveyed"
+  },
+  "buzen-city": {
+    "status": "unsurveyed"
+  },
+  "nakama-city": {
+    "status": "unsurveyed"
+  },
+  "ogori-city": {
+    "status": "unsurveyed"
+  },
+  "chikushino-city": {
+    "status": "unsurveyed"
+  },
+  "kasuga-city": {
+    "status": "unsurveyed"
+  },
+  "onojo-city": {
+    "status": "unsurveyed"
+  },
+  "munakata-city": {
+    "status": "unsurveyed"
+  },
+  "dazaifu-city": {
+    "status": "unsurveyed"
+  },
+  "fukuoka-koga-city": {
+    "status": "unsurveyed"
+  },
+  "fukutsu-city": {
+    "status": "unsurveyed"
+  },
+  "ukiha-city": {
+    "status": "unsurveyed"
+  },
+  "miyawaka-city": {
+    "status": "unsurveyed"
+  },
+  "kama-city": {
+    "status": "unsurveyed"
+  },
+  "asakura-city": {
+    "status": "unsurveyed"
+  },
+  "miyama-city": {
+    "status": "unsurveyed"
+  },
+  "itoshima-city": {
+    "status": "unsurveyed"
+  },
+  "nakagawa-city": {
+    "status": "unsurveyed"
+  },
+  "umi-town": {
+    "status": "unsurveyed"
+  },
+  "sasaguri-town": {
+    "status": "unsurveyed"
+  },
+  "shime-town": {
+    "status": "unsurveyed"
+  },
+  "sue-town": {
+    "status": "unsurveyed"
+  },
+  "shingu-town": {
+    "status": "unsurveyed"
+  },
+  "hisayama-town": {
+    "status": "unsurveyed"
+  },
+  "kasuya-town": {
+    "status": "unsurveyed"
+  },
+  "ashiya-town": {
+    "status": "unsurveyed"
+  },
+  "mizumaki-town": {
+    "status": "unsurveyed"
+  },
+  "okagaki-town": {
+    "status": "unsurveyed"
+  },
+  "onga-town": {
+    "status": "unsurveyed"
+  },
+  "kotake-town": {
+    "status": "unsurveyed"
+  },
+  "kurate-town": {
+    "status": "unsurveyed"
+  },
+  "keisen-town": {
+    "status": "unsurveyed"
+  },
+  "chikuzen-town": {
+    "status": "unsurveyed"
+  },
+  "toho-village": {
+    "status": "unsurveyed"
+  },
+  "tachiarai-town": {
+    "status": "unsurveyed"
+  },
+  "oki-town": {
+    "status": "unsurveyed"
+  },
+  "hirokawa-town": {
+    "status": "unsurveyed"
+  },
+  "kawara-town": {
+    "status": "unsurveyed"
+  },
+  "soeda-town": {
+    "status": "unsurveyed"
+  },
+  "itoda-town": {
+    "status": "unsurveyed"
+  },
+  "fukuoka-kawasaki-town": {
+    "status": "unsurveyed"
+  },
+  "oto-town": {
+    "status": "unsurveyed"
+  },
+  "aka-village": {
+    "status": "unsurveyed"
+  },
+  "fukuchi-town": {
+    "status": "unsurveyed"
+  },
+  "kanda-town": {
+    "status": "unsurveyed"
+  },
+  "miyako-town": {
+    "status": "unsurveyed"
+  },
+  "yoshitomi-town": {
+    "status": "unsurveyed"
+  },
+  "koge-town": {
+    "status": "unsurveyed"
+  },
+  "chikujo-town": {
+    "status": "unsurveyed"
+  },
+  "saga-city": {
+    "status": "unsurveyed"
+  },
+  "karatsu-city": {
+    "status": "unsurveyed"
+  },
+  "tosu-city": {
+    "status": "unsurveyed"
+  },
+  "taku-city": {
+    "status": "unsurveyed"
+  },
+  "imari-city": {
+    "status": "unsurveyed"
+  },
+  "takeo-city": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "BODIK の PDF「ごみ分別ハンドブック」R8.8 第8版(約123品目、CC BY 4.0)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "PDF の切り出しとページ参照の書き起こしが要る。粗大は地区で出し方が違う"
+  },
+  "saga-kashima-city": {
+    "status": "unsurveyed"
+  },
+  "ogi-city": {
+    "status": "unsurveyed"
+  },
+  "ureshino-city": {
+    "status": "unsurveyed"
+  },
+  "kanzaki-city": {
+    "status": "unsurveyed"
+  },
+  "yoshinogari-town": {
+    "status": "unsurveyed"
+  },
+  "kiyama-town": {
+    "status": "unsurveyed"
+  },
+  "kamimine-town": {
+    "status": "unsurveyed"
+  },
+  "miyaki-town": {
+    "status": "unsurveyed"
+  },
+  "genkai-town": {
+    "status": "unsurveyed"
+  },
+  "arita-town": {
+    "status": "unsurveyed"
+  },
+  "omachi-town": {
+    "status": "unsurveyed"
+  },
+  "kohoku-town": {
+    "status": "unsurveyed"
+  },
+  "shiroishi-town": {
+    "status": "unsurveyed"
+  },
+  "tara-town": {
+    "status": "unsurveyed"
+  },
+  "nagasaki-city": {
+    "status": "hold",
+    "checked_at": "2026-10-08",
+    "detail_ja": "市が2026年10月から全域でプラスチックの一括回収を始めましたが、公開データ(2023年2月)にはまだ反映されていません。",
+    "detail_en": "The city started collecting all plastics together in October 2026, and its open data (February 2023) does not reflect this yet.",
+    "evidence": [
+      {
+        "label": "市の CSV(2023-02)"
+      },
+      {
+        "label": "市の案内: 2026-10 から全域でプラスチックの一括回収"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ]
+  },
+  "sasebo-city": {
+    "status": "unsurveyed"
+  },
+  "shimabara-city": {
+    "status": "unsurveyed"
+  },
+  "isahaya-city": {
+    "status": "unsurveyed"
+  },
+  "omura-city": {
+    "status": "unsurveyed"
+  },
+  "hirado-city": {
+    "status": "unsurveyed"
+  },
+  "matsura-city": {
+    "status": "unsurveyed"
+  },
+  "nagasaki-tsushima-city": {
+    "status": "unsurveyed"
+  },
+  "iki-city": {
+    "status": "unsurveyed"
+  },
+  "goto-city": {
+    "status": "unsurveyed"
+  },
+  "saikai-city": {
+    "status": "unsurveyed"
+  },
+  "unzen-city": {
+    "status": "unsurveyed"
+  },
+  "minamishimabara-city": {
+    "status": "unsurveyed"
+  },
+  "nagayo-town": {
+    "status": "unsurveyed"
+  },
+  "togitsu-town": {
+    "status": "unsurveyed"
+  },
+  "higashisonogi-town": {
+    "status": "unsurveyed"
+  },
+  "kawatana-town": {
+    "status": "unsurveyed"
+  },
+  "hasami-town": {
+    "status": "unsurveyed"
+  },
+  "ojika-town": {
+    "status": "unsurveyed"
+  },
+  "saza-town": {
+    "status": "unsurveyed"
+  },
+  "shinkamigoto-town": {
+    "status": "unsurveyed"
+  },
+  "kumamoto-city": {
+    "status": "unsurveyed"
+  },
+  "yatsushiro-city": {
+    "status": "unsurveyed"
+  },
+  "hitoyoshi-city": {
+    "status": "unsurveyed"
+  },
+  "arao-city": {
+    "status": "unsurveyed"
+  },
+  "minamata-city": {
+    "status": "unsurveyed"
+  },
+  "tamana-city": {
+    "status": "unsurveyed"
+  },
+  "yamaga-city": {
+    "status": "candidate",
+    "checked_at": "2026-10-08",
+    "evidence": [
+      {
+        "label": "BODIK 432083_bunbetsu(CSV 1,087品目、ファイル名 202403、CC BY 4.0)"
+      },
+      {
+        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+      }
+    ],
+    "note": "市の分別辞典(2023.4)と全件照合して区分の実質の食い違い 0。残る確認: 膨張したモバイルバッテリーの注意文、自己搬入の搬入先、粗大の手数料"
+  },
+  "kikuchi-city": {
+    "status": "unsurveyed"
+  },
+  "uto-city": {
+    "status": "unsurveyed"
+  },
+  "kamiamakusa-city": {
+    "status": "unsurveyed"
+  },
+  "uki-city": {
+    "status": "unsurveyed"
+  },
+  "aso-city": {
+    "status": "unsurveyed"
+  },
+  "amakusa-city": {
+    "status": "unsurveyed"
+  },
+  "koshi-city": {
+    "status": "unsurveyed"
+  },
+  "kumamoto-misato-town": {
+    "status": "unsurveyed"
+  },
+  "gyokuto-town": {
+    "status": "unsurveyed"
+  },
+  "nankan-town": {
+    "status": "unsurveyed"
+  },
+  "nagasu-town": {
+    "status": "unsurveyed"
+  },
+  "nagomi-town": {
+    "status": "unsurveyed"
+  },
+  "ozu-town": {
+    "status": "unsurveyed"
+  },
+  "kikuyo-town": {
+    "status": "unsurveyed"
+  },
+  "minamioguni-town": {
+    "status": "unsurveyed"
+  },
+  "kumamoto-oguni-town": {
+    "status": "unsurveyed"
+  },
+  "ubuyama-village": {
+    "status": "unsurveyed"
+  },
+  "kumamoto-takamori-town": {
+    "status": "unsurveyed"
+  },
+  "nishihara-village": {
+    "status": "unsurveyed"
+  },
+  "minamiaso-village": {
+    "status": "unsurveyed"
+  },
+  "mifune-town": {
+    "status": "unsurveyed"
+  },
+  "kashima-town": {
+    "status": "unsurveyed"
+  },
+  "mashiki-town": {
+    "status": "unsurveyed"
+  },
+  "kosa-town": {
+    "status": "unsurveyed"
+  },
+  "yamato-town": {
+    "status": "unsurveyed"
+  },
+  "hikawa-town": {
+    "status": "unsurveyed"
+  },
+  "ashikita-town": {
+    "status": "unsurveyed"
+  },
+  "tsunagi-town": {
+    "status": "unsurveyed"
+  },
+  "nishiki-town": {
+    "status": "unsurveyed"
+  },
+  "taragi-town": {
+    "status": "unsurveyed"
+  },
+  "yunomae-town": {
+    "status": "unsurveyed"
+  },
+  "mizukami-village": {
+    "status": "unsurveyed"
+  },
+  "sagara-village": {
+    "status": "unsurveyed"
+  },
+  "itsuki-village": {
+    "status": "unsurveyed"
+  },
+  "yamae-village": {
+    "status": "unsurveyed"
+  },
+  "kuma-village": {
+    "status": "unsurveyed"
+  },
+  "asagiri-town": {
+    "status": "unsurveyed"
+  },
+  "reihoku-town": {
+    "status": "unsurveyed"
+  },
+  "oita-city": {
+    "status": "unsurveyed"
+  },
+  "beppu-city": {
+    "status": "unsurveyed"
+  },
+  "nakatsu-city": {
+    "status": "unsurveyed"
+  },
+  "hita-city": {
+    "status": "unsurveyed"
+  },
+  "saiki-city": {
+    "status": "unsurveyed"
+  },
+  "usuki-city": {
+    "status": "unsurveyed"
+  },
+  "tsukumi-city": {
+    "status": "unsurveyed"
+  },
+  "taketa-city": {
+    "status": "unsurveyed"
+  },
+  "bungotakada-city": {
+    "status": "unsurveyed"
+  },
+  "kitsuki-city": {
+    "status": "unsurveyed"
+  },
+  "usa-city": {
+    "status": "unsurveyed"
+  },
+  "bungoono-city": {
+    "status": "unsurveyed"
+  },
+  "yufu-city": {
+    "status": "unsurveyed"
+  },
+  "kunisaki-city": {
+    "status": "unsurveyed"
+  },
+  "himeshima-village": {
+    "status": "unsurveyed"
+  },
+  "hiji-town": {
+    "status": "unsurveyed"
+  },
+  "kokonoe-town": {
+    "status": "unsurveyed"
+  },
+  "kusu-town": {
+    "status": "unsurveyed"
+  },
+  "miyazaki-city": {
+    "status": "hold",
+    "checked_at": "2026-10-07",
+    "detail_ja": "市が2026年4月に「古布」の区分を設けましたが、公開データ(2026年1月)にはまだ反映されていません。",
+    "detail_en": "The city added a used-cloth category in April 2026, and its open data (January 2026) does not reflect this yet.",
+    "evidence": [
+      {
+        "label": "BODIK 452017_09gyoumu_011「さんあ〜る_分別帳一覧」(2,692品目、2026-01-27、CC BY 4.0)"
+      },
+      {
+        "label": "市の分別検索(さんあ〜る WEB 版)と全件照合: 69品目が現行では「古布」。冊子「ごみ分別豆辞典」は 2026-04-01 現在版で古布あり"
+      },
+      {
+        "label": "docs/roadmap.md「Phase C」の記録"
+      }
+    ],
+    "note": "Kaz 判断で保留。BODIK の Excel が 2026-04 以降の版になったら再開"
+  },
+  "miyakonojo-city": {
+    "status": "unsurveyed"
+  },
+  "nobeoka-city": {
+    "status": "unsurveyed"
+  },
+  "nichinan-city": {
+    "status": "unsurveyed"
+  },
+  "kobayashi-city": {
+    "status": "unsurveyed"
+  },
+  "hyuga-city": {
+    "status": "unsurveyed"
+  },
+  "kushima-city": {
+    "status": "unsurveyed"
+  },
+  "saito-city": {
+    "status": "unsurveyed"
+  },
+  "ebino-city": {
+    "status": "unsurveyed"
+  },
+  "mimata-town": {
+    "status": "unsurveyed"
+  },
+  "takaharu-town": {
+    "status": "unsurveyed"
+  },
+  "kunitomi-town": {
+    "status": "unsurveyed"
+  },
+  "aya-town": {
+    "status": "unsurveyed"
+  },
+  "takanabe-town": {
+    "status": "unsurveyed"
+  },
+  "shintomi-town": {
+    "status": "unsurveyed"
+  },
+  "nishimera-village": {
+    "status": "unsurveyed"
+  },
+  "kijo-town": {
+    "status": "unsurveyed"
+  },
+  "kawaminami-town": {
+    "status": "unsurveyed"
+  },
+  "miyazaki-tsuno-town": {
+    "status": "unsurveyed"
+  },
+  "kadogawa-town": {
+    "status": "unsurveyed"
+  },
+  "morotsuka-village": {
+    "status": "unsurveyed"
+  },
+  "shiiba-village": {
+    "status": "unsurveyed"
+  },
+  "miyazaki-misato-town": {
+    "status": "unsurveyed"
+  },
+  "takachiho-town": {
+    "status": "unsurveyed"
+  },
+  "hinokage-town": {
+    "status": "unsurveyed"
+  },
+  "gokase-town": {
+    "status": "unsurveyed"
+  },
+  "kanoya-city": {
+    "status": "unsurveyed"
+  },
+  "makurazaki-city": {
+    "status": "unsurveyed"
+  },
+  "akune-city": {
+    "status": "unsurveyed"
+  },
+  "kagoshima-izumi-city": {
+    "status": "unsurveyed"
+  },
+  "ibusuki-city": {
+    "status": "unsurveyed"
+  },
+  "nishinomote-city": {
+    "status": "unsurveyed"
+  },
+  "tarumizu-city": {
+    "status": "unsurveyed"
+  },
+  "satsumasendai-city": {
+    "status": "unsurveyed"
+  },
+  "hioki-city": {
+    "status": "unsurveyed"
+  },
+  "so-city": {
+    "status": "unsurveyed"
+  },
+  "kirishima-city": {
+    "status": "unsurveyed"
+  },
+  "ichikikushikino-city": {
+    "status": "unsurveyed"
+  },
+  "minamisatsuma-city": {
+    "status": "unsurveyed"
+  },
+  "shibushi-city": {
+    "status": "unsurveyed"
+  },
+  "amami-city": {
+    "status": "unsurveyed"
+  },
+  "minamikyushu-city": {
+    "status": "unsurveyed"
+  },
+  "isa-city": {
+    "status": "unsurveyed"
+  },
+  "aira-city": {
+    "status": "unsurveyed"
+  },
+  "mishima-village": {
+    "status": "unsurveyed"
+  },
+  "kagoshima-toshima-village": {
+    "status": "unsurveyed"
+  },
+  "satsuma-town": {
+    "status": "unsurveyed"
+  },
+  "nagashima-town": {
+    "status": "unsurveyed"
+  },
+  "yusui-town": {
+    "status": "unsurveyed"
+  },
+  "osaki-town": {
+    "status": "unsurveyed"
+  },
+  "higashikushira-town": {
+    "status": "unsurveyed"
+  },
+  "kinko-town": {
+    "status": "unsurveyed"
+  },
+  "minamiosumi-town": {
+    "status": "unsurveyed"
+  },
+  "kimotsuki-town": {
+    "status": "unsurveyed"
+  },
+  "nakatane-town": {
+    "status": "unsurveyed"
+  },
+  "minamitane-town": {
+    "status": "unsurveyed"
+  },
+  "yakushima-town": {
+    "status": "unsurveyed"
+  },
+  "yamato-village": {
+    "status": "unsurveyed"
+  },
+  "uken-village": {
+    "status": "unsurveyed"
+  },
+  "setochi-town": {
+    "status": "unsurveyed"
+  },
+  "tatsugo-town": {
+    "status": "unsurveyed"
+  },
+  "kikai-town": {
+    "status": "unsurveyed"
+  },
+  "tokunoshima-town": {
+    "status": "unsurveyed"
+  },
+  "amagi-town": {
+    "status": "unsurveyed"
+  },
+  "isen-town": {
+    "status": "unsurveyed"
+  },
+  "wadomari-town": {
+    "status": "unsurveyed"
+  },
+  "china-town": {
+    "status": "unsurveyed"
+  },
+  "yoron-town": {
+    "status": "unsurveyed"
+  },
+  "naha-city": {
+    "status": "unsurveyed"
+  },
+  "ginowan-city": {
+    "status": "unsurveyed"
+  },
+  "ishigaki-city": {
+    "status": "unsurveyed"
+  },
+  "urasoe-city": {
+    "status": "unsurveyed"
+  },
+  "nago-city": {
+    "status": "unsurveyed"
+  },
+  "itoman-city": {
+    "status": "unsurveyed"
+  },
+  "tomigusuku-city": {
+    "status": "unsurveyed"
+  },
+  "uruma-city": {
+    "status": "unsurveyed"
+  },
+  "miyakojima-city": {
+    "status": "unsurveyed"
+  },
+  "nanjo-city": {
+    "status": "unsurveyed"
+  },
+  "kunigami-village": {
+    "status": "unsurveyed"
+  },
+  "ogimi-village": {
+    "status": "unsurveyed"
+  },
+  "higashi-village": {
+    "status": "unsurveyed"
+  },
+  "nakijin-village": {
+    "status": "unsurveyed"
+  },
+  "motobu-town": {
+    "status": "unsurveyed"
+  },
+  "onna-village": {
+    "status": "unsurveyed"
+  },
+  "ginoza-village": {
+    "status": "unsurveyed"
+  },
+  "kin-town": {
+    "status": "unsurveyed"
+  },
+  "ie-village": {
+    "status": "unsurveyed"
+  },
+  "yomitan-village": {
+    "status": "unsurveyed"
+  },
+  "kadena-town": {
+    "status": "unsurveyed"
+  },
+  "chiyatan-town": {
+    "status": "unsurveyed"
+  },
+  "kitanakagusuku-village": {
+    "status": "unsurveyed"
+  },
+  "nakagusuku-village": {
+    "status": "unsurveyed"
+  },
+  "nishihara-town": {
+    "status": "unsurveyed"
+  },
+  "yonabaru-town": {
+    "status": "unsurveyed"
+  },
+  "haebaru-town": {
+    "status": "unsurveyed"
+  },
+  "tokashiki-village": {
+    "status": "unsurveyed"
+  },
+  "zamami-village": {
+    "status": "unsurveyed"
+  },
+  "aguni-village": {
+    "status": "unsurveyed"
+  },
+  "tonaki-village": {
+    "status": "unsurveyed"
+  },
+  "minamidaito-village": {
+    "status": "unsurveyed"
+  },
+  "kitadaito-village": {
+    "status": "unsurveyed"
+  },
+  "iheya-village": {
+    "status": "unsurveyed"
+  },
+  "izena-village": {
+    "status": "unsurveyed"
+  },
+  "kumejima-town": {
+    "status": "unsurveyed"
+  },
+  "yaese-town": {
+    "status": "unsurveyed"
+  },
+  "tarama-village": {
+    "status": "unsurveyed"
+  },
+  "taketomi-town": {
+    "status": "unsurveyed"
+  },
+  "yonaguni-town": {
+    "status": "unsurveyed"
+  }
+}

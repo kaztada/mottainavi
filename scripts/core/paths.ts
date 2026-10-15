@@ -5,6 +5,8 @@ export const ROOT = join(dirname(fileURLToPath(import.meta.url)), "../..")
 export const DATA_DIR = join(ROOT, "data")
 export const CACHE_DIR = join(DATA_DIR, "cache")
 export const REGISTRY_PATH = join(DATA_DIR, "municipalities.json")
+/** 仕分けの台帳(未対応の市区町村ごとの状態・理由。src/lib/coverage.ts) */
+export const COVERAGE_PATH = join(DATA_DIR, "coverage.json")
 export const REUSE_OPTIONS_PATH = join(DATA_DIR, "reuse-options.json")
 export const COMMON_ALIASES_PATH = join(DATA_DIR, "aliases.common.json")
 export const COMMON_ITEMS_EN_PATH = join(DATA_DIR, "i18n/items.en.json")

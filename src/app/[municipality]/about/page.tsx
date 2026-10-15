@@ -2,6 +2,7 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { AboutShell } from "@/components/AboutShell"
 import {
+  getCoverageCounts,
   getMunicipality,
   getRegistryEntry,
   getSupportedEntries,
@@ -37,6 +38,7 @@ export default async function AboutPage({ params }: Params) {
     <AboutShell
       municipality={getMunicipality(entry.slug)}
       supported={supported}
+      coverageCounts={getCoverageCounts()}
     />
   )
 }

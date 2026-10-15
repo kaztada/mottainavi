@@ -16,7 +16,8 @@
     "compare-gomisaku": "tsx scripts/tools/compare-gomisaku.ts",
     "codex-review": "sh scripts/tools/codex-review.sh",
     "items-en": "tsx scripts/tools/items-en.ts",
-    "build-registry": "tsx scripts/build-registry.ts"
+    "build-registry": "tsx scripts/build-registry.ts",
+    "coverage": "tsx scripts/tools/coverage.ts"
   },
   "dependencies": {
     "@vercel/analytics": "^2.0.1",
