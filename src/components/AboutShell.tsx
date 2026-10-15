@@ -3,6 +3,10 @@
 import Link from "next/link"
 import { ChevronLeft } from "lucide-react"
 import type { Municipality } from "@/lib/schemas"
+import {
+  COVERAGE_DISPLAY_ORDER,
+  type CoverageStatus,
+} from "@/lib/coverage-display"
 import { useLang, useT } from "@/lib/i18n"
 import { LangToggle } from "./LangToggle"
 import { MapCredit } from "./MapCredit"
@@ -33,10 +37,16 @@ function Section({
 export function AboutShell({
   municipality,
   supported,
+  coverageCounts,
 }: {
   municipality: Municipality
   /** 対応済み自治体の名前(ja/en) */
   supported: { name_ja: string; name_en: string }[]
+  /** 全国の市区町村の状態ごとの数(仕分けの台帳とレジストリから。ページを作るときに数える) */
+  coverageCounts: { supported: number; total: number } & Record<
+    CoverageStatus,
+    number
+  >
 }) {
   const { lang } = useLang()
   const t = useT()
@@ -110,6 +120,23 @@ export function AboutShell({
 
           <Section heading={t("about.coverageHeading")}>
             <p>{t("about.coverageBody", { list })}</p>
+            <p className="mt-3 text-muted">
+              {t("about.coverageCountsLead", {
+                total: coverageCounts.total.toLocaleString("en-US"),
+              })}
+            </p>
+            <ul className="mt-1 text-muted">
+              <li>
+                {t("about.coverageStatus.supported")}:{" "}
+                {coverageCounts.supported.toLocaleString("en-US")}
+              </li>
+              {COVERAGE_DISPLAY_ORDER.map((s) => (
+                <li key={s}>
+                  {t(`about.coverageStatus.${s}`)}:{" "}
+                  {coverageCounts[s].toLocaleString("en-US")}
+                </li>
+              ))}
+            </ul>
           </Section>
 
           <Section heading={t("about.authorHeading")}>

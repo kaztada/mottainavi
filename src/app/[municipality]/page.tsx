@@ -5,6 +5,7 @@ import { UnsupportedShell } from "@/components/UnsupportedShell"
 import {
   getCategories,
   getMunicipality,
+  getPublicCoverage,
   getRegistry,
   getRegistryEntry,
   getSupportedEntries,
@@ -49,7 +50,13 @@ export default async function MunicipalityHome({ params }: Params) {
   }))
 
   if (entry.status !== "supported") {
-    return <UnsupportedShell entry={entry} supported={supported} />
+    return (
+      <UnsupportedShell
+        entry={entry}
+        coverage={getPublicCoverage(entry.slug)}
+        supported={supported}
+      />
+    )
   }
   return (
     <HomeShell

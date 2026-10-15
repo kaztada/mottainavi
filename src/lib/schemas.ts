@@ -54,6 +54,17 @@ export const CategoriesFileSchema = z
 
 // ---- 自治体 ----
 
+/**
+ * http / https の URL だけを通す(z.string().url() は javascript: や ftp: も通すため)。
+ * 公式サイトなど、画面でそのままリンクにする URL に使う
+ */
+export const HttpUrlSchema = z
+  .string()
+  .url()
+  .refine((s) => /^https?:\/\//i.test(s), {
+    message: "http または https の URL ではありません",
+  })
+
 /** URL の第1階層と衝突するため自治体スラッグに使えない語 */
 export const RESERVED_SLUGS = [
   "about",
@@ -78,7 +89,7 @@ export const RegistryEntrySchema = z.object({
   name_ja: z.string().min(1),
   name_en: z.string().min(1),
   status: z.enum(["supported", "unsupported"]),
-  official_url: z.string().url().nullable(),
+  official_url: HttpUrlSchema.nullable(),
 })
 export type RegistryEntry = z.infer<typeof RegistryEntrySchema>
 

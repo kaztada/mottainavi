@@ -2,6 +2,11 @@
 
 import Link from "next/link"
 import { ChevronLeft } from "lucide-react"
+import {
+  formatCheckedAt,
+  reasonKey,
+  type PublicCoverage,
+} from "@/lib/coverage-display"
 import { useLang, useT } from "@/lib/i18n"
 import { CHANGE_MUNICIPALITY_HREF } from "@/lib/municipality-storage"
 import { LangToggle } from "./LangToggle"
@@ -11,10 +16,12 @@ type Link_ = { slug: string; name_ja: string; name_en: string }
 
 /**
  * S0': 未対応自治体(screens.md §10)。対応しているふりをしない。
- * 検索UIは置かず(検索できると誤解させないため)、公式サイトへ案内する。
+ * 検索UIは置かず(検索できると誤解させないため)、未対応の理由(仕分けの台帳)を添えて、公式サイトへ案内する。
+ * 理由の文は、このアプリが確かめた範囲にとどめる(市を責めない・断定しない)。
  */
 export function UnsupportedShell({
   entry,
+  coverage,
   supported,
 }: {
   entry: {
@@ -24,11 +31,14 @@ export function UnsupportedShell({
     name_en: string
     official_url: string | null
   }
+  /** 仕分けの台帳のうち画面に出す項目だけ(根拠・内部のメモは渡さない) */
+  coverage: PublicCoverage
   supported: Link_[]
 }) {
   const { lang } = useLang()
   const t = useT()
   const name = lang === "en" ? entry.name_en : entry.name_ja
+  const detail = lang === "en" ? coverage.detail_en : coverage.detail_ja
   return (
     <div className="mx-auto flex min-h-screen max-w-[640px] flex-col px-5 py-6">
       <RememberMunicipality slug={entry.slug} />
@@ -51,7 +61,17 @@ export function UnsupportedShell({
 
         <section className="rounded-2xl border border-border bg-card p-5 text-sm leading-relaxed">
           <p>{t("unsupported.body", { municipality: name })}</p>
-          <p className="mt-1 text-muted">{t("unsupported.sorry")}</p>
+          <p className="mt-1 text-muted">
+            {t(reasonKey(coverage.status), { municipality: name })}
+          </p>
+          {detail && <p className="mt-1 text-muted">{detail}</p>}
+          {coverage.checked_at && (
+            <p className="mt-2 text-xs text-muted">
+              {t("unsupported.checkedAt", {
+                date: formatCheckedAt(coverage.checked_at, lang),
+              })}
+            </p>
+          )}
           {entry.official_url ? (
             <a
               href={entry.official_url}

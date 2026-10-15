@@ -20,10 +20,15 @@ import {
   RegistryFileSchema,
   SearchIndexFileSchema,
 } from "../src/lib/schemas"
+import {
+  CoverageFileSchema,
+  assertCoverageMatchesRegistry,
+} from "../src/lib/coverage"
 import { buildAllPrefMaps, type Topology } from "./core/map"
 import {
   MAP_SOURCE_PATH,
   PUBLIC_DATA_DIR,
+  COVERAGE_PATH,
   REGISTRY_PATH,
   municipalityFile,
 } from "./core/paths"
@@ -34,6 +39,11 @@ async function readJson(path: string): Promise<unknown> {
 
 async function main() {
   const registry = RegistryFileSchema.parse(await readJson(REGISTRY_PATH))
+  // 仕分けの台帳とレジストリの食い違い(自治体を追加したのに台帳から消していない、など)があれば止める
+  assertCoverageMatchesRegistry(
+    CoverageFileSchema.parse(await readJson(COVERAGE_PATH)),
+    registry
+  )
 
   await rm(PUBLIC_DATA_DIR, { recursive: true, force: true })
   await mkdir(PUBLIC_DATA_DIR, { recursive: true })

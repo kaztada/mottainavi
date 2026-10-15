@@ -15,6 +15,15 @@ import {
   type ReuseCategory,
 } from "./schemas"
 import { z } from "zod"
+import {
+  CoverageFileSchema,
+  assertCoverageMatchesRegistry,
+  countCoverage,
+  toPublicCoverage,
+  type CoverageCounts,
+  type CoverageFile,
+  type PublicCoverage,
+} from "./coverage"
 
 const DATA_DIR = join(process.cwd(), "data")
 
@@ -24,6 +33,7 @@ function readJson(...segments: string[]): unknown {
 
 let registryCache: RegistryEntry[] | null = null
 let reuseCache: ReuseCategory[] | null = null
+let coverageCache: CoverageFile | null = null
 const municipalityCache = new Map<string, Municipality>()
 const categoriesCache = new Map<string, Category[]>()
 
@@ -65,6 +75,31 @@ export function getMunicipality(slug: string): Municipality {
   const m: Municipality = { ...rest, ...meta, official_url: entry.official_url }
   municipalityCache.set(slug, m)
   return m
+}
+
+/**
+ * 仕分けの台帳(data/coverage.json。未対応の市区町村ごとの状態・理由)。
+ * レジストリと食い違っていたら止める(開発サーバーでも、ビルドでも)
+ */
+export function getCoverage(): CoverageFile {
+  if (!coverageCache) {
+    const coverage = CoverageFileSchema.parse(readJson("coverage.json"))
+    assertCoverageMatchesRegistry(coverage, getRegistry())
+    coverageCache = coverage
+  }
+  return coverageCache
+}
+
+/** 未対応ページに出す項目だけ(根拠・内部のメモはページに入れない) */
+export function getPublicCoverage(slug: string): PublicCoverage {
+  const entry = getCoverage()[slug]
+  if (!entry) throw new Error(`仕分けの台帳にありません: ${slug}`)
+  return toPublicCoverage(entry)
+}
+
+/** 状態ごとの数(About 用) */
+export function getCoverageCounts(): CoverageCounts {
+  return countCoverage(getCoverage(), getRegistry())
 }
 
 /** 自治体の収集区分 */
