@@ -273,7 +273,7 @@ public/data/                             # prebuild で導出(.gitignore)
 ## 8. municipalities.json(全国レジストリ)
 
 全国1,741市区町村(市町村1,718+特別区23)を1ファイルで持つ。総務省「全国地方公共団体コード」から
-`scripts/build-registry.ts` で一度生成し、以後は `status` と `slug` を手で保守する。
+`scripts/build-registry.ts` で一度生成し、以後は `status` と `slug` を手で保守する。`official_url` は、対応自治体は手で入れ、未対応の市区町村は `npm run coverage -- official-url` で入れる(§30)。
 
 ```json
 [
@@ -293,7 +293,7 @@ public/data/                             # prebuild で導出(.gitignore)
     "name_ja": "堺市",
     "name_en": "Sakai City",
     "status": "unsupported",
-    "official_url": null
+    "official_url": "https://manage.delight-system.com/threeR/web/bunbetsu?menu=bunbetsu&jichitaiId=sakaishi&lang=ja"
   }
 ]
 ```
@@ -303,7 +303,8 @@ public/data/                             # prebuild で導出(.gitignore)
 | slug | URL に出る自治体ID。`^[a-z0-9-]+$`。レジストリ内で一意(zod + 重複検査で保証) |
 | lg_code | 全国地方公共団体コード6桁。オープンデータ連携の主キー |
 | status | `supported`(品目データあり) / `unsupported`(未対応) |
-| official_url | 未対応自治体でも判明していれば入れる。無ければ null |
+| official_url | http(s) の URL だけ(`javascript:` などは検査で拒否)。対応自治体は市のごみのページ。未対応の市区町村は、判明していれば入れる(堺市は市の分別辞典、ほかは確かめた市のトップページ。§30)。無ければ null |
+| (未対応の理由) | レジストリには持たない。仕分けの台帳 `data/coverage.json`(§30) |
 
 **同名自治体の slug 衝突**: 府中市(東京都/広島県)、伊達市(北海道/福島県)など。
 衝突する場合のみ都道府県を前置する(`tokyo-fuchu-city` / `hiroshima-fuchu-city`)。
@@ -643,4 +644,41 @@ add-municipality 手順(tech-stack.md §16)での最初の追加。
 - **注記(`itemNotes`)**: 多量ごみ(市のデータの「メニュー」は市の LINE のメニュー)、ペット類の死体Ａ・Ｂ(料金と焼却の方法)、野良(無料の引き取り)。「野良」は有料の2品目と扱いが違うので、区分の説明にせず品目ごとに添えた
 - **手放し導線**: 小型家電はごみステーションで集める(金属・小型家電類)ので、回収ボックスは足していない。家具は、同じ品目が大きさと素材で3〜4行に分かれている(70cm 以下は燃やすごみ、金属80%以上は金属)。bulky 以外の行には家具の推定が付かないので、`reuse-overrides.json` で87品目に furniture を付けた。誤判定5品目(デスクマット・シャンプードレッサー・人形ケース・レコードプレイヤー)は null
 - **更新の見張り**: 市のポータルは CKAN なので `watch: { kind: "ckan" }` がそのまま使える。CSV が2つあるので `resourceName: /辞典）/` で辞典のほうだけを見る
+
+## 30. 仕分けの台帳(data/coverage.json)と未対応の市区町村の公式サイト(2026-10-15)
+
+月末(2026-10-31)までに全1,741市区町村を仕分ける(Kaz の決定、2026-10-14)ための台帳。未対応の市区町村ごとに「なぜ未対応か」を、状態・確かめた日・根拠つきで持つ。形と検査は `src/lib/coverage.ts`(画面で使う定数と型は zod を使わない `src/lib/coverage-display.ts`)。
+
+- **別のファイルにした理由**: `scripts/build-registry.ts` はレジストリの決まった項目以外を消し、形が1件でも合わないと手で入れた値まで全部初期化する。台帳を別にすれば、作り直しても台帳は残る
+- **未対応の市区町村だけを持つ**。対応済みかどうかはレジストリの `status` が正(二重に持たない)。**台帳の slug の集まり = レジストリで未対応の slug の集まり**(過不足ゼロ)を、共通の検査関数 `assertCoverageMatchesRegistry` で確かめる。使う場所: アプリの読み込み(`src/lib/data.ts`。開発サーバーでも効く)・ビルド前の準備(`scripts/build-public-data.ts`)・台帳の道具・テスト。自治体を追加したら、レジストリを `supported` にするのと同じコミットで台帳から消す
+- **書き換えは道具で**(`npm run coverage -- set` / `apply` / `sync` / `summary`。`scripts/tools/coverage.ts`)。書く前にレジストリと台帳の全体を検査し、通らなければ書かない。キーはレジストリの順(全国地方公共団体コード順)、項目は決まった順で書く(同じ内容なら同じファイルになる)
+
+1件の形:
+
+| 項目 | 仕様 |
+|---|---|
+| status | `available`(入力できる)/ `candidate`(確認中)/ `hold`(保留)/ `license`(使える条件を確かめられない)/ `no-data`(見つからない)/ `unsurveyed`(未調査)。月末の最終の分類は available / hold / license / no-data(+対応済み)。candidate と unsurveyed は途中の状態 |
+| checked_at | その分類を最後に確かめた日(日本時間)。実在する日付で、未来は不可。**記録に正確な日付が無ければ作らない**(その市は unsurveyed のまま) |
+| detail_ja / detail_en | その市だけの事情(画面に出す)。両方そろえる |
+| evidence | 判断に使った資料 `{label, url?}`(データ・規約・市の現行の案内・roadmap の記録)。unsurveyed 以外は1件以上 |
+| searched | no-data のとき、探した場所 `{label, url?}`。no-data では1件以上 |
+| note | 内部向けのメモ |
+
+- **画面に出すのは status・checked_at・detail_ja・detail_en だけ**(`toPublicCoverage`)。evidence・searched・note は、未対応ページ(ブラウザで動く部品)に渡さない(渡すと、表示しなくてもページの中身に入るため)
+- **license と no-data の分け方**: license は、再利用できそうな形の品目一覧(CSV・HTML の表・Excel など)は見つかったが、このアプリで使ってよい条件を確かめられない(表記が無い・転載禁止)。no-data は、オープンデータとしての品目一覧が見つからない(市のサイトの検索システム・PDF の冊子・アプリにしか無い場合を含む)
+- **hold の中身**: 公開データが市の現行の案内と食い違っていた(寝屋川市・泉大津市など)か、制度の変更が反映されていない(名古屋市・宮崎市など)か、古いファイルしか無く合っているかを確かめられない(神戸市)
+- **最初の台帳(2026-10-15)**: 記録に日付と根拠がある60件(入力できる2・確認中10・保留9・使える条件を確かめられない6・見つからない33)。根拠は roadmap の Phase C と、2026-10-08 の候補の一括調査。残りの1,668件は未調査。大阪府の「なし」の37市町村(2026-09-23 の棚卸し)は、堺市(license)と準候補4市町(吹田市・岸和田市・太子町・高石市。表はあるがライセンスの表記なし → license)を除く32市町村を no-data にした
+- **対応済みの市の公開を止めるとき**(データが古くなったなど)は、台帳の hold とは別の手順: レジストリを unsupported に戻し、アダプタの登録を外し、台帳に hold で理由を書く(update-municipality-data の手順書)
+- **保留の市の見直し**: 週1回の見張り(アダプタを登録した市が対象)の外なので、第2段の総当たりと、その後は月1回の総当たりで見直す
+
+### 未対応の市区町村の公式サイト(official_url)
+
+- **Wikidata は候補にとどめる**。Wikidata(CC0)の「公式サイト」(P856)を、全国地方公共団体コード(P429)で突き合わせて候補を集める(問い合わせ1回、`data/cache/wikidata-official-sites.json`)。Wikidata には古い URL(非推奨・終了日つき)や外国語のページも入っているので、そのままは使わない
+- 候補の選び方: 非推奨・終了日つき・http(s) 以外を除く。トップページ(パスが / や /index.html)の候補があれば、それだけにする
+- **1件ずつ確かめる**(`scripts/core/official-url.ts`): 候補に1回だけ接続し(同時に4件、どのサイトにも1回だけ。確かめ済みの候補には再接続しない。結果は `data/cache/official-url-check.json`)、①応答が 200 ②行き先のホスト名が自治体のサイトらしい(`.lg.jp`、city / town / vill / village / ku のラベルがある `.jp`、または名前のローマ字を含む `.jp`。ローマ字の書き方のゆれ mombetsu / monbetsu は同じとみなす。ホスト名をラベルに分けて判定し、部分一致にしない)③ページの題名に自治体の名前がある(同じ名前の自治体がほかにある場合は都道府県名も)。通った候補の行き先が1つに決まるときだけ入れる
+- **接続は curl で行う**(`-sL`、転送は5回まで、20秒で打ち切り。証明書の確認は外さない)。自治体のサイトには、証明書の中間証明書を送っていないもの(証明書の連鎖が不完全)が多く、Node の fetch は `UNABLE_TO_VERIFY_LEAF_SIGNATURE` で失敗する。macOS の curl はシステムの仕組みで連鎖を補って確かめるので、ブラウザと同じ結果になる(2026-10-15、Node では 1,274件、curl で 1,658件が通った)
+- **古いドメインから .lg.jp の候補を作る**: Wikidata の候補(`www.city.kuji.iwate.jp` など)に接続できない・200 でないときは、`www.city.kuji.lg.jp` の形も候補にして同じ確かめを通す(`lgJpVariant`)。作った URL もそのままは入れない
+- **2026-10-15 の結果**: 未対応の1,727件のうち 1,658件に入れた(`.lg.jp` 725・city / town などのラベル 853・名前のローマ字 80)。同じ URL が2つの自治体に入ったものは0件。名前のローマ字だけで通った80件は題名を1件ずつ、ほかから無作為の20件も目で確かめた。入れなかった69件の内訳は、`.com` などのホスト名・題名に名前が無い(または同じ名前の自治体があるのに都道府県名が無い)・接続できない・行き先が複数(新宿区)。もう一度実行しても追加0件で、ファイルは変わらないことを確かめた
+- **すでに入っている URL は上書きしない**(対応済みの市・堺市)。通らなかった市は null のまま(画面は「お住まいの自治体の公式サイトでご確認ください」)
+- 結果の一覧(入れた URL と題名、入れなかった理由)は `work/coverage/official-url-report.tsv`
 

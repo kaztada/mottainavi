@@ -60,6 +60,17 @@ Issue の理由ごとに対応する。作業はブランチ `data/<slug>-<日�
 
 どの場合も、`data_version` を必ず上げ(`npm run check-data` が検査する)、`data_fetched_at` を取得日にする。コミットしてから `npm run build-data -- --all` → `npm run check-data` → テスト・lint・ビルド。PR を作る前に Codex の二重チェック(`npm run codex-review`、tech-stack.md §18)をして、指摘を確かめて直す(直したらコミットして、もう一度実行する)。PR を作り、Vercel と CI が緑になってからマージボタンを渡す。Issue は PR の本文に `Closes #<番号>` と書いて閉じる。
 
+## C. 対応済みの市の公開を止める(データが古くなった・市が制度を変えたのにデータが追いつかない)
+
+誤案内になる恐れが大きく、itemNotes の注記では補いきれないときだけ。Kaz に理由を説明して決めてもらう。
+
+1. `data/municipalities.json` のその市を `unsupported` に戻す(`official_url` は市のごみのページのままでよい)
+2. `scripts/adapters/index.ts` からその市の登録を外す(品目の生成と見張りが止まる)。`data/municipalities/<slug>/` は残す(再開のときに使う)
+3. 仕分けの台帳に書く: `npm run coverage -- sync`(台帳に未調査で入る)→ `npm run coverage -- set <slug> hold --date … --evidence … --detail-ja … --detail-en …`
+4. 検証・PR は A と同じ。再開するときは add-municipality の手順で戻す
+
+台帳の「保留」(調べて入れなかった市)とは別。保留の市は週1回の見張りの対象ではないので、月1回の総当たりで見直す(data-model.md §30)。
+
 ## 守ること
 
 - **push は1回にまとめる**: 自動の PR に手直しを足すときも、手元で検証(check-data・テスト・Codex の指摘の反映)を全部終えてから1回だけ push する。Vercel は push のたびにプレビューを1つ作って保存する(1回 約60〜80MB)。2026-10 に無料枠の保存容量 10GB の 82% に達したため(CLAUDE.md「テスト・品質」)

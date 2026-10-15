@@ -57,7 +57,7 @@ Kaz が決めるのは2か所だけ: **入れるか保留か**(手順3)と **本
 
 危険物ではない品目が1〜2件だけ食い違う場合(鹿児島市の「化粧品の容器<プラ製>」)は、入れたうえで `itemNotes` を使う: 市のデータは書き換えず、その品目の注意文言の先頭に「※もったいナビ注: 市のページでは「〇〇」と案内されています。…最新は公式サイトでご確認ください。」と添える。この扱いも判断材料に書いて Kaz に示す。
 
-保留になったら、`docs/roadmap.md` の Phase C の表と記憶ファイルに理由を記録し、PR を出して終わる。
+保留になったら、`docs/roadmap.md` の Phase C の表と記憶ファイルに理由を記録し、**仕分けの台帳にも書く**(`npm run coverage -- set <slug> hold --date <確かめた日> --evidence "資料名|URL" … --detail-ja "…" --detail-en "…"`。画面に出る文は、このアプリが確かめた範囲にとどめ、市を責めない)。PR を出して終わる。調べて「使える条件を確かめられない」「データが見つからない」になった市も、同じく台帳に書く(状態は license / no-data。no-data は `--searched` で探した場所を残す)
 
 ## 4. 実装
 
@@ -70,7 +70,7 @@ CLAUDE.md の「プラン → 承認 → 実装」に従い、プランモード
 1. `scripts/adapters/<slug>/index.ts` — `StandardCsvConfig`(列名に接頭辞が無い CSV は `headerPrefix: ""`。更新の見張り方 `watch`、文字コード、列名の接頭辞、区分の表記 → 区分ID、公式リンク、収集しない区分、区分の説明)。取得元の URL は `data/municipalities/<slug>/source.json`(`file_url` と `fingerprint`。`fingerprint` は空文字で始めれば、最初の見張りが記録する)
 2. `scripts/adapters/index.ts` に1行追加
 3. `data/municipalities/<slug>/categories.json`、`municipality.json`、`reuse-overrides.json`(最初は `{}`)
-4. `data/municipalities.json` の該当行を `supported` にし、`official_url` を入れる
+4. `data/municipalities.json` の該当行を `supported` にし、`official_url` を入れる(未対応のときに市のトップページの URL が入っていることがある。対応したら市のごみのページに置き換える)。**同じコミットで、仕分けの台帳(`data/coverage.json`)からその市を消す**(`npm run coverage -- sync`。消し忘れるとビルドが止まる。data-model.md §30)
 5. `data/reuse-options.json` に市の小型家電回収ボックス(`municipality_id` 付き。市の案内ページで設置場所を確認)
 
 slug はレジストリ(`data/municipalities.json`)にあるものを使い、変えない。`item_id_prefix` は既存と重ならない英小文字3字。`data_version` は作業日(yyyymmdd)。
