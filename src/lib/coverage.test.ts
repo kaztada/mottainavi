@@ -161,6 +161,13 @@ describe("状態ごとの数", () => {
     ).toBe(unsupported)
     expect(counts.total).toBe(1741)
   })
+
+  it("件数が相殺される食い違い(slug の置き換え)も止める", () => {
+    const { "sapporo-city": e, ...rest } = coverage
+    expect(() =>
+      countCoverage({ ...rest, "nowhere-city": e }, registry)
+    ).toThrow(/食い違っています/)
+  })
 })
 
 describe("画面に出す項目", () => {

@@ -133,12 +133,14 @@ export type CoverageCounts = { supported: number; total: number } & Record<
 
 /**
  * 状態ごとの数。対応済みはレジストリから、未対応の内訳は台帳から別々に数え、
- * 合計がレジストリの件数と合わなければ止める
+ * 合計がレジストリの件数と合わなければ止める。件数が相殺される食い違い(台帳の slug を
+ * レジストリに無い slug に置き換えたなど)は合計では分からないので、先に食い違いの検査を通す
  */
 export function countCoverage(
   coverage: CoverageFile,
   registry: readonly RegistryEntry[]
 ): CoverageCounts {
+  assertCoverageMatchesRegistry(coverage, registry)
   const counts = Object.fromEntries(
     COVERAGE_STATUSES.map((s) => [s, 0])
   ) as Record<CoverageStatus, number>

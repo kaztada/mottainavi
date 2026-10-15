@@ -122,6 +122,11 @@ describe("入れる URL を決める", () => {
     expect(r).toEqual({ url: null, reason: "応答 404" })
     expect(decideOfficialUrl([]).reason).toBe("Wikidata に候補が無い")
   })
+  it("確かめていない候補が残っていれば入れない(--limit で途中までにしたとき)", () => {
+    const r = decideOfficialUrl([ok("https://www.city.a.lg.jp/")], 1)
+    expect(r.url).toBeNull()
+    expect(r.reason).toContain("確かめていない候補")
+  })
   it("URL の正規化", () => {
     expect(normalizeUrl("https://www.city.a.lg.jp/index.php#top")).toBe(
       "https://www.city.a.lg.jp/"

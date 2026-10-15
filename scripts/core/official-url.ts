@@ -155,12 +155,23 @@ export type CandidateCheck = {
   reason?: string
 }
 
-/** 確かめた結果から、入れる URL を決める。通った候補の行き先が1つに決まるときだけ */
-export function decideOfficialUrl(checks: readonly CandidateCheck[]): {
+/**
+ * 確かめた結果から、入れる URL を決める。候補を全部確かめ終わっていて、通った候補の行き先が1つに決まるときだけ。
+ * 確かめていない候補が残っていると、行き先が複数かどうかが分からない(--limit で途中までにしたときなど)ので入れない
+ */
+export function decideOfficialUrl(
+  checks: readonly CandidateCheck[],
+  uncheckedCount = 0
+): {
   url: string | null
   reason: string
 } {
   const ok = checks.filter((c) => c.ok && c.final_url)
+  if (uncheckedCount > 0)
+    return {
+      url: null,
+      reason: `確かめていない候補が残っている(${uncheckedCount} 件)`,
+    }
   if (checks.length === 0) return { url: null, reason: "Wikidata に候補が無い" }
   if (ok.length === 0)
     return { url: null, reason: checks.map((c) => c.reason ?? "不明").join(" / ") }

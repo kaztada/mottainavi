@@ -383,10 +383,9 @@ async function officialUrl(args: string[]) {
   let adopted = 0
   for (const e of next) {
     if (e.status !== "unsupported" || e.official_url) continue
-    const cs = candidatesOf(e)
-      .map((c) => checks[`${e.slug} ${c}`])
-      .filter((c): c is CandidateCheck => Boolean(c))
-    const { url, reason } = decideOfficialUrl(cs)
+    const all = candidatesOf(e).map((c) => checks[`${e.slug} ${c}`])
+    const cs = all.filter((c): c is CandidateCheck => Boolean(c))
+    const { url, reason } = decideOfficialUrl(cs, all.length - cs.length)
     const title = cs.find((c) => c.ok)?.title ?? ""
     rows.push([e.slug, e.name_ja, e.pref, url ?? "", url ? title : reason].join("\t"))
     if (url) {
