@@ -64,6 +64,9 @@ const LOCK_SPIN_MS = 200
 /** 転送先の URL のロックを待つ時間の上限(元の URL のロックを持ったまま待つため) */
 const REDIRECT_LOCK_WAIT_MS = 3 * 60 * 1000
 
+/** 転送をたどる途中で、元の URL から見て続けられなくなった(回数・ループ・ロック待ちの上限) */
+class RedirectChainError extends Error {}
+
 /** ロックを待つ時間の上限を超えた */
 class LockTimeoutError extends Error {
   constructor(key: string) {
@@ -499,18 +502,39 @@ export function createFetcher(config: FetcherConfig): Fetcher {
           record = { ...res.record, sha256: null, size: 0, file: null, error }
           body = null
         }
+        // 転送の回数・ループ・ロック待ちの上限は、たどり始めた元の URL から見た話。途中の URL の失敗として
+        // 記録せず、元の URL まで投げ返して、元の URL の記録にだけ書く(途中の URL を直接取れば通ることがある)
+        const chainFail = (error: string) => {
+          rmSync(bodyPath, { force: true })
+          throw new RedirectChainError(error)
+        }
         if (!/^https?:$/.test(next.protocol)) fail("http(s) 以外への転送")
         else if (chain.length >= MAX_REDIRECTS)
-          fail(`転送が${MAX_REDIRECTS}回を超えた`)
+          chainFail(`転送が${MAX_REDIRECTS}回を超えた`)
         else if ([...chain, url].includes(normalizeUrl(next.href)))
-          fail("転送がループしている")
+          chainFail("転送がループしている")
         else {
           let sub: FetchResult | null = null
           try {
-            sub = await fetchOne(next.href, opts, [...chain, url])
+            // refresh は元の URL の1件だけ(取得済みの転送先は取り直さない)。retryFailed は引き継ぐ
+            // (転送先の失敗が、元の URL の失敗なので)
+            sub = await fetchOne(next.href, { ...opts, refresh: false }, [
+              ...chain,
+              url,
+            ])
           } catch (e) {
-            if (!(e instanceof LockTimeoutError)) throw e
-            fail("転送先の取得の順番を待ちきれなかった")
+            const message =
+              e instanceof RedirectChainError
+                ? e.message
+                : e instanceof LockTimeoutError
+                  ? "転送先の取得の順番を待ちきれなかった"
+                  : null
+            if (message === null) throw e
+            if (chain.length > 0) {
+              rmSync(bodyPath, { force: true })
+              throw new RedirectChainError(message)
+            }
+            fail(message)
           }
           if (sub) {
             // 転送先の本文を、元の URL の本文ファイルに写す

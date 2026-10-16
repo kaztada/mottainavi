@@ -430,6 +430,32 @@ describe("createFetcher: 転送", () => {
     expect(isFetchOk(loop.record)).toBe(false)
     const ftp = await s.fetcher.fetch(C)
     expect(ftp.record.error).toMatch(/http\(s\) 以外/)
+    // ループの失敗は、たどり始めた元の URL にだけ記録する
+    expect(s.fetcher.readLog().has(B)).toBe(false)
+  })
+
+  it("転送の回数の上限は元の URL の失敗にし、途中の URL には記録しない", async () => {
+    const hop = (i: number) => `https://h.example/${i}`
+    const s = setup((url) => {
+      const i = Number(url.split("/").pop())
+      return i >= 6 ? ok("終点") : moved(hop(i + 1))
+    })
+    const res = await s.fetcher.fetch(hop(0))
+    expect(res.record.error).toMatch(/転送が5回を超えた/)
+    expect(res.body).toBeNull()
+    for (let i = 1; i <= 5; i++)
+      expect(s.fetcher.readLog().has(hop(i))).toBe(false)
+    // 途中の URL を直接取れば、上限に届かず通る
+    const mid = await s.fetcher.fetch(hop(5))
+    expect(mid.record.status).toBe(200)
+    expect(mid.body?.toString("utf-8")).toBe("終点")
+  })
+
+  it("元の URL の refresh では、取得済みの転送先を取り直さない", async () => {
+    const s = setup(site)
+    await s.fetcher.fetch(A)
+    await s.fetcher.fetch(A, { refresh: true })
+    expect(s.calls).toEqual([A, B, A])
   })
 })
 
