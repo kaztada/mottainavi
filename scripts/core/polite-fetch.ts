@@ -437,52 +437,58 @@ export function createFetcher(config: FetcherConfig): Fetcher {
     const before = JSON.stringify(syncLog().get(url) ?? null)
     mkdirSync(bodyDir, { recursive: true })
     const bodyPath = join(bodyDir, `${urlKey(url)}.bin`)
-    let hop = url
-    let res: Awaited<ReturnType<typeof runOnce>> | null = null
-    // 転送は1回ずつたどり、行き先ごとにそのホストのロックと待ち時間を通す
-    for (let i = 0; ; i++) {
-      const host = hostKey(hop)
-      const step = await withHostLock(host, async () => {
-        if (i === 0) {
-          // ロックを待つあいだに、ほかの呼び出し(ほかのプロセス)が同じ URL を取っていたら、それを使う
-          const latest = syncLog().get(url)
-          if (latest && JSON.stringify(latest) !== before) {
-            const body = readBody(latest)
-            if (body || !isFetchOk(latest))
-              return { cached: { record: latest, body, fromCache: true } as FetchResult }
-          }
-        }
-        let r = await runOnce(hop, host, bodyPath, opts)
-        // 失敗したら、間をあけて1回だけ取り直す
-        if (r.failed) r = await runOnce(hop, host, bodyPath, opts)
-        return { r }
-      })
-      if ("cached" in step) return step.cached as FetchResult
-      res = step.r
-      const status = res.record.status
-      if (res.failed || status < 300 || status >= 400 || !res.redirect) break
-      const next = new URL(res.redirect, hop)
-      if (!/^https?:$/.test(next.protocol) || i >= MAX_REDIRECTS) {
-        res = {
-          ...res,
-          record: {
-            ...res.record,
-            sha256: null,
-            size: 0,
-            file: null,
-            error: i >= MAX_REDIRECTS ? `転送が${MAX_REDIRECTS}回を超えた` : "http(s) 以外への転送",
-          },
-          body: null,
-          failed: true,
-        }
-        break
+    // 元の URL ごとのロックを、転送をたどり終えて記録を書くまで持つ(同じ URL を二重に取りに行かない)
+    return withHostLock(`url-${urlKey(url)}`, async () => {
+      // ロックを待つあいだに、ほかの呼び出し(ほかのプロセス)が同じ URL を取っていたら、それを使う
+      const latest = syncLog().get(url)
+      if (latest && JSON.stringify(latest) !== before) {
+        const body = readBody(latest)
+        if (body || !isFetchOk(latest))
+          return { record: latest, body, fromCache: true }
       }
-      hop = next.href
-    }
-    const record = { ...res.record, url, final_url: res.record.final_url || hop }
-    mkdirSync(dirname(logPath), { recursive: true })
-    appendFileSync(logPath, JSON.stringify(record) + "\n")
-    return { record, body: res.body, fromCache: false }
+      let hop = url
+      let res: Awaited<ReturnType<typeof runOnce>> | null = null
+      // 転送は1回ずつたどり、行き先ごとにそのホストのロックと待ち時間を通す
+      for (let i = 0; ; i++) {
+        const host = hostKey(hop)
+        res = await withHostLock(host, async () => {
+          let r = await runOnce(hop, host, bodyPath, opts)
+          // 失敗したら、間をあけて1回だけ取り直す
+          if (r.failed) r = await runOnce(hop, host, bodyPath, opts)
+          return r
+        })
+        const status = res.record.status
+        if (res.failed || status < 300 || status >= 400 || !res.redirect) break
+        const next = new URL(res.redirect, hop)
+        if (!/^https?:$/.test(next.protocol) || i >= MAX_REDIRECTS) {
+          res = {
+            ...res,
+            record: {
+              ...res.record,
+              sha256: null,
+              size: 0,
+              file: null,
+              error:
+                i >= MAX_REDIRECTS
+                  ? `転送が${MAX_REDIRECTS}回を超えた`
+                  : "http(s) 以外への転送",
+            },
+            body: null,
+            failed: true,
+          }
+          break
+        }
+        hop = next.href
+      }
+      const record = {
+        ...res.record,
+        url,
+        final_url: res.record.final_url || hop,
+      }
+      mkdirSync(dirname(logPath), { recursive: true })
+      appendFileSync(logPath, JSON.stringify(record) + "\n")
+      return { record, body: res.body, fromCache: false }
+    })
   }
 
   return {

@@ -202,10 +202,16 @@ function applyProposal(args: string[]) {
   const targets = Object.entries(proposals).filter(([slug]) => !only || only.includes(slug))
   // 状態だけでなく、書く前の1件まるごと(before)とも照らす(同じ状態のままメモや根拠を直した分を戻さない)
   const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b)
+  const noBefore = targets.filter(([, p]) => p.before === undefined)
+  if (noBefore.length > 0)
+    throw new Error(
+      `書く前の1件(before)が無い提案です(何も書いていません。npm run sweep -- propose で作り直す): ${noBefore
+        .slice(0, 5)
+        .map(([s]) => s)
+        .join(", ")}`
+    )
   const stale = targets.filter(
-    ([slug, p]) =>
-      coverage[slug]?.status !== p.expect ||
-      (p.before !== undefined && !same(coverage[slug] ?? null, p.before))
+    ([slug, p]) => coverage[slug]?.status !== p.expect || !same(coverage[slug] ?? null, p.before)
   )
   if (stale.length > 0)
     throw new Error(

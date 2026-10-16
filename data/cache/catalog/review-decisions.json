@@ -1767,5 +1767,75 @@
   "format": "csv",
   "decided_at": "2026-10-16",
   "note": "収集日(区分)/名前(品目)/注意事項/ふりがな の品目別の一覧(約180行、ファイルは2021年)"
+ },
+ "https://data.bodik.jp/dataset/442011_garbage_disposal": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://data.bodik.jp/dataset/232114_togari_clean_center": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://data.bodik.jp/dataset/452041_20250601001": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://data.bodik.jp/dataset/252069_00004": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d0000000373": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d0000000270": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d3100000224": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/273": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/657": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/183": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/184": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/655": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/205": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://gifu-opendata.pref.gifu.lg.jp/dataset/477292": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "PCB 廃棄物の保管状況(事業者。題名で確認)"
  }
 }

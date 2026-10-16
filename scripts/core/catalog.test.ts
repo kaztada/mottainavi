@@ -371,6 +371,10 @@ describe("台帳への提案", () => {
     expect(p.entry).toMatchObject({ status: "candidate" })
     expect(String(p.entry?.note)).toContain("原文を確かめる")
   })
+  it("品目の一覧があれば、別のデータセットが要確認でも確認中", () => {
+    const p = proposeFor(e, unsurveyed, [v({}), v({ dataset: "x", verdict: "review", reason: "PDF" })], done, { today, catalogOnly: true })
+    expect(p.bucket).toBe("candidate")
+  })
   it("要確認が残れば書かない", () => {
     const p = proposeFor(e, unsurveyed, [v({ verdict: "review", reason: "PDF" })], done, { today, catalogOnly: true })
     expect(p).toMatchObject({ bucket: "review", entry: null })

@@ -634,6 +634,13 @@ export function judgeDataset(
   const unknown = peeks.filter((p) => p.table?.kind === "unknown")
   if (unknown.length > 0)
     return { ...base, verdict: "review", reason: unknown[0].table?.reason ?? "表を判断できない", resourceUrl: unknown[0].url }
+  // 読んでいない表が残っていて、題名がはっきり統計・カレンダーなどでなければ決めつけない(要確認)
+  const peekedUrls = new Set(peeks.map((p) => p.url))
+  const unread = ds.resources.filter(
+    (r) => r.url && ["csv", "excel"].includes(fileKind(r)) && !peekedUrls.has(r.url)
+  )
+  if (unread.length > 0 && titleSignal(ds.title) !== "non-item")
+    return { ...base, verdict: "review", reason: `読んでいない表が ${unread.length} 件ある` }
   // 表が無い・表はすべて品目の一覧ではない
   const nonTable = ds.resources.filter((r) => !["csv", "excel"].includes(fileKind(r)))
   if (peeks.length > 0 && nonTable.length === 0)
@@ -717,7 +724,8 @@ export function proposeFor(
       ? { ...base, bucket: "surveyed-review", reason: `調べ済み(${current.status})の市に、カタログのデータ ${fresh.length} 件`, entry: null }
       : { ...base, bucket: "surveyed", reason: "調べ済み", entry: null }
   }
-  if (reviews.length > 0)
+  // 品目の一覧が1つでもあれば確認中(ほかのデータセットの要確認は、見つからないを止めるためだけに使う)
+  if (items.length === 0 && reviews.length > 0)
     return { ...base, bucket: "review", reason: reviews.map((v) => v.reason).join(" / "), entry: null }
   const best = [...items].sort(
     (a, b) =>

@@ -30,7 +30,6 @@ import {
   judgeDataset,
   manualDatasets,
   namesIn,
-  titleSignal,
   matchMunicipality,
   normalizePackage,
   proposeFor,
@@ -304,7 +303,9 @@ async function peek(args: string[]) {
     for (const ds of datasets) {
       if (cat.excludeHosts?.some((h) => ds.url.includes(`//${h}/`))) continue
       const matches = matchWithMappings(ds, cat, idx)
-      if (matches.every((m) => m.kind === "none")) continue
+      // 自治体が決まらないデータも、題名・説明文に市町村の名前があれば中身を見る
+      if (matches.every((m) => m.kind === "none") && namesIn(`${ds.title} ${ds.notes}`, idx).length === 0)
+        continue
       const res = cat.kind === "manual" ? ds.resources : resourcesToPeek(ds)
       for (const r of res) if (reanalyze || !checks[r.url]) todo.set(r.url, fileKind(r))
     }
@@ -419,7 +420,8 @@ function propose(args: string[]) {
             verdicts.push(...decide({ ...v, slug: null }))
             continue
           }
-          if (titleSignal([ds.title, ...ds.resources.map((r) => r.name)].join(" ")) !== "item") continue
+          // 中身(または題名)で品目の一覧ではないと分かったものだけ捨てる。それ以外は説明文の市町村を要確認に
+          if (v.verdict === "not-item") continue
           const names = namesIn(`${ds.title} ${ds.notes}`, idx)
           const slugs = names.flatMap((n) => (idx.byName.get(n) ?? []).map((e) => e.slug))
           unmatchedReviews.push({ ds, reason: `自治体が決まらない品目の一覧らしいデータ(説明文の市町村 ${slugs.length})` })
