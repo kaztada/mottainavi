@@ -66,6 +66,20 @@ const HEADER_COLUMNS = [
   "注意点",
 ]
 
+/** これまでに見た列名の接頭辞(須賀川市は接頭辞なし) */
+export const KNOWN_HEADER_PREFIXES = ["", "ごみの分別方法_", "ゴミの分別方法_"]
+
+/**
+ * 見出しが国の標準形式か(先頭5列が、既知の接頭辞のどれか+「全国地方公共団体コード, ID, 品目, 分別区分, 注意点」)。
+ * データカタログの総当たり(scripts/core/catalog.ts)で、見つけたファイルの形式を見分けるのに使う
+ */
+export function isStandardHeader(header: readonly string[]): boolean {
+  const cols = header.map((h) => h.trim())
+  return KNOWN_HEADER_PREFIXES.some((p) =>
+    HEADER_COLUMNS.every((h, i) => cols[i] === p + h)
+  )
+}
+
 /** ラベルの正規化: NFKC(半角カナ・全角括弧・英数の統一)→全空白除去 */
 export function normalizeLabel(label: string): string {
   return label.normalize("NFKC").replace(/[\s　]/g, "")
