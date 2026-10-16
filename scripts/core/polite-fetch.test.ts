@@ -28,7 +28,13 @@ afterEach(() => {
 })
 
 type Reply =
-  | { status: number; body: string | Buffer; contentType?: string }
+  | {
+      status: number
+      body: string | Buffer
+      contentType?: string
+      /** 転送先(%{redirect_url}) */
+      location?: string
+    }
   | { fail: number; stderr?: string }
 
 /** ネットワークに出ない取得器。curl の代わりに reply が返す中身を書き、呼ばれた URL を calls に残す */
@@ -56,7 +62,7 @@ function setup(
       })
     }
     writeFileSync(out, r.body)
-    return `${r.status}\n${url}\n${r.contentType ?? "text/html; charset=utf-8"}`
+    return `${r.status}\n${url}\n${r.contentType ?? "text/html; charset=utf-8"}\n${r.location ?? ""}`
   }
   const make = (offline = false) =>
     createFetcher({
@@ -355,6 +361,75 @@ describe("createFetcher: 失敗", () => {
     })
     expect(retried.record.status).toBe(200)
     expect(s.calls).toHaveLength(2)
+  })
+})
+
+describe("createFetcher: 転送", () => {
+  const A = "https://a.example/old"
+  const B = "https://b.example/new"
+  const C = "https://c.example/other"
+  const moved = (location: string): Reply => ({
+    status: 301,
+    body: "moved",
+    location,
+  })
+  /** A・C は B へ転送。B は呼ばれた回数つきの本文 */
+  const site = (url: string, n: number): Reply =>
+    url === B ? ok(`B${n}`) : moved(B)
+
+  it("転送先も1件として記録し、元の URL には本文を写す", async () => {
+    const s = setup(site)
+    const res = await s.fetcher.fetch(A)
+    expect(s.calls).toEqual([A, B])
+    expect(res.body?.toString("utf-8")).toBe("B2")
+    expect(res.record.url).toBe(A)
+    expect(res.record.final_url).toBe(B)
+    expect(res.record.status).toBe(200)
+    expect(res.record.file).toBe(`work/fetch/${urlKey(A)}.bin`)
+    const log = s.fetcher.readLog()
+    expect(log.get(B)?.file).toBe(`work/fetch/${urlKey(B)}.bin`)
+    expect(log.get(A)?.sha256).toBe(log.get(B)?.sha256)
+    expect(readFileSync(join(s.root, res.record.file!), "utf-8")).toBe("B2")
+  })
+
+  it("転送先が取得済みなら取りに行かない(別の元の URL からでも)", async () => {
+    const s = setup(site)
+    await s.fetcher.fetch(A)
+    const c = await s.fetcher.fetch(C)
+    expect(s.calls).toEqual([A, B, C])
+    expect(c.body?.toString("utf-8")).toBe("B2")
+    expect(c.record.file).toBe(`work/fetch/${urlKey(C)}.bin`)
+  })
+
+  it("転送先を直接と転送経由で同時に頼んでも、転送先は1回だけ取りに行く", async () => {
+    const s = setup(site)
+    await Promise.all([s.fetcher.fetch(B), s.fetcher.fetch(A)])
+    expect(s.calls.filter((u) => u === B)).toHaveLength(1)
+  })
+
+  it("転送先だけを取り直しても、元の URL の記録と本文は食い違わない", async () => {
+    const s = setup(site)
+    await s.fetcher.fetch(B)
+    const a = await s.fetcher.fetch(A)
+    expect(s.calls).toEqual([B, A])
+    await s.fetcher.fetch(B, { refresh: true })
+    const again = await s.fetcher.fetch(A)
+    expect(again.fromCache).toBe(true)
+    expect(again.record.sha256).toBe(a.record.sha256)
+    expect(again.body?.toString("utf-8")).toBe("B1")
+    expect((await s.fetcher.fetch(B)).body?.toString("utf-8")).toBe("B3")
+  })
+
+  it("ループと http(s) 以外への転送は失敗として記録する", async () => {
+    const s = setup((url) =>
+      url === A ? moved(B) : url === B ? moved(A) : moved("ftp://x/")
+    )
+    const loop = await s.fetcher.fetch(A)
+    expect(loop.record.error).toMatch(/ループ/)
+    expect(loop.body).toBeNull()
+    expect(isFetchOk(loop.record)).toBe(false)
+    const ftp = await s.fetcher.fetch(C)
+    expect(ftp.record.error).toMatch(/http\(s\) 以外/)
   })
 })
 

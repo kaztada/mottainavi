@@ -32,6 +32,7 @@ import {
   namesIn,
   matchMunicipality,
   normalizePackage,
+  prefsIn,
   proposeFor,
   resourcesToPeek,
   type CatalogDef,
@@ -55,11 +56,12 @@ const POPULATION = join(CATALOG_CACHE, "population.json")
 const OWN_SITE = join(CATALOG_CACHE, "own-site.json")
 /**
  * 要確認を人(エージェント)が見て決めた結果。データセットのページの URL ごとに、品目の一覧か(item-list)・
- * 違うか(not-item)と、自治体が決まらなかったときの当てはまる slug、理由。機械の判定より優先する
+ * 違うか(not-item)・中身を確かめられなかったか(review。取得の失敗・404 など。品目の一覧ではないと
+ * 決めず、要確認のまま残す)と、自治体が決まらなかったときの当てはまる slug、理由。機械の判定より優先する
  */
 const REVIEW_DECISIONS = join(CATALOG_CACHE, "review-decisions.json")
 type ReviewDecision = {
-  verdict: "item-list" | "not-item"
+  verdict: "item-list" | "not-item" | "review"
   slugs?: string[]
   format?: string
   decided_at: string
@@ -479,7 +481,10 @@ function propose(args: string[]) {
       ...v,
       slug,
       verdict: d.verdict,
-      reason: `人が確かめた(${d.decided_at}): ${d.note}`,
+      reason:
+        d.verdict === "review"
+          ? `人が見たが確かめられなかった(${d.decided_at}): ${d.note}`
+          : `人が確かめた(${d.decided_at}): ${d.note}`,
       format: (d.format as DatasetVerdict["format"]) ?? v.format,
     }))
   }
@@ -498,7 +503,7 @@ function propose(args: string[]) {
   const slugsInText = (text: string, cat: CatalogDef): string[] => {
     const prefs = [
       ...new Set([
-        ...(text.match(/北海道|東京都|京都府|大阪府|.{2,3}県/g) ?? []),
+        ...prefsIn(text),
         ...(cat.prefs ?? []),
       ]),
     ]
@@ -533,12 +538,14 @@ function propose(args: string[]) {
           // 自治体が決まらないデータ: 人が決めていればそれを使う。品目の一覧らしい題名なら、説明文に出てくる
           // 市町村を要確認にする(中身を見ないまま、それらの市町村を見つからないにしない)
           const v = judgeDataset(ds, m, peeks, idx)
-          if (decisions[ds.url]) {
+          const d = decisions[ds.url]
+          // 人が決めた結果(確かめられなかった review で slug の無いものは、下で説明文の市町村を要確認に)
+          if (d && (d.verdict !== "review" || d.slugs)) {
             verdicts.push(...decide({ ...v, slug: null }))
             continue
           }
           // 中身(または題名)で品目の一覧ではないと分かったものだけ捨てる。それ以外は説明文の市町村を要確認に
-          if (v.verdict === "not-item") continue
+          if (!d && v.verdict === "not-item") continue
           const slugs = slugsInText(
             `${ds.org.title} ${ds.site ?? ""} ${ds.title} ${ds.notes}`,
             cat
@@ -552,18 +559,20 @@ function propose(args: string[]) {
               ...v,
               slug,
               verdict: "review",
-              reason:
-                "自治体が決まらない品目の一覧らしいデータ(説明文に名前がある)",
+              reason: d
+                ? `人が見たが確かめられなかった(${d.decided_at}): ${d.note}`
+                : "自治体が決まらない品目の一覧らしいデータ(説明文に名前がある)",
             })
           continue
         }
         if (m.kind === "review") {
           const v = judgeDataset(ds, m, peeks, idx)
-          if (v.verdict === "not-item") continue
-          if (decisions[ds.url]) {
+          const d = decisions[ds.url]
+          if (d && (d.verdict !== "review" || d.slugs)) {
             verdicts.push(...decide({ ...v, slug: null }))
             continue
           }
+          if (!d && v.verdict === "not-item") continue
           // 組合・広域など slugs が空のときも、題名・説明文に出てくる市町村を要確認にする
           const slugs =
             m.slugs.length > 0
@@ -582,7 +591,9 @@ function propose(args: string[]) {
               ...v,
               slug,
               verdict: "review",
-              reason: `自治体が決まらない: ${m.reason}`,
+              reason: d
+                ? `人が見たが確かめられなかった(${d.decided_at}): ${d.note}`
+                : `自治体が決まらない: ${m.reason}`,
             })
           continue
         }
@@ -647,13 +658,18 @@ function propose(args: string[]) {
     const population = pop.population[e.lg_code] ?? 0
     const { sources, catalogOnly } = sourcesFor(e.slug, e.pref, population)
     const p = proposeFor(e, current, verdicts, sources, { today, catalogOnly })
-    // カタログで確認中・要確認・調べ済みなら、それを優先する。それ以外で市のサイトに一覧があれば、それで書く
+    // カタログで確認中・要確認・調べ済みなら、それを優先する。それ以外で市のサイトに一覧があれば、それで書く。
+    // 要確認(カタログのデータの中身を確かめられなかった)でも、市のサイトに品目の一覧があれば確認中にする
+    // (要確認は、見つからないにするのを止めるためのもの)
     const o = own[e.slug]
     const fromOwn =
       o && current.status === "unsurveyed" ? ownSiteEntry(o, today) : null
     if (
       fromOwn &&
-      !["candidate", "review", "surveyed", "surveyed-review"].includes(p.bucket)
+      (!["candidate", "review", "surveyed", "surveyed-review"].includes(
+        p.bucket
+      ) ||
+        (p.bucket === "review" && fromOwn.status === "candidate"))
     ) {
       proposals.push({
         ...p,

@@ -604,9 +604,9 @@
   "note": "外部リンクの島田商業高校5374アプリ用CSVが消え、高校サイトのHTMLが返る。使えるデータなし"
  },
  "https://opendata.pref.shizuoka.jp/dataset/fuji-885.html": {
-  "verdict": "not-item",
+  "verdict": "review",
   "decided_at": "2026-10-16",
-  "note": "ごみ回収情報(2017年度、収集情報と推定。未確認)"
+  "note": "ごみ回収情報(2017年度)。中身を確かめておらず、品目の一覧かどうか未確認"
  },
  "https://opendata.pref.shizuoka.jp/dataset/11833.html": {
   "verdict": "not-item",
@@ -1071,14 +1071,14 @@
   "note": "墨田区 行政基礎資料集の環境(統計・施設)"
  },
  "https://yamaguchi-opendata.jp/ckan/dataset/https-www-town-waki-lg-jp-soshiki-4-225-html": {
-  "verdict": "not-item",
+  "verdict": "review",
   "decided_at": "2026-10-16",
-  "note": "リソースは和木町サイトのHTMLへのリンクのみで、取得すると404(ページ移動)。表データなし。公式の分別ページは別途確認が必要"
+  "note": "リソースは和木町サイトのHTMLへのリンクのみで、取得すると404(ページ移動)。品目の一覧かどうか未確認。公式の分別ページは別途確認が必要"
  },
  "https://yamaguchi-opendata.jp/ckan/dataset/352039_garbage_separation": {
-  "verdict": "not-item",
+  "verdict": "review",
   "decided_at": "2026-10-16",
-  "note": "リソースは山口市サイトのHTMLへのリンクのみで、取得すると404。表データなし。公式の分別ページは別途確認が必要"
+  "note": "リソースは山口市サイトのHTMLへのリンクのみで、取得すると404。品目の一覧かどうか未確認。公式の分別ページは別途確認が必要"
  },
  "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html": {
   "verdict": "item-list",
@@ -1119,7 +1119,7 @@
   "note": "ごみ集積所の一覧"
  },
  "https://yamaguchi-opendata.jp/ckan/dataset/hg-garbage-howto": {
-  "verdict": "not-item",
+  "verdict": "review",
   "decided_at": "2026-10-16",
   "note": "萩市の早見表PDF(地域別)・収集カレンダーPDFと、市サイトのHTMLへのリンク(題名に50音順あり)。HTMLのリンクは取得すると404のため品目別は未確認。市の公式サイトを別途確認する価値あり"
  },
@@ -1400,12 +1400,12 @@
   "note": "平生町 品目別分類表(50音順)PDF 21頁・数百品目(2025-02更新)。実体は https://www.town.hirao.lg.jp/material/files/group/40/gomibunnrui.pdf (カタログの file は HTML ページ 2891.html)"
  },
  "https://yamaguchi-opendata.jp/ckan/dataset/02_gomi": {
-  "verdict": "not-item",
+  "verdict": "review",
   "decided_at": "2026-10-16",
   "note": "阿武町 ゴミの収集について。カレンダーと『ごみの出し方ガイドブック R8.4.1』PDFへのリンク。PDFは大容量で取得失敗し、品目表の有無は未確認"
  },
  "http://opendata.town.aichi-higashiura.lg.jp/dataset/p_9173_9173": {
-  "verdict": "not-item",
+  "verdict": "review",
   "decided_at": "2026-10-16",
   "note": "ごみの分別情報。サイトが接続リセットで未確認(要再取得。品目別の可能性あり)"
  },
@@ -1516,9 +1516,9 @@
   "note": "図書館登録者数。ごみと無関係"
  },
  "https://www.okayama-opendata.jp/datasets/2898": {
-  "verdict": "not-item",
+  "verdict": "review",
   "decided_at": "2026-10-16",
-  "note": "真庭市 ごみ収集関連データ(404で未確認。収集量等の統計と判断)"
+  "note": "真庭市 ごみ収集関連データ。リンク先が404で中身は未確認"
  },
  "https://www.harp.lg.jp/opendata/dataset/99.html": {
   "verdict": "item-list",
@@ -1618,25 +1618,14 @@
    "aomori-city",
    "hirosaki-city",
    "hachinohe-city",
-   "kuroishi-city",
-   "goshogawara-city",
    "towada-city",
-   "misawa-city",
    "mutsu-city",
    "tsugaru-city",
    "hirakawa-city",
-   "hiranai-town",
    "imabetsu-town",
-   "yomogita-village",
-   "sotogahama-town",
    "fukaura-town",
-   "nishimeya-village",
-   "fujisaki-town",
-   "owani-town",
-   "inakadate-village",
    "itayanagi-town",
    "tsuruta-town",
-   "nakadomari-town",
    "noheji-town",
    "shichinohe-town",
    "rokunohe-town",
@@ -1646,7 +1635,6 @@
    "oma-town",
    "higashidori-village",
    "kazamaura-village",
-   "sai-village",
    "sannohe-town",
    "gonohe-town",
    "takko-town",
@@ -1658,7 +1646,7 @@
   ],
   "format": "csv",
   "decided_at": "2026-10-16",
-  "note": "青森県内の市町村ごとに分別種別・注意事項の列が並ぶ品目の一覧(約6,950行、CC BY)。見出しの市町村に結びつけた"
+  "note": "青森県内の市町村ごとに分別種別・注意事項の列が並ぶ品目の一覧(約6,950行、CC BY)。見出しの市町村に結びつけた。黒石市・五所川原市・三沢市・平内町・蓬田村・外ヶ浜町・西目屋村・藤崎町・大鰐町・田舎館村・中泊町・佐井村の12市町村は分別種別の列が全部 N/A(データが入っていない)ので含めない"
  },
  "http://opendata.pref.toyama.jp/dataset/pf01002315": {
   "verdict": "not-item",
@@ -1879,9 +1867,9 @@
   "note": "ごみ収集量(統計)(題名で確認)"
  },
  "https://opendata.pref.aomori.lg.jp/dataset/1481.html": {
-  "verdict": "not-item",
+  "verdict": "review",
   "decided_at": "2026-10-16",
-  "note": "ファイルが404。青森県の南部町は県の40市町村の一覧(aoi-mori-1)で確認中にしている(題名で確認)"
+  "note": "ごみの分類の CSV(022063_52_gomi_bunrui.csv)が404で、中身は未確認"
  },
  "https://data.city.yokohama.lg.jp/dataset/konan_databookkonan": {
   "verdict": "not-item",

@@ -5798,34 +5798,54 @@
     "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
   },
   "kuroishi-city": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。黒石市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Kuroishi City's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "goshogawara-city": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。五所川原市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Goshogawara City's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "towada-city": {
     "status": "candidate",
@@ -5843,19 +5863,29 @@
     "note": "総当たり 2026-10-16: csv・532行・データの基準日 不明・カタログの更新日 2025-06-20・ライセンスの登録 cc-by"
   },
   "misawa-city": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。三沢市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Misawa City's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "mutsu-city": {
     "status": "candidate",
@@ -5903,19 +5933,29 @@
     "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
   },
   "hiranai-town": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。平内町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Hiranai Town's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "imabetsu-town": {
     "status": "candidate",
@@ -5933,34 +5973,54 @@
     "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
   },
   "yomogita-village": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。蓬田村のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Yomogita Village's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "sotogahama-town": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。外ヶ浜町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Sotogahama Town's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "ajigasawa-town": {
     "status": "candidate",
@@ -5993,64 +6053,104 @@
     "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
   },
   "nishimeya-village": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。西目屋村のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Nishimeya Village's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "fujisaki-town": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。藤崎町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Fujisaki Town's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "owani-town": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。大鰐町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Owani Town's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "inakadate-village": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。田舎館村のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Inakadate Village's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "itayanagi-town": {
     "status": "candidate",
@@ -6083,19 +6183,29 @@
     "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
   },
   "nakadomari-town": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。中泊町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Nakadomari Town's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "noheji-town": {
     "status": "candidate",
@@ -6248,19 +6358,29 @@
     "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
   },
   "sai-village": {
-    "status": "candidate",
+    "status": "no-data",
     "checked_at": "2026-10-16",
+    "detail_ja": "国内のオープンデータのカタログで探しました。佐井村のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Sai Village's own website individually.",
     "evidence": [
       {
-        "label": "ごみ分別一覧（26市町村）(search-ckan-jp)",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv"
+        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・4999行・データの基準日 不明・カタログの更新日 2018-05-30・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
+    "searched": [
+      {
+        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
+        "url": "https://data.bodik.jp/"
+      },
+      {
+        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
+        "url": "https://search.ckan.jp/"
+      },
+      {
+        "label": "e-Gov データポータル(国の CKAN)",
+        "url": "https://data.e-gov.go.jp/"
+      }
+    ]
   },
   "sannohe-town": {
     "status": "candidate",
@@ -26514,33 +26634,7 @@
     ]
   },
   "kosai-city": {
-    "status": "no-data",
-    "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。湖西市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kosai City's own website individually.",
-    "evidence": [
-      {
-        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
-      }
-    ],
-    "searched": [
-      {
-        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
-        "url": "https://data.bodik.jp/"
-      },
-      {
-        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
-        "url": "https://search.ckan.jp/"
-      },
-      {
-        "label": "e-Gov データポータル(国の CKAN)",
-        "url": "https://data.e-gov.go.jp/"
-      },
-      {
-        "label": "静岡県オープンデータカタログ",
-        "url": "https://opendata.pref.shizuoka.jp/"
-      }
-    ]
+    "status": "unsurveyed"
   },
   "izu-city": {
     "status": "no-data",
@@ -35361,33 +35455,7 @@
     ]
   },
   "maniwa-city": {
-    "status": "no-data",
-    "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。真庭市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Maniwa City's own website individually.",
-    "evidence": [
-      {
-        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
-      }
-    ],
-    "searched": [
-      {
-        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
-        "url": "https://data.bodik.jp/"
-      },
-      {
-        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
-        "url": "https://search.ckan.jp/"
-      },
-      {
-        "label": "おかやまオープンデータカタログ",
-        "url": "https://www.okayama-opendata.jp/"
-      },
-      {
-        "label": "e-Gov データポータル(国の CKAN)",
-        "url": "https://data.e-gov.go.jp/"
-      }
-    ]
+    "status": "unsurveyed"
   },
   "mimasaka-city": {
     "status": "no-data",
@@ -36405,68 +36473,10 @@
     "note": "総当たり 2026-10-16: excel・1143行・データの基準日 不明・カタログの更新日 2026-03-27・ライセンスの登録 cc-by-40-intl"
   },
   "yamaguchi-city": {
-    "status": "no-data",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
-      },
-      {
-        "label": "市区町村のサイトの冊子(PDF など。オープンデータの表示なし)",
-        "url": "https://www.city.yamaguchi.lg.jp/uploaded/attachment/123481.pdf"
-      }
-    ],
-    "searched": [
-      {
-        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
-        "url": "https://data.bodik.jp/"
-      },
-      {
-        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
-        "url": "https://search.ckan.jp/"
-      },
-      {
-        "label": "広島広域都市圏・広島県オープンデータポータルサイト",
-        "url": "https://hiroshima-opendata.dataeye.jp/"
-      },
-      {
-        "label": "e-Gov データポータル(国の CKAN)",
-        "url": "https://data.e-gov.go.jp/"
-      },
-      {
-        "label": "市区町村のサイト(オープンデータ・ごみの分別のページ)",
-        "url": "https://www.city.yamaguchi.lg.jp/uploaded/attachment/123481.pdf"
-      }
-    ]
+    "status": "unsurveyed"
   },
   "hagi-city": {
-    "status": "no-data",
-    "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。萩市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Hagi City's own website individually.",
-    "evidence": [
-      {
-        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
-      }
-    ],
-    "searched": [
-      {
-        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
-        "url": "https://data.bodik.jp/"
-      },
-      {
-        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
-        "url": "https://search.ckan.jp/"
-      },
-      {
-        "label": "広島広域都市圏・広島県オープンデータポータルサイト",
-        "url": "https://hiroshima-opendata.dataeye.jp/"
-      },
-      {
-        "label": "e-Gov データポータル(国の CKAN)",
-        "url": "https://data.e-gov.go.jp/"
-      }
-    ]
+    "status": "unsurveyed"
   },
   "hofu-city": {
     "status": "candidate",
@@ -36633,33 +36643,7 @@
     "note": "総当たり 2026-10-16: pdf・0行・データの基準日 不明・カタログの更新日 2024-11-25・ライセンスの登録 (なし)(登録からは確かめられない。原文を確かめる)"
   },
   "waki-town": {
-    "status": "no-data",
-    "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。和木町のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Waki Town's own website individually.",
-    "evidence": [
-      {
-        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
-      }
-    ],
-    "searched": [
-      {
-        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
-        "url": "https://data.bodik.jp/"
-      },
-      {
-        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
-        "url": "https://search.ckan.jp/"
-      },
-      {
-        "label": "広島広域都市圏・広島県オープンデータポータルサイト",
-        "url": "https://hiroshima-opendata.dataeye.jp/"
-      },
-      {
-        "label": "e-Gov データポータル(国の CKAN)",
-        "url": "https://data.e-gov.go.jp/"
-      }
-    ]
+    "status": "unsurveyed"
   },
   "kaminoseki-town": {
     "status": "no-data",
@@ -36735,33 +36719,7 @@
     "note": "総当たり 2026-10-16: pdf・0行・データの基準日 不明・カタログの更新日 2025-02-12・ライセンスの登録 cc-by"
   },
   "abu-town": {
-    "status": "no-data",
-    "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。阿武町のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Abu Town's own website individually.",
-    "evidence": [
-      {
-        "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
-      }
-    ],
-    "searched": [
-      {
-        "label": "BODIK(九州・関西などの市区町村のオープンデータカタログ)",
-        "url": "https://data.bodik.jp/"
-      },
-      {
-        "label": "search.ckan.jp(国内の CKAN 37サイトの横断検索)",
-        "url": "https://search.ckan.jp/"
-      },
-      {
-        "label": "広島広域都市圏・広島県オープンデータポータルサイト",
-        "url": "https://hiroshima-opendata.dataeye.jp/"
-      },
-      {
-        "label": "e-Gov データポータル(国の CKAN)",
-        "url": "https://data.e-gov.go.jp/"
-      }
-    ]
+    "status": "unsurveyed"
   },
   "tokushima-city": {
     "status": "no-data",

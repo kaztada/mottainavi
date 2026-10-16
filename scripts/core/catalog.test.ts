@@ -10,6 +10,7 @@ import {
   matchMunicipality,
   namesIn,
   normalizePackage,
+  prefsIn,
   proposeFor,
   resourcesToPeek,
   titleSignal,
@@ -284,6 +285,17 @@ describe("自治体との結びつけ", () => {
     expect(matchMunicipality(withPref, SEARCH, idx)).toMatchObject({ slug: "tokyo-fuchu-city" })
     const noPref = normalizePackage(pkg({ organization: { name: "x", title: "府中市" } }), SEARCH)
     expect(matchMunicipality(noPref, SEARCH, idx)).toMatchObject({ kind: "review" })
+    // 県名の前の空白・括弧を拾わない
+    for (const title of ["府中市 広島県オープンデータ", "ごみ分別(広島県府中市)", "ごみ分別（広島県府中市）"]) {
+      const ds = normalizePackage(pkg({ organization: { name: "x", title } }), SEARCH)
+      expect(matchMunicipality(ds, SEARCH, idx)).toMatchObject({ slug: "hiroshima-fuchu-city" })
+    }
+  })
+  it("prefsIn は47都道府県の名前で当てる", () => {
+    expect(prefsIn(" 鳥取県オープンデータ（鳥取県南部町）")).toEqual(["鳥取県"])
+    expect(prefsIn("東京都府中市")).toEqual(["東京都"])
+    expect(prefsIn("神奈川県・和歌山県・鹿児島県")).toEqual(["神奈川県", "和歌山県", "鹿児島県"])
+    expect(prefsIn("県のごみ")).toEqual([])
   })
   it("組合・広域の組織は要確認(構成市町村に広げない)", () => {
     const ds = normalizePackage(

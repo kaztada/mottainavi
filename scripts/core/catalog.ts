@@ -586,7 +586,64 @@ export function namesIn(text: string, idx: RegistryIndex): string[] {
   return out
 }
 
-const PREFS = /北海道|東京都|京都府|大阪府|.{2,3}県/g
+/** 47都道府県の名前 */
+export const PREFECTURES = [
+  "北海道",
+  "青森県",
+  "岩手県",
+  "宮城県",
+  "秋田県",
+  "山形県",
+  "福島県",
+  "茨城県",
+  "栃木県",
+  "群馬県",
+  "埼玉県",
+  "千葉県",
+  "東京都",
+  "神奈川県",
+  "新潟県",
+  "富山県",
+  "石川県",
+  "福井県",
+  "山梨県",
+  "長野県",
+  "岐阜県",
+  "静岡県",
+  "愛知県",
+  "三重県",
+  "滋賀県",
+  "京都府",
+  "大阪府",
+  "兵庫県",
+  "奈良県",
+  "和歌山県",
+  "鳥取県",
+  "島根県",
+  "岡山県",
+  "広島県",
+  "山口県",
+  "徳島県",
+  "香川県",
+  "愛媛県",
+  "高知県",
+  "福岡県",
+  "佐賀県",
+  "長崎県",
+  "熊本県",
+  "大分県",
+  "宮崎県",
+  "鹿児島県",
+  "沖縄県",
+] as const
+
+/** 前から順に当てる(「東京都府中市」は東京都だけ。重なる「京都府」は数えない) */
+const PREFS = new RegExp(PREFECTURES.join("|"), "g")
+
+/** 文に書かれた都道府県の名前(47都道府県の名前で当てる。前後の空白や括弧は拾わない) */
+export function prefsIn(text: string): string[] {
+  return [...new Set(text.match(PREFS) ?? [])]
+}
 
 /**
  * データセットを自治体に結びつける。組織 ID のコード(BODIK・東京都)と市の自前のカタログは確定、
@@ -615,7 +672,6 @@ export function matchMunicipality(
   if (cat.municipality)
     return { kind: "matched", slug: cat.municipality, by: "own-catalog" }
 
-  const prefsIn = (t: string) => [...new Set(t.match(PREFS) ?? [])]
   // 組織名・サイト名を先に、無ければ題名で
   for (const text of [orgText, ds.title]) {
     const names = namesIn(text, idx)

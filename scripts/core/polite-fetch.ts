@@ -17,6 +17,9 @@
  *   ときだけ取り直す)。応答が 2xx でないとき(404 など)は取り直さず、そのまま記録する(retryFailed の対象)
  * - 本文の記録はあるのに本文のファイルが無いとき(work/ を消した、別の機械で取った)は、取っていないのと
  *   同じに扱って取りに行く
+ * - 転送(3xx)は curl に任せず1回ずつたどる。転送先も1つの URL として同じ決まりで取得・記録する
+ *   (URL ごとのロック、取得済みなら取りに行かない)。元の URL の記録は転送先の結果で、本文は元の URL の
+ *   本文ファイルに写す(URL どうしで本文ファイルを共有しない)
  *
  * 置き場所:
  * - 本文: work/fetch/<URL の sha256 の先頭24文字>.bin(work/ はコミットしない)
@@ -58,6 +61,15 @@ export const DEFAULT_MAX_BYTES = 30_000_000
 const LOCK_STALE_MS = 5 * 60 * 1000
 /** ロックが空くのを待つときの間隔 */
 const LOCK_SPIN_MS = 200
+/** 転送先の URL のロックを待つ時間の上限(元の URL のロックを持ったまま待つため) */
+const REDIRECT_LOCK_WAIT_MS = 3 * 60 * 1000
+
+/** ロックを待つ時間の上限を超えた */
+class LockTimeoutError extends Error {
+  constructor(key: string) {
+    super(`ロックが空くのを待ちきれませんでした: ${key}`)
+  }
+}
 
 export const FETCH_LOG_PATH = join(CACHE_DIR, "catalog/fetch-log.jsonl")
 export const FETCH_BODY_DIR = join(ROOT, "work/fetch")
@@ -298,12 +310,14 @@ export function createFetcher(config: FetcherConfig): Fetcher {
   /** ホストのロックを取って fn を動かす(プロセスをまたいで同時に1件) */
   const withHostLock = async <T>(
     host: string,
-    fn: () => Promise<T>
+    fn: () => Promise<T>,
+    maxWaitMs = Infinity
   ): Promise<T> => {
     mkdirSync(hostDir, { recursive: true })
     const lockPath = join(hostDir, `${host}.lock`)
     const ownerPath = join(lockPath, "owner")
     const token = `${process.pid}-${randomBytes(6).toString("hex")}`
+    const start = now()
     for (;;) {
       try {
         mkdirSync(lockPath)
@@ -320,6 +334,7 @@ export function createFetcher(config: FetcherConfig): Fetcher {
         // 調べるあいだに外れた
         continue
       }
+      if (now() - start >= maxWaitMs) throw new LockTimeoutError(host)
       await sleep(LOCK_SPIN_MS)
     }
     // ロックを持っているあいだは1分ごとに時刻を更新する(5分を超える取得でも、古いとみなされて外されない)
@@ -434,9 +449,16 @@ export function createFetcher(config: FetcherConfig): Fetcher {
     }
   }
 
+  /**
+   * 1つの URL を取得して記録する。転送(3xx)のときは、転送先を同じ決まり(fetchOne)で取得して記録し、
+   * その結果を元の URL の記録にする。本文は元の URL の本文ファイルに写す(URL どうしで本文ファイルを
+   * 共有しない。転送先だけを取り直しても、元の URL の記録と本文は食い違わない)。
+   * chain は、転送をたどってきた元の URL の並び(ループと回数の上限を見る)
+   */
   const fetchOne = async (
     rawUrl: string,
-    opts: FetchOptions = {}
+    opts: FetchOptions = {},
+    chain: string[] = []
   ): Promise<FetchResult> => {
     const url = normalizeUrl(rawUrl)
     const cached = fromLog(url, opts)
@@ -448,8 +470,10 @@ export function createFetcher(config: FetcherConfig): Fetcher {
     const before = JSON.stringify(syncLog().get(url) ?? null)
     mkdirSync(bodyDir, { recursive: true })
     const bodyPath = join(bodyDir, `${urlKey(url)}.bin`)
-    // 元の URL ごとのロックを、転送をたどり終えて記録を書くまで持つ(同じ URL を二重に取りに行かない)
-    return withHostLock(`url-${urlKey(url)}`, async () => {
+    // URL ごとのロックを、転送をたどり終えて記録を書くまで持つ(同じ URL を二重に取りに行かない)。
+    // 転送先の URL のロックは元の URL のロックを持ったまま取るので、プロセスをまたいだ転送のループ
+    // (A→B と B→A を同時に)で待ち合わないよう、転送先では待つ時間に上限を置く
+    const run = async (): Promise<FetchResult> => {
       // ロックを待つあいだに、ほかの呼び出し(ほかのプロセス)が同じ URL を取っていたら、それを使う
       const latest = syncLog().get(url)
       if (latest && JSON.stringify(latest) !== before) {
@@ -457,66 +481,66 @@ export function createFetcher(config: FetcherConfig): Fetcher {
         if (body || !isFetchOk(latest))
           return { record: latest, body, fromCache: true }
       }
-      let hop = url
-      let res: Awaited<ReturnType<typeof runOnce>> | null = null
-      // 転送は1回ずつたどり、行き先ごとにそのホストのロックと待ち時間を通す
-      for (let i = 0; ; i++) {
-        const host = hostKey(hop)
-        // 転送先がすでに取得済みなら、それを使う(同じ URL は1回だけ)
-        if (i > 0) {
-          const done = fromLog(hop, opts)
-          if (done) {
-            res = {
-              record: done.record,
-              body: done.body,
-              failed: !isFetchOk(done.record),
-              redirect: null,
+      const host = hostKey(url)
+      // 行き先ごとにそのホストのロックと待ち時間を通す
+      const res = await withHostLock(host, async () => {
+        let r = await runOnce(url, host, bodyPath, opts)
+        // 失敗したら、間をあけて1回だけ取り直す
+        if (r.failed) r = await runOnce(url, host, bodyPath, opts)
+        return r
+      })
+      let record: FetchRecord = res.record
+      let body = res.body
+      const status = res.record.status
+      if (!res.failed && status >= 300 && status < 400 && res.redirect) {
+        const next = new URL(res.redirect, url)
+        const fail = (error: string) => {
+          rmSync(bodyPath, { force: true })
+          record = { ...res.record, sha256: null, size: 0, file: null, error }
+          body = null
+        }
+        if (!/^https?:$/.test(next.protocol)) fail("http(s) 以外への転送")
+        else if (chain.length >= MAX_REDIRECTS)
+          fail(`転送が${MAX_REDIRECTS}回を超えた`)
+        else if ([...chain, url].includes(normalizeUrl(next.href)))
+          fail("転送がループしている")
+        else {
+          let sub: FetchResult | null = null
+          try {
+            sub = await fetchOne(next.href, opts, [...chain, url])
+          } catch (e) {
+            if (!(e instanceof LockTimeoutError)) throw e
+            fail("転送先の取得の順番を待ちきれなかった")
+          }
+          if (sub) {
+            // 転送先の本文を、元の URL の本文ファイルに写す
+            if (sub.body) writeFileSync(bodyPath, sub.body)
+            else rmSync(bodyPath, { force: true })
+            record = {
+              ...sub.record,
+              url,
+              file: sub.body
+                ? relative(root, bodyPath).split(sep).join("/")
+                : null,
             }
-            break
+            body = sub.body
           }
         }
-        res = await withHostLock(host, async () => {
-          let r = await runOnce(hop, host, bodyPath, opts)
-          // 失敗したら、間をあけて1回だけ取り直す
-          if (r.failed) r = await runOnce(hop, host, bodyPath, opts)
-          return r
-        })
-        const status = res.record.status
-        if (res.failed || status < 300 || status >= 400 || !res.redirect) break
-        const next = new URL(res.redirect, hop)
-        if (!/^https?:$/.test(next.protocol) || i >= MAX_REDIRECTS) {
-          res = {
-            ...res,
-            record: {
-              ...res.record,
-              sha256: null,
-              size: 0,
-              file: null,
-              error:
-                i >= MAX_REDIRECTS
-                  ? `転送が${MAX_REDIRECTS}回を超えた`
-                  : "http(s) 以外への転送",
-            },
-            body: null,
-            failed: true,
-          }
-          break
-        }
-        hop = next.href
       }
-      const record = {
-        ...res.record,
-        url,
-        final_url: res.record.final_url || hop,
-      }
+      record = { ...record, url, final_url: record.final_url || url }
       mkdirSync(dirname(logPath), { recursive: true })
       appendFileSync(logPath, JSON.stringify(record) + "\n")
-      return { record, body: res.body, fromCache: false }
-    })
+      return { record, body, fromCache: false }
+    }
+    return withHostLock(
+      `url-${urlKey(url)}`,
+      run,
+      chain.length > 0 ? REDIRECT_LOCK_WAIT_MS : Infinity
+    )
   }
 
   return {
-    fetch: fetchOne,
+    fetch: (url, opts) => fetchOne(url, opts),
     readLog: () => new Map(syncLog()),
   }
 }
