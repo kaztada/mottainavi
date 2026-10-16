@@ -288,6 +288,7 @@ async function peek(args: string[]) {
   const todo = new Map<string, ReturnType<typeof fileKind>>()
   for (const { cat, datasets } of loadAll(idx)) {
     for (const ds of datasets) {
+      if (cat.excludeHosts?.some((h) => ds.url.includes(`//${h}/`))) continue
       const matches = matchWithMappings(ds, cat, idx)
       if (matches.every((m) => m.kind === "none")) continue
       const res = cat.kind === "manual" ? ds.resources : resourcesToPeek(ds)
@@ -339,6 +340,7 @@ function propose(args: string[]) {
   for (const { cat, datasets } of loaded) {
     for (const ds of datasets) {
       if (cat.kind === "search-ckan" && directUrls.has(ds.url)) continue
+      if (cat.excludeHosts?.some((h) => ds.url.includes(`//${h}/`))) continue
       if (cat.kind === "search-ckan" && /data\.bodik\.jp|catalog\.data\.metro\.tokyo/.test(ds.url))
         gaps.push(ds) // BODIK・東京都にあるのに、直接の問い合わせで拾えなかった
       const peeks: PeekResult[] = (cat.kind === "manual" ? ds.resources : resourcesToPeek(ds)).map((r) => {

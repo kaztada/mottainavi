@@ -183,6 +183,17 @@ describe("表の見出し", () => {
     const body = Array.from({ length: 60 }, (_, i) => ["012050", `${i}`, "室蘭市", `品${i}`, "可燃", ""])
     expect(analyzeTable([h, ...body])).toMatchObject({ kind: "item-list", standard: true, codes: ["012050"] })
   })
+  it("英語の標準形式・列名の書き方の違い(品目_1・分類・ごみの種類)", () => {
+    const body = Array.from({ length: 60 }, (_, i) => ["x", `${i}`, `品${i}`, "可燃"])
+    expect(analyzeTable([["localGovernmentCode", "identifier", "itemName", "sortingType"], ...body]).kind).toBe("item-list")
+    expect(analyzeTable([["索引", "品目_1", "品目_2", "分別区分"], ...body]).kind).toBe("item-list")
+    expect(analyzeTable([["No", "品目", "素材等", "分類"], ...body]).kind).toBe("item-list")
+    expect(analyzeTable([["No", "音", "ごみの種類", "区分"], ...body]).kind).toBe("item-list")
+  })
+  it("1行目が表の題名の統計・業者の一覧は品目の一覧ではない", () => {
+    expect(analyzeTable([["一般廃棄物収集運搬許可業者一覧表", "", ""]]).kind).toBe("not-item")
+    expect(analyzeTable([["124.ごみ処理・資源物回収状況", "", ""]]).kind).toBe("not-item")
+  })
   it("5374 の形式(type・name)も品目の一覧", () => {
     const body = Array.from({ length: 60 }, (_, i) => [`${i}`, "燃やすごみ", `品${i}`, "", ""])
     expect(analyzeTable([["mastercode", "type", "name", "notice", "furigana"], ...body]).kind).toBe("item-list")

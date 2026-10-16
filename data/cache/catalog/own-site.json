@@ -1,0 +1,1612 @@
+{
+ "kawasaki-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.kawasaki.jp/kurashi/category/261-1-10-2-0-0-0-0-0-0.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "OD ページに ごみ系データなし。「ごみの分別に迷ったら」に HTML の50音表(品目・分別区分・出し方のポイント、2026-04-01更新)あり。ほかにごみ分別アプリ。パンフレット PDF(8.2MB×3、令和8年2月版)は画像のみでテキスト層なし、品目表の有無は未確認"
+ },
+ "kawaguchi-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.kawaguchi.lg.jp/soshiki/01100/040/4/3/index.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "OD ページは Web アプリ『ごみの分別ガイド(gomimaru)』を載せるのみ。HTML の50音ページ(あ行〜わ行、全品目1ページ版 36667.html もあり)で一覧は見られるがファイル配布なし。冊子 PDF(12.5MB、2026-03改訂)は画像のみでテキスト層なし、品目表の有無は未確認"
+ },
+ "fujisawa-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.fujisawa.kanagawa.jp/kankyo-j/kurashi/gomi/wakekata/wakekata.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータライブラリは『ごみ検索システム』(外部 sakura.ne.jp)へのリンクのみ。約4,000品目はアプリ/検索システム限定で、ダウンロードできる品目一覧なし"
+ },
+ "takasaki-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.takasaki.gunma.jp/page/2171.html",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "OD(避難所・体育館・地番図など)に ごみ系データなし。地域別『ごみかわら版』PDF(2ページ、区分ごとの例示のみ)で、50音の品目別一覧ではない"
+ },
+ "asahikawa-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.asahikawa.hokkaido.jp/kurashi/271/272/273/d053129.html",
+  "format": "html",
+  "license": "なし(OD ライブラリ自体は CC BY 2.1 日本)",
+  "open_license": false,
+  "unverified": false,
+  "note": "OD の『環境・ごみ』は再生資源回収業者名簿・清掃工場の測定データ(CSV)のみ。品目別は『さんあ〜る』アプリと HTML の家庭ごみ分別一覧(区分別)で、ダウンロード可能な品目一覧なし"
+ },
+ "meguro-ku": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.meguro.tokyo.jp/documents/4395/r804_50onichiran.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『資源・ごみの分別品目一覧(50音順:令和8年4月改訂)』PDF 2.1MB・26ページ、テキスト層あり(品名/出し方と注意点/種別)。OD ページには ごみ系データなし。掲載ページは資源・ごみ印刷物 PDF のページ"
+ },
+ "soka-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.soka.saitama.jp/cont/s1702/010/020/010/04.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "OD ページに ごみ系データなし。『問い合わせの多いごみの分別早見表』は HTML(2026-09-17更新)のみ、ほかに草加市ごみ分別アプリ。PDF/Excel の品目一覧は見つからず"
+ },
+ "shibuya-ku": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://services3.arcgis.com/UtdeFTavkHfI94t2/arcgis/rest/services/131130_garbage_category/FeatureServer/0",
+  "format": "csv",
+  "license": "CC BY(Hub の license 表示は CC-BY-4.0)",
+  "open_license": true,
+  "unverified": false,
+  "note": "渋谷区自身の OD ポータル(ArcGIS Hub)に『ごみの分別方法一覧』あり。項目ID ad768fb1a8674334a7dd17884f002975、216行、列=全国地方公共団体コード/No/品目_頭文字/品目/分別区分/注意点/料金種別/料金/料金備考/備考。作成2024-02-29、更新2026-08-14。確認は REST(FeatureServer)で実施、Hub の CSV/GeoJSON ダウンロード URL そのものは未確認。ほかに『ごみ収集量』もあり。HTML の50音ページ(gomi_hinmoku.html)もあり"
+ },
+ "isesaki-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.isesaki.lg.jp/material/files/group/28/iseazusak3.pdf",
+  "format": "pdf",
+  "license": "なし(OD サイトは CC BY 4.0 だが、ごみ PDF は OD 対象外)",
+  "open_license": false,
+  "unverified": false,
+  "note": "『分別辞典』PDF が地区別に2本: 伊勢崎・東・境地区版 iseazusak3.pdf(4.5MB・28ページ、品目/注意点/分別/頁、ふりがな付き、テキスト層あり)、赤堀地区版 aka3.pdf(4.6MB)。配布ページは2026-02-27更新。地区で区分が異なる。OD 一覧に ごみ系データなし"
+ },
+ "toyokawa-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.toyokawa.lg.jp/kurashi_tetsuzuki/gomi_recycle/7/12104.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『資源・ごみ分別辞典』は Web 版さんあ〜る(外部)とAIチャットボットのみ。東三河 OD ポータルの豊川市データ(約20件)に ごみ系なし。PDF は『ごみの出し方ワンポイント』のみ"
+ },
+ "nishio-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.nishio.aichi.jp/_res/projects/default_project/_page_/001/001/864/bunbetuhyou.2026.07.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『50音順別家庭ごみの分け方・出し方』PDF 2.2MB・31ページ(令和8年4月作成版)、テキスト層あり。ページは2026-07-28更新。OD ページには ごみ系データなし。令和8年4月から区分の名称変更あり(例:燃えるごみ→がんばって分別したけど燃やすしかないごみ)"
+ },
+ "obihiro-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.obihiro.hokkaido.jp/_res/projects/default_project/_page_/001/002/716/0r8p1325.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "ごみ分別パンフレット(令和8年度)の『P13-P25 ごみ分別辞典』PDF 2.1MB・13ページ。画像のみでテキスト層なし。HTML 版『ごみ分別辞典』(かな別ページ)もあり。OD の公開データは3件のみで ごみ系なし。指定の OD ページ URL は404(正しくは /shisei/seisaku/toshi/opendata/1006509/index.html)"
+ },
+ "kawanishi-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kawanishi.hyogo.jp/_res/projects/default_project/_page_/001/001/341/R4sassi.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "保存版冊子 PDF(令和4年4月〜、5.9MB・17ページ)の12〜17ページに『分別区分早見表(50音順)』(品目/区分/取り扱い・出し方)があり、テキスト層あり。専用の独立ファイルではなく冊子の一部で、版が古い(R4)。同ページの一覧表 PDF は区分別のみ。OD ページに ごみ系データなし"
+ },
+ "imabari-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.imabari.ehime.jp/recycle/siryo/gomi_bunbetu.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『家庭ごみの分別早見表【令和8年3月更新版】』PDF 1.6MB・16ページ(50音、品名/区分/備考)、テキスト層あり(表の列が混ざる)。英語版 gomi_bunbetu_english.pdf もあり。『お役立ち資料』ページから配布。OD 一覧(統計・児童館等)に ごみ系なし。calendar の sakuin.pdf は町名索引で品目ではない"
+ },
+ "fukaya-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.fukaya.saitama.jp/material/files/group/36/R83gomibunnbetuitirannhyou.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『ごみ分別辞典一覧表(ごみ分別マニュアル)』令和8年3月 Ver1.25、PDF 792KB・28ページ、テキスト層あり(索引/名称/区分/出し方・ワンポイント)。同ページにごみサク(gomisaku.jp/0135)へのリンクもあり。OD ページに ごみ系データなし"
+ },
+ "abiko-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.abiko.chiba.jp/kurashi/gomi_shigen/wakekata/kensaku_50on/index.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "OD(CSV 多数)に ごみ系なし。『品名50音検索(種別・出し方の注意)』は HTML(あ行〜や・ら・わ行)と LINE 検索のみで、ファイル配布なし"
+ },
+ "kashihara-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.kashihara.nara.jp/useful_service/gomidashi/index.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "指定の OD ページは404、BODIK の橿原市ページにも ごみ系なし。区分別の HTML ページとごみ分別アプリ(ごみスケ系)のみで、品目一覧ファイルなし(アプリの使い方 docx のみ)"
+ },
+ "hatsukaichi-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/31/78355.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "OD の分野は国土・人口・労働・農林水産・鉱工業のみで ごみ系なし。『ごみ分別一覧表(令和8年4月版)』は HTML の50音表(番号/品名/よみかた/ごみの種類/ごみの出し方、2026-05-25更新)で構造化されているが、ダウンロードファイルはなし。ほかに廿日市市ごみ分別アプリ"
+ },
+ "kazo-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.kazo.lg.jp/soshiki/shigen/gominodashikata/5341.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『ごみ分別品目辞典』はごみサク(gomisaku.jp/0007、外部)へのリンクのみ。冊子は窓口配布で PDF 公開なし(2024-04-01更新のページ)"
+ },
+ "toride-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.toride.ibaraki.jp/kankyo/kurashi/gomi/kategomi/documents/16_tebiki32-51.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『とっても詳しい分別事典「家庭ごみ分別の手引き」』PDF 10MB・20ページ(P32-51)。画像のみでテキスト層なし。同内容の HTML 版『web版とっても詳しい分別事典(50音別)』(2026-02-04更新)と LINE 検索もあり。手引きの配布ページは2026-06-05更新。OD ページに ごみ系なし"
+ },
+ "ginowan-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ginowan.lg.jp/gomi_search/kateigomi/5140.html",
+  "format": "none",
+  "license": "なし(OD 全体は CC BY 4.0)",
+  "open_license": false,
+  "unverified": false,
+  "note": "OD にあるのは『ゴミ出しカレンダー(令和8年)』CSV(472051_garbage_collection_calendar_R8.csv、収集日のみ)だけ。品目別は『ごみ出し検索』のキーワード/50音検索システム(Web)のみでダウンロード不可"
+ },
+ "kyoto-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://kogomi.city.kyoto.lg.jp/wp-content/uploads/2026/03/kiirosasshiR803.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータポータルにはごみ関連が収集日・施設・街頭ごみ容器だけで、品目表はない。一方、京都こごみネットの「正しい資源物とごみの分け方・出し方」冊子PDF(令和8年3月版、18ページ、3.3MB)の後半に「ごみ分別大辞典」の50音表がある(p.15-18、画像PDFで文字抽出不可、p.16を目視確認)。Web版の「出し方辞典」と「さんあ〜る」もある。CSV/Excelなし。"
+ },
+ "himeji-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://city.himeji.gkan.jp/gkan/dataset/85bb44c1-f945-4f1e-9726-bad4c882f106/resource/fb863980-0a4b-4412-bbbb-721db096aae9/download/282014gomi.xlsx",
+  "format": "xlsx",
+  "license": "CC BY 4.0",
+  "open_license": true,
+  "unverified": false,
+  "note": "姫路市・播磨圏域連携中枢都市圏オープンデータカタログ(姫路市が運営するCKAN)に「ごみ分別一覧表」XLSX(38KB、約358行、列は索引・品名・素材・旧姫路市域・旧家島町域・旧夢前町域等・備考)。姫路市農林水産環境局リサイクル課、2024-03-11更新。同カタログの「ごみの分け方出し方一覧」CSVは高砂市のもの。"
+ },
+ "kashiwa-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kashiwa.lg.jp/documents/1467/r8kashiwa-aiueo.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ公開ページ(統計・施設など約25件)にごみ分別データはない。ごみ分別早見表(柏地域50音表部分)のPDF(1.5MB、42ページ、文字抽出可、令和8年度版・2026-03作成)がある。北部/南部の列ごとに品目と区分を載せる。沼南地域は別ページ(未確認)。Web 50音ページもある。この資料にはライセンス表示なし(市のオープンデータ利用規約は別資料)。"
+ },
+ "nagano-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.nagano.nagano.jp/documents/1948/gomi_bunbetsujiten_2024.csv",
+  "format": "csv",
+  "license": "CC BY 4.0(クリエイティブ・コモンズ表示4.0国際)+長野市オープンデータ利用規約(令和6年4月1日改正)",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータ一覧ページに「ごみ分別辞典(CSV:47KB)」。517行、UTF-8、列は通番・名称・名称カナ・区分(可燃/不燃/缶/プラ等)・集積所・ごみ処理施設・特記事項。ファイル名は2024年版で、ページ自体の更新日は2026-10-05。"
+ },
+ "koriyama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/62039.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータページにごみのデータはない。パンフレット「家庭ごみの分け方と出し方」(一括DL 9.07MB、または2ページ単位のPDF)に「ごみの分別(五十音順)」の表がある(名称→収集区分→分類→ワンポイント)。16・17ページ分(1156.pdf)を目視確認。画像PDFで文字抽出不可、冊子は2018年版で令和2年11月に訂正が出ている。Web辞典「こおりやまごみサク」(2024-04開始)もある。CSV/Excelなし。"
+ },
+ "morioka-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.morioka.iwate.jp/_res/projects/default_project/_page_/001/001/154/R7_bunbetujiten.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "指定のオープンデータページはURL切れ(404)で確認できず(岩手県共同ポータルへの掲載は対象外)。市のごみ分別辞典(盛岡地域版)PDFが令和7年度の最新版(20.5MB、品目を50音ごとに解説)。都南地域は1001159、玉山地域は tamayama/index.html にも辞典ページがある。「さんあ〜る」アプリもある。大容量のため中身は未ダウンロード(リンク文言とページの説明で判断)。CSV/Excelなし。"
+ },
+ "nagaoka-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.nagaoka.niigata.jp/shisei/cate10/kankyo/file/03-01u.csv",
+  "format": "csv",
+  "license": "CC BY(表示)+長野でなく長岡市オープンデータ利用規約(出典表示が必須)",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータの「環境情報」カテゴリに【オープンデータ】ごみの分け方と出し方分別表がある(環境部環境業務課)。UTF-8版03-01u.csv(59KB、約837行)とShift_JIS版03-01s.csv(41KB)。列は索引・品名・拠点回収可否・分別・出し方ほか。メタデータの最終更新日は平成28年12月22日だが、ページ更新日は2026-04-01。別に、保存版の「ごみ分別表(五十音順)」PDF(r0604-19.pdf、9ページ)と、さんあ〜る系の「ごみサク」もある。"
+ },
+ "ageo-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ageo.lg.jp/page/370737.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータページは埼玉県ポータルへのリンクだけ(市独自のデータなし)。ごみは区分別のHTMLページと「さんあ〜る」アプリのみ。収集カレンダーのページに「家庭ごみの出し方・分け方」PDF(17.95MB、119610.pdf)があるが、50音の品目表を含むかは大容量のため未確認(要確認)。"
+ },
+ "yachiyo-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.yachiyo.lg.jp/site/gomi-recycle/3818.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ(Excel約16件)にごみはない。冊子PDF(45454.pdf、16ページ)は区分別の説明と例示で、50音の品目表はない(文字抽出で確認)。八千代市清掃センターの「ごみの分別と出し方」PDF(40004.pdf)も区分別の例示のみ。"
+ },
+ "odawara-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.odawara.kanagawa.jp/global-image/units/578533/1-20260512170914_b6a02e02a65949.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ(CC BY 4.0、CSV約6件)にごみはない。「ごみと資源の分け方・出し方ガイド」のP14〜23「ごみと資源の分け方リスト」PDF(350KB、10ページ、文字抽出可、2026-05-12版)に頭文字・品名・分類区分・備考の50音表がある。全体版は3.8MB。Web辞典「ごみサク」もある。"
+ },
+ "chiba-sakura-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.sakura.lg.jp/soshiki/haikibutsutaisakuka/60/5296.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータは統計書CSVのみ。「令和8年度版 家庭ごみの分別一覧表」PDF(1.2MB、2ページ、2026-01-22現在)は区分別の概要表(収集日・例示)で品目の50音表ではない(目視確認)。粗大ごみ品目表(50音・手数料つき)のみ品目単位。二次元コードから分別検索あり。"
+ },
+ "hadano-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.hadano.kanagawa.jp/info-search/gomi/index.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータライブラリの「環境・ごみ」は保存樹木一覧のみ(ごみの品目データなし)。分別は「ごみ出し検索ページ」(Web検索)と「さんあ〜る」。「資源とごみの分け方・出し方ガイド(令和7年度保存版)」PDF 7.6MB(R7guide.pdf)があるが、50音の品目表を含むかは大容量のため未確認(要確認)。"
+ },
+ "tochigi-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.tochigi.lg.jp/uploaded/attachment/45001.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ(CC BY 4.0、zip約13件)にごみはない。「ごみと資源の分別早見表」PDF(483KB、1ページ、文字抽出可、PDF作成は2022-09)に約300品目の50音表(品名と区分)がある。同ページの「ごみと資源の分け方・出し方」PDF(888KB)と、Web版さんあ〜る(早見表)もある。ライセンスはこのPDFには表示なし。"
+ },
+ "kakamigahara-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.kakamigahara.lg.jp/cgi-trush/gomi.cgi",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータページは岐阜県カタログへのリンクのみ。ごみは「品目で検索 ごみの出し方」のCGI検索のみ(Webの検索システム)。ダウンロード可能な品目一覧は見当たらず。"
+ },
+ "ibaraki-koga-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ibaraki-koga.lg.jp/services/garbage/gomi/7439.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータはCSV約7件(公共施設・AED・トイレ等)でごみなし。ごみは「ごみ分別検索」(キーワード検索システム)のみで、ダウンロード可能な品目表は見当たらず。"
+ },
+ "zama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/005/833/bunbetsu_rist__20241021.xlsx",
+  "format": "xlsx",
+  "license": "CC BY 4.0(座間市オープンデータの利用規約・ライセンスのページあり)",
+  "open_license": true,
+  "unverified": false,
+  "note": "座間市オープンデータの「環境」カテゴリに「ごみ分別リスト」Excel(122KB、令和6年10月21日更新、約1058行)がある。同じ内容の元になる「ごみ・資源物分別ガイド【令和8年3月現在】品目リスト(50音別)」PDF(2.5MB)もある(R07guide02.pdf)。"
+ },
+ "ebetsu-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.ebetsu.hokkaido.jp/uploaded/attachment/71880.pdf",
+  "format": "pdf",
+  "license": "なし(オープンデータライブラリはCC BY 4.0だが、このPDFには表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータライブラリ(CSV約15件)にごみはない。「分別の手引き」の「ごみ分別辞典(前半)71880.pdf / (後半)71881.pdf」(各約2MB、50音表、令和6年10月版、画像PDFで文字抽出不可、前半p.2を目視確認)がある。Web版は「ごみサク」。"
+ },
+ "tsuruoka-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.tsuruoka.lg.jp/kurashi/gomi-seikatsu/GB.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ(CSV/Excel約8件)にごみなし。分別は公式LINEの分別検索チャットボットが主。「ごみの分け方・出し方ガイドブック」PDF(令和6年6月、9.1MB、GBR6.pdf)があるが、50音の品目表を含むかは大容量のため未確認(要確認)。簡易版は外国語・やさしい日本語のみ。"
+ },
+ "kasuga-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kasuga.fukuoka.jp/_res/projects/default_project/_page_/001/001/192/gomiichiranshousai20260428.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ(BODIK上19件)にごみなし。「家庭から出るごみ分別一覧表 詳細版」PDF(378KB、50ページ、文字抽出可、更新R080428)に、品目(ふりがな付き)と区分・出し方ワンポイントの50音表がある。簡易版PDF(kateigomilistsp.pdf)もある。ライセンス表示なし。"
+ },
+ "komatsu-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.komatsu.lg.jp/soshiki/1021/gomi_risaikuru/2033.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "指定のオープンデータページ2件ともURL切れ(404)で、サイト内でも見つからず。ごみのページは「家庭ごみ分け方・出し方手引き」(令和7年度版PDF、3.7MB、48ページ)が区分別説明と大型ごみ83品目の一覧のみで、50音の品目表はない(文字抽出で確認)。辞典はWeb「ごみサク」とアプリ「こまつのごみ」。"
+ },
+ "saitama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.saitama.lg.jp/001/006/010/003/p005300_d/fil/r8_jp_gomimanual.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "家庭ごみの出し方マニュアル(R8)PDF 4.1MB の p.14-19 に品目別の分別早見表あり。ただし抜粋で、全品目の分別辞典は Web とさいちゃんアプリのみ。G空間情報センターにごみデータなし。ページ更新 2026-04-01"
+ },
+ "matsudo-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.matsudo.chiba.jp/kurashi/gomi_shinyou/wakekatadashikata/gomisyorigaidoreiwa7.files/bunnbetuitiran1.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "令和7年度改訂版ごみ処理ガイドの「ごみの分別一覧」PDF 283KB・11頁、50音順(テキスト抽出が文字化けする)。Web の50音早見表もあり。ページ更新 2025-04-01。市のオープンデータカタログ(CC BY 4.0)にはごみ分別データなし"
+ },
+ "takamatsu-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://opendata.takamatsu-fact.com/garbage_separation_list/data.csv",
+  "format": "csv",
+  "license": "CC BY 4.0(クリエイティブ・コモンズ表示4.0。高松市オープンデータ利用規約、市のオープンデータページに記載)",
+  "open_license": true,
+  "unverified": false,
+  "note": "市のオープンデータ(GitHub takamatsu-city/opendata・CKAN)に「ごみ分別一覧(0074)」CSV/JSON/xlsx。実取得で617行(#property,name,classification,note)。データの更新日表示なし。ごみ分別ガイドブック(令和8年3月改訂第15版)PDF にも50音一覧(p.20-33)あり"
+ },
+ "wakayama-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://rerecle.net/",
+  "format": "none",
+  "license": "なし(リリクルネットは「無断転用を禁止」)",
+  "open_license": false,
+  "unverified": false,
+  "note": "ごみ分別サーチ(リリクルネット)の検索システムと区分別の説明ページのみ。BODIK カタログ(公共データ利用規約/CC0)にごみ分別データなし(検索0件)。品目一覧の PDF/CSV は見当たらず"
+ },
+ "kochi-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kochi.kochi.jp/uploaded/attachment/163134.pdf",
+  "format": "pdf",
+  "license": "なし(Copyright Kochi City)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「高知市家庭ごみ辞典」令和7年5月改訂版 PDF 814KB(50音順・行別PDFもあり)。ページ更新 2025-10-23。市のオープンデータポータル(CC BY)の一覧10件にはごみデータなし"
+ },
+ "mito-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.mito.lg.jp/uploaded/attachment/45349.pdf",
+  "format": "pdf",
+  "license": "CC BY 2.1 日本(オープンデータライブラリ掲載分)。分別早見表の PDF 単体は表示なし",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータライブラリ「ごみ分別方法(R5.11)」PDF 16.4MB(最終更新 2024-07-10、中身は未取得で、早見表を含む冊子と推定)。別に「分別早見表(50音順)」PDF https://www.city.mito.lg.jp/img/garbage/sorting-chart.pdf 1.1MB・7頁あり。こちらは画像のみでテキスト抽出不可、品目と区分の表であることは確認済み"
+ },
+ "fukui-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.fukui.lg.jp/sisei/tokei/opendata/p018970_d/fil/gomifukuimiyama.xls",
+  "format": "xls",
+  "license": "CC BY(クリエイティブ・コモンズ表示2.1日本)",
+  "open_license": true,
+  "unverified": false,
+  "note": "福井市オープンデータパークに「ごみ分別(福井・美山)」XLS 約146KB と「ごみ分別(越廼・清水)」https://www.city.fukui.lg.jp/sisei/tokei/opendata/p018970_d/fil/gomikoshinoshimizu.xls(RDF も LinkData.org にあり)。データ最終更新 2026-03-31。XLS 内に品目名(アイロン・電子レンジ等)と区分を確認済み。市サイトにも「ごみぃ~る」50音 PDF あり"
+ },
+ "kasukabe-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kasukabe.lg.jp/material/files/group/32/gomikare_bunbetuitiran.pdf",
+  "format": "pdf",
+  "license": "なし(オープンデータページに「掲載情報の無断転載は禁止」の記載)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「分別区分一覧(五十音順)」PDF 3.6MB(ゴミニケーションカレンダーのページ、更新 2026-04-01)。市のオープンデータは県ポータル経由のみで、ごみデータの記載なし"
+ },
+ "itami-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.itami.lg.jp/SOSIKI/SHIMIN/KANKYOC/bunbetu50on/index.html",
+  "format": "html",
+  "license": "なし(Copyright Itami City)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみと資源物の分別区分早見表~50音順」は1文字ごとの HTML ページ(更新 2026-04-17)のみ。ダウンロードできる PDF/CSV は見当たらず。G空間情報センターのカタログ(62件)にごみデータなし(検索0件)"
+ },
+ "kofu-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kofu.yamanashi.jp/genryo/documents/2025wakekatadashikata_japanese_15_32.pdf",
+  "format": "pdf",
+  "license": "なし(Copyright Kofu City)",
+  "open_license": false,
+  "unverified": false,
+  "note": "分別冊子「ごみの分け方・出し方」の p.15-32「50音順ごみ分別辞典」PDF 1.4MB(2025年版)。ページ更新 2025-07-31。オープンデータカタログサイト(防災・施設のみ)にごみデータなし"
+ },
+ "oyama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.oyama.tochigi.jp/data/doc/1738132632_doc_391_0.pdf",
+  "format": "pdf",
+  "license": "なし(オープンデータカタログ側は CC 表記だが、ごみ PDF には表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「家庭ごみと資源物の分け方・出し方」令和7年1月作成 PDF 2.2MB・32頁の p.19-31 が「分別一覧表(50音順)」(品名・分別種類・注意事項)。Web 版 page006580(更新 2026-04-27)もあり。ページ更新 2026-09-08。カタログにごみデータなし"
+ },
+ "hirosaki-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "http://www.city.hirosaki.aomori.jp/gaiyou/opendata/files/gomi-bunbetsu-ichiranR7.xlsx",
+  "format": "xlsx",
+  "license": "CC BY 4.0(オープンデータひろさき)",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータひろさき「その他」に「ごみ分別一覧表(50音別)」xlsx 263KB。取得して約2,300行を確認。ただし令和7年度版で、市サイトの令和8年度版(2026-04-01)は PDF 981KB https://www.city.hirosaki.aomori.jp/kurashi/gomi/20260401garbage_sorting_list.pdf のみ(ライセンス表示なし)"
+ },
+ "kushiro-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kushiro.lg.jp/_res/projects/default_project/_page_/001/004/151/2026p29-sebyousi.pdf",
+  "format": "pdf",
+  "license": "なし(Copyright City of Kushiro)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「分別早見表(P29~背表紙)」A3版 PDF 2.6MB・16頁(具体的品目・部分素材・分別区分・注意事項)。A4版や一括版もあり。ページ更新 2026-02-20。オープンデータ検索(CC BY)はごみ検索で0件"
+ },
+ "yonago-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.yonago.lg.jp/secure/12076/202605_hayamihyou_all_1.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別早見表【一括版】」PDF 265KB・26頁(品名・分別区分・出し方)。分かりにくい品目の抜粋で全品目ではない。ファイル名から 2026-05 版。オープンデータは鳥取県ポータル(2019 掲載)のみ"
+ },
+ "fujieda-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.fujieda.shizuoka.jp/material/files/group/81/R6guidebook.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "保存版ごみ分別ガイドブック(R7.3 発行)PDF 10.5MB・28頁の p.19-25 が「分別区分一覧表」(品名・区分・処分方法の50音表)。ページ更新 2025-04-01。別に Web の出し方検索あり。オープンデータは静岡県カタログのみでごみなし"
+ },
+ "uruma-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.uruma.lg.jp/1006004000/contents/8450.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "ごみの出し方ポスター PDF(2頁・画像のみ・区分別)とチャットボットのみ。品目一覧なし。自サイトと BODIK(CC BY 4.0)のオープンデータは介護・施設・人口などでごみなし"
+ },
+ "konosu-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kounosu.saitama.jp/uploaded/attachment/11475.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみと資源の分別マニュアル」鴻巣・川里地域版 PDF 2.4MB・24頁(令和5年3月版)の p.12-22 が「ごみと資源の分別辞典(五十音別)」。吹上版は https://www.city.kounosu.saitama.jp/uploaded/attachment/11476.pdf。ページ更新 2026-03-13。リストの市オープンデータ URL は404(サイト改修)で、県ポータルのみ"
+ },
+ "fujimino-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.fujimino.saitama.jp/material/files/group/5/garbage-separation.csv",
+  "format": "csv",
+  "license": "ふじみ野市オープンデータ利用規約(CC BY 4.0 と互換、CC BY に従っての利用も可と明記)",
+  "open_license": true,
+  "unverified": false,
+  "note": "「ごみ分別辞典(オープンデータ)」CSV 46KB・約1,400行(品目,分別区分,注意事項)と同内容の xlsx https://www.city.fujimino.saitama.jp/material/files/group/5/garbage-separation.xlsx。更新 2025-06-16。実取得で列と行を確認"
+ },
+ "beppu-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.beppu.oita.jp/seikatu/kankyou_gomi/g_siwake/kensaku.html",
+  "format": "none",
+  "license": "なし(オープンデータ利用規約は CC BY 4.0 互換だが、ごみ分別データは対象外)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみと資源の分け方検索」(検索システム)と LINE のみ。品目一覧の PDF/CSV なし(分け方 PDF は区分別の図解)。オープンデータの環境・ごみ分野は事業者一覧と収集実績のみ。BODIK(442020)は未確認"
+ },
+ "itoshima-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.itoshima.lg.jp/s011/010/020/020/070/20230203154539.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「家庭ごみの分け方一覧表」は行ごとの HTML ページ(更新 2023-03-31)のみ。PDF/CSV は確認できず。オープンデータカタログ itoshima.bodik.jp は接続できず未確認。ごみ冊子 PDF の有無も未確認"
+ },
+ "sendai-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.sendai.jp/haiki-shido/kurashi/machi/genryo/gomi/yobi/gojuon-a.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "Web の「五十音で引くワケ方事典」(行別 HTML、更新 2026-07-31)のみ。オープンデータカタログの「ごみ」検索 17件は全て統計書の「ごみ処理実績」で品目表なし。パンフレット PDF(令和8年3月改訂)は50音表を持たず Web 事典へ誘導するだけ(後半 PDF を取得して確認)。"
+ },
+ "ichikawa-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.ichikawa.lg.jp/uploaded/attachment/44349.pdf",
+  "format": "pdf",
+  "license": "なし(ガイドブックのページに明記なし。オープンデータカタログ側は CC BY 系の利用条件だが、ごみ分別は載っていない)",
+  "open_license": false,
+  "unverified": false,
+  "note": "令和8年度版ガイドブックの「品目ごとの分別区分(50音順)」PDF 833KB・9ページ、テキスト層あり(品目/区分/出し方のポイント、大型ごみは手数料つき)。オープンデータカタログの CSV/xlsx にはごみ品目表なし(災害廃棄物の被害想定のみ)。PDF 本文を取得して確認済み。"
+ },
+ "toyama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.toyama.lg.jp/_res/projects/default_project/_page_/001/010/229/gomi_bunbetsujiten20250626.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別辞典(50音順)」PDF 2.2MB・14ページ(2025-06-26 版)。名称/分別/番号の表。文字がアウトライン化されていてテキスト抽出できず、利用には OCR が必要(画像で表の中身を確認済み)。Web にも行別の辞典ページあり。専用オープンデータサイト(opdt)にはごみ品目表なし(産廃・処理業者一覧など)。"
+ },
+ "nara-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.nara.lg.jp/uploaded/attachment/157304.pdf",
+  "format": "pdf",
+  "license": "なし(ごみ事典のページに明記なし。オープンデータカタログの利用規約は別)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「奈良市のごみ事典」分割版 P19〜P33「ごみの分別一覧(50音順)」PDF 2.59MB、テキスト層あり(ごみの種類/再生資源/収集区分/大型ごみ/工場持込場所/備考)。全体版 PDF(5.06MB)もあり。Web 版「ごみの分別一覧」https://www.city.nara.lg.jp/soshiki/99/227813.html(令和8年6月1日変更反映)とアプリもあり。オープンデータ一覧にごみ品目表はなし。"
+ },
+ "akashi-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.akashi.lg.jp/documents/29427/282031_garbage_separation.csv",
+  "format": "csv",
+  "license": "明石市オープンデータ利用規約(CC BY 4.0 互換。ページに明記)",
+  "open_license": true,
+  "unverified": false,
+  "note": "「ゴミの分別方法一覧」CSV 99KB、データ日 2026-08-25、約445行。列は 全国地方公共団体コード,ID,品目,分別区分,注意点,料金種別,料金,料金備考,連絡先〜,備考(自治体標準データセット形式)。先頭を取得して確認済み。粗大ごみ品目一覧(xlsx/PDF)は別にあり。"
+ },
+ "tsu-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.info.city.tsu.mie.jp/_res/projects/default_project/_page_/001/008/442/bunbetsu20240419.csv",
+  "format": "csv",
+  "license": "CC BY 4.0(ページ下部「別途指定があるものを除き表示4.0」と明記)",
+  "open_license": true,
+  "unverified": false,
+  "note": "「ごみ分別表」CSV 176.6KB、ファイル名は 2024-04-19、ページの新着は令和6年4月24日更新(2015-04 に初公開)、約3,996行。列は ID,並び順,50音,品目,分別区分（略称）,出し方のポイント。先頭を取得して確認済み。"
+ },
+ "chigasaki-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.chigasaki.kanagawa.jp/_res/projects/default_project/_page_/001/021/180/r8_wakedasi26-saigomade.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "令和8年度版冊子「ごみと資源物の分け方・出し方」の P.26〜最終ページ PDF 4.1MB に、品目名/分別区分/注意点の50音表(あ〜わ)。テキスト層あり(一部ページは文字化け、末尾は広告)。冊子の他の3分割は 12〜27MB で未取得。別に Web の検索システム「ごみサク」あり。オープンデータライブラリにごみ品目表はなし(ごみ収集カレンダー系のみ)。"
+ },
+ "takarazuka-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.takarazuka.hyogo.jp/cleancenter/household_garbage/1061777.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "Web の「ごみの分別検索」(五十音検索・分別区分検索、更新 2026-08-12)のみ確認。ハンドブック PDF(令和8年4月改訂・14.5MB)に50音表があるかは、大容量のため未取得で未確認(あれば pdf 扱いになる可能性あり)。オープンデータページは 503 で中身を見られず。"
+ },
+ "kodaira-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kodaira.tokyo.jp/kurashi/039/039319.html",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "【未検証・要注意】市サイトがシステム障害で閲覧不能のため、直接は確認できず。検索結果の抜粋では、冊子「資源とごみの分別一覧表 分別をよりわかりやすく」(2024年版、PDF 2.1MB、見出し「資源とごみの出し方 50音順一覧」)を市ページに掲載。添付は https://www.city.kodaira.tokyo.jp/kurashi/files/39319/039319/att_0000002.pdf と att_0000005.pdf(どちらかが50音表)。復旧後に再確認が必要。アプリ・LINE もあり。"
+ },
+ "uji-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.uji.kyoto.jp/uploaded/life/101471_268539_misc.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「宇治市ごみ分別辞典」PDF。P20〜P74 の分割版 4.33MB(55ページ、テキスト層あり・2段組)が品目別一覧。表紙〜P74 の全体版は 101471_268547_misc.pdf(11.17MB)。品目ごとに分別と出し方を記載。オープンデータページにごみ品目表はなし。"
+ },
+ "niiza-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.niiza.lg.jp/site/gominodasikata/gominosutekataagyou.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "ごみ分別辞典は行別の HTML 表(あ行〜わ行、あ行ページ更新 2021-03-24)のみ。冊子 PDF「分別表・収集日程表」(1.8MB・8ページ)を取得して確認したが、カテゴリ別の説明で50音表なし。アプリ「さんあ〜る」あり。オープンデータページは 404。"
+ },
+ "ogaki-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ogaki.lg.jp/0000057994.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "分別辞典は「大垣市ごみ分別アプリ」(検索結果の記載では約3,700品目)のみ。パンフレット PDF(pamphlet_japanese25.pdf)は町名別の収集曜日表で品目表なし(取得して確認)。ほかに分別フローチャートのページ、大型ごみ品目一覧(予約用)があるだけ。オープンデータページにごみ品目表なし。"
+ },
+ "kuki-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kuki.lg.jp/_res/projects/default_project/_page_/001/007/473/2026kuki_a.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "品目別の独立ファイルはなく、地区別「家庭ごみ・資源物収集カレンダー」冊子 PDF(約5.5MB・28ページ)の p.22 付近以降に品目の50音早見表(品目名・分別・備考)あり(久喜A で確認)。久喜・菖蒲・鷲宮・栗橋の4地区で分別が異なり、計14ブロック分の PDF ごとに載る。令和8年11月30日から分別変更の予定。Web 版はごみサク(gomisaku.jp/0326 等)。カレンダー PDF の一部という点で弱い「found」。"
+ },
+ "toda-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.toda.saitama.jp/soshiki/212/kankyo-cl-gomi-list.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「判断に迷う家庭ごみの分け方・出し方」(更新 2026-04-01)は50音の HTML 表(あ〜ま・や・ら行)だが、迷いやすい品目のみで全品目ではない。冊子 PDF「令和8年度家庭ごみの正しい分け方・出し方」は 29.11MB と大きく、50音表の有無は未確認。オープンデータページにごみ品目表なし。"
+ },
+ "ashikaga-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ashikaga.tochigi.jp/environment/000072/000394/index.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「家庭ごみ・資源物の出し方」「収集日」のカテゴリにはお知らせ記事と町内別収集曜日一覧のみで、品目別の分別一覧(CSV/PDF/辞典)は見つからず。環境アプリ「あしかがエコ」あり。オープンデータページにごみ品目表なし。見落としの余地あり(検索の上限で追加確認できず)。"
+ },
+ "seto-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "http://www.city.seto.aichi.jp/docs/2017071500016/",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": true,
+  "note": "【未確認】市サイトに取得ツールから接続できない(HTTP 302 が5回で打ち切り、http/https とも同じ)。オープンデータページもごみ分別も中身を見られず。Web 検索も上限で追加できなかったため、ブラウザ等で別途確認が必要。"
+ },
+ "ise-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.ise.mie.jp/_res/projects/default_project/_page_/001/001/439/r6-18-24.pdf",
+  "format": "pdf",
+  "license": "なし(ガイドブックのページに明記なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "ごみ分別ガイドブック(令和6年版)の18〜24ページ「ごみ分別一覧表」PDF 622KB・4ページ、50音順に品名/分別/備考(テキスト層あり)。全体版 PDF は r6-00-27.pdf(6.3MB)。オープンデータライブラリの「ごみ・環境」4件は資源拠点ステーションと全地区ごみカレンダーのみで品目表なし。アプリ「さんあ〜る」もあり。"
+ },
+ "fujimi-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.fujimi.saitama.jp/kurashi_tetsuzuki/gomi_recycle/gomi/dashikata/gominobunbtunituite.files/gomibunnbetuziten.r8.9.3.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別辞典」PDF 420KB・33ページ、列は 品目/ふりがな/分別/コメント(テキスト層あり)。リンク文言は「令和8年9月版」だが PDF 冒頭は「令和8年7月版」。パンフレット PDF(23.8MB)とアプリもあり。オープンデータページにごみ品目表なし。"
+ },
+ "niihama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.niihama.lg.jp/uploaded/attachment/79661.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別大辞典」冊子 PDF の分割版のうち「27〜裏表紙」2.43MB・21ページが 品名/分別区分/備考 の50音辞典(テキスト層あり)。他の分割(表紙〜5、6〜15、16〜22、23〜26)は説明ページ。英語版もあり。オープンデータページにごみ品目表なし。"
+ },
+ "onojo-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.onojo.fukuoka.jp/kiji0036341/3_6341_4874_up_c8ay8uaw.xlsx",
+  "format": "xlsx",
+  "license": "なし(一覧表のページに明記なし。市のオープンデータは福岡都市圏オープンデータサイト経由と案内)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別一覧表」xlsx 108.6KB(A1:O1425、約1,400行、品目・ふりがな・分別区分・出し方のアドバイス・直接持込先など。xlsx を取得して確認)と PDF 501KB(同内容、68ページ、https://www.city.onojo.fukuoka.jp/kiji0036341/3_6341_4873_up_ltwqz4qd.pdf)を市ページで公開。2026-07-30 更新。ページに「EXCEL版はフィルターで名前検索可」とあり。"
+ },
+ "nerima-ku": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.nerima.tokyo.jp/kurashi/gomi/wakekata/bunbetsu/index.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ页にごみの品目データなし(ごみ関係は統計ページへのリンクのみ)。品目別出し方一覧(ごみ分別辞典)は行別8ページのHTMLのみでダウンロードなし。DLできるのは冊子PDF(R810_wakedashi.pdf 7MB 等)だけ。分別アプリあり"
+ },
+ "matsuyama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.matsuyama.ehime.jp/kurashi/gomi/dashikata/bunbetsu_jiten_katei.files/R7.4gomibunbeturyouP16-44.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ一覧(CSV)にごみは排出量・許可業者名簿のみ。『ごみ分別はやわかり帳(家庭用)』のP16-44(分別辞典)が単独PDF(2.9MB、R7.4版、ページ更新2025-10-10)。冊子の一部を分割したもの。事業者用は五十音の行別PDFもあり(検索結果で確認)。個別のライセンス表示なし(サイト共通の著作権・免責事項ページのみ)"
+ },
+ "okazaki-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.okazaki.lg.jp/_res/projects/default_project/_page_/001/002/189/bunbetuichiran_260310.pdf",
+  "format": "pdf",
+  "license": "なし(直接取得できず未確認)",
+  "open_license": false,
+  "unverified": false,
+  "note": "『ごみの分別一覧表(50音順)』PDF 351.7KB、令和8年3月10日版。列は名称・分別区分・備考。ページは『ごみの分別一覧・ごみ出しガイドブック』。岡崎市サイトは polite fetch がリダイレクトループで失敗するため、根拠は WebSearch の結果(タイトル・抜粋)のみ。HTMLの行別分類表(あ行〜)とさんあ〜るもあり"
+ },
+ "tokorozawa-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.tokorozawa.saitama.jp/kurashi/gomi/gomibunbetujiten/index.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ页はメニューのみで品目データなし。ごみ分別辞典のページは外部サイト(検索)へのリンクに変わっており、DLなし。分別アプリ「わけトコっ!」あり。DLできるのは冊子『家庭の資源とごみの分け方・出し方』令和8年度版PDF(8.4MB)のみ。過去のHTML辞典(あ行〜、2019-04-01更新)は検索結果に残るが現在は404"
+ },
+ "kasugai-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kasugai.lg.jp/_res/projects/default_project/_page_/001/032/952/hinmokubetuichiranR8.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『資源・ごみ品目別一覧』PDF 3.6MB、ページ更新 令和8年2月25日(R8版)。分別区分・処理方法を品目別に掲載(中身は未ダウンロード、ページの説明による)。オープンデータ一覧にはごみ収集日のExcelのみで品目データなし。さんあ〜る・LINE検索・出し方便利帳(冊子)もあり"
+ },
+ "ichihara-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ichihara.chiba.jp/gomi/",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『家庭ごみの分け方・出し方について』ページは品目名を入力する検索ツールのみ(検索結果の説明による)。品目一覧のPDF/CSVは見つからず。オープンデータ専用ページはJS描画で中身を確認できず(未確認)"
+ },
+ "yamato-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.yamato.lg.jp/material/files/group/29/000120715.csv",
+  "format": "csv",
+  "license": "CC BY 4.0(ページに明記。自由に利用・改変可、市のデータを利用した旨とオープンデータページへのリンクの掲載をお願い)",
+  "open_license": true,
+  "unverified": false,
+  "note": "『資源とごみの分別一覧』CSV 481KB、作成日 平成31年(2019)4月1日、ページ更新 2025-04-06。実ファイルで確認: 約2,500行、列は 品名頭文字,品名,分類,出し方のポイント,読み,類似語。分類は 可/不/粗/×/不指 などの記号。作成日が2019年なので現行ルールとの照合が必要。同ページに資源の拠点回収場所・小型家電回収ボックスのCSVもあり"
+ },
+ "saga-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.saga.lg.jp/kurashi/seikatsukankyo/1/1/3/1/index.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "刷新後のサイトは『ごみ出し検索ページ(分別)』の検索システムのみ。刷新前の『ごみ分別事典』ページ(main/3029.html、PDF 184.8KB、2024-05-30更新)が検索結果に残るが現在は404で、新サイトにリンクなし(106.htmlに「品目ごとの分別はごみ分別事典をご覧ください」との文はあるが、リンクは無い)。PDFが別URLで残っている可能性は未確認"
+ },
+ "suzuka-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.suzuka.lg.jp/kurashi/gomi/1002171/1015784.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ一覧(CSV/XLS、CC-BY)にごみのデータなし。品目別はgomisaku.jpのごみ分別辞典(Web検索、外部)と、冊子PDF『ごみのしおり』(6.3MB、50音の分別辞典を含むとの情報)・『家庭ごみの分け方・出し方』(4.2MB)のみ。単独の品目一覧ファイルはなし"
+ },
+ "joetsu-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.joetsu.niigata.jp/soshiki/seikatsu/bunnbetugaido.html",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータポータルにごみ品目データなし(ごみ分別辞典はgomisaku外部リンク)。『家庭ごみの分け方出しガイド(令和8年4月1日改訂)』のページ別PDFのうち、29〜38ページ目『分別区分一覧(ア行〜ワ行)』10本(各約0.3〜0.6MB、/uploaded/attachment/282680.pdf〜282689.pdf)が品目の50音一覧。冊子を分割したPDFで単独の表ファイルではない。ページ更新2026-03-27"
+ },
+ "tomakomai-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.tomakomai.hokkaido.jp/kurashi/gomi/dashikata/bumbetsukensaku.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ一覧(CSV 12種)にごみ品目データなし。『ごみの分別検索表』は50音順のHTML表のみでダウンロードなし(事業系版も同様)。冊子PDFは2018年頃の古いもの(検索結果の情報)"
+ },
+ "matsusaka-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.matsusaka.mie.jp/uploaded/attachment/68418.pdf",
+  "format": "pdf",
+  "license": "なし(オープンデータはBODIK上でPDL1.0だが、このPDFには適用の表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "『50音別ごみ分別早見表(p29〜p35)』PDF 6.21MB。ガイドブックの分割PDF。ページに『PDFの情報は2021年4月現在。最新はごみ・資源物の分け方検索(Web、/garbage-item/search/)で更新』とあり情報が古い。Web検索ツールはDLなし"
+ },
+ "ueda-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ueda.nagano.jp/soshiki/haiki/2466.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ一覧(人口・施設等のCSV)にごみ品目データなし。ごみの分別・出し方ページ(2026-01-19更新)はさんあ〜る誘導のみで品目一覧ファイルなし。『分別の手引き』冊子PDF(/uploaded/attachment/35593.pdf、約2021年版、50音の一覧が中心)が検索には出るが、現行ページからのリンクは確認できず"
+ },
+ "iruma-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.iruma.saitama.jp/material/files/group/21/R5-7sakuseizousatubangomichannneru.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『ごみ分別事典「元気な入間」のごみチャンネル』PDF 2.7MB。令和5年3月改訂・同年7月作成の保存版、2,300超の品目を50音順に分別方法付きで掲載(ページの説明による。中身は未ダウンロード)。ページ更新2024-10-02。冊子全体が事典なので単独の品目一覧PDFとして使える見込み。オープンデータページは404"
+ },
+ "kisarazu-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kisarazu.lg.jp/material/files/group/23/Alphabetical_Garbage_Classification_Guide.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "単独で落とせる品目一覧は英語版のみ: 『Alphabetical Garbage Classification Guide』PDF 428KB・14ページ(実ファイルで確認: 品名/分類/注意事項、英語の品名)。日本語の50音順は『資源物とごみの分け方・出し方ガイドブック』(guidebook_202510.pdf 9.7MB、令和7年10月改訂)内の『50音順分類ガイド』の章で、単独ファイルはなし。オープンデータ页はLinkData(人口等)のみでごみデータなし。Web『家庭ごみの出し方検索』もあり"
+ },
+ "onomichi-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.onomichi.hiroshima.jp/soshiki/16/44213.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ页の指定なし(opendata=null)。ごみ分別ガイドブックは地域別の冊子PDF5本(尾道・向島・御調・因島・瀬戸田、2026-04-01更新)で、因島・瀬戸田版の末尾に『分別区分 50音順』があるとの情報(検索結果)。単独の品目一覧ファイルはなし"
+ },
+ "akishima-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.akishima.lg.jp/kurashi/gomi/1001538/index.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ页は404(移転の可能性)。ごみ分別辞典はgomisaku.jp(外部Web検索)、分別アプリあり。DLできるのは冊子『資源とごみの分け方・出し方』(令和4年6月作成、検索結果の情報)のみ。単独の品目一覧ファイルは見つからず"
+ },
+ "tokai-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.tokai.aichi.jp/kurashi/1001699/1001700/1006481.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "wagmapオープンデータのごみ・資源関係は分別収集会場・資源回収場所などの位置データ(CSV/SHP/KML)のみで品目データなし。『ごみ分別検索』は50音順のHTML表(検索結果で確認)でDLなし。冊子PDF(gomitosigennnodasikata.pdf に分別一覧表を含む)とプラスチック資源ガイド(50音表だがプラ限定)のみ。市サイトはpolite fetchが失敗するため一部は検索結果のみが根拠"
+ },
+ "marugame-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.marugame.lg.jp/page/2399.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『丸亀市の家庭ごみ分別早見表(50音順)』(2026-04-01更新)はページ内HTML表のみで、CSV/PDF/Excelのリンクなし(列: 品目・分別・備考)。『ごみ分別表(完成版)』7言語PDFは2ページのごみ種類の概要表で品目一覧ではない(日本語版を確認)。オープンデータ页は統計時系列のみ"
+ },
+ "tajimi-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.tajimi.lg.jp/_res/projects/default_project/_page_/001/005/453/18_50sakuin.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『50音別索引』PDF 521KB・23ページ(実ファイルで確認: 品目/分別区分/分別・出し方ワンポイント/指定センター、テキスト抽出可)。掲載ページ『家庭のごみの分別について』は令和8年2月10日更新だが、PDFのメタデータ作成日は2022-03-15なので最新か要確認。オープンデータ页は岐阜県カタログへの誘導のみ(避難場所等)。Web『ごみ分別検索』もあり"
+ },
+ "kumamoto-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.kumamoto.jp/dynamic/opendata/pub/default.aspx?c_id=38",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ(市の一覧84件のうち先頭ページと BODIK カタログ)にごみ分別データなし。『ごみ分別辞典』は Web 検索機能とごみカレンダーアプリのみ。分け方・出し方のページに品目一覧の PDF/Excel なし"
+ },
+ "nishinomiya-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "http://opendata.nishi.or.jp/opendata/files/26/gomi_bunbetsu.xlsx",
+  "format": "xlsx",
+  "license": "西宮市オープンデータ利用規約(第2.0版)。公共データ利用規約 PDL1.0 が適用、出典記載が必要",
+  "open_license": true,
+  "unverified": false,
+  "note": "『ごみ収集日・分別情報』(更新 2018-03-05、登録 2016-03-29)の『ハローごみ分別早見表』xlsx(31KB)。1シート約244行、列は品目(よみ付き)と種別。古く、市は2026年度から新分別区分に変更済みなので現行と食い違う恐れが大きい。同データセットの収集地区一覧表(gomi_syusyubi.xlsx)は地区別収集日。市サイトの『50音別ごみ分別一覧表(新分別区分)』は HTML のみ(検索結果で確認)"
+ },
+ "ichinomiya-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.ichinomiya.aichi.jp/_res/projects/default_project/_page_/001/060/886/202610.bunbetsu_ichinomiya.csv",
+  "format": "csv",
+  "license": "CC BY(表示)",
+  "open_license": true,
+  "unverified": false,
+  "note": "『資源とごみの分別に関するデータ』。リリース 2026-10-08。CSV 83.5KB(cp932、約1,060行、列は ごみ名/索引/分別区分/分別注意文)と xlsx 38.6KB(202610.bunbetsu_ichinomiya.xlsx)。担当は廃棄物対策課。市のオープンデータカタログ(cgi-opd)掲載"
+ },
+ "koshigaya-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://opendata.pref.saitama.lg.jp/resource_download/6411",
+  "format": "csv",
+  "license": "公共データ利用規約第1.0版(PDL1.0)",
+  "open_license": true,
+  "unverified": false,
+  "note": "埼玉県オープンデータポータル掲載の『【越谷市】ゴミの分別方法一覧』(dataset 2084)。市の公式ページが、市のオープンデータの公開先として案内している。自治体標準形式で列は 項目名/団体コード/ID/品目/分別区分/注意点/料金…。493行(cp932)、リリース・更新 2025-03-21、頻度は不定期。県ポータルに載っているので、『カタログ未掲載』という前提とは食い違う(カタログ側の取りこぼしの可能性)"
+ },
+ "iwaki-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/simple/gomibunnbetu.csv",
+  "format": "csv",
+  "license": "クリエイティブ・コモンズ 表示 2.1 日本(CC BY 2.1 JP)。自由に利用・改変可、完全性は保証せず",
+  "open_license": true,
+  "unverified": false,
+  "note": "『ごみの分別(CSV)』ごみ分別一覧表。令和8年4月1日現在、ページ更新 2026-04-01。CSV 121KB、1,763行(UTF-8、列は №/品名/分別区分/注意点)。市のオープンデータ一覧の『環境、ごみ、水道、生活排水』に掲載。ごみ当ちゃん(アプリ)がこのデータを利用"
+ },
+ "tsukuba-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.tsukuba.lg.jp/opendata/10060.html",
+  "format": "html",
+  "license": "なし(オープンデータ一覧は CC BY だが、ごみ関連は収集カレンダーのみ)",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ一覧407件のうち『環境・ごみ・リサイクル』にあるのは『ごみの出し方カレンダー』(CC BY、2026-04-01)のみ。品目別は Web の『ごみ分別検索』とさんあ〜るのみ。PDF『ごみの分け方・出し方ガイド』(2026_guide.pdf)は1枚物で品目別一覧なし"
+ },
+ "fuji-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.fuji.shizuoka.jp/documents/586/fmervo0000006kxp.pdf",
+  "format": "pdf",
+  "license": "なし(ページ上に明示なし。サイトの『著作権・免責事項・リンク』に従う)",
+  "open_license": false,
+  "unverified": false,
+  "note": "『ごみの分け方便利帳(PDF版)』の『表紙・ごみ出しの基本・ごみの分別「あいうえお」索引』(10ページ、5.3MB)。p.3〜9が品目別の分別一覧表。令和5年10月発行版で、令和7年度からの電池類の変更が未反映(次回改訂は令和8年度予定)。画像PDFでテキスト層なし(OCR要)。ほかにさんあ〜る。ふじのくにオープンデータ側にごみ分別データの記載なし"
+ },
+ "ota-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.otakouiki-kumiai.or.jp/document/refuse_ota.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『家庭ごみ分別一覧表50音順(太田市)』PDF、9ページ、4.4MB、文字層あり。2025年4月版。太田市外三町広域清掃組合サイト上のファイルを、市ページ(更新 2026-08-19)がリンク。列は 50音/品名/材質等/区分/出し方/制限(日)/その他。地区別の分け方・出し方 PDF(各10MB)とごみ分別アプリもある。市のオープンデータページにごみ分別データなし"
+ },
+ "matsue-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.matsue.lg.jp/gomidashi/index.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータは統計情報DB(Excel/PDF)と島根県カタログの松江市9件(理容所・施設一覧等)で、ごみ分別なし。『ごみ出し検索』(家庭ごみの出し方検索・キーワード検索)は Web のみ。PDF の品目一覧は見つからなかったが、確認は限定的"
+ },
+ "narashino-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.narashino.lg.jp/kurashi/gomi/gomi/gomi_dashikata50/index.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータは『ゴミ地区別収集曜日』xls のみ。『ごみの出し方50音別分類表』は行別 HTML(あ〜わ行)でダウンロードなし。冊子 PDF(15MB)は p1〜p11 に分割されていて品目索引なし。『家庭ごみ分別一覧』PDF は区分の概要を示す1枚図で、品目別ではない"
+ },
+ "iwata-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.iwata.shizuoka.jp/kurashi_tetsuzuki/gomi_recycle/1014449/1001445.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータ(linkdata.org)はごみ排出量のみ。品目検索は Web アプリ『しっぺいのゴミチェッカー』(静岡産業大学と共同、DL 不要)。ガイドブック PDF(日本語 2026_jap_gb.pdf 42.7MB、2026-04-15 更新)に品目索引があるか未確認(大容量のため取得せず)。要確認"
+ },
+ "hitachinaka-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.hitachinaka.lg.jp/kurashi/gomi/search/index.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータの『環境・ごみ・リサイクル』は統計ひたちなか(公害・土地・気象)のみ。『家庭ごみ分別辞典(検索)』は Web、ほかにLINE検索。パンフ『家庭ごみの正しい出し方』PDF(15.3MB)に品目索引があるか未確認(大容量のため取得せず)。要確認"
+ },
+ "komaki-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "http://www.city.komaki.aichi.jp/admin/jigyousha/opendata/",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": true,
+  "note": "確認できず。www.city.komaki.aichi.jp が http/https とも curl で『リダイレクト5回超過(終了コード47)』となり、トップページを含め全 URL を取得できなかった。WebSearch の上限に達しており検索でも補えなかった。found=false は『見つからなかった』ではなく『未確認』。要再確認(ブラウザで開くなど)"
+ },
+ "misato-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.misato.lg.jp/service/gomi_search/bunbetsu_search/bunbetsu.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "入力データの opendata.page は奈良県三郷町の URL(404)で誤り。埼玉県オープンデータポータルの三郷市24件(人口・統計書・施設等)にごみ分別なし。『家庭ごみ分別検索』(あいうえお順、Web、2024-03更新)のみ。冊子 PDF(3.2MB、20p)は p.3『お問い合わせの多いごみ分別一覧』だけで、網羅的な品目一覧なし"
+ },
+ "narita-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.narita.chiba.jp/shisei/index0711.html",
+  "format": "html",
+  "license": "CC BY 4.0(成田市オープンデータ全体。ごみ分別データはなし)",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータの全カテゴリ(土地・環境、公共施設、文化・生活、そのほか)にごみ分別なし。『一般ごみ』ページはごみ分別アプリ『さんあーる』、区域別ごみ収集カレンダー、指定ごみ袋の案内のみ。品目一覧の PDF/Excel は見つからなかった"
+ },
+ "iizuka-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.iizuka.lg.jp/uploaded/attachment/10898.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『家庭ごみの分け方・出し方』冊子 PDF(36ページ、4.0MB、ページ更新 2025-12-01)の後半(約p.18〜32)が『五十音ごみ分別一覧』。画像 PDF でテキスト層なし(OCR要)。入力の opendata.page は404。BODIK カタログ(49件)は先頭のみ確認でごみ分別は見つからず。Web『ごみの分け方検索』(garbage-item)もあり"
+ },
+ "urasoe-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.urasoe.lg.jp/doc/61c1758f19e07b69c6d47df4/file_contents/file_20269115141154_2.pdf",
+  "format": "pdf",
+  "license": "なし(オープンデータ用の浦添市オープンデータ利用規約はあるが、この PDF には適用の記載なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "『ごみ分別表(50音)』=『分別五十音リスト』PDF、32ページ、729KB、文字層あり。公開 2023-11-29、ページ更新 2026-09-28。列は 50音/品名/出し方と注意点/種別(資源ごみ・燃えるごみ・燃えないごみ・有害危険・粗大・回収不可を●で表示)。市のオープンデータ一覧はごみ出し情報 area_days.csv(地区別収集日)のみ"
+ },
+ "karatsu-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.karatsu.lg.jp/page/2664.html",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "入力にオープンデータページなし(サイト内でも見つからず)。『家庭ごみの分け方・出し方』は地区別 PDF(1ページ物、1.4MB × 9地区。唐津地区を確認)で品目別一覧ではない(2025-07-24更新)。50音の品目一覧は見つからなかった"
+ },
+ "kamagaya-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kamagaya.chiba.jp/kurashi-tetsuzuki/gomi/oshirase/gominabi.files/itiran7.7.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "『50音別ごみ分別一覧表(Ver.7.7)』PDF、28ページ、1.65MB。『鎌ケ谷AIごみナビ』のページ(更新 2026-07-03)に掲載。画像 PDF でテキスト層ほぼなし(OCR要)。列は 品名/具体例/分別区分/粗大の点数/出し方/有価物/小型家電。別に『ごみ分別一覧表』(HTML+PDF、2021-06、区分レベル)と『ごみ分別辞典(日本語他)』Web あり。市のオープンデータは千葉県サイト案内のみ(そこでのごみ分別は未確認)"
+ },
+ "ichinoseki-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ichinoseki.iwate.jp/genre/kurashi/kankyou/gomi-recycle/bunbetsu-dashikata",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "入力にオープンデータページなし(サイト内でも見つからず)。『一関・平泉ごみ分別アプリ』の配信案内のみ確認。分別の記事ページは本文が大きく、PDF/CSV の品目一覧は見つからなかったが、確認は限定的。要再確認"
+ },
+ "adachi-ku": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.adachi.tokyo.jp/documents/46173/gomihp.pdf",
+  "format": "pdf",
+  "license": "なし(足立区オープンデータ利用規約の CC BY は CC-BY 指定のカタログ登録データのみ対象。このPDFはカタログ外で個別表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「これは何ごみ？(粗大ごみ料金表)50音順」PDF 12頁(294KB)。品目×区分(燃やす/燃やさない/資源/粗大)の表、出し方と注意点付き。PDF作成2026-03、ページ更新2026-05-12。分別を間違えやすい品目中心で全品目ではない。2024年版の korehananigomi2024.pdf もあり。CSV/Excel なし。"
+ },
+ "amagasaki-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.amagasaki.hyogo.jp/kurashi/gomi/manner/dasikata/1037516.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "Web の「ごみ分別辞典」(あ〜わ行の HTML 表)と さんあ〜る のみ。家庭ごみべんりちょう PDF(日本語版14.7MB、R7.12版ほか)は大容量のため未取得で、50音一覧の有無は要確認。data.city.amagasaki.hyogo.jp は SSL 証明書エラーで取得不可。"
+ },
+ "yokosuka-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.yokosuka.kanagawa.jp/kurashi/gomi/kensaku/list.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "Web の「ごみ分別50音一覧」(行別 HTML)・分別検索・さんあ〜る・公式LINE のみ。オープンデータページにごみデータなし。「ごみと資源物の分け方・出し方」パンフ PDF(pamphlet2026_1.pdf 6.3MB)は未取得で品目一覧の有無は要確認。"
+ },
+ "maebashi-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.maebashi.gunma.jp/material/files/group/47/gaidobukkusyuuseibann20250826.pdf",
+  "format": "pdf",
+  "license": "なし(ガイドブックのページに個別表示なし。市オープンデータは CC-BY だがカタログ登録データが対象で、このPDFは該当しない)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「家庭用資源・ごみ分別ガイドブック」日本語版(2.9MB、16頁、2025-08-26更新)の P12-14「ごみの分け方50音順」に 品名/分別区分/備考 の一覧あり(独立ファイルではなく冊子PDF内)。外国語版(英・中・葡・韓・越・ネパール・インドネシア語)もあり。"
+ },
+ "toshima-ku": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.toshima.lg.jp/documents/1053/20260714182641.pdf",
+  "format": "pdf",
+  "license": "なし(区のオープンデータページは CC BY 2.1 日本だが「下記対象データのみ」。このPDFはカタログ外で個別表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「50音順分別一覧」PDF(868KB、A4横2頁、パンフ P30-31)。品名/分別区分/出し方の注意点の表。文字がアウトライン化されていてテキスト抽出不可(画像として読む必要あり)。パンフ全体は all-page.pdf(9.95MB)。ページ更新2026-07-23、令和8年4月発行・6月一部改訂。"
+ },
+ "fukushima-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.fukushima.fukushima.jp/material/files/group/7/gomi_bunbetsukubun_r040101.csv",
+  "format": "csv",
+  "license": "クリエイティブ・コモンズ・ライセンス表示2.1日本(CC BY 2.1 JP、福島市オープンデータ利用規約)",
+  "open_license": true,
+  "unverified": false,
+  "note": "福島市オープンデータ一覧(環境)の「ごみの分別区分(令和4年1月1日現在)」CSV 38.9KB、UTF-8 BOM、約540品目。列は 区分,品名,ワンポイント,50音(5374.jp系の形式)。データ時点は2022-01-01と古い(ページ更新2025-07-01)。同ページに地区別ごみ収集スケジュール CSV(gomi_schedule_r020801.csv)もあり。"
+ },
+ "yamagata-yamagata-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.yamagata-yamagata.lg.jp/opendata/category/1007061/index.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "オープンデータのごみ関連は 排出量推移・ごみ集積所一覧・証紙取扱店一覧・資源物引取事業所一覧 のみで品目別リストなし。品目検索は さんあ〜る。「ごみ減量・分別大百科」PDF(77頁、4分割で4〜14MB、令和5年10月時点)は未取得で品目一覧の有無は要確認。ポスターPDFは品目一覧ではない。"
+ },
+ "nagareyama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.nagareyama.chiba.jp/_res/projects/default_project/_page_/001/002/418/dasikata230110.csv",
+  "format": "csv",
+  "license": "CC BY(表示)(カタログの license=op_cc_1)",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータカタログ「ごみの分別・処分方法」。CSV 37.5KB(Shift_JIS、約704行、列は 品目,分別区分,処分時の注意)と Excel(dasikata230110.xls 82.5KB)。リリース令和6年10月16日。出典ページは「家庭ごみの分け方・出し方」。ごみの収集曜日の CSV も別にあり。"
+ },
+ "kumagaya-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kumagaya.lg.jp/kurashi/kankyo/gomi/gomibunbetuitiran.files/gomibunbetu.pdf",
+  "format": "pdf",
+  "license": "なし(熊谷市オープンデータ利用規約はオープンデータページ掲載データ対象。このPDFはカタログ外で個別表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別一覧表(ごみ分別マニュアル)」PDF 6.9MB。ページに五十音順にまとめたものと説明あり。ページ更新2024-05-20(有機ELテレビの家電リサイクル追加は未反映)。中身は未取得。ほかに Web の「ごみ分別辞典」と アプリあり。"
+ },
+ "kamakura-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.kamakura.kanagawa.jp/gomi/hinmoku50on.html",
+  "format": "html",
+  "license": "オープンデータ利用規約は CC BY 4.0 だが、品目ページには個別表示なし(HTML のみ)",
+  "open_license": true,
+  "unverified": false,
+  "note": "「資源物とごみの品目と分別区分(50音順)」が行別の HTML 表(品名/区分/出し方のポイント)のみで、PDF/CSV なし(更新2026-03-04)。ごみ関連のオープンデータ CSV は 焼却量・発生量・リサイクル率・組成調査・資源物収集量 の統計5件のみ。"
+ },
+ "takaoka-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.takaoka.toyama.jp/material/files/group/25/r610bunbetuitiran.pdf",
+  "format": "pdf",
+  "license": "オープンデータカタログページは CC-BY(表示)(個別指定を優先)。このPDFはカタログ外の通常ページ掲載で個別表示なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「家庭のごみ分別一覧表」PDF 1.1MB、72頁、索引/ごみ名/分別区分/備考。ページ更新2024-10-01(令和6年10月版)。オープンデータの環境・衛生情報「ごみ収集」には「家庭系ごみの出し方と分け方」PDF(2.9MB、掲載2025-12-02)と収集カレンダーのみで、品目一覧は通常ページ側。Web の分別検索もあり。"
+ },
+ "noda-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.noda.chiba.jp/_res/projects/default_project/_page_/001/000/606/R08bunbetsu.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別一覧(令和8年4月1日時点)」PDF 244KB、10頁、索引/品名/素材など/分別区分/注意事項。問い合わせの多い・分かりにくい品目を中心に掲載で全品目ではない。ページ更新2026-03-31。パンフ(R8panhu-1/-2.pdf、計16MB)にも品目索引(P42-51)あり。さんあ〜るもあり。"
+ },
+ "sayama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.sayama.saitama.jp/kurashi/gomi/syusyubunbetsu/gomi_ziten.files/R7gomibunbetsu_a.pdf",
+  "format": "pdf",
+  "license": "なし(サイト共通の著作権・免責事項のみ。県オープンデータ利用規約はカタログ掲載データ対象)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「家庭ごみ分別辞典」50音別 PDF 10本(あ/か/さ/た/な/は/ま/や/ら/わ行、各146〜634KB、あ行は5頁)。ファイル名は R7(令和7年度)版、ページ更新2026-08-28。表は品目×区分の◎記号形式。同ディレクトリの R7gomibunbetsu_k/s/n/h/m/y/r/w.pdf と 80828gomibunbetu-t.pdf。"
+ },
+ "ebina-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.ebina.kanagawa.jp/guide/kurashi/wakekata/1009153.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "品目検索は ごみサク(gomisaku.jp/0045/)のみ。「資源とごみの分別ガイド」PDF(2025.3.pdf 12.8MB)と電子ブックはあるが、大容量のため未取得で品目一覧の有無は要確認。オープンデータライブラリにごみ品目データなし。"
+ },
+ "isahaya-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.isahaya.nagasaki.jp/uploaded/attachment/27410.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみの分け方・出し方(家庭用・保存版)」PDF 810KB、28頁、2026年8月改訂版。目次の「ごみ分別一覧表」が P5〜26(品目別の分別一覧)。ページ更新2026-10-05。独立の一覧ファイルではなく冊子PDF内。指定のオープンデータページは404。LINE でも分別検索可。"
+ },
+ "kirishima-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "http://www.city-kirishima.jp/kankyo/kurashi/gomi/bunbetsu/jiten/index.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "Web の「ごみ分別辞典」(あ〜わ行の HTML)と さんあ〜る のみ。ごみガイドブック PDF(表紙〜P24:6.1MB、P25〜P40:5.2MB)は未取得で品目一覧の有無は要確認。「ごみの出し方」PDF(550KB)は区分ごとの説明のみで品目一覧ではない。オープンデータページにごみ品目データなし。"
+ },
+ "handa-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.handa.lg.jp/_res/projects/default_project/_page_/001/005/568/gomi_target.csv",
+  "format": "csv",
+  "license": "CC BY(表示)",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータ「半田市ごみ収集日、分別情報」の gomi_target.csv(27.7KB、UTF-8 BOM、464行、列は ごみ名,索引,分別区分,分別注意文)。5374.jp 形式。データ時点2020-10-08、カタログ上のリリース日2026-03-25。地区別収集日の gomi_area_days.csv も同一データセット。品目データは約6年前で古い可能性。"
+ },
+ "inzai-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.inzai.lg.jp/cmsfiles/contents/0000001/1685/R7_11_kubun.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「品目別収集区分一覧表(50音順)(R7.11月版)」PDF 6.99MB(ページに「品目ごとの分別が50音順で記載」と明記、Acrobat で検索する前提)。中身は未取得。ほかに「資源物とごみの分別が大事典(令和7年11月)」daijiten2511.pdf 7.88MB と 分け方・出し方リーフレット R8 3.18MB あり。"
+ },
+ "kitami-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "http://www.city.kitami.lg.jp/common/img/content/content_20261005_101345.pdf",
+  "format": "pdf",
+  "license": "なし(オープンデータは北海道ポータル利用規約の対象。この辞典は対象外で個別表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「令和8年度 ごみの区分け辞典(北見自治区)」PDF 770KB、41頁、品名/分別区分/出し方等(PDF日付2026-10-05)。北見・端野・常呂・留辺蘂の4自治区で別冊(北見自治区のみ確認、留辺蘂は content=5053)で全市共通の一覧ではない。北見市ごみ分別アプリもあり。"
+ },
+ "omuta-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.omuta.lg.jp/kiji00313475/3_13475_129167_up_l648b63o.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別一覧表」PDF 623.7KB、18頁、あ〜わ のインデックス付き。「主な品目を掲載」と注記(全品目ではない)。ページ最終更新2026-05-12。「ごみ出し読本」PDF(list00834)もあり。"
+ },
+ "okayama-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.okayama.jp/kurashi/cmsfiles/contents/0000054/54825/bunbetsu.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみ(オープンデータではない)。「保存版(別冊)ごみ分別一覧表」2.5MB・16頁・令和7年4月版(品名/出し方/分別区分、ただし『おもなもの』のみ)、掲載ページ更新2026-05-13。Webは「分かりにくい資源・ごみの分別区分[あ〜わ行]」(HTML)。オープンデータ一覧Excel(105行)にごみ品目データなし(ごみ関連は施設マップのみ)。ごみ分別アプリもあり。"
+ },
+ "fukuyama-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.fukuyama.hiroshima.jp/site/kankyo/314133.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "Webの「ごみ分別辞典」(HTML、50音)とチャットボットのみ。オープンデータ側にごみ品目データなし。ごみ分別ガイドブックPDF(18.7MB・16頁、2024-03-31更新)は絵中心の区分説明で50音の品目表ではない。B3ポスターPDFも区分説明。"
+ },
+ "kita-ku": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_project_/opendata/1014461/hyo-jun.zip",
+  "format": "csv",
+  "license": "CC BY 4.0(ページのデータセット記述に「CC BY(表示)」)",
+  "open_license": true,
+  "unverified": false,
+  "note": "自治体標準オープンデータセット一式(zip 292KB)の中に「28.ゴミの分別方法一覧/131172_garbage_separation.csv」あり。標準形式(品目・分別区分・注意点・料金種別・料金…)で750行、UTF-8。ページ更新2026-10-05。ページ本文にはごみの記載がなく、zipを開かないと分からない点に注意。Webにも家庭ごみ分別辞典(50音)あり。"
+ },
+ "naha-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.naha.okinawa.jp/kurasitetuduki/gomi-recycling/1001934/1008613.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "Webの「ごみ・資源分別検索」と「資源とごみの分別辞典」(HTML)のみ。BODIKの38データセットにごみ品目なし。PDFは「分け方・出し方」表裏・手引き(13.1MB、未開封で品目表の有無は未確認)・やさしい日本語の簡易分別表(454KB)で、品目一覧とは言えない。"
+ },
+ "akita-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.akita.lg.jp/_res/projects/default_project/_page_/001/006/164/17-24_ichiran_2026.7.1.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみ(オープンデータではない)。「品目ごとのごみ分別一覧(手引き17〜24頁)」PDF 5.9MB(ファイル名2026.7.1)。掲載ページ更新2026-10-14。Webに「品目ごとのごみ分別一覧50音順」(HTML、2018-07-06更新)とアプリ。オープンデータ一覧(789行)のごみ関連は排出量・処理状況の統計のみで、品目データなし(それらはCC BY準拠)。"
+ },
+ "aomori-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.aomori.aomori.jp/_res/projects/default_project/_page_/001/007/974/aomoribunnbetujitenn-r80401.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみ。「ごみの出し方分別事典(五十音順)」PDF版 青森地区2.6MB(39頁、17頁以降が50音の事典)と浪岡地区版。ページ更新2026-04-01。Webにも同名の五十音検索ページあり。オープンデータポータルは食品営業許可・介護事業所などの数件でごみ品目なし(検索結果がJS描画のため全件は未確認)。"
+ },
+ "matsumoto-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.matsumoto.nagano.jp/soshiki/53/2831.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "品目表はWeb(HTML)の「あ〜わ行で始まるもの」6ページ(品目・形態・区分・収集・持込・備考)のみ。オープンデータサイトのごみ関連は産廃業者名簿のみ。配布PDF「分け方・出し方」(2.3MB、2026-04-01)は1枚の種類別早見(主な品目)で品目表ではない。"
+ },
+ "hachinohe-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.hachinohe.aomori.jp/material/files/group/18/gomi_bunbetsu.XLS",
+  "format": "xls",
+  "license": "CC BY 4.0(クリエイティブ・コモンズ 表示 4.0 国際)",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータコーナーに「ごみ分別一覧表(オープンデータ)」Excel(.XLS 568KB)。令和7年7月4日現在、ページ更新2025-08-13。中身は品名・読み付きの品目リスト(数千セル規模)を確認。ほかにPDF「ごみ分別一覧表」あり。※旧形式.XLSなので読み取りに注意。"
+ },
+ "anjo-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.anjo.aichi.jp/kurasu/gomi/gomidashi/gomidasu/index.html",
+  "format": "none",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみの分別ガイド ごみだす」は検索形式で、あいうえお順の早見表は2025-07-14に廃止して検索に一本化。オープンデータは外部カタログ(JS)でごみ品目の確認不可。「早わかりブック」PDF(日本語 前半9.2MB・後半8.5MB、2026-05-22更新)は大きいため開かず、品目表を含むか未確認。"
+ },
+ "izumo-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.izumo.shimane.jp/www/contents/1752026038326/simple/27-38nihongo.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみ。「ごみ分別一覧表(50音順)」日本語PDF 1MB(12頁、品名/分別区分/出し方)と英・ポルトガル・ベトナム・中国語版。ページ登録日2025-07-09。ほかにさんあ〜る(アプリ)あり。オープンデータページにごみ品目なし。"
+ },
+ "hitachi-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.hitachi.lg.jp/_res/projects/default_project/_page_/001/002/236/p32-37.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみで古い。「日立市ごみ処理ハンドブック(令和元年10月発行)」の『分別早見表(P32-37)』PDF 3.6MB(6頁、品名/区分/注意すること)。ページ更新2025-01-15。全編PDFは27MB。オープンデータページにごみ品目なし。"
+ },
+ "kariya-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.kariya.lg.jp/_res/projects/default_project/_page_/001/003/751/11all.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみ。「ごみ分別早見一覧表」全体PDF 758KB(12頁、品名/分別区分/留意点等/直接持ち込む場合)と、あ〜わ行別の10ファイル。ページ更新2026-05-01。オープンデータカタログ(CSV約18点)にごみ品目はなし。資源・ごみの分別検索(CGI)もあり。"
+ },
+ "asaka-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.asaka.lg.jp/uploaded/attachment/112339.xlsx",
+  "format": "xlsx",
+  "license": "なし(ページにライセンス表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別辞典(総目次)」ページに一括ダウンロード版 Excel(265KB)とPDF(1.7MB、https://www.city.asaka.lg.jp/uploaded/attachment/112338.pdf)。『2026年9月1日現在』、ページ表示の更新日は2024-11-20。Excelは約2,495品目(番号・五十音順・品目・形式・材質・可燃/不燃/有害/プラ/資源/粗大/小型家電…の◎○☆・備考)で最も使いやすい。ライセンス不明のため利用条件は市に確認が必要。"
+ },
+ "tsuchiura-city": {
+  "checked_at": "2026-10-16",
+  "found": false,
+  "url": "https://www.city.tsuchiura.lg.jp/kurashi-tetsuzuki/gomi-recycle/wakekata-dashikata/page009599.html",
+  "format": "html",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "ごみ分別辞典Webサイト「ごみサク」(gomisaku.jp)のみ。オープンデータページの掲載データ(都市計画図・人口・バス・駐車場など)にごみ品目なし。分別一覧のPDF/Excelは見当たらない。"
+ },
+ "inazawa-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.inazawa.aichi.jp/cmsfiles/contents/0000003/3563/28_232203_garbage_separation.xlsx",
+  "format": "xlsx",
+  "license": "CC BY 4.0(クリエイティブ・コモンズ・ライセンス表示4.0国際。稲沢市オープンデータ利用規約に従う)",
+  "open_license": true,
+  "unverified": false,
+  "note": "オープンデータページに「ゴミの分別方法一覧」Excel 163KB、データ更新日2025-02-14(ページ更新2026-08-21)。756行(ごみ名・索引・分別区分・分別注意文・追加検索キーワード・排出方法ごとの○列)。国の標準形式ではなく市独自の列構成。"
+ },
+ "yatsushiro-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.yatsushiro.lg.jp/kiji0031841/3_1841_153745_up_7mr7b8ud.xlsx",
+  "format": "xlsx",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "「資源の分別早見表【家庭用】」ページに分別早見表(50音順)のExcel 1.37MB(約900行、R8.4.23〜)とPDF 1.01MB(https://www.city.yatsushiro.lg.jp/kiji0031841/3_1841_153744_up_cw4er5r3.pdf)。最終更新2026-04-23。Excelは備考にリッチテキスト多用でセル整形が必要。『間違いが多い代表例のみで網羅ではない』との注記あり。オープンデータ(BODIK)側にごみ品目なし。さんあ〜るもあり。"
+ },
+ "nasushiobara-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.nasushiobara.tochigi.jp/material/files/group/14/bunbetsu20260115.xlsx",
+  "format": "xlsx",
+  "license": "なし(ページにライセンス表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "「ごみ分別事典」ページに『ごみ分別一覧最新版(R8.1.15)』Excel 68KB(約890行: No./品名/品名読み/分別区分/備考、50音順)とPDF 1.6MB(https://www.city.nasushiobara.tochigi.jp/material/files/group/14/bunbetsu20260115.pdf)。ページ表示の更新日は2023-09-21で古いが一覧はR8.1.15版。OpenData那須(CKAN)には品目データなし。"
+ },
+ "sano-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.sano.lg.jp/material/files/group/20/Jiten.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみ。「ごみ分別辞典」PDF 3.2MB(19頁、品名/分別区分/出し方)と英・中・越・西・タガログ語版。ページ更新2021-04-01で古め。オープンデータ一覧CSV(167件・CC BY準拠)のごみ関連は「ごみ処理・衛生施設一覧」のみで品目データなし。さんあ〜るもあり。"
+ },
+ "chikushino-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.chikushino.fukuoka.jp/uploaded/attachment/31805.pdf",
+  "format": "pdf",
+  "license": "なし",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみ。「家庭から出るごみ分別辞典」PDF 673KB(9頁、令和5年10月現在)。ページ更新2026-06-10。オープンデータ(BODIK)6件にごみ品目なし。"
+ },
+ "saijo-city": {
+  "checked_at": "2026-10-16",
+  "found": true,
+  "url": "https://www.city.saijo.ehime.jp/uploaded/attachment/61346.pdf",
+  "format": "pdf",
+  "license": "なし(オープンデータ本体はCC BY 4.0だが、このPDFには表示なし)",
+  "open_license": false,
+  "unverified": false,
+  "note": "PDFのみ(オープンデータではない)。家庭ごみ分別ガイドブックの「10 50音順ごみ分別表」PDF 969KB(26頁、品名/分別区分/出し方/粗大ごみ処理券)。ガイドブック全文PDF 4.1MB(https://www.city.saijo.ehime.jp/uploaded/attachment/61317.pdf)。ページ更新2025-03-31。オープンデータは4件(避難場所・一覧など)でごみ品目なし。さんあ〜るもあり。"
+ }
+}

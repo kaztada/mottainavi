@@ -50,9 +50,8 @@
     "query": "ごみ OR ゴミ OR 分別 OR 資源物 OR 粗大",
     "fq": "-xckan_site_name:\"学術機関リポジトリ\"",
     "rows": 50,
-    "memo": "BODIK・東京都・県8(静岡・徳島・岐阜・青森・山口・愛媛・富山・鳥取)・市の自前のカタログ(札幌・千葉・相模原・町田・港区・静岡市・大津・加古川・会津若松・宇都宮・金沢・新潟ほか)を含む。BODIK・東京都と重なるものは取りこぼしの確かめに使う",
+    "memo": "BODIK・東京都・県8(静岡・徳島・岐阜・青森・山口・愛媛・富山・鳥取)・市の自前のカタログ(札幌・千葉・相模原・町田・港区・静岡市・大津・加古川・会津若松・宇都宮・金沢・新潟ほか)を含む。BODIK・東京都と重なるものは取りこぼしの確かめに使う。静岡県の旧カタログ(ckan.pref.shizuoka.jp)は名前が引けないので使わない(新しいカタログ shizuoka を直接見る)",
     "coversPrefCatalogs": [
-      "静岡県",
       "徳島県",
       "岐阜県",
       "青森県",
@@ -60,6 +59,9 @@
       "愛媛県",
       "富山県",
       "鳥取県"
+    ],
+    "excludeHosts": [
+      "ckan.pref.shizuoka.jp"
     ]
   },
   {
@@ -449,5 +451,25 @@
       "how": "CMS のページ(約11件)。ごみの分別データは無い(品目の検索は Web の検索だけ)",
       "found": []
     }
+  },
+  {
+    "id": "shizuoka",
+    "label": "静岡県オープンデータカタログ",
+    "site": "https://opendata.pref.shizuoka.jp/",
+    "kind": "ckan",
+    "api": "https://opendata.pref.shizuoka.jp/api",
+    "query": "ごみ",
+    "extraQueries": [
+      "ゴミ",
+      "分別",
+      "資源物",
+      "粗大"
+    ],
+    "orgCode": "lg",
+    "licenseByTitle": true,
+    "prefs": [
+      "静岡県"
+    ],
+    "memo": "SHIRASAGI(旧ふじのくにオープンデータカタログ。2026-10-16 時点で旧 CKAN は名前が引けない)"
   }
 ]
