@@ -14764,17 +14764,22 @@
     "note": "総当たり 2026-10-16: csv・55行・データの基準日 不明・カタログの更新日 2025-10-16・ライセンスの登録 pdl"
   },
   "kawagoe-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
+    "status": "hold",
+    "checked_at": "2026-10-16",
+    "detail_ja": "公開データ(2024年3月)と市の現行の案内で、使い捨てライターの出し方が違っていました。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "The city's open data (March 2024) and its current guidance differ on how to put out disposable lighters. Because they can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "埼玉県オープンデータポータル(942品目、2024-03、PDL1.0)"
+        "label": "埼玉県オープンデータポータルの CSV(2024-03、942品目、PDL1.0)"
       },
       {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+        "label": "市の現行の案内(ごみ分別検索・品目マニュアル 令和8年版): 使い捨てライターは有害ごみ(データでは可燃ごみ)"
+      },
+      {
+        "label": "2026-10-16 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "照合が要る"
+    "note": "Kaz 判断 2026-10-16: 保留(境界。全件照合で95.9%一致、危険物の食い違い1件。市のサイト本体は二次利用不可)"
   },
   "kumagaya-city": {
     "status": "candidate",
@@ -16486,17 +16491,25 @@
     ]
   },
   "chiba-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
+    "status": "hold",
+    "checked_at": "2026-10-16",
+    "detail_ja": "公開データ(2024年5月)と市の現行の案内で、充電式の小型家電とスプレー缶の出し方が違っていました。また、データに使える条件がこのファイルに及ぶかを確かめられていません。",
+    "detail_en": "The city's open data (May 2024) and its current guidance differ on how to put out rechargeable small appliances and spray cans. We also could not confirm that the usage terms cover this file.",
     "evidence": [
       {
-        "label": "市のオープンデータ(Excel 約2,100品目、2024-05)"
+        "label": "市のオープンデータ(Excel、2024-05、2,058品目)"
       },
       {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+        "label": "市の現行の案内: 充電式の小型家電・スプレー缶の出し方(データの記載が古い)"
+      },
+      {
+        "label": "市のサイトの利用条件: CC BY の表示が本文に付いており、添付の Excel に及ぶかは書かれていない"
+      },
+      {
+        "label": "2026-10-16 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "CC BY の表示が添付ファイルに及ぶか未確認。2027-12 にプラ分別開始予定"
+    "note": "Kaz 判断 2026-10-16: 保留(ライセンスの範囲を市に確認+電池の扱いの更新を依頼)。2027-12 にプラ資源の分別開始予定"
   },
   "choshi-city": {
     "status": "no-data",
@@ -18165,17 +18178,22 @@
     "note": "総当たり 2026-10-16: standard・477行・データの基準日 不明・カタログの更新日 2025-03-30・ライセンスの登録 CC-BY-4.0"
   },
   "koto-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
+    "status": "hold",
+    "checked_at": "2026-10-16",
+    "detail_ja": "公開データ(2026年1月)と区の現行の案内で、充電式電池の出し方が違っていました。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "The ward's open data (January 2026) and its current guidance differ on how to put out rechargeable batteries. Because they can cause fires, we will add the ward once the data is updated.",
     "evidence": [
       {
-        "label": "東京都オープンデータカタログ(1,104品目、2026-01)"
+        "label": "東京都オープンデータカタログの CSV(2026-01、1,104品目、CC BY 4.0)"
       },
       {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+        "label": "区の現行の案内: 充電式電池は「水銀を含む製品」とともに別の袋で出す(データでは一般の燃やさないごみ)"
+      },
+      {
+        "label": "2026-10-16 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "ごみサク無し。区の50音 HTML で照合"
+    "note": "Kaz 判断 2026-10-16: 保留(区の50音表とも約31行違う。区へデータ更新を依頼する候補)"
   },
   "shinagawa-ku": {
     "status": "candidate",
@@ -18257,19 +18275,6 @@
         "url": "https://www.city.ota.tokyo.jp/kuseijoho/opendata/open-data.html"
       }
     ]
-  },
-  "setagaya-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
-    "evidence": [
-      {
-        "label": "東京都オープンデータカタログの標準形式 CSV(787品目、2026-03)"
-      },
-      {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
-      }
-    ],
-    "note": "品目と区分の列が入れ替わっている。照合はごみサク 0210"
   },
   "shibuya-ku": {
     "status": "candidate",
@@ -18457,17 +18462,22 @@
     ]
   },
   "katsushika-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
+    "status": "hold",
+    "checked_at": "2026-10-16",
+    "detail_ja": "区が2026年8月に分別辞典と電池の出し方の案内を新しくしましたが、公開データ(2025年4月)にはまだ反映されていません。",
+    "detail_en": "The ward updated its sorting dictionary and battery guidance in August 2026, but its open data (April 2025) does not reflect these changes yet.",
     "evidence": [
       {
-        "label": "東京都オープンデータカタログ(755品目、2025-03)"
+        "label": "東京都オープンデータカタログの CSV(2025-04、755品目、CC BY 4.0)"
       },
       {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+        "label": "区の現行の案内: 分別辞典(2026-08)と37品目が違う、電池の出し方の新しい案内(2026-08)"
+      },
+      {
+        "label": "2026-10-16 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "照合はごみサク 0371"
+    "note": "Kaz 判断 2026-10-16: 保留(CSV が辞典に合わせて更新されたら再開)"
   },
   "edogawa-ku": {
     "status": "no-data",
@@ -27116,17 +27126,22 @@
     "note": "Kaz 判断で保留。BODIK の CSV が 2026-10 以降に更新されたら再開"
   },
   "toyohashi-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
+    "status": "hold",
+    "checked_at": "2026-10-16",
+    "detail_ja": "公開データ(2024年10月)と市の現行の案内で、タブレット端末の出し方が違っていました。電池の入った製品なので、データが新しくなってから対応します。",
+    "detail_en": "The city's open data (October 2024) and its current guidance differ on how to put out tablets. Because they contain batteries, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "市のオープンデータ(710品目、2024-10)"
+        "label": "市のオープンデータ CSV(2024-10、710品目、CC BY 4.0)"
       },
       {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+        "label": "市の現行の案内: タブレット端末は危険ごみ(データでは、こわすごみ)"
+      },
+      {
+        "label": "2026-10-16 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "冊子のページ参照の注意書き。照合はごみサク 0390"
+    "note": "Kaz 判断 2026-10-16: 保留(境界。655品目中654一致、危険物の食い違い1件)"
   },
   "okazaki-city": {
     "status": "no-data",
@@ -36445,17 +36460,22 @@
     ]
   },
   "shimonoseki-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
+    "status": "hold",
+    "checked_at": "2026-10-16",
+    "detail_ja": "市が2026年3月に分別の冊子を改訂し、4月に粗大ごみの手数料を改定しましたが、公開データ(2024年4月)にはまだ反映されていません。",
+    "detail_en": "The city revised its sorting guide in March 2026 and its bulky waste fees in April 2026, but its open data (April 2024) does not reflect these changes yet.",
     "evidence": [
       {
-        "label": "山口県オープンデータカタログの標準形式(878品目、2024-04、PDL1.0)"
+        "label": "山口県オープンデータカタログの CSV(2024-04、878品目、CC BY / PDL1.0)"
       },
       {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+        "label": "市の現行の案内: しものせきごみ百科 令和8年3月版(区分の変更5件)、粗大ごみ手数料の改定(令和8年4月)、電池の窓口回収(令和7年10月)"
+      },
+      {
+        "label": "2026-10-16 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "区分が空の収集不可46件。照合はごみサク 0351"
+    "note": "Kaz 判断 2026-10-16: 保留(市が令和8年版のデータを出したら再開)"
   },
   "ube-city": {
     "status": "candidate",
@@ -39368,17 +39388,22 @@
     "note": "総当たり 2026-10-16: csv・1821行・データの基準日 2024・カタログの更新日 2024-04-24・ライセンスの登録 cc-by"
   },
   "nogata-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
+    "status": "hold",
+    "checked_at": "2026-10-16",
+    "detail_ja": "公開データ(2023年3月)と市の現行の案内で、充電式電池やボタン電池の出し方が違っていました。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "The city's open data (March 2023) and its current guidance differ on how to put out rechargeable and button batteries. Because they can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "標準形式(546品目、2023-03)"
+        "label": "BODIK の CSV(2023-03、546品目、CC BY 4.0)"
       },
       {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
+        "label": "市の現行の案内: 充電式電池・ボタン電池などは資源回収へ(データでは不燃物で注意書きなし)"
+      },
+      {
+        "label": "2026-10-16 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "充電式電池・リチウム電池が「不燃物・注意点なし」で、現行の案内と食い違う疑い"
+    "note": "Kaz 判断 2026-10-16: 保留(電池の扱いを反映したデータの再公開を依頼する候補)"
   },
   "iizuka-city": {
     "status": "no-data",
@@ -41917,19 +41942,6 @@
         "url": "https://data.e-gov.go.jp/"
       }
     ]
-  },
-  "yamaga-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-08",
-    "evidence": [
-      {
-        "label": "BODIK 432083_bunbetsu(CSV 1,087品目、ファイル名 202403、CC BY 4.0)"
-      },
-      {
-        "label": "2026-10-08 の候補の一括調査(BODIK・東京都・埼玉県・山口県などのデータカタログと市のオープンデータのページ)"
-      }
-    ],
-    "note": "市の分別辞典(2023.4)と全件照合して区分の実質の食い違い 0。残る確認: 膨張したモバイルバッテリーの注意文、自己搬入の搬入先、粗大の手数料"
   },
   "kikuchi-city": {
     "status": "no-data",

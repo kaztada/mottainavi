@@ -139,6 +139,17 @@
         "url": null,
         "effort": "medium",
         "money": "earn"
+      },
+      {
+        "type": "official",
+        "title_ja": "使用済小型家電の回収ボックスに入れる(区役所・総合支所・まちづくりセンターなど12か所)",
+        "title_en": "Drop it in a ward small-appliance collection box (ward office, branch offices, community centers; 12 locations)",
+        "desc_ja": "携帯電話・スマートフォン・デジタルカメラ・電卓・ACアダプターなど12品目が対象です。中の金属が資源としてもう一働き。個人情報のデータは消しておきます。取り外せる充電式電池やモバイルバッテリーは入れられません(使い切って端子をテープで覆い、ほかの不燃ごみとは別の袋に入れて「充電式電池」と書いて、不燃ごみの日に。膨張・変形・破損したものは清掃事務所などの窓口へ)。投入口は縦10cm×横25cmです。",
+        "desc_en": "For 12 kinds of items, including mobile phones, smartphones, digital cameras, calculators and AC adapters. The metals inside get another life. Wipe personal data first. Removable rechargeable batteries and power banks cannot go in the box (use them up, cover the terminals with tape, put them in a separate bag marked \"充電式電池\" (rechargeable batteries) and put it out on non-burnable waste day; take swollen, deformed or damaged ones to a ward cleaning office or another drop-off counter). The slot is 10 cm x 25 cm.",
+        "url": "https://www.city.setagaya.lg.jp/02241/403.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "setagaya-ku"
       }
     ]
   },
@@ -188,6 +199,28 @@
         "url": null,
         "effort": "medium",
         "money": "earn"
+      },
+      {
+        "type": "official",
+        "title_ja": "市が連携する「おいくら」で、買取の見積もりをまとめて取る",
+        "title_en": "Get buy-back quotes via Oikura (partnered with the city)",
+        "desc_ja": "山鹿市はリユースをすすめるため「おいくら」と連携しています。複数の買取店の査定を比べられます。粗大ごみの収集は年3回なので、その前に試してみる手もあります。",
+        "desc_en": "Yamaga City partners with Oikura to promote reuse. You can compare quotes from several buyers. Bulky waste is collected only three times a year, so it may be worth trying this first.",
+        "url": "https://www.city.yamaga.kumamoto.jp/kiji003556/index.html",
+        "effort": "medium",
+        "money": "earn",
+        "municipality_id": "yamaga-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "エコプラザ用賀のリユース(区とジモティーの連携)に持ち込む",
+        "title_en": "Bring it to the reuse spot at Eco Plaza Yoga (the ward's partnership with Jimoty)",
+        "desc_ja": "世田谷区はジモティーと連携して、エコプラザ用賀でリユースの取り組みをしています。まだ使えて、次の人が気持ちよく使えるものなら、無償で引き取ってもらえます。持ち込みは区内に住む人の事前予約制(インターネットで受付)で、寝具・家電リサイクル法の対象品・パソコン、破損や汚れのあるものなど、持ち込めないものもあります。予約のページで対象を確かめてから。粗大ごみの手数料がかからない、という手もあります。",
+        "desc_en": "Setagaya City runs a reuse spot at Eco Plaza Yoga with Jimoty. Items that still work and that the next person can use comfortably are taken free of charge. Drop-offs are by advance online reservation for ward residents only, and some items cannot be accepted, such as bedding, appliances covered by the Home Appliance Recycling Act, PCs, and damaged or dirty items. Check the reservation page first. It can also save you the bulky waste fee.",
+        "url": "https://www.city.setagaya.lg.jp/02241/online_tetsuzuki/379.html",
+        "effort": "medium",
+        "money": "free",
+        "municipality_id": "setagaya-ku"
       }
     ]
   },

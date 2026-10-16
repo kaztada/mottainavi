@@ -10,7 +10,9 @@ import { maizuruCityAdapter } from "./maizuru-city"
 import { nagahamaCityAdapter } from "./nagahama-city"
 import { okinawaCityAdapter } from "./okinawa-city"
 import { osakaCityAdapter } from "./osaka-city"
+import { setagayaKuAdapter } from "./setagaya-ku"
 import { sukagawaCityAdapter } from "./sukagawa-city"
+import { yamagaCityAdapter } from "./yamaga-city"
 import { yokohamaCityAdapter } from "./yokohama-city"
 
 /** 登録済みアダプタ。自治体を追加するときはここに1行足す */
@@ -28,4 +30,6 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [fukuokaCityAdapter.slug]: fukuokaCityAdapter,
   [maizuruCityAdapter.slug]: maizuruCityAdapter,
   [kanazawaCityAdapter.slug]: kanazawaCityAdapter,
+  [yamagaCityAdapter.slug]: yamagaCityAdapter,
+  [setagayaKuAdapter.slug]: setagayaKuAdapter,
 }

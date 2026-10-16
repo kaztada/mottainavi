@@ -5747,8 +5747,8 @@
     "pref": "東京都",
     "name_ja": "世田谷区",
     "name_en": "Setagaya City",
-    "status": "unsupported",
-    "official_url": "https://www.city.setagaya.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.setagaya.lg.jp/02241/387.html"
   },
   {
     "slug": "shibuya-ku",
@@ -14171,8 +14171,8 @@
     "pref": "熊本県",
     "name_ja": "山鹿市",
     "name_en": "Yamaga City",
-    "status": "unsupported",
-    "official_url": "https://www.city.yamaga.kumamoto.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.yamaga.kumamoto.jp/kiji003598/index.html"
   },
   {
     "slug": "kikuchi-city",

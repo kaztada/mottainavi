@@ -32,7 +32,9 @@ https://mottainavi.kaztada.eco
 | 長浜市(滋賀県)     | [ごみ分別表](https://data.bodik.jp/dataset/252034_garbage_separation)                                                | CC BY 4.0    |
 | 福岡市(福岡県)     | [ごみの分け方（品目）検索](https://data.bodik.jp/dataset/401307_disposing-method)                                    | CC BY 4.0    |
 | 舞鶴市(京都府)     | [ゴミの分別方法一覧](https://data.bodik.jp/dataset/262021_garbage_separation)                                        | CC BY 4.0    |
-| 金沢市(石川県)     | [金沢市 ごみ分別辞典](https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten)              | CC BY        |
+| 金沢市(石川県)     | [金沢市 ごみ分別辞典](https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten)               | CC BY        |
+| 山鹿市(熊本県)     | [家庭ごみ分別一覧](https://data.bodik.jp/dataset/432083_bunbetsu)                                                    | CC BY 4.0    |
+| 世田谷区(東京都)   | [ごみ分別一覧(自治体標準オープンデータセット)](https://www.city.setagaya.lg.jp/opendata/22308.html)                  | CC BY 4.0    |
 
 品目データを二次利用できるライセンスで公開している自治体から、順に追加しています。まだ対応していない自治体を選ぶと、その自治体の公式サイトへの案内を表示します。
 
