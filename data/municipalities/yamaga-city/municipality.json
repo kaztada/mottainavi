@@ -1,0 +1,14 @@
+{
+  "slug": "yamaga-city",
+  "item_id_prefix": "ymg",
+  "source_url": "https://data.bodik.jp/dataset/432083_bunbetsu",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このデータベースは以下の著作物を改変して利用しています。家庭ごみ分別一覧、山鹿市、クリエイティブ・コモンズ・ライセンス 表示 4.0",
+  "source_attribution_en": "Source: This database adapts \"Household Garbage Sorting List\", Yamaga City, Creative Commons Attribution 4.0",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": null,
+  "sodai_tel_mobile": null,
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261016"
+}

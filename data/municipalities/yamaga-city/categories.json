@@ -1,0 +1,119 @@
+[
+  {
+    "id": "moyasu",
+    "kind": "burnable",
+    "name_ja": "燃やすごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moenai",
+    "kind": "non-burnable",
+    "name_ja": "燃えないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "non-burnable",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (three times a year)",
+    "color": "#AF52DE",
+    "icon": "sofa",
+    "accepts_large_items": true
+  },
+  {
+    "id": "kanamono",
+    "kind": "recyclable",
+    "name_ja": "金物類他（その他資源物）",
+    "name_en": "Metal and Mixed-material Items (resources)"
+  },
+  {
+    "id": "ikibin",
+    "kind": "recyclable",
+    "name_ja": "生きびん",
+    "name_en": "Returnable Bottles"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "びん類",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "かん類",
+    "name_en": "Cans"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装",
+    "name_en": "Plastic Containers and Packaging"
+  },
+  {
+    "id": "zatsugami",
+    "kind": "paper",
+    "name_ja": "雑がみ類",
+    "name_en": "Mixed Paper"
+  },
+  {
+    "id": "shinbun",
+    "kind": "paper",
+    "name_ja": "新聞・広告チラシ",
+    "name_en": "Newspapers and Flyers"
+  },
+  {
+    "id": "danboru",
+    "kind": "paper",
+    "name_ja": "ダンボール",
+    "name_en": "Cardboard"
+  },
+  {
+    "id": "kami-pack",
+    "kind": "paper",
+    "name_ja": "紙パック",
+    "name_en": "Paper Cartons"
+  },
+  {
+    "id": "nuno",
+    "kind": "paper",
+    "name_ja": "布類",
+    "name_en": "Clothing and Fabric"
+  },
+  {
+    "id": "kiken",
+    "kind": "hazardous",
+    "name_ja": "危険物類",
+    "name_en": "Hazardous Items"
+  },
+  {
+    "id": "denchi",
+    "kind": "hazardous",
+    "name_ja": "電池類",
+    "name_en": "Batteries"
+  },
+  {
+    "id": "keikokan",
+    "kind": "hazardous",
+    "name_ja": "蛍光管・電球類",
+    "name_en": "Fluorescent Tubes and Bulbs"
+  },
+  {
+    "id": "jiko",
+    "kind": "other",
+    "name_ja": "自己搬入",
+    "name_en": "Take to a Facility Yourself"
+  },
+  {
+    "id": "kinshi",
+    "kind": "not-collected",
+    "name_ja": "排出禁止物",
+    "name_en": "Not Collected by the City"
+  }
+]

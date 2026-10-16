@@ -1,0 +1,50 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (application required)"
+  },
+  {
+    "id": "shigen",
+    "kind": "recyclable",
+    "name_ja": "資源",
+    "name_en": "Recyclables"
+  },
+  {
+    "id": "kyoten",
+    "kind": "drop-off",
+    "name_ja": "拠点回収",
+    "name_en": "Drop-off Collection"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電回収ボックス・販売店",
+    "name_en": "Small Appliance Collection Box or Retailer"
+  },
+  {
+    "id": "hanbaiten",
+    "kind": "maker-recycle",
+    "name_ja": "販売店の回収ボックス",
+    "name_en": "Retailer Collection Box"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "区では収集できないもの",
+    "name_en": "Not Collected by the Ward"
+  }
+]
