@@ -1,0 +1,1934 @@
+{
+ "https://data.bodik.jp/dataset/252131_higashiomi_gomibunbetsu_dashikata_gamo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "蒲生地区の搬入ルールのチラシ(種類別の例示のみ)"
+ },
+ "https://data.bodik.jp/dataset/252131_higashiomi_gomibunbetsu_dashikata_eigengi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "永源寺地区の出し方チラシ(区分ごとの例示)"
+ },
+ "https://data.bodik.jp/dataset/252034_garbage_disposal": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ量の統計"
+ },
+ "https://data.bodik.jp/dataset/452033_ippanhaikibutusyusyuunnpankyokagyousya": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "許可業者一覧(空ファイル)"
+ },
+ "https://data.bodik.jp/dataset/442011_garbage": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ排出量の統計"
+ },
+ "https://data.bodik.jp/dataset/242021_00071": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "搬入量の統計"
+ },
+ "https://data.bodik.jp/dataset/452025_recycle_toukeisyo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "リサイクル事業の統計書"
+ },
+ "https://data.bodik.jp/dataset/242021_00073": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "排ガス測定結果"
+ },
+ "https://data.bodik.jp/dataset/242021_00067": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "土壌汚染の区域台帳"
+ },
+ "https://data.bodik.jp/dataset/402036_0009400_00006": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "転入手続きの案内"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000110": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集曜日一覧"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001289": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "資源化量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000390": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "台東区。ごみ名→分別区分の一覧(約940行、備考・検索キーワード付き)。カタログ記載のCSVは404。公式ページ https://www.city.taito.lg.jp/kusei/online/opendata/koutu/gomibunbetuitiran.html の最新CSV(https://www.city.taito.lg.jp/kusei/online/opendata/koutu"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132128d3000000018": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000113": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "有料ごみ処理券の取扱所一覧"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001342": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集区分別のごみ量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001621": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001015": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000067": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "行政基礎資料集(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000011": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "行政基礎資料集(統計)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/352136_garbage_separation": {
+  "verdict": "item-list",
+  "format": "pdf",
+  "decided_at": "2026-10-16",
+  "note": "美祢市。美祢地域版の家庭ごみの出し方ガイド(令和3年4月版、24頁)。17〜23頁に50音順ごみの分別表(品目→区分、数百品目)。表の文字は図形化されていて文字抽出不可(画像として読む必要あり)。市内の他地域版は別"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/gomibunbetsu": {
+  "verdict": "item-list",
+  "format": "pdf",
+  "decided_at": "2026-10-16",
+  "note": "周防大島町。データセット本体のHTMLページから「五十音順ごみ分別区分一覧表」PDF(https://www.town.suo-oshima.lg.jp/uploaded/attachment/2725.pdf、20頁、品目→区分→注意点、文字抽出可)にリンク"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/352071_garbage_collection_place": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積場所の一覧"
+ },
+ "https://ckan.odp.jig.jp/dataset/jp-shizuoka-mishima-757-odp": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "三島市。品目→分別区分、英語名・かな付き。ただし42品目と少なめ(約50未満)"
+ },
+ "https://www.data.go.jp/data/dataset/269f76df-9aa3-410a-bd2f-c685ca15dc5b": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集日程表(清水区の資源ごみ)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202504": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報よこはま金沢区版の記事"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_collection_place": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積場所の一覧"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/352021_gomiokiba": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "https://data.data4citizen.jp/dataset/10060097": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "処理経費の統計"
+ },
+ "https://www.geospatial.jp/ckan/dataset/15216-101": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみステーション位置図"
+ },
+ "https://opendata.pref.tokushima.lg.jp/dataset/1101.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "勝浦町の出し方と区別のしかた(カラーチラシ1枚、燃える/プラ/燃えない の3区分のみ)"
+ },
+ "http://opendata.city.machida.tokyo.jp/dataset/kankobutsu_2025-kankoubutsu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "町田市のバリアフリーハンドブック(無関係)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/seisaku_15": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/tokkansyobun": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産業廃棄物処理業者一覧"
+ },
+ "https://data.bodik.jp/dataset/242055_haikibutsu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "廃棄物の統計"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/ippaikyokagyousyaitiran": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "許可業者一覧"
+ },
+ "https://data.bodik.jp/dataset/232114_general_waste_disposal_operators": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "処理業者一覧"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/jidousyahasai": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "破砕業者一覧"
+ },
+ "https://www.data.go.jp/data/dataset/dada19d9-5336-401d-bafb-7097c219f9da": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "埋立地の区域台帳"
+ },
+ "http://opendata.city.tokushima.tokushima.jp/dataset/living_haikibutusyori_open": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "処理施設の維持管理状況"
+ },
+ "https://opendata-api-kakogawa.jp/ckan/dataset/r2toukeisyo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/5484": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/1388": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "環境関連施設一覧(8行)"
+ },
+ "https://www.okayama-opendata.jp/datasets/616": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "再生資源物の回収状況(統計)。リンク先ページは404"
+ },
+ "https://data.e-gov.go.jp/data/dataset/269f76df-9aa3-410a-bd2f-c685ca15dc5b": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集日程表(清水区の資源ごみ)"
+ },
+ "https://www.harp.lg.jp/opendata/dataset/1988.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "清掃工場のごみ組成調査"
+ },
+ "https://ckan.pf-sapporo.jp/dataset/garbage_collection_calendar": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "カレンダーの記号とごみ種(7行)。区分のみで品目なし"
+ },
+ "https://opendata.pref.kagawa.lg.jp/dataset/639.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積場所のKML"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12805.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7752.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ出しカレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8134.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8648.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9729.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ出しカレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1010.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ出しカレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-496.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-827.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集日一覧"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11061.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7744.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/1265": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "入間市のごみの分別辞典(約2,500行、品目・ふりがな・分別区分・注意点)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/773": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理状況(統計)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/856": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "都市計画区域別面積"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/3727": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "搬入量の推移(統計)"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/4832": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "耐震改修の建築物台帳(無関係)"
+ },
+ "https://data.bodik.jp/dataset/252034_garbage_separation": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "ごみ分別表CSV。約3,800行の品目別(読み・区分・注意)"
+ },
+ "https://data.bodik.jp/dataset/252131_higashiomi_gomibunbetsu_dashikata_aito": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "愛東地区の家庭ごみ分別チラシ(区分別の例示のみ、画像PDF)"
+ },
+ "https://data.bodik.jp/dataset/242055_shigenkaishu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "資源物回収の実績集計(種別・回収量、14行)"
+ },
+ "https://data.bodik.jp/dataset/252069_00002": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理の統計(.xls、題名より)"
+ },
+ "https://data.bodik.jp/dataset/142123_p_3089_3089": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "資源ごみ処理量の集計表"
+ },
+ "https://data.bodik.jp/dataset/072079_3519_1004948": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみの量の統計表(年度別)"
+ },
+ "https://data.bodik.jp/dataset/242021_00075": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "騒音・振動測定結果"
+ },
+ "https://data.bodik.jp/dataset/242021_00078": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "埋立処分量の統計"
+ },
+ "https://data.bodik.jp/dataset/242021_00068": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "大気環境の監視データ"
+ },
+ "https://data.bodik.jp/dataset/46201_r4kokuseityousakekka": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "国勢調査"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100002087": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "資源化量・率の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001180": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "資源化量・率の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000267": {
+  "verdict": "item-list",
+  "format": "pdf",
+  "decided_at": "2026-10-16",
+  "note": "データセットのCSVは404(消滅)。台東区の公式パンフレットページ(https://www.city.taito.lg.jp/kurashi/gomi/keikaku/kakusyupanfuretto/gomitoshigen.html)に『資源とごみの分別表(五十音順)』PDF(gomitoshigen.files/17.pdf、3.2MB)あり。品目別と推定(PDF中身は未確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131041d0000000015": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "人口統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100002085": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集区分別のごみ量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001227": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集区分別のごみ量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001510": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000341": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "行政資料集(環境学習)の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000289": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "人口統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000050": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "行政基礎資料集(環境の統計)"
+ },
+ "https://opendata.pref.tokushima.lg.jp/dataset/1370.html": {
+  "verdict": "item-list",
+  "format": "excel",
+  "decided_at": "2026-10-16",
+  "note": "鳴門市ごみの分別辞典xlsx(約190品目、品目・ごみの種類・正しい出し方、50音、2024-04更新)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/352161_howtotrush": {
+  "verdict": "item-list",
+  "format": "pdf",
+  "decided_at": "2026-10-16",
+  "note": "データセットのHTMLは区分別の例示(約100語)。同ページの『50音順ごみ分別早見表』PDF(https://www.city.sanyo-onoda.lg.jp/uploaded/attachment/77143.pdf、21ページ、品目→分別→注意)が品目別リスト"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/garbagebag-store": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "指定ごみ袋取扱店の一覧"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/suo-oshimagomi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積場所の一覧"
+ },
+ "http://opendata.city.machida.tokyo.jp/dataset/kankobutsu_2020-kankoubutsu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "議会の政務活動費ハンドブックPDF(無関係)"
+ },
+ "https://data.data4citizen.jp/dataset/10210002": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ搬入量の統計"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/352101_kankyoujigyou001": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "http://opendata.city.machida.tokyo.jp/dataset/kankobutsu_2022-kankoubutsu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "市税の案内PDF(無関係)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/hg-wastedisposalfacility": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理施設・休日集積所の案内"
+ },
+ "https://www.geospatial.jp/ckan/dataset/132063-010": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "有料ごみ袋の取扱店一覧(題名より東京都府中市の分)"
+ },
+ "http://opendata.city.nisshin.lg.jp/dataset/p_13073": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "https://data.data4citizen.jp/dataset/10060188": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "人口統計"
+ },
+ "https://data.data4citizen.jp/dataset/10060238": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "人口統計"
+ },
+ "https://data.bodik.jp/dataset/221007_hutsuusanpaisyobun": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産業廃棄物処理業者の一覧"
+ },
+ "https://www.data.go.jp/data/dataset/6b60aeed-8b96-4f30-98c3-33434e3ef9ea": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産業廃棄物処理業者の一覧"
+ },
+ "https://data.bodik.jp/dataset/221007_tokkansyuusyuu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産業廃棄物処理業者の一覧"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/seisaku_opendata": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "中期計画の数値データ"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/saisyusyobunsiteikuiki": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "最終処分場の指定区域台帳"
+ },
+ "https://opendata-api-kakogawa.jp/ckan/dataset/28toukeisyo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "http://opendata.city.sagamihara.kanagawa.jp/dataset/kouhyo_igai": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "多量排出事業者の公表書類"
+ },
+ "https://opendata-api-kakogawa.jp/ckan/dataset/r4toukeisyo-": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/5272": {
+  "verdict": "item-list",
+  "format": "pdf",
+  "decided_at": "2026-10-16",
+  "note": "HTMLは案内ページ。『品目別分類表(50音順)』PDF(https://www.town.hirao.lg.jp/material/files/group/40/gomibunnrui.pdf、21ページ、品目・分類・留意事項、2025-02更新)へのリンク"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/1010": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "品目別ごみ分別情報CSV(題名より。CSVは取得できず未確認)。安芸津町地区向けで、東広島市の他地区に同じ規則とは限らない"
+ },
+ "https://www.okayama-opendata.jp/datasets/15": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理状況の統計(.xls)"
+ },
+ "https://www.harp.lg.jp/opendata/dataset/1532.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "施設の受け入れ時間"
+ },
+ "https://ckan.hoda.jp/dataset/gomiwakeguide": {
+  "verdict": "item-list",
+  "format": "pdf",
+  "decided_at": "2026-10-16",
+  "note": "HTMLはダウンロード案内ページ(http://www.city.sapporo.jp/seiso/gomi/gomiwake_guide/download.html)。『資源とごみの分別辞典』(ごみ分けガイド43-54ページ、50音順、2025年度版)がPDFで品目別。CC-BY-4.0"
+ },
+ "https://iwate.dataeye.jp/datasets/77": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "17行の区分別一覧(例示は計約51語、区分単位。収集日程と一体)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11059.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/5896.html": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "袋井市の資源ごみ・埋立ごみの分別表CSV(56KB、type,name,notice,furigana形式の品目別)。燃えるごみ等の分は別資料の可能性"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7930.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8145.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ出しカレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8896.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ・資源収集カレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9813.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1011.html": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "菊川市ごみの出し方R2CSV(令和2年度、29KB、type,name,notice,furigana形式の品目別)。旧版CSVもあり"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-564.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "外部リンクの島田商業高校5374アプリ用CSVが消え、高校サイトのHTMLが返る。使えるデータなし"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-885.html": {
+  "verdict": "review",
+  "decided_at": "2026-10-16",
+  "note": "ごみ回収情報(2017年度)。中身を確かめておらず、品目の一覧かどうか未確認"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11833.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "高齢者人口・世帯数の統計"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9815.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/2190": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "9行の区分別表(区分ごとの例示)で品目別ではない"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/90": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/3040": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/3781": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "焼却ごみのごみ質分析"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/4095": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "人口統計"
+ },
+ "https://data.bodik.jp/dataset/122271_gomisigennbutuhannnyuuryou": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "浦安市のごみ・資源物搬入量の推移(統計)"
+ },
+ "https://data.bodik.jp/dataset/252131_higashiomi_gomibunbetsu_dashikata_yokaichi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "東近江市 八日市地区の1枚ものチラシ(区分ごとの例示のみ。品目一覧ではない)"
+ },
+ "https://data.bodik.jp/dataset/412082_kankyou1": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "小城市ごみの分け方一覧表(50音順・種類別)。Shift_JIS・CR改行のCSVで品目約250行(label=区分,name=品目,notice,furigana)。機械が0行と見たのは改行のせい"
+ },
+ "https://data.bodik.jp/dataset/402036_0001400_00043": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "久留米市の収集地域区分(5地域のマスター表)"
+ },
+ "https://data.bodik.jp/dataset/221007_shuushuu20151023-005": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "静岡市清水区の資源ごみ収集日程表"
+ },
+ "https://data.bodik.jp/dataset/452041_20250601020": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "日南市集計(司法・安全・環境)の統計"
+ },
+ "https://data.bodik.jp/dataset/242021_00072": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "四日市市クリーンセンターの運転管理値"
+ },
+ "https://data.bodik.jp/dataset/242021_00070": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "四日市 環境未来館の来館者数推移"
+ },
+ "https://data.bodik.jp/dataset/242021_00074": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "四日市市クリーンセンターのばいじん除去作業実施日"
+ },
+ "https://data.bodik.jp/dataset/452025_kokuhohukakubunbetu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "都城市 国保税の課税世帯数(無関係)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001934": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 令和5年 資源化量及び資源化率(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001014": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 平成28年 資源化量及び資源化率(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132217d0000000072": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "清瀬市 ゴミ集積場所一覧(場所)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000138": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "中野区 有料ごみ処理券取扱所一覧(店舗)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001932": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 令和5年 収集区分別ごみ量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001085": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 平成28年 収集区分別ごみ量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001451": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 令和元年 収集区分別ごみ量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001400": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 令和元年 ごみ収集人口及び収集量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000084": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "墨田区 行政基礎資料集(環境)の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000037": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "墨田区 行政基礎資料集(環境)の統計"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/seikatsu1": {
+  "verdict": "item-list",
+  "format": "pdf",
+  "decided_at": "2026-10-16",
+  "note": "長門市『ごみの分け方・出し方』令和7年度改定版36頁の冊子PDF(リソース886aeea5-ce76-49de-a791-fae8d80f9162/8.pdf)に『ごみ分別早見表(50音順)』p22-33(約900品目)。目録に載る33909.pdfは404なので yamaguchi-opendata.jp の download/8.pdf を使う"
+ },
+ "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation": {
+  "verdict": "item-list",
+  "slugs": [
+   "hakusan-city"
+  ],
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "白山市(全国地方公共団体コード172103)のごみ分別方法一覧。品目約1,260行(品目・分別区分・注意点・料金)。金沢市ではない"
+ },
+ "https://data.data4citizen.jp/dataset/10210001": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "会津若松市家庭ごみ分別辞典(item/synonym/answer)約915行。2026.4版"
+ },
+ "https://data.data4citizen.jp/dataset/10060094": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "会津若松市のごみ排出量の推移(統計)"
+ },
+ "https://data.data4citizen.jp/dataset/10060096": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "会津若松市 1人1日あたりのごみ排出量(統計)"
+ },
+ "https://opendata.pref.tokushima.lg.jp/dataset/1426.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "鳴門市 指定ごみ袋取扱店一覧(店舗)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/gomisyuusekijo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "上関町 ゴミ集積所一覧(場所)"
+ },
+ "http://opendata.city.machida.tokyo.jp/dataset/kankobutsu_2024-kankoubutsu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "町田市 2024年度刊行物一覧(無関係)"
+ },
+ "https://www.geospatial.jp/ckan/dataset/132063-008": {
+  "verdict": "not-item",
+  "slugs": [
+   "tokyo-fuchu-city"
+  ],
+  "decided_at": "2026-10-16",
+  "note": "東京都府中市の一般廃棄物処理業許可業者一覧(業者名簿)"
+ },
+ "http://opendata.town.aichi-higashiura.lg.jp/dataset/p_4020_1514185444468": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "東浦町 ごみステーション(場所)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/asahi_tokei-asahi-opendata": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "横浜市旭区の各種統計"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202506": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報よこはま金沢区版 2025年6月号(広報紙)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202112": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報よこはま金沢区版 2021年12月号(広報紙)"
+ },
+ "https://catalog.city.utsunomiya.tochigi.jp/dataset/sannpaisyobunn": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "宇都宮市 産業廃棄物処分業者一覧(業者名簿)"
+ },
+ "https://www.data.go.jp/data/dataset/1e0e3838-921d-46be-b453-20ccdcc9cabc": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "静岡市 産業廃棄物処理業者一覧(業者名簿)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/tsurumi_tsurumiplan_opendata": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "横浜市鶴見区 都市計画マスタープラン(無関係)"
+ },
+ "https://gifu-opendata.pref.gifu.lg.jp/dataset/c212016-038": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "岐阜市 PCB廃棄物保管状況(事業者)"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/jidousyafuronruikaisyuu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "静岡市 使用済自動車フロン類回収業者一覧(業者名簿)"
+ },
+ "https://opendata-api-kakogawa.jp/ckan/dataset/30toukeisyo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "加古川市 平成30年度統計書"
+ },
+ "http://opendata.city.sagamihara.kanagawa.jp/dataset/kouhyo_kensetsu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "相模原市 多量排出事業者の公表書類(事業系)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/hodogaya_opendate": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "横浜市保土ケ谷区 統計便覧(避難所一覧等)"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/5271": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "平生町 ゴミ集積所一覧(場所)"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/1009": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "東広島市 品目別ごみ分別情報(安芸津町以外)。実体CSVは http://opendata.city.higashihiroshima.lg.jp/dataset/c3531ea6-f327-467d-9732-3a47673755b3/resource/4500232f-510e-4449-bd6c-a9b872e3bfbc/download/gomibunbetsu20210127141206"
+ },
+ "https://www.okayama-opendata.jp/datasets/164": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "津山市の収集カレンダー(XLS/XLSX、14リソースのうち確認できた10件はカレンダー)。品目別一覧は見当たらない"
+ },
+ "https://www.harp.lg.jp/opendata/dataset/203.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "室蘭市 ごみ袋等販売店(店舗)"
+ },
+ "https://ckan.hoda.jp/dataset/muroran_url": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "室蘭オープンデータカタログの公式URL(無関係)"
+ },
+ "https://iwate.dataeye.jp/datasets/461": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "奥州市 公衆トイレ一覧(無関係)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11545.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "伊豆市 令和4年度統計書(ごみ処理量)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/5897.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "袋井市のごみ収集日(カレンダー)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7949.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市 平成29年版統計書(保健衛生)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8491.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "伊東市 令和3年度ごみ・資源収集カレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8950.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市 令和3年版統計書(保健衛生)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9853.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "掛川市 ごみカレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1088.html": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "川根本町ごみの出し方辞典(五十音順)のCSV。リソースは opendata.pref.shizuoka.jp/dataset/fuji-1088/resource/34448/川根本町ごみの出し方辞典（五十音順）.csv。今回は本体が取得できず、題名からの判断で中身は未確認"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-565.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "島田市のごみ収集エリア(地区区分)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-910.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "御前崎市 家庭ごみ収集カレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12157.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市 令和6年版統計書(災害・治安・司法)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9651.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "御殿場市 塵芥処理状況(統計)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/716": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "坂戸市 統計書(保健衛生)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/3051": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "吉川市 統計書(令和6年度版)"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/3639": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "八千代市 令和7年版統計書"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/3333": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "習志野市 ごみ地区別収集曜日"
+ },
+ "https://city.himeji.gkan.jp/gkan/dataset/gomi": {
+  "verdict": "item-list",
+  "format": "excel",
+  "decided_at": "2026-10-16",
+  "note": "姫路市ごみ分別一覧表(282014gomi.xlsx)。索引・品名・素材・旧姫路市域/旧夢前町・香寺町・安富町域/旧家島町域の区分・備考、約357行。地域別に区分が異なる"
+ },
+ "https://data.bodik.jp/dataset/252131_higashiomi_gomibunbetsu_dashikata_koto": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "東近江市 湖東地域のごみ出しガイド(R4、画像PDF2頁)。能登川版と同形式で分類単位の案内とみられ、品目別ではない"
+ },
+ "https://data.bodik.jp/dataset/252131_higashiomi_gomibunbetsu_dashikata_notogawa": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "能登川地区のごみ取扱い案内(1頁)。燃えるごみ等13区分の説明で、品目別の一覧ではない"
+ },
+ "https://data.bodik.jp/dataset/higashiomi_gomirulebook": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ファイルなし。ごみ出しルールブックの紹介のみで品目別データは確認できず"
+ },
+ "https://data.bodik.jp/dataset/122271_clean03": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "焼却ごみのごみ質分析結果(統計)"
+ },
+ "https://data.bodik.jp/dataset/472115_9-22_gomisinyousyuusyuujoukyou_20210401": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沖縄市統計書のごみ・し尿収集状況(統計)"
+ },
+ "https://data.bodik.jp/dataset/142123_p_3088_3088": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理集計表(統計)"
+ },
+ "https://data.bodik.jp/dataset/242021_00077": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "埋立処分場の水質検査結果"
+ },
+ "https://data.bodik.jp/dataset/242021_00079": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "埋立処分場の水質検査結果"
+ },
+ "https://data.bodik.jp/dataset/442011_general_waste": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "一般廃棄物収集運搬業の許可業者名簿"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132292d3000000001": {
+  "verdict": "item-list",
+  "slugs": [
+   "nishitokyo-city"
+  ],
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "西東京市(132292)のゴミの分別方法一覧。約1,257品目、カナ・英字・注意点・粗大ごみ料金つき。末尾に別コード(132293)の注記行が混じるだけ"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001620": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 資源化量・資源化率(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001399": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 資源化量・資源化率(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000337": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "台東区行政資料集のリサイクル統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d0000000025": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "大田区 不燃ごみ収集曜日グループ別の収集日一覧(カレンダー)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001672": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 収集区分別ごみ量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100002084": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 ごみ収集人口・収集量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001290": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "調布市 ごみ収集人口・収集量(統計)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131237d0000000027": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "施設(なごみの家鹿骨)の情報で、ごみ分別とは無関係"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000124": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "墨田区 行政基礎資料集の環境(統計・施設)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/https-www-town-waki-lg-jp-soshiki-4-225-html": {
+  "verdict": "review",
+  "decided_at": "2026-10-16",
+  "note": "リソースは和木町サイトのHTMLへのリンクのみで、取得すると404(ページ移動)。品目の一覧かどうか未確認。公式の分別ページは別途確認が必要"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/352039_garbage_separation": {
+  "verdict": "review",
+  "decided_at": "2026-10-16",
+  "note": "リソースは山口市サイトのHTMLへのリンクのみで、取得すると404。品目の一覧かどうか未確認。公式の分別ページは別途確認が必要"
+ },
+ "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html": {
+  "verdict": "item-list",
+  "slugs": [
+   "tottori-nanbu-town"
+  ],
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "団体コード313891=鳥取県南部町。ごみの分別方法一覧、約794品目(区分・注意点・連絡先つき)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/353442_garbage_collection_place": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/173614_recycle_separation": {
+  "verdict": "item-list",
+  "slugs": [
+   "tsubata-town"
+  ],
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "団体コード173614=津幡町。ごみ分別辞典、約589品目(金沢市のカタログに載っているだけで、金沢市のデータではない)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202204": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報よこはま金沢区版2022年4月号の1頁のテキスト"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/garbage_collection_plece": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積場所の一覧"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/352080_garbage_collection_place": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/hg-garbage-howto": {
+  "verdict": "review",
+  "decided_at": "2026-10-16",
+  "note": "萩市の早見表PDF(地域別)・収集カレンダーPDFと、市サイトのHTMLへのリンク(題名に50音順あり)。HTMLのリンクは取得すると404のため品目別は未確認。市の公式サイトを別途確認する価値あり"
+ },
+ "https://gifu-opendata.pref.gifu.lg.jp/dataset/c215058-015": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "八百津町 R5 ごみ収集日・収集地区の区分表(1頁)。分類単位で品目別ではない"
+ },
+ "https://gifu-opendata.pref.gifu.lg.jp/dataset/c212016-064": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "岐阜市 R6 住所別の収集曜日一覧(画像PDF7頁)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/gomi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202104": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報よこはま金沢区版2021年4月号の1頁のテキスト"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/hutsuusanpaisyobun": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産業廃棄物処理業者の一覧"
+ },
+ "https://data.bodik.jp/dataset/221007_hutsuusanpaisyuusyuu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産業廃棄物処理業者の一覧"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/tokkansyuusyuu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産業廃棄物処理業者の一覧"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/tsurumi_hakkenntsurumi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "鶴見区の統計冊子のコラム"
+ },
+ "https://data.data4citizen.jp/dataset/10210003": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "一般廃棄物処理基本計画(計画書)"
+ },
+ "https://gifu-opendata.pref.gifu.lg.jp/dataset/c212016-037": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "最終処分場の指定区域一覧"
+ },
+ "https://opendata-api-kakogawa.jp/ckan/dataset/29toukeisyo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "加古川市統計書(統計)"
+ },
+ "https://data.bodik.jp/dataset/422029_kankyoshisetsu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "環境関連施設の一覧"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/5221": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の一覧"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/6080": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "呉市 ごみの収集量(統計)"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/1008": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "東広島市 ごみ収集日(カレンダー)"
+ },
+ "https://www.okayama-opendata.jp/datasets/16": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "津山市 ごみの排出量(統計)"
+ },
+ "https://www.harp.lg.jp/opendata/dataset/98.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "小樽市 ごみ収集地区データ(地区と収集日)"
+ },
+ "https://ckan.hoda.jp/dataset/garbage_collection_calendar": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "札幌市 家庭ごみ収集日カレンダー用のごみ種記号表(区分単位)"
+ },
+ "https://miyagi.dataeye.jp/datasets/1286": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "柴田町 分別方法一覧だが約6行(区分単位、品目名は主に空欄)で品目別ではない"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12155.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書(し尿収集処理状況)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7720.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "伊東市 ごみ・資源収集カレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7966.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書 保健衛生(統計)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8575.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "富士宮市 ごみ収集の推移(統計)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9160.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "菊川市 ごみ出しカレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9879.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "焼津市 ごみ発生量・リサイクル量(統計)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-461.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "三島市 ごみの分け方。リソースは外部サイトへのリンクのみ(LinkDataのページ)で、表データなし"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-709.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "掛川市 地区ごとのごみ出し日と種類(カレンダー)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-922.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "菊川市 ごみステーション一覧"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12803.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書(災害・治安・司法)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/339": {
+  "verdict": "item-list",
+  "slugs": [
+   "fujimino-city"
+  ],
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "ふじみ野市 ごみ分別辞典。題名・リソース名は辞典で品目別とみられるが、CSV(www.city.fujimino.saitama.jp/material/files/group/5/112453garbage-separation.csv)が404で中身は未確認。市のサイトで新しいURLを探す必要あり"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/50": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "日高市 統計ひだか(保健衛生の統計)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/729": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "坂戸市 統計坂戸(財政)"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/4805": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "市原市 ごみ種類別の搬入量表(統計)"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/3029": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "佐倉市 統計書(人口・世帯)"
+ },
+ "https://data.bodik.jp/dataset/252131_higashiomi_gomibunbetsu_dashikata_gokasho": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "五個荘地区の1枚もの『ごみの取扱いについて』チラシ(PDF 1頁)。区分と代表例のみ"
+ },
+ "https://data.bodik.jp/dataset/252131_higashiomi_gomidashi_nagamine_a": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "地区別ごみ出しカレンダー"
+ },
+ "https://data.bodik.jp/dataset/263664_98gomi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集処理状況の統計"
+ },
+ "https://data.bodik.jp/dataset/282197_kanengomichosa": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "可燃ごみのごみ質調査報告書(統計)"
+ },
+ "https://data.bodik.jp/dataset/442089_garbage_collection_point": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の場所一覧"
+ },
+ "https://data.bodik.jp/dataset/454061_census_h27": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "国勢調査(統計)"
+ },
+ "https://data.bodik.jp/dataset/242021_00076": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "悪臭測定結果"
+ },
+ "https://data.bodik.jp/dataset/242021_00069": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "水質調査データ"
+ },
+ "https://data.bodik.jp/dataset/462012_hokeneisei-kankyou": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書(保健衛生・環境)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t133817d3000000001": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "三宅村 ごみの分別方法一覧。品目→分別区分、38行と小規模(ただし品目単位)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001509": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "資源化量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132098d0000000117": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "町田市 2020年度刊行物(PDF=政務活動費ハンドブック)。ごみと無関係"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000221": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "環境計画の進捗報告(管理地の面積等)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d0000000026": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001561": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集区分別ごみ量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001931": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集人口・収集量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001181": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集人口・収集量の統計"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000160": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "環境保全実施計画の進捗報告(活動名)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000024": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "行政基礎資料集(環境)統計"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/353442_garbage_separation": {
+  "verdict": "item-list",
+  "format": "pdf",
+  "decided_at": "2026-10-16",
+  "note": "平生町 品目別分類表(50音順)PDF 21頁・数百品目(2025-02更新)。実体は https://www.town.hirao.lg.jp/material/files/group/40/gomibunnrui.pdf (カタログの file は HTML ページ 2891.html)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/02_gomi": {
+  "verdict": "review",
+  "decided_at": "2026-10-16",
+  "note": "阿武町 ゴミの収集について。カレンダーと『ごみの出し方ガイドブック R8.4.1』PDFへのリンク。PDFは大容量で取得失敗し、品目表の有無は未確認"
+ },
+ "http://opendata.town.aichi-higashiura.lg.jp/dataset/p_9173_9173": {
+  "verdict": "review",
+  "decided_at": "2026-10-16",
+  "note": "ごみの分別情報。サイトが接続リセットで未確認(要再取得。品目別の可能性あり)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/muu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の場所一覧"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/shuushuu20151023-005": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集日程表"
+ },
+ "https://data.data4citizen.jp/dataset/10060199": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集量の推移(統計)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/aoba_od": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "青葉区の統計データ"
+ },
+ "http://opendata.city.machida.tokyo.jp/dataset/gomi-kankyou_kankyohakusho": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "環境白書のアンケート結果等"
+ },
+ "http://opendata.city.machida.tokyo.jp/dataset/kankobutsu_2023-kankoubutsu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "町田市 2023年度刊行物(PDF 62頁、画像PDFで本文未確認)。刊行物の一覧で分別表とは考えにくい"
+ },
+ "https://data.data4citizen.jp/dataset/10060095": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "排出量の推移(統計)"
+ },
+ "https://yamaguchi-opendata.jp/ckan/dataset/gomishusekijo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の場所一覧"
+ },
+ "http://opendata.city.nisshin.lg.jp/dataset/p_13073_13073": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ集積所の場所一覧"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202106": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報よこはま金沢区版の記事テキスト"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/hutsuusanpaisyuusyuu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産廃処理業者の台帳。家庭ごみの品目表ではない"
+ },
+ "https://data.bodik.jp/dataset/221007_tokkansyobun": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産廃処理業者の台帳。家庭ごみの品目表ではない"
+ },
+ "https://www.data.go.jp/data/dataset/51fd5ba6-a8e6-4f29-bb1d-9e085de054bf": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産廃処理業者の台帳。家庭ごみの品目表ではない"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/tsurumi_r3tsurumi-opendata": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "鶴見区の統計(コラム)"
+ },
+ "http://dataset.city.shizuoka.jp/dataset/jidousyakaitai": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "使用済自動車解体業者の台帳"
+ },
+ "https://data.bodik.jp/dataset/221007_saisyusyobunsiteikuiki": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "最終処分場の指定区域台帳"
+ },
+ "https://opendata-api-kakogawa.jp/ckan/dataset/r01toukei": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://opendata-api-kakogawa.jp/ckan/dataset/r3toukeisyo": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/4868": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "岩国市 ゴミの分別方法一覧(標準の品目別形式、CSV 88KB、2025-03更新)。ダウンロードが500で中身は未確認。リソース https://hiroshima-opendata.dataeye.jp/resources/14998"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/6081": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "資源物・有害危険ごみ搬出量の統計"
+ },
+ "https://hiroshima-opendata.dataeye.jp/datasets/5955": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "図書館登録者数。ごみと無関係"
+ },
+ "https://www.okayama-opendata.jp/datasets/2898": {
+  "verdict": "review",
+  "decided_at": "2026-10-16",
+  "note": "真庭市 ごみ収集関連データ。リンク先が404で中身は未確認"
+ },
+ "https://www.harp.lg.jp/opendata/dataset/99.html": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "小樽市 ごみ・資源物分別区早見表(五十音順)CSV。題名から品目単位と判断(2018-2019)。リソースのリンク先が小樽市オープンデータページで404のため実ファイル未確認"
+ },
+ "https://ckan.pf-sapporo.jp/dataset/gomiwakeguide": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "札幌市 ごみ分けガイド。リソースは市サイトのガイドへのリンクのみで表データなし"
+ },
+ "https://opendata.pref.kagawa.lg.jp/dataset/637.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "三豊市 分別方法一覧だが約20行、区分単位(1セルに品目を列挙)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12469.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集日程表"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7742.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "沼津市統計書(保健衛生)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8068.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8590.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ出しカレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9712.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1004.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ出しカレンダー"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-462.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "三島市 ごみの出し方。実体は地区・自治会別の収集曜日表(754行)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-826.html": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "袋井市 資源ごみ・埋立ごみの分別表 CSV(約700行、type/name/notice/furigana)、2017更新。ファイル: https://opendata.pref.shizuoka.jp/dataset/fuji-826/resource/33956/（袋井市）資源ごみ・埋立ごみの分別表.csv (パーセントエンコード)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-987.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ出しカレンダー(取得不可、題名から判断)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/6105.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "高齢者人口・世帯数の統計"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/1179": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "入間市 ごみの出し方。区分単位(約10行、1セルに主なものを列挙)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/3114": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "産廃許可業者の台帳"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/101": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計(教育・文化)"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/3632": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "流山市 地域別の収集曜日表"
+ },
+ "https://opendata.pref.chiba.lg.jp/datasets/3038": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書(社会保障・衛生)"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html": {
+  "verdict": "item-list",
+  "slugs": [
+   "aomori-city",
+   "hirosaki-city",
+   "hachinohe-city",
+   "towada-city",
+   "mutsu-city",
+   "tsugaru-city",
+   "hirakawa-city",
+   "imabetsu-town",
+   "fukaura-town",
+   "itayanagi-town",
+   "tsuruta-town",
+   "noheji-town",
+   "shichinohe-town",
+   "rokunohe-town",
+   "yokohama-town",
+   "tohoku-town",
+   "oirase-town",
+   "oma-town",
+   "higashidori-village",
+   "kazamaura-village",
+   "sannohe-town",
+   "gonohe-town",
+   "takko-town",
+   "aomori-nanbu-town",
+   "hashikami-town",
+   "shingo-village",
+   "ajigasawa-town",
+   "rokkasho-village"
+  ],
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "青森県内の市町村ごとに分別種別・注意事項の列が並ぶ品目の一覧(約6,950行、CC BY)。見出しの市町村に結びつけた。黒石市・五所川原市・三沢市・平内町・蓬田村・外ヶ浜町・西目屋村・藤崎町・大鰐町・田舎館村・中泊町・佐井村の12市町村は分別種別の列が全部 N/A(データが入っていない)ので含めない"
+ },
+ "http://opendata.pref.toyama.jp/dataset/pf01002315": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://www.harp.lg.jp/opendata/dataset/1694.html": {
+  "verdict": "item-list",
+  "format": "excel",
+  "decided_at": "2026-10-16",
+  "note": "質問内容(品目)/答え(出し方)の形の品目別の案内(約1,060行。Codex が中身を確認)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7932.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7951.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7968.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8136.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8653.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8952.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://data.bodik.jp/dataset/282235_gomi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/405221_gomi_syusyu_date": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/402168_gomishu2bi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/282197_gomishushu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/402036_0001400_00001": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/402257_00019": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/402125_0001400_00001": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/442011_garbage_calendar": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-chikubetu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://gifu-opendata.pref.gifu.lg.jp/dataset/c212016-035": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/172014-chikubetu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "http://opendata.city.sagamihara.kanagawa.jp/dataset/bunbetsu": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "データID/質問(品目)/検索キーワード/…/出し方 の品目別の案内(約2,770行。Codex が中身を確認)"
+ },
+ "https://data.bodik.jp/dataset/262013_kateigominodashikata": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "収集日(区分)/名前(品目)/注意事項/ふりがな の品目別の一覧(約180行、ファイルは2021年)"
+ },
+ "https://data.bodik.jp/dataset/442011_garbage_disposal": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://data.bodik.jp/dataset/232114_togari_clean_center": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://data.bodik.jp/dataset/452041_20250601001": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://data.bodik.jp/dataset/252069_00004": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d0000000373": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d0000000270": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131113d3100000224": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/273": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/657": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/183": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/184": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/655": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://opendata.pref.saitama.lg.jp/datasets/205": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計・施設の維持管理・区政ファイル(題名で確認)"
+ },
+ "https://gifu-opendata.pref.gifu.lg.jp/dataset/477292": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "PCB 廃棄物の保管状況(事業者。題名で確認)"
+ },
+ "http://opendata-nasu.opendatastack.jp/dataset/jinkai-syuusyuu-ohtawara": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集状況(統計。題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000018": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集量(統計)(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000088": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区民世論調査(集計表)(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000073": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区民世論調査(集計表)(題名で確認)"
+ },
+ "https://opendata.city.minato.tokyo.jp/dataset/yoronchosa32cross06": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区民世論調査(集計表)(題名で確認)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202304": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報紙(題名で確認)"
+ },
+ "https://data.data4citizen.jp/dataset/10210006": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理原価(統計)(題名で確認)"
+ },
+ "https://opendata.city.minato.tokyo.jp/dataset/gomishushu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集量(統計)(題名で確認)"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/1481.html": {
+  "verdict": "review",
+  "decided_at": "2026-10-16",
+  "note": "ごみの分類の CSV(022063_52_gomi_bunrui.csv)が404で、中身は未確認"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/konan_databookkonan": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区の統計データブック(題名で確認)"
+ },
+ "https://opendata.city.minato.tokyo.jp/dataset/yoronchosa32tanjun06": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区民世論調査(集計表)(題名で確認)"
+ },
+ "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-censusdata": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "国勢調査(題名で確認)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202307": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報紙(題名で確認)"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-311.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "推計人口(統計)(題名で確認)"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-195.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "国勢調査(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d2000000006": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "環境白書(題名で確認)"
+ },
+ "https://www.pref.ehime.jp/opendata-catalog/dataset/pref-360.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "県出資法人の経営評価(題名で確認)"
+ },
+ "https://www.okayama-opendata.jp/datasets/617": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理(統計)(題名で確認)"
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/050008_recycle_005": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "河川ごみの組成調査(題名で確認)"
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/050008_kankyoseibi_003": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "河川ごみの組成調査(題名で確認)"
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/172014-censusdata": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "国勢調査(題名で確認)"
+ }
+}

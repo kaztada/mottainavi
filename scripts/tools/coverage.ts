@@ -11,6 +11,9 @@
  *         1件を書き換える(--evidence と --searched は何回でも。URL は省略可)。指定しなかった項目は空になる
  *       npm run coverage -- apply <file.json>
  *         { "<slug>": { 台帳の1件 }, … } の形のファイルで、まとめて書き換える(書いてある市だけを置き換える)
+ *       npm run coverage -- apply-proposal <work/coverage/sweep-YYYY-MM-DD.json> [--only slug,slug]
+ *         データカタログの総当たり(npm run sweep)の提案を書く。市ごとの「書く前の状態」が
+ *         いまの台帳と1件でも違えば、何も書かずに止める
  *       npm run coverage -- official-url [--dry-run] [--refresh-wikidata] [--limit N]
  *         未対応で official_url が空の市区町村に、公式サイトの URL を入れる。候補は Wikidata(問い合わせ1回、
  *         data/cache/wikidata-official-sites.json)。候補ごとに1回だけ接続して確かめ(結果は
@@ -180,6 +183,61 @@ function apply(args: string[]) {
   }
   writeCoverage(coverage, registry)
   console.log(`${Object.keys(updates).length} 件を書き換えました`)
+}
+
+/**
+ * 総当たりの提案(npm run sweep -- propose が作る work/coverage/sweep-<日付>.json)を書く。
+ * 市ごとに「書く前の状態」(expect)を持ち、いまの台帳の状態が1件でも違えば、何も書かずに止める
+ * (並行作業で決めた保留などを、古い提案で戻さないため)。--only で slug を絞れる
+ */
+function applyProposal(args: string[]) {
+  const [file] = args
+  if (!file) throw new Error("使い方: apply-proposal <sweep-YYYY-MM-DD.json> [--only slug,slug]")
+  const only = argValue(args, "--only")?.split(",")
+  const registry = readRegistry()
+  const coverage = readCoverage()
+  const { proposals } = JSON.parse(readFileSync(file, "utf-8")) as {
+    proposals: Record<string, { expect: string; before?: unknown; entry: unknown }>
+  }
+  const targets = Object.entries(proposals).filter(([slug]) => !only || only.includes(slug))
+  // 状態だけでなく、書く前の1件まるごと(before)とも照らす(同じ状態のままメモや根拠を直した分を戻さない)
+  const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b)
+  const noBefore = targets.filter(([, p]) => p.before === undefined)
+  if (noBefore.length > 0)
+    throw new Error(
+      `書く前の1件(before)が無い提案です(何も書いていません。npm run sweep -- propose で作り直す): ${noBefore
+        .slice(0, 5)
+        .map(([s]) => s)
+        .join(", ")}`
+    )
+  const stale = targets.filter(
+    ([slug, p]) => coverage[slug]?.status !== p.expect || !same(coverage[slug] ?? null, p.before)
+  )
+  if (stale.length > 0)
+    throw new Error(
+      `提案を作った後に台帳が変わっています(何も書いていません。npm run sweep -- propose で作り直す):\n  ${stale
+        .slice(0, 20)
+        .map(([slug, p]) => `${slug}: 提案のとき ${p.expect} → いま ${coverage[slug]?.status ?? "(台帳に無い)"}`)
+        .join("\n  ")}`
+    )
+  for (const [slug, p] of targets) {
+    try {
+      coverage[slug] = CoverageEntrySchema.parse(p.entry)
+    } catch (e) {
+      throw new Error(`${slug} の提案が台帳の形に合いません: ${String(e)}`)
+    }
+  }
+  writeCoverage(coverage, registry)
+  const by: Record<string, number> = {}
+  for (const [, p] of targets) {
+    const st = (p.entry as { status: string }).status
+    by[st] = (by[st] ?? 0) + 1
+  }
+  console.log(
+    `${targets.length} 件を書きました(${Object.entries(by)
+      .map(([k, n]) => `${LABELS[k as CoverageStatus]} ${n}`)
+      .join("・")})`
+  )
 }
 
 const WIKIDATA_CACHE = join(CACHE_DIR, "wikidata-official-sites.json")
@@ -417,6 +475,8 @@ async function main() {
       return sync()
     case "set":
       return set(args)
+    case "apply-proposal":
+      return applyProposal(args)
     case "apply":
       return apply(args)
     case "official-url":
