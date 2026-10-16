@@ -1837,5 +1837,10 @@
   "verdict": "not-item",
   "decided_at": "2026-10-16",
   "note": "PCB 廃棄物の保管状況(事業者。題名で確認)"
+ },
+ "http://opendata-nasu.opendatastack.jp/dataset/jinkai-syuusyuu-ohtawara": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集状況(統計。題名で確認)"
  }
 }

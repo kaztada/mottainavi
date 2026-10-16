@@ -40,6 +40,7 @@ import {
   rmSync,
   statSync,
   writeFileSync,
+  utimesSync,
 } from "node:fs"
 import { dirname, join, relative, sep } from "node:path"
 import { promisify } from "node:util"
@@ -321,10 +322,20 @@ export function createFetcher(config: FetcherConfig): Fetcher {
       }
       await sleep(LOCK_SPIN_MS)
     }
+    // ロックを持っているあいだは1分ごとに時刻を更新する(5分を超える取得でも、古いとみなされて外されない)
+    const beat = setInterval(() => {
+      try {
+        utimesSync(lockPath, new Date(), new Date())
+      } catch {
+        // すでに外れている
+      }
+    }, 60_000)
+    beat.unref?.()
     try {
       writeFileSync(ownerPath, token)
       return await fn()
     } finally {
+      clearInterval(beat)
       // 自分のロックのときだけ外す(古いとみなされて、ほかのプロセスに取られていたら触らない)
       try {
         if (readFileSync(ownerPath, "utf-8") === token)
