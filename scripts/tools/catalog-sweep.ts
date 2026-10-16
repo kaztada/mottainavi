@@ -52,6 +52,18 @@ const CATALOG_CACHE = join(CACHE_DIR, "catalog")
 const RESOURCE_CHECK = join(CATALOG_CACHE, "resource-check.json")
 const POPULATION = join(CATALOG_CACHE, "population.json")
 const OWN_SITE = join(CATALOG_CACHE, "own-site.json")
+/**
+ * 要確認を人(エージェント)が見て決めた結果。データセットのページの URL ごとに、品目の一覧か(item-list)・
+ * 違うか(not-item)と、自治体が決まらなかったときの当てはまる slug、理由。機械の判定より優先する
+ */
+const REVIEW_DECISIONS = join(CATALOG_CACHE, "review-decisions.json")
+type ReviewDecision = {
+  verdict: "item-list" | "not-item"
+  slugs?: string[]
+  format?: string
+  decided_at: string
+  note: string
+}
 const WORK = join(ROOT, "work/coverage")
 /** 1ページの件数(CKAN の上限) */
 const ROWS = 1000
@@ -317,7 +329,41 @@ async function peek(args: string[]) {
 
 // ---------------------------------------------------------------- 提案
 
-type OwnSiteCheck = { checked_at: string; found: boolean; url: string; note?: string }
+/**
+ * 市区町村のサイトの確認(人口10万以上の市はエージェントが確かめる。県の棚卸しで見つけた小さい市町も入る)。
+ * found = 品目の一覧(CSV・Excel・冊子の PDF など)がある、open_license = オープンデータの表示がある、
+ * unverified = サイトに接続できず確かめられなかった
+ */
+type OwnSiteCheck = {
+  checked_at: string
+  found: boolean
+  url: string
+  format: string
+  license: string
+  open_license: boolean
+  unverified: boolean
+  note?: string
+}
+
+/** 表のデータ(冊子の PDF・HTML ではない) */
+const isTableFormat = (f: string) => /csv|xls|zip/i.test(f)
+
+/**
+ * 市のサイトの確認から台帳の提案を作る。表かオープンデータの表示がある一覧 → 確認中、
+ * 表だが利用条件の表示が無い → 使える条件を確かめられない。冊子の PDF だけ(表示なし)は決まりどおり見つからない側
+ */
+function ownSiteEntry(o: OwnSiteCheck, today: string): Record<string, unknown> | null {
+  if (!o.found) return null
+  const table = isTableFormat(o.format)
+  if (!table && !o.open_license) return null
+  const status = o.open_license ? "candidate" : "license"
+  return {
+    status,
+    checked_at: today,
+    evidence: [{ label: `市区町村のサイトの品目の一覧(${o.format})`, url: o.url }],
+    note: `市のサイトの確認 ${o.checked_at}: ${o.format}・利用条件「${o.license}」${o.open_license ? "" : "(表示なし。原文を確かめる)"}。${o.note ?? ""}`.slice(0, 500),
+  }
+}
 
 function propose(args: string[]) {
   const today = argValue(args, "--today") ?? todayJst()
@@ -328,6 +374,20 @@ function propose(args: string[]) {
   const pop = readJson<PopulationFile | null>(POPULATION, null)
   if (!pop) throw new Error("人口がありません(npm run sweep -- population)")
   const own = readJson<Record<string, OwnSiteCheck>>(OWN_SITE, {})
+  const decisions = readJson<Record<string, ReviewDecision>>(REVIEW_DECISIONS, {})
+  /** 人が決めた結果で、機械の判定を置き換える */
+  const decide = (v: DatasetVerdict): DatasetVerdict[] => {
+    const d = decisions[v.datasetUrl]
+    if (!d) return [v]
+    const slugs = d.slugs ?? (v.slug ? [v.slug] : [])
+    return slugs.map((slug) => ({
+      ...v,
+      slug,
+      verdict: d.verdict,
+      reason: `人が確かめた(${d.decided_at}): ${d.note}`,
+      format: (d.format as DatasetVerdict["format"]) ?? v.format,
+    }))
+  }
   const loaded = loadAll(idx)
 
   // 1. データセットごとの判定(BODIK・東京都と同じページの search.ckan.jp の分は重ねない)
@@ -353,12 +413,16 @@ function propose(args: string[]) {
         if (m.kind === "review") {
           const v = judgeDataset(ds, m, peeks, idx)
           if (v.verdict === "not-item") continue
+          if (decisions[ds.url]) {
+            verdicts.push(...decide({ ...v, slug: null }))
+            continue
+          }
           if (m.slugs.length === 0) unmatchedReviews.push({ ds, reason: m.reason })
           for (const slug of m.slugs)
             verdicts.push({ ...v, slug, verdict: "review", reason: `自治体が決まらない: ${m.reason}` })
           continue
         }
-        verdicts.push(judgeDataset(ds, m, peeks, idx))
+        verdicts.push(...decide(judgeDataset(ds, m, peeks, idx)))
       }
     }
   }
@@ -398,7 +462,7 @@ function propose(args: string[]) {
         id: "own-site",
         label: "市区町村のサイト(オープンデータ・ごみの分別のページ)",
         url: o?.url ?? "https://example.invalid/",
-        complete: Boolean(o) && !o.found,
+        complete: Boolean(o) && !o.unverified,
         checked_at: o?.checked_at ?? null,
       })
     }
@@ -412,10 +476,22 @@ function propose(args: string[]) {
     const population = pop.population[e.lg_code] ?? 0
     const { sources, catalogOnly } = sourcesFor(e.slug, e.pref, population)
     const p = proposeFor(e, current, verdicts, sources, { today, catalogOnly })
-    // 人口10万以上で、市のサイトに品目の一覧があった市は要確認(市のサイトのデータを確かめる)
-    if (p.bucket === "incomplete" && own[e.slug]?.found)
-      proposals.push({ ...p, bucket: "review", reason: `市のサイトに品目の一覧: ${own[e.slug].url}` })
-    else proposals.push(p)
+    // カタログで確認中・要確認・調べ済みなら、それを優先する。それ以外で市のサイトに一覧があれば、それで書く
+    const o = own[e.slug]
+    const fromOwn = o && current.status === "unsurveyed" ? ownSiteEntry(o, today) : null
+    if (fromOwn && !["candidate", "review", "surveyed", "surveyed-review"].includes(p.bucket)) {
+      proposals.push({
+        ...p,
+        bucket: fromOwn.status as Proposal["bucket"],
+        reason: `市のサイト: ${o.format}・${o.license}`,
+        entry: fromOwn,
+      })
+    } else if (p.bucket === "no-data" && o?.found && p.entry) {
+      // 冊子の PDF だけ(オープンデータの表示なし)。見つからないのまま、見た場所を根拠に足す
+      const entry = p.entry as { evidence: { label: string; url?: string }[] }
+      entry.evidence = [...entry.evidence, { label: "市区町村のサイトの冊子(PDF など。オープンデータの表示なし)", url: o.url }]
+      proposals.push(p)
+    } else proposals.push(p)
   }
 
   // 3. 書き出し

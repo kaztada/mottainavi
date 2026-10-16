@@ -21,7 +21,12 @@
       "宮崎県",
       "鹿児島県",
       "沖縄県",
-      "栃木県"
+      "栃木県",
+      "三重県",
+      "滋賀県",
+      "京都府",
+      "大阪府",
+      "和歌山県"
     ]
   },
   {
@@ -471,5 +476,409 @@
       "静岡県"
     ],
     "memo": "SHIRASAGI(旧ふじのくにオープンデータカタログ。2026-10-16 時点で旧 CKAN は名前が引けない)"
+  },
+  {
+    "id": "saitama",
+    "label": "埼玉県オープンデータポータルサイト",
+    "site": "https://opendata.pref.saitama.lg.jp/",
+    "kind": "ckan",
+    "api": "https://opendata.pref.saitama.lg.jp/ckan_api",
+    "query": "ごみ",
+    "extraQueries": [
+      "ゴミ",
+      "分別",
+      "資源物",
+      "粗大"
+    ],
+    "datasetUrl": "https://opendata.pref.saitama.lg.jp/datasets/{name}",
+    "prefs": [
+      "埼玉県"
+    ],
+    "memo": "dataeye。県と63市町村。ライセンスはリソースごと(ほぼ pdl)"
+  },
+  {
+    "id": "chiba",
+    "label": "千葉県オープンデータサイト",
+    "site": "https://opendata.pref.chiba.lg.jp/",
+    "kind": "ckan",
+    "api": "https://opendata.pref.chiba.lg.jp/ckan_api",
+    "query": "ごみ",
+    "extraQueries": [
+      "ゴミ",
+      "分別",
+      "資源物",
+      "粗大"
+    ],
+    "datasetUrl": "https://opendata.pref.chiba.lg.jp/datasets/{name}",
+    "prefs": [
+      "千葉県"
+    ],
+    "memo": "dataeye(2026-03 リニューアル)。数字の組織 ID"
+  },
+  {
+    "id": "ishikawa",
+    "label": "石川県オープンデータカタログ",
+    "site": "https://ckan.opendata.pref.ishikawa.lg.jp/",
+    "kind": "ckan",
+    "api": "https://ckan.opendata.pref.ishikawa.lg.jp/api/3/action",
+    "query": "ごみ",
+    "extraQueries": [
+      "ゴミ",
+      "分別",
+      "資源物",
+      "粗大"
+    ],
+    "datasetUrl": "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/{name}",
+    "prefs": [
+      "石川県"
+    ],
+    "memo": "CKAN。県と19市町(組織 ishikawa+5桁)"
+  },
+  {
+    "id": "kanagawa",
+    "label": "神奈川県オープンデータカタログサイト",
+    "site": "https://opendata.pref.kanagawa.jp/",
+    "kind": "ckan",
+    "api": "https://catalog.opendata.pref.kanagawa.jp/api/3/action",
+    "query": "ごみ",
+    "extraQueries": [
+      "ゴミ",
+      "分別",
+      "資源物",
+      "粗大"
+    ],
+    "datasetUrl": "https://catalog.opendata.pref.kanagawa.jp/dataset/{name}",
+    "prefs": [
+      "神奈川県"
+    ],
+    "memo": "CKAN。県の局だけで市町村は無い"
+  },
+  {
+    "id": "yamanashi",
+    "label": "やまなしデータプラットフォーム",
+    "site": "https://catalog.dataplatform-yamanashi.jp/",
+    "kind": "ckan",
+    "api": "https://catalog.dataplatform-yamanashi.jp/api/3/action",
+    "query": "ごみ",
+    "extraQueries": [
+      "ゴミ",
+      "分別",
+      "資源物",
+      "粗大"
+    ],
+    "datasetUrl": "https://catalog.dataplatform-yamanashi.jp/dataset/{name}",
+    "prefs": [
+      "山梨県"
+    ],
+    "memo": "CKAN。県と一部の市町村(ほぼ空)"
+  },
+  {
+    "id": "himeji",
+    "label": "姫路市・播磨圏域連携中枢都市圏オープンデータカタログ",
+    "site": "https://city.himeji.gkan.jp/gkan/",
+    "kind": "ckan",
+    "api": "https://city.himeji.gkan.jp/gkan/api/3/action",
+    "query": "ごみ",
+    "extraQueries": [
+      "ゴミ",
+      "分別",
+      "資源物",
+      "粗大"
+    ],
+    "datasetUrl": "https://city.himeji.gkan.jp/gkan/dataset/{name}",
+    "prefs": [
+      "兵庫県"
+    ],
+    "memo": "CKAN(G-Kan)。姫路・相生・高砂・播磨・加西"
+  },
+  {
+    "id": "kobe",
+    "label": "神戸市オープンデータカタログ",
+    "site": "https://data.city.kobe.lg.jp/",
+    "kind": "ckan",
+    "api": "https://catalog.city.kobe.lg.jp/api/3/action",
+    "query": "ごみ",
+    "extraQueries": [
+      "ゴミ",
+      "分別",
+      "資源物",
+      "粗大"
+    ],
+    "datasetUrl": "https://catalog.city.kobe.lg.jp/dataset/{name}",
+    "prefs": [
+      "兵庫県"
+    ],
+    "municipality": "kobe-city",
+    "memo": "CKAN。ごみ・分別は0件(市サイトに xlsx)"
+  },
+  {
+    "id": "fukui-pref",
+    "label": "福井県・県内17市町共同公開データ",
+    "site": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+    "kind": "manual",
+    "prefs": [
+      "福井県"
+    ],
+    "manual": {
+      "checked_at": "2026-10-16",
+      "how": "県の静的ページ(API なし)。「ごみ分別一覧(県内17市町)」に市町ごとの CSV(CC BY 4.0)",
+      "found": [
+        {
+          "slug": "fukui-city",
+          "title": "ごみ分別一覧 福井市(福井・美山地域)(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/fukui_miyamabunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "fukui-city",
+          "title": "ごみ分別一覧 福井市(越廼・清水地域)(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/koshino_shimizubunbetu_.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "tsuruga-city",
+          "title": "ごみ分別一覧 敦賀市(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/turugashibunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "obama-city",
+          "title": "ごみ分別一覧 小浜市(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/obamashibunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "fukui-ono-city",
+          "title": "ごみ分別一覧 大野市(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/oonoshibunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "katsuyama-city",
+          "title": "ごみ分別一覧 勝山市(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/katuyamashibunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "sabae-city",
+          "title": "ごみ分別一覧 鯖江市(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/sabaeshibunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "awara-city",
+          "title": "ごみ分別一覧 あわら市(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/awarashibunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "echizen-city",
+          "title": "ごみ分別一覧 越前市(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/etizenshibunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "fukui-sakai-city",
+          "title": "ごみ分別一覧 坂井市(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/sakaishibunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "eiheiji-town",
+          "title": "ごみ分別一覧 永平寺町(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/eiheizityoubunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "fukui-ikeda-town",
+          "title": "ごみ分別一覧 池田町(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/ikedatyoubunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "minamiechizen-town",
+          "title": "ごみ分別一覧 南越前町(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/minamietzentyoubunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "echizen-town",
+          "title": "ごみ分別一覧 越前町(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/etizentyoubunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "fukui-mihama-town",
+          "title": "ごみ分別一覧 美浜町(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/mihamatyoubunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "takahama-town",
+          "title": "ごみ分別一覧 高浜町(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/takahamatyoubunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "fukui-oi-town",
+          "title": "ごみ分別一覧 おおい町(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/ooityoubunbetu.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "fukui-wakasa-town",
+          "title": "ごみ分別一覧 若狭町(上中地域)(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/wakasabunbetu_kaminaka.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        },
+        {
+          "slug": "fukui-wakasa-town",
+          "title": "ごみ分別一覧 若狭町(三方地域)(福井県・県内17市町共同公開データ)",
+          "page": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+          "file": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/wakasabunbetu_mikata.csv",
+          "license": {
+            "url": "https://creativecommons.org/licenses/by/4.0/"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "id": "niigata-pref",
+    "label": "新潟県オープンデータ(県のページ)",
+    "site": "https://www.pref.niigata.lg.jp/site/opendata/",
+    "kind": "manual",
+    "prefs": [
+      "新潟県"
+    ],
+    "manual": {
+      "checked_at": "2026-10-16",
+      "how": "県の静的ページ。市町村が共同で使うカタログは無く、市町村のサイトへのリンクだけ",
+      "found": []
+    }
+  },
+  {
+    "id": "nagano-pref",
+    "label": "長野県オープンデータサイト(信州くらしのマップ)",
+    "site": "https://wwwgis.pref.nagano.lg.jp/pref-nagano/OpenData",
+    "kind": "manual",
+    "prefs": [
+      "長野県"
+    ],
+    "manual": {
+      "checked_at": "2026-10-16",
+      "how": "GIS 系の一覧。廃棄物の分類はあるが、ごみ分別のデータは無い。三遠南信ポータルにも無い",
+      "found": []
+    }
+  },
+  {
+    "id": "gunma-pref",
+    "label": "群馬県統計情報提供システム/オープンデータサイト",
+    "site": "https://toukei.pref.gunma.jp/",
+    "kind": "manual",
+    "prefs": [
+      "群馬県"
+    ],
+    "manual": {
+      "checked_at": "2026-10-16",
+      "how": "統計だけで、市町村の共同カタログは無い。市町村のサイトのオープンデータのページ(約30)を1回ずつ見て、品目の一覧は無い",
+      "found": []
+    }
+  },
+  {
+    "id": "aichi-pref",
+    "label": "愛知県オープンデータカタログ・eあいちオープンデータカタログ",
+    "site": "https://www.e-aichi.jp/opendata_catalog/index.html",
+    "kind": "manual",
+    "prefs": [
+      "愛知県"
+    ],
+    "manual": {
+      "checked_at": "2026-10-16",
+      "how": "県のカタログは県のデータだけ。eあいちは各市町のサイトへのリンク集(品目の一覧は稲沢・東浦・一宮などの市町のサイトにあり、市のサイトの確認に記録)",
+      "found": []
+    }
+  },
+  {
+    "id": "hyogo-pref",
+    "label": "兵庫県オープンデータカタログページ",
+    "site": "https://web.pref.hyogo.lg.jp/opendata/index.php",
+    "kind": "manual",
+    "prefs": [
+      "兵庫県"
+    ],
+    "manual": {
+      "checked_at": "2026-10-16",
+      "how": "県の部局のデータだけ(POST の検索)。市町のデータは BODIK・姫路 G-Kan・神戸市・市のサイト",
+      "found": []
+    }
+  },
+  {
+    "id": "nara-pref",
+    "label": "奈良県オープンデータカタログサイト",
+    "site": "https://www.pref.nara.lg.jp/kenseijouhou/unei/gyouseikaikaku/jouhourenkei/opendata/index.html",
+    "kind": "manual",
+    "prefs": [
+      "奈良県"
+    ],
+    "manual": {
+      "checked_at": "2026-10-16",
+      "how": "静的な分野別ページで県のデータだけ。市町村は BODIK(橿原・生駒・三郷)と市のサイト",
+      "found": []
+    }
   }
 ]

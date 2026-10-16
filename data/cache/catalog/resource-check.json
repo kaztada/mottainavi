@@ -26,8 +26,8 @@
   "checked_at": "2026-10-16",
   "sha256": "32a863746589e1ab5c2b25fcad57de9338112b5843f137807292521677286985",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 123.ごみ処理・資源物回収状況 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 123.ごみ処理・資源物回収状況 /  /  /  /  / )",
    "header": [
     "123．ごみ処理・資源物回収状況",
     "",
@@ -104,8 +104,8 @@
   "checked_at": "2026-10-16",
   "sha256": "f00c9bcd22c21cecbe994be4905f18570e07888637a3e7c9b8d54a2a340a8ce1",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 124.ごみ処理・資源物回収状況 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 124.ごみ処理・資源物回収状況 /  /  /  /  / )",
    "header": [
     "124．ごみ処理・資源物回収状況",
     "",
@@ -773,15 +773,15 @@
   "checked_at": "2026-10-16",
   "sha256": "054d6da99704a252b384a0352a6a62bdee53daff63263a1ee0f11ab875a18259",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: label / name / notice / furigana)",
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
    "header": [
     "label",
     "name",
     "notice",
     "furigana"
    ],
-   "rows": 0,
+   "rows": 309,
    "standard": false,
    "codes": []
   }
@@ -790,8 +790,8 @@
   "checked_at": "2026-10-16",
   "sha256": "a48b7f67a8634ef3d911a694b93469dca279f1a09960717b51446cfa7d06fef6",
   "table": {
-   "kind": "not-item",
-   "reason": "品目の一覧ではない表(見出し: label / name / notice / furiganaもえるごみ / アイスノン / )",
+   "kind": "unknown",
+   "reason": "品目の行が 0 行だけ",
    "header": [
     "label",
     "name",
@@ -962,7 +962,7 @@
     "ろうそく",
     "",
     "ろもえるごみ",
-    "ロープ　",
+    "ロープ",
     "50cm以内に切ってください",
     "ろもえないごみ（金物類）",
     "アイロン",
@@ -1888,10 +1888,8 @@
   "sha256": "26344fc381fb4c444f2c294498a675a8f3020bd82c83728bacbd537932a932c4",
   "table": {
    "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 一般廃棄物(事業系)収集運搬許可業者一覧)",
-   "header": [
-    "一般廃棄物（事業系）収集運搬許可業者一覧"
-   ],
+   "reason": "空のファイル",
+   "header": null,
    "rows": 0,
    "standard": false,
    "codes": []
@@ -2029,8 +2027,8 @@
   "checked_at": "2026-10-16",
   "sha256": "f8a5a092714fcea0196b466e3902329c59876ac1d566634e74c7b8bc96a6dc88",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 小学校区 / 燃やすごみ1回目 / 燃やすごみ2回目 / 埋立ごみ / 容器・包装プラスチック / 缶・金属類)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 小学校区 / 燃やすごみ1回目 / 燃やすごみ2回目 / 埋立ごみ / 容器・包装プラスチック / 缶・金属類)",
    "header": [
     "小学校区",
     "燃やすごみ1回目",
@@ -2613,8 +2611,8 @@
   "checked_at": "2026-10-16",
   "sha256": "4774af0b4e3a157abe56525e697bf78946af39e9486eaeac7514cbfccce8d58f",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: クリーンセンターへのごみ搬入量の推移 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: クリーンセンターへのごみ搬入量の推移 /  /  /  /  / )",
    "header": [
     "クリーンセンターへのごみ搬入量の推移",
     "",
@@ -2676,8 +2674,8 @@
   "checked_at": "2026-10-16",
   "sha256": "17be2009846c78a8264d55766bdd67ddeab1e3b56c07f51e82cfeb5513cbd7f0",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: #LINK<--ファイルタイプの指定 / http://ja.linkdata.org/upload / <--このURLのページからこのファイルをアップロードしてください。 / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: #LINK<--ファイルタイプの指定 / http://ja.linkdata.org/upload / <--このURLのページからこのファイルをアップロードしてください。 / )",
    "header": [
     "#LINK<-- ファイルタイプの指定",
     "http://ja.linkdata.org/upload",
@@ -2901,8 +2899,8 @@
   "checked_at": "2026-10-16",
   "sha256": "6d4d6c172d4ff592216344431b5b4b0dd83139dd91c41bca5bf857556fc86d3c",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 都城市のごみ処理状況 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 都城市のごみ処理状況 /  /  /  /  / )",
    "header": [
     "都城市のごみ処理状況",
     "",
@@ -2949,8 +2947,8 @@
   "checked_at": "2026-10-16",
   "sha256": "234dc9e727b83113e8968bcc954818721e0b1d781b87085465bf969ba2a1e868",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 14—16.ごみの収集及び処理状況)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 14—16.ごみの収集及び処理状況)",
    "header": [
     "14—16．ごみの収集及び処理状況"
    ],
@@ -2963,8 +2961,8 @@
   "checked_at": "2026-10-16",
   "sha256": "60b35c6826eaadad7cdc9ab5d78b4317a8d39b209e0a23e4c673b635542fcf97",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 14—16.ごみの収集及び処理状況)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 14—16.ごみの収集及び処理状況)",
    "header": [
     "14—16．ごみの収集及び処理状況"
    ],
@@ -3663,8 +3661,8 @@
   "checked_at": "2026-10-16",
   "sha256": "718f894f3b1ff5636ab61dbc513b6ad3ce3c31bc312af3730a4b15df0a627719",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: タイトル / ごみ処理状況 /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: タイトル / ごみ処理状況 /  / )",
    "header": [
     "タイトル",
     "ごみ処理状況",
@@ -3921,8 +3919,8 @@
   "checked_at": "2026-10-16",
   "sha256": "85ea461db5d58d71e4fb929003815458148017b6dbe4ff6bf9f4dbe869421ba0",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 消防本部・消防署・出張所の位置・構造)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 消防本部・消防署・出張所の位置・構造)",
    "header": [
     "消防本部・消防署・出張所の位置・構造"
    ],
@@ -3997,8 +3995,8 @@
   "checked_at": "2026-10-16",
   "sha256": "2f1c8ee99de5f51cef61ff69c648f113ee21304e8cae1bca0a36a28937bbc9f2",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況)",
    "header": [
     "Ｋ - １４　ごみ処理状況",
     "Ｋ - １４　ごみ処理状況",
@@ -4099,8 +4097,8 @@
   "checked_at": "2026-10-16",
   "sha256": "8cfcec973e6231c75cad57a28fdc92a449d020a3a4297e760715ccd005ef6e2b",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 産業別就業者構成比)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 産業別就業者構成比)",
    "header": [
     "",
     "産業別就業者構成比"
@@ -4930,8 +4928,8 @@
   "checked_at": "2026-10-16",
   "sha256": "70eb6521b644c686e8340333ed684a972e492d043cec371ccf7ff8cf43afa658",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 定期河川水質調査 /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 定期河川水質調査 /  / )",
    "header": [
     "",
     "定期河川水質調査",
@@ -5050,8 +5048,8 @@
   "checked_at": "2026-10-16",
   "sha256": "c5b526d2ce3fd8782d32eaf62dffa7aeaaf1c162bba9c17faeab850dacce68d7",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 西暦 / 和暦 / 水質/八千代橋(河川) / 底質/八千代橋(河川) / 水質/船橋1(海域) / 底質/船橋1(海域))",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 西暦 / 和暦 / 水質/八千代橋(河川) / 底質/八千代橋(河川) / 水質/船橋1(海域) / 底質/船橋1(海域))",
    "header": [
     "西暦",
     "和暦",
@@ -5071,8 +5069,8 @@
   "checked_at": "2026-10-16",
   "sha256": "4ed903de31b7dbb14efa2b791ec4c45b618cb89447574343c28e26186576027b",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 西暦 / 和暦 / 高根台 / 豊富 / 南本町 / 凡例・注釈・資料)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 西暦 / 和暦 / 高根台 / 豊富 / 南本町 / 凡例・注釈・資料)",
    "header": [
     "西暦",
     "和暦",
@@ -5230,8 +5228,8 @@
   "checked_at": "2026-10-16",
   "sha256": "d7a008e0354d9a83d7260752ccb77412bf285f24f8c8e76e8f4b14a3e04428fa",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 124.ごみ処理・資源物回収状況 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 124.ごみ処理・資源物回収状況 /  /  /  /  / )",
    "header": [
     "124．ごみ処理・資源物回収状況",
     "",
@@ -5323,8 +5321,8 @@
   "checked_at": "2026-10-16",
   "sha256": "9da480ff4d19391520c01a07efbee2f8a3b58eaaa06536aeb7a7034229beb75e",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 123.ごみの収集及び処理状況)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 123.ごみの収集及び処理状況)",
    "header": [
     "123．ごみの収集及び処理状況"
    ],
@@ -5356,8 +5354,8 @@
   "checked_at": "2026-10-16",
   "sha256": "2d045db8624e80f364c82f74ec2f65fc2e845c951f0932230ce896357c7dd35d",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 出典:国勢調査)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 出典:国勢調査)",
    "header": [
     "出典：国勢調査"
    ],
@@ -6828,8 +6826,8 @@
   "checked_at": "2026-10-16",
   "sha256": "8f8f4cddea2a6de32390303faa72c1d1d4f05bd2523d4200d3169966c76800f4",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: #LINK)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: #LINK)",
    "header": [
     "#LINK"
    ],
@@ -7376,8 +7374,8 @@
   "checked_at": "2026-10-16",
   "sha256": "50cbd71907ebd1799a61e030b4da787ee50ca7710e86908edfc3a9b06ef5461a",
   "table": {
-   "kind": "not-item",
-   "reason": "品目の一覧ではない表(見出し: 市区町村コード / 番号 / 都道府県名 / 市区町村名 / 名称 / 住所)",
+   "kind": "unknown",
+   "reason": "品目の行が 33 行だけ",
    "header": [
     "市区町村コード",
     "番号",
@@ -7392,9 +7390,11 @@
     "緯度",
     "分類"
    ],
-   "rows": 0,
+   "rows": 33,
    "standard": false,
-   "codes": []
+   "codes": [
+    "131148"
+   ]
   }
  },
  "https://www.opendata.metro.tokyo.lg.jp/kunitachi/132152_garbage_separate_rule.xlsx": {
@@ -7984,8 +7984,8 @@
   "checked_at": "2026-10-16",
   "sha256": "c1ffd71aa541ddc66dbfd50d8966e4e531c4fc564fdee33a75f6fca5d2c0002d",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 現行手数料 / 改定手数料 / 改定額 / 備考)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 現行手数料 / 改定手数料 / 改定額 / 備考)",
    "header": [
     "",
     "現行手数料",
@@ -8470,14 +8470,11 @@
   "checked_at": "2026-10-16",
   "sha256": "e274730e1b8bdb3cd5db4e2ed47a92b397827ea1cf19215ecf0785e9ada1a050",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 統計名 / シート名 / セル位置 / 文言 / コメント内容)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 統計名: / 生活保護_世帯数・人員及び保護率)",
    "header": [
-    "統計名",
-    "シート名",
-    "セル位置",
-    "文言",
-    "コメント内容"
+    "統計名：",
+    "生活保護_世帯数・人員及び保護率"
    ],
    "rows": 0,
    "standard": false,
@@ -8552,8 +8549,8 @@
   "checked_at": "2026-10-16",
   "sha256": "baaf7a397324e37f3c0257538f2ae5c189f279ee577024590b715c971a23e25f",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 統計名: / 生活保護_扶助種類別人員及び金額)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 統計名: / 生活保護_扶助種類別人員及び金額)",
    "header": [
     "統計名：",
     "生活保護_扶助種類別人員及び金額"
@@ -8584,8 +8581,8 @@
   "checked_at": "2026-10-16",
   "sha256": "96728994ce52dc20b16cde57bc211c2654c5c25a7d8694a0a7cd216ecfd13d19",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 索引 / 品目_1 / 品目_2 / 材質など / 分別区分 / 備考)",
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
    "header": [
     "索引",
     "品目_1",
@@ -8594,7 +8591,7 @@
     "分別区分",
     "備考"
    ],
-   "rows": 0,
+   "rows": 684,
    "standard": false,
    "codes": []
   }
@@ -8787,8 +8784,8 @@
   "checked_at": "2026-10-16",
   "sha256": "26711807c9c799c6190e05d95c1cf5c47b0406fe55144281aae7a42349bf4e40",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 外国人住民数の推移 /  /  / 各年1月1日現在)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 外国人住民数の推移 /  /  / 各年1月1日現在)",
    "header": [
     "外国人住民数の推移",
     "",
@@ -9588,8 +9585,8 @@
   "checked_at": "2026-10-16",
   "sha256": "d7a008e0354d9a83d7260752ccb77412bf285f24f8c8e76e8f4b14a3e04428fa",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 124.ごみ処理・資源物回収状況 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 124.ごみ処理・資源物回収状況 /  /  /  /  / )",
    "header": [
     "124．ごみ処理・資源物回収状況",
     "",
@@ -9607,8 +9604,8 @@
   "checked_at": "2026-10-16",
   "sha256": "f00c9bcd22c21cecbe994be4905f18570e07888637a3e7c9b8d54a2a340a8ce1",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 124.ごみ処理・資源物回収状況 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 124.ごみ処理・資源物回収状況 /  /  /  /  / )",
    "header": [
     "124．ごみ処理・資源物回収状況",
     "",
@@ -9631,8 +9628,8 @@
   "checked_at": "2026-10-16",
   "sha256": "8c06ae6c015f226ad017ecabe23a92c20836508239b50f81f9b55afa4133cd33",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: localGovernmentCode / identifier / itemName / sortingType / caution / feeType)",
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
    "header": [
     "localGovernmentCode",
     "identifier",
@@ -9644,7 +9641,7 @@
     "feeRemarks",
     "remarks"
    ],
-   "rows": 0,
+   "rows": 840,
    "standard": false,
    "codes": []
   }
@@ -9724,8 +9721,8 @@
   "checked_at": "2026-10-16",
   "sha256": "106187aee82fe3587e7855f9cf0c6e803dd3584445cd2f0d24d2d40883f683cb",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: localGovernmentCode / identifier / itemName / sortingType / caution / feeType)",
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
    "header": [
     "localGovernmentCode",
     "identifier",
@@ -9743,7 +9740,7 @@
     "contactPointRemarks",
     "remarks"
    ],
-   "rows": 0,
+   "rows": 840,
    "standard": false,
    "codes": []
   }
@@ -9752,8 +9749,8 @@
   "checked_at": "2026-10-16",
   "sha256": "32a863746589e1ab5c2b25fcad57de9338112b5843f137807292521677286985",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 123.ごみ処理・資源物回収状況 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 123.ごみ処理・資源物回収状況 /  /  /  /  / )",
    "header": [
     "123．ごみ処理・資源物回収状況",
     "",
@@ -10402,8 +10399,8 @@
   "checked_at": "2026-10-16",
   "sha256": "3b4cc4c53be20eca437933163483019099055e6d369ce0ee85d2a8913e6a002c",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 可燃ごみの組成 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 可燃ごみの組成 /  /  /  /  / )",
    "header": [
     "可燃ごみの組成",
     "",
@@ -10440,8 +10437,8 @@
   "checked_at": "2026-10-16",
   "sha256": "4fdcf4d00b790c8ceb9ac29c9a1eb6a707a4702409154bfbbb1d4b10bb388d0a",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 宇部市のごみ処理経費の推移(減価償却費を除く) /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 宇部市のごみ処理経費の推移(減価償却費を除く) /  /  /  /  / )",
    "header": [
     "宇部市のごみ処理経費の推移（減価償却費を除く）",
     "",
@@ -10911,8 +10908,8 @@
   "checked_at": "2026-10-16",
   "sha256": "43ba58b77b81105ece811eefcc05e2cdeb3f169bb3d0d7c87b2397cc9930df91",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / ■DOの推移)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / ■DOの推移)",
    "header": [
     "",
     "■DOの推移"
@@ -10926,8 +10923,8 @@
   "checked_at": "2026-10-16",
   "sha256": "58d9827ed1dfd6037310790411f2683bf16b924ad746ec8011b5161f99d80588",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 品目 / 素材等 / 分類 /  /  / )",
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
    "header": [
     "品目",
     "素材等",
@@ -10937,7 +10934,7 @@
     "",
     ""
    ],
-   "rows": 0,
+   "rows": 532,
    "standard": false,
    "codes": []
   }
@@ -10962,8 +10959,8 @@
   "checked_at": "2026-10-16",
   "sha256": "08095441d44706064ccb803e7f7d2fd08da4e5a6c89073636800427a2c294a9d",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / ■SSの推移)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / ■SSの推移)",
    "header": [
     "",
     "■SSの推移"
@@ -11462,8 +11459,8 @@
   "checked_at": "2026-10-16",
   "sha256": "4adca418678ac9664c67b3f4fc09f8f6a543c617df8cbe6c8ddf911c3c5d9c5d",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: #LINK)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: #LINK)",
    "header": [
     "#LINK"
    ],
@@ -12095,8 +12092,8 @@
   "checked_at": "2026-10-16",
   "sha256": "c3e691507b6dd6bb8c644b701c390255ffa9122757f8eb6c45b499d55fc1a98b",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 年(西暦) / 区分 / 北区[グラム] / 東区[グラム] / 中央区[グラム] / 江南区[グラム])",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 年(西暦) / 区分 / 北区[グラム] / 東区[グラム] / 中央区[グラム] / 江南区[グラム])",
    "header": [
     "年（西暦）",
     "区分",
@@ -12201,8 +12198,8 @@
   "checked_at": "2026-10-16",
   "sha256": "e01df79e68f9d3fc6127ab8db7d8eca6e9e4029679a077b87c1928b1deca2e4a",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 校区 / 年 / 人)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 校区 / 年 / 人)",
    "header": [
     "校区",
     "年",
@@ -12284,8 +12281,8 @@
   "checked_at": "2026-10-16",
   "sha256": "85ea461db5d58d71e4fb929003815458148017b6dbe4ff6bf9f4dbe869421ba0",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 消防本部・消防署・出張所の位置・構造)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 消防本部・消防署・出張所の位置・構造)",
    "header": [
     "消防本部・消防署・出張所の位置・構造"
    ],
@@ -12303,8 +12300,8 @@
   "checked_at": "2026-10-16",
   "sha256": "6becbaf7c1435167815f76b5efef2e3904fb4517d278c03b4b963e75108155eb",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 校区 / 年 / 0~14歳 / 15~64歳 / 65歳以上)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 校区 / 年 / 0~14歳 / 15~64歳 / 65歳以上)",
    "header": [
     "校区",
     "年",
@@ -12478,8 +12475,8 @@
   "checked_at": "2026-10-16",
   "sha256": "2f1c8ee99de5f51cef61ff69c648f113ee21304e8cae1bca0a36a28937bbc9f2",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況 / K-14ごみ処理状況)",
    "header": [
     "Ｋ - １４　ごみ処理状況",
     "Ｋ - １４　ごみ処理状況",
@@ -13922,8 +13919,8 @@
   "checked_at": "2026-10-16",
   "sha256": "e8db1b2caac5679c73d2d29b7579406294c961fce9d057ff113c6eb744389ca9",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 静岡市一般廃棄物収集運搬業許可業者一覧表 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 静岡市一般廃棄物収集運搬業許可業者一覧表 /  /  /  /  / )",
    "header": [
     "静岡市一般廃棄物収集運搬業　許可業者一覧表",
     "",
@@ -14237,8 +14234,8 @@
   "checked_at": "2026-10-16",
   "sha256": "2d4a568a1bbf1055115b96e83d0ee310c40c34113684876094525d76ed3b1cbe",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 処分業者一覧 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 処分業者一覧 /  /  /  /  / )",
    "header": [
     "処分業者一覧",
     "",
@@ -14439,8 +14436,8 @@
   "checked_at": "2026-10-16",
   "sha256": "d4144286ac822cdc9550f595ce4e364ef3d98821f06075575f3aeaf541ee572a",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 岐阜市特別管理産業廃棄物処分業者 /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 岐阜市特別管理産業廃棄物処分業者 /  /  /  / )",
    "header": [
     "",
     "岐阜市　特別管理産業廃棄物処分業者",
@@ -14493,8 +14490,8 @@
   "checked_at": "2026-10-16",
   "sha256": "cd9337f657d9953bd07f0a010209d4442b9230c18da566fbf69a361879caf639",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 一般廃棄物収集運搬(ごみ)許可業者一覧表 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 一般廃棄物収集運搬(ごみ)許可業者一覧表 /  /  /  /  / )",
    "header": [
     "       　　　　　　　　　　　　　　一般廃棄物収集運搬（ごみ）許可業者一覧表",
     "",
@@ -14516,8 +14513,8 @@
   "checked_at": "2026-10-16",
   "sha256": "f5c8e74173d7cd0c10d4286017bf1f2ce7859facb7000a349d945c2db658c723",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 岐阜市産業廃棄物処分業者 /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 岐阜市産業廃棄物処分業者 /  /  /  / )",
    "header": [
     "",
     "岐阜市　産業廃棄物処分業者",
@@ -14576,8 +14573,8 @@
   "checked_at": "2026-10-16",
   "sha256": "7f28cbbc52d1298159e45b1ab9515f6e1affe3f3add33b4a0e576f6f87e23a4d",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 岐阜市特別管理産業廃棄物処分業者 /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 岐阜市特別管理産業廃棄物処分業者 /  /  /  / )",
    "header": [
     "",
     "岐阜市　特別管理産業廃棄物処分業者",
@@ -14738,8 +14735,8 @@
   "checked_at": "2026-10-16",
   "sha256": "3eced97982fbe1d125d3216b905ef9ed28c9ff4677b6a6e5ec7c4e3613a4eaf8",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 産業廃棄物収集運搬業許可業者岐阜市 /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 産業廃棄物収集運搬業許可業者岐阜市 /  /  /  / )",
    "header": [
     "",
     "産業廃棄物収集運搬業許可業者　岐阜市",
@@ -14833,8 +14830,8 @@
   "checked_at": "2026-10-16",
   "sha256": "269b59c36a0f9d00717952ac6af6bbfcf8c9381447e54760f73e5d5e689d1aa6",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 一般廃棄物収集運搬業許可業者(令和8年9月1日現在) /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 一般廃棄物収集運搬業許可業者(令和8年9月1日現在) /  /  /  /  / )",
    "header": [
     "一般廃棄物収集運搬業許可業者（令和8年9月1日現在）",
     "",
@@ -14953,8 +14950,8 @@
   "checked_at": "2026-10-16",
   "sha256": "d9bea2148f257f17d618af1ab53b8a7f3f333bd5c795244cc80054e7ed48a155",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 特別管理産業廃棄物収集運搬業許可業者岐阜市 /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 特別管理産業廃棄物収集運搬業許可業者岐阜市 /  /  /  / )",
    "header": [
     "",
     "特別管理産業廃棄物収集運搬業許可業者　岐阜市",
@@ -14996,8 +14993,8 @@
   "checked_at": "2026-10-16",
   "sha256": "467c6b203b7212fa45c79f1f9c6ea1d3e692390f8d30730f71050b811968dec1",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行:  / 特別管理産業廃棄物収集運搬業許可業者岐阜市 /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し:  / 特別管理産業廃棄物収集運搬業許可業者岐阜市 /  /  /  / )",
    "header": [
     "",
     "特別管理産業廃棄物収集運搬業許可業者　岐阜市",
@@ -15704,8 +15701,8 @@
   "checked_at": "2026-10-16",
   "sha256": "a1a67e6c4228bfda48bb10e28aeba0da23761d9cced5a5dc6d46838d3fd25884",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 局種 / 消防隊等 / 機数[局] / 活動波[波] / 主運用波[波] / 統制波1から3[波])",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 局種 / 消防隊等 / 機数[局] / 活動波[波] / 主運用波[波] / 統制波1から3[波])",
    "header": [
     "局種",
     "消防隊等",
@@ -15786,8 +15783,8 @@
   "checked_at": "2026-10-16",
   "sha256": "23656213eba0334a9a212e33ec42d9bf0d776280ce134faade3cc6903e8f0ebe",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 選挙別投票率の推移 /  /  /  /  / )",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 選挙別投票率の推移 /  /  /  /  / )",
    "header": [
     "選挙別投票率の推移",
     "",
@@ -16284,8 +16281,8 @@
   "checked_at": "2026-10-16",
   "sha256": "8b056fa305a42c297f9c2198c0e74386efc019e2199bdc01464efaf7d6318f47",
   "table": {
-   "kind": "not-item",
-   "reason": "品目の一覧ではない表(見出し: 名称 / 名称かな / 所在地 / TEL / FAX / URL)",
+   "kind": "unknown",
+   "reason": "品目の行が 8 行だけ",
    "header": [
     "名称",
     "名称かな",
@@ -16300,7 +16297,7 @@
     "緯度",
     "分類"
    ],
-   "rows": 0,
+   "rows": 8,
    "standard": false,
    "codes": []
   }
@@ -16327,8 +16324,8 @@
   "checked_at": "2026-10-16",
   "sha256": "06708195699b42396e710c11298ccb0a5332b9603b989eba3a1bdcad30934e73",
   "table": {
-   "kind": "not-item",
-   "reason": "品目の一覧ではない表(見出し: 名称 / 名称かな / 所在地 / TEL / FAX / URL)",
+   "kind": "unknown",
+   "reason": "品目の行が 4 行だけ",
    "header": [
     "名称",
     "名称かな",
@@ -16345,7 +16342,7 @@
     "緯度",
     "分類"
    ],
-   "rows": 0,
+   "rows": 4,
    "standard": false,
    "codes": []
   }
@@ -16359,8 +16356,8 @@
   "checked_at": "2026-10-16",
   "sha256": "77cb71a3dd215063e9bd1ef4b46198d003e6a7a6606359431bc17900d93cf465",
   "table": {
-   "kind": "not-item",
-   "reason": "品目の一覧ではない表(見出し: 名称 / 名称かな / 所在地 / TEL / FAX / URL)",
+   "kind": "unknown",
+   "reason": "品目の行が 4 行だけ",
    "header": [
     "名称",
     "名称かな",
@@ -16377,7 +16374,7 @@
     "緯度",
     "分類"
    ],
-   "rows": 0,
+   "rows": 4,
    "standard": false,
    "codes": []
   }
@@ -16968,8 +16965,8 @@
   "checked_at": "2026-10-16",
   "sha256": "af6225cc82af21e4159dc5ea684814d395a0da68b1475e85740ac7ce373151d0",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: (b)ごみの処理状況 / (b)ごみの処理状況 / (b)ごみの処理状況 / (b)ごみの処理状況 / (b)ごみの処理状況 / (b)ごみの処理状況)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: (b)ごみの処理状況 / (b)ごみの処理状況 / (b)ごみの処理状況 / (b)ごみの処理状況 / (b)ごみの処理状況 / (b)ごみの処理状況)",
    "header": [
     "(b) ごみの処理状況",
     "(b) ごみの処理状況",
@@ -17196,8 +17193,8 @@
   "checked_at": "2026-10-16",
   "sha256": "a1d0ea67b281642aa96b39fc6b2ff7585b6fcc8b1c1cb3972a1e50f04b8da372",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 63ごみ排出・処理状況 / 63ごみ排出・処理状況 / 63ごみ排出・処理状況 / 63ごみ排出・処理状況 / 63ごみ排出・処理状況 / 63ごみ排出・処理状況)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 63ごみ排出・処理状況 / 63ごみ排出・処理状況 / 63ごみ排出・処理状況 / 63ごみ排出・処理状況 / 63ごみ排出・処理状況 / 63ごみ排出・処理状況)",
    "header": [
     "63　ごみ排出・処理状況",
     "63　ごみ排出・処理状況",
@@ -18457,8 +18454,8 @@
   "checked_at": "2026-10-16",
   "sha256": "b16e1a8a864aae4fe2f4d5245fc389a44cd1fc742a0329d4e171e52caca46f01",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: No / 行 / 音 / ごみの種類 / よみ等 / 区分)",
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
    "header": [
     "No",
     "行",
@@ -18469,7 +18466,7 @@
     "収集に出す際の条件等",
     "分類"
    ],
-   "rows": 0,
+   "rows": 4989,
    "standard": false,
    "codes": []
   }
@@ -18853,8 +18850,8 @@
   "checked_at": "2026-10-16",
   "sha256": "878c2f52a109d4f20d806f745a6a96b7323f66d8699e606061ccfcfad5a9393c",
   "table": {
-   "kind": "unknown",
-   "reason": "見出しから判断できない(先頭行: 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】)",
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】 / 6.ごみ処理状況【令和2年1月~令和2年12月】)",
    "header": [
     "６．ごみ処理状況【令和２年１月～令和２年１２月】",
     "６．ごみ処理状況【令和２年１月～令和２年１２月】",
@@ -19054,6 +19051,5403 @@
     "Index"
    ],
    "rows": 477,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11007/resource/84635/%E5%88%86%E5%88%A5%E5%B8%B3%E3%83%87%E3%83%BC%E3%82%BF.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "4fda2ec89316ae4b39d31f385758d39f43d6990797cfe25487147e6ff2ffbda5",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "type",
+    "name",
+    "notice",
+    "furigana"
+   ],
+   "rows": 201,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11545/resource/92388/5-16-1%E9%83%BD%E5%B8%82%E8%A8%88%E7%94%BB%E3%83%BB%E5%BB%BA%E7%AF%89%E3%83%BB%E6%99%AF%E8%A6%B3%E3%80%80%E3%81%94%E3%81%BF%E5%87%A6%E7%90%86%E9%87%8F%E3%81%AE%E7%8A%B6%E6%B3%81%E3%80%80%E6%8E%92%E5%87%BA%E9%87%8F.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "d454efe28a29f717a04280ec97698a8d09d0c13dc9d039f7fc67d9dedb4085b6",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 1排出量 /  /  /  /  / )",
+   "header": [
+    "①排出量",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11545/resource/92387/5-15%E9%83%BD%E5%B8%82%E8%A8%88%E7%94%BB%E3%83%BB%E5%BB%BA%E7%AF%89%E3%83%BB%E6%99%AF%E8%A6%B3%E3%80%80%E3%81%97%E5%B0%BF%E5%87%A6%E7%90%86%E6%96%BD%E8%A8%AD%E3%81%AE%E6%A6%82%E8%A6%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "62db29f4f28a7aec843c4eba2fd3e59a602f044f30a44d5ddb9e2f6e5509635e",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 15)し尿処理施設の概要 /  /  /  /  / )",
+   "header": [
+    "15）し尿処理施設の概要",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11853/resource/98384/R7%20%E5%88%86%E5%88%A5%E5%B8%B3%E3%83%87%E3%83%BC%E3%82%BF.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "fd03de083715608457770294b464c4e9482767cc0f6c9e919e2bd9b0b5e79ec2",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "type",
+    "name",
+    "notice",
+    "furigana",
+    ""
+   ],
+   "rows": 201,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11853/resource/98383/%E4%BB%A4%E5%92%8C7%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "40aef7feba72a6ba0c6e2134318b621074e9eb016f6847dad5f1a9cf0ac68ebe",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: マスター,地名,センター,もえるごみ,びん,カン,金属,われもの類・乾電池,古紙,ペットボトル)",
+   "header": [
+    "マスター,地名,センター,もえるごみ,びん,カン,金属,われもの類・乾電池,古紙,ペットボトル"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11935/resource/98679/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "df7553ea5a71430d1890ebebcafeb283ce4dafc16828ef645247fd4618d9a6d6",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 曜日 / 日付 / 収集区域1 / 収集区域2 / 収集区域3 / 収集区域4)",
+   "header": [
+    "曜日",
+    "日付",
+    "収集区域1",
+    "収集区域2",
+    "収集区域3",
+    "収集区域4",
+    "収集区域5",
+    "収集区域6",
+    "収集区域7",
+    "収集区域8",
+    "収集区域9",
+    "収集区域10",
+    "収集区域11",
+    "収集区域12",
+    "収集区域13",
+    "収集区域14",
+    "収集区域15",
+    "収集区域16",
+    "収集区域21",
+    "収集区域22",
+    "収集区域23",
+    "収集区域24",
+    "収集区域25",
+    "収集区域26",
+    "収集区域27",
+    "収集区域28",
+    "収集区域29",
+    "収集区域30",
+    "収集区域31",
+    "収集区域32",
+    "収集区域41",
+    "収集区域42",
+    "収集区域44",
+    "収集区域45",
+    "収集区域46",
+    "収集区域47",
+    "収集区域48",
+    "収集区域49",
+    "NO"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11007/resource/84634/%E4%BB%A4%E5%92%8C6%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "71c2e7d5a9adc11c808ba93522bd1a07ff64085cf1640c18c1501dfaf100543a",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: マスター,地名,センター,もえるごみ,びん,カン,金属,われもの類・乾電池,古紙,ペットボトル)",
+   "header": [
+    "マスター,地名,センター,もえるごみ,びん,カン,金属,われもの類・乾電池,古紙,ペットボトル"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11936/resource/98681/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "75a1229a4c107d05cd6dfe3e80b89341a4d3f2f42265daf06415cf74b08dbeb2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 行政区 / 町名頭文字 / 町名 / 読み / No.)",
+   "header": [
+    "行政区",
+    "町名頭文字",
+    "町名",
+    "読み",
+    "No."
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11936/resource/98682/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "e05faaeb0a7f04a71b3399f4a92b83fc421bce2c59997894e6f9520437302bb4",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 行政区 / 町名頭文字 / 町名 / 読み / No.)",
+   "header": [
+    "行政区",
+    "町名頭文字",
+    "町名",
+    "読み",
+    "No."
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11984/resource/99372/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "b0d8cf1f11eea4c32d4b907b7adc13cffb61f4b3cfe002f56ad27cb1414d0707",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "品目",
+    "詳細",
+    "大きさ・長さ",
+    "分別品目",
+    "処理手数料",
+    "連絡ごみ備考",
+    "排出方法･備考",
+    "URLに関連するワード",
+    "浜松市公式Webサイト　参考ページURL",
+    "分別品目の補足",
+    "NO"
+   ],
+   "rows": 1319,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11984/resource/99373/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "1562f742fc762fbeeb1b5bc10e2d06bc6c18f6dfab3987bc11e50d213382bf0e",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "品目",
+    "詳細",
+    "大きさ・長さ",
+    "分別品目",
+    "処理手数料",
+    "連絡ごみ備考",
+    "排出方法･備考",
+    "URLに関連するワード",
+    "浜松市公式Webサイト　参考ページURL",
+    "分別品目の補足",
+    "NO"
+   ],
+   "rows": 1319,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11999/resource/98807/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "cde4d618a5cb6fa2d05032951ea9d691a15700ab6fd16a7cc122bc701683780a",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 曜日 / 日付 / 収集区域1 / 収集区域2 / 収集区域3 / 収集区域4)",
+   "header": [
+    "曜日",
+    "日付",
+    "収集区域1",
+    "収集区域2",
+    "収集区域3",
+    "収集区域4",
+    "収集区域5",
+    "収集区域6",
+    "収集区域7",
+    "収集区域8",
+    "収集区域9",
+    "収集区域10",
+    "収集区域11",
+    "収集区域12",
+    "収集区域13",
+    "収集区域14",
+    "収集区域15",
+    "収集区域16",
+    "収集区域21",
+    "収集区域22",
+    "収集区域23",
+    "収集区域24",
+    "収集区域25",
+    "収集区域26",
+    "収集区域27",
+    "収集区域28",
+    "収集区域29",
+    "収集区域30",
+    "収集区域31",
+    "収集区域32",
+    "収集区域41",
+    "収集区域42",
+    "収集区域44",
+    "収集区域45",
+    "収集区域46",
+    "収集区域47",
+    "収集区域48",
+    "収集区域49",
+    "NO"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11999/resource/98808/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "e5375c26889e01bd80059fe499db55a1734eb3a23690d1c9bde7a461a972c329",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 曜日 / 日付 / 収集区域1 / 収集区域2 / 収集区域3 / 収集区域4)",
+   "header": [
+    "曜日",
+    "日付",
+    "収集区域1",
+    "収集区域2",
+    "収集区域3",
+    "収集区域4",
+    "収集区域5",
+    "収集区域6",
+    "収集区域7",
+    "収集区域8",
+    "収集区域9",
+    "収集区域10",
+    "収集区域11",
+    "収集区域12",
+    "収集区域13",
+    "収集区域14",
+    "収集区域15",
+    "収集区域16",
+    "収集区域21",
+    "収集区域22",
+    "収集区域23",
+    "収集区域24",
+    "収集区域25",
+    "収集区域26",
+    "収集区域27",
+    "収集区域28",
+    "収集区域29",
+    "収集区域30",
+    "収集区域31",
+    "収集区域32",
+    "収集区域41",
+    "収集区域42",
+    "収集区域44",
+    "収集区域45",
+    "収集区域46",
+    "収集区域47",
+    "収集区域48",
+    "収集区域49",
+    "NO"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12000/resource/98809/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "ffc7320e72108e0a415685bb7ce6e655b89a8a16d2da6920dff2bbf437ad4f04",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 行政区 / 町名頭文字 / 町名 / 読み / No.)",
+   "header": [
+    "行政区",
+    "町名頭文字",
+    "町名",
+    "読み",
+    "No."
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12000/resource/98810/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "e05faaeb0a7f04a71b3399f4a92b83fc421bce2c59997894e6f9520437302bb4",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 行政区 / 町名頭文字 / 町名 / 読み / No.)",
+   "header": [
+    "行政区",
+    "町名頭文字",
+    "町名",
+    "読み",
+    "No."
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12007/resource/98823/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "c4a4a469c4bf05ef466224cf91a2bd1ff1b47bba5e6eef8953ade48b17708d2b",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 曜日 / 日付 / 収集区域1 / 収集区域2 / 収集区域3 / 収集区域4)",
+   "header": [
+    "曜日",
+    "日付",
+    "収集区域1",
+    "収集区域2",
+    "収集区域3",
+    "収集区域4",
+    "収集区域5",
+    "収集区域6",
+    "収集区域7",
+    "収集区域8",
+    "収集区域9",
+    "収集区域10",
+    "収集区域11",
+    "収集区域12",
+    "収集区域13",
+    "収集区域14",
+    "収集区域15",
+    "収集区域16",
+    "収集区域21",
+    "収集区域22",
+    "収集区域23",
+    "収集区域24",
+    "収集区域25",
+    "収集区域26",
+    "収集区域27",
+    "収集区域28",
+    "収集区域29",
+    "収集区域30",
+    "収集区域31",
+    "収集区域32",
+    "収集区域41",
+    "収集区域42",
+    "収集区域44",
+    "収集区域45",
+    "収集区域46",
+    "収集区域47",
+    "収集区域48",
+    "収集区域49",
+    "NO"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12007/resource/98824/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "acfe0777e6ddaf68826d3778ffb48111cd66d48da3af4cff2b5060fae647b4e1",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 曜日 / 日付 / 収集区域1 / 収集区域2 / 収集区域3 / 収集区域4)",
+   "header": [
+    "曜日",
+    "日付",
+    "収集区域1",
+    "収集区域2",
+    "収集区域3",
+    "収集区域4",
+    "収集区域5",
+    "収集区域6",
+    "収集区域7",
+    "収集区域8",
+    "収集区域9",
+    "収集区域10",
+    "収集区域11",
+    "収集区域12",
+    "収集区域13",
+    "収集区域14",
+    "収集区域15",
+    "収集区域16",
+    "収集区域21",
+    "収集区域22",
+    "収集区域23",
+    "収集区域24",
+    "収集区域25",
+    "収集区域26",
+    "収集区域27",
+    "収集区域28",
+    "収集区域29",
+    "収集区域30",
+    "収集区域31",
+    "収集区域32",
+    "収集区域41",
+    "収集区域42",
+    "収集区域44",
+    "収集区域45",
+    "収集区域46",
+    "収集区域47",
+    "収集区域48",
+    "収集区域49",
+    "NO"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12019/resource/98847/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "d3b41830877739c3e35dbd0954ae5681d0993e692a2ba6de6c801192f898e0b3",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 行政区 / 町名頭文字 / 町名 / 読み / No.)",
+   "header": [
+    "行政区",
+    "町名頭文字",
+    "町名",
+    "読み",
+    "No."
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12019/resource/98848/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "68dd7ac7bd337379e31412f3d898a951cc329ed4d7b8b3cdbce66e706c489f08",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 行政区 / 町名頭文字 / 町名 / 読み / No.)",
+   "header": [
+    "行政区",
+    "町名頭文字",
+    "町名",
+    "読み",
+    "No."
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12155/resource/99229/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "8a99a851077875565694dc3c5f83b29d32a29607e22d6f9219855bd794895045",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行:  /  /  /  / )",
+   "header": [
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12155/resource/99228/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "65b0c217b574b85ebdf4931dcd9e04494d1eab3baf14431a9cff57fb739cb053",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行:  /  /  /  /  / )",
+   "header": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12155/resource/99227/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "69fe50b58cec5faa9b65cc74d0bacb6e834831fe3fbb946d128d8e42288029c4",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行:  /  /  /  /  / )",
+   "header": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12469/resource/103615/%E5%8F%8E%E9%9B%86%E6%97%A5%E7%A8%8B%E8%A1%A8%EF%BC%88%E6%B8%85%E6%B0%B4%E5%8C%BA%E3%81%AE%E8%B3%87%E6%BA%90%E3%81%94%E3%81%BF%EF%BC%89.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12674/resource/105115/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "339db329a17298712d2b4b27990191f169ec0f0df8a95262aee0903357df98fd",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 行政区 / 町名頭文字 / 町名 / 読み / No.)",
+   "header": [
+    "行政区",
+    "町名頭文字",
+    "町名",
+    "読み",
+    "No."
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12674/resource/105116/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12675/resource/105117/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "a8e1db5a4664e8be19301bc5d63eeae9ef0aead7de03531825960adb2fb394ee",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 曜日 / 日付 / 収集区域1 / 収集区域2 / 収集区域3 / 収集区域4)",
+   "header": [
+    "曜日",
+    "日付",
+    "収集区域1",
+    "収集区域2",
+    "収集区域3",
+    "収集区域4",
+    "収集区域5",
+    "収集区域6",
+    "収集区域7",
+    "収集区域8",
+    "収集区域9",
+    "収集区域10",
+    "収集区域11",
+    "収集区域12",
+    "収集区域13",
+    "収集区域14",
+    "収集区域15",
+    "収集区域16",
+    "収集区域21",
+    "収集区域22",
+    "収集区域23",
+    "収集区域24",
+    "収集区域25",
+    "収集区域26",
+    "収集区域27",
+    "収集区域28",
+    "収集区域29",
+    "収集区域30",
+    "収集区域31",
+    "収集区域32",
+    "収集区域41",
+    "収集区域42",
+    "収集区域44",
+    "収集区域45",
+    "収集区域46",
+    "収集区域48",
+    "収集区域49",
+    "収集区域50",
+    "収集区域51",
+    "NO"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12675/resource/105118/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12766/resource/105867/R8%E5%88%86%E5%88%A5%E5%B8%B3%E3%83%87%E3%83%BC%E3%82%BF.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "fd03de083715608457770294b464c4e9482767cc0f6c9e919e2bd9b0b5e79ec2",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "type",
+    "name",
+    "notice",
+    "furigana",
+    ""
+   ],
+   "rows": 201,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12766/resource/105866/R8%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12805/resource/106083/%EF%BC%98%E3%80%80%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "2719f0f716656cd53d77a58f37e5ffceebb845132013bfed2a9590158d474278",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 8し尿収集処理状況 /  /  /  / )",
+   "header": [
+    "８　し尿収集処理状況",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12805/resource/106082/%EF%BC%97%E3%80%80%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12805/resource/106081/%EF%BC%96%E3%80%80%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "6f5530d4a27f83f0bdf09b984b8605ad38c49df76dc622b7f5e77470a6bfd6ec",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 6狂犬病予防 /  /  /  /  / )",
+   "header": [
+    "６　狂犬病予防",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/5896/resource/31207/%EF%BC%88%E8%A2%8B%E4%BA%95%E5%B8%82%EF%BC%89%E8%B3%87%E6%BA%90%E3%81%94%E3%81%BF%E3%83%BB%E5%9F%8B%E7%AB%8B%E3%81%94%E3%81%BF%E3%81%AE%E5%88%86%E5%88%A5%E8%A1%A8.csv.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/5897/resource/31208/%EF%BC%88%E8%A2%8B%E4%BA%95%E5%B8%82%EF%BC%89%E5%9C%B0%E5%8C%BA%E6%AF%8E%E3%81%AE%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E6%97%A5.csv.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7696/resource/40094/%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E3%81%AE%E5%88%86%E5%88%A5.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "19a7dea973f7db7b9bf6a801a50f1efd75ee312e147b6aeaa86d352cf9fabe81",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "type",
+    "name",
+    "notice",
+    "furigana"
+   ],
+   "rows": 109,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7696/resource/40093/%E5%B9%B3%E6%88%9030%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7720/resource/40272/%E5%B9%B3%E6%88%9031%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "eab8a260368ff216d2b66a1e6b103a8a1dbf7e4226a0eb95f50da51958ecdd1c",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: マスター / 地名 / センター / もえるごみ / びん / カン)",
+   "header": [
+    "マスター ",
+    "地名 ",
+    "センター ",
+    "もえるごみ ",
+    "びん ",
+    "カン ",
+    "金属 ",
+    "われもの類・乾電池 ",
+    "古紙 ",
+    "ペットボトル"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7720/resource/40271/%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E3%81%AE%E5%88%86%E5%88%A5.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7742/resource/58087/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "8ed60667f073f323ea6d024134f959b36c28769ffbaaa3c2faa9b09e5e32c215",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行:  /  /  /  / )",
+   "header": [
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7742/resource/58086/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7742/resource/58085/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20511 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7752/resource/40580/2019%E5%B9%B4%E5%BA%A6%E3%81%94%E3%81%BF%E5%87%BA%E3%81%97%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20548 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7930/resource/58305/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20529 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7930/resource/58304/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20542 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7930/resource/58303/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20537 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7949/resource/58539/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20620 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7949/resource/58538/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20512 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7949/resource/58537/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20533 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7966/resource/58755/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20524 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7966/resource/58754/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20561 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7966/resource/58753/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20531 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8068/resource/43459/%E4%BB%A4%E5%92%8C%EF%BC%92%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20560 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8068/resource/43458/%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E3%81%AE%E5%88%86%E5%88%A5.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20536 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8134/resource/58995/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20546 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8134/resource/58994/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20542 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8134/resource/58993/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20551 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8145/resource/44450/2020%E5%B9%B4%E5%BA%A6%E3%81%94%E3%81%BF%E5%87%BA%E3%81%97%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20554 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8491/resource/50984/%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E3%81%AE%E5%88%86%E5%88%A5.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20574 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8491/resource/50983/%E4%BB%A4%E5%92%8C3%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20529 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8575/resource/51380/222071_15-13%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E3%81%AE%E6%8E%A8%E7%A7%BB%EF%BC%88%E5%AF%8C%E5%A3%AB%E5%AE%AE%E5%B8%82%E3%81%AE%E7%B5%B1%E8%A8%88%EF%BC%89.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20556 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8590/resource/51401/2021%E5%B9%B4%E5%BA%A6%E3%81%94%E3%81%BF%E5%87%BA%E3%81%97%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20542 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8648/resource/52626/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20601 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8648/resource/52625/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20548 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8648/resource/52624/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20643 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8896/resource/57879/%E4%BB%A4%E5%92%8C%EF%BC%94%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20532 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8896/resource/57878/%E5%88%86%E5%88%A5%E5%B8%B3%E3%83%87%E3%83%BC%E3%82%BF.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20547 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8950/resource/59645/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20537 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8950/resource/59644/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20658 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8950/resource/59643/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20524 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9160/resource/61866/2022area_days.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20560 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9259/resource/62111/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20629 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9259/resource/62112/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20560 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9260/resource/62113/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20552 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9260/resource/62114/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20553 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9712/resource/65586/%E4%BB%A4%E5%92%8C%EF%BC%95%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20542 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9712/resource/65585/%E5%88%86%E5%88%A5%E5%B8%B3%E3%83%87%E3%83%BC%E3%82%BF.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20553 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9729/resource/65836/2023area_days.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20544 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9813/resource/66834/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20536 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9813/resource/66833/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20537 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9813/resource/66832/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20538 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9853/resource/67300/1.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20540 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9853/resource/96828/2.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20572 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9879/resource/100030/222127_gomihasseiryo.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20571 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1004/resource/34316/%E5%B9%B3%E6%88%9029%E5%B9%B4%E5%BA%A6%E3%81%94%E3%81%BF%E5%87%BA%E3%81%97%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20546 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1010/resource/34328/%E5%B9%B3%E6%88%9028%E5%B9%B4%E5%BA%A6%E3%81%94%E3%81%BF%E5%87%BA%E3%81%97%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20554 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1011/resource/44449/%E3%81%94%E3%81%BF%E3%81%AE%E5%87%BA%E3%81%97%E6%96%B9R2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20557 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1011/resource/34330/%E3%81%94%E3%81%BF%E3%81%AE%E5%87%BA%E3%81%97%E6%96%B9.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20547 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-1088/resource/34448/%E5%B7%9D%E6%A0%B9%E6%9C%AC%E7%94%BA%E3%81%94%E3%81%BF%E3%81%AE%E5%87%BA%E3%81%97%E6%96%B9%E8%BE%9E%E5%85%B8%EF%BC%88%E4%BA%94%E5%8D%81%E9%9F%B3%E9%A0%86%EF%BC%89.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20550 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-496/resource/34886/%E5%B9%B3%E6%88%90%EF%BC%92%EF%BC%99%E5%B9%B4%E5%BA%A6%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20532 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-496/resource/34885/%E4%BC%8A%E6%9D%B1%E5%B8%82%E3%81%94%E3%81%BF%E3%83%BB%E8%B3%87%E6%BA%90%E3%81%AE%E5%88%86%E5%88%A5.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20564 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-826/resource/33956/%EF%BC%88%E8%A2%8B%E4%BA%95%E5%B8%82%EF%BC%89%E8%B3%87%E6%BA%90%E3%81%94%E3%81%BF%E3%83%BB%E5%9F%8B%E7%AB%8B%E3%81%94%E3%81%BF%E3%81%AE%E5%88%86%E5%88%A5%E8%A1%A8.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20538 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-827/resource/33958/%EF%BC%88%E8%A2%8B%E4%BA%95%E5%B8%82%EF%BC%89%E5%9C%B0%E5%8C%BA%E6%AF%8E%E3%81%AE%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E6%97%A5.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20562 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-885/resource/34065/%EF%BC%A829.ods": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20541 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-910/resource/34116/%E5%BE%A1%E5%89%8D%E5%B4%8E%E5%B8%82%E5%AE%B6%E5%BA%AD%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20564 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-922/resource/34148/222241_garvage_collection_point.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20546 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/fuji-987/resource/34283/%E5%B9%B3%E6%88%9030%E5%B9%B4%E5%BA%A6%E3%81%94%E3%81%BF%E5%87%BA%E3%81%97%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20556 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11061/resource/85127/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20524 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11061/resource/85126/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20549 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11061/resource/85125/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20523 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11833/resource/98225/%E4%BB%A4%E5%92%8C%EF%BC%96%E5%B9%B4%E5%BA%A6%E9%AB%98%E9%BD%A2%E8%80%85%E5%9F%BA%E7%A4%8E%E8%AA%BF%E6%9F%BB%E8%A1%A8.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20541 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12023/resource/100150/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20530 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12023/resource/100151/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20576 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12024/resource/100152/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20530 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12024/resource/100153/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20559 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12025/resource/100154/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20550 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12025/resource/100155/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20566 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12137/resource/99083/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20543 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12137/resource/99084/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20562 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12157/resource/99279/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20550 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12157/resource/99278/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20544 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12157/resource/99277/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20539 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12803/resource/106043/28%E3%80%80%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20549 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12803/resource/106042/27%E3%80%80%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20529 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12803/resource/106041/26%E3%80%80%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20548 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/6105/resource/42747/%E5%B9%B3%E6%88%9027%E5%B9%B4%E5%BA%A6%E4%B8%96%E5%B8%AF%E5%8C%BA%E5%88%86%E5%88%A5%E9%AB%98%E9%BD%A2%E8%80%85%E4%BA%BA%E5%8F%A3%E5%8F%8A%E3%81%B3%E4%B8%96%E5%B8%AF%E6%95%B0.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20527 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7744/resource/58139/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20562 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7744/resource/58138/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20524 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7744/resource/58137/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": null,
+  "error": "curl の終了コード 28: curl: (28) Failed to connect to opendata.pref.shizuoka.jp port 443 after 20560 ms: Couldn't connect to server"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7932/resource/58357/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "00c2cfc688bd2fbc861e08fc41648567bce649641e18fac18c5566fd0c79e93c",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 28不良行為少年補導状況 /  /  /  /  / )",
+   "header": [
+    "28 不良行為少年補導状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7932/resource/58356/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "7dd577d483038425b7db4c0695812c74d4fdfbf43a5ddcfd3917ed65a537a0f2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 27人事訴訟事件状況 /  /  /  /  / )",
+   "header": [
+    "27 人事訴訟事件状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7932/resource/58355/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "fda2aed853275fe1b8a83f900ce0dcc97c0f61d788161ef5902b3062cc512e35",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 26家事調停事件状況 /  /  /  /  / )",
+   "header": [
+    "26 家事調停事件状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7951/resource/58591/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "1a1a8dd9a54fa9bac7928e4e5aab2c5c8faed59a8fa428c52c593bf52986101f",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 28不良行為少年補導状況 /  /  /  /  / )",
+   "header": [
+    "28 不良行為少年補導状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7951/resource/58590/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "ce30f5c6706c39b8944dfeb743ba201ac2ed52e0bc493cad94f5bed9db3bf427",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 27人事訴訟事件状況 /  /  /  /  / )",
+   "header": [
+    "27 人事訴訟事件状況",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7951/resource/58589/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "1ced1fbf94b4fbf66b00c0e4a056ebc30162f78b62aa5fdd8aa4ae0c7773ba8d",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 26家事調停事件状況 /  /  /  /  / )",
+   "header": [
+    "26 家事調停事件状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7968/resource/58828/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "24781e03a85e14e26de905101d1e9934dbd7531383cfadf4739523e069961ca3",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 28不良行為少年補導状況 /  /  /  /  / )",
+   "header": [
+    "28 不良行為少年補導状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7968/resource/58827/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "607273080e98e48317295dfdfbe58256d205ab0abd3ec8c35891524a06ec2665",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 27人事訴訟事件状況 /  /  /  /  / )",
+   "header": [
+    "27 人事訴訟事件状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7968/resource/58826/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "60d9134a26e7d45f6350f6d5662a2cfa1588a33801edccaf555783ffed98be92",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 26家事調停事件状況 /  /  /  /  / )",
+   "header": [
+    "26 家事調停事件状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8136/resource/59061/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "054cd16475ea8a218bff35d83c610d341335b7581b127db11feb7e894ea640e4",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 28不良行為少年補導状況 /  /  /  /  / )",
+   "header": [
+    "28 不良行為少年補導状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8136/resource/59060/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "575632fe9dc5cf6534195461d05e3e47ad4ef3009b141cb8e5a47882aa9a6d18",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 27人事訴訟事件状況 /  /  /  /  / )",
+   "header": [
+    "27 人事訴訟事件状況",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8136/resource/59059/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "00f6616d49fb1157335daf5201a9f226569b11fa66377f567ad8b81c8e5ce0fe",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 26家事調停事件状況 /  /  /  /  / )",
+   "header": [
+    "26 家事調停事件状況",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8653/resource/52685/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "1bbc6d152e9b895f0885abe12ab63e701547af6bbd186748bdca11ab0d46e5c3",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 28不良行為少年補導状況 /  /  /  /  / )",
+   "header": [
+    "28 不良行為少年補導状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8653/resource/52684/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "c79363c7593d5066b8094f9f985aac07a228df71474c385d623ba833b382187d",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 27人事訴訟事件状況 /  /  /  /  / )",
+   "header": [
+    "27 人事訴訟事件状況",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8653/resource/52683/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "acf621521bb9965618b1f3e935587198967c61b43c0ecadb55149a5b11983899",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 26家事調停事件状況 /  /  /  /  / )",
+   "header": [
+    "26 家事調停事件状況",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8952/resource/59704/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "9c0925796bdcc801cc2ce49bc49cf97990306e850f717ecc71fd29505cdb072a",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 28不良行為少年補導状況 /  /  /  /  / )",
+   "header": [
+    "28 不良行為少年補導状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8952/resource/59703/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "33f9a6b5d1fe25e2cabca15d3e07005ef7ead157ffb82d9c798512032142ac59",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 27人事訴訟事件状況 /  /  /  /  / )",
+   "header": [
+    "27 人事訴訟事件状況",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8952/resource/59702/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "035c0330768f2c3b6074896354fa2c7a32bda2a7b34d5749e10a55fea12ad753",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 26家事調停事件状況 /  /  /  /  / )",
+   "header": [
+    "26 家事調停事件状況",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9815/resource/66887/28%20%E4%B8%8D%E8%89%AF%E8%A1%8C%E7%82%BA%E5%B0%91%E5%B9%B4%E8%A3%9C%E5%B0%8E%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "0d122900c1edd719540ee9973d2ce6dfcf391ea4641407580c70819b5137f385",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 28不良行為少年補導状況 /  /  /  /  / )",
+   "header": [
+    "28 不良行為少年補導状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9815/resource/66886/27%20%E4%BA%BA%E4%BA%8B%E8%A8%B4%E8%A8%9F%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "e91bbbea8edbbe306abadbb75fb03dcda80bb681dae737571792d5ad4a3ec639",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 27人事訴訟事件状況 /  /  /  /  / )",
+   "header": [
+    "27 人事訴訟事件状況",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9815/resource/66885/26%20%E5%AE%B6%E4%BA%8B%E8%AA%BF%E5%81%9C%E4%BA%8B%E4%BB%B6%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11973/resource/107293/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11973/resource/107294/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "9d58e396d8ddaacf37ab0fc4e10abca73237bf79227f3cbdd8721069c7e5bb74",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 都道府県コード又は市区町村コード / NO / 都道府県名 / 市区町村名 / 回収場所名 / 区)",
+   "header": [
+    "都道府県コード又は市区町村コード",
+    "NO",
+    "都道府県名",
+    "市区町村名",
+    "回収場所名",
+    "区",
+    "住所",
+    "回収日時",
+    "連絡先",
+    "新聞",
+    "雑誌",
+    "雑がみ",
+    "段ボール",
+    "紙パック",
+    "古着",
+    "アルミ缶",
+    "スチール缶",
+    "びん",
+    "ペットボトル",
+    "食品トレー",
+    "その他",
+    "緯度",
+    "経度"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12226/resource/107295/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/12226/resource/107296/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "fbc6f1eda61c0b1c08ab740590cf67e3b766461723445ac85d25386a9b225dd8",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 都道府県コード又は市区町村コード / NO / 都道府県名 / 市区町村名 / 回収場所 / 区)",
+   "header": [
+    "都道府県コード又は市区町村コード",
+    "NO",
+    "都道府県名",
+    "市区町村名",
+    "回収場所",
+    "区",
+    "住所",
+    "回収日時",
+    "電話番号",
+    "廃食用油",
+    "インクカートリッジ",
+    "小型家電",
+    "雑がみのみ",
+    "新聞・雑誌・雑がみ・段ボール・紙パック",
+    "古着",
+    "羽毛布団",
+    "リターナブルびん",
+    "緯度",
+    "経度"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/9651/resource/105308/22215_garbage_disposal.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11545/resource/92389/5-16-2%E9%83%BD%E5%B8%82%E8%A8%88%E7%94%BB%E3%83%BB%E5%BB%BA%E7%AF%89%E3%83%BB%E6%99%AF%E8%A6%B3%E3%80%80%E3%81%94%E3%81%BF%E5%87%A6%E7%90%86%E9%87%8F%E3%81%AE%E7%8A%B6%E6%B3%81%E3%80%80%E5%87%A6%E7%90%86%E3%83%BB%E5%87%A6%E5%88%86%E9%87%8F.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "9538fd9260bcf5780db005db0dc92b7689bed169922048ce68a2967150134807",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 2処理・処分量 /  /  /  /  / )",
+   "header": [
+    "②処理・処分量",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11935/resource/98680/source-url": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11059/resource/85074/08%20%E3%81%97%E5%B0%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "d61c5de2a456d209619d08ad67328ae31ee48e64c52c14c269466bb21865984b",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行:  /  /  /  / )",
+   "header": [
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11059/resource/85073/07%20%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E5%87%A6%E7%90%86%E7%8A%B6%E6%B3%81.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "413d294fad14524bf94e764b33ff0f327682549408545171fcf9240189c154ae",
+  "error": "応答 429"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/11059/resource/85072/06%20%E7%8B%82%E7%8A%AC%E7%97%85%E4%BA%88%E9%98%B2.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "4931ffa3447a088942d4d3bde97960a6ae88df2c8a62733726845393df039c1b",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行:  /  /  /  /  / )",
+   "header": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.city.fujimino.saitama.jp/material/files/group/5/112453garbage-separation.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "24f8c59b344b65699ff37c03fb8c86261291c6fe57616ef3dc79015659aada54",
+  "error": "応答 404"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/4857": {
+  "checked_at": "2026-10-16",
+  "sha256": "faa126aa1229fe5513fa4c5eed318e865d37c81000055e421141c606f42998f7",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 識別情報 / ごみの出し方_全国地方公共団体コード / ごみの出し方_団体名 / ごみの出し方_分別区分 / ごみの出し方_主なもの / ごみの出し方_出し方)",
+   "header": [
+    "識別情報",
+    "ごみの出し方_全国地方公共団体コード",
+    "ごみの出し方_団体名",
+    "ごみの出し方_分別区分",
+    "ごみの出し方_主なもの",
+    "ごみの出し方_出し方"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/4858": {
+  "checked_at": "2026-10-16",
+  "sha256": "cfa1ebf6d9ef47bcf8adabfaf7c11369bf08c910782d9777c93f1eadb5629060",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 識別情報 / ごみの分別辞典_全国地方公共団体コード / ごみの分別辞典_団体名 / ごみの分別辞典_品目 / ごみの分別辞典_品目ふりがな / ごみの分別辞典_分別区分)",
+   "header": [
+    "識別情報",
+    "ごみの分別辞典_全国地方公共団体コード",
+    "ごみの分別辞典_団体名",
+    "ごみの分別辞典_品目",
+    "ごみの分別辞典_品目ふりがな",
+    "ごみの分別辞典_分別区分",
+    "ごみの分別辞典_注意点"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.city.fujimino.saitama.jp/material/files/group/5/112453garbage-separation.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "24f8c59b344b65699ff37c03fb8c86261291c6fe57616ef3dc79015659aada54",
+  "error": "応答 404"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6615": {
+  "checked_at": "2026-10-16",
+  "sha256": "42bd74ca7505b40829bc9fdc9717ff750dd05c1ee0f0af5796391d350591e949",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 識別情報 / ごみの出し方_全国地方公共団体コード / ごみの出し方_団体名 / ごみの出し方_分別区分 / ごみの出し方_主なもの / )",
+   "header": [
+    "識別情報",
+    "ごみの出し方_全国地方公共団体コード",
+    "ごみの出し方_団体名",
+    "ごみの出し方_分別区分",
+    "ごみの出し方_主なもの",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/4809": {
+  "checked_at": "2026-10-16",
+  "sha256": "c3ee7c0b2b191346c58b95c7730c530dac2fe759b95e567cfd26877d2dcccbd7",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "住所（所在地）",
+    "名称",
+    "種別",
+    "郵便番号",
+    "ＴＥＬ",
+    "ＦＡＸ",
+    "緯度",
+    "経度"
+   ],
+   "rows": 55,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6686": {
+  "checked_at": "2026-10-16",
+  "sha256": "ef0f81f04121485e5aab95958f7a9684b1a87510ea3247393565ce3f04f4c640",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 最終処分量(埋め立て量)の比較(単位:トン、少数第一位にて四捨五入) /  /  /  /  / )",
+   "header": [
+    "最終処分量（埋め立て量）の比較(単位：トン、少数第一位にて四捨五入)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/1493": {
+  "checked_at": "2026-10-16",
+  "sha256": "e3ab62da2a1f406dac3f9a035ed836b3b5b202c655780d5685ec2fdaab138c1a",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 最終処分量(埋め立て量)の比較(単位:トン、少数第一位にて四捨五入) /  /  /  /  / )",
+   "header": [
+    "最終処分量（埋め立て量）の比較(単位：トン、少数第一位にて四捨五入)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8909": {
+  "checked_at": "2026-10-16",
+  "sha256": "ded5ad42ed6cbec28e1fa8d481ee11bc5e6dd1ca1ad583ed047d4673abe3e5dc",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: ペットボトル月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "ペットボトル月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6684": {
+  "checked_at": "2026-10-16",
+  "sha256": "c33c84e8141a914da270d87876163a9bd7496b64001afa2f707fd566e101b1e2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: ペットボトル月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "ペットボトル月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3429": {
+  "checked_at": "2026-10-16",
+  "sha256": "44d6432fa97844d9ecc28a827db746513badfdda8f2d86640516b32574459c75",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: ペットボトル月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "ペットボトル月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8910": {
+  "checked_at": "2026-10-16",
+  "sha256": "9a95fbaafcd79d67242e9af5cc92ed6ec61eee8c623a600f882505cb55b8d05f",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 燃やすごみと資源ごみの収集量の推移(単位:トン) /  /  /  /  / )",
+   "header": [
+    "燃やすごみと資源ごみの収集量の推移（単位：トン）",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6688": {
+  "checked_at": "2026-10-16",
+  "sha256": "ff8f4daf7e2cb00b97833fd1273eb9bcf82a36645d2bc604e1bb70a5716d80cc",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 燃やすごみと資源ごみの収集量の推移(単位:トン) /  /  /  /  / )",
+   "header": [
+    "燃やすごみと資源ごみの収集量の推移（単位：トン）",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/944": {
+  "checked_at": "2026-10-16",
+  "sha256": "63b35deef4d6e00a5be1da74129365434522b5034fe4512c7f603438996880c2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 燃やすごみと資源ごみの収集量の推移(単位:トン))",
+   "header": [
+    "燃やすごみと資源ごみの収集量の推移（単位：トン）"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8911": {
+  "checked_at": "2026-10-16",
+  "sha256": "e4eef1b336d3cd891117909fd4bedc6377f7817aa9e00eee93b925fb889c4bac",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 燃やすごみ(生活系ごみ)月別収集量 / (単位:トン) /  /  /  / )",
+   "header": [
+    "燃やすごみ(生活系ごみ)月別収集量",
+    "(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6689": {
+  "checked_at": "2026-10-16",
+  "sha256": "2a0ebf29c8e9e3d27507b30480687ab5954652d73fc268289765205805ec8c5a",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 燃やすごみ(家庭系ごみ)月別収集量 / (単位:トン) /  /  /  / )",
+   "header": [
+    "燃やすごみ(家庭系ごみ)月別収集量",
+    "(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/947": {
+  "checked_at": "2026-10-16",
+  "sha256": "615fbeb707ba905588ecae7150c56aec1bb25101fd978c74cc2b6c352ba2320e",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 燃やすごみ(ごみ集積所に出された家庭系ごみ)月別収集量,(単位:トン),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,)",
+   "header": [
+    "燃やすごみ(ごみ集積所に出された家庭系ごみ)月別収集量,(単位：トン),,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8912": {
+  "checked_at": "2026-10-16",
+  "sha256": "b200ba374428c0f3a33373cf21929a86ef81a4e6f36648987cce239446fc005a",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 紙類(新聞紙、雑誌・書籍、ダンボール、紙パック、雑がみ)月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "紙類(新聞紙、雑誌・書籍、ダンボール、紙パック、雑がみ)月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6687": {
+  "checked_at": "2026-10-16",
+  "sha256": "96c34f6f49217c74ebdb0e807bb075088bc867b04e42fe16170a11909fe59b10",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 紙類(新聞紙、雑誌・書籍、ダンボール、紙パック、雑がみ)月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "紙類(新聞紙、雑誌・書籍、ダンボール、紙パック、雑がみ)月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3425": {
+  "checked_at": "2026-10-16",
+  "sha256": "cd92d3132d0ad697dcd429f5114034366ec141bb0f6f1943d08a7a1e7f57cdce",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 紙類(新聞紙、雑誌・書籍、ダンボール、紙パック、雑がみ)月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "紙類(新聞紙、雑誌・書籍、ダンボール、紙パック、雑がみ)月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8913": {
+  "checked_at": "2026-10-16",
+  "sha256": "06591f20c557daff6574156d358de9a6558df6dfebd062d6bceccc69425c2995",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 衣類月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "衣類　月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6685": {
+  "checked_at": "2026-10-16",
+  "sha256": "a946c56a5383cc167a6386aeb26babebda95b685122c14e4de0d173000163e92",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 衣類月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "衣類　月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/1083": {
+  "checked_at": "2026-10-16",
+  "sha256": "c89758fdceaff08237079e4a8a0188b2a4924752168d9c2eff17b681546cf868",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 衣類月別収集量(単位:トン) /  /  /  /  / )",
+   "header": [
+    "衣類　月別収集量(単位：トン)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/5179": {
+  "checked_at": "2026-10-16",
+  "sha256": "5a080e5fbde2349f48277115cac0c119136a724e324bfde850f1b4fbb99870fe",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "地方公共団体名",
+    "名称",
+    "名称_カナ",
+    "名称_英字",
+    "名称_通称",
+    "POIコード",
+    "外部識別子",
+    "外部識別の値",
+    "所在地_全国地方公共団体コード",
+    "町字ID",
+    "所在地_連結表記",
+    "所在地_都道府県",
+    "所在地_市区町村",
+    "所在地_町字",
+    "所在地_番地以下",
+    "建物名等（方書）",
+    "緯度",
+    "経度",
+    "高度の種別",
+    "高度の値",
+    "電話番号",
+    "内線番号",
+    "連絡先メールアドレス",
+    "連絡先FormURL",
+    "連絡先備考（その他、SNSなど）",
+    "郵便番号",
+    "法人番号",
+    "団体名",
+    "利用可能曜日",
+    "開始時間",
+    "終了時間",
+    "利用可能時間特記事項",
+    "説明",
+    "車椅子可",
+    "車椅子貸出",
+    "ツエ貸出",
+    "多目的トイレ",
+    "スロープ、エレベータ、エスカレータ",
+    "点字ブロック等の移動支援",
+    "点字や読上による支援",
+    "盲導犬・介助犬・聴導犬同伴",
+    "字幕",
+    "筆談対応",
+    "優先駐車場",
+    "オストメイト対応トイレ",
+    "授乳室",
+    "おむつ替えコーナー",
+    "飲食可否",
+    "ベビーカー貸出",
+    "ベビーカー利用",
+    "URL",
+    "画像",
+    "画像ライセンス",
+    "備考"
+   ],
+   "rows": 143,
+   "standard": false,
+   "codes": [
+    "112291"
+   ]
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/5178": {
+  "checked_at": "2026-10-16",
+  "sha256": "a3312fd7318c2c956d630f53552117e26642ee29b1fdd56a3844f36cbcbe4bf4",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "地方公共団体名",
+    "名称",
+    "名称_カナ",
+    "名称_英字",
+    "名称_通称",
+    "POIコード",
+    "外部識別子",
+    "外部識別の値",
+    "所在地_全国地方公共団体コード",
+    "町字ID",
+    "所在地_連結表記",
+    "所在地_都道府県",
+    "所在地_市区町村",
+    "所在地_町字",
+    "所在地_番地以下",
+    "建物名等（方書）",
+    "緯度",
+    "経度",
+    "高度の種別",
+    "高度の値",
+    "電話番号",
+    "内線番号",
+    "連絡先メールアドレス",
+    "連絡先FormURL",
+    "連絡先備考（その他、SNSなど）",
+    "郵便番号",
+    "法人番号",
+    "団体名",
+    "利用可能曜日",
+    "開始時間",
+    "終了時間",
+    "利用可能時間特記事項",
+    "説明",
+    "車椅子可",
+    "車椅子貸出",
+    "ツエ貸出",
+    "多目的トイレ",
+    "スロープ、エレベータ、エスカレータ",
+    "点字ブロック等の移動支援",
+    "点字や読上による支援",
+    "盲導犬・介助犬・聴導犬同伴",
+    "字幕",
+    "筆談対応",
+    "優先駐車場",
+    "オストメイト対応トイレ",
+    "授乳室",
+    "おむつ替えコーナー",
+    "飲食可否",
+    "ベビーカー貸出",
+    "ベビーカー利用",
+    "URL",
+    "画像",
+    "画像ライセンス",
+    "備考"
+   ],
+   "rows": 143,
+   "standard": false,
+   "codes": [
+    "112291"
+   ]
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3610": {
+  "checked_at": "2026-10-16",
+  "sha256": "ceec23082dd54ea7aefa54b48ab5928fa00b27dcf9c20bc4cad4915265aa4619",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 10保健衛生 /  /  /  /  / )",
+   "header": [
+    "１０　保健衛生",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3609": {
+  "checked_at": "2026-10-16",
+  "sha256": "14e7df6c2c002ad0d40ce8eac4a7303bca625014d39161355974a40eac971eee",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 10保健衛生 /  /  /  /  / )",
+   "header": [
+    "１０　保健衛生",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3608": {
+  "checked_at": "2026-10-16",
+  "sha256": "dcd098c7ad81db9f64c98cc6337cc9e07e54670044e5260f89eebe51e6e86871",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 10保健衛生 /  /  /  /  / )",
+   "header": [
+    "１０　保健衛生",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/4656": {
+  "checked_at": "2026-10-16",
+  "sha256": "ab1456ca5c797562f714762a147ac63175e038ff6122f16c49669490412235e0",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "ゴミの分別方法_全国地方公共団体コード",
+    "ゴミの分別方法_ID",
+    "ゴミの分別方法_品目",
+    "ゴミの分別方法_分別区分",
+    "ゴミの分別方法_注意点",
+    "ゴミの分別方法_料金種別",
+    "ゴミの分別方法_料金",
+    "ゴミの分別方法_料金備考",
+    "ゴミの分別方法_備考"
+   ],
+   "rows": 942,
+   "standard": true,
+   "codes": [
+    "112011"
+   ]
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/4655": {
+  "checked_at": "2026-10-16",
+  "sha256": "2c198adac8510fc895601b28ee34dcb380c215411912e53a0b32a8c5fa84a917",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "ゴミの分別方法_全国地方公共団体コード",
+    "ゴミの分別方法_ID",
+    "ゴミの分別方法_品目",
+    "ゴミの分別方法_分別区分",
+    "ゴミの分別方法_注意点",
+    "ゴミの分別方法_料金種別",
+    "ゴミの分別方法_料金",
+    "ゴミの分別方法_料金備考",
+    "ゴミの分別方法_備考"
+   ],
+   "rows": 942,
+   "standard": true,
+   "codes": [
+    "112011"
+   ]
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/1078": {
+  "checked_at": "2026-10-16",
+  "sha256": "9306728dbd20e882c66bc9041b6349dad834ff930e36aaa776bc8d35c868d4ec",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 都道府県コード又は市区町村コード / NO / 都道府県名 / 市区町村名 / 名称 / 名称_カナ)",
+   "header": [
+    "都道府県コード又は市区町村コード",
+    "NO",
+    "都道府県名",
+    "市区町村名",
+    "名称",
+    "名称_カナ",
+    "名称_英語",
+    "住所",
+    "方書",
+    "設置位置",
+    "緯度",
+    "経度",
+    "男性トイレ総数",
+    "男性トイレ数（小便器）",
+    "男性トイレ数（和式）",
+    "男性トイレ数（洋式）",
+    "女性トイレ総数",
+    "女性トイレ数（和式）",
+    "女性トイレ数（洋式）",
+    "男女共用トイレ総数",
+    "男女共用トイレ数（和式）",
+    "男女共用トイレ数（洋式）",
+    "多機能トイレ数",
+    "車椅子使用者用トイレ有無",
+    "乳幼児用設備設置トイレ有無",
+    "オストメイト設置トイレ有無",
+    "利用開始時間",
+    "利用終了時間",
+    "利用可能時間特記事項",
+    "画像",
+    "画像_ライセンス",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/1077": {
+  "checked_at": "2026-10-16",
+  "sha256": "86d3a64a9716cb86bac51c1cf184ae1c60021305eb00f38cedb3e33a2c8fd3c5",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 都道府県コード又は市区町村コード / NO / 都道府県名 / 市区町村名 / 名称 / 名称_カナ)",
+   "header": [
+    "都道府県コード又は市区町村コード",
+    "NO",
+    "都道府県名",
+    "市区町村名",
+    "名称",
+    "名称_カナ",
+    "名称_英語",
+    "住所",
+    "方書",
+    "設置位置",
+    "緯度",
+    "経度",
+    "男性トイレ総数",
+    "男性トイレ数（小便器）",
+    "男性トイレ数（和式）",
+    "男性トイレ数（洋式）",
+    "女性トイレ総数",
+    "女性トイレ数（和式）",
+    "女性トイレ数（洋式）",
+    "男女共用トイレ総数",
+    "男女共用トイレ数（和式）",
+    "男女共用トイレ数（洋式）",
+    "多機能トイレ数",
+    "車椅子使用者用トイレ有無",
+    "乳幼児用設備設置トイレ有無",
+    "オストメイト設置トイレ有無",
+    "利用開始時間",
+    "利用終了時間",
+    "利用可能時間特記事項",
+    "画像",
+    "画像_ライセンス",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/299": {
+  "checked_at": "2026-10-16",
+  "sha256": "d7ef99a3a069a2bbe2cfb41ab0091ace54f87d6937edee78aafe0d563b274972",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/298": {
+  "checked_at": "2026-10-16",
+  "sha256": "78c379de004014f2b5f0fea2996d5355f07e4871b4087869bf78a397be784fbc",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/297": {
+  "checked_at": "2026-10-16",
+  "sha256": "d7a0ed83b3b0942c6c35bccfa264c3e4d852a809f065342dabda35eec61f0d7d",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6521": {
+  "checked_at": "2026-10-16",
+  "sha256": "e87803115cc42e19c374fe1ffd8fec3527e8d57ecbca17c9b27adbe996c8a10e",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "ゴミの分別方法_全国地方公共団体コード",
+    "ゴミの分別方法_ID",
+    "ゴミの分別方法_品目",
+    "ゴミの分別方法_分別区分",
+    "ゴミの分別方法_注意点",
+    "ゴミの分別方法_料金種別",
+    "ゴミの分別方法_料金",
+    "ゴミの分別方法_料金備考",
+    "ゴミの分別方法_備考"
+   ],
+   "rows": 1304,
+   "standard": true,
+   "codes": [
+    "112143"
+   ]
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3193": {
+  "checked_at": "2026-10-16",
+  "sha256": "13c7d55e02fcaaaef17091841dc132b3b3bd3f83a8e4fd4b54e86b22ad317c57",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: メタデータ【ゴミの分別方法一覧】 / )",
+   "header": [
+    "メタデータ【ゴミの分別方法一覧】",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3192": {
+  "checked_at": "2026-10-16",
+  "sha256": "538420ec31dbad051b4e02ade63b30c48da9e91a422afb4d2ce96dddfaa1a10b",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "ゴミの品目",
+    "分別区分",
+    "注意点",
+    "料金種別",
+    "料金",
+    "料金備考",
+    "備考"
+   ],
+   "rows": 852,
+   "standard": true,
+   "codes": [
+    "112020"
+   ]
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3191": {
+  "checked_at": "2026-10-16",
+  "sha256": "9f03efcc486948e95ad9651f8ca7ae048896ec4836f482c11a2b0fd0cec9deb7",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "ゴミの品目",
+    "分別区分",
+    "注意点",
+    "料金種別",
+    "料金",
+    "料金備考",
+    "備考"
+   ],
+   "rows": 852,
+   "standard": true,
+   "codes": [
+    "112020"
+   ]
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/6411": {
+  "checked_at": "2026-10-16",
+  "sha256": "4b4401e76f30e8ab0ddd8fbb0b9c07277699e3b26b85619761c3ef092165e25f",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "項目名",
+    "ゴミの分別方法_全国地方公共団体コード",
+    "ゴミの分別方法_ID",
+    "ゴミの分別方法_品目",
+    "ゴミの分別方法_分別区分",
+    "ゴミの分別方法_注意点",
+    "ゴミの分別方法_料金種別",
+    "ゴミの分別方法_料金",
+    "ゴミの分別方法_料金備考",
+    "ゴミの分別方法_備考"
+   ],
+   "rows": 493,
+   "standard": true,
+   "codes": [
+    "112224"
+   ]
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/1584": {
+  "checked_at": "2026-10-16",
+  "sha256": "7a9603a284fefc0486e53f6921e59baaf58264e6d1dcbb074b1997501442d03d",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 事業者名 / 所在地1 / 所在地2 / 電話番号 / 取り扱い廃棄物の種類)",
+   "header": [
+    "事業者名",
+    "所在地①",
+    "所在地②",
+    "電話番号",
+    "取り扱い廃棄物の種類"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8380": {
+  "checked_at": "2026-10-16",
+  "sha256": "0558c5866ad5506e1a71a45d34a2eb1a929914c5e3bf807a9a2a55e765d54b24",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 登録番号 / 業者名称 / 登録年月日 / 事業場所在地 / 品目)",
+   "header": [
+    "登録番号",
+    "業者名称",
+    "登録年月日",
+    "事業場所在地",
+    "品目"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8384": {
+  "checked_at": "2026-10-16",
+  "sha256": "0595de7d0794f9fb6235086e69e3d2f7b093e3aeae90dc343ab954bcbbe6daa8",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 産業廃棄物処分業)",
+   "header": [
+    "産業廃棄物処分業"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8383": {
+  "checked_at": "2026-10-16",
+  "sha256": "23df01cfcb4eb60f9f3e50585c67174843e431d72c36f65c1c3624afa12e1412",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 固有番号 / 業者名称 / 電話番号 / 本社所在地 / 事業場所在地 / )",
+   "header": [
+    "固有番号",
+    "業者名称",
+    "電話番号",
+    "本社所在地",
+    "事業場所在地",
+    "",
+    "廃油",
+    "廃酸",
+    "廃アルカリ",
+    "感染性",
+    "廃PCB等(特定有害産業廃棄物)",
+    "PCB処理物(特定有害産業廃棄物)",
+    "廃水銀等(特定有害産業廃棄物)",
+    "指定下水道(特定有害産業廃棄物)",
+    "鉱さい(特定有害産業廃棄物)",
+    "廃石綿等(特定有害産業廃棄物)",
+    "ばいじん(特定有害産業廃棄物)",
+    "燃え殻(特定有害産業廃棄物)",
+    "廃油(特定有害産業廃棄物)",
+    "汚泥(特定有害産業廃棄物)",
+    "廃酸(特定有害産業廃棄物)",
+    "廃アルカリ(特定有害産業廃棄物)"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8382": {
+  "checked_at": "2026-10-16",
+  "sha256": "88a41d0e0f633d525e226c3eaf16b4910f87e244587a7bc82b9ad612ebd2c6a3",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 固有番号 / 業者名称 / 電話番号 / 本社所在地 / 事業場所在地 / )",
+   "header": [
+    "固有番号",
+    "業者名称",
+    "電話番号",
+    "本社所在地",
+    "事業場所在地",
+    "",
+    "燃え殻",
+    "汚泥",
+    "廃油",
+    "廃酸",
+    "廃アルカリ",
+    "廃プラ",
+    "紙くず",
+    "木くず",
+    "繊維くず",
+    "動植物残",
+    "ゴムくず",
+    "金属くず",
+    "ガラ陶",
+    "鉱さい",
+    "がれき類",
+    "動物の糞尿",
+    "動物の死体",
+    "ばいじん",
+    "動物固形",
+    "政令１３号"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3928": {
+  "checked_at": "2026-10-16",
+  "sha256": "ac08a4a85139cdcbc567d6036d1f04d066645920558dd9f793327578655e6796",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3966": {
+  "checked_at": "2026-10-16",
+  "sha256": "df632e94c89ad1775dac8dd3d5230946780937fd77dc41e1205eae03f347e47d",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 構成市町ごみ処理状況 / 構成市町ごみ処理状況 / 構成市町ごみ処理状況 / 構成市町ごみ処理状況 / 構成市町ごみ処理状況 / )",
+   "header": [
+    "構成市町ごみ処理状況",
+    "構成市町ごみ処理状況",
+    "構成市町ごみ処理状況",
+    "構成市町ごみ処理状況",
+    "構成市町ごみ処理状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "単位：ｔ",
+    "単位：ｔ"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/610": {
+  "checked_at": "2026-10-16",
+  "sha256": "37541a56b681589381469c8eeee91fcdb8f446b84a03942733f2d5c78386c03e",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況)",
+   "header": [
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/609": {
+  "checked_at": "2026-10-16",
+  "sha256": "c0d33fc6716b29e700fb4310661ee06bb759a79f42adfd4be147528f23c821d2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況)",
+   "header": [
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/608": {
+  "checked_at": "2026-10-16",
+  "sha256": "2cfd54293f81a886d024de28deb6714d22dc72f68fc5e5c74140ded54695892d",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数)",
+   "header": [
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8242": {
+  "checked_at": "2026-10-16",
+  "sha256": "3e85e2c11946724d553d5ea711703aad3bbb9c4b132e200ecd791f28c5f59f25",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況 / 15-8.職員採用試験の状況)",
+   "header": [
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "１５－８．職員採用試験の状況",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8241": {
+  "checked_at": "2026-10-16",
+  "sha256": "c5f9e66a7bbfda9769952ea73b14e66990ab8f6158296436211a37ccaac28a90",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況 / 15-7.中小企業小口融資利用状況)",
+   "header": [
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況",
+    "１５－７．中小企業小口融資利用状況"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8240": {
+  "checked_at": "2026-10-16",
+  "sha256": "17c35798d7b19511480df673b2b5ded7ff862b55307f79e1a52f1af25a14d008",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数 / 15-6.窓口事務交付処理件数)",
+   "header": [
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数",
+    "１５－６．窓口事務交付処理件数"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3746": {
+  "checked_at": "2026-10-16",
+  "sha256": "4123344275a2890ac54abb8fd0471bdabc318aa5e9c034ebf7ae6e21c5dd8d17",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 9財政 /  /  /  /  / )",
+   "header": [
+    "９　財政",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3745": {
+  "checked_at": "2026-10-16",
+  "sha256": "1b534ba85d10eddb13646ab044b594e6b5eb31a3b1e0e4ea9ca2d8b8240211b8",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 9財政 /  /  /  / )",
+   "header": [
+    "９　財政",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/3744": {
+  "checked_at": "2026-10-16",
+  "sha256": "26689d44e9518d1d78bf1cadb4f7a49da811fa94f4d3a3626c41b34071494c38",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 9財政)",
+   "header": [
+    "９　財政"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/686": {
+  "checked_at": "2026-10-16",
+  "sha256": "1655942727538eeda642744db92b1eacb4f956052cc46aed6ef6883cb1d1a4da",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/685": {
+  "checked_at": "2026-10-16",
+  "sha256": "826859eda3a988557fa784a3c228cb40c54befc8d1327e74bd83b3582447e37a",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/684": {
+  "checked_at": "2026-10-16",
+  "sha256": "aaafb0c342a5ef66b1293bf597498dcf19ffae9105d8530ae004cfaaed00096e",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/4011": {
+  "checked_at": "2026-10-16",
+  "sha256": "66ddfc9472d6040af92190589c3082eccd2cd3cd8564e10fbbb64b598fa1c884",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 都市計画区域区分別面積 / 都市計画区域区分別面積 / 都市計画区域区分別面積 / 都市計画区域区分別面積 /  / 単位:ha)",
+   "header": [
+    "都市計画区域区分別面積",
+    "都市計画区域区分別面積",
+    "都市計画区域区分別面積",
+    "都市計画区域区分別面積",
+    "",
+    "単位：ha",
+    "単位：ha",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53531": {
+  "checked_at": "2026-10-16",
+  "sha256": "5ba07223f760c6f1f195f9a14f6ce1d132b6e7f9cea0d6bd94664ebc7662594f",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8907": {
+  "checked_at": "2026-10-16",
+  "sha256": "48db78ffbb78bb5d1604e55ea9a9c705cf9ea8e0aa16d1d3f2716bb7d9fc2e42",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 最終処分量(埋め立て量)の比較(単位:トン、少数第一位にて四捨五入) /  /  /  /  / )",
+   "header": [
+    "最終処分量（埋め立て量）の比較(単位：トン、少数第一位にて四捨五入)",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53530": {
+  "checked_at": "2026-10-16",
+  "sha256": "e5b60f581d8c63e3f4c93db3e819318bcac4a4048ff2d8587eabc0c52f562235",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/4778": {
+  "checked_at": "2026-10-16",
+  "sha256": "655d986d4e2b65db224dc499c30db8f94f9a0df2d39291125a15d3df0a16b7c8",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: さいたま市浄化槽清掃許可業者一覧表 /  /  / )",
+   "header": [
+    "さいたま市浄化槽清掃許可業者一覧表",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/55823": {
+  "checked_at": "2026-10-16",
+  "sha256": "8bda6fb40305e68911b8fbbfae030d73d2c5f0f07241f90686e3fc9caedb1a95",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 17-5所属別職員数 / 17-5所属別職員数 / 17-5所属別職員数 / 17-5所属別職員数 / 17-5所属別職員数 / 17-5所属別職員数)",
+   "header": [
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数",
+    "１７－５　　　所属別職員数"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/4777": {
+  "checked_at": "2026-10-16",
+  "sha256": "f48e53c71643dae154c7c53a16c4cece7e9e7ef81d10cbf506994125c4a2eee0",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 登録番号 / 保守点検業者名 / 営業所名称 / 住所 / 電話番号)",
+   "header": [
+    "登録番号",
+    "保守点検業者名",
+    "営業所名称",
+    "住所",
+    "電話番号"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/55821": {
+  "checked_at": "2026-10-16",
+  "sha256": "6998b768a49d4a3cfbab3b0949d4ff5551a611c573acb14b96f7c140f1ac4477",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 17-3国政選挙党派別得票数及び得票率 / 17-3国政選挙党派別得票数及び得票率 / 17-3国政選挙党派別得票数及び得票率 / 17-3国政選挙党派別得票数及び得票率 / 17-3国政選挙党派別得票数及び得票率 / 17-3国政選挙党派別得票数及び得票率)",
+   "header": [
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率",
+    "１７－３　　　国政選挙党派別得票数及び得票率"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/55069": {
+  "checked_at": "2026-10-16",
+  "sha256": "7dd24a394281f64267d57b0b7f34f66dd77a6eb687e12b563f5b21b46b70a332",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "品目",
+    "分別区分",
+    "処分時の注意"
+   ],
+   "rows": 605,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/1494": {
+  "checked_at": "2026-10-16",
+  "sha256": "88d11b9dd52dc6eea8b85f762c71f23ba06954c0db493c05010bad8b09248139",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 識別情報 / ごみの収集日程_全国地方公共団体コード / ごみの収集日程_団体名 / ごみの収集日程_収集地域 / ごみの収集日程_年月日 / ごみの収集日程_収集分別区分)",
+   "header": [
+    "識別情報",
+    "ごみの収集日程_全国地方公共団体コード",
+    "ごみの収集日程_団体名",
+    "ごみの収集日程_収集地域",
+    "ごみの収集日程_年月日",
+    "ごみの収集日程_収集分別区分"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/55068": {
+  "checked_at": "2026-10-16",
+  "sha256": "8326f55c46592120f5b86d0ea86f15849069b8aa1c6f6411dd190ebaaa19f339",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.saitama.lg.jp/resource_download/8619": {
+  "checked_at": "2026-10-16",
+  "sha256": "e41e2580042b303a1145a714e2e76924cc5eca216436d339eac86ec3ea7b715f",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 識別情報 / ごみ集積所_全国地方公共団体コード / ごみ集積所_団体名 / ごみ集積所_地区 / ごみ集積所番号 / ごみ集積所細番号)",
+   "header": [
+    "識別情報",
+    "ごみ集積所_全国地方公共団体コード",
+    "ごみ集積所_団体名",
+    "ごみ集積所_地区",
+    "ごみ集積所　番号",
+    "ごみ集積所　細番号",
+    "ごみ集積所　経度",
+    "ごみ集積所　緯度",
+    "ごみ集積所　座標参照系"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/55455": {
+  "checked_at": "2026-10-16",
+  "sha256": "6d4bc886db9666400199956c65dd16b2ede01b2849cc7ba007b91459954e44e9",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 地域名 / 燃やすごみ / 容器包装プラスチック類 / 燃やさないごみ / ペットボトル / 有害危険ごみ)",
+   "header": [
+    "地域名",
+    "燃やすごみ",
+    "容器包装プラスチック類",
+    "燃やさないごみ",
+    "ペットボトル",
+    "有害危険ごみ"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/56764": {
+  "checked_at": "2026-10-16",
+  "sha256": "7f57fe3c70968fec6f672fe1cea9af0af4662185c32babeda50afff6d88a73a2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: [年度]西暦 / [年度]和暦 / 収集人口(人) / 収集量(t) / 1人当たり収集量(kg))",
+   "header": [
+    "[年度]西暦",
+    "[年度]和暦",
+    "収集人口(人)",
+    "収集量(t)",
+    "１人当たり収集量(kg)"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/56186": {
+  "checked_at": "2026-10-16",
+  "sha256": "be5fc31e0211ffa81dcd7b333fee3cb6cb3316f26700c370ea4fb914866439c2",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/56293": {
+  "checked_at": "2026-10-16",
+  "sha256": "da9527e7617d4b24e37bf2d1d9644406e5216ab8f8c2d65c60b71529276ded66",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/54726": {
+  "checked_at": "2026-10-16",
+  "sha256": "a7fdfd3ddb7fcb63b61e409b292b60688c800b0c77bd6eb025f3b83d9958b99f",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53368": {
+  "checked_at": "2026-10-16",
+  "sha256": "cc55c6c0b4470c6c8b08d980c9bb32774272d75d4d0fd265fb54b6b32cd54175",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53367": {
+  "checked_at": "2026-10-16",
+  "sha256": "ccd052915201b9d823e8b871ff6f83f24031d7b2332d9fdf644b9028e92f0c5f",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53366": {
+  "checked_at": "2026-10-16",
+  "sha256": "9ee792490b469f68cfdd985ae69c629392d0b970861cbdf2f4b9387a8054332e",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53476": {
+  "checked_at": "2026-10-16",
+  "sha256": "002f9db4d479b712bb81e431dd6fdedbe2cb9283b224f8f7c8f84d0bd097d2e3",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53475": {
+  "checked_at": "2026-10-16",
+  "sha256": "060790b497c8fd61ad5dd7223551bc2f995357a690a722b9a72cbc4cdac5bda9",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53474": {
+  "checked_at": "2026-10-16",
+  "sha256": "2cec2261e7edbd04a4ecd8c742511db813ca74f53401d492122b99272dceb99c",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/57237": {
+  "checked_at": "2026-10-16",
+  "sha256": "cafc10839c6e283a82e13bd97dc8d53e2bf0daccf84bab48526f91e55815b9d4",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @prefixrdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>.)",
+   "header": [
+    "@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> ."
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/57236": {
+  "checked_at": "2026-10-16",
+  "sha256": "e5a2fe592d1ef7997a627b51fa738050f831cde3335fc4f4f556e868d1ca0d5c",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/57235": {
+  "checked_at": "2026-10-16",
+  "sha256": "199d7e7cde57defb8475591206bf4d9f2cc44c32b22684b7d09bc9889bbd49df",
+  "error": "応答 500"
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/53529": {
+  "checked_at": "2026-10-16",
+  "sha256": "62d79a78ef5cdddbc822536469d96a797947a0e5e2d50e5ac11ac0479a301e80",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: @Class / Dataset /  /  /  / )",
+   "header": [
+    "@Class",
+    "Dataset",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/e0d5e5e1-afbb-411a-a3cf-0d0a9ecd608e/resource/4a779e7c-944d-4cb7-83e3-c2e406aba079/download/172065_gomisyusyubi_202304.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "47eed24d8739246befc08eb9c6d2f169d3e77f6086d0954c849620cb77b96ae2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 市区町村コード / NO / 都道府県名 / 市区町村名 / ごみカレンダーNo. / 地区名称)",
+   "header": [
+    "市区町村コード",
+    "NO",
+    "都道府県名",
+    "市区町村名",
+    "ごみカレンダーNo.",
+    "地区名称",
+    "地区名称_カナ",
+    "頭文字",
+    "区域名称",
+    "区域名称_カナ",
+    "適用月",
+    "もえるごみ_収集曜日",
+    "もえないごみ_収集曜日",
+    "資源ごみ_収集曜日",
+    "有害ごみ_収集曜日",
+    "紙製容器包装_収集曜日",
+    "プラスチック製容器包装_収集曜日",
+    "URL",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/56292": {
+  "checked_at": "2026-10-16",
+  "sha256": "4774af0b4e3a157abe56525e697bf78946af39e9486eaeac7514cbfccce8d58f",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: クリーンセンターへのごみ搬入量の推移 /  /  /  /  / )",
+   "header": [
+    "クリーンセンターへのごみ搬入量の推移",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/aa49d3bf-3f95-4a55-9fb2-eee75be1f438/resource/5704ec35-a26c-474a-a722-0cdcdb27f22d/download/172065_gomibunbetu_202303.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "331f73fa7c3992d60ae19dea48b92846d14eab89893b5ce73f7f6e1493a5e343",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "市区町村コード",
+    "NO",
+    "都道府県名",
+    "市区町村名",
+    "頭文字",
+    "名称",
+    "名称_カナ",
+    "区分",
+    "摘要"
+   ],
+   "rows": 1607,
+   "standard": false,
+   "codes": [
+    "172065"
+   ]
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/e0d5e5e1-afbb-411a-a3cf-0d0a9ecd608e/resource/6222ca23-12fb-418f-8fd5-5f2e5c457d91/download/172065_gomisyusyubi_202104.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "155c144eefe9b70ec3ead3c73d1998cba27d7c6ec61be4c4b7d0962c3f090f34",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 市区町村コード / NO / 都道府県名 / 市区町村名 / ごみカレンダーNo. / 地区名称)",
+   "header": [
+    "市区町村コード",
+    "NO",
+    "都道府県名",
+    "市区町村名",
+    "ごみカレンダーNo.",
+    "地区名称",
+    "地区名称_カナ",
+    "頭文字",
+    "区域名称",
+    "区域名称_カナ",
+    "適用月",
+    "もえるごみ_収集曜日",
+    "もえないごみ_収集曜日",
+    "資源ごみ_収集曜日",
+    "有害ごみ_収集曜日",
+    "紙製容器包装_収集曜日",
+    "プラスチック製容器包装_収集曜日",
+    "URL",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/56188": {
+  "checked_at": "2026-10-16",
+  "sha256": "da9f01cfa9b3c163a67a28b5624ed15fe01ec86d8cf2928d1fcd3372886080ab",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 市町村コード / 都道府県名 / 市町村名 / 店名 / 事業系指定ごみ袋 / 粗大ごみ処理券)",
+   "header": [
+    "市町村コード",
+    "都道府県名",
+    "市町村名",
+    "店名",
+    "事業系指定ごみ袋",
+    "粗大ごみ処理券",
+    "住所",
+    "電話",
+    ""
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/264d4403-8ff6-472f-ac1d-7f725bec842d/resource/c6fe73ec-b58b-4bf8-9f8d-681e381b9560/download/_.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "4e1f255d62c2696685632e93435d3776560780d75d148018d537c2666f9d6f05",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 年 / 月 / 燃やすごみ / 燃やさないごみ(埋立) / 燃やさないごみ(金属) / 資源回収(容器包装プラ))",
+   "header": [
+    "年",
+    "月",
+    "燃やすごみ",
+    "燃やさないごみ（埋立）",
+    "燃やさないごみ（金属）",
+    "資源回収（容器包装プラ）",
+    "資源回収（あき缶）",
+    "資源回収（ペットボトル）",
+    "資源回収（蛍光灯）",
+    "あきびん"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/b2f4e6fe-9cd6-4387-9d36-de2eeb95cc51/resource/05e6b001-0d87-48d5-8379-37e447de35ad/download/172049_separate_the_garbage_r5.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "3e456f597eaeec53db3e852c07de7ed52937c9ad2b1c370b115b445b3c5a0428",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "品目",
+    "詳細",
+    "大きさ・長さ",
+    "分別区分",
+    "備考"
+   ],
+   "rows": 596,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/55822": {
+  "checked_at": "2026-10-16",
+  "sha256": "987aec6ebecbf6c0d86a96f3ad6ead8eff38d883368a68cdc9753d1eb7169208",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 17-4市議会議員選挙党派別候補者数,当選人数,得票数及び得票率 / 17-4市議会議員選挙党派別候補者数,当選人数,得票数及び得票率 / 17-4市議会議員選挙党派別候補者数,当選人数,得票数及び得票率 / 17-4市議会議員選挙党派別候補者数,当選人数,得票数及び得票率 / 17-4市議会議員選挙党派別候補者数,当選人数,得票数及び得票率 / 17-4市議会議員選挙党派別候補者数,当選人数,得票数及び得票率)",
+   "header": [
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率",
+    "１７－４　市議会議員選挙党派別候補者数，当選人数，得票数及び得票率"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/b2f4e6fe-9cd6-4387-9d36-de2eeb95cc51/resource/3cd1bd56-f89b-4e0d-a5aa-d1956c9bb84a/download/172049_separate_the_garbage_r5.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "3355dfd44a38e42b61fb2115f5d05283668912f57a83aa67981233749340ee38",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "品目",
+    "詳細",
+    "大きさ・長さ",
+    "分別区分",
+    "備考"
+   ],
+   "rows": 596,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/b2f4e6fe-9cd6-4387-9d36-de2eeb95cc51/resource/93a15dd6-a258-48d1-bc14-6d33b1a2743f/download/17record.txt": {
+  "checked_at": "2026-10-16",
+  "sha256": "5bc9ab8a140199587b66ca7dbdacfcce2bac0e578f3237b0f703118dfb03e545",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 【17.輪島市ごみ分別区分一覧更新履歴】)",
+   "header": [
+    "【 17.輪島市 ごみ分別区分一覧 更新履歴 】"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.chiba.lg.jp/resource_download/55456": {
+  "checked_at": "2026-10-16",
+  "sha256": "f7fbc5bacbeec82b2f20f92ca346e268e557a93fbaec165032f023555219d6a2",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 地域名 / 燃やすごみ / 容器包装プラスチック類 / 燃やさないごみ / ペットボトル / 有害危険ごみ)",
+   "header": [
+    "地域名",
+    "燃やすごみ",
+    "容器包装プラスチック類",
+    "燃やさないごみ",
+    "ペットボトル",
+    "有害危険ごみ"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/46092d05-4399-4834-ba81-641510834d0b/resource/700d30f7-2176-43f4-b5c9-7886395ba693/download/bunbetsujiten_r7.4.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "0f56a3c49a8364cee1e516082381e673e1fa8448fa7f936191ef76b0faab4c17",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "",
+    "品　名",
+    "フリガナ",
+    "ごみの種類",
+    "出し方の注意点"
+   ],
+   "rows": 1582,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/c6b885a9-64ab-4bee-a7d3-bf08927cfcf3/resource/ea7f230f-e0d3-486f-bc2c-b8856cef9cc1/download/172049_r4_collection_day_by_garbage_district.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "3663a0377d9f97d001c3843df0e73a60fcc84e7b6fe3e88b25e083367ee0fb4c",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 地区_1 / 地区_1_カナ / 地区_2 / 地区_2_カナ / 町内名 / 町内名_カナ)",
+   "header": [
+    "地区_1",
+    "地区_1_カナ",
+    "地区_2",
+    "地区_2_カナ",
+    "町内名",
+    "町内名_カナ",
+    "もえるごみ",
+    "衣服・プラスチックごみ",
+    "もえないごみ",
+    "金属・皮革ごみ",
+    "資源ごみ"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/c6b885a9-64ab-4bee-a7d3-bf08927cfcf3/resource/2c488c23-2ecd-46d9-bb65-dec76cebeb95/download/172049_r4_collection_day_by_garbage_district.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "55ee3332df7c775b03f644b0ed6cc10e0d69d98fc1832173664bba930072b67e",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 地区_1 / 地区_1_カナ / 地区_2 / 地区_2_カナ / 町内名 / 町内名_カナ)",
+   "header": [
+    "地区_1",
+    "地区_1_カナ",
+    "地区_2",
+    "地区_2_カナ",
+    "町内名",
+    "町内名_カナ",
+    "もえるごみ",
+    "衣服・プラスチックごみ",
+    "もえないごみ",
+    "金属・皮革ごみ",
+    "資源ごみ"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/ef2503b5-957a-4ea0-ad55-c20c48f93d3e/resource/f7eb38ee-8af5-47a9-a466-62ac9434cd7e/download/2026.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "38b925751b912834909783a2a9560505d1eba28699d28bd60093f4e49cf70367",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 校下・地区 / ふりがな / センター / 燃やすごみ / 燃やさないごみ / 資源回収(29~31日は容プラのみ))",
+   "header": [
+    "校下・地区",
+    "ふりがな",
+    "センター",
+    "燃やすごみ",
+    "燃やさないごみ",
+    "資源回収（29～31 日は容プラのみ）",
+    "あきびん",
+    "休止開始日",
+    "休止終了日",
+    "燃やすごみ",
+    "燃やさないごみ",
+    "資源",
+    "びん"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/5f7215f4-9996-4a9d-af2f-e55f9e08477f/resource/c9b84607-8b56-4df9-9eea-30cd983aca8e/download/173614_recycle_calendar.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "937ec2344f155eee37fd63fbfa5d54a1194efb24226f6e5a0a03d7d79ea2ab7d",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 全国地方公共団体コード / ID / 地方公共団体名 / 地区 / 大字名 / もえるごみ)",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "地方公共団体名",
+    "地区",
+    "大字名",
+    "もえるごみ",
+    "もえないごみ",
+    "容器包装・資源",
+    "粗大ごみ",
+    "収集休止期間（自）",
+    "収集休止期間（至）",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/c15bdce8-ffd4-4151-93dd-8147561f3f65/resource/e0e4f0b3-fb26-4f2f-ad16-71c9daa96b46/download/173614_recycle_separation.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "0a6f8f5e0caccc9686b5b04fbe07619b713131524ddb8751e7c4d93a138212c1",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "品目",
+    "分別区分",
+    "注意点",
+    "料金種別",
+    "料金",
+    "料金備考",
+    "連絡先名称",
+    "連絡先電話番号",
+    "連絡先内線番号",
+    "連絡先メールアドレス",
+    "連絡先FormURL",
+    "連絡先備考",
+    "備考"
+   ],
+   "rows": 584,
+   "standard": true,
+   "codes": [
+    "173614"
+   ]
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/a63686de-8a42-4ce4-8893-d3ed949b96d2/resource/1e8f19b4-272c-41ff-bdc0-13d4eb05edee/download/172103_garbage_separation.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "eb061d55d4967009f370561758374e4276aff09abef0f9560e569028d403b598",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "品目",
+    "分別区分",
+    "注意点",
+    "料金種別",
+    "料金",
+    "料金備考",
+    "連絡先名称",
+    "連絡先電話番号",
+    "連絡先内線番号",
+    "連絡先メールアドレス",
+    "連絡先FormURL",
+    "連絡先備考",
+    "備考"
+   ],
+   "rows": 1264,
+   "standard": true,
+   "codes": [
+    "172103"
+   ]
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/6de0741d-090c-449c-b1d7-155e75038abb/resource/a3d9ad34-2fad-4bbc-8327-c783783eb47c/download/172103_garbage_collection_place.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "7b772b51f18a0c16fef4ce7fa090183607863ad6355fa15ce248e40ac0de01e5",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 全国地方公共団体コード / ID / 地方公共団体名 / 名称 / 名称_カナ / 名称_英字)",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "地方公共団体名",
+    "名称",
+    "名称_カナ",
+    "名称_英字",
+    "施設通称",
+    "概要",
+    "説明",
+    "所在地_全国地方公共団体コード",
+    "町字ID",
+    "所在地_連結表記",
+    "所在地_都道府県",
+    "所在地_市区町村",
+    "所在地_町字",
+    "所在地_番地以下",
+    "建物名等_方書",
+    "緯度",
+    "経度",
+    "座標参照系",
+    "座標参照系コード",
+    "連絡先名称",
+    "連絡先電話番号",
+    "連絡先内線番号",
+    "連絡先メールアドレス",
+    "連絡先FormURL",
+    "連絡先備考",
+    "郵便番号",
+    "ゴミ種類",
+    "地区名",
+    "ゴミ収集日",
+    "自治体のページURL",
+    "注意事項"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/58806fc3-f942-421b-a1e2-6cb9879d13b1/resource/a5fdf420-ec98-41c1-97c6-0bc6c8200b9d/download/172014-2005-2020_12roudouryokujinkou_wariai.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "84fbbffe8ff768fd985d2f671931e0f940346592806bb138377315362ee914bb",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 校区 / 年 / 労働力人口 / 非労働力人口)",
+   "header": [
+    "校区",
+    "年",
+    "労働力人口",
+    "非労働力人口"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/58806fc3-f942-421b-a1e2-6cb9879d13b1/resource/d32e04b3-8fa5-4913-baf9-b537cc477464/download/172014-2005-2020_11roudouryokujinkou.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "1dedacd793e8e98df16aee487cb2f1ad80b7aa9d8c8129147c58d605a5bb6fa2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 校区 / 年 / 労働力人口 / 非労働力人口)",
+   "header": [
+    "校区",
+    "年",
+    "労働力人口",
+    "非労働力人口"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/58806fc3-f942-421b-a1e2-6cb9879d13b1/resource/2077ddb4-9d21-48b9-ade1-5f043c4acf2a/download/172014-2005-2020_10kazokuruikei_wariai.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "b098c372def3db60821bc63577d12871c4da5807885c09b82f4f0212041ad0d3",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 校区 / 年 / 単独世帯 / 核家族世帯 / その他世帯)",
+   "header": [
+    "校区",
+    "年",
+    "単独世帯",
+    "核家族世帯",
+    "その他世帯"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/c874f66a-a10a-466d-8909-2b54d74f791c/resource/d09e0915-01d6-4114-b13c-d11de544edbf/download/waste_treatment_status.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "9d4873283b29064140379a6679119593e70ceb280cd08f3f98b9428794290e04",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 全国地方公共団体コード / ID / 地方公共団体名 / 対象年度 / 収集量総量(t) / 収集量(可燃物)(t))",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "地方公共団体名",
+    "対象年度",
+    "収集量総量(t)",
+    "収集量(可燃物)(t)",
+    "収集量(不燃物)(t)",
+    "収集量(資源・有害物)(t)",
+    "処理量(焼却量)(t)",
+    "処理量(埋立量)(t)",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://city.himeji.gkan.jp/gkan/dataset/85bb44c1-f945-4f1e-9726-bad4c882f106/resource/fb863980-0a4b-4412-bbbb-721db096aae9/download/282014gomi.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "1b7b54257c1425780db90dcff5b5dafe698803ffda15b2dff91b97d3a856a13a",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 索引 / 品名 / 素材 / 旧姫路市域 / 旧夢前町域旧香寺町域旧安富町域 / 旧家島町域)",
+   "header": [
+    "索引",
+    "品名",
+    "素材",
+    "旧姫路市域",
+    "旧夢前町域\n旧香寺町域\n旧安富町域",
+    "旧家島町域",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://city.himeji.gkan.jp/gkan/dataset/ca24d362-196d-4f47-9617-948b9992247e/resource/5d00b218-03f4-4265-861d-21e9c6d6c2bc/download/.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "7bdef21f018dcd826d4f2e4dad00ea039d3fcd60514ddad4536cdae3f33d8da2",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 全国地方公共団体コード / ID / 地方公共団体名 / 所在地_連結表記 / 所在地_都道府県 / 所在地_市区町村)",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "地方公共団体名",
+    "所在地_連結表記",
+    "所在地_都道府県",
+    "所在地_市区町村",
+    "所在地_町字",
+    "所在地_番地以下",
+    "建物名等_方書",
+    "店舗名",
+    "電話番号",
+    "ジャンル",
+    "取り組み内容_小盛メニューの設定",
+    "取り組み内容_持ち帰り希望者への対応",
+    "取り組み内容_食べ残しを減らすための呼びかけ",
+    "取り組み内容_小盛割引や食べきり割引の実施",
+    "取り組み内容_その他市が認めるもの",
+    "経度_世界測地系_10進_JGD2000",
+    "緯度_世界測地系_10進_JGD2000"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/c6b885a9-64ab-4bee-a7d3-bf08927cfcf3/resource/c825e1e0-204c-4a4e-bbb2-28662f6fbd9e/download/16record.txt": {
+  "checked_at": "2026-10-16",
+  "sha256": "1e5fc7904193a95458598e782baa41d25bf5bc84458d26496dc1fac2393dc671",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 【16.輪島市地区別ごみ収集日一覧更新履歴】)",
+   "header": [
+    "【 16.輪島市 地区別ごみ収集日一覧 更新履歴 】"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://city.himeji.gkan.jp/gkan/dataset/ca24d362-196d-4f47-9617-948b9992247e/resource/88cc4f9a-4152-40f0-9d41-b958271b3361/download/.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "5f15c8e6b80b84b425bcc59329fd1fffbf082a8436b70a52bad80edca374b477",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 全国地方公共団体コード / ID / 地方公共団体名 / 所在地_連結表記 / 所在地_都道府県 / 所在地_市区町村)",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "地方公共団体名",
+    "所在地_連結表記",
+    "所在地_都道府県",
+    "所在地_市区町村",
+    "所在地_町字",
+    "所在地_番地以下",
+    "建物名等_方書",
+    "設置場所",
+    "設置場所カナ",
+    "回収品目_小型電子機器",
+    "回収品目_蛍光管",
+    "回収品目_廃乾電池",
+    "回収品目_水銀計",
+    "回収品目_使い切りライター",
+    "回収品目_充電式電池",
+    "経度_世界測地系_10進_JGD2000",
+    "緯度_世界測地系_10進_JGD2000"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/fukui_miyamabunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "d9ff5637cfd5437d21c87382e50cd09e9fda1759990fad6f9b87d1428fe32e08",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 733,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/koshino_shimizubunbetu_.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "0ce6b821919e3aaeb756e854b3b9f7453793e80f3ebb37c611af7a0438d7ee5a",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 761,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/turugashibunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "26f6d4b4d7bcacdd932d836546c93d17aa569e93bfcec31a70b869a298ff7bce",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 777,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/264d4403-8ff6-472f-ac1d-7f725bec842d/resource/c2ed61e5-4a62-4609-b9e7-0a9c40c315ea/download/ihangomi_yellow_shiteki.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "3ef27314038d554c4901b38faa236acfd649863ee61c6bf3eec8e54b6fe082fa",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 年 / 月 / 燃やすごみ / 燃やさないごみ(埋立) / 燃やさないごみ(金属) / 資源回収)",
+   "header": [
+    "年",
+    "月",
+    "燃やすごみ",
+    "燃やさないごみ（埋立）",
+    "燃やさないごみ（金属）",
+    "資源回収",
+    "あきびん",
+    "混載",
+    "その他（指定袋）",
+    "その他（パソコン）",
+    "その他（その他）"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://city.himeji.gkan.jp/gkan/dataset/ca24d362-196d-4f47-9617-948b9992247e/resource/8cd23426-0d9c-466b-b059-4e1273c6c9f3/download/20220830.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "6d1c5af3c91031465f64c08b2436f16bd9a2b8a988912f37d6e6862cb4b72d27",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "品名",
+    "品名かな",
+    "ごみ区分",
+    "説明文"
+   ],
+   "rows": 813,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/obamashibunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "d7c58c9e1c59cfcc776ecf6f69320ee86dea281b777e0991d5fc0831550ccbf6",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 883,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/sabaeshibunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "a8c24070683c0c0ef1ced745e90ceb8bc2bbcb23a8a0232ed031cb39ea89a5d5",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考",
+    ""
+   ],
+   "rows": 967,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/264d4403-8ff6-472f-ac1d-7f725bec842d/resource/35564cbc-8756-4f3a-a6f8-8d7772609a03/download/_-.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "982dbedd25202d227e8a4f37369660018ee5135a6ec72e2bf4d48bb76bd4d376",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 年 / 月 / 有料粗大(家具・寝具) / 有料粗大(趣味・レジャー) / 有料粗大(その他) / 家電リサイクル(テレビ))",
+   "header": [
+    "年",
+    "月",
+    "有料粗大（家具・寝具）",
+    "有料粗大（趣味・レジャー）",
+    "有料粗大（その他）",
+    "家電リサイクル（テレビ）",
+    "家電リサイクル（冷蔵庫）",
+    "家電リサイクル（エアコン）",
+    "家電リサイクル（洗濯機）",
+    "処理困難物（タイヤ）",
+    "処理困難物（バッテリー）",
+    "処理困難物（消火器）",
+    "処理困難物（ペンキ）",
+    "処理困難物（その他）",
+    "処理困難物（事業系）"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/awarashibunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "f23a8b0e4373c3a1e02f3af35fb046014a57d3c239ed8495a9aed51cec051d82",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 766,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/e0d5e5e1-afbb-411a-a3cf-0d0a9ecd608e/resource/a3b00dbb-bb4a-4d40-a461-49ca282d8005/download/172065_gomisyusyubi_202204.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "6aa11266eef0ce37e480ae627b669ffd5da73b6c0ff6135e87bdf5b169efebee",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 市区町村コード / NO / 都道府県名 / 市区町村名 / ごみカレンダーNo. / 地区名称)",
+   "header": [
+    "市区町村コード",
+    "NO",
+    "都道府県名",
+    "市区町村名",
+    "ごみカレンダーNo.",
+    "地区名称",
+    "地区名称_カナ",
+    "頭文字",
+    "区域名称",
+    "区域名称_カナ",
+    "適用月",
+    "もえるごみ_収集曜日",
+    "もえないごみ_収集曜日",
+    "資源ごみ_収集曜日",
+    "有害ごみ_収集曜日",
+    "紙製容器包装_収集曜日",
+    "プラスチック製容器包装_収集曜日",
+    "URL",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/sakaishibunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "bcc0025dde87ac84993f35ed841b324fc6f7688b30f479c6007dd7682d14b1db",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 897,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/46092d05-4399-4834-ba81-641510834d0b/resource/6ef1f62b-7489-43e8-a839-1c48fb3f1768/download/2025.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "979960d9eb17aab9e5f70de4529d88c1322c4d62fa7ebbfbe034c0bcb4ef7862",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 分類 / 説明)",
+   "header": [
+    "分類",
+    "説明"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/ikedatyoubunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "5a24dad3add7c1d25e501a7e4f6d27c61912b7721e6cc2644155b0e6ed260e15",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 514,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/etizentyoubunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "faa278c6bb207f9fdb6292f88df68f502c544dd0fa11ce65b83df1fb32e29855",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 380,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/mihamatyoubunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "134b3701829fbc3f15815edbc3fb6097e526cc995f1557bee9a084f5e933a42f",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 833,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/takahamatyoubunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "dbbc7a22ec79a44a06cd85f18a5547faefacf2a27da2788db766e2898c9ab864",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "連\n番",
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備\n考"
+   ],
+   "rows": 417,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/ooityoubunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "fd53abdefd36bb4797ec1c6d94572a614abeb48db96366bd9df767249e1dfd72",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "分別区分",
+    "条件",
+    "備考"
+   ],
+   "rows": 1093,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/wakasabunbetu_kaminaka.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "2d3b21731670a4a0f52260eafda23c4b7f74ea023eaa468d50ab9f025a2f28d9",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 771,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/wakasabunbetu_mikata.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "aa025055f511c682ca0a62e179692ef0ad2c9d88705f82846d1785d72044a047",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 496,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/minamietzentyoubunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "73039f081d2b55af5d891880d27e97bb687d284e96e6301acb3c0c11fef1f400",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 443,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/etizenshibunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "a377fdd3b6ffae1dc57092dbe835d2874c292d3ad44dc8039768284fb2f025e7",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 761,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/eiheizityoubunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "3025eed4c50eb747cbb1fa797721914cb29f57ab8ac4cb776b57ef831b7de9e1",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考"
+   ],
+   "rows": 430,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/oonoshibunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "b47a5b66b3f9e3bf09c7ce0ddea5135c5323440cae24efb89188aaeb1f54a6b9",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード　※検索用の読みを入れる。",
+    "※この列はなくす。物品名を分ける※",
+    "ごみの分類",
+    "注 意 事 項 (ごみステーションへ出す場合の基準等)"
+   ],
+   "rows": 1137,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/katuyamashibunbetu.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "79d6f2f31e58d24b3f6ff7164ac6e2fbf3463a5ee215014e00f99fbe8b3027cd",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "行",
+    "音",
+    "物品名",
+    "キーワード",
+    "区分",
+    "分類",
+    "条件",
+    "備考",
+    ""
+   ],
+   "rows": 1138,
    "standard": false,
    "codes": []
   }
