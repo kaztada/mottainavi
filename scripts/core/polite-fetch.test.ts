@@ -118,7 +118,9 @@ describe("normalizeUrl / urlKey / curlArgs", () => {
     )
     expect(args[args.indexOf("--max-time") + 1]).toBe("60")
     expect(args[args.indexOf("--max-filesize") + 1]).toBe("30000000")
-    expect(args[args.indexOf("--max-redirs") + 1]).toBe("5")
+    // 転送は curl に任せず(-L なし)、呼び出し側が行き先ごとにロックを通してたどる
+    expect(args.some((a) => /^-[a-zA-Z]*L/.test(a))).toBe(false)
+    expect(args.join(" ")).toContain("%{redirect_url}")
     expect(args[args.length - 1]).toBe("https://example.com/")
   })
 })

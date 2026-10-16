@@ -29,6 +29,8 @@ import {
   isGarbageRelated,
   judgeDataset,
   manualDatasets,
+  namesIn,
+  titleSignal,
   matchMunicipality,
   normalizePackage,
   proposeFor,
@@ -409,7 +411,22 @@ function propose(args: string[]) {
         return { url: r.url, error: c.error, table: c.table }
       })
       for (const m of matchWithMappings(ds, cat, idx)) {
-        if (m.kind === "none") continue
+        if (m.kind === "none") {
+          // 自治体が決まらないデータ: 人が決めていればそれを使う。品目の一覧らしい題名なら、説明文に出てくる
+          // 市町村を要確認にする(中身を見ないまま、それらの市町村を見つからないにしない)
+          const v = judgeDataset(ds, m, peeks, idx)
+          if (decisions[ds.url]) {
+            verdicts.push(...decide({ ...v, slug: null }))
+            continue
+          }
+          if (titleSignal([ds.title, ...ds.resources.map((r) => r.name)].join(" ")) !== "item") continue
+          const names = namesIn(`${ds.title} ${ds.notes}`, idx)
+          const slugs = names.flatMap((n) => (idx.byName.get(n) ?? []).map((e) => e.slug))
+          unmatchedReviews.push({ ds, reason: `自治体が決まらない品目の一覧らしいデータ(説明文の市町村 ${slugs.length})` })
+          for (const slug of slugs)
+            verdicts.push({ ...v, slug, verdict: "review", reason: "自治体が決まらない品目の一覧らしいデータ(説明文に名前がある)" })
+          continue
+        }
         if (m.kind === "review") {
           const v = judgeDataset(ds, m, peeks, idx)
           if (v.verdict === "not-item") continue
@@ -496,8 +513,11 @@ function propose(args: string[]) {
 
   // 3. 書き出し
   mkdirSync(WORK, { recursive: true })
+  // 書く前の1件まるごと(before)も持たせ、書き込みの時点で状態だけでなく中身が変わっていても止める
   const writable = Object.fromEntries(
-    proposals.filter((p) => p.entry).map((p) => [p.slug, { expect: p.expect, entry: p.entry }])
+    proposals
+      .filter((p) => p.entry)
+      .map((p) => [p.slug, { expect: p.expect, before: coverage[p.slug] ?? null, entry: p.entry }])
   )
   const out = join(WORK, `sweep-${today}.json`)
   writeJson(out, { generated_at: new Date().toISOString(), today, proposals: writable })

@@ -197,10 +197,16 @@ function applyProposal(args: string[]) {
   const registry = readRegistry()
   const coverage = readCoverage()
   const { proposals } = JSON.parse(readFileSync(file, "utf-8")) as {
-    proposals: Record<string, { expect: string; entry: unknown }>
+    proposals: Record<string, { expect: string; before?: unknown; entry: unknown }>
   }
   const targets = Object.entries(proposals).filter(([slug]) => !only || only.includes(slug))
-  const stale = targets.filter(([slug, p]) => coverage[slug]?.status !== p.expect)
+  // 状態だけでなく、書く前の1件まるごと(before)とも照らす(同じ状態のままメモや根拠を直した分を戻さない)
+  const same = (a: unknown, b: unknown) => JSON.stringify(a) === JSON.stringify(b)
+  const stale = targets.filter(
+    ([slug, p]) =>
+      coverage[slug]?.status !== p.expect ||
+      (p.before !== undefined && !same(coverage[slug] ?? null, p.before))
+  )
   if (stale.length > 0)
     throw new Error(
       `提案を作った後に台帳が変わっています(何も書いていません。npm run sweep -- propose で作り直す):\n  ${stale

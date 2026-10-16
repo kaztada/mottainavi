@@ -11,6 +11,7 @@ import {
   namesIn,
   normalizePackage,
   proposeFor,
+  resourcesToPeek,
   titleSignal,
   type CatalogDef,
   type Dataset,
@@ -203,6 +204,10 @@ describe("表の見出し", () => {
     expect(analyzeTable([["名称", "施設概要", "郵便番号", "住所", "電話番号"]]).kind).toBe("not-item")
     expect(analyzeTable([["月", "1月[回]", "2月[回]"]]).kind).toBe("not-item")
   })
+  it("品目らしい列があれば、統計らしい列があっても決めつけない(相模原市・室蘭市の例)", () => {
+    expect(analyzeTable([["データID", "質問", "検索キーワード", "粗大ごみ戸別収集手数料", "ひらがな"]]).kind).toBe("unknown")
+    expect(analyzeTable([["No.", "質問内容", "答え", "質問言換え1"]]).kind).toBe("unknown")
+  })
   it("50行未満は決めきれない(要確認)", () => {
     expect(analyzeTable([std, ...rows(9)]).kind).toBe("unknown")
   })
@@ -212,6 +217,22 @@ describe("表の見出し", () => {
   })
   it("見出しが無い表は決めきれない(長浜市のような例)", () => {
     expect(analyzeTable(rows(60)).kind).toBe("unknown")
+  })
+})
+
+describe("見るリソース", () => {
+  it("新しい3つに加えて、名前に品目らしい語がある表はすべて見る(佐賀市の例)", () => {
+    const res = Array.from({ length: 6 }, (_, i) => ({
+      name: `カレンダー${i}`,
+      format: "CSV",
+      url: `https://x/c${i}.csv`,
+      last_modified: `2026-0${i + 1}-01`,
+    }))
+    res.push({ name: "ごみの分別情報", format: "CSV", url: "https://x/b.csv", last_modified: "2018-01-01" })
+    const ds = normalizePackage(pkg({ resources: res }), BODIK)
+    const urls = resourcesToPeek(ds).map((r) => r.url)
+    expect(urls).toContain("https://x/b.csv")
+    expect(urls).toHaveLength(4)
   })
 })
 

@@ -268,12 +268,16 @@ export function fileKind(r: Pick<Resource, "format" | "url">): FileKind {
   return "other"
 }
 
-/** 中身を見るリソース: 表(CSV・Excel)を新しい順に最大3つ */
+/**
+ * 中身を見るリソース: 表(CSV・Excel)を新しい順に3つと、名前に品目らしい語がある表はすべて
+ * (年度ごとのカレンダーが多いデータセットに「ごみの分別情報」が埋もれていることがあるため)
+ */
 export function resourcesToPeek(ds: Dataset): Resource[] {
-  return ds.resources
+  const tables = ds.resources
     .filter((r) => r.url && (fileKind(r) === "csv" || fileKind(r) === "excel"))
     .sort((a, b) => (b.modified ?? "").localeCompare(a.modified ?? ""))
-    .slice(0, 3)
+  const picked = new Set([...tables.slice(0, 3), ...tables.filter((r) => ITEM_WORDS.test(r.name))])
+  return tables.filter((r) => picked.has(r))
 }
 
 // ---------------------------------------------------------------- 表の見出しを見る
@@ -289,7 +293,11 @@ const METHOD_COL =
   /分別区分|区分|出し方|分け方|分別|分類|収集区分|種別|ごみの種類|処理方法|排出方法|^type$|^category$|^label$|^sortingType$/i
 /** 品目の一覧ではない表の列(カレンダー・集積所・施設・統計) */
 const NON_ITEM_COL =
-  /収集日|曜日|日付|年月日|地区|校区|地名|町名|町丁|緯度|経度|所在地|住所|郵便番号|電話|排出量|処理量|収集量|搬入量|トン|\[t\]|\[件\]|\[回\]|\[人\]|人口|世帯|^月$|^月別$|年度|年月|西暦|和暦|質問|設問|施設|業者|状況|処理経費|組成|推移|手数料|統計名|水質|消防|国勢|^#LINK/
+  /収集日|曜日|日付|年月日|地区|校区|地名|町名|町丁|緯度|経度|所在地|住所|郵便番号|電話|排出量|処理量|収集量|搬入量|トン|\[t\]|\[件\]|\[回\]|\[人\]|人口|世帯|^月$|^月別$|年度|年月|西暦|和暦|施設|業者|状況|処理経費|組成|推移|手数料|統計名|水質|消防|国勢|^#LINK/
+/** 施設・集積所の一覧の列(これがあれば品目の一覧ではない) */
+const LOCATION_COL = /緯度|経度|所在地|住所|郵便番号/
+/** 品目の一覧らしい列(分け方の列が見つからなくても、これがあれば決めつけない) */
+const ITEMISH_COL = /質問|キーワード|よみ|ひらがな|ふりがな|品目|品名|物品/
 /** 区分の定義だけの表(標準形式のデータセットに品目の表と並んで入っている) */
 const CATEGORY_TABLE_COL = /^(ゴミ区分|ごみ区分|ゴミ分類区分|ごみ分類区分|区分名|区分の説明)$/
 /** 団体コードの列 */
@@ -345,7 +353,24 @@ export function analyzeTable(rows: string[][]): TableCheck {
       ...empty,
       header: rows[0],
     }
-  // 品目らしい列(名称など)があっても、分け方の列が無く、施設・統計・カレンダーの列があれば品目の一覧ではない
+  // 位置の列(住所・緯度など)がある表は、施設・集積所の一覧で品目の一覧ではない
+  if (first.some((c) => LOCATION_COL.test(c)))
+    return {
+      kind: "not-item",
+      reason: `施設・場所の一覧(見出し: ${first.slice(0, 6).join(" / ")})`,
+      ...empty,
+      header: rows[0],
+    }
+  // 品目らしい列(品目・名称・質問・キーワード・よみ など)があれば、ほかの列が統計らしくても決めつけない(要確認)
+  // (相模原市の「データID / 質問 / 検索キーワード / 粗大ごみ戸別収集手数料」のような品目の一覧があるため)
+  if (first.some((c) => ITEM_COL.test(c) || ITEMISH_COL.test(c)))
+    return {
+      kind: "unknown",
+      reason: `品目らしい列はあるが分け方の列が分からない(先頭行: ${first.slice(0, 6).join(" / ")})`,
+      ...empty,
+      header: rows[0],
+    }
+  // 施設・統計・カレンダーの列があれば品目の一覧ではない
   if (first.some((c) => NON_ITEM_COL.test(c)))
     return {
       kind: "not-item",

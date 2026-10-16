@@ -1611,5 +1611,161 @@
   "verdict": "not-item",
   "decided_at": "2026-10-16",
   "note": "統計書(社会保障・衛生)"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1.html": {
+  "verdict": "item-list",
+  "slugs": [
+   "aomori-city",
+   "hirosaki-city",
+   "hachinohe-city",
+   "kuroishi-city",
+   "goshogawara-city",
+   "towada-city",
+   "misawa-city",
+   "mutsu-city",
+   "tsugaru-city",
+   "hirakawa-city",
+   "hiranai-town",
+   "imabetsu-town",
+   "yomogita-village",
+   "sotogahama-town",
+   "fukaura-town",
+   "nishimeya-village",
+   "fujisaki-town",
+   "owani-town",
+   "inakadate-village",
+   "itayanagi-town",
+   "tsuruta-town",
+   "nakadomari-town",
+   "noheji-town",
+   "shichinohe-town",
+   "rokunohe-town",
+   "yokohama-town",
+   "tohoku-town",
+   "oirase-town",
+   "oma-town",
+   "higashidori-village",
+   "kazamaura-village",
+   "sai-village",
+   "sannohe-town",
+   "gonohe-town",
+   "takko-town",
+   "aomori-nanbu-town",
+   "hashikami-town",
+   "shingo-village",
+   "ajigasawa-town",
+   "rokkasho-village"
+  ],
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "青森県内の市町村ごとに分別種別・注意事項の列が並ぶ品目の一覧(約6,950行、CC BY)。見出しの市町村に結びつけた"
+ },
+ "http://opendata.pref.toyama.jp/dataset/pf01002315": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://www.harp.lg.jp/opendata/dataset/1694.html": {
+  "verdict": "item-list",
+  "format": "excel",
+  "decided_at": "2026-10-16",
+  "note": "質問内容(品目)/答え(出し方)の形の品目別の案内(約1,060行。Codex が中身を確認)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7932.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7951.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/7968.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8136.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8653.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://opendata.pref.shizuoka.jp/dataset/8952.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "統計書・業者一覧(題名から)"
+ },
+ "https://data.bodik.jp/dataset/282235_gomi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/405221_gomi_syusyu_date": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/402168_gomishu2bi": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/282197_gomishushu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/402036_0001400_00001": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/402257_00019": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/402125_0001400_00001": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://data.bodik.jp/dataset/442011_garbage_calendar": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-chikubetu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://gifu-opendata.pref.gifu.lg.jp/dataset/c212016-035": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/172014-chikubetu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "収集カレンダー・地区別収集日・統計・業者一覧(見出しで確認)"
+ },
+ "http://opendata.city.sagamihara.kanagawa.jp/dataset/bunbetsu": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "データID/質問(品目)/検索キーワード/…/出し方 の品目別の案内(約2,770行。Codex が中身を確認)"
+ },
+ "https://data.bodik.jp/dataset/262013_kateigominodashikata": {
+  "verdict": "item-list",
+  "format": "csv",
+  "decided_at": "2026-10-16",
+  "note": "収集日(区分)/名前(品目)/注意事項/ふりがな の品目別の一覧(約180行、ファイルは2021年)"
  }
 }
