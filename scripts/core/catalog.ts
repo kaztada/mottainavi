@@ -74,7 +74,10 @@ export const CatalogDefSchema = z.object({
             title: z.string().min(1),
             page: z.string().url(),
             file: z.string().url(),
-            license: z.object({ id: z.string().optional(), url: z.string().url().optional() }),
+            license: z.object({
+              id: z.string().optional(),
+              url: z.string().url().optional(),
+            }),
           })
         )
         .default([]),
@@ -87,7 +90,10 @@ export const CatalogDefSchema = z.object({
   mappings: z
     .record(
       z.string(),
-      z.object({ slugs: z.array(z.string()).min(1), evidence: z.string().url() })
+      z.object({
+        slugs: z.array(z.string()).min(1),
+        evidence: z.string().url(),
+      })
     )
     .optional(),
   /** 棚卸しのメモ(機械は読まない) */
@@ -98,7 +104,11 @@ export const CatalogsFileSchema = z.array(CatalogDefSchema)
 
 // ---------------------------------------------------------------- CKAN の応答をそろえる
 
-export type License = { id: string | null; title: string | null; url: string | null }
+export type License = {
+  id: string | null
+  title: string | null
+  url: string | null
+}
 
 export type Resource = {
   id: string | null
@@ -156,10 +166,15 @@ function licenseOf(o: Record<string, unknown>): License {
 export function normalizePackage(pkg: unknown, cat: CatalogDef): Dataset {
   const p = (pkg ?? {}) as Record<string, unknown>
   // SHIRASAGI は組織の代わりに地域(areas: [{ name: "室蘭市", filename: "chiiki/012050" }])を持ち、name が題名
-  const areas = Array.isArray(p.areas) ? (p.areas as Record<string, unknown>[]) : null
+  const areas = Array.isArray(p.areas)
+    ? (p.areas as Record<string, unknown>[])
+    : null
   const org = areas
     ? {
-        name: areas.length === 1 ? str(areas[0].filename).replace(/^chiiki\//, "") : "",
+        name:
+          areas.length === 1
+            ? str(areas[0].filename).replace(/^chiiki\//, "")
+            : "",
         title: areas.map((a) => str(a.name)).join("・"),
       }
     : ((p.organization ?? {}) as Record<string, unknown>)
@@ -173,7 +188,10 @@ export function normalizePackage(pkg: unknown, cat: CatalogDef): Dataset {
         format: str(r.format).toUpperCase(),
         // SHIRASAGI の url(/fs/…)は取得できず、download_url が本体
         url: str(r.download_url) || str(r.url),
-        modified: strOrNull(r.last_modified) ?? strOrNull(r.updated) ?? strOrNull(r.created),
+        modified:
+          strOrNull(r.last_modified) ??
+          strOrNull(r.updated) ??
+          strOrNull(r.created),
         // リソースに個別のライセンスがあればそれ、無ければデータセットのもの
         license: own.id || own.url || own.title ? own : dsLicense,
       }
@@ -196,12 +214,17 @@ export function normalizePackage(pkg: unknown, cat: CatalogDef): Dataset {
     tags: (Array.isArray(p.tags) ? p.tags : [])
       .map((t: Record<string, unknown>) => str(t.name))
       .filter(Boolean),
-    // 説明は長いので、手がかりに足りる長さだけ残す(キャッシュをコミットするため)
-    notes: (str(p.notes) || str(p.xckan_description) || str(p.text)).slice(0, 200),
+    // 説明文は市町村の名前を拾うのに使う(後ろに対象の市町村が書かれることがある)ので、ほぼ全文を残す
+    notes: (str(p.notes) || str(p.xckan_description) || str(p.text)).slice(
+      0,
+      5000
+    ),
     license: dsLicense,
     ...(cat.licenseByTitle ? { licenseByTitle: true } : {}),
     modified:
-      strOrNull(p.metadata_modified) ?? strOrNull(p.xckan_last_updated) ?? strOrNull(p.updated),
+      strOrNull(p.metadata_modified) ??
+      strOrNull(p.xckan_last_updated) ??
+      strOrNull(p.updated),
     resources,
   }
 }
@@ -210,7 +233,11 @@ export function normalizePackage(pkg: unknown, cat: CatalogDef): Dataset {
 export function manualDatasets(cat: CatalogDef, idx: RegistryIndex): Dataset[] {
   return (cat.manual?.found ?? []).map((f) => {
     const e = idx.bySlug.get(f.slug)
-    const license: License = { id: f.license.id ?? null, title: null, url: f.license.url ?? null }
+    const license: License = {
+      id: f.license.id ?? null,
+      title: null,
+      url: f.license.url ?? null,
+    }
     return {
       catalog: cat.id,
       id: f.file,
@@ -223,7 +250,14 @@ export function manualDatasets(cat: CatalogDef, idx: RegistryIndex): Dataset[] {
       license,
       modified: null,
       resources: [
-        { id: null, name: f.title, format: "", url: f.file, modified: null, license },
+        {
+          id: null,
+          name: f.title,
+          format: "",
+          url: f.file,
+          modified: null,
+          license,
+        },
       ],
     }
   })
@@ -240,7 +274,9 @@ const NON_ITEM_WORDS =
 
 /** ごみ・分別に関係するデータセットか(広く拾う。題名・タグ・リソース名) */
 export function isGarbageRelated(ds: Dataset): boolean {
-  const text = [ds.title, ...ds.tags, ...ds.resources.map((r) => r.name)].join(" ")
+  const text = [ds.title, ...ds.tags, ...ds.resources.map((r) => r.name)].join(
+    " "
+  )
   return GARBAGE.test(text)
 }
 
@@ -259,7 +295,9 @@ export type FileKind = "csv" | "excel" | "pdf" | "html" | "other"
 
 export function fileKind(r: Pick<Resource, "format" | "url">): FileKind {
   const f = r.format.toLowerCase()
-  const ext = (r.url.split("?")[0].match(/\.([a-z0-9]+)$/i)?.[1] ?? "").toLowerCase()
+  const ext = (
+    r.url.split("?")[0].match(/\.([a-z0-9]+)$/i)?.[1] ?? ""
+  ).toLowerCase()
   const has = (...xs: string[]) => xs.includes(f) || xs.includes(ext)
   if (has("csv", "tsv", "txt")) return "csv"
   if (has("xlsx", "xls", "xlsm", "ods")) return "excel"
@@ -276,7 +314,10 @@ export function resourcesToPeek(ds: Dataset): Resource[] {
   const tables = ds.resources
     .filter((r) => r.url && (fileKind(r) === "csv" || fileKind(r) === "excel"))
     .sort((a, b) => (b.modified ?? "").localeCompare(a.modified ?? ""))
-  const picked = new Set([...tables.slice(0, 3), ...tables.filter((r) => ITEM_WORDS.test(r.name))])
+  const picked = new Set([
+    ...tables.slice(0, 3),
+    ...tables.filter((r) => ITEM_WORDS.test(r.name)),
+  ])
   return tables.filter((r) => picked.has(r))
 }
 
@@ -299,7 +340,8 @@ const LOCATION_COL = /緯度|経度|所在地|住所|郵便番号/
 /** 品目の一覧らしい列(分け方の列が見つからなくても、これがあれば決めつけない) */
 const ITEMISH_COL = /質問|キーワード|よみ|ひらがな|ふりがな|品目|品名|物品/
 /** 区分の定義だけの表(標準形式のデータセットに品目の表と並んで入っている) */
-const CATEGORY_TABLE_COL = /^(ゴミ区分|ごみ区分|ゴミ分類区分|ごみ分類区分|区分名|区分の説明)$/
+const CATEGORY_TABLE_COL =
+  /^(ゴミ区分|ごみ区分|ゴミ分類区分|ごみ分類区分|区分名|区分の説明)$/
 /** 団体コードの列 */
 const CODE_COL = /^(全国地方公共団体コード|地方公共団体コード|市区町村コード)$/
 
@@ -324,25 +366,47 @@ function stripPrefix(col: string): string {
 
 /** 表(行の配列)の見出しを探して、品目の一覧かを判定する。見出しは先頭10行から探す */
 export function analyzeTable(rows: string[][]): TableCheck {
-  const empty = { header: null, rows: 0, standard: false, codes: [] as string[] }
-  if (rows.length === 0) return { kind: "unknown", reason: "空のファイル", ...empty }
+  const empty = {
+    header: null,
+    rows: 0,
+    standard: false,
+    codes: [] as string[],
+  }
+  if (rows.length === 0)
+    return { kind: "unknown", reason: "空のファイル", ...empty }
   for (let h = 0; h < Math.min(10, rows.length); h++) {
     const header = rows[h].map((c) => c.trim())
     const cols = header.map(stripPrefix)
     const itemCol = cols.findIndex((c) => ITEM_COL.test(c))
-    const methodCol = cols.findIndex((c, i) => i !== itemCol && METHOD_COL.test(c))
+    const methodCol = cols.findIndex(
+      (c, i) => i !== itemCol && METHOD_COL.test(c)
+    )
     if (itemCol < 0 || methodCol < 0) continue
-    const body = rows.slice(h + 1).filter((r) => (r[itemCol] ?? "").trim() !== "")
+    const body = rows
+      .slice(h + 1)
+      .filter((r) => (r[itemCol] ?? "").trim() !== "")
     // 標準形式: 先頭5列がそのとおり、または新しい版(地方公共団体名の列と「ゴミの品目」がある)
     const standard =
       isStandardHeader(header) ||
-      (cols.some((c) => c === "全国地方公共団体コード") && cols.includes("分別区分") && itemCol >= 0)
+      (cols.some((c) => c === "全国地方公共団体コード") &&
+        cols.includes("分別区分") &&
+        itemCol >= 0)
     const codeCol = cols.findIndex((c) => CODE_COL.test(c))
     const codes =
-      codeCol >= 0 ? [...new Set(body.map((r) => (r[codeCol] ?? "").trim()).filter(Boolean))] : []
+      codeCol >= 0
+        ? [
+            ...new Set(
+              body.map((r) => (r[codeCol] ?? "").trim()).filter(Boolean)
+            ),
+          ]
+        : []
     const base = { header, rows: body.length, standard, codes }
     if (body.length < MIN_ITEM_ROWS)
-      return { kind: "unknown", reason: `品目の行が ${body.length} 行だけ`, ...base }
+      return {
+        kind: "unknown",
+        reason: `品目の行が ${body.length} 行だけ`,
+        ...base,
+      }
     return { kind: "item-list", reason: "品目と分け方の列がある", ...base }
   }
   const first = rows[0].map(stripPrefix)
@@ -410,7 +474,12 @@ const OPEN_LICENSE_IDS = new Set([
   "cc-by4_0",
 ])
 /** SHIRASAGI のライセンスの名前(カタログが決めた選択肢の名前と完全一致) */
-const OPEN_LICENSE_TITLES = new Set(["表示（CC BY）", "表示(CC BY)", "CC BY 4.0", "CC BY"])
+const OPEN_LICENSE_TITLES = new Set([
+  "表示（CC BY）",
+  "表示(CC BY)",
+  "CC BY 4.0",
+  "CC BY",
+])
 const OPEN_LICENSE_URLS = new Set([
   "https://creativecommons.org/licenses/by/4.0/",
   "https://creativecommons.org/licenses/by/4.0/deed.ja",
@@ -424,11 +493,19 @@ const OPEN_LICENSE_URLS = new Set([
 export type LicenseClass = "open" | "unknown"
 
 /** カタログの登録の上で使えそうか。open は「登録の上で」であって、原文の確認は抜き取り照合で行う */
-export function classifyLicense(l: License, opts?: { licenseByTitle?: boolean }): LicenseClass {
+export function classifyLicense(
+  l: License,
+  opts?: { licenseByTitle?: boolean }
+): LicenseClass {
   if (l.id && OPEN_LICENSE_IDS.has(l.id)) return "open"
   if (l.url && OPEN_LICENSE_URLS.has(l.url.trim())) return "open"
   // 名前で照らすのは、ライセンスが選択肢の名前だけで返るカタログ(SHIRASAGI)に限る
-  if (opts?.licenseByTitle && l.title && OPEN_LICENSE_TITLES.has(l.title.trim())) return "open"
+  if (
+    opts?.licenseByTitle &&
+    l.title &&
+    OPEN_LICENSE_TITLES.has(l.title.trim())
+  )
+    return "open"
   return "unknown"
 }
 
@@ -444,9 +521,13 @@ export function dataYear(texts: readonly string[]): number | null {
     const t = raw.normalize("NFKC")
     for (const m of t.matchAll(/令和\s*(\d{1,2}|元)\s*年/g))
       put(2018 + (m[1] === "元" ? 1 : Number(m[1])))
-    for (const m of t.matchAll(/(?:^|[^A-Za-z0-9])R(\d{1,2})(?![0-9])/g)) put(2018 + Number(m[1]))
-    for (const m of t.matchAll(/(?:^|[^0-9])(20\d{2})(?:[^0-9]|$)/g)) put(Number(m[1]))
-    for (const m of t.matchAll(/(?:^|[^0-9])(20\d{2})(0[1-9]|1[0-2])(?:\d{2})?(?:[^0-9]|$)/g))
+    for (const m of t.matchAll(/(?:^|[^A-Za-z0-9])R(\d{1,2})(?![0-9])/g))
+      put(2018 + Number(m[1]))
+    for (const m of t.matchAll(/(?:^|[^0-9])(20\d{2})(?:[^0-9]|$)/g))
+      put(Number(m[1]))
+    for (const m of t.matchAll(
+      /(?:^|[^0-9])(20\d{2})(0[1-9]|1[0-2])(?:\d{2})?(?:[^0-9]|$)/g
+    ))
       put(Number(m[1]))
   }
   return best
@@ -471,9 +552,12 @@ export type RegistryIndex = {
   names: string[]
 }
 
-export function indexRegistry(registry: readonly RegistryEntry[]): RegistryIndex {
+export function indexRegistry(
+  registry: readonly RegistryEntry[]
+): RegistryIndex {
   const byName = new Map<string, RegistryEntry[]>()
-  for (const e of registry) byName.set(e.name_ja, [...(byName.get(e.name_ja) ?? []), e])
+  for (const e of registry)
+    byName.set(e.name_ja, [...(byName.get(e.name_ja) ?? []), e])
   return {
     byCode: new Map(registry.map((e) => [e.lg_code, e])),
     bySlug: new Map(registry.map((e) => [e.slug, e])),
@@ -516,14 +600,20 @@ export function matchMunicipality(
 ): Match {
   const orgText = `${ds.org.title} ${ds.site ?? ""}`
   if (UNION.test(`${orgText} ${ds.title}`))
-    return { kind: "review", reason: "組合・広域など複数の市町村の組織", slugs: [] }
+    return {
+      kind: "review",
+      reason: "組合・広域など複数の市町村の組織",
+      slugs: [],
+    }
   if (cat.orgCode) {
-    const code = cat.orgCode === "t-lg" ? ds.org.id.replace(/^t/, "") : ds.org.id
+    const code =
+      cat.orgCode === "t-lg" ? ds.org.id.replace(/^t/, "") : ds.org.id
     const e = idx.byCode.get(code)
     if (e) return { kind: "matched", slug: e.slug, by: "org-code" }
     // 県の組織などコードが自治体でないもの: 名前で探す(下へ)
   }
-  if (cat.municipality) return { kind: "matched", slug: cat.municipality, by: "own-catalog" }
+  if (cat.municipality)
+    return { kind: "matched", slug: cat.municipality, by: "own-catalog" }
 
   const prefsIn = (t: string) => [...new Set(t.match(PREFS) ?? [])]
   // 組織名・サイト名を先に、無ければ題名で
@@ -532,13 +622,17 @@ export function matchMunicipality(
     if (names.length === 0) continue
     const prefs = [...prefsIn(text), ...(cat.prefs ?? [])]
     const cands = names.flatMap((n) => idx.byName.get(n) ?? [])
-    const narrowed = prefs.length > 0 ? cands.filter((e) => prefs.includes(e.pref)) : cands
+    const narrowed =
+      prefs.length > 0 ? cands.filter((e) => prefs.includes(e.pref)) : cands
     const pool = narrowed.length > 0 ? narrowed : cands
-    if (pool.length === 1) return { kind: "matched", slug: pool[0].slug, by: "name" }
+    if (pool.length === 1)
+      return { kind: "matched", slug: pool[0].slug, by: "name" }
     return {
       kind: "review",
       reason:
-        names.length > 1 ? `複数の自治体の名前: ${names.join("・")}` : `同じ名前の自治体: ${names[0]}`,
+        names.length > 1
+          ? `複数の自治体の名前: ${names.join("・")}`
+          : `同じ名前の自治体: ${names[0]}`,
       slugs: pool.map((e) => e.slug),
     }
   }
@@ -585,7 +679,9 @@ export function judgeDataset(
   idx: RegistryIndex
 ): DatasetVerdict {
   const slug = match.kind === "matched" ? match.slug : null
-  const signal = titleSignal([ds.title, ...ds.resources.map((r) => r.name)].join(" "))
+  const signal = titleSignal(
+    [ds.title, ...ds.resources.map((r) => r.name)].join(" ")
+  )
   const base = {
     catalog: ds.catalog,
     dataset: ds.id,
@@ -595,8 +691,12 @@ export function judgeDataset(
     resourceUrl: null as string | null,
     format: null as DatasetVerdict["format"],
     license: classifyLicense(ds.license, ds),
-    licenseLabel: ds.license.id ?? ds.license.title ?? ds.license.url ?? "(なし)",
-    dataYear: dataYear([ds.title, ...ds.resources.map((r) => `${r.name} ${r.url}`)]),
+    licenseLabel:
+      ds.license.id ?? ds.license.title ?? ds.license.url ?? "(なし)",
+    dataYear: dataYear([
+      ds.title,
+      ...ds.resources.map((r) => `${r.name} ${r.url}`),
+    ]),
     catalogDate: ds.modified,
     rows: 0,
   }
@@ -610,43 +710,84 @@ export function judgeDataset(
       verdict: "item-list",
       reason: t.reason,
       resourceUrl: p.url,
-      format: t.standard ? "standard" : res ? (fileKind(res) as DatasetVerdict["format"]) : "csv",
+      format: t.standard
+        ? "standard"
+        : res
+          ? (fileKind(res) as DatasetVerdict["format"])
+          : "csv",
       license: res ? classifyLicense(res.license, ds) : base.license,
-      licenseLabel: res ? (res.license.id ?? res.license.title ?? res.license.url ?? "(なし)") : base.licenseLabel,
-      dataYear: dataYear([ds.title, res?.name ?? "", res?.url ?? ""]) ?? base.dataYear,
+      licenseLabel: res
+        ? (res.license.id ?? res.license.title ?? res.license.url ?? "(なし)")
+        : base.licenseLabel,
+      dataYear:
+        dataYear([ds.title, res?.name ?? "", res?.url ?? ""]) ?? base.dataYear,
       catalogDate: res?.modified ?? ds.modified,
       rows: t.rows,
     }
     if (match.kind !== "matched")
-      return { ...out, verdict: "review", reason: `品目の一覧だが自治体が決まらない(${match.kind === "review" ? match.reason : "名前が無い"})` }
+      return {
+        ...out,
+        verdict: "review",
+        reason: `品目の一覧だが自治体が決まらない(${match.kind === "review" ? match.reason : "名前が無い"})`,
+      }
     // 標準形式はファイルの中の団体コードとレジストリを照らす(5桁=検査数字なしでも可)
     if (t.standard) {
       const code = idx.bySlug.get(match.slug)?.lg_code ?? ""
-      const ok = t.codes.length > 0 && t.codes.every((c) => c === code || c === code.slice(0, 5))
+      const ok =
+        t.codes.length > 0 &&
+        t.codes.every((c) => c === code || c === code.slice(0, 5))
       if (!ok)
-        return { ...out, verdict: "review", reason: `ファイルの団体コード(${t.codes.slice(0, 3).join("・") || "空"})が ${code} と合わない` }
+        return {
+          ...out,
+          verdict: "review",
+          reason: `ファイルの団体コード(${t.codes.slice(0, 3).join("・") || "空"})が ${code} と合わない`,
+        }
     }
     return out
   }
   const errors = peeks.filter((p) => p.error)
   if (errors.length > 0)
-    return { ...base, verdict: "review", reason: `取得できないファイルがある: ${errors[0].error}` }
+    return {
+      ...base,
+      verdict: "review",
+      reason: `取得できないファイルがある: ${errors[0].error}`,
+    }
   const unknown = peeks.filter((p) => p.table?.kind === "unknown")
   if (unknown.length > 0)
-    return { ...base, verdict: "review", reason: unknown[0].table?.reason ?? "表を判断できない", resourceUrl: unknown[0].url }
+    return {
+      ...base,
+      verdict: "review",
+      reason: unknown[0].table?.reason ?? "表を判断できない",
+      resourceUrl: unknown[0].url,
+    }
   // 読んでいない表が残っていて、題名がはっきり統計・カレンダーなどでなければ決めつけない(要確認)
   const peekedUrls = new Set(peeks.map((p) => p.url))
   const unread = ds.resources.filter(
-    (r) => r.url && ["csv", "excel"].includes(fileKind(r)) && !peekedUrls.has(r.url)
+    (r) =>
+      r.url && ["csv", "excel"].includes(fileKind(r)) && !peekedUrls.has(r.url)
   )
   if (unread.length > 0 && titleSignal(ds.title) !== "non-item")
-    return { ...base, verdict: "review", reason: `読んでいない表が ${unread.length} 件ある` }
+    return {
+      ...base,
+      verdict: "review",
+      reason: `読んでいない表が ${unread.length} 件ある`,
+    }
   // 表が無い・表はすべて品目の一覧ではない
-  const nonTable = ds.resources.filter((r) => !["csv", "excel"].includes(fileKind(r)))
+  const nonTable = ds.resources.filter(
+    (r) => !["csv", "excel"].includes(fileKind(r))
+  )
   if (peeks.length > 0 && nonTable.length === 0)
-    return { ...base, verdict: "not-item", reason: peeks.map((p) => p.table?.reason).join(" / ") }
+    return {
+      ...base,
+      verdict: "not-item",
+      reason: peeks.map((p) => p.table?.reason).join(" / "),
+    }
   if (signal === "non-item")
-    return { ...base, verdict: "not-item", reason: "題名・リソース名が品目の一覧ではない(カレンダー・集積所など)" }
+    return {
+      ...base,
+      verdict: "not-item",
+      reason: "題名・リソース名が品目の一覧ではない(カレンダー・集積所など)",
+    }
   if (signal === "item" && nonTable.length > 0) {
     const r = nonTable[0]
     return {
@@ -658,8 +799,16 @@ export function judgeDataset(
     }
   }
   if (peeks.length > 0)
-    return { ...base, verdict: "not-item", reason: peeks.map((p) => p.table?.reason).join(" / ") }
-  return { ...base, verdict: "review", reason: "表が無く、題名からも判断できない" }
+    return {
+      ...base,
+      verdict: "not-item",
+      reason: peeks.map((p) => p.table?.reason).join(" / "),
+    }
+  return {
+    ...base,
+    verdict: "review",
+    reason: "表が無く、題名からも判断できない",
+  }
 }
 
 // ---------------------------------------------------------------- 台帳への提案
@@ -678,7 +827,14 @@ export type Proposal = {
   slug: string
   /** 書く前の状態(書き込みの時点で違えば止める) */
   expect: string
-  bucket: "candidate" | "license" | "no-data" | "review" | "incomplete" | "surveyed-review" | "surveyed"
+  bucket:
+    | "candidate"
+    | "license"
+    | "no-data"
+    | "review"
+    | "incomplete"
+    | "surveyed-review"
+    | "surveyed"
   reason: string
   entry: Record<string, unknown> | null
   verdicts: DatasetVerdict[]
@@ -688,7 +844,10 @@ export type Proposal = {
 export function looksGroup1(v: DatasetVerdict, today: string): boolean {
   const year = Number(today.slice(0, 4))
   return (
-    v.format === "standard" && v.license === "open" && v.dataYear !== null && v.dataYear >= year - 2
+    v.format === "standard" &&
+    v.license === "open" &&
+    v.dataYear !== null &&
+    v.dataYear >= year - 2
   )
 }
 
@@ -721,12 +880,22 @@ export function proposeFor(
   if (current.status !== "unsurveyed") {
     const fresh = [...items, ...reviews]
     return fresh.length > 0
-      ? { ...base, bucket: "surveyed-review", reason: `調べ済み(${current.status})の市に、カタログのデータ ${fresh.length} 件`, entry: null }
+      ? {
+          ...base,
+          bucket: "surveyed-review",
+          reason: `調べ済み(${current.status})の市に、カタログのデータ ${fresh.length} 件`,
+          entry: null,
+        }
       : { ...base, bucket: "surveyed", reason: "調べ済み", entry: null }
   }
   // 品目の一覧が1つでもあれば確認中(ほかのデータセットの要確認は、見つからないを止めるためだけに使う)
   if (items.length === 0 && reviews.length > 0)
-    return { ...base, bucket: "review", reason: reviews.map((v) => v.reason).join(" / "), entry: null }
+    return {
+      ...base,
+      bucket: "review",
+      reason: reviews.map((v) => v.reason).join(" / "),
+      entry: null,
+    }
   const best = [...items].sort(
     (a, b) =>
       Number(looksGroup1(b, opts.today)) - Number(looksGroup1(a, opts.today)) ||
@@ -745,8 +914,13 @@ export function proposeFor(
         status,
         checked_at: opts.today,
         evidence: [
-          { label: `${best.title}(${best.catalog})`, url: best.datasetUrl || undefined },
-          ...(best.resourceUrl ? [{ label: "ファイル", url: best.resourceUrl }] : []),
+          {
+            label: `${best.title}(${best.catalog})`,
+            url: best.datasetUrl || undefined,
+          },
+          ...(best.resourceUrl
+            ? [{ label: "ファイル", url: best.resourceUrl }]
+            : []),
         ],
         note: noteOf(best, opts.today),
       },
@@ -774,7 +948,11 @@ export function proposeFor(
             detail_en: `We searched Japan's open data catalogs. We have not checked ${entry.name_en}'s own website individually.`,
           }
         : {}),
-      evidence: [{ label: `データカタログの総当たり(${opts.today})。品目別の分別データは見つからなかった` }],
+      evidence: [
+        {
+          label: `データカタログの総当たり(${opts.today})。品目別の分別データは見つからなかった`,
+        },
+      ],
       searched: sources.map((s) => ({ label: s.label, url: s.url })),
     },
   }

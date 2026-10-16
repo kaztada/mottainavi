@@ -1842,5 +1842,105 @@
   "verdict": "not-item",
   "decided_at": "2026-10-16",
   "note": "ごみ収集状況(統計。題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000018": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集量(統計)(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000088": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区民世論調査(集計表)(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t131032d0000000073": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区民世論調査(集計表)(題名で確認)"
+ },
+ "https://opendata.city.minato.tokyo.jp/dataset/yoronchosa32cross06": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区民世論調査(集計表)(題名で確認)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202304": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報紙(題名で確認)"
+ },
+ "https://data.data4citizen.jp/dataset/10210006": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理原価(統計)(題名で確認)"
+ },
+ "https://opendata.city.minato.tokyo.jp/dataset/gomishushu": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ収集量(統計)(題名で確認)"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/1481.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ファイルが404。青森県の南部町は県の40市町村の一覧(aoi-mori-1)で確認中にしている(題名で確認)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/konan_databookkonan": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区の統計データブック(題名で確認)"
+ },
+ "https://opendata.city.minato.tokyo.jp/dataset/yoronchosa32tanjun06": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "区民世論調査(集計表)(題名で確認)"
+ },
+ "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-censusdata": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "国勢調査(題名で確認)"
+ },
+ "https://data.city.yokohama.lg.jp/dataset/kanazawa_202307": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "広報紙(題名で確認)"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-311.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "推計人口(統計)(題名で確認)"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-195.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "国勢調査(題名で確認)"
+ },
+ "https://catalog.data.metro.tokyo.lg.jp/dataset/t000013d2000000006": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "環境白書(題名で確認)"
+ },
+ "https://www.pref.ehime.jp/opendata-catalog/dataset/pref-360.html": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "県出資法人の経営評価(題名で確認)"
+ },
+ "https://www.okayama-opendata.jp/datasets/617": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "ごみ処理(統計)(題名で確認)"
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/050008_recycle_005": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "河川ごみの組成調査(題名で確認)"
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/050008_kankyoseibi_003": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "河川ごみの組成調査(題名で確認)"
+ },
+ "https://ckan.opendata.pref.ishikawa.lg.jp/dataset/172014-censusdata": {
+  "verdict": "not-item",
+  "decided_at": "2026-10-16",
+  "note": "国勢調査(題名で確認)"
  }
 }

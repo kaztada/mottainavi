@@ -462,6 +462,19 @@ export function createFetcher(config: FetcherConfig): Fetcher {
       // 転送は1回ずつたどり、行き先ごとにそのホストのロックと待ち時間を通す
       for (let i = 0; ; i++) {
         const host = hostKey(hop)
+        // 転送先がすでに取得済みなら、それを使う(同じ URL は1回だけ)
+        if (i > 0) {
+          const done = fromLog(hop, opts)
+          if (done) {
+            res = {
+              record: done.record,
+              body: done.body,
+              failed: !isFetchOk(done.record),
+              redirect: null,
+            }
+            break
+          }
+        }
         res = await withHostLock(host, async () => {
           let r = await runOnce(hop, host, bodyPath, opts)
           // 失敗したら、間をあけて1回だけ取り直す

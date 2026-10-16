@@ -380,7 +380,8 @@ async function peek(args: string[]) {
       // 自治体が決まらないデータも、題名・説明文に市町村の名前があれば中身を見る
       if (
         matches.every((m) => m.kind === "none") &&
-        namesIn(`${ds.title} ${ds.notes}`, idx).length === 0
+        namesIn(`${ds.org.title} ${ds.site ?? ""} ${ds.title} ${ds.notes}`, idx)
+          .length === 0
       )
         continue
       const res = cat.kind === "manual" ? ds.resources : resourcesToPeek(ds)
@@ -490,6 +491,23 @@ function propose(args: string[]) {
       .filter((l) => l.cat.kind !== "search-ckan")
       .flatMap((l) => l.datasets.map((d) => d.url))
   )
+  /**
+   * 文の中の市町村の名前から slug を集める。同じ名前の自治体(南部町など)は、探し先の対象の県か、
+   * 文に書かれた都道府県で絞る(絞れなければ、名前が同じ全部を要確認にする)
+   */
+  const slugsInText = (text: string, cat: CatalogDef): string[] => {
+    const prefs = [
+      ...new Set([
+        ...(text.match(/北海道|東京都|京都府|大阪府|.{2,3}県/g) ?? []),
+        ...(cat.prefs ?? []),
+      ]),
+    ]
+    return namesIn(text, idx).flatMap((n) => {
+      const all = idx.byName.get(n) ?? []
+      const narrowed = all.filter((e) => prefs.includes(e.pref))
+      return (narrowed.length > 0 ? narrowed : all).map((e) => e.slug)
+    })
+  }
   const verdicts: DatasetVerdict[] = []
   const gaps: Dataset[] = []
   const unmatchedReviews: { ds: Dataset; reason: string }[] = []
@@ -521,9 +539,9 @@ function propose(args: string[]) {
           }
           // 中身(または題名)で品目の一覧ではないと分かったものだけ捨てる。それ以外は説明文の市町村を要確認に
           if (v.verdict === "not-item") continue
-          const names = namesIn(`${ds.title} ${ds.notes}`, idx)
-          const slugs = names.flatMap((n) =>
-            (idx.byName.get(n) ?? []).map((e) => e.slug)
+          const slugs = slugsInText(
+            `${ds.org.title} ${ds.site ?? ""} ${ds.title} ${ds.notes}`,
+            cat
           )
           unmatchedReviews.push({
             ds,
@@ -550,8 +568,9 @@ function propose(args: string[]) {
           const slugs =
             m.slugs.length > 0
               ? m.slugs
-              : namesIn(`${ds.title} ${ds.notes}`, idx).flatMap((n) =>
-                  (idx.byName.get(n) ?? []).map((e) => e.slug)
+              : slugsInText(
+                  `${ds.org.title} ${ds.site ?? ""} ${ds.title} ${ds.notes}`,
+                  cat
                 )
           if (m.slugs.length === 0)
             unmatchedReviews.push({

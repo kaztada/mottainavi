@@ -28535,5 +28535,462 @@
   "checked_at": "2026-10-16",
   "sha256": "1f0d090377cd58e98c11eecd6f65b6fce0368e1cc9aab4addac19c526c40c21b",
   "error": "応答 404"
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/aoi-mori-1/resource/97/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5%E5%B8%82%E7%94%BA%E6%9D%91%E5%85%AC%E5%85%B1%E3%83%87%E3%83%BC%E3%82%BF%EF%BC%88%E4%BF%AE%E6%AD%A3%E5%BE%8C%EF%BC%89.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "d16524ea062af87d7bcbef42bad8b6b9bbbad0b37d2d7d3cb819d97604cba5a4",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "品名",
+    "素材/種別",
+    "青森市（青森地区）・分別種別",
+    "青森市（青森地区）・注意事項",
+    "青森市（浪岡地区）・分別種別",
+    "青森市（浪岡地区）・注意事項",
+    "弘前市・分別種別",
+    "弘前市・注意事項",
+    "八戸市・分別種別",
+    "八戸市・注意事項",
+    "黒石市・分別種別",
+    "黒石市・注意事項",
+    "五所川原市・分別種別",
+    "五所川原市・注意事項",
+    "十和田市・分別種別",
+    "十和田市・注意事項",
+    "三沢市・分別種別",
+    "三沢市・注意事項",
+    "むつ市・分別種別",
+    "むつ市・注意事項",
+    "つがる市・分別種別",
+    "つがる市・注意事項",
+    "平川市・分別種別",
+    "平川市・注意事項",
+    "平内町・分別種別",
+    "平内町・注意事項",
+    "今別町・分別種別",
+    "今別町・注意事項",
+    "蓬田村・分別種別",
+    "蓬田村・注意事項",
+    "外ヶ浜町・分別種別",
+    "外ヶ浜町・注意事項",
+    "鯵ヶ沢町・分別種別",
+    "鯵ヶ沢町・注意事項",
+    "深浦町・分別種別",
+    "深浦町・注意事項",
+    "西目屋村・分別種別",
+    "西目屋村・注意事項",
+    "藤崎町・分別種別",
+    "藤崎町・注意事項",
+    "大鰐町・分別種別",
+    "大鰐町・注意事項",
+    "田舎館村・分別種別",
+    "田舎館村・注意事項",
+    "板柳町・分別種別",
+    "板柳町・注意事項",
+    "鶴田町・分別種別",
+    "鶴田町・注意事項",
+    "中泊町・分別種別",
+    "中泊町・注意事項",
+    "野辺地町・分別種別",
+    "野辺地町・注意事項",
+    "七戸町・分別種別",
+    "七戸町・注意事項",
+    "六戸町・分別種別",
+    "六戸町・注意事項",
+    "横浜町・分別種別",
+    "横浜町・注意事項",
+    "東北町・分別種別",
+    "東北町・注意事項",
+    "六ケ所村・分別種別",
+    "六ケ所村・注意事項",
+    "おいらせ町・分別種別",
+    "おいらせ町・注意事項",
+    "大間町・分別種別",
+    "大間町・注意事項",
+    "東通村・分別種別",
+    "東通村・注意事項",
+    "風間浦村・分別種別",
+    "風間浦村・注意事項",
+    "佐井村・分別種別",
+    "佐井村・注意事項",
+    "三戸町・分別種別",
+    "三戸町・注意事項",
+    "五戸町・分別種別",
+    "五戸町・注意事項",
+    "田子町・分別種別",
+    "田子町・注意事項",
+    "南部町・分別種別",
+    "南部町・注意事項",
+    "階上町・分別種別",
+    "階上町・注意事項",
+    "新郷村・分別種別",
+    "新郷村・注意事項"
+   ],
+   "rows": 4999,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.tokushima.lg.jp/dataset/1370/resource/4096/%E3%81%94%E3%81%BF%E3%81%AE%E5%88%86%E5%88%A5%E8%BE%9E%E5%85%B8.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "03e8a56209f1d241b2c7e640a6056f4eea09be8e9071765fe109f2af4b77c549",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "",
+    "品　目",
+    "ごみの種類",
+    "正しい出し方"
+   ],
+   "rows": 427,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/1481/resource/17546/022063_51_gomi_youbi.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+  "error": "応答 404"
+ },
+ "https://opendata.pref.tokushima.lg.jp/dataset/5149/resource/17123/362034_garbage_separation.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "e716bc22e055dbf7a2d9a5b052632353f699314b47aab6701547cc884806e857",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "品目",
+    "分別区分",
+    "注意点",
+    "料金種別",
+    "料金",
+    "料金備考",
+    "連絡先名称",
+    "連絡先電話番号",
+    "連絡先内線番号",
+    "連絡先メールアドレス",
+    "連絡先FormURL",
+    "連絡先備考",
+    "備考"
+   ],
+   "rows": 907,
+   "standard": true,
+   "codes": [
+    "362034"
+   ]
+  }
+ },
+ "https://odp-pref-tottori.tori-info.co.jp/dataset/1874/resource/9580/313891_garbage_separation.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "85399319ed53bb0674054cbeaecee2d426de3f64331430a53c9ea8fb993a2164",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "全国地方公共団体コード",
+    "ID",
+    "品目",
+    "分別区分",
+    "注意点",
+    "料金種別",
+    "料金",
+    "料金備考",
+    "連絡先名称",
+    "連絡先電話番号",
+    "連絡先内線番号",
+    "連絡先メールアドレス",
+    "連絡先FormURL",
+    "連絡先備考",
+    "備考"
+   ],
+   "rows": 791,
+   "standard": true,
+   "codes": [
+    "313891"
+   ]
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/1481/resource/17547/022063_52_gomi_bunrui.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "55f7d9e99b8e2d4e0e193b2f0275501e6d9c1ebd29cadbea6a0da48a8587e3e0",
+  "error": "応答 404"
+ },
+ "https://odp-pref-tottori.tori-info.co.jp/dataset/1891/resource/9625/312011_garbage_collection_place.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "8c06ae6c015f226ad017ecabe23a92c20836508239b50f81f9b55afa4133cd33",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "localGovernmentCode",
+    "identifier",
+    "itemName",
+    "sortingType",
+    "caution",
+    "feeType",
+    "fee",
+    "feeRemarks",
+    "remarks"
+   ],
+   "rows": 840,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.tokushima.lg.jp/dataset/1426/resource/4157/%E6%8C%87%E5%AE%9A%E3%81%94%E3%81%BF%E8%A2%8B%E5%8F%96%E6%89%B1%E5%BA%97%E4%B8%80%E8%A6%A7.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "4576a779af514395afece7ea15c9b453773a6ea7406d4ece728c86dff1840447",
+  "table": {
+   "kind": "not-item",
+   "reason": "施設・場所の一覧(見出し: 町名 / 店舗名 / 店舗住所 / 電話番号)",
+   "header": [
+    "町名",
+    "店舗名",
+    "店舗住所",
+    "電話番号"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-311/resource/5433/0000000425_1_5.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": "a905b56ac9c169c580efd2774aa552fd9c002f989c2a9e61947615fc8c7aebbb",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://odp-pref-tottori.tori-info.co.jp/dataset/1891/resource/9624/312011_garbage_collection_place.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "106187aee82fe3587e7855f9cf0c6e803dd3584445cd2f0d24d2d40883f683cb",
+  "table": {
+   "kind": "item-list",
+   "reason": "品目と分け方の列がある",
+   "header": [
+    "localGovernmentCode",
+    "identifier",
+    "itemName",
+    "sortingType",
+    "caution",
+    "feeType",
+    "fee",
+    "feeRemarks",
+    "contactPointName",
+    "contactPointPhoneNumber",
+    "contactPointExtension",
+    "contactPointEmailAddress",
+    "contactPointFormUrl",
+    "contactPointRemarks",
+    "remarks"
+   ],
+   "rows": 840,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-195/resource/4191/0000000337_1_19.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": "dfaacb04a99edfb40fc699c5911283d7a3978c180a55eee8b14e781c7c9ec2fa",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://www.opendata.metro.tokyo.lg.jp/shijyou/R3/sijyokankyohakusyo_01.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "f3b6e0d97418818b18236660de83f4bc8ba685b2ba61242381428f26a5d7538b",
+  "table": {
+   "kind": "unknown",
+   "reason": "見出しから判断できない(先頭行: 市場/環境基準 / 二酸化窒素(NO2)箇所 / 二酸化窒素(NO2)(平均値) / 一酸化炭素(CO)箇所 / 一酸化炭素(CO)(平均値) / 浮遊粒子状物質(SPM)箇所)",
+   "header": [
+    "市場／環境基準",
+    "二酸化窒素（NO2）箇所",
+    "二酸化窒素（NO2）（平均値）",
+    "一酸化炭素（CO）箇所",
+    "一酸化炭素（CO）（平均値）",
+    "浮遊粒子状物質（SPM）箇所",
+    "浮遊粒子状物質（SPM）（平均値）",
+    "二酸化窒素（NO2）市場",
+    "一酸化炭素（CO）市場",
+    "浮遊粒子状物質（SPM）市場",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.opendata.metro.tokyo.lg.jp/shijyou/R3/sijyokankyohakusyo_02.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "704797582a414a7d61350cafce33a19eb1c327b36fa9fdb95d5a7a3af0611977",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 年度 / 総台数ターレ / 総台数フォーク / 総台数計 / 電動車ターレ / 電動車フォーク)",
+   "header": [
+    "年度",
+    "総台数ﾀｰﾚ",
+    "総台数ﾌｫｰｸ",
+    "総台数計",
+    "電動車ﾀｰﾚ",
+    "電動車ﾌｫｰｸ",
+    "電動車計",
+    "排出ｶﾞｽ低減車ﾌｫｰｸ",
+    "電動化率ﾀｰﾚ（％）",
+    "電動化率ﾌｫｰｸ（％）",
+    "電動化率計（％）",
+    "低公害化率ﾌｫｰｸ（％）",
+    "低公害化率計（％）",
+    "備考"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-195/resource/4165/0000000337_1_9.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": "0d8ed2e9df47982065be1086e375e61c971d82981c90f27060491a57fae6db57",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/8f81fdd7-035a-49e6-8de3-463d2d3d426b/resource/cd50fc05-928b-414c-90a5-85d15d5bf02c/download/050008_r4_kasengomisoseichosayoneshirogawa_seizokoku_karyunoshiroshigokei.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "e9c8c9cee3629b87c45efd79d1318041b701593443f021e8fbc150f1f96e429c",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 令和4年度河川ごみ組成調査(米代川)_製造国_下流(能代市)合計)",
+   "header": [
+    "令和４年度河川ごみ組成調査（米代川）_製造国_下流（能代市）合計"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://www.opendata.metro.tokyo.lg.jp/shijyou/R3/sijyokankyohakusyo_03.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "a5c885cc1c0481aab8ff582c3ea137452ee674f7af5cc18f567358455f50b1a0",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 年度 / ディーゼル車 / ガソリン車 / LPG車 / 低排出ガス車 / 電動車)",
+   "header": [
+    "年度",
+    "ディーゼル車",
+    "ガソリン車",
+    "ＬＰＧ車",
+    "低排出ガス車",
+    "電動車",
+    "合計",
+    "低公害化率（％）"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-195/resource/4192/0000000337_1_29.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": "3027630ca2a7b554effe8970bb2240c23bbd3a03f0f13c62b4265b7c5b70d452",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/8f81fdd7-035a-49e6-8de3-463d2d3d426b/resource/9e45f2e7-01f4-4ec0-a897-74d191d34bf5/download/050008_r4_kasengomisoseichosayoneshirogawa_opushonkomoku_karyunoshiroshigokei.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "3b7d26f47c7c20cebc33071c41938c7521260a908d1e940ad0a3a6e4b2a30df1",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 令和4年度河川ごみ組成調査(米代川)_オプション項目_下流(能代市)合計)",
+   "header": [
+    "令和４年度河川ごみ組成調査（米代川）_オプション項目_下流（能代市）合計"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-195/resource/4193/0000000337_1_10.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": "63344d5100aec183ae0ea9f4694ec9f30681d6c8da8632800fd43570579fa5ba",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/8f81fdd7-035a-49e6-8de3-463d2d3d426b/resource/ddcd9501-75ea-422b-9256-94028d049971/download/050008_r4_kasengomisoseichosayoneshirogawa_hissukomoku_karyunoshiroshigokei.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "42c4e5bf50cdba2b10404cef68d81b92c39fb999a997232985de13107d9cefe6",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 令和4年度河川ごみ組成調査(米代川)_必須項目_下流(能代市)合計)",
+   "header": [
+    "令和４年度河川ごみ組成調査（米代川）_必須項目_下流（能代市）合計"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/dataland-311/resource/5434/0000000425_1_3.xls": {
+  "checked_at": "2026-10-16",
+  "sha256": "6b6bf5469fdc99bcff6f69cbc6d5bf534c3c726b7b49b9efb56a7df4ead6d43a",
+  "error": "旧 Excel(.xls)などで読めない"
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/3394b023-cb6f-4d77-9294-5d983083680c/resource/c97b1e3d-dc92-4b02-9194-2b7fdc487b68/download/050008_r3_kasengomisoseichosaomonogawa_seizokoku_churyudaisenshigokei.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "0bcf3bff8a8499eca9f9df99c9f1d19be7e3a31d6fadbb609a4f8e178f922ca7",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 令和3年度河川ごみ組成調査(雄物川)_製造国_中流(大仙市)合計)",
+   "header": [
+    "令和３年度河川ごみ組成調査（雄物川）_製造国_中流（大仙市）合計"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://opendata.pref.aomori.lg.jp/dataset/1508/resource/10627/%E5%B9%B3%E6%88%9031%E5%B9%B4%E5%BA%A6_%E4%B8%89%E6%88%B8%E7%94%BA%E3%81%94%E3%81%BF%E5%8F%8E%E9%9B%86%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC.csv": {
+  "checked_at": "2026-10-16",
+  "sha256": "f5df208fdf3443f1cd1a376e57360ef9cc90f87d38974d47bcae6bc654c0ace7",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 地域 / 地名 / 燃やす / 燃やさない / 段ボール、古紙類等 / びん)",
+   "header": [
+    "地域",
+    "地名",
+    "燃やす",
+    "燃やさない",
+    "段ボール、古紙類等",
+    "びん",
+    "ペットボトル"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/3394b023-cb6f-4d77-9294-5d983083680c/resource/b9616e64-9111-4aa3-87a7-3a69af2b8417/download/050008_r3_kasengomisoseichosaomonogawa_seizokoku_karyuakitashigokei.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "a72f5f50dd4e6aa6e701e5e8bad7a19cf7dc0f2bfc0266ae324dd96a5d5c8498",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 令和3年度河川ごみ組成調査(雄物川)_製造国_下流(秋田市)合計)",
+   "header": [
+    "令和３年度河川ごみ組成調査（雄物川）_製造国_下流（秋田市）合計"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
+ },
+ "https://ckan.pref.akita.lg.jp/dataset/3394b023-cb6f-4d77-9294-5d983083680c/resource/00ed87bb-c861-4f62-bdb8-49e95785ebb5/download/050008_r3_kasengomisoseichosaomonogawa_seizokoku_6chitengokei.xlsx": {
+  "checked_at": "2026-10-16",
+  "sha256": "c451c2911706ac77417b921d8ed0c1be7f81c5d00a97cde3ae66196665302157",
+  "table": {
+   "kind": "not-item",
+   "reason": "品目の一覧ではない表(見出し: 令和3年度河川ごみ組成調査(雄物川)_製造国_6地点合計)",
+   "header": [
+    "令和３年度河川ごみ組成調査（雄物川）_製造国_６地点合計"
+   ],
+   "rows": 0,
+   "standard": false,
+   "codes": []
+  }
  }
 }
