@@ -1,6 +1,6 @@
 {
   "municipality_id": "shunan-city",
-  "generated_at": "2026-10-17T19:29:55.923Z",
+  "generated_at": "2026-10-17T19:36:19.621Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352152_garbage_separation",
   "item_count": 869,
   "items": [
@@ -5943,7 +5943,7 @@
       "dispositions": [
         {
           "category_id": "shushushinai",
-          "note_ja": "市では収集しません。\n販売店・メーカー・専門業者などに相談してください(品目ごとの案内があれば、それに従います)。\n購入店・特定窓口に相談してください。エアゾール式簡易消火具は、中身を使い切り穴をあけ「処理困難物」へ",
+          "note_ja": "※もったいナビ注: エアゾール式の簡易消火具に穴を開けるときは、中身を完全に使い切ったことを確かめてから、火の気のない風通しのよい屋外で行います(市の冊子のボンベ類の出し方)。\n市では収集しません。\n販売店・メーカー・専門業者などに相談してください(品目ごとの案内があれば、それに従います)。\n購入店・特定窓口に相談してください。エアゾール式簡易消火具は、中身を使い切り穴をあけ「処理困難物」へ",
           "official_link": "https://www.city.shunan.lg.jp/soshiki/19/33474.html"
         }
       ],
