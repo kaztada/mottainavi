@@ -19,7 +19,6 @@ const BASE = "https://www.city.shunan.lg.jp/soshiki/19/"
 const BUNBETSU = BASE + "33474.html" // 家庭ごみの分別(冊子)
 const SODAI = BASE + "39046.html" // 粗大ごみ
 const DENCHI = BASE + "70084.html" // 充電式電池の処分方法
-const SPRAY = BASE + "31412.html" // スプレー缶・カセットボンベ
 const KIKEN = BASE + "4674.html" // 危険なごみ
 
 const RECYCLE = "リサイクル推進課(0834-22-8303)"

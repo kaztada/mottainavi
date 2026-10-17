@@ -21,8 +21,6 @@ import { toStandardCsv } from "./convert"
 const BASE = "https://www.city.koganei.lg.jp/kurashi/446/"
 const DASHIKATA = BASE + "gomidashikata/gomisigenndasikata/index.html" // ごみ・資源物の出し方
 const YUGAI = BASE + "gomidashikata/gomisigenndasikata/yuugaidashikata.html" // 有害ごみ・スプレー缶の出し方
-const SODAI = BASE + "gomidashikata/sodaigomi/sodaigomi-mousikomi.html" // 粗大ごみの申し込み方法
-const TEBIKI = BASE + "gomidashikata/gomitebiki/index.html" // ごみ分別の手引き
 const SHUSHU = BASE + "shikaisyuuhuka/kyokagyosha.html" // 市で回収できないごみ
 
 const TAISAKU = "ごみ対策課(0570-00-5371。定額制の電話などからは042-387-9835)"
