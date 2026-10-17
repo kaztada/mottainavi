@@ -1,0 +1,146 @@
+[
+  {
+    "id": "moyaseru",
+    "kind": "burnable",
+    "name_ja": "燃やせるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moyasenai",
+    "kind": "non-burnable",
+    "name_ja": "燃やせないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ(申込制・有料)",
+    "name_en": "Oversized Waste (by appointment, fee)"
+  },
+  {
+    "id": "umetate",
+    "kind": "other",
+    "name_ja": "埋立ごみ",
+    "name_en": "Landfill Waste"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装",
+    "name_en": "Plastic Containers & Packaging"
+  },
+  {
+    "id": "kami-yoki",
+    "kind": "paper",
+    "name_ja": "紙製容器包装",
+    "name_en": "Paper Containers & Packaging"
+  },
+  {
+    "id": "kami-pack",
+    "kind": "paper",
+    "name_ja": "紙パック",
+    "name_en": "Paper Cartons"
+  },
+  {
+    "id": "shinbun",
+    "kind": "paper",
+    "name_ja": "古紙類(新聞)",
+    "name_en": "Newspapers"
+  },
+  {
+    "id": "danboru",
+    "kind": "paper",
+    "name_ja": "古紙類(ダンボール)",
+    "name_en": "Cardboard"
+  },
+  {
+    "id": "zatsugami",
+    "kind": "paper",
+    "name_ja": "古紙類(雑がみ)",
+    "name_en": "Mixed Paper"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "缶",
+    "name_en": "Cans"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "びん類",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "furugi",
+    "kind": "paper",
+    "name_ja": "古着・古布(クリーンセンターへ持ち込み)",
+    "name_en": "Used Clothing & Cloth (take to the Clean Center)"
+  },
+  {
+    "id": "spray",
+    "kind": "hazardous",
+    "name_ja": "危険ごみ(スプレー缶類)",
+    "name_en": "Hazardous Waste (Aerosol Cans)"
+  },
+  {
+    "id": "denchi",
+    "kind": "hazardous",
+    "name_ja": "危険ごみ(乾電池類)",
+    "name_en": "Hazardous Waste (Batteries)"
+  },
+  {
+    "id": "suigin",
+    "kind": "hazardous",
+    "name_ja": "危険ごみ(水銀体温計)",
+    "name_en": "Hazardous Waste (Mercury Thermometers)"
+  },
+  {
+    "id": "keikokan",
+    "kind": "hazardous",
+    "name_ja": "危険ごみ(蛍光管)",
+    "name_en": "Hazardous Waste (Fluorescent Tubes)"
+  },
+  {
+    "id": "lighter",
+    "kind": "hazardous",
+    "name_ja": "危険ごみ(ライター類)",
+    "name_en": "Hazardous Waste (Lighters)"
+  },
+  {
+    "id": "toujiki",
+    "kind": "non-burnable",
+    "name_ja": "危険ごみ(陶磁器・ガラス類)",
+    "name_en": "Hazardous Waste (Ceramics & Glass)"
+  },
+  {
+    "id": "kyoten",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(回収ボックス)",
+    "name_en": "Small Appliances (collection box)"
+  },
+  {
+    "id": "hanbaiten",
+    "kind": "maker-recycle",
+    "name_ja": "販売店・メーカーの回収",
+    "name_en": "Store or Manufacturer Take-back"
+  },
+  {
+    "id": "kaden",
+    "kind": "other",
+    "name_ja": "家電リサイクル法対象品",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "shorishinai",
+    "kind": "not-collected",
+    "name_ja": "市では処理しません",
+    "name_en": "Not Handled by the City"
+  }
+]

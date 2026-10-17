@@ -36498,21 +36498,6 @@
   "hagi-city": {
     "status": "unsurveyed"
   },
-  "hofu-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "【防府市】ゴミの分別方法一覧(search-ckan-jp)",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/1518e93d-14c6-4a9b-8864-19367edd6d1c/resource/3fbbc674-18d9-4724-9d66-7c690d695511/download/28_.xlsx"
-      }
-    ],
-    "note": "総当たり 2026-10-16: standard・1239行・データの基準日 不明・カタログの更新日 2026-01-22・ライセンスの登録 cc-by"
-  },
   "kudamatsu-city": {
     "status": "candidate",
     "checked_at": "2026-10-16",

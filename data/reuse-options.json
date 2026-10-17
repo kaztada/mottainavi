@@ -150,6 +150,17 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "setagaya-ku"
+      },
+      {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(市役所本館1階・各出張所の11か所)",
+        "title_en": "Drop it in a small-appliance collection box (City Hall main building 1F and branch offices; 11 locations)",
+        "desc_ja": "投入口(縦20cm×横40cm)に入る、携帯電話・デジタルカメラ・ゲーム機などの小型家電が対象です。中の金属が資源としてもう一働き。入らないものはクリーンセンターへの持ち込みで。携帯電話やパソコンの個人情報のデータは消しておきます。電池が外せるものは外して、電池は危険ごみの「乾電池類」へ。膨らんだり変形したりしたリチウムイオン電池や、それが入った製品はボックスに入れず、直接クリーンセンターへ持ち込みます。",
+        "desc_en": "For small appliances that fit the 20 cm x 40 cm slot, such as mobile phones, digital cameras and game consoles. The metals inside get another life. Take larger ones to the Clean Center. Wipe personal data from phones and computers first. Remove batteries if you can and put them out as hazardous waste (batteries). Swollen or deformed lithium-ion batteries, and products containing them, must not go in the box; take them directly to the Clean Center.",
+        "url": "https://www.city.hofu.yamaguchi.jp/soshiki/16/kodenkaisyu2.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "hofu-city"
       }
     ]
   },
