@@ -15020,19 +15020,23 @@
     ]
   },
   "kasukabe-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-17",
+    "detail_ja": "公開データ(2026年2月)と市の現行の案内で、充電式電池・モバイルバッテリー・ボタン電池などの出し方の区分が違っていました。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "The city's open data (February 2026) and its current guidance put rechargeable batteries, power banks and button batteries in different categories. Because they can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "【春日部市】ゴミの分別方法一覧(saitama)",
+        "label": "埼玉県オープンデータポータルの CSV(2026-02、1,304行、PDL1.0)",
         "url": "https://opendata.pref.saitama.lg.jp/datasets/2149"
       },
       {
-        "label": "ファイル",
-        "url": "https://opendata.pref.saitama.lg.jp/resource_download/6521"
+        "label": "市の現行の案内(分別区分一覧 令和8年4月時点): 充電式電池・リチウムイオン電池・モバイルバッテリー・ボタン電池は有害・危険ごみ(データでは回収協力店)"
+      },
+      {
+        "label": "2026-10-17 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・1304行・データの基準日 不明・カタログの更新日 2026-02-25・ライセンスの登録 pdl"
+    "note": "Kaz 判断 2026-10-17: 保留(境界。照合できた422行の9割弱が一致、電池類4品目の区分名が現行と違う。市のサイト本体は二次利用不可)"
   },
   "sayama-city": {
     "status": "no-data",
@@ -15231,19 +15235,23 @@
     ]
   },
   "koshigaya-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-17",
+    "detail_ja": "公開データ(2025年3月)のあとに、市で充電式電池の出し方が変わりました(2025年7月から危険ごみ)。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "After the city's open data (March 2025) was published, the city changed how to put out rechargeable batteries (hazardous waste since July 2025). Because they can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "【越谷市】ゴミの分別方法一覧(saitama)",
+        "label": "埼玉県オープンデータポータルの CSV(2025-03、493品目、PDL1.0)",
         "url": "https://opendata.pref.saitama.lg.jp/datasets/2084"
       },
       {
-        "label": "ファイル",
-        "url": "https://opendata.pref.saitama.lg.jp/resource_download/6411"
+        "label": "市の現行の案内(令和8年度ごみ収集カレンダー、リチウムイオン電池のページ): 充電式電池・モバイルバッテリーは2025年7月から危険ごみ(データでは販売店の回収ボックス)"
+      },
+      {
+        "label": "2026-10-17 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・493行・データの基準日 不明・カタログの更新日 2025-03-21・ライセンスの登録 pdl"
+    "note": "Kaz 判断 2026-10-17: 保留(危険物の区分の食い違い1件。モバイルバッテリーの行が無い。注意点の列が全行空。市のサイトは転載に承諾が要る)"
   },
   "warabi-city": {
     "status": "no-data",
@@ -18148,19 +18156,23 @@
     "note": "総当たり 2026-10-16: csv・0行・データの基準日 2025・カタログの更新日 2025-12-12・ライセンスの登録 CC-BY-4.0"
   },
   "sumida-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-17",
+    "detail_ja": "公開データ(2025年3月)のあとに、区で充電式電池・モバイルバッテリーの出し方が変わりました(2025年12月から)。プラスチックの資源回収も一部の品目にだけ入っています。データが新しくなってから対応します。",
+    "detail_en": "After the ward's open data (March 2025) was published, the ward changed how to put out rechargeable batteries and power banks (from December 2025). The plastic recycling collection is also reflected for only some items. We will add the ward once the data is updated.",
     "evidence": [
       {
-        "label": "ゴミの分別方法一覧(tokyo)",
+        "label": "東京都オープンデータカタログの CSV(2025-03-31、477行、CC BY 4.0)",
         "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131075d0000000142"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.opendata.metro.tokyo.lg.jp/sumida/131075_garbage_separation.csv"
+        "label": "区の現行の案内: 2025年12月から充電式電池・モバイルバッテリーを燃やさないごみの日に別の袋で回収。2024年4月からプラスチックの資源回収(データには一部だけ)"
+      },
+      {
+        "label": "2026-10-17 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・477行・データの基準日 不明・カタログの更新日 2025-03-30・ライセンスの登録 CC-BY-4.0"
+    "note": "Kaz 判断 2026-10-17: 保留(2025-12 の電池の出し方が未反映。同じ品目が区分違いで並ぶ行が多い(91品目)。区のサイト本体は二次利用不可)"
   },
   "koto-ku": {
     "status": "hold",
@@ -18181,19 +18193,23 @@
     "note": "Kaz 判断 2026-10-16: 保留(区の50音表とも約31行違う。区へデータ更新を依頼する候補)"
   },
   "shinagawa-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-17",
+    "detail_ja": "公開データ(2025年3月ごろ)と区の現行の案内で、ボタン電池など15品目の出し方が違っていました。電池は火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "The ward's open data (around March 2025) and its current guidance differ for 15 items, including button batteries. Because batteries can cause fires, we will add the ward once the data is updated.",
     "evidence": [
       {
-        "label": "ゴミの分別方法一覧(tokyo)",
+        "label": "東京都オープンデータカタログの CSV(2025-03ごろ、415品目、CC BY 4.0)",
         "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131091d0000000161"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.opendata.metro.tokyo.lg.jp/shinagawa/131091_garbage_separation.csv"
+        "label": "区の現行の案内(資源・ごみ品目一覧、電池の出し方): ボタン電池は2026年3月から資源の日に回収(データでは収集できない)。ほか14品目の区分が違う"
+      },
+      {
+        "label": "2026-10-17 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・415行・データの基準日 不明・カタログの更新日 2025-02-28・ライセンスの登録 CC-BY-4.0"
+    "note": "Kaz 判断 2026-10-17: 保留(区の品目一覧と全件照合し14品目の区分が違う。ボタン電池は2026-03から資源の日に回収。区のサイト本体は二次利用不可)"
   },
   "meguro-ku": {
     "status": "no-data",
@@ -18619,19 +18635,23 @@
     ]
   },
   "chofu-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-17",
+    "detail_ja": "公開データ(2024年3月)のあとに、市で充電式電池の出し方が変わりました(2025年4月から有害ごみ)。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "After the city's open data (March 2024) was published, the city changed how to put out rechargeable batteries (hazardous waste since April 2025). Because they can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "新6.ゴミの分別方法一覧(tokyo)",
+        "label": "東京都オープンデータカタログの CSV(2024-03-21、1,522行、CC BY 4.0)",
         "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132080d3100001972"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.city.chofu.lg.jp/documents/13850/132080_garbage_separation.csv"
+        "label": "市の現行の案内(ごみ分別辞典): 充電式電池は2025年4月から有害ごみで収集(データでは販売店の回収)。13品目の区分が違い、うち9品目が危険物"
+      },
+      {
+        "label": "2026-10-17 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・1522行・データの基準日 不明・カタログの更新日 2025-01-22・ライセンスの登録 CC-BY-4.0"
+    "note": "Kaz 判断 2026-10-17: 保留(市の辞典と13品目の区分が違い、うち9品目が危険物。市の辞典は最新なので、CSV の出し直しで入れられる見込み)"
   },
   "machida-city": {
     "status": "no-data",
@@ -36484,19 +36504,23 @@
     "note": "総当たり 2026-10-16: standard・1475行・データの基準日 不明・カタログの更新日 2025-01-16・ライセンスの登録 cc-by"
   },
   "iwakuni-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-17",
+    "detail_ja": "公開データ(2025年4月)と市の現行の早見表(2026年9月)で、携帯電話のバッテリーや劇薬のびんなど約11品目の出し方が違っていました。データが新しくなってから対応します。",
+    "detail_en": "The city's open data (April 2025) and its current sorting chart (September 2026) differ for about 11 items, including mobile phone batteries and bottles of poisonous chemicals. We will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "【岩国市】ゴミの分別方法一覧(search-ckan-jp)",
+        "label": "山口県オープンデータカタログの CSV・Excel(2025-04時点、1,255品目、PDL1.0)",
         "url": "https://yamaguchi-opendata.jp/ckan/dataset/352080-garbage_separation"
       },
       {
-        "label": "ファイル",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/c015cc58-8dcc-41cd-a0f0-833a029e2a03/resource/3811229d-a737-40c9-abb1-490832e16c03/download/25_352080_garbage_separation.csv_2436_marked.xlsx"
+        "label": "市の現行の案内(家庭ごみ分別早見表 2026年9月版): 携帯電話などのバッテリー・劇薬のびんなど約11品目の出し方が違う"
+      },
+      {
+        "label": "2026-10-17 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・1255行・データの基準日 不明・カタログの更新日 2025-03-31・ライセンスの登録 cc-by"
+    "note": "Kaz 判断 2026-10-17: 保留(約11件の区分の食い違い、うち3件が危険物・劇薬。市のサイトは無断転用不可)"
   },
   "hikari-city": {
     "status": "no-data",
