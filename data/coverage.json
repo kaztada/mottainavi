@@ -6828,21 +6828,6 @@
       }
     ]
   },
-  "oshu-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "奥州市_ゴミの分別方法一覧_2026-05-01(iwate)",
-        "url": "https://iwate.dataeye.jp/datasets/567"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.city.oshu.iwate.jp/material/files/group/3/032158_garbage_separation.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: standard・1029行・データの基準日 2026・カタログの更新日 2026-05-01・ライセンスの登録 cc-by・第1群の見込み"
-  },
   "takizawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",

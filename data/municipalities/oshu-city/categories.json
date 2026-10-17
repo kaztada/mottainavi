@@ -1,0 +1,80 @@
+[
+  {
+    "id": "moeru",
+    "kind": "burnable",
+    "name_ja": "燃えるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moenai",
+    "kind": "non-burnable",
+    "name_ja": "燃えないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "recycle",
+    "kind": "recyclable",
+    "name_ja": "リサイクル(資源)",
+    "name_en": "Recyclables"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(回収ボックス)",
+    "name_en": "Small Appliances (collection box)"
+  },
+  {
+    "id": "kandenchi",
+    "kind": "hazardous",
+    "name_ja": "乾電池(回収ボックス)",
+    "name_en": "Dry-cell Batteries (collection box)"
+  },
+  {
+    "id": "keikokan",
+    "kind": "hazardous",
+    "name_ja": "蛍光管(回収ボックス)",
+    "name_en": "Fluorescent Tubes (collection box)"
+  },
+  {
+    "id": "denchi-kaishu",
+    "kind": "hazardous",
+    "name_ja": "ボタン電池・小型充電式電池の回収",
+    "name_en": "Button & Small Rechargeable Batteries (collection)"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "家電リサイクル",
+    "name_en": "Home Appliance Recycling (not collected)"
+  },
+  {
+    "id": "pasokon",
+    "kind": "maker-recycle",
+    "name_ja": "パソコンリサイクル",
+    "name_en": "PC Recycling"
+  },
+  {
+    "id": "nirinsha",
+    "kind": "maker-recycle",
+    "name_ja": "二輪車リサイクル",
+    "name_en": "Motorcycle Recycling"
+  },
+  {
+    "id": "shokaki",
+    "kind": "maker-recycle",
+    "name_ja": "消火器リサイクル",
+    "name_en": "Fire Extinguisher Recycling"
+  },
+  {
+    "id": "ink",
+    "kind": "maker-recycle",
+    "name_ja": "インクカートリッジリサイクル",
+    "name_en": "Ink Cartridge Recycling"
+  },
+  {
+    "id": "shushushinai",
+    "kind": "not-collected",
+    "name_ja": "収集しません(持ち込み・許可業者など)",
+    "name_en": "Not Collected (take it in or use a licensed hauler)"
+  }
+]

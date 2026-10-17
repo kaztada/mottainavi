@@ -11,6 +11,7 @@ import { maizuruCityAdapter } from "./maizuru-city"
 import { nagahamaCityAdapter } from "./nagahama-city"
 import { okinawaCityAdapter } from "./okinawa-city"
 import { osakaCityAdapter } from "./osaka-city"
+import { oshuCityAdapter } from "./oshu-city"
 import { setagayaKuAdapter } from "./setagaya-ku"
 import { shunanCityAdapter } from "./shunan-city"
 import { sukagawaCityAdapter } from "./sukagawa-city"
@@ -36,4 +37,5 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [setagayaKuAdapter.slug]: setagayaKuAdapter,
   [hofuCityAdapter.slug]: hofuCityAdapter,
   [shunanCityAdapter.slug]: shunanCityAdapter,
+  [oshuCityAdapter.slug]: oshuCityAdapter,
 }
