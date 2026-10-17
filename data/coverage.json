@@ -18668,21 +18668,6 @@
       }
     ]
   },
-  "koganei-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ゴミの分別方法一覧(tokyo)",
-        "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000038"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.opendata.metro.tokyo.lg.jp/koganei/28_gomibunbetsu.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: standard・994行・データの基準日 不明・カタログの更新日 2025-08-22・ライセンスの登録 CC-BY-4.0"
-  },
   "kodaira-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",

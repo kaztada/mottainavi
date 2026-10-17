@@ -1,0 +1,14 @@
+{
+  "slug": "koganei-city",
+  "item_id_prefix": "kgn",
+  "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000038",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "このアプリは、以下の著作物を改変して利用しています。ゴミの分別方法一覧、東京都・小金井市、クリエイティブ・コモンズ・ライセンス 表示4.0国際(https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "source_attribution_en": "This app adapts the following work: \"Garbage Sorting List\", Tokyo Metropolitan Government and Koganei City, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/)",
+  "sodai_apply_url": "https://www.city.koganei.lg.jp/kurashi/446/gomidashikata/sodaigomi/onrain.html",
+  "sodai_tel_landline": "042-387-9829",
+  "sodai_tel_mobile": "042-387-9829",
+  "data_fetched_at": "2026-10-18",
+  "data_version": "20261018"
+}
