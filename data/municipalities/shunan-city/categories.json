@@ -1,0 +1,74 @@
+[
+  {
+    "id": "moyaseru",
+    "kind": "burnable",
+    "name_ja": "燃やせるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moyasenai",
+    "kind": "non-burnable",
+    "name_ja": "燃やせないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ(申込制・有料)",
+    "name_en": "Oversized Waste (by appointment, fee)"
+  },
+  {
+    "id": "konnan",
+    "kind": "hazardous",
+    "name_ja": "処理困難物(危険物・割れ物など)",
+    "name_en": "Hard-to-Process Waste (hazardous items, breakables)"
+  },
+  {
+    "id": "yoki-pla",
+    "kind": "plastic",
+    "name_ja": "容器包装プラスチック",
+    "name_en": "Plastic Containers & Packaging"
+  },
+  {
+    "id": "sonota-pla",
+    "kind": "plastic",
+    "name_ja": "その他プラスチック",
+    "name_en": "Other Plastics"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "古紙・衣類",
+    "name_en": "Used Paper & Clothing"
+  },
+  {
+    "id": "bin-kan",
+    "kind": "recyclable",
+    "name_ja": "びん・缶類",
+    "name_en": "Glass Bottles & Cans"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "使用済小型家電(回収ボックス)",
+    "name_en": "Small Appliances (collection box)"
+  },
+  {
+    "id": "kaden",
+    "kind": "other",
+    "name_ja": "家電リサイクル対象品",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "shushushinai",
+    "kind": "not-collected",
+    "name_ja": "市が収集しないもの",
+    "name_en": "Not Collected by the City"
+  }
+]

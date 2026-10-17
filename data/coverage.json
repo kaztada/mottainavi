@@ -36602,21 +36602,6 @@
     ],
     "note": "総当たり 2026-10-16: pdf・0行・データの基準日 不明・カタログの更新日 2024-02-21・ライセンスの登録 notspecified(登録からは確かめられない。原文を確かめる)"
   },
-  "shunan-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "【周南市】ゴミの分別方法一覧(search-ckan-jp)",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/352152_garbage_separation"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/10b2c3eb-30f6-4722-b4a0-21cc0bc02532/resource/b97ab4cc-7448-4533-a93f-bc9b01433e65/download/352152_garbage_separation.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: standard・869行・データの基準日 不明・カタログの更新日 2026-02-16・ライセンスの登録 cc-by"
-  },
   "sanyoonoda-city": {
     "status": "candidate",
     "checked_at": "2026-10-16",
