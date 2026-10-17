@@ -40,6 +40,9 @@ const BUILT_IN = `電池やバッテリーが外せない製品は、回収ボ�
 /** 「充電式の場合は小型家電へ」と案内される品目(区分が燃えないごみなどで、小型家電の区分の説明が付かない) */
 const CHARGEABLE = `※もったいナビ注: 充電式のものは、市の小型家電のページでは、バッテリーを外してから${BOX}へ入れるよう案内されています。${JUDEN}${BUILT_IN}`
 
+const FIRE =
+  "※もったいナビ注: 使ったものは、火が完全に消えて冷めたことを確かめてから出してください(袋の中で再び燃えだすおそれがあります)。"
+
 export const oshuCityConfig: StandardCsvConfig = {
   slug: "oshu-city",
   name: "奥州市",
@@ -108,6 +111,8 @@ export const oshuCityConfig: StandardCsvConfig = {
   },
   // 市のデータと市の新しいページの書き方が違う品目、電池の注意が足りない品目(2026-10-17 照合)。市のデータは書き換えない
   itemNotes: {
+    // 火の気のあるもの。データの注意書きは空(火災予防の一般的な注意)
+    "マッチ（使用済）": FIRE,
     ...Object.fromEntries(
       [
         "アイロン",
