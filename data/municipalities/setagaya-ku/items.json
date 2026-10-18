@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-18T20:44:25.427Z",
+  "generated_at": "2026-10-18T20:51:12.939Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -272,7 +272,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Oil-stained cardboard"
+      "name_en": "Oil-coated cardboard"
     },
     {
       "id": "stg-0015",
@@ -2583,7 +2583,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dry-cell battery (button battery)"
+      "name_en": "Dry-cell battery (button cell; not lithium coin cell)"
     },
     {
       "id": "stg-0143",
@@ -3664,7 +3664,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooler box (longest side up to 30 cm)"
+      "name_en": "Cooler box (non-electric; longest side up to 30 cm)"
     },
     {
       "id": "stg-0204",
@@ -3681,7 +3681,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooler box (longest side over 30 cm)"
+      "name_en": "Cooler box (non-electric; longest side over 30 cm)"
     },
     {
       "id": "stg-0205",
@@ -5832,7 +5832,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Full-length mirror (sugami)"
+      "name_en": "Full-length mirror (sugatami)"
     },
     {
       "id": "stg-0325",
@@ -9261,7 +9261,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Saw (hand saw; longest side up to 30 cm)"
+      "name_en": "Hand saw (blade length up to 30 cm)"
     },
     {
       "id": "stg-0515",
@@ -9278,7 +9278,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Saw (hand saw; longest side over 30 cm)"
+      "name_en": "Hand saw (blade length over 30 cm)"
     },
     {
       "id": "stg-0516",
@@ -11597,7 +11597,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wheel (for tires)"
+      "name_en": "Wheel (without tire)"
     },
     {
       "id": "stg-0647",
@@ -13758,7 +13758,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Retort food pouch / container"
+      "name_en": "Retort food pouch / container (ready-meal pouch)"
     },
     {
       "id": "stg-0771",
