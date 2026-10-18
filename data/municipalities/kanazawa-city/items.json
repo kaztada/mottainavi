@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-18T03:25:12.777Z",
+  "generated_at": "2026-10-18T17:59:09.863Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -36,7 +36,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "IC card (plastic card)"
     },
     {
       "id": "knz-0003",
@@ -7981,7 +7981,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cup (glass, ceramic)"
     },
     {
       "id": "knz-0455",
@@ -9108,7 +9108,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plate (glass, ceramic)"
     },
     {
       "id": "knz-0520",
@@ -13067,7 +13067,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kerosene pump (manual)"
     },
     {
       "id": "knz-0746",
@@ -15551,7 +15551,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fishing rod"
     },
     {
       "id": "knz-0889",
@@ -17902,7 +17902,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mud"
     },
     {
       "id": "knz-1021",
@@ -18578,7 +18578,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cloth scraps"
     },
     {
       "id": "knz-1060",
@@ -26709,7 +26709,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Racket (metal)"
     },
     {
       "id": "knz-1525",
