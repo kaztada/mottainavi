@@ -9,6 +9,8 @@ description: もったいナビの品目名に英訳を足す手順(未訳の一
 
 Kaz が決めるのは **「要確認」の品目の訳** と **本番へのマージ** だけ。Kaz はエンジニアではないので、報告は平易な日本語で書く。
 
+**役割(2026-10-19 Kaz 決定)**: この手順は「英訳の担当」(`.claude/agents/items-en-agent.md`)が受け持つ。触るのは英訳の辞書と、英訳を反映した items.json・版番号、roadmap「品目名の英訳の追加」の表、data-model §25、記憶ファイル items-en-translation-trial だけ。自治体の追加・データ更新・台帳・PageSpeed の計測と記録・roadmap の Phase C は「自治体の担当」(`.claude/agents/municipality-agent.md`)の受け持ちなので触らない。英訳の途中で注意文言やデータの問題に気づいたら、直さずに「自治体の担当に頼むこと」として報告する。作業フォルダは自分専用の worktree(プロジェクトフォルダは自治体の担当が使う)。
+
 始める前に、記憶ファイル(items-en-translation-trial / release-via-pr / session-rollover)と `docs/data-model.md` §25(訳の決まり)を読む。進み具合は記憶ファイルの末尾と `docs/roadmap.md`「品目名の英訳の追加」にある。
 
 ## 仕組み(前提)
