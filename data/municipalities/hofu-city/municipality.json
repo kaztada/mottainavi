@@ -1,0 +1,14 @@
+{
+  "slug": "hofu-city",
+  "item_id_prefix": "hfu",
+  "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation",
+  "source_type": "opendata-csv",
+  "source_license": "PDL1.0(CC BY 4.0 と互換)",
+  "source_attribution": "出典: 山口県オープンデータカタログサイト「【防府市】ゴミの分別方法一覧」(防府市)(https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation)、PDL1.0(https://yamaguchi-opendata.jp/www/terms.html)。もったいナビが加工して作成",
+  "source_attribution_en": "Source: \"Garbage Sorting List (Hofu City)\" (Hofu City), Yamaguchi Prefecture Open Data Catalog (https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation), Public Data License 1.0 (https://yamaguchi-opendata.jp/www/terms.html). Adapted by Mottainavi",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": "0835-22-4742",
+  "sodai_tel_mobile": "0835-22-4742",
+  "data_fetched_at": "2026-10-18",
+  "data_version": "20261018"
+}

@@ -35,6 +35,10 @@ https://mottainavi.kaztada.eco
 | 金沢市(石川県)     | [金沢市 ごみ分別辞典](https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten)               | CC BY        |
 | 山鹿市(熊本県)     | [家庭ごみ分別一覧](https://data.bodik.jp/dataset/432083_bunbetsu)                                                    | CC BY 4.0    |
 | 世田谷区(東京都)   | [ごみ分別一覧(自治体標準オープンデータセット)](https://www.city.setagaya.lg.jp/opendata/22308.html)                  | CC BY 4.0    |
+| 防府市(山口県)     | [【防府市】ゴミの分別方法一覧](https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation)                 | PDL1.0       |
+| 周南市(山口県)     | [【周南市】ゴミの分別方法一覧](https://yamaguchi-opendata.jp/ckan/dataset/352152_garbage_separation)                 | PDL1.0       |
+| 奥州市(岩手県)     | [ゴミの分別方法一覧](https://www.city.oshu.iwate.jp/opendata/8/16379.html)                                           | CC BY 4.0    |
+| 小金井市(東京都)   | [ゴミの分別方法一覧](https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000038)                              | CC BY 4.0    |
 
 品目データを二次利用できるライセンスで公開している自治体から、順に追加しています。まだ対応していない自治体を選ぶと、その自治体の公式サイトへの案内を表示します。
 

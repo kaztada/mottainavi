@@ -2084,8 +2084,8 @@
     "pref": "岩手県",
     "name_ja": "奥州市",
     "name_en": "Oshu City",
-    "status": "unsupported",
-    "official_url": "https://www.city.oshu.iwate.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.oshu.iwate.jp/soshiki/5/1051/2/3/316.html"
   },
   {
     "slug": "takizawa-city",
@@ -5936,8 +5936,8 @@
     "pref": "東京都",
     "name_ja": "小金井市",
     "name_en": "Koganei City",
-    "status": "unsupported",
-    "official_url": "https://www.city.koganei.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.koganei.lg.jp/kurashi/446/gomidashikata/index.html"
   },
   {
     "slug": "kodaira-city",
@@ -12218,8 +12218,8 @@
     "pref": "山口県",
     "name_ja": "防府市",
     "name_en": "Hofu City",
-    "status": "unsupported",
-    "official_url": "https://www.city.hofu.yamaguchi.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.hofu.yamaguchi.jp/soshiki/16/gomi-wakekatadashikata.html"
   },
   {
     "slug": "kudamatsu-city",
@@ -12281,8 +12281,8 @@
     "pref": "山口県",
     "name_ja": "周南市",
     "name_en": "Shunan City",
-    "status": "unsupported",
-    "official_url": "https://www.city.shunan.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.shunan.lg.jp/soshiki/19/33474.html"
   },
   {
     "slug": "sanyoonoda-city",

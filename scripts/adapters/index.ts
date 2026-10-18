@@ -6,11 +6,15 @@ import { hiratsukaCityAdapter } from "./hiratsuka-city"
 import { kagoshimaCityAdapter } from "./kagoshima-city"
 import { kanazawaCityAdapter } from "./kanazawa-city"
 import { kawachinaganoCityAdapter } from "./kawachinagano-city"
+import { koganeiCityAdapter } from "./koganei-city"
+import { hofuCityAdapter } from "./hofu-city"
 import { maizuruCityAdapter } from "./maizuru-city"
 import { nagahamaCityAdapter } from "./nagahama-city"
 import { okinawaCityAdapter } from "./okinawa-city"
 import { osakaCityAdapter } from "./osaka-city"
+import { oshuCityAdapter } from "./oshu-city"
 import { setagayaKuAdapter } from "./setagaya-ku"
+import { shunanCityAdapter } from "./shunan-city"
 import { sukagawaCityAdapter } from "./sukagawa-city"
 import { yamagaCityAdapter } from "./yamaga-city"
 import { yokohamaCityAdapter } from "./yokohama-city"
@@ -32,4 +36,8 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [kanazawaCityAdapter.slug]: kanazawaCityAdapter,
   [yamagaCityAdapter.slug]: yamagaCityAdapter,
   [setagayaKuAdapter.slug]: setagayaKuAdapter,
+  [hofuCityAdapter.slug]: hofuCityAdapter,
+  [shunanCityAdapter.slug]: shunanCityAdapter,
+  [oshuCityAdapter.slug]: oshuCityAdapter,
+  [koganeiCityAdapter.slug]: koganeiCityAdapter,
 }

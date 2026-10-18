@@ -150,6 +150,39 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "setagaya-ku"
+      },
+      {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(市役所本館1階・各出張所の11か所)",
+        "title_en": "Drop it in a small-appliance collection box (City Hall main building 1F and branch offices; 11 locations)",
+        "desc_ja": "投入口(縦20cm×横40cm)に入る、携帯電話・デジタルカメラ・ゲーム機などの小型家電が対象です。中の金属が資源としてもう一働き。入らないものはクリーンセンターへの持ち込みで。携帯電話やパソコンの個人情報のデータは消しておきます。電池が外せるものは外して、電池は危険ごみの「乾電池類」へ。膨らんだり変形したりしたリチウムイオン電池や、それが入った製品はボックスに入れず、直接クリーンセンターへ持ち込みます。",
+        "desc_en": "For small appliances that fit the 20 cm x 40 cm slot, such as mobile phones, digital cameras and game consoles. The metals inside get another life. Take larger ones to the Clean Center. Wipe personal data from phones and computers first. Remove batteries if you can and put them out as hazardous waste (batteries). Swollen or deformed lithium-ion batteries, and products containing them, must not go in the box; take them directly to the Clean Center.",
+        "url": "https://www.city.hofu.yamaguchi.jp/soshiki/16/kodenkaisyu2.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "hofu-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(市役所本庁舎・各総合支所・環境館の5か所)",
+        "title_en": "Drop it in a small-appliance collection box (City Hall, branch offices and the Environment Center; 5 locations)",
+        "desc_ja": "投入口(縦20cm×横40cm)に入る、携帯電話・デジタルカメラ・ゲーム機・電子たばこなどの小型家電が対象です。中の金属が資源としてもう一働き。個人情報のデータは必ず消しておきます。取り外せる電池は外して、使い切りの乾電池は処理困難物へ、充電式電池は家電小売店などの回収ボックスへ。電池が外せないものはそのまま入れられます。膨らんだ電池が入ったものはボックスに入れず、端子などをビニールテープで覆って、市の窓口(本庁リサイクル推進課・各総合支所)へ持ち込みます。",
+        "desc_en": "For small appliances that fit the 20 cm x 40 cm slot, such as mobile phones, digital cameras, game consoles and e-cigarettes. The metals inside get another life. Always wipe personal data first. Remove batteries if you can: single-use batteries go out as hard-to-process waste, and rechargeable ones go to a collection box at an electronics store. Items whose batteries cannot be removed can go in as they are. Do not put in anything with a swollen battery; cover its terminals with vinyl tape and take it to a city counter (Recycling Promotion Division or a branch office).",
+        "url": "https://www.city.shunan.lg.jp/soshiki/19/70084.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "shunan-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(市役所本庁・各総合支所・各地区センターの35か所)",
+        "title_en": "Drop it in a small-appliance collection box (City Hall, branch offices and community centers; 35 locations)",
+        "desc_ja": "投入口(縦15cm×横25cm)に入る、携帯電話・デジタルカメラ・ゲーム機・リモコンなどの小型家電が対象です。中の金属が資源としてもう一働き。個人情報のデータは必ず消しておきます。乾電池・バッテリーは外してから。外した充電式電池は、端子をテープで覆って市役所・総合支所の回収か回収協力店へ(膨らんだり壊れたりしたものは、回収箱に入れず窓口で職員に手渡します)。電池が外せないものはボックスに入れず、胆江地区衛生センターへ直接持ち込むか、許可業者に頼みます。",
+        "desc_en": "For small appliances that fit the 15 cm x 25 cm slot, such as mobile phones, digital cameras, game consoles and remote controls. The metals inside get another life. Always wipe personal data first. Remove dry-cell and rechargeable batteries before dropping items in; tape the terminals of rechargeable batteries and take them to City Hall, a branch office or a participating store (hand swollen or damaged ones directly to staff at the counter instead of using the collection box). Items whose batteries cannot be removed must not go in the box; take them directly to the Tanko District Sanitation Center or ask a licensed hauler.",
+        "url": "https://www.city.oshu.iwate.jp/soshiki/5/1051/2/2/4756.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "oshu-city"
       }
     ]
   },
