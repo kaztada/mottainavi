@@ -1,6 +1,6 @@
 {
   "municipality_id": "yamaga-city",
-  "generated_at": "2026-10-18T18:09:30.708Z",
+  "generated_at": "2026-10-18T18:16:40.134Z",
   "source_url": "https://data.bodik.jp/dataset/432083_bunbetsu",
   "item_count": 1087,
   "items": [
@@ -4561,7 +4561,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lipstick (metal)"
+      "name_en": "Lipstick (metal case)"
     },
     {
       "id": "ymg-0261",
@@ -4578,7 +4578,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lipstick (plastic)"
+      "name_en": "Lipstick (plastic case)"
     },
     {
       "id": "ymg-0262",
@@ -5029,7 +5029,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cotton work gloves / work socks (gunte, gunsoku)"
+      "name_en": "Knit work gloves / work socks (gunte, gunsoku)"
     },
     {
       "id": "ymg-0288",
@@ -5144,7 +5144,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Knitted wool products"
+      "name_en": "Knitted yarn products (knitwear etc.)"
     },
     {
       "id": "ymg-0294",
