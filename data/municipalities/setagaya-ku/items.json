@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-18T20:56:25.288Z",
+  "generated_at": "2026-10-18T21:01:56.174Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -1544,7 +1544,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Toy (containing electronics)"
+      "name_en": "Toy (with electronic parts, batteries or motors)"
     },
     {
       "id": "stg-0085",
@@ -5200,7 +5200,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Walker cart for seniors (silver car / senior car)"
+      "name_en": "Walker cart for seniors (silver car / senior car; non-electric)"
     },
     {
       "id": "stg-0291",
