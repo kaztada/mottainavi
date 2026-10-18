@@ -20,6 +20,13 @@
 3. **動作確認→コミット**: フェーズ完了条件を確認してから、意味のある単位でコミット(conventional commits: feat/fix/chore/docs)
 4. **詰まったら15分で報告**: 解決しない問題は回避策の選択肢を添えて相談
 
+## 役割の分担(2026-10-19 Kaz 決定)
+
+作業は2つの担当に分ける。境目を越えない。
+- **自治体の担当**(`.claude/agents/municipality-agent.md`): 自治体の調査・照合・追加・データ更新、台帳(`data/coverage.json`)、本番確認・PageSpeed、roadmap の Phase C と仕分けの表、data-model の自治体の節、README。手順は add-municipality・update-municipality-data。英訳は足さず、英訳率を記録して英訳の担当に引き継ぐ
+- **英訳の担当**(`.claude/agents/items-en-agent.md`): 品目名の英訳の辞書と、その反映・版番号、roadmap「品目名の英訳の追加」の表、data-model §25。手順は add-item-translations。自治体のデータ・台帳・PageSpeed は触らない。作業フォルダは自分専用の worktree
+- どちらも、ほかのセッションの書きかけ(未コミットの変更)を自分のコミットに入れない
+
 ## 技術規約
 
 - Next.js 15 (App Router) + TypeScript strict。Tailwind CSS v4
