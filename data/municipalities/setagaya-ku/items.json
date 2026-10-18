@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-18T20:43:05.433Z",
+  "generated_at": "2026-10-18T20:44:25.427Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -2561,7 +2561,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dry-cell battery (coin-type battery)"
+      "name_en": "Dry-cell battery (lithium coin cell)"
     },
     {
       "id": "stg-0142",
@@ -3973,7 +3973,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Coin battery"
+      "name_en": "Coin battery (lithium coin cell)"
     },
     {
       "id": "stg-0222",
@@ -4441,7 +4441,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Disinfectants / insecticides"
+      "name_en": "Germicides / insecticides"
     },
     {
       "id": "stg-0249",
@@ -5498,7 +5498,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bicycle tire (inner tube)"
+      "name_en": "Bicycle tire / inner tube"
     },
     {
       "id": "stg-0306",
@@ -8333,7 +8333,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (coin-type battery)"
+      "name_en": "Battery (lithium coin cell)"
     },
     {
       "id": "stg-0462",
@@ -9159,7 +9159,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cat litter (paper, sawdust, okara, silica gel, sand, bentonite)"
+      "name_en": "Cat litter (paper, sawdust, okara soy pulp, silica gel, sand, bentonite)"
     },
     {
       "id": "stg-0509",
@@ -12685,7 +12685,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Milk can (food can)"
+      "name_en": "Can of milk (food can)"
     },
     {
       "id": "stg-0709",
@@ -13636,7 +13636,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Refrigerator / freezer (including cold storage boxes and hot / cold boxes)"
+      "name_en": "Refrigerator / freezer (including electric cool boxes and hot / cold boxes)"
     },
     {
       "id": "stg-0764",
