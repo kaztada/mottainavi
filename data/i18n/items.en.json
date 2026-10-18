@@ -12004,7 +12004,7 @@
   "梱包ひも（ビニール）": "Packing string (vinyl)",
   "コード類（電気コード）": "Cords (electrical cords)",
   "サインペン（プラスチック製）": "Felt-tip pen (plastic)",
-  "酒パック（内側がアルミコーティング）": "Sake carton (aluminum-lined inside)",
+  "酒パック（内側がアルミコーティング）": "Sake / alcoholic beverage carton (aluminum-lined inside)",
   "殺菌剤・殺虫剤": "Germicides / insecticides",
   "錆びた缶": "Rusty can",
   "皿（陶器・金属製）": "Plate (ceramic, metal)",
@@ -12057,7 +12057,6 @@
   "耐熱ガラス製品（一辺の長さ30cm超）": "Heat-resistant glass products (longest side over 30 cm)",
   "タイヤチェーン（金属製以外）": "Tire chains (non-metal)",
   "タイルカーペット（ビニール・木製等）": "Carpet tiles (vinyl, wood etc.)",
-  "タイルカーペット（陶磁器製）": "Carpet tiles (ceramic)",
   "竹馬（玩具）": "Stilts (takeuma; toy)",
   "タバコ": "Tobacco (cigarettes)",
   "たばこのフィルター": "Cigarette filters",
@@ -12106,7 +12105,6 @@
   "鉢（プラスチック製）（一辺の長さ30cm超）": "Bowl / planter pot (hachi; plastic; longest side over 30 cm)",
   "発泡トレー": "Foam tray",
   "花火（家庭用）": "Fireworks (household)",
-  "針（在宅医療用の注射針を除く）": "Needles (excluding syringe needles for home medical care)",
   "ハンガー（針金製）": "Hanger (wire)",
   "判子": "Personal seal / hanko",
   "バケツ（一辺の長さ30cm以下）": "Bucket (longest side up to 30 cm)",
@@ -12196,6 +12194,5 @@
   "レトルト食品の容器": "Retort food pouch / container (ready-meal pouch)",
   "老眼鏡（樹脂・プラスチック製）": "Reading glasses (resin, plastic)",
   "ろう引きダンボール": "Wax-coated cardboard",
-  "ローイングマシン": "Rowing machine",
-  "ワックス": "Wax"
+  "ローイングマシン": "Rowing machine"
 }

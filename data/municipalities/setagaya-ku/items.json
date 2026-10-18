@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-18T20:51:12.939Z",
+  "generated_at": "2026-10-18T20:56:25.288Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -4424,7 +4424,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sake carton (aluminum-lined inside)"
+      "name_en": "Sake / alcoholic beverage carton (aluminum-lined inside)"
     },
     {
       "id": "stg-0248",
@@ -9691,7 +9691,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Needles (excluding syringe needles for home medical care)"
+      "name_en": "Needles (sewing needles etc.; excluding syringe needles for home medical care)"
     },
     {
       "id": "stg-0540",
@@ -12685,7 +12685,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Can of milk (food can)"
+      "name_en": "Can of milk / powdered milk (food can)"
     },
     {
       "id": "stg-0709",
@@ -13996,7 +13996,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wax"
+      "name_en": "Wax polish"
     },
     {
       "id": "stg-0785",
