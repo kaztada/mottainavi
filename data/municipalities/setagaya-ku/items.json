@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-16T09:26:40.760Z",
+  "generated_at": "2026-10-18T03:25:16.076Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -362,7 +362,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil"
     },
     {
       "id": "stg-0020",
@@ -2010,7 +2010,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Activated charcoal"
     },
     {
       "id": "stg-0112",
@@ -2433,7 +2433,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ventilation fan filter"
     },
     {
       "id": "stg-0136",
@@ -4806,7 +4806,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Photo film (negatives)"
     },
     {
       "id": "stg-0270",
@@ -8094,7 +8094,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric shaver"
     },
     {
       "id": "stg-0450",
@@ -8576,7 +8576,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ceramics (pottery, porcelain)"
     },
     {
       "id": "stg-0476",
@@ -9244,7 +9244,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pesticides"
     },
     {
       "id": "stg-0514",
@@ -9312,7 +9312,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Nori (seaweed) can"
     },
     {
       "id": "stg-0518",
@@ -9329,7 +9329,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carbonless paper"
     },
     {
       "id": "stg-0519",
@@ -9419,7 +9419,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Waste oil (cooking oil)"
     },
     {
       "id": "stg-0524",
@@ -10648,7 +10648,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Clothes"
     },
     {
       "id": "stg-0594",
@@ -12977,7 +12977,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Baseball glove"
     },
     {
       "id": "stg-0726",
