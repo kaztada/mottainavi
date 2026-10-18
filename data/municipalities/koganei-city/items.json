@@ -1,6 +1,6 @@
 {
   "municipality_id": "koganei-city",
-  "generated_at": "2026-10-18T03:25:24.743Z",
+  "generated_at": "2026-10-18T03:47:11.317Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000038",
   "item_count": 993,
   "items": [
@@ -16877,7 +16877,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Charcoal briquette (rentan)"
+      "name_en": "Coal briquette (rentan)"
     },
     {
       "id": "kgn-0973",
@@ -16894,7 +16894,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Charcoal briquette ash (rentan)"
+      "name_en": "Coal briquette ash (rentan)"
     },
     {
       "id": "kgn-0974",

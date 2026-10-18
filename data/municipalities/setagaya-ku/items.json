@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-18T03:25:16.076Z",
+  "generated_at": "2026-10-18T03:47:02.651Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -13826,7 +13826,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Charcoal briquette (rentan)"
+      "name_en": "Coal briquette (rentan)"
     },
     {
       "id": "stg-0775",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "oshu-city",
-  "generated_at": "2026-10-18T03:25:23.592Z",
+  "generated_at": "2026-10-18T03:47:08.437Z",
   "source_url": "https://www.city.oshu.iwate.jp/opendata/8/16379.html",
   "item_count": 1029,
   "items": [
@@ -12288,7 +12288,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Totan roofing sheet (plastic, including polycarbonate)"
+      "name_en": "Totan roofing sheet (plastic other than PVC, including polycarbonate)"
     },
     {
       "id": "osh-0689",
@@ -12813,7 +12813,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Corrugated sheet (nami-ita; plastic, including polycarbonate)"
+      "name_en": "Corrugated sheet (nami-ita; plastic other than PVC, including polycarbonate)"
     },
     {
       "id": "osh-0719",
@@ -14108,7 +14108,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hanger (metal)"
+      "name_en": "Hanger (metal, other than wire hangers)"
     },
     {
       "id": "osh-0792",
@@ -18199,7 +18199,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Charcoal briquette (rentan)"
+      "name_en": "Coal briquette (rentan)"
     },
     {
       "id": "osh-1020",
@@ -18216,7 +18216,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Charcoal briquette ash (rentan)"
+      "name_en": "Coal briquette ash (rentan)"
     },
     {
       "id": "osh-1021",

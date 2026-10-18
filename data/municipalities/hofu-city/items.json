@@ -1,6 +1,6 @@
 {
   "municipality_id": "hofu-city",
-  "generated_at": "2026-10-18T03:25:18.091Z",
+  "generated_at": "2026-10-18T03:47:04.482Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation",
   "item_count": 1239,
   "items": [
@@ -1914,7 +1914,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Washlet (bidet toilet seat) / toilet seat (plastic only)"
+      "name_en": "Toilet seat (plastic only; washlet seat without washing unit)"
     },
     {
       "id": "hfu-0109",
@@ -16548,7 +16548,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shaver (razor; metal)"
+      "name_en": "Manual razor (shaver; metal)"
     },
     {
       "id": "hfu-0942",
@@ -16565,7 +16565,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shaver (razor; plastic)"
+      "name_en": "Manual razor (shaver; plastic)"
     },
     {
       "id": "hfu-0943",
@@ -18472,7 +18472,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Toilet seat / Washlet (bidet toilet seat; plastic only)"
+      "name_en": "Toilet seat / washlet seat (plastic only; without washing unit)"
     },
     {
       "id": "hfu-1052",
@@ -20620,7 +20620,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water heater (yuwakashiki)"
+      "name_en": "Small water heater (yuwakashiki)"
     },
     {
       "id": "hfu-1176",
@@ -21372,7 +21372,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Charcoal briquette (rentan; charcoal)"
+      "name_en": "Coal briquette (rentan; sumi)"
     },
     {
       "id": "hfu-1219",
