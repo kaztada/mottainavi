@@ -1,6 +1,6 @@
 {
   "municipality_id": "hofu-city",
-  "generated_at": "2026-10-18T03:47:04.482Z",
+  "generated_at": "2026-10-18T03:58:33.912Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation",
   "item_count": 1239,
   "items": [
@@ -1501,7 +1501,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Case for colored pencils etc. (plastic)"
+      "name_en": "Packaging case for colored pencils etc. (plastic)"
     },
     {
       "id": "hfu-0085",

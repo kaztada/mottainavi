@@ -1,6 +1,6 @@
 {
   "municipality_id": "oshu-city",
-  "generated_at": "2026-10-18T03:47:08.437Z",
+  "generated_at": "2026-10-18T03:58:37.270Z",
   "source_url": "https://www.city.oshu.iwate.jp/opendata/8/16379.html",
   "item_count": 1029,
   "items": [
@@ -1252,7 +1252,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Colored pencil case (paper)"
+      "name_en": "Colored pencil packaging case (paper)"
     },
     {
       "id": "osh-0071",
@@ -1269,7 +1269,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Colored pencil case (plastic)"
+      "name_en": "Colored pencil packaging case (plastic)"
     },
     {
       "id": "osh-0072",
@@ -4852,7 +4852,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kerosene pump (refueling pump; plastic)"
+      "name_en": "Kerosene pump (refueling pump; manual, plastic)"
     },
     {
       "id": "osh-0275",
@@ -9553,7 +9553,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kerosene pump (plastic)"
+      "name_en": "Kerosene pump (manual; plastic)"
     },
     {
       "id": "osh-0540",

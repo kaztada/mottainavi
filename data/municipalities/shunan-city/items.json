@@ -1,6 +1,6 @@
 {
   "municipality_id": "shunan-city",
-  "generated_at": "2026-10-18T03:25:21.365Z",
+  "generated_at": "2026-10-18T03:58:35.161Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352152_garbage_separation",
   "item_count": 869,
   "items": [
@@ -9709,7 +9709,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kerosene pump (plastic)"
+      "name_en": "Kerosene pump (manual; plastic)"
     },
     {
       "id": "snn-0550",
@@ -11881,7 +11881,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glass bottle (that held contents other than food, beverages, household medicines, agricultural chemicals or poisons)"
+      "name_en": "Glass bottle (that held contents other than food, beverages, oral medicines, pesticides or poisonous substances)"
     },
     {
       "id": "snn-0674",
@@ -13860,7 +13860,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pump (plastic)"
+      "name_en": "Pump (manual; plastic)"
     },
     {
       "id": "snn-0785",
