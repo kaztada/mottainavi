@@ -1,6 +1,6 @@
 {
   "municipality_id": "yamaga-city",
-  "generated_at": "2026-10-18T17:59:10.777Z",
+  "generated_at": "2026-10-18T18:09:30.708Z",
   "source_url": "https://data.bodik.jp/dataset/432083_bunbetsu",
   "item_count": 1087,
   "items": [
@@ -1177,7 +1177,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water tank / water jug (metal)"
+      "name_en": "Water jug (large outdoor water container; metal)"
     },
     {
       "id": "ymg-0068",
@@ -1194,7 +1194,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water tank / water jug (plastic)"
+      "name_en": "Water jug (large outdoor water container; plastic)"
     },
     {
       "id": "ymg-0069",
@@ -1555,7 +1555,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "MD player"
+      "name_en": "MiniDisc player (MD player)"
     },
     {
       "id": "ymg-0089",
@@ -5012,7 +5012,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Smoke-type insecticide / fogger (insect repellent, mold prevention)"
+      "name_en": "Smoke-type fumigant (insect repellent, mold prevention)"
     },
     {
       "id": "ymg-0287",
@@ -6209,7 +6209,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Contact lens case"
+      "name_en": "Contact lenses / contact lens cases"
     },
     {
       "id": "ymg-0356",
@@ -10083,7 +10083,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Egg carton"
+      "name_en": "Egg carton (plastic)"
     },
     {
       "id": "ymg-0577",
@@ -11688,7 +11688,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Batteries (dry cells, button cells, rechargeable batteries)"
+      "name_en": "Batteries (dry cells, button cells, small rechargeable batteries)"
     },
     {
       "id": "ymg-0668",
@@ -12568,7 +12568,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Corrugated sheet (nami-ita; slate)"
+      "name_en": "Corrugated sheet (nami-ita; fiber cement slate)"
     },
     {
       "id": "ymg-0719",
@@ -18954,7 +18954,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": "Cotton batting / clothing with cotton batting"
+      "name_en": "Batting (wata) / clothing with batting"
     },
     {
       "id": "ymg-1086",
