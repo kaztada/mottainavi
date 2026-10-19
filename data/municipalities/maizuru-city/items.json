@@ -1,6 +1,6 @@
 {
   "municipality_id": "maizuru-city",
-  "generated_at": "2026-10-18T17:59:08.867Z",
+  "generated_at": "2026-10-18T20:43:04.926Z",
   "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
   "item_count": 115,
   "items": [
@@ -2042,7 +2042,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic wrap film (cling film)"
     },
     {
       "id": "mzr-0115",
