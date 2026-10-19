@@ -1,0 +1,74 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチックごみ",
+    "name_en": "Plastic Waste"
+  },
+  {
+    "id": "hasai",
+    "kind": "non-burnable",
+    "name_ja": "小型破砕ごみ",
+    "name_en": "Small Non-burnable Waste (for crushing)"
+  },
+  {
+    "id": "shigen",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(ビン・缶)",
+    "name_en": "Recyclables (Bottles & Cans)"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "古紙類",
+    "name_en": "Used Paper"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste (built-in batteries, spray cans, lighters)"
+  },
+  {
+    "id": "kandenchi",
+    "kind": "hazardous",
+    "name_ja": "乾電池等(電池・蛍光管・水銀使用製品)",
+    "name_en": "Batteries, Fluorescent Tubes & Mercury Items"
+  },
+  {
+    "id": "ogata",
+    "kind": "bulky",
+    "name_ja": "大型ごみ(申込制・有料)",
+    "name_en": "Bulky Waste (application, fee)"
+  },
+  {
+    "id": "pasokon",
+    "kind": "maker-recycle",
+    "name_ja": "パソコン類(メーカー回収など)",
+    "name_en": "PCs & Monitors (manufacturer recycling, etc.)"
+  },
+  {
+    "id": "tokutei",
+    "kind": "other",
+    "name_ja": "特定家電(家電リサイクル法)",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "mochidashi",
+    "kind": "not-collected",
+    "name_ja": "持出禁止(ごみステーションに出せない)",
+    "name_en": "Not Collected (do not put out at collection points)"
+  }
+]

@@ -10206,17 +10206,6 @@
       }
     ]
   },
-  "iwaki-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/simple/gomibunnbetu.csv"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「クリエイティブ・コモンズ 表示 2.1 日本(CC BY 2.1 JP)。自由に利用・改変可、完全性は保証せず」。『ごみの分別(CSV)』ごみ分別一覧表。令和8年4月1日現在、ページ更新 2026-04-01。CSV 121KB、1,763行(UTF-8、列は №/品名/分別区分/注意点)。市のオープンデータ一覧の『環境、ごみ、水道、生活排水』に掲載。ごみ当ちゃん(アプリ)がこのデータを利用"
-  },
   "shirakawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -18300,21 +18289,6 @@
     ],
     "note": "Kaz 判断 2026-10-19: 保留(区の50音の一覧と全216品目を照合し5件が違う。スマートフォンなど電池内蔵品を集積所に出すなら不燃ごみとしていて区の電池・火災のページと違う(区の50音のページもデータと同じ)。ソファー・ベッド・たんすが無い。渋谷区清掃事務所に問い合わせる候補)"
   },
-  "nakano-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみ分別一覧(tokyo)",
-        "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_5000769.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・942行・データの基準日 不明・カタログの更新日 2025-02-28・ライセンスの登録 CC-BY-4.0"
-  },
   "suginami-ku": {
     "status": "candidate",
     "checked_at": "2026-10-16",
@@ -18534,19 +18508,6 @@
         "url": "https://www.city.edogawa.tokyo.jp/kurashi/gomi_recycle/kategomi/hinmoku/index.html"
       }
     ]
-  },
-  "hachioji-city": {
-    "status": "available",
-    "checked_at": "2026-10-08",
-    "evidence": [
-      {
-        "label": "東京都オープンデータカタログの標準形式 CSV(令和7年4月1日、CC BY 4.0)"
-      },
-      {
-        "label": "市の分別辞典(令和8年4月1日)と照合: 名前が一致した1,090品目中、区分の相違 6(危険物は全部一致)"
-      }
-    ],
-    "note": "Kaz が 2026-10-14 に「入れる」と判断。浄水器・うす(木製)は itemNotes。注意書きは備考・料金備考の列。区分が空の49行は備考で2種類に分ける"
   },
   "tachikawa-city": {
     "status": "candidate",
@@ -20237,19 +20198,6 @@
         "url": "https://opendata.pref.kanagawa.jp/"
       }
     ]
-  },
-  "niigata-city": {
-    "status": "available",
-    "checked_at": "2026-10-08",
-    "evidence": [
-      {
-        "label": "市のオープンデータ「ごみ分別表」od-gomibunbetsuhyou_R8.csv(2026-06-30、CC BY 2.1 JP)"
-      },
-      {
-        "label": "市の50音のページ(43ページ)・冊子(令和8年度版)と全件照合し、区分の食い違い 0"
-      }
-    ],
-    "note": "Kaz が 2026-10-14 に「入れる」と判断。品目名のセルに改行で注意書き。特定5品目の出し方・粗大の注意書きを区分の説明で補う"
   },
   "nagaoka-city": {
     "status": "candidate",
@@ -27192,17 +27140,6 @@
       }
     ]
   },
-  "ichinomiya-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.city.ichinomiya.aichi.jp/_res/projects/default_project/_page_/001/060/886/202610.bunbetsu_ichinomiya.csv"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY(表示)」。『資源とごみの分別に関するデータ』。リリース 2026-10-08。CSV 83.5KB(cp932、約1,060行、列は ごみ名/索引/分別区分/分別注意文)と xlsx 38.6KB(202610.bunbetsu_ichinomiya.xlsx)。担当は廃棄物対策課。市のオープンデータカタログ(cgi-opd)掲載"
-  },
   "seto-city": {
     "status": "unsurveyed"
   },
@@ -34139,21 +34076,6 @@
       }
     ]
   },
-  "tottori-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "鳥取市ごみの分別方法一覧(search-ckan-jp)",
-        "url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891/resource/9625/312011_garbage_collection_place.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・840行・データの基準日 不明・カタログの更新日 2026-09-14・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
-  },
   "yonago-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -35843,21 +35765,6 @@
         "url": "https://data.e-gov.go.jp/"
       }
     ]
-  },
-  "hiroshima-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "広島市_家庭ごみ収集・分別情報(hiroshima)",
-        "url": "https://hiroshima-opendata.dataeye.jp/datasets/1338"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://hiroshima-opendata.dataeye.jp/resource_download/24815"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・644行・データの基準日 2026・カタログの更新日 2025-03-06・ライセンスの登録 pdl"
   },
   "kure-city": {
     "status": "no-data",

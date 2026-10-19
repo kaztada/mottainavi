@@ -1,0 +1,19 @@
+[
+  { "id": "kanen", "kind": "burnable", "name_ja": "可燃ごみ", "name_en": "Burnable Waste" },
+  { "id": "funen", "kind": "non-burnable", "name_ja": "不燃ごみ", "name_en": "Non-burnable Waste" },
+  { "id": "sodai", "kind": "bulky", "name_ja": "粗大ごみ", "name_en": "Bulky Waste (reservation required)" },
+  { "id": "pla", "kind": "plastic", "name_ja": "容器包装プラスチック", "name_en": "Plastic Containers and Packaging" },
+  { "id": "pet", "kind": "recyclable", "name_ja": "ペットボトル", "name_en": "PET Bottles" },
+  { "id": "bin", "kind": "recyclable", "name_ja": "びん", "name_en": "Glass Bottles" },
+  { "id": "kan", "kind": "recyclable", "name_ja": "缶", "name_en": "Cans" },
+  { "id": "shinbun", "kind": "paper", "name_ja": "新聞・チラシ", "name_en": "Newspapers and Flyers" },
+  { "id": "zasshi", "kind": "paper", "name_ja": "雑誌・雑紙", "name_en": "Magazines and Mixed Paper" },
+  { "id": "danboru", "kind": "paper", "name_ja": "ダンボール", "name_en": "Cardboard" },
+  { "id": "kamipack", "kind": "paper", "name_ja": "紙パック", "name_en": "Paper Cartons" },
+  { "id": "furugi", "kind": "paper", "name_ja": "古着・古布", "name_en": "Used Clothing and Textiles" },
+  { "id": "yugai", "kind": "hazardous", "name_ja": "有害ごみ", "name_en": "Hazardous Waste" },
+  { "id": "kaden", "kind": "not-collected", "name_ja": "家電リサイクル", "name_en": "Home Appliance Recycling (not collected by the city)" },
+  { "id": "pc", "kind": "maker-recycle", "name_ja": "パソコンリサイクル", "name_en": "PC Recycling (manufacturer or courier collection)" },
+  { "id": "shori", "kind": "not-collected", "name_ja": "市では処理できないもの", "name_en": "Not Handled by the City" },
+  { "id": "soudan", "kind": "other", "name_ja": "市に問い合わせが必要なもの", "name_en": "Contact the City First" }
+]

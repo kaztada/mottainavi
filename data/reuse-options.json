@@ -183,6 +183,61 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "oshu-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "使用済小型家電の回収ボックスに入れる(市役所・区役所・図書館・一部の商業施設など30か所)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall, ward offices, libraries, some shopping centers; 30 locations)",
+        "desc_ja": "ボックスに入る大きさ(おおむね縦15cm×横35cm×奥行20cm)の、スマートフォン・デジタルカメラ・ゲーム機・ドライヤー・電気かみそりなど16種類の小型家電が対象です。中の金属が資源としてもう一働き。個人情報のデータは消し、袋や箱から出して入れます。外せる電池は外してから(内蔵で外せないものはそのまま)。膨らんだリチウムイオン電池が入ったものは入れられません(特定5品目の日に出すか、市役所本館2階の廃棄物対策課・清掃事務所の窓口へ)。",
+        "desc_en": "For 16 kinds of small appliances that fit the box (about 15 cm x 35 cm x 20 cm), such as smartphones, digital cameras, game consoles, hair dryers and electric shavers. The metals inside get another life. Wipe personal data and take items out of bags or boxes. Remove batteries if you can (built-in ones can stay). Items with a swollen lithium-ion battery cannot go in (put them out on the \"five specified items\" day, or take them to the Waste Management Division on the 2nd floor of City Hall or the cleaning office).",
+        "url": "https://www.city.niigata.lg.jp/kurashi/gomi/recycle/koden_recycle/koden_recycle.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "niigata-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(市役所本庁舎・各総合支所の9か所)",
+        "title_en": "Drop it in a small-appliance collection box (City Hall and branch offices; 9 locations)",
+        "desc_ja": "投入口(縦20cm×横40cm)に入る小型家電が対象で、平日の昼間に使えます。中の金属が資源としてもう一働き。個人情報のデータは消しておきます。電池が外せない製品はそのまま入れられます。外した電池は、ボックスに備え付けの電池の回収容器へ(端子にテープを貼る)。家電リサイクル法の対象の家電・蛍光管・電球・パソコンのディスプレイは入れられません。",
+        "desc_en": "For small appliances that fit the 20 cm x 40 cm slot, available on weekday daytime. The metals inside get another life. Wipe personal data first. Products whose batteries cannot be removed can go in as they are. Put removed batteries (terminals taped) into the battery container beside the box. Appliances covered by the Home Appliance Recycling Act, fluorescent lamps, light bulbs and computer displays cannot go in.",
+        "url": "https://www.city.tottori.lg.jp/page/4022.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "tottori-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(区役所・区スポーツセンター・一部の商業施設の21か所)",
+        "title_en": "Drop it in a small-appliance collection box (ward offices, ward sports centers and some shopping centers; 21 locations)",
+        "desc_ja": "投入口(縦15cm×横30cm)に入る小型家電が対象で、無料です。中の金属が資源としてもう一働き。個人情報のデータは消しておきます。電池と電球は外してから(充電式電池が外せないものは、使い切ってそのまま入れられます)。外した充電式電池やモバイルバッテリーは、端子にテープを貼って、区役所1階の充電式電池の回収ボックスか有害ごみへ(破損・膨張したものは回収ボックスに入れず、有害ごみの日に)。",
+        "desc_en": "For small appliances that fit the 15 cm x 30 cm slot, free of charge. The metals inside get another life. Wipe personal data first. Remove batteries and bulbs (items whose rechargeable battery cannot be removed can go in as they are after using the battery up). Tape the terminals of removed rechargeable batteries and power banks, then put them in the rechargeable-battery box on the 1st floor of a ward office or out as hazardous waste (damaged or swollen ones must not go in the box; put them out on hazardous waste day).",
+        "url": "https://www.city.hiroshima.lg.jp/living/gomi-kankyo/1021285/1026106/1052296/1003235.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "hiroshima-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "小型家電回収ボックスに入れる(市役所・出張所・公共施設・一部の商業施設の21か所)",
+        "title_en": "Drop it in a small-appliance collection box (City Hall, branch offices, public facilities and some shopping centers; 21 locations)",
+        "desc_ja": "投入口(縦15cm×横30cm)に入る、携帯電話・デジタルカメラ・ゲーム機・電子辞書などと、充電式電池が外せない小型家電(電気シェーバー・電動歯ブラシ・加熱式たばこ機器など)が対象です。中の金属が資源としてもう一働き。個人情報のデータは消しておきます。電池だけのものや、膨張・発熱した電池が入ったものは入れられません(膨張したものは環境センター北館か土日の拠点回収へ)。",
+        "desc_en": "For items that fit the 15 cm x 30 cm slot, such as mobile phones, digital cameras, game consoles and electronic dictionaries, as well as small appliances whose rechargeable battery cannot be removed (electric shavers, electric toothbrushes, heated-tobacco devices, etc.). The metals inside get another life. Wipe personal data first. Loose batteries and items with a swollen or hot battery cannot go in (take swollen ones to the Environment Center North Building or a weekend drop-off collection).",
+        "url": "https://www.city.ichinomiya.aichi.jp/kankyou/shuushuugyoumu/1043991/1043992/1010405/1001784.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "ichinomiya-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "使用済小型家電の回収ボックスに入れる(区役所・リサイクル展示室・中央図書館・区民活動センターの18か所)",
+        "title_en": "Drop it in a ward small-appliance collection box (ward office, recycling exhibition room, central library and community centers; 18 locations)",
+        "desc_ja": "投入口(縦15cm×横30cm)に入る、携帯電話・スマートフォン・携帯音楽プレーヤー・デジタルカメラ・電子辞書・電卓・ACアダプターなど9品目が対象です。中の金属が資源としてもう一働き。個人情報のデータは消しておきます。電池はできるだけ外します(簡単に外せないものはそのまま)。外した充電式電池は、使い切って端子をテープで覆い、陶器・ガラス・金属ごみの日に別の袋に入れて中身を書いて出します(膨張・変形したものは清掃事務所へ)。",
+        "desc_en": "For 9 kinds of items that fit the 15 cm x 30 cm slot, including mobile phones, smartphones, portable music players, digital cameras, electronic dictionaries, calculators and AC adapters. The metals inside get another life. Wipe personal data first. Remove batteries where you can (items whose batteries cannot easily be removed can go in as they are). Use up removed rechargeable batteries, tape the terminals, and put them out on ceramics/glass/metal waste day in a separate bag labeled with its contents (take swollen or deformed ones to the ward cleaning office).",
+        "url": "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/dashikata/kogatakaden.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "nakano-ku"
       }
     ]
   },

@@ -1,0 +1,14 @@
+{
+  "slug": "ichinomiya-city",
+  "item_id_prefix": "icm",
+  "source_url": "https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/1060886.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。資源とごみの分別に関するデータ、一宮市、クリエイティブ・コモンズ・ライセンス 表示4.0 国際(https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "source_attribution_en": "Source: This app adapts \"Data on Sorting Resources and Waste\" (資源とごみの分別に関するデータ), Ichinomiya City, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "sodai_apply_url": "https://www.city.ichinomiya.aichi.jp/kankyou/shuushuugyoumu/1043991/1043992/1049133/1056925.html",
+  "sodai_tel_landline": "0120-138534",
+  "sodai_tel_mobile": "0120-138534",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261019"
+}

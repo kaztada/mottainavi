@@ -1,0 +1,14 @@
+{
+  "slug": "iwaki-city",
+  "item_id_prefix": "iwk",
+  "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 2.1 JP",
+  "source_attribution": "出典: いわき市「ごみの分別」(ごみ分別一覧表、令和8年4月1日現在)(https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html)、クリエイティブ・コモンズ・ライセンス 表示 2.1 日本(https://creativecommons.org/licenses/by/2.1/jp/)。もったいナビが加工して作成",
+  "source_attribution_en": "Source: \"Garbage Sorting\" (Garbage Sorting List, as of April 1, 2026), Iwaki City (https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html), Creative Commons Attribution 2.1 Japan (https://creativecommons.org/licenses/by/2.1/jp/). Adapted by Mottainavi",
+  "sodai_apply_url": "https://www.city.iwaki.lg.jp/www/contents/1722312210664/index.html",
+  "sodai_tel_landline": null,
+  "sodai_tel_mobile": null,
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261019"
+}

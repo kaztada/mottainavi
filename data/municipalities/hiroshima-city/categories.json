@@ -1,0 +1,62 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "recycle-pla",
+    "kind": "plastic",
+    "name_ja": "リサイクルプラ(容器包装プラスチック)",
+    "name_en": "Recyclable Plastics (containers & packaging)"
+  },
+  {
+    "id": "sonota-pla",
+    "kind": "plastic",
+    "name_ja": "その他プラ",
+    "name_en": "Other Plastics"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "shigen",
+    "kind": "recyclable",
+    "name_ja": "資源ごみ(紙・布・金属・ガラス)",
+    "name_en": "Recyclables (paper, cloth, metal, glass)"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste (batteries, fluorescent tubes, mercury thermometers)"
+  },
+  {
+    "id": "ogata",
+    "kind": "bulky",
+    "name_ja": "大型ごみ(有料・予約制)",
+    "name_en": "Bulky Waste (reservation, fee)"
+  },
+  {
+    "id": "kaden",
+    "kind": "other",
+    "name_ja": "家電リサイクル法対象機器",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市では収集しないごみ",
+    "name_en": "Not Collected by the City"
+  }
+]
