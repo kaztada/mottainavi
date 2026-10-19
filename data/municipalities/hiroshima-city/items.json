@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-19T05:00:52.291Z",
+  "generated_at": "2026-10-19T05:08:25.206Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -4511,7 +4511,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Instantaneous water heater"
     },
     {
       "id": "hrs-0256",
@@ -5628,7 +5628,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sauce container (plastic)"
     },
     {
       "id": "hrs-0320",
@@ -9730,7 +9730,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paperboard (chipboard)"
     },
     {
       "id": "hrs-0553",

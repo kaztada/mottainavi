@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-19T05:01:15.412Z",
+  "generated_at": "2026-10-19T05:08:24.348Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -1541,7 +1541,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil can (cooking oil)"
     },
     {
       "id": "ttr-0089",
@@ -4141,7 +4141,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glove (for sports)"
     },
     {
       "id": "ttr-0239",
