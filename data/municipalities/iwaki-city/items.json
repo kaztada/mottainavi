@@ -1,6 +1,6 @@
 {
   "municipality_id": "iwaki-city",
-  "generated_at": "2026-10-20T13:47:26.451Z",
+  "generated_at": "2026-10-20T13:58:40.047Z",
   "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
   "item_count": 1662,
   "items": [
@@ -12521,7 +12521,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shopping cart"
+      "name_en": "Personal shopping cart (excluding store carts)"
     },
     {
       "id": "iwk-0720",

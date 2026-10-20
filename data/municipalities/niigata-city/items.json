@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T13:47:25.092Z",
+  "generated_at": "2026-10-20T13:58:39.063Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -3185,7 +3185,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Simple fire extinguisher"
+      "name_en": "Fire extinguisher (aerosol spray can type)"
     },
     {
       "id": "nig-0183",
@@ -7060,7 +7060,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Snow removal machine"
+      "name_en": "Snow removal machine (snow blower / snow thrower)"
     },
     {
       "id": "nig-0406",
@@ -7695,7 +7695,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Heater (electric / gas stove)"
+      "name_en": "Space heater (electric / gas)"
     },
     {
       "id": "nig-0441",
@@ -9708,7 +9708,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Disposable toilet / portable toilet"
+      "name_en": "Disposable toilet / portable toilet (disposable toilet bags)"
     },
     {
       "id": "nig-0556",
@@ -10573,7 +10573,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Batteries"
+      "name_en": "Batteries (small household types)"
     },
     {
       "id": "nig-0604",
@@ -14024,7 +14024,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Canned pet food"
+      "name_en": "Pet food can"
     },
     {
       "id": "nig-0801",
