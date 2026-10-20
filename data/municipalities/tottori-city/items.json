@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-20T10:51:43.243Z",
+  "generated_at": "2026-10-20T11:01:17.811Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -1222,7 +1222,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mortar (usu; stone)"
+      "name_en": "Usu (large stone mortar)"
     },
     {
       "id": "ttr-0071",
@@ -1979,7 +1979,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Card"
+      "name_en": "Card (such as credit or bank cards)"
     },
     {
       "id": "ttr-0114",
