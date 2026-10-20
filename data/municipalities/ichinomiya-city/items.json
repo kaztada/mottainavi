@@ -1,6 +1,6 @@
 {
   "municipality_id": "ichinomiya-city",
-  "generated_at": "2026-10-20T08:17:15.866Z",
+  "generated_at": "2026-10-20T08:30:14.816Z",
   "source_url": "https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/1060886.html",
   "item_count": 689,
   "items": [
@@ -1018,7 +1018,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Audio set"
+      "name_en": "Audio system (stereo system)"
     },
     {
       "id": "icm-0059",
@@ -8868,7 +8868,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Needle"
+      "name_en": "Needle (non-medical)"
     },
     {
       "id": "icm-0499",
@@ -11102,7 +11102,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Marker pen (oil-based marker)"
+      "name_en": "Marker pen (permanent / oil-based marker)"
     },
     {
       "id": "icm-0624",
@@ -11933,7 +11933,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooler-warmer / refrigerator / freezer"
+      "name_en": "Electric cooler / warmer / refrigerator / freezer"
     },
     {
       "id": "icm-0671",
