@@ -1,6 +1,6 @@
 {
   "municipality_id": "nakano-ku",
-  "generated_at": "2026-10-20T11:33:15.541Z",
+  "generated_at": "2026-10-20T11:40:48.268Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139",
   "item_count": 942,
   "items": [
@@ -148,7 +148,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Empty box"
+      "name_en": "Empty box (paper / cardboard)"
     },
     {
       "id": "nkn-0009",
@@ -896,7 +896,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Medical waste (home care)"
+      "name_en": "Medical waste (home care; excluding injection needles)"
     },
     {
       "id": "nkn-0051",
@@ -10116,7 +10116,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (lithium-ion and other rechargeable batteries)"
+      "name_en": "Rechargeable battery (small household types; lithium-ion etc.)"
     },
     {
       "id": "nkn-0577",
@@ -13545,7 +13545,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bento container (plastic)"
+      "name_en": "Bento takeout container (plastic packaging)"
     },
     {
       "id": "nkn-0774",
@@ -15386,7 +15386,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water heater"
+      "name_en": "Water heater (excluding bath boilers)"
     },
     {
       "id": "nkn-0879",
@@ -16132,7 +16132,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Retort food pouch"
+      "name_en": "Ready-to-eat food pouch (retort pouch)"
     },
     {
       "id": "nkn-0921",
