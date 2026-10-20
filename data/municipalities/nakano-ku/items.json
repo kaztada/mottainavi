@@ -1,6 +1,6 @@
 {
   "municipality_id": "nakano-ku",
-  "generated_at": "2026-10-20T11:40:48.268Z",
+  "generated_at": "2026-10-20T11:49:03.799Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139",
   "item_count": 942,
   "items": [
@@ -11853,7 +11853,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "PC rack"
+      "name_en": "Computer desk / rack (for PCs)"
     },
     {
       "id": "nkn-0677",
@@ -11887,7 +11887,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Packs (eggs, tofu, fruit etc.)"
+      "name_en": "Food containers (for eggs, tofu, fruit etc.)"
     },
     {
       "id": "nkn-0679",

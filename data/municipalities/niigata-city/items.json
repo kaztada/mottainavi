@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T11:25:58.629Z",
+  "generated_at": "2026-10-20T11:49:02.925Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -12144,7 +12144,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "PC rack"
+      "name_en": "Computer desk / rack (for PCs)"
     },
     {
       "id": "nig-0694",
