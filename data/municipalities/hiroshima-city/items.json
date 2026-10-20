@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-20T06:32:38.639Z",
+  "generated_at": "2026-10-20T06:40:21.076Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -3480,7 +3480,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Tools (household; electric)"
+      "name_en": "Power tools (household; electric)"
     },
     {
       "id": "hrs-0198",
