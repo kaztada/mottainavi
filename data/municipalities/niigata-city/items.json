@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T14:15:38.541Z",
+  "generated_at": "2026-10-20T14:23:50.541Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -568,7 +568,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Antenna (parabolic antenna etc.)"
+      "name_en": "Antenna (satellite dish / parabolic antenna etc.)"
     },
     {
       "id": "nig-0033",
@@ -8391,7 +8391,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Jelly / pudding container"
+      "name_en": "Gelatin dessert / pudding container (jelly / Jell-O cup)"
     },
     {
       "id": "nig-0481",
@@ -12121,7 +12121,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "PC case"
+      "name_en": "Computer case (PC case)"
     },
     {
       "id": "nig-0693",
