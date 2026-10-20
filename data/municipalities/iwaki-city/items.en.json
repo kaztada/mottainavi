@@ -1,7 +1,9 @@
 {
   "ウィンドファン": "Air cooler / fan (fan-only; window fan)",
+  "植木鉢皿": "Flowerpot saucer (plastic)",
   "温度計・湿度計": "Thermometer / hygrometer (non-mercury)",
   "ガスカートリッジ・ボンベ（カセットボンベ）": "Gas cartridge / canister (for camping; excluding cassette-stove canisters)",
+  "果物カゴ（プラスチック製）": "Fruit packaging basket (plastic)",
   "こん包材": "Packing material (expanded polystyrene cushioning for appliances etc.)",
   "シュレッダー機（プラスチック製）": "Shredder (manual, plastic)",
   "ショッピングカート": "Personal shopping cart (excluding store carts)",
@@ -20,7 +22,9 @@
   "ボートのオール": "Boat oar (wood or plastic; excluding metal)",
   "ボトル": "Bottle (plastic; detergent, shampoo etc.)",
   "巻尺・メジャー": "Tape measure (non-metal)",
+  "水差し": "Water pitcher (glass)",
   "モニター（AV、OHP用、映写機用）": "Monitor (for AV, overhead projectors or film projectors; excluding computer monitors)",
   "湯沸し機": "Water heater (small, for kitchen)",
-  "リム": "Wheel rim (excluding car tire wheels)"
+  "リム": "Wheel rim (excluding motor-vehicle wheels)",
+  "冷却剤": "Cooling agent (excluding antifreeze / engine coolant)"
 }

@@ -1,6 +1,6 @@
 {
   "municipality_id": "iwaki-city",
-  "generated_at": "2026-10-20T16:52:33.399Z",
+  "generated_at": "2026-10-20T17:01:51.539Z",
   "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
   "item_count": 1662,
   "items": [
@@ -783,7 +783,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Aluminum window sash frame"
+      "name_en": "Aluminum window frame (outer building frame)"
     },
     {
       "id": "iwk-0046",
@@ -2057,7 +2057,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Flowerpot saucer"
+      "name_en": "Flowerpot saucer (plastic)"
     },
     {
       "id": "iwk-0120",
@@ -2674,7 +2674,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "FF-type warm air heater"
+      "name_en": "Direct-vent warm-air heater (FF / forced-flue type)"
     },
     {
       "id": "iwk-0155",
@@ -7310,7 +7310,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fruit basket (plastic)"
+      "name_en": "Fruit packaging basket (plastic)"
     },
     {
       "id": "iwk-0420",
@@ -25144,7 +25144,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electric pot (home appliance)"
+      "name_en": "Electric kettle / hot water pot (home appliance)"
     },
     {
       "id": "iwk-1443",
@@ -26190,7 +26190,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water pitcher"
+      "name_en": "Water pitcher (glass)"
     },
     {
       "id": "iwk-1503",
@@ -27908,7 +27908,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wheel rim (excluding car tire wheels)"
+      "name_en": "Wheel rim (excluding motor-vehicle wheels)"
     },
     {
       "id": "iwk-1603",
@@ -28044,7 +28044,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooling agent"
+      "name_en": "Cooling agent (excluding antifreeze / engine coolant)"
     },
     {
       "id": "iwk-1611",
