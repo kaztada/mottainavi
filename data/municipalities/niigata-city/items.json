@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T14:06:51.252Z",
+  "generated_at": "2026-10-20T14:15:38.541Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -147,7 +147,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Iron-on print paper"
+      "name_en": "Iron-on transfer paper"
     },
     {
       "id": "nig-0009",
@@ -619,7 +619,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Kimono rack (iko) / clothes hanger (emonkake)"
+      "name_en": "Kimono rack / clothes stand (iko / emonkake)"
     },
     {
       "id": "nig-0036",
@@ -1156,7 +1156,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mortar (usu)"
+      "name_en": "Usu (traditional pounding mortar)"
     },
     {
       "id": "nig-0066",
@@ -3660,7 +3660,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Carrier case (car-mounted)"
+      "name_en": "Cargo box (car-mounted)"
     },
     {
       "id": "nig-0210",
@@ -9848,7 +9848,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Nail file / file"
+      "name_en": "Nail file / abrasive file (non-metal)"
     },
     {
       "id": "nig-0564",
