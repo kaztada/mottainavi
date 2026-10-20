@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T08:30:13.343Z",
+  "generated_at": "2026-10-20T08:43:14.230Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -16478,7 +16478,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electric cooler / warmer / refrigerator / freezer"
+      "name_en": "Electric cooling and warming cabinet / refrigerator / freezer"
     },
     {
       "id": "nig-0942",

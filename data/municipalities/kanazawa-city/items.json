@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-20T08:00:23.084Z",
+  "generated_at": "2026-10-20T08:43:13.089Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -17732,7 +17732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tray (for food)"
+      "name_en": "Food packaging tray"
     },
     {
       "id": "knz-1011",
