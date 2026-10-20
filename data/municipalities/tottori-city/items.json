@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-20T10:39:52.591Z",
+  "generated_at": "2026-10-20T10:51:43.243Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -878,7 +878,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Earphones"
+      "name_en": "Earphones (without rechargeable batteries)"
     },
     {
       "id": "ttr-0051",
@@ -6911,7 +6911,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Stainless steel jar"
+      "name_en": "Stainless steel insulated food container (rice warmer)"
     },
     {
       "id": "ttr-0399",
@@ -9839,7 +9839,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Toner"
+      "name_en": "Printer toner / toner cartridge"
     },
     {
       "id": "ttr-0564",
@@ -10938,7 +10938,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Needle"
+      "name_en": "Needle (non-medical)"
     },
     {
       "id": "ttr-0627",
