@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T13:58:39.063Z",
+  "generated_at": "2026-10-20T14:06:51.252Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -1976,7 +1976,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Thermometer (including electronic)"
+      "name_en": "Thermometer (including electronic; non-mercury)"
     },
     {
       "id": "nig-0113",
@@ -10522,7 +10522,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Microwave oven (including with oven function)"
+      "name_en": "Microwave oven (including ovens)"
     },
     {
       "id": "nig-0601",
@@ -11392,7 +11392,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lactic acid drink container (plastic)"
+      "name_en": "Cultured milk drink container (lactic acid bacteria drink; plastic)"
     },
     {
       "id": "nig-0651",
@@ -11888,7 +11888,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ash / lye (aku)"
+      "name_en": "Ash (combustion residue; hai / aku)"
     },
     {
       "id": "nig-0680",
@@ -14706,7 +14706,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Walker (walking frame)"
+      "name_en": "Walker"
     },
     {
       "id": "nig-0840",
