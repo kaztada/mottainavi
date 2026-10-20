@@ -1,6 +1,6 @@
 {
   "municipality_id": "hachioji-city",
-  "generated_at": "2026-10-20T15:16:06.428Z",
+  "generated_at": "2026-10-20T15:26:01.105Z",
   "source_url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html",
   "item_count": 1133,
   "items": [
@@ -4151,7 +4151,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wood (under 20 cm in diameter x 100 cm long)"
+      "name_en": "Wood (under 20 cm in diameter and under 100 cm long)"
     },
     {
       "id": "hcj-0235",
@@ -5670,7 +5670,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kotatsu under-mat"
+      "name_en": "Kotatsu mat / rug (for under a heated table)"
     },
     {
       "id": "hcj-0322",
@@ -5687,7 +5687,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kotatsu heating unit"
+      "name_en": "Kotatsu heater (heating unit for a heated table)"
     },
     {
       "id": "hcj-0323",
@@ -7213,7 +7213,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rice cooker (rice warmer / jar)"
+      "name_en": "Rice cooker / rice warmer"
     },
     {
       "id": "hcj-0409",
@@ -8363,7 +8363,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rice cooker (rice warmer / jar)"
+      "name_en": "Rice cooker / rice warmer"
     },
     {
       "id": "hcj-0474",
@@ -12940,7 +12940,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tree stump (under 20 cm in diameter x 100 cm long)"
+      "name_en": "Tree stump (under 20 cm in diameter and under 100 cm long)"
     },
     {
       "id": "hcj-0734",
@@ -17608,7 +17608,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Railroad tie (sleeper; under 20 cm in diameter x 100 cm long)"
+      "name_en": "Railroad tie (sleeper; under 20 cm in diameter and under 100 cm long)"
     },
     {
       "id": "hcj-1000",
@@ -17989,7 +17989,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tree trunk (under 20 cm in diameter x 100 cm long)"
+      "name_en": "Tree trunk (under 20 cm in diameter and under 100 cm long)"
     },
     {
       "id": "hcj-1022",
@@ -18570,7 +18570,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lumber (under 20 cm in diameter x 100 cm long)"
+      "name_en": "Lumber (under 20 cm in diameter and under 100 cm long)"
     },
     {
       "id": "hcj-1056",
