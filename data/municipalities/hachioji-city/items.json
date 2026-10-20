@@ -1,6 +1,6 @@
 {
   "municipality_id": "hachioji-city",
-  "generated_at": "2026-10-20T14:59:31.043Z",
+  "generated_at": "2026-10-20T15:08:26.667Z",
   "source_url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html",
   "item_count": 1133,
   "items": [
@@ -264,7 +264,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Oil"
+      "name_en": "Oil (excluding kerosene and other fuels)"
     },
     {
       "id": "hcj-0015",
@@ -1093,7 +1093,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mortar (usu; stone)"
+      "name_en": "Usu (large grain-pounding mortar; stone)"
     },
     {
       "id": "hcj-0062",
@@ -1110,7 +1110,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mortar (usu; wood)"
+      "name_en": "Usu (large grain-pounding mortar; wood)"
     },
     {
       "id": "hcj-0063",
@@ -1631,7 +1631,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Oil"
+      "name_en": "Oil (excluding kerosene and other fuels)"
     },
     {
       "id": "hcj-0092",
@@ -2908,7 +2908,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Snack / candy bag (vinyl)"
+      "name_en": "Snack / candy bag (plastic film)"
     },
     {
       "id": "hcj-0164",
@@ -4488,7 +4488,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Safe (fireproof, large)"
+      "name_en": "Safe (fireproof or large)"
     },
     {
       "id": "hcj-0254",
@@ -8844,7 +8844,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Straw wrapper (vinyl)"
+      "name_en": "Straw wrapper (plastic film)"
     },
     {
       "id": "hcj-0502",
@@ -9336,7 +9336,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Soap bag (vinyl)"
+      "name_en": "Soap wrapper (plastic film)"
     },
     {
       "id": "hcj-0530",
@@ -9580,7 +9580,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Senbei (rice cracker) bag (vinyl)"
+      "name_en": "Senbei (rice cracker) bag (plastic film)"
     },
     {
       "id": "hcj-0544",
@@ -9756,7 +9756,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Instant noodle bag (vinyl)"
+      "name_en": "Instant noodle bag (plastic film)"
     },
     {
       "id": "hcj-0554",
@@ -11185,7 +11185,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Carrier bag (paper)"
+      "name_en": "Bag with handles (paper)"
     },
     {
       "id": "hcj-0635",
@@ -11202,7 +11202,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Carrier bag (vinyl)"
+      "name_en": "Bag with handles (plastic film)"
     },
     {
       "id": "hcj-0636",
@@ -12713,7 +12713,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Napkin"
+      "name_en": "Napkin / sanitary pad"
     },
     {
       "id": "hcj-0721",
@@ -16999,7 +16999,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pocket tissue wrapper (vinyl)"
+      "name_en": "Pocket tissue wrapper (plastic film)"
     },
     {
       "id": "hcj-0965",
@@ -19882,7 +19882,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Disposable chopsticks wrapper (vinyl)"
+      "name_en": "Disposable chopsticks wrapper (plastic film)"
     },
     {
       "id": "hcj-1132",
