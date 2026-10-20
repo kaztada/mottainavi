@@ -1,6 +1,6 @@
 {
   "municipality_id": "iwaki-city",
-  "generated_at": "2026-10-20T17:01:51.539Z",
+  "generated_at": "2026-10-20T17:09:57.814Z",
   "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
   "item_count": 1662,
   "items": [
@@ -11174,7 +11174,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ladle (shakushi)"
+      "name_en": "Ladle (shakushi; other than metal or plastic)"
     },
     {
       "id": "iwk-0643",
@@ -21227,7 +21227,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (for mobile devices, video cameras etc.)"
+      "name_en": "Battery / power bank (for mobile devices, video cameras etc.)"
     },
     {
       "id": "iwk-1217",
@@ -21451,7 +21451,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bubble Star"
+      "name_en": "Bubble Star (home bubble-bath unit)"
     },
     {
       "id": "iwk-1230",
