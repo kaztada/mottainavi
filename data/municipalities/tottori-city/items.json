@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-20T06:09:03.547Z",
+  "generated_at": "2026-10-20T06:18:54.074Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -1052,7 +1052,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Window fan"
+      "name_en": "Window fan (not an air conditioner)"
     },
     {
       "id": "ttr-0061",

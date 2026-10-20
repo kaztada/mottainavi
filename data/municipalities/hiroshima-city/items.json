@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-20T06:09:03.856Z",
+  "generated_at": "2026-10-20T06:18:54.406Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -656,7 +656,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Window fan"
+      "name_en": "Window fan (not an air conditioner)"
     },
     {
       "id": "hrs-0038",
@@ -3514,7 +3514,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Goza (rush mat; vinyl)"
+      "name_en": "Goza (woven floor mat; vinyl)"
     },
     {
       "id": "hrs-0200",
@@ -4528,7 +4528,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fire extinguisher (used)"
+      "name_en": "Fire extinguisher (fully discharged / empty)"
     },
     {
       "id": "hrs-0257",
@@ -6839,7 +6839,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (other)"
+      "name_en": "Battery (other small household types)"
     },
     {
       "id": "hrs-0389",
@@ -7029,7 +7029,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Toaster (bread toaster; metal)"
+      "name_en": "Toaster (excluding toaster ovens; metal)"
     },
     {
       "id": "hrs-0399",
@@ -7046,7 +7046,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Toaster (bread toaster; other, composite materials)"
+      "name_en": "Toaster (excluding toaster ovens; other, composite materials)"
     },
     {
       "id": "hrs-0400",
@@ -8551,7 +8551,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Futon filling (cotton batting)"
+      "name_en": "Futon filling (batting)"
     },
     {
       "id": "hrs-0486",
@@ -8647,7 +8647,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hanging fitness equipment"
+      "name_en": "Hanging exercise bar / pull-up stand"
     },
     {
       "id": "hrs-0491",

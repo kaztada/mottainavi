@@ -1,6 +1,6 @@
 {
   "municipality_id": "ichinomiya-city",
-  "generated_at": "2026-10-20T06:09:03.701Z",
+  "generated_at": "2026-10-20T06:18:54.242Z",
   "source_url": "https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/1060886.html",
   "item_count": 689,
   "items": [
@@ -685,7 +685,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Window fan"
+      "name_en": "Window fan (not an air conditioner)"
     },
     {
       "id": "icm-0040",
@@ -3623,7 +3623,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Goza (rush mat; vinyl)"
+      "name_en": "Goza (woven floor mat; vinyl)"
     },
     {
       "id": "icm-0206",
