@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T10:51:42.278Z",
+  "generated_at": "2026-10-20T11:25:58.629Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -6268,7 +6268,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle tire / inner tube"
     },
     {
       "id": "nig-0360",
@@ -10446,7 +10446,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "E-cigarette (main unit)"
     },
     {
       "id": "nig-0597",
@@ -12144,7 +12144,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "PC rack"
     },
     {
       "id": "nig-0694",
@@ -13094,7 +13094,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bottle cap / lid (plastic)"
     },
     {
       "id": "nig-0749",
