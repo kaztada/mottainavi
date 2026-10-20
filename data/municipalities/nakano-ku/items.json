@@ -1,6 +1,6 @@
 {
   "municipality_id": "nakano-ku",
-  "generated_at": "2026-10-20T11:25:59.442Z",
+  "generated_at": "2026-10-20T11:33:15.541Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139",
   "item_count": 942,
   "items": [
@@ -5540,7 +5540,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sake carton"
+      "name_en": "Alcoholic beverage carton (sake etc.)"
     },
     {
       "id": "nkn-0317",
