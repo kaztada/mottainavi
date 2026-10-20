@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T06:09:03.212Z",
+  "generated_at": "2026-10-20T08:43:14.230Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -5859,7 +5859,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Miscellaneous paper (zatsugami)"
     },
     {
       "id": "nig-0337",
@@ -12484,7 +12484,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanger"
     },
     {
       "id": "nig-0714",
@@ -16478,7 +16478,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric cooling and warming cabinet / refrigerator / freezer"
     },
     {
       "id": "nig-0942",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-20T06:25:54.295Z",
+  "generated_at": "2026-10-20T08:00:24.535Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -9822,7 +9822,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Galvanized iron sheet (totan; metal)"
     },
     {
       "id": "ttr-0563",
@@ -12796,7 +12796,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Baby bottle"
     },
     {
       "id": "ttr-0733",
