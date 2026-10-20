@@ -4,9 +4,10 @@
   "ガスカートリッジ・ボンベ（カセットボンベ）": "Gas cartridge / canister (for camping; excluding cassette-stove canisters)",
   "シュレッダー機（プラスチック製）": "Shredder (manual, plastic)",
   "ショッピングカート": "Personal shopping cart (excluding store carts)",
-  "スクリーン": "Screen",
+  "スクリーン": "Screen (not a computer monitor)",
   "スケール": "Scale",
   "スタンド": "Lamp stand (desk lamp etc.)",
+  "ソーラー温水器・パネル": "Solar water heater / solar water heater panel",
   "ドラム": "Drums (musical instrument)",
   "ハイブリッドヒーター": "Hybrid heater (excluding oil-filled types)",
   "バブルスター": "Bubble Star",
@@ -14,5 +15,6 @@
   "ボートのオール": "Boat oar (wood or plastic; excluding metal)",
   "ボトル": "Bottle (plastic; detergent, shampoo etc.)",
   "巻尺・メジャー": "Tape measure (non-metal)",
-  "湯沸し機": "Water heater (small, for kitchen)"
+  "湯沸し機": "Water heater (small, for kitchen)",
+  "リム": "Wheel rim (excluding car tire wheels)"
 }
