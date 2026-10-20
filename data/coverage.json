@@ -10206,17 +10206,6 @@
       }
     ]
   },
-  "iwaki-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/simple/gomibunnbetu.csv"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「クリエイティブ・コモンズ 表示 2.1 日本(CC BY 2.1 JP)。自由に利用・改変可、完全性は保証せず」。『ごみの分別(CSV)』ごみ分別一覧表。令和8年4月1日現在、ページ更新 2026-04-01。CSV 121KB、1,763行(UTF-8、列は №/品名/分別区分/注意点)。市のオープンデータ一覧の『環境、ごみ、水道、生活排水』に掲載。ごみ当ちゃん(アプリ)がこのデータを利用"
-  },
   "shirakawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -16989,19 +16978,23 @@
     ]
   },
   "nagareyama-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-19",
+    "detail_ja": "公開データ(2023年1月)のあとに、市で電池・スプレー缶などの出し方が変わりました。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "After the city's open data (January 2023) was published, the city changed how to put out batteries, spray cans and similar items. Because they can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "【流山市】ごみの分別・処分方法(chiba)",
+        "label": "千葉県オープンデータサイトの CSV(中身は2023-01-10 版、600品目、CC BY 4.0)",
         "url": "https://opendata.pref.chiba.lg.jp/datasets/3435"
       },
       {
-        "label": "ファイル",
-        "url": "https://opendata.pref.chiba.lg.jp/resource_download/55069"
+        "label": "市の現行の案内(分別表 令和8年6月改定版、2026-08 の電池の出し方の変更): 充電式電池・携帯電話・スプレー缶は有害危険ごみ(データでは市では処理できない・燃やさないごみ・資源ごみ)。新しい分別表は市のサイトの PDF でオープンデータではない"
+      },
+      {
+        "label": "2026-10-19 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・605行・データの基準日 不明・カタログの更新日 2026-08-09・ライセンスの登録 cc-by4_0"
+    "note": "Kaz 判断 2026-10-19: 保留(データは2023-01-10のまま。カタログの更新日は登録しなおしだけ。2024-02 のパンフと 2026-08-20 の改定が未反映。スマートフォン・モバイルバッテリーの品目が無い。市のクリーンセンターに新しい分別表のオープンデータ化を問い合わせる候補)"
   },
   "yachiyo-city": {
     "status": "no-data",
@@ -18278,30 +18271,23 @@
     ]
   },
   "shibuya-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-19",
+    "detail_ja": "公開データと区の現行の案内で、電池を内蔵した製品の出し方など5品目以上が違っていました。品目も216と少ないため、データが新しくなってから対応します。",
+    "detail_en": "The ward's open data and its current guidance differ for five or more items, including how to put out products with built-in batteries. The data also has only 216 items, so we will add the ward once the data is updated.",
     "evidence": [
       {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://services3.arcgis.com/UtdeFTavkHfI94t2/arcgis/rest/services/131130_garbage_category/FeatureServer/0"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY(Hub の license 表示は CC-BY-4.0)」。渋谷区自身の OD ポータル(ArcGIS Hub)に『ごみの分別方法一覧』あり。項目ID ad768fb1a8674334a7dd17884f002975、216行、列=全国地方公共団体コード/No/品目_頭文字/品目/分別区分/注意点/料金種別/料金/料金備考/備考。作成2024-02-29、更新2026-08-14。確認は REST(FeatureServer)で実施、Hub の CSV/GeoJSON ダウンロード URL そのものは未確認。ほかに『ごみ収集量』もあり。HTML の50音ページ(gomi_hinmoku.html)もあり"
-  },
-  "nakano-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみ分別一覧(tokyo)",
-        "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139"
+        "label": "区のオープンデータ(SHIBUYA OPEN DATA)の「ごみの分別方法一覧」(2026-08-14 更新、216品目、CC BY)",
+        "url": "https://city-shibuya-data.opendata.arcgis.com/"
       },
       {
-        "label": "ファイル",
-        "url": "https://www2.wagmap.jp/nakanodatamap/nakanodatamap/opendatafile/map_1/CSV/opendata_5000769.csv"
+        "label": "区の現行の案内(電池のページ 2026-07、50音の一覧 2026-06): 電池を内蔵した製品は回収拠点などへ(データでは集積所に出すなら不燃ごみ)。プラスチックの資源回収(2022年7月から)の5品目が未反映。粗大ごみは14品目だけ"
+      },
+      {
+        "label": "2026-10-19 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・942行・データの基準日 不明・カタログの更新日 2025-02-28・ライセンスの登録 CC-BY-4.0"
+    "note": "Kaz 判断 2026-10-19: 保留(区の50音の一覧と全216品目を照合し5件が違う。スマートフォンなど電池内蔵品を集積所に出すなら不燃ごみとしていて区の電池・火災のページと違う(区の50音のページもデータと同じ)。ソファー・ベッド・たんすが無い。渋谷区清掃事務所に問い合わせる候補)"
   },
   "suginami-ku": {
     "status": "candidate",
@@ -18354,15 +18340,23 @@
     ]
   },
   "kita-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-19",
+    "detail_ja": "公開データと区の現行の分別辞典(2026年10月)で、充電式電池の出し方など約26品目が違っていました。電池は火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "The ward's open data and its current sorting dictionary (October 2026) differ for about 26 items, including how to put out rechargeable batteries. Because batteries can cause fires, we will add the ward once the data is updated.",
     "evidence": [
       {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.city.kita.lg.jp/_res/projects/default_project/_project_/opendata/1014461/hyo-jun.zip"
+        "label": "区のオープンデータのページの自治体標準オープンデータセット(ゴミの分別方法一覧、750品目、CC BY 4.0)",
+        "url": "https://www.city.kita.lg.jp/city-information/disclosure/1014461.html"
+      },
+      {
+        "label": "区の現行の案内(家庭ごみ分別辞典、2026-10): 回収箱に出せない充電式電池は不燃ごみ(金属資源)の日に別の袋で収集(データでは収集しない。モバイルバッテリーの品目が無い)。有機ELテレビは2024年4月から家電リサイクル法の対象(データでは粗大ごみ)。ほか約26品目の区分が違う"
+      },
+      {
+        "label": "2026-10-19 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY 4.0(ページのデータセット記述に「CC BY(表示)」)」。自治体標準オープンデータセット一式(zip 292KB)の中に「28.ゴミの分別方法一覧/131172_garbage_separation.csv」あり。標準形式(品目・分別区分・注意点・料金種別・料金…)で750行、UTF-8。ページ更新2026-10-05。ページ本文にはごみの記載がなく、zipを開かないと分からない点に注意。Webにも家庭ごみ分別辞典(50音)あり。"
+    "note": "Kaz 判断 2026-10-19: 保留(区の辞典と全750品目を照合し約26件が違う。モバイルバッテリー・リチウムイオン電池の品目が無く、充電式電池・ボタン電池は収集しないのまま。有機ELテレビが粗大ごみ(区の辞典も同じ)。注意点の列が全部空。北区清掃事務所に問い合わせる候補)"
   },
   "arakawa-ku": {
     "status": "candidate",
@@ -18515,19 +18509,6 @@
       }
     ]
   },
-  "hachioji-city": {
-    "status": "available",
-    "checked_at": "2026-10-08",
-    "evidence": [
-      {
-        "label": "東京都オープンデータカタログの標準形式 CSV(令和7年4月1日、CC BY 4.0)"
-      },
-      {
-        "label": "市の分別辞典(令和8年4月1日)と照合: 名前が一致した1,090品目中、区分の相違 6(危険物は全部一致)"
-      }
-    ],
-    "note": "Kaz が 2026-10-14 に「入れる」と判断。浄水器・うす(木製)は itemNotes。注意書きは備考・料金備考の列。区分が空の49行は備考で2種類に分ける"
-  },
   "tachikawa-city": {
     "status": "candidate",
     "checked_at": "2026-10-16",
@@ -18589,19 +18570,23 @@
     "note": "総当たり 2026-10-16: standard・1920行・データの基準日 不明・カタログの更新日 2025-03-25・ライセンスの登録 CC-BY-4.0"
   },
   "tokyo-fuchu-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-19",
+    "detail_ja": "公開データ(2024年9月)のあとに、市で電池・スプレー缶の出し方が変わりました(2026年4月から)。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "After the city's open data (September 2024) was published, the city changed how to put out batteries and spray cans (from April 2026). Because they can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "ゴミの分別方法一覧(tokyo)",
+        "label": "東京都オープンデータカタログの CSV(2024-09-13、1,542品目、CC BY 4.0)",
         "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132063d0000000021"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.city.fuchu.tokyo.jp/gyosei/opendata/index.files/132063_garbage_separation.csv"
+        "label": "市の現行の案内(ごみ・資源物分別表、2026-10): 2026年4月から「危険ごみ」を「リチウムイオン電池」と「スプレー缶・ライター」に分けて収集(データは危険ごみのまま)。ボタン電池は有害ごみ(データでは収集できない)"
+      },
+      {
+        "label": "2026-10-19 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・1542行・データの基準日 不明・カタログの更新日 2024-09-12・ライセンスの登録 CC-BY-4.0"
+    "note": "Kaz 判断 2026-10-19: 保留(市の Web の分別表(2026-10、1,581品目)と全件照合。名前が同じ1,505品目で区分の食い違い3件、名前の変わった品目で4件。危険ごみの分割・ボタン電池の区分が未反映)"
   },
   "akishima-city": {
     "status": "no-data",
@@ -20213,19 +20198,6 @@
         "url": "https://opendata.pref.kanagawa.jp/"
       }
     ]
-  },
-  "niigata-city": {
-    "status": "available",
-    "checked_at": "2026-10-08",
-    "evidence": [
-      {
-        "label": "市のオープンデータ「ごみ分別表」od-gomibunbetsuhyou_R8.csv(2026-06-30、CC BY 2.1 JP)"
-      },
-      {
-        "label": "市の50音のページ(43ページ)・冊子(令和8年度版)と全件照合し、区分の食い違い 0"
-      }
-    ],
-    "note": "Kaz が 2026-10-14 に「入れる」と判断。品目名のセルに改行で注意書き。特定5品目の出し方・粗大の注意書きを区分の説明で補う"
   },
   "nagaoka-city": {
     "status": "candidate",
@@ -27168,17 +27140,6 @@
       }
     ]
   },
-  "ichinomiya-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.city.ichinomiya.aichi.jp/_res/projects/default_project/_page_/001/060/886/202610.bunbetsu_ichinomiya.csv"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY(表示)」。『資源とごみの分別に関するデータ』。リリース 2026-10-08。CSV 83.5KB(cp932、約1,060行、列は ごみ名/索引/分別区分/分別注意文)と xlsx 38.6KB(202610.bunbetsu_ichinomiya.xlsx)。担当は廃棄物対策課。市のオープンデータカタログ(cgi-opd)掲載"
-  },
   "seto-city": {
     "status": "unsurveyed"
   },
@@ -31071,15 +31032,23 @@
     ]
   },
   "akashi-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-19",
+    "detail_ja": "公開データ(2026年8月)には、2026年4月からの充電池の出し方が一部の品目で入っていませんでした(加熱式たばこ機器など)。電池は火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "The city's open data (August 2026) does not yet reflect, for some items, the new way to put out rechargeable batteries that began in April 2026 (e.g., heated tobacco devices). Because batteries can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.city.akashi.lg.jp/documents/29427/282031_garbage_separation.csv"
+        "label": "市のオープンデータのページの CSV(2026-08-25、417品目、CC BY 4.0)",
+        "url": "https://www.city.akashi.lg.jp/soumu/j_kanri_ka/shise/opendata/index.html"
+      },
+      {
+        "label": "市の現行の案内(分別早見表・充電池の出し方): 加熱式たばこ機器は2026年4月から、もえないごみの日に「充電池」の別の袋で(データでは収集できない)。携帯電話など充電して使う製品に、別の袋の注意が無い"
+      },
+      {
+        "label": "2026-10-19 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「明石市オープンデータ利用規約(CC BY 4.0 互換。ページに明記)」。「ゴミの分別方法一覧」CSV 99KB、データ日 2026-08-25、約445行。列は 全国地方公共団体コード,ID,品目,分別区分,注意点,料金種別,料金,料金備考,連絡先〜,備考(自治体標準データセット形式)。先頭を取得して確認済み。粗大ごみ品目一覧(xlsx/PDF)は別にあり。"
+    "note": "Kaz 判断 2026-10-19: 保留(市の検索ページ・早見表と照合し区分の食い違い2件(めがね・れんが)。加熱式たばこ機器がデータでは収集できない、現行はもえないごみの日に充電池の別袋。スマートフォン・モバイルバッテリーなどの品目が無い。粗大ごみの料金つきの一覧は市のサイト本体で CC BY の範囲外)"
   },
   "nishinomiya-city": {
     "status": "candidate",
@@ -34107,21 +34076,6 @@
       }
     ]
   },
-  "tottori-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "鳥取市ごみの分別方法一覧(search-ckan-jp)",
-        "url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891/resource/9625/312011_garbage_collection_place.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・840行・データの基準日 不明・カタログの更新日 2026-09-14・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
-  },
   "yonago-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -35811,21 +35765,6 @@
         "url": "https://data.e-gov.go.jp/"
       }
     ]
-  },
-  "hiroshima-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "広島市_家庭ごみ収集・分別情報(hiroshima)",
-        "url": "https://hiroshima-opendata.dataeye.jp/datasets/1338"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://hiroshima-opendata.dataeye.jp/resource_download/24815"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・644行・データの基準日 2026・カタログの更新日 2025-03-06・ライセンスの登録 pdl"
   },
   "kure-city": {
     "status": "no-data",

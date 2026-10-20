@@ -1,0 +1,92 @@
+[
+  {
+    "id": "moyasu",
+    "kind": "burnable",
+    "name_ja": "燃やすごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moyasanai",
+    "kind": "non-burnable",
+    "name_ja": "燃やさないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "kaden-kinzoku",
+    "kind": "recyclable",
+    "name_ja": "小型家電・金属類",
+    "name_en": "Small Appliances & Metals"
+  },
+  {
+    "id": "yoki-pura",
+    "kind": "plastic",
+    "name_ja": "容器包装プラスチック",
+    "name_en": "Plastic Containers & Packaging"
+  },
+  {
+    "id": "seihin-pura",
+    "kind": "plastic",
+    "name_ja": "製品プラスチック",
+    "name_en": "Plastic Products"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "びん類",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "kan-pet",
+    "kind": "recyclable",
+    "name_ja": "かん類・ペットボトル",
+    "name_en": "Cans & PET Bottles"
+  },
+  {
+    "id": "denchi",
+    "kind": "hazardous",
+    "name_ja": "電池類",
+    "name_en": "Batteries"
+  },
+  {
+    "id": "shinbun",
+    "kind": "paper",
+    "name_ja": "古紙類（新聞紙）",
+    "name_en": "Used Paper (Newspapers)"
+  },
+  {
+    "id": "zasshi",
+    "kind": "paper",
+    "name_ja": "古紙類（雑誌）",
+    "name_en": "Used Paper (Magazines & Books)"
+  },
+  {
+    "id": "danboru",
+    "kind": "paper",
+    "name_ja": "古紙類（段ボール）",
+    "name_en": "Used Paper (Cardboard)"
+  },
+  {
+    "id": "kami-pack",
+    "kind": "paper",
+    "name_ja": "古紙類（紙パック）",
+    "name_en": "Used Paper (Beverage Cartons)"
+  },
+  {
+    "id": "sonota-kami",
+    "kind": "paper",
+    "name_ja": "古紙類（その他の紙）",
+    "name_en": "Used Paper (Other Paper)"
+  },
+  {
+    "id": "ogata",
+    "kind": "bulky",
+    "name_ja": "大型ごみ",
+    "name_en": "Bulky Waste (application required, fee)"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市では収集しないもの",
+    "name_en": "Not Collected by the City"
+  }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (application required)"
+  },
+  {
+    "id": "chonai",
+    "kind": "recyclable",
+    "name_ja": "町内回収資源",
+    "name_en": "Neighborhood Resource Collection"
+  },
+  {
+    "id": "kyoten",
+    "kind": "drop-off",
+    "name_ja": "拠点回収",
+    "name_en": "Drop-off Collection"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装",
+    "name_en": "Plastic Containers and Packaging"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "空き缶・金属類",
+    "name_en": "Cans and Metals"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "lithium",
+    "kind": "hazardous",
+    "name_ja": "リチウムイオン電池を使用した小型家電など",
+    "name_en": "Lithium-ion Batteries and Small Devices Using Them"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(回収ボックス)",
+    "name_en": "Small Appliances (collection box)"
+  },
+  {
+    "id": "kobetsu",
+    "kind": "other",
+    "name_ja": "戸別収集(ガレキ・瓦など)",
+    "name_en": "Door-to-door Collection (rubble, roof tiles, etc.)"
+  },
+  {
+    "id": "sonota",
+    "kind": "drop-off",
+    "name_ja": "その他(インクカートリッジ回収ボックス)",
+    "name_en": "Other (ink cartridge collection box)"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "家電4品目(家電リサイクル法)",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "収集不可",
+    "name_en": "Not Collected by the City"
+  }
+]

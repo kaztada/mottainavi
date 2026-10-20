@@ -18,6 +18,13 @@ import { shunanCityAdapter } from "./shunan-city"
 import { sukagawaCityAdapter } from "./sukagawa-city"
 import { yamagaCityAdapter } from "./yamaga-city"
 import { yokohamaCityAdapter } from "./yokohama-city"
+import { niigataCityAdapter } from "./niigata-city"
+import { hachiojiCityAdapter } from "./hachioji-city"
+import { tottoriCityAdapter } from "./tottori-city"
+import { ichinomiyaCityAdapter } from "./ichinomiya-city"
+import { hiroshimaCityAdapter } from "./hiroshima-city"
+import { nakanoKuAdapter } from "./nakano-ku"
+import { iwakiCityAdapter } from "./iwaki-city"
 
 /** 登録済みアダプタ。自治体を追加するときはここに1行足す */
 export const ADAPTERS: Record<string, MunicipalityAdapter> = {
@@ -40,4 +47,11 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [shunanCityAdapter.slug]: shunanCityAdapter,
   [oshuCityAdapter.slug]: oshuCityAdapter,
   [koganeiCityAdapter.slug]: koganeiCityAdapter,
+  [niigataCityAdapter.slug]: niigataCityAdapter,
+  [hachiojiCityAdapter.slug]: hachiojiCityAdapter,
+  [tottoriCityAdapter.slug]: tottoriCityAdapter,
+  [ichinomiyaCityAdapter.slug]: ichinomiyaCityAdapter,
+  [hiroshimaCityAdapter.slug]: hiroshimaCityAdapter,
+  [nakanoKuAdapter.slug]: nakanoKuAdapter,
+  [iwakiCityAdapter.slug]: iwakiCityAdapter,
 }

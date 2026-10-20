@@ -3155,8 +3155,8 @@
     "pref": "福島県",
     "name_ja": "いわき市",
     "name_en": "Iwaki City",
-    "status": "unsupported",
-    "official_url": "https://www.city.iwaki.lg.jp/www/"
+    "status": "supported",
+    "official_url": "https://www.city.iwaki.lg.jp/www/genre/1000100000075/index.html"
   },
   {
     "slug": "shirakawa-city",
@@ -5765,8 +5765,8 @@
     "pref": "東京都",
     "name_ja": "中野区",
     "name_en": "Nakano City",
-    "status": "unsupported",
-    "official_url": "https://www.city.tokyo-nakano.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.tokyo-nakano.lg.jp/kurashi/gomi/index.html"
   },
   {
     "slug": "suginami-ku",
@@ -5855,8 +5855,8 @@
     "pref": "東京都",
     "name_ja": "八王子市",
     "name_en": "Hachioji City",
-    "status": "unsupported",
-    "official_url": "https://www.city.hachioji.tokyo.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.hachioji.tokyo.jp/kurashi/gomi/kateigomi/dashikata/p002334.html"
   },
   {
     "slug": "tachikawa-city",
@@ -6503,8 +6503,8 @@
     "pref": "新潟県",
     "name_ja": "新潟市",
     "name_en": "Niigata City",
-    "status": "unsupported",
-    "official_url": "https://www.city.niigata.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.niigata.lg.jp/kurashi/gomi/index.html"
   },
   {
     "slug": "nagaoka-city",
@@ -8888,8 +8888,8 @@
     "pref": "愛知県",
     "name_ja": "一宮市",
     "name_en": "Ichinomiya City",
-    "status": "unsupported",
-    "official_url": "https://www.city.ichinomiya.aichi.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/index.html"
   },
   {
     "slug": "seto-city",
@@ -11390,8 +11390,8 @@
     "pref": "鳥取県",
     "name_ja": "鳥取市",
     "name_en": "Tottori City",
-    "status": "unsupported",
-    "official_url": "https://www.city.tottori.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.tottori.lg.jp/life/1/11/59/"
   },
   {
     "slug": "yonago-city",
@@ -11975,8 +11975,8 @@
     "pref": "広島県",
     "name_ja": "広島市",
     "name_en": "Hiroshima City",
-    "status": "unsupported",
-    "official_url": "https://www.city.hiroshima.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.hiroshima.lg.jp/living/gomi-kankyo/1021277/1003072/1026095/1026096/1003182.html"
   },
   {
     "slug": "kure-city",

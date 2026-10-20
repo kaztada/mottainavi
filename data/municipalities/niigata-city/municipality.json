@@ -1,0 +1,14 @@
+{
+  "slug": "niigata-city",
+  "item_id_prefix": "nig",
+  "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 2.1 JP",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。ごみ分別早見表_R8、新潟市、クリエイティブ・コモンズ・ライセンス 表示 2.1 日本",
+  "source_attribution_en": "Source: This app adapts \"Garbage Sorting Quick Reference Table (R8)\", Niigata City, Creative Commons Attribution 2.1 Japan",
+  "sodai_apply_url": "https://www.sodai.city.niigata.jp/",
+  "sodai_tel_landline": "025-290-5353",
+  "sodai_tel_mobile": "025-290-5353",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261019"
+}

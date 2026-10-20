@@ -1,0 +1,14 @@
+{
+  "slug": "nakano-ku",
+  "item_id_prefix": "nkn",
+  "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。ごみ分別一覧、中野区、クリエイティブ・コモンズ・ライセンス 表示4.0国際(https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "source_attribution_en": "Source: This app adapts \"Garbage Sorting List\" (ごみ分別一覧), Nakano City, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "sodai_apply_url": "https://www2.sodai-web.jp/nakano/index.html",
+  "sodai_tel_landline": "03-5715-2255",
+  "sodai_tel_mobile": "03-5715-2255",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261019"
+}

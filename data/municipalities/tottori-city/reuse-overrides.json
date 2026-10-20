@@ -1,0 +1,23 @@
+{
+  "自動車部品（タイヤ・ホイール・スプリング・バンパー・ガラス・マフラー等）": null,
+  "チューナー（ステレオ・楽器・テレビ用）": null,
+  "車椅子": null,
+  "米びつ（ライスハイザー）": null,
+  "ライスハイザー（米びつ）": null,
+  "サイドボード": "furniture",
+  "キャビネット": "furniture",
+  "テレビ台": "furniture",
+  "座卓": "furniture",
+  "ベンチ（家庭用）": "furniture",
+  "レンジ台": "furniture",
+  "ワゴン": "furniture",
+  "こたつ・こたつ板": "furniture",
+  "スマートフォン": "small-appliance",
+  "携帯電話": "small-appliance",
+  "タブレット端末": "small-appliance",
+  "デジタルカメラ・デジタルビデオカメラ": "small-appliance",
+  "ビデオカメラ": "small-appliance",
+  "カメラ": "small-appliance",
+  "ゲーム機（家庭用）": "small-appliance",
+  "電子手帳": "small-appliance"
+}

@@ -1,0 +1,14 @@
+{
+  "slug": "tottori-city",
+  "item_id_prefix": "ttr",
+  "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: 「鳥取市ごみの分別方法一覧」鳥取市(https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html)(2026年10月16日に利用)、クリエイティブ・コモンズ・ライセンス 表示4.0国際(https://creativecommons.org/licenses/by/4.0/deed.ja)。もったいナビが加工して作成",
+  "source_attribution_en": "Source: \"Tottori City Garbage Sorting List\", Tottori City (https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html) (used on October 16, 2026), Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/). Adapted by Mottainavi",
+  "sodai_apply_url": "https://www.tottori-oogatagomi.com",
+  "sodai_tel_landline": "0857-22-0353",
+  "sodai_tel_mobile": "0857-22-0353",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261019"
+}

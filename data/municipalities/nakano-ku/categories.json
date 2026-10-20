@@ -1,0 +1,92 @@
+[
+  {
+    "id": "moyasu",
+    "kind": "burnable",
+    "name_ja": "燃やすごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "toki",
+    "kind": "non-burnable",
+    "name_ja": "陶器・ガラス・金属ごみ",
+    "name_en": "Ceramics, Glass and Metal Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (application required)"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "資源プラスチック",
+    "name_en": "Recyclable Plastics"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "びん・缶・ペットボトル",
+    "name_en": "Bottles, Cans and PET Bottles"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "古紙(集団回収)",
+    "name_en": "Used Paper (community collection)"
+  },
+  {
+    "id": "furugi",
+    "kind": "paper",
+    "name_ja": "古着・古布(集団回収)",
+    "name_en": "Used Clothing and Fabric (community collection)"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "使用済小型家電(拠点回収)",
+    "name_en": "Small Appliances (collection box)"
+  },
+  {
+    "id": "denchi",
+    "kind": "drop-off",
+    "name_ja": "乾電池(拠点回収)",
+    "name_en": "Dry-cell Batteries (collection box)"
+  },
+  {
+    "id": "keikokan",
+    "kind": "drop-off",
+    "name_ja": "使用済蛍光管(拠点回収)",
+    "name_en": "Fluorescent Tubes (collection box)"
+  },
+  {
+    "id": "oil",
+    "kind": "drop-off",
+    "name_ja": "食用油(拠点回収)",
+    "name_en": "Cooking Oil (drop-off collection)"
+  },
+  {
+    "id": "ink",
+    "kind": "drop-off",
+    "name_ja": "インクカートリッジ(拠点回収)",
+    "name_en": "Ink Cartridges (collection box)"
+  },
+  {
+    "id": "pc",
+    "kind": "maker-recycle",
+    "name_ja": "パソコン(メーカー・宅配便回収)",
+    "name_en": "Computers (manufacturer or courier take-back)"
+  },
+  {
+    "id": "kaden",
+    "kind": "not-collected",
+    "name_ja": "家電リサイクル法対象品目",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "区では収集しないもの",
+    "name_en": "Not Collected by the Ward"
+  }
+]

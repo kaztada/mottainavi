@@ -39,6 +39,13 @@ https://mottainavi.kaztada.eco
 | 周南市(山口県)     | [【周南市】ゴミの分別方法一覧](https://yamaguchi-opendata.jp/ckan/dataset/352152_garbage_separation)                 | PDL1.0       |
 | 奥州市(岩手県)     | [ゴミの分別方法一覧](https://www.city.oshu.iwate.jp/opendata/8/16379.html)                                           | CC BY 4.0    |
 | 小金井市(東京都)   | [ゴミの分別方法一覧](https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000038)                              | CC BY 4.0    |
+| 新潟市(新潟県)     | [ごみ分別表](https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html) | CC BY 2.1 JP |
+| 八王子市(東京都)   | [ゴミの分別方法一覧](https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html)                              | CC BY 4.0    |
+| 鳥取市(鳥取県)     | [鳥取市ごみの分別方法一覧](https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html)                               | CC BY 4.0    |
+| 一宮市(愛知県)     | [資源とごみの分別に関するデータ](https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/1060886.html) | CC BY 4.0    |
+| 広島市(広島県)     | [広島市_家庭ごみ分別50音事典](https://hiroshima-opendata.dataeye.jp/datasets/1338)                                   | PDL1.0       |
+| 中野区(東京都)     | [ごみ分別一覧](https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139)                                    | CC BY 4.0    |
+| いわき市(福島県)   | [ごみの分別](https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html)                                     | CC BY 2.1 JP |
 
 品目データを二次利用できるライセンスで公開している自治体から、順に追加しています。まだ対応していない自治体を選ぶと、その自治体の公式サイトへの案内を表示します。
 

@@ -1,0 +1,16 @@
+[
+  { "id": "moyasu", "kind": "burnable", "name_ja": "燃やすごみ", "name_en": "Burnable Waste" },
+  { "id": "moyasanai", "kind": "non-burnable", "name_ja": "燃やさないごみ", "name_en": "Non-burnable Waste" },
+  { "id": "sodai", "kind": "bulky", "name_ja": "粗大ごみ", "name_en": "Bulky Waste (application required)" },
+  { "id": "pla", "kind": "plastic", "name_ja": "プラマーク容器包装", "name_en": "Plastic Containers and Packaging (with Pla mark)" },
+  { "id": "pet", "kind": "recyclable", "name_ja": "ペットボトル", "name_en": "PET Bottles" },
+  { "id": "bin", "kind": "recyclable", "name_ja": "飲食用・化粧品びん", "name_en": "Glass Bottles (food, drink, cosmetics)" },
+  { "id": "kan", "kind": "recyclable", "name_ja": "飲食用缶", "name_en": "Food and Drink Cans" },
+  { "id": "shinbun", "kind": "paper", "name_ja": "古紙類（新聞）", "name_en": "Used Paper (newspapers)" },
+  { "id": "zasshi", "kind": "paper", "name_ja": "古紙類（雑誌・雑がみ）", "name_en": "Used Paper (magazines and mixed paper)" },
+  { "id": "danboru", "kind": "paper", "name_ja": "古紙類（段ボール）", "name_en": "Used Paper (cardboard)" },
+  { "id": "kamipack", "kind": "paper", "name_ja": "古紙類（紙パック）", "name_en": "Used Paper (paper cartons)" },
+  { "id": "edaha", "kind": "recyclable", "name_ja": "枝葉・草", "name_en": "Branches, Leaves and Grass" },
+  { "id": "tokutei", "kind": "hazardous", "name_ja": "特定5品目", "name_en": "Five Special Items (batteries, fluorescent tubes, mercury thermometers, lighters, spray cans)" },
+  { "id": "kinshi", "kind": "not-collected", "name_ja": "排出禁止物", "name_en": "Prohibited Items (not collected by the city)" }
+]

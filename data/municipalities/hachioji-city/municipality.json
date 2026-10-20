@@ -1,0 +1,14 @@
+{
+  "slug": "hachioji-city",
+  "item_id_prefix": "hcj",
+  "source_url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。「ゴミの分別方法一覧」、八王子市、CC BY 4.0",
+  "source_attribution_en": "Source: This app adapts \"Garbage Sorting Method List\", Hachioji City, CC BY 4.0",
+  "sodai_apply_url": "https://sodai.city.hachioji.tokyo.jp/eco/view/hachioji/top.html",
+  "sodai_tel_landline": "0570-550-530",
+  "sodai_tel_mobile": "042-696-5377",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261019"
+}
