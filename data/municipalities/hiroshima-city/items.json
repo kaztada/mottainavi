@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-20T06:25:54.720Z",
+  "generated_at": "2026-10-20T06:32:38.639Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -809,7 +809,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Urethane mat (bedding)"
+      "name_en": "Foam sleeping mat (urethane / polyurethane; bedding)"
     },
     {
       "id": "hrs-0047",
@@ -826,7 +826,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Urethane mat (for bathroom)"
+      "name_en": "Foam bath mat (urethane / polyurethane)"
     },
     {
       "id": "hrs-0048",
@@ -7817,7 +7817,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Computer (unit, display)"
+      "name_en": "Computer (main unit / display / monitor)"
     },
     {
       "id": "hrs-0444",
