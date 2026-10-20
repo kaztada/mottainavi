@@ -1,12 +1,18 @@
 {
   "ウィンドファン": "Air cooler / fan (fan-only; window fan)",
+  "温度計・湿度計": "Thermometer / hygrometer (non-mercury)",
+  "ガスカートリッジ・ボンベ（カセットボンベ）": "Gas cartridge / canister (for camping; excluding cassette-stove canisters)",
+  "シュレッダー機（プラスチック製）": "Shredder (manual, plastic)",
   "ショッピングカート": "Personal shopping cart (excluding store carts)",
   "スクリーン": "Screen",
   "スケール": "Scale",
   "スタンド": "Lamp stand (desk lamp etc.)",
   "ドラム": "Drums (musical instrument)",
+  "ハイブリッドヒーター": "Hybrid heater (excluding oil-filled types)",
   "バブルスター": "Bubble Star",
   "針": "Needle (non-medical)",
+  "ボートのオール": "Boat oar (wood or plastic; excluding metal)",
   "ボトル": "Bottle (plastic; detergent, shampoo etc.)",
+  "巻尺・メジャー": "Tape measure (non-metal)",
   "湯沸し機": "Water heater (small, for kitchen)"
 }

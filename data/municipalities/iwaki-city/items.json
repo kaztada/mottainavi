@@ -1,6 +1,6 @@
 {
   "municipality_id": "iwaki-city",
-  "generated_at": "2026-10-20T15:34:05.416Z",
+  "generated_at": "2026-10-20T15:51:44.253Z",
   "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
   "item_count": 1662,
   "items": [
@@ -3810,7 +3810,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Thermometer / hygrometer"
+      "name_en": "Thermometer / hygrometer (non-mercury)"
     },
     {
       "id": "iwk-0220",
@@ -4631,7 +4631,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gas cartridge / canister (cassette canister)"
+      "name_en": "Gas cartridge / canister (for camping; excluding cassette-stove canisters)"
     },
     {
       "id": "iwk-0266",
@@ -5358,7 +5358,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Paper stick (for sugar etc.)"
+      "name_en": "Paper packet (for sugar etc.; stick-shaped)"
     },
     {
       "id": "iwk-0308",
@@ -11689,7 +11689,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shredder (plastic)"
+      "name_en": "Shredder (manual, plastic)"
     },
     {
       "id": "iwk-0673",
@@ -12640,7 +12640,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Thinner / paint can"
+      "name_en": "Thinner can / paint can"
     },
     {
       "id": "iwk-0727",
@@ -20429,7 +20429,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hybrid heater"
+      "name_en": "Hybrid heater (excluding oil-filled types)"
     },
     {
       "id": "iwk-1173",
@@ -22191,7 +22191,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Plastic film bag (vinyl bag)"
+      "name_en": "Vinyl bag (handbag / carry bag)"
     },
     {
       "id": "iwk-1273",
@@ -24817,7 +24817,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Boat oar"
+      "name_en": "Boat oar (wood or plastic; excluding metal)"
     },
     {
       "id": "iwk-1424",
@@ -25685,7 +25685,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tape measure"
+      "name_en": "Tape measure (non-metal)"
     },
     {
       "id": "iwk-1474",
@@ -26224,7 +26224,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cup for mizu-yokan etc. (metal)"
+      "name_en": "Metal cup for mizu-yokan (Japanese sweet bean jelly) and similar desserts"
     },
     {
       "id": "iwk-1505",
