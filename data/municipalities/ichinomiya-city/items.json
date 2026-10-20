@@ -1,6 +1,6 @@
 {
   "municipality_id": "ichinomiya-city",
-  "generated_at": "2026-10-20T08:00:24.689Z",
+  "generated_at": "2026-10-20T08:09:56.173Z",
   "source_url": "https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/1060886.html",
   "item_count": 689,
   "items": [
@@ -1560,7 +1560,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cassette gas canister (main body)"
+      "name_en": "Butane gas canister (cassette type; main body)"
     },
     {
       "id": "icm-0089",
@@ -1577,7 +1577,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cassette gas canister (cap)"
+      "name_en": "Butane gas canister (cassette type; cap)"
     },
     {
       "id": "icm-0090",
@@ -4508,7 +4508,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Medicated compress (main body)"
+      "name_en": "Pain relief patch (medicated compress; patch itself)"
     },
     {
       "id": "icm-0257",
@@ -4525,7 +4525,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Medicated compress (film)"
+      "name_en": "Pain relief patch (medicated compress; film)"
     },
     {
       "id": "icm-0258",
@@ -7420,7 +7420,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Light bulb, LED bulb, lamp"
+      "name_en": "Light bulb (non-fluorescent) / LED bulb / LED lamp"
     },
     {
       "id": "icm-0418",
@@ -7589,7 +7589,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (dry-cell, coin cell)"
+      "name_en": "Battery (dry-cell, lithium coin cell)"
     },
     {
       "id": "icm-0426",
@@ -10778,7 +10778,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hot plate (plate part)"
+      "name_en": "Electric griddle (hot plate; plate part)"
     },
     {
       "id": "icm-0606",
@@ -10795,7 +10795,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hot plate (main unit)"
+      "name_en": "Electric griddle (hot plate; main unit)"
     },
     {
       "id": "icm-0607",
