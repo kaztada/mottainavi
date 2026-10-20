@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T08:43:14.230Z",
+  "generated_at": "2026-10-20T10:51:42.278Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -3168,7 +3168,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Roof tile (kawara)"
     },
     {
       "id": "nig-0182",
@@ -11341,7 +11341,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Corrugated sheet (nami-ita)"
     },
     {
       "id": "nig-0648",
@@ -11616,7 +11616,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clay (nendo)"
     },
     {
       "id": "nig-0664",
@@ -15872,7 +15872,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sandpaper / file (non-metal)"
     },
     {
       "id": "nig-0907",
@@ -16818,7 +16818,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wiper (car part)"
     },
     {
       "id": "nig-0962",
