@@ -1,6 +1,6 @@
 {
   "municipality_id": "hachioji-city",
-  "generated_at": "2026-10-20T15:08:26.667Z",
+  "generated_at": "2026-10-20T15:16:06.428Z",
   "source_url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html",
   "item_count": 1133,
   "items": [
@@ -7023,7 +7023,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bicycle tire (inner tube)"
+      "name_en": "Bicycle tire / inner tube"
     },
     {
       "id": "hcj-0398",
@@ -10048,7 +10048,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": "Toy piano (tabletop piano)"
+      "name_en": "Tabletop piano"
     },
     {
       "id": "hcj-0570",
@@ -12509,7 +12509,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tray (styrofoam, plastic)"
+      "name_en": "Tray (packaging; styrofoam, plastic)"
     },
     {
       "id": "hcj-0709",
@@ -15704,7 +15704,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Printer (for PCs)"
+      "name_en": "Printer (for PCs; excluding multifunction printers)"
     },
     {
       "id": "hcj-0891",
