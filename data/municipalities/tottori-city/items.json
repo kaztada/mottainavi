@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-20T11:01:17.811Z",
+  "generated_at": "2026-10-20T11:09:39.896Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -9613,7 +9613,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Telephone (including with fax)"
+      "name_en": "Telephone (including models with fax)"
     },
     {
       "id": "ttr-0551",
