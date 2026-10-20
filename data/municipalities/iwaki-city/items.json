@@ -1,6 +1,6 @@
 {
   "municipality_id": "iwaki-city",
-  "generated_at": "2026-10-20T16:42:52.871Z",
+  "generated_at": "2026-10-20T16:52:33.399Z",
   "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
   "item_count": 1662,
   "items": [
@@ -749,7 +749,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Aluminum guard (for kitchen)"
+      "name_en": "Stove splatter guard (aluminum)"
     },
     {
       "id": "iwk-0044",
@@ -9740,7 +9740,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Packing material"
+      "name_en": "Packing material (expanded polystyrene cushioning for appliances etc.)"
     },
     {
       "id": "iwk-0561",
@@ -13241,7 +13241,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Storage unit (stocker; cabinet or freezer type)"
+      "name_en": "Storage unit (stocker)"
     },
     {
       "id": "iwk-0762",
@@ -19049,7 +19049,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tray (for tableware)"
+      "name_en": "Tray (tableware packaging)"
     },
     {
       "id": "iwk-1092",
@@ -19236,7 +19236,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kitchen sink unit (system kitchen)"
+      "name_en": "Kitchen sink unit (part of a built-in kitchen)"
     },
     {
       "id": "iwk-1103",
@@ -19253,7 +19253,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kitchen sink unit (stainless steel)"
+      "name_en": "Kitchen sink unit (stainless steel; excluding built-in kitchen units)"
     },
     {
       "id": "iwk-1104",
@@ -26866,7 +26866,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Monitor (AV, OHP, projector)"
+      "name_en": "Monitor (for AV, overhead projectors or film projectors; excluding computer monitors)"
     },
     {
       "id": "iwk-1542",
@@ -28366,7 +28366,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Range guard (aluminum)"
+      "name_en": "Stove splatter guard (aluminum)"
     },
     {
       "id": "iwk-1629",

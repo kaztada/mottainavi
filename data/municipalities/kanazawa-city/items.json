@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-20T15:34:03.278Z",
+  "generated_at": "2026-10-20T16:52:31.279Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -21045,7 +21045,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Beads"
+      "name_en": "Beads (excluding all-plastic beads and beads with at least 80% metal content)"
     },
     {
       "id": "knz-1199",
