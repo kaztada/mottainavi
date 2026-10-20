@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-20T06:18:54.406Z",
+  "generated_at": "2026-10-20T06:25:54.720Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -5015,7 +5015,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Scooter and its parts"
+      "name_en": "Motor scooter and its parts"
     },
     {
       "id": "hrs-0285",
@@ -6452,7 +6452,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gloves (wool, cotton)"
+      "name_en": "Gloves (knitted or cotton)"
     },
     {
       "id": "hrs-0368",
@@ -11194,7 +11194,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Word processor"
+      "name_en": "Word processor (standalone machine)"
     },
     {
       "id": "hrs-0638",

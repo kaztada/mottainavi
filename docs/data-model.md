@@ -572,6 +572,7 @@ add-municipality 手順(tech-stack.md §16)での最初の追加。
 - **道具**: `npm run items-en`(`scripts/tools/items-en.ts`)。`todo`(未訳の一覧)・`apply`(作業ファイルを点検して辞書へ)・`check`(付与率と辞書の問題)・`review`(要確認の一覧)・`bump`(品目データが変わった市の版番号)。手順は `.claude/skills/add-item-translations/SKILL.md`。作業用のファイルは `work/items-en/`(コミットしない)
 - **パイプラインの検査**: 統計サマリに「英訳付与率」を出す。自治体ごとの `items.en.json` に、どの品目名とも一致しないキーがあれば警告する(キーの打ち間違いや、市が品目名を変えて訳が外れたときに気づくため。`findUnusedKeys`)
 - **市への確認事項**: 「ハンディースペンサー」(okn-0562)は何を指すか確定できず、中立な訳(`Handheld dispenser`)にとどめた
+- **米語で別の物を指す語(2026-10-20、PR #72 の7市で確定)**: 次の語は米語では別の物に読まれるので使わない、または括弧で補う。`car seat`(チャイルドシート)→ 車の座席は `Automobile seat (built-in vehicle seat)`、`gas can`(ガソリン携行缶)→ カセットボンベ等は `Gas canister`、`cooler`(クーラーボックス)→ エアコンは `Air conditioner (cooler)` のようにエアコンを先に、`portable toilet`(仮設トイレ)→ 使い捨ては `(disposable toilet bag)` を補う、`Styrofoam`(発泡スチロール)→ 建材の断熱材は `extruded polystyrene board`、`Solar system`(太陽系)→ `Solar energy system`、`gas table`(和製英語)→ `tabletop gas cooktop`、`nori` だけ(海苔)→ のり(文具)は `Glue / paste`。「使用済」の消火器は `fully discharged / empty`(`used` は中身が残る物も含む)
 
 ## 26. 長浜市(Phase C・滋賀県)で確定した事項(2026-10-03)
 
