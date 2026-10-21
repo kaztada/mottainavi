@@ -76,7 +76,7 @@ describe("高松市のアダプタ(取得済みの CSV で)", () => {
   })
 
   it("収集不可は「市では収集しません。」で始まる", () => {
-    for (const name of ["ガスボンベ", "消火器", "リチウムイオン電池"])
+    for (const name of ["ガスボンベ", "消火器", "農薬"])
       expect(find(name)?.rows[0].note?.startsWith("市では収集しません。")).toBe(
         true
       )
