@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-21T22:23:03.994Z",
+  "generated_at": "2026-10-21T22:30:35.470Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -4966,7 +4966,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tableware (glass, ceramic or metal)"
+      "name_en": "Tableware (excluding paper and wood)"
     },
     {
       "id": "fki-0281",
