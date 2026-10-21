@@ -24,7 +24,6 @@ import { xlsxToStandardCsv } from "./convert"
  * (ファイル名に更新日が入るので、版が変わるとリンク先が変わる)。
  */
 const BUNBETSU = "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/"
-const GUIDE = BUNBETSU + "1002120.html" // ごみ・資源物分別ガイド(2026-03-25)
 const DASHIKATA = BUNBETSU + "1009937.html" // ごみの出し方と分け方(2025-09-30)
 const SODAI = BUNBETSU + "1002147.html" // 粗大ごみ(2026-02-03)
 const FUKA = BUNBETSU + "1002138.html" // 市では収集できないごみの出し方(2026-10-02)

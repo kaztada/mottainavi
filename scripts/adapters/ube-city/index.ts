@@ -128,7 +128,7 @@ export const ubeCityConfig: StandardCsvConfig = {
     kanen: MOYASERU,
     "kanen-m": MOYASERU_M,
     funen: MOYASENAI,
-    sodai: SODAI,
+    sodai: KOBETSU,
     station: SODAI,
     pla: PLA,
     kami: KAMI,
