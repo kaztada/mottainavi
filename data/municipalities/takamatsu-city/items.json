@@ -1,6 +1,6 @@
 {
   "municipality_id": "takamatsu-city",
-  "generated_at": "2026-10-21T22:35:52.160Z",
+  "generated_at": "2026-10-21T22:40:38.270Z",
   "source_url": "https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list",
   "item_count": 606,
   "items": [
@@ -3513,7 +3513,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sake carton (not white inside)"
+      "name_en": "Alcoholic beverage carton (not white inside)"
     },
     {
       "id": "tkm-0199",
@@ -5079,7 +5079,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Laundry net"
+      "name_en": "Mesh laundry bag (washing net)"
     },
     {
       "id": "tkm-0288",
@@ -8997,7 +8997,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bento box (plastic, disposable packaging)"
+      "name_en": "Lunch box / bento box (plastic, disposable packaging)"
     },
     {
       "id": "tkm-0507",
