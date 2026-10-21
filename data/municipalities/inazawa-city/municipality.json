@@ -1,0 +1,14 @@
+{
+  "slug": "inazawa-city",
+  "item_id_prefix": "inz",
+  "source_url": "https://www.city.inazawa.aichi.jp/0000003563.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このデータベースは、以下の著作物を改変して利用しています。「ゴミの分別方法一覧」、稲沢市、クリエイティブ・コモンズ・ライセンス 表示4.0 国際(https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "source_attribution_en": "Source: This database adapts \"List of Garbage Sorting Methods\" (ゴミの分別方法一覧), Inazawa City, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "sodai_apply_url": "https://logoform.jp/form/GEKK/1205408",
+  "sodai_tel_landline": "0587-36-5374",
+  "sodai_tel_mobile": "0587-36-5374",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261021"
+}

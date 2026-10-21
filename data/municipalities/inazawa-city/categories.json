@@ -1,0 +1,122 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (application required)"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装",
+    "name_en": "Plastic Containers and Packaging"
+  },
+  {
+    "id": "hakka",
+    "kind": "hazardous",
+    "name_ja": "発火性危険物",
+    "name_en": "Fire-hazard Items (batteries, spray cans, lighters)"
+  },
+  {
+    "id": "kami",
+    "kind": "paper",
+    "name_ja": "紙類(新聞紙・雑誌・段ボール・牛乳パック・ミックスペーパー)",
+    "name_en": "Paper (newspapers, magazines, cardboard, milk cartons, mixed paper)"
+  },
+  {
+    "id": "nuno",
+    "kind": "paper",
+    "name_ja": "布類",
+    "name_en": "Cloth and Clothing"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "ガラスびん類",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "kinzoku",
+    "kind": "recyclable",
+    "name_ja": "金属類(スチール缶・小物の鉄類・アルミ缶)",
+    "name_en": "Metals (steel cans, small iron items, aluminum cans)"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(拠点回収)",
+    "name_en": "Small Appliances (drop-off box)"
+  },
+  {
+    "id": "denchi",
+    "kind": "drop-off",
+    "name_ja": "乾電池類(拠点回収)",
+    "name_en": "Dry-cell Batteries (drop-off box)"
+  },
+  {
+    "id": "suigin",
+    "kind": "drop-off",
+    "name_ja": "水銀製品(拠点回収)",
+    "name_en": "Mercury Products (drop-off box)"
+  },
+  {
+    "id": "keikou",
+    "kind": "drop-off",
+    "name_ja": "蛍光管(拠点回収・地域ステーション)",
+    "name_en": "Fluorescent Tubes (drop-off)"
+  },
+  {
+    "id": "ink",
+    "kind": "drop-off",
+    "name_ja": "インクカートリッジ(拠点回収)",
+    "name_en": "Ink Cartridges (drop-off box)"
+  },
+  {
+    "id": "abura",
+    "kind": "drop-off",
+    "name_ja": "油(食用)(拠点回収)",
+    "name_en": "Used Cooking Oil (drop-off)"
+  },
+  {
+    "id": "umou",
+    "kind": "drop-off",
+    "name_ja": "羽毛ふとん(環境センターで回収)",
+    "name_en": "Down Comforters (Environment Center)"
+  },
+  {
+    "id": "pc",
+    "kind": "maker-recycle",
+    "name_ja": "パソコン",
+    "name_en": "Personal Computers"
+  },
+  {
+    "id": "kaden",
+    "kind": "maker-recycle",
+    "name_ja": "家電4品目",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市では処理できません",
+    "name_en": "Not Handled by the City"
+  }
+]

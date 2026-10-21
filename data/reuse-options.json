@@ -282,6 +282,17 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "zama-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所の市民ホール・支所・市民センター・中央図書館・環境センター事務所)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall citizens' hall, branch offices, civic centers, Central Library, Environment Center office)",
+        "desc_ja": "長辺20cm程度までの、電気・電池で動く機器(携帯電話・スマートフォン・デジタルカメラ・ゲーム機・リモコン・ACアダプタ・電子たばこなど)が対象です。中の金属が資源としてもう一働き。個人情報は消してから入れます。モバイルバッテリーなどのリチウムイオン電池を使った製品も入れられます。パソコン本体は入れられません(マウス・ケーブルなどは可)。施設の開いている時間に。膨張・変形した電池が入ったもので迷うときは、入れずに資源対策課へ相談します。",
+        "desc_en": "For devices up to about 20 cm on the longest side that run on electricity or batteries (mobile phones, smartphones, digital cameras, game consoles, remote controls, AC adapters, e-cigarettes, etc.). The metals inside get another life. Wipe personal data first. Products using lithium-ion batteries, such as mobile batteries, are also accepted. Computer bodies cannot go in (mice, cables, etc. are fine). Use the boxes during facility opening hours. If an item has a swollen or deformed battery and you are unsure, do not put it in; ask the Resource Management Division.",
+        "url": "https://www.city.inazawa.aichi.jp/0000001964.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "inazawa-city"
       }
     ]
   },
