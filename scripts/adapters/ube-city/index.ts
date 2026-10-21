@@ -39,6 +39,7 @@ const KOGATA =
   "https://www.city.ube.yamaguchi.jp/kurashi/gomi/genryou_recycle/1002098/1002103.html" // 使用済小型家電回収ボックス(2025-10-01)
 
 const NOTE = "※もったいナビ注: "
+const FIRE = `${NOTE}火が完全に消えて冷めたことを確かめてから出してください(袋の中で再び燃えだすおそれがあります)。`
 const ASK = "迷ったら廃棄物対策課(0836-34-8247)へ。"
 
 /** 充電式電池の出し方(充電式電池のページ 2025-07-16、ボタン電池のページ 2025-08-19) */
@@ -166,6 +167,8 @@ export const ubeCityConfig: StandardCsvConfig = {
     fuka: `販売店・製造業者・専門の処理業者など、品目ごとの案内の窓口に相談してください。${ASK}`,
   },
   itemNotes: {
+    たばこの吸殻: FIRE,
+    オイルライター: `${NOTE}中のオイルは使い切ってから出します。`,
     ...Object.fromEntries(BUILT_IN_ITEMS.map((name) => [name, BUILT_IN_ITEM])),
     乾電池: DENCHI_REF,
     "コイン電池※記号CR・BR": DENCHI_REF,
