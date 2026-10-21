@@ -271,6 +271,17 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "ube-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所1階アトリウム・クリーンセンター・ノジマ座間店)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall 1F atrium, Clean Center, Nojima Zama store)",
+        "desc_ja": "スマートフォン・携帯電話・タブレット・ビデオカメラ・デジタルカメラ・ICレコーダー・電子辞書・携帯音楽プレーヤー・携帯型ゲーム機などが対象です(投入口は縦15cm×横30cm)。中の金属が資源としてもう一働き。個人情報は消してから、電池は電池切れの状態で入れます。各施設の開いている時間に。膨らんだモバイルバッテリーや携帯電話・スマートフォンは、ボックスに入れず、市役所4階のリユース推進課かクリーンセンターの窓口で職員に直接渡します。ボックスに持ち込めないときは、燃えないごみの日に出せます。",
+        "desc_en": "For smartphones, mobile phones, tablets, video cameras, digital cameras, IC recorders, electronic dictionaries, portable music players, handheld game consoles and similar items (slot: 15 cm x 30 cm). The metals inside get another life. Wipe personal data and run the battery down first. Use the boxes during facility opening hours. Swollen mobile batteries, mobile phones or smartphones must not go in the box; hand them directly to staff at the Reuse Promotion Division (City Hall 4F) or the Clean Center counter. If you cannot bring items to a box, put them out on non-burnable waste day.",
+        "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002144.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "zama-city"
       }
     ]
   },
