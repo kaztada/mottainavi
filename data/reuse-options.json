@@ -238,6 +238,17 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "nakano-ku"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所本庁舎1階ロビー・総合センター・支所・コミュニティセンターなど)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall main building 1F lobby, general centers, branch offices, community centers, etc.)",
+        "desc_ja": "投入口(40cm×20cm)に入る携帯電話・デジタルカメラ・ゲーム機・ドライヤー・電気かみそり・パソコンなどと、電池が取り外せない充電式の小型家電(ハンディファン・電動歯ブラシ・加熱式たばこなど)が対象です。中の金属が資源としてもう一働き。個人情報のデータは事前に消しておきます。取り外せる電池は外し(充電式電池は端子をテープで絶縁して、市の小型充電式電池の回収ボックスへ)、本体だけを入れます。投入口に入らないものは、環境業務センター・南部クリーンセンター(管理棟)で受け取ります。施設の開いている時間に入れます(西部クリーンセンターには小型家電の回収ボックスはありません)。",
+        "desc_en": "For items that fit the 40 cm x 20 cm slot, such as mobile phones, digital cameras, game consoles, hair dryers, electric shavers and computers, as well as rechargeable small appliances whose battery cannot be removed (handheld fans, electric toothbrushes, heated-tobacco devices, etc.). The metals inside get another life. Wipe personal data first. Remove removable batteries (tape the terminals of rechargeable batteries and put them in the city's small rechargeable battery collection box) and put in only the device. Items that do not fit the slot are accepted at the Environmental Services Center and the Southern Clean Center (administration building). Use the boxes during facility opening hours (the Western Clean Center has no small-appliance box).",
+        "url": "https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/gomi/guidebook.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "takamatsu-city"
       }
     ]
   },

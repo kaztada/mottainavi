@@ -1,0 +1,14 @@
+{
+  "slug": "takamatsu-city",
+  "item_id_prefix": "tkm",
+  "source_url": "https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: 高松市「ごみ分別一覧」(高松市オープンデータ、2023年3月29日公開版)、クリエイティブ・コモンズ・ライセンス 表示4.0 国際(https://creativecommons.org/licenses/by/4.0/deed.ja)。高松市のデータを、もったいナビが編集・加工して作成(市のごみ分別ガイドブック 令和8年3月改訂と 2026年10月20日に照合)",
+  "source_attribution_en": "Source: \"Garbage Sorting List\" (ごみ分別一覧), Takamatsu City Open Data (version published March 29, 2023), Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/deed.ja). Edited and processed by Mottainavi from Takamatsu City's data (checked against the city's sorting guidebook, revised March 2026, on October 20, 2026)",
+  "sodai_apply_url": "https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/gomi/rinjisodai/recycl_up20230320.html",
+  "sodai_tel_landline": "087-834-0366",
+  "sodai_tel_mobile": "087-834-0366",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261021"
+}
