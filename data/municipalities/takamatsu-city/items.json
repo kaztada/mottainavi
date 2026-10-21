@@ -1,6 +1,6 @@
 {
   "municipality_id": "takamatsu-city",
-  "generated_at": "2026-10-21T22:23:03.836Z",
+  "generated_at": "2026-10-21T22:35:52.160Z",
   "source_url": "https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list",
   "item_count": 606,
   "items": [
@@ -3566,7 +3566,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Zabuton (floor cushion)"
+      "name_en": "Zabuton (floor cushion; excluding foam-filled cushions)"
     },
     {
       "id": "tkm-0202",
@@ -3583,7 +3583,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Zabuton (floor cushion; sponge filling)"
+      "name_en": "Zabuton (floor cushion; foam filling)"
     },
     {
       "id": "tkm-0203",
@@ -7272,7 +7272,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Waste oil"
+      "name_en": "Waste oil (excluding cooking oil)"
     },
     {
       "id": "tkm-0410",
