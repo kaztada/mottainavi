@@ -26,6 +26,7 @@ import { hiroshimaCityAdapter } from "./hiroshima-city"
 import { nakanoKuAdapter } from "./nakano-ku"
 import { iwakiCityAdapter } from "./iwaki-city"
 import { takamatsuCityAdapter } from "./takamatsu-city"
+import { fukuiCityAdapter } from "./fukui-city"
 
 /** 登録済みアダプタ。自治体を追加するときはここに1行足す */
 export const ADAPTERS: Record<string, MunicipalityAdapter> = {
@@ -56,4 +57,5 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [nakanoKuAdapter.slug]: nakanoKuAdapter,
   [iwakiCityAdapter.slug]: iwakiCityAdapter,
   [takamatsuCityAdapter.slug]: takamatsuCityAdapter,
+  [fukuiCityAdapter.slug]: fukuiCityAdapter,
 }

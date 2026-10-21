@@ -1,0 +1,82 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "燃やせるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "燃やせないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai-kanen",
+    "kind": "burnable",
+    "name_ja": "燃やせる粗大ごみ(施設持込)",
+    "name_en": "Large Burnable Waste (take to a facility)",
+    "accepts_large_items": true
+  },
+  {
+    "id": "sodai-funen",
+    "kind": "non-burnable",
+    "name_ja": "燃やせない粗大ごみ(施設持込)",
+    "name_en": "Large Non-burnable Waste (take to a facility)",
+    "accepts_large_items": true
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装",
+    "name_en": "Plastic Containers and Packaging"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "空きびん",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "空き缶",
+    "name_en": "Cans"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル類",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "kami",
+    "kind": "paper",
+    "name_ja": "ダンボール・紙製容器・紙パック",
+    "name_en": "Cardboard, Paper Containers and Paper Cartons"
+  },
+  {
+    "id": "denchi",
+    "kind": "hazardous",
+    "name_ja": "電池類(資源)",
+    "name_en": "Batteries (resource collection)"
+  },
+  {
+    "id": "keikou",
+    "kind": "hazardous",
+    "name_ja": "蛍光灯",
+    "name_en": "Fluorescent Lamps"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電",
+    "name_en": "Small Appliances"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "回収不可",
+    "name_en": "Not Collected by the City"
+  }
+]

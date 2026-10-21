@@ -249,6 +249,17 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "takamatsu-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の使用済小型家電の回収拠点に持ち込む(市役所本館1階の回収ボックス・ハーツ4店・市役所別館や連絡所などの窓口)",
+        "title_en": "Take it to a city used small-appliance collection point (box on City Hall main building 1F, four Hearts stores, or counters at the City Hall annex and branch offices)",
+        "desc_ja": "電池やコンセントの電気で動く家電(おもちゃを含む)で、指定ごみ袋(大)に入る大きさ・5kg以内のものが対象です(テレビ・エアコン・冷蔵庫・洗濯機などの家電4品目とパソコンは除く)。中の金属が資源としてもう一働き。回収ボックス(市役所本館1階の市民ホール・ハーツ羽水・ハーツ学園・ハーツ志比口・ハーツ恐竜)は、おおむね縦15cm・横25cm・高さ30cmまで。それより大きいものは、平日に窓口(市役所別館4階の環境政策課・クリーンセンター・収集資源センター・美山・越廼・清水の各連絡所)へ。無料です。乾電池などの電池や電球は外し、スマートフォン・ゲーム機などはデータを消してから。電池部分が破損・膨張したものはボックスに入れず、窓口へ。",
+        "desc_en": "For appliances powered by batteries or mains electricity (including toys) that fit in a large designated garbage bag and weigh 5 kg or less (excluding TVs, air conditioners, refrigerators, washing machines and computers). The metals inside get another life. The collection boxes (City Hall main building 1F citizens' hall and the Hearts Usui, Gakuen, Shiiguchi and Kyoryu stores) take items up to about 15 x 25 x 30 cm; larger items go to a counter on weekdays (Environmental Policy Division on the 4th floor of the City Hall annex, the Clean Center, the Collection and Resources Center, or the Miyama, Koshino and Shimizu branch offices). Free of charge. Remove dry-cell batteries and bulbs first, and wipe data from smartphones, game consoles, etc. Items with a damaged or swollen battery must not go in a box; take them to a counter.",
+        "url": "https://www.city.fukui.lg.jp/kurasi/kankyo/kgomi/kogatakaden.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "fukui-city"
       }
     ]
   },
