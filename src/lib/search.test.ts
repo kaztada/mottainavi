@@ -8,6 +8,8 @@ import {
 } from "./search"
 import itemsFile from "../../data/municipalities/osaka-city/items.json"
 import okinawaItemsFile from "../../data/municipalities/okinawa-city/items.json"
+import maizuruItemsFile from "../../data/municipalities/maizuru-city/items.json"
+import sukagawaItemsFile from "../../data/municipalities/sukagawa-city/items.json"
 import { ItemsFileSchema, SearchIndexFileSchema } from "./schemas"
 import { toSearchIndex } from "./public-data"
 
@@ -181,5 +183,70 @@ describe("英語の検索(語単位)", () => {
     expect(ja("ソファ").slice(0, 2)).toEqual(["ソファー", "ソファーベッド"])
     expect(ja("ふとん")[0]).toBe("布団")
     expect(ja("電池")).toContain("電池（ボタン型）")
+  })
+})
+
+// しきい値 0.30(2026-10-22): データに無い語で関係ない品目が出ないこと、正しい語・1字違いは残ること
+describe("しきい値 0.30 の検索", () => {
+  const searcherOf = (file: unknown) =>
+    createSearcher(
+      SearchIndexFileSchema.parse(
+        toSearchIndex(ItemsFileSchema.parse(file).items)
+      )
+    )
+  const maizuru = searcherOf(maizuruItemsFile)
+  const sukagawa = searcherOf(sukagawaItemsFile)
+  const osaka = searcherOf(itemsFile)
+  const names = (s: ReturnType<typeof createSearcher>, q: string) =>
+    searchItems(s, q).map((i) => i.n)
+
+  it("舞鶴市: データに無い語(ペンキ・タンス・ソファー・ベッド)は何も出ない", () => {
+    for (const q of ["ペンキ", "タンス", "ソファー", "ベッド"]) {
+      expect(names(maizuru, q)).toEqual([])
+    }
+  })
+
+  it("舞鶴市: タイヤは関係ない品目が出ない(一輪車のタイヤだけ)", () => {
+    const result = names(maizuru, "タイヤ")
+    expect(result.length).toBeLessThanOrEqual(1)
+    for (const n of result) expect(n).toContain("タイヤ")
+  })
+
+  it("須賀川市: ペンキは何も出ない", () => {
+    expect(names(sukagawa, "ペンキ")).toEqual([])
+  })
+
+  it("大阪市: タイヤ・タンスは関係ない品目が絞られる", () => {
+    expect(names(osaka, "タイヤ").length).toBeLessThanOrEqual(10)
+    expect(names(osaka, "タンス").length).toBeLessThanOrEqual(5)
+  })
+
+  it("大阪市: 正しい語・かな・1字違いで本来の品目が先頭に残る", () => {
+    const cases: [string, string][] = [
+      ["ぎたー", "ギター"],
+      ["そふぁ", "ソファー"],
+      ["れいぞうこ", "冷蔵庫"],
+      ["ぺっとぼとる", "ペットボトル"],
+      ["すまほ", "スマートフォン"],
+      ["せんぷうき", "扇風機"],
+      ["そうじき", "掃除機"],
+      ["こたつ", "こたつ"],
+      ["かーぺっと", "カーペット"],
+      ["えあこん", "エアコン"],
+      ["じてんしゃ", "自転車"],
+      ["じでんしゃ", "自転車"], // 1字違い
+    ]
+    for (const [q, expected] of cases) {
+      const result = names(osaka, q)
+      expect(result.slice(0, 3).some((n) => n.includes(expected)), q).toBe(true)
+    }
+  })
+
+  it("大阪市: ふとんでふとん類(ふとん・毛布)が先頭に残る", () => {
+    expect(names(osaka, "ふとん")[0]).toContain("ふとん")
+  })
+
+  it("大阪市: 漢字の布団でも見つかる", () => {
+    expect(names(osaka, "布団").length).toBeGreaterThan(0)
   })
 })

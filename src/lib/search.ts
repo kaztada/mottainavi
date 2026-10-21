@@ -176,8 +176,16 @@ export function buildSearchEntries(index: SearchIndexItem[]): SearchEntry[] {
   }))
 }
 
+/**
+ * あいまい検索のしきい値(小さいほど厳しい)。
+ * 0.35 だと品目の少ない市でデータに無い語(ペンキ・タンス)が関係ない品目に当たり、
+ * 「見つかりません→公式サイトへ」の案内にならなかったため 0.30 に下げた(2026-10-22)。
+ * かな・1字違いの打ち間違いは残る。0.25 以下は1字抜け(れいぞこ)が落ち始めるので下げない
+ */
+const SEARCH_THRESHOLD = 0.3
+
 const FUSE_OPTIONS = {
-  threshold: 0.35,
+  threshold: SEARCH_THRESHOLD,
   ignoreLocation: true,
   minMatchCharLength: 1,
 }

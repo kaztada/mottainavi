@@ -67,11 +67,12 @@ mottainavi/
       { name: "aliases", weight: 0.15 },
       { name: "name_en", weight: 0.05 },
     ],
-    threshold: 0.35,
+    threshold: 0.30,
     ignoreLocation: true,
     minMatchCharLength: 1,
   })
   ```
+  - **しきい値は 0.30**(初期値は 0.35。2026-10-22 に下げた)。0.35 は緩すぎて、品目の少ない市でデータに無い語を引くと関係ない品目が出た(舞鶴市の「ペンキ」に電気ストーブ・炊飯器など)。0.30 なら関係ない品目はほぼ出ず、「見つかりません→公式サイトへ」の案内になる。かな・1字違いの打ち間違い(ぎたー・じでんしゃなど)は残る。0.25 以下は1字抜け(れいぞこ)が落ち始めるので下げない。定数は `FUSE_OPTIONS.threshold`(`src/lib/search.ts`)、試験は `src/lib/search.test.ts`
 - **英数字だけの検索語は、英語を語単位で照合する**(2026-10-03。英訳を全市へ広げる前の準備)。日本語の検索語は上の Fuse 設定のまま変えない
   - 理由: 英語名も空白を除いてあいまい検索していたため、語をまたいで当たっていた(`gas` が「containin**g as**bestos」に一致、`battery` で `Pottery`)
   - 対象: 英語名(`name_en`)と、英数字だけの別名(`PET`、`sofa`、`fridge` など)。小文字化し、英数字以外で語に分け、複数形をそろえる(`englishWords`)
