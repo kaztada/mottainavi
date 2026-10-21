@@ -1,6 +1,6 @@
 {
   "municipality_id": "takamatsu-city",
-  "generated_at": "2026-10-21T18:11:32.524Z",
+  "generated_at": "2026-10-21T22:23:03.836Z",
   "source_url": "https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list",
   "item_count": 606,
   "items": [
@@ -1093,7 +1093,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water heater (gas water heater etc.)"
+      "name_en": "Water heater (gas water heater etc.; excluding bath boilers)"
     },
     {
       "id": "tkm-0062",
@@ -2801,7 +2801,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fluorescent tube (including bulb-type fluorescent lamps)"
+      "name_en": "Fluorescent tube (including compact fluorescent bulbs / CFLs)"
     },
     {
       "id": "tkm-0158",
@@ -2908,7 +2908,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cosmetics or perfume container / makeup compact"
+      "name_en": "Cosmetics or perfume container / makeup compact (excluding recyclable glass bottles)"
     },
     {
       "id": "tkm-0164",
@@ -3668,7 +3668,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Three-tier storage box"
+      "name_en": "Three-tier shelving unit (storage shelf)"
     },
     {
       "id": "tkm-0208",
