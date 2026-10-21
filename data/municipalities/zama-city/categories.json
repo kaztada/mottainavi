@@ -1,0 +1,68 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "燃やすごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "燃えないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (application required)"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装",
+    "name_en": "Plastic Containers and Packaging"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "kanbin",
+    "kind": "recyclable",
+    "name_ja": "缶・ビン",
+    "name_en": "Cans and Bottles"
+  },
+  {
+    "id": "kami",
+    "kind": "paper",
+    "name_ja": "紙",
+    "name_en": "Paper"
+  },
+  {
+    "id": "nuno",
+    "kind": "paper",
+    "name_ja": "服・布",
+    "name_en": "Clothing and Cloth"
+  },
+  {
+    "id": "kusaki",
+    "kind": "other",
+    "name_ja": "草木類",
+    "name_en": "Grass and Branches"
+  },
+  {
+    "id": "abura",
+    "kind": "recyclable",
+    "name_ja": "廃食用油",
+    "name_en": "Used Cooking Oil"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "排出禁止",
+    "name_en": "Not Accepted by the City"
+  }
+]

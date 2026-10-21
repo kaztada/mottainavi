@@ -238,6 +238,61 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "nakano-ku"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所本庁舎1階ロビー・総合センター・支所・コミュニティセンターなど)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall main building 1F lobby, general centers, branch offices, community centers, etc.)",
+        "desc_ja": "投入口(40cm×20cm)に入る携帯電話・デジタルカメラ・ゲーム機・ドライヤー・電気かみそり・パソコンなどと、電池が取り外せない充電式の小型家電(ハンディファン・電動歯ブラシ・加熱式たばこなど)が対象です。中の金属が資源としてもう一働き。個人情報のデータは事前に消しておきます。取り外せる電池は外し(充電式電池は端子をテープで絶縁して、市の小型充電式電池の回収ボックスへ)、本体だけを入れます。投入口に入らないものは、環境業務センター・南部クリーンセンター(管理棟)で受け取ります。施設の開いている時間に入れます(西部クリーンセンターには小型家電の回収ボックスはありません)。",
+        "desc_en": "For items that fit the 40 cm x 20 cm slot, such as mobile phones, digital cameras, game consoles, hair dryers, electric shavers and computers, as well as rechargeable small appliances whose battery cannot be removed (handheld fans, electric toothbrushes, heated-tobacco devices, etc.). The metals inside get another life. Wipe personal data first. Remove removable batteries (tape the terminals of rechargeable batteries and put them in the city's small rechargeable battery collection box) and put in only the device. Items that do not fit the slot are accepted at the Environmental Services Center and the Southern Clean Center (administration building). Use the boxes during facility opening hours (the Western Clean Center has no small-appliance box).",
+        "url": "https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/gomi/guidebook.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "takamatsu-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の使用済小型家電の回収拠点に持ち込む(市役所本館1階の回収ボックス・ハーツ4店・市役所別館や連絡所などの窓口)",
+        "title_en": "Take it to a city used small-appliance collection point (box on City Hall main building 1F, four Hearts stores, or counters at the City Hall annex and branch offices)",
+        "desc_ja": "電池やコンセントの電気で動く家電(おもちゃを含む)で、指定ごみ袋(大)に入る大きさ・5kg以内のものが対象です(テレビ・エアコン・冷蔵庫・洗濯機などの家電4品目とパソコンは除く)。中の金属が資源としてもう一働き。回収ボックス(市役所本館1階の市民ホール・ハーツ羽水・ハーツ学園・ハーツ志比口・ハーツ恐竜)は、おおむね縦15cm・横25cm・高さ30cmまで。それより大きいものは、平日に窓口(市役所別館4階の環境政策課・クリーンセンター・収集資源センター・美山・越廼・清水の各連絡所)へ。無料です。乾電池などの電池や電球は外し、スマートフォン・ゲーム機などはデータを消してから。電池部分が破損・膨張したものはボックスに入れず、窓口へ。",
+        "desc_en": "For appliances powered by batteries or mains electricity (including toys) that fit in a large designated garbage bag and weigh 5 kg or less (excluding TVs, air conditioners, refrigerators, washing machines and computers). The metals inside get another life. The collection boxes (City Hall main building 1F citizens' hall and the Hearts Usui, Gakuen, Shiiguchi and Kyoryu stores) take items up to about 15 x 25 x 30 cm; larger items go to a counter on weekdays (Environmental Policy Division on the 4th floor of the City Hall annex, the Clean Center, the Collection and Resources Center, or the Miyama, Koshino and Shimizu branch offices). Free of charge. Remove dry-cell batteries and bulbs first, and wipe data from smartphones, game consoles, etc. Items with a damaged or swollen battery must not go in a box; take them to a counter.",
+        "url": "https://www.city.fukui.lg.jp/kurasi/kankyo/kgomi/kogatakaden.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "fukui-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の使用済小型家電回収ボックスに入れる(各ふれあいセンター・市役所本庁舎1階・リサイクルプラザ)",
+        "title_en": "Drop it in a city used small-appliance collection box (community centers, City Hall main building 1F, Recycle Plaza)",
+        "desc_ja": "投入口(縦20cm×横40cm)に入る、携帯電話・スマートフォン・タブレット・デジタルカメラ・ゲーム機・ドライヤー・電気かみそり・電動歯ブラシ・リモコンなどが対象です。中の金属が資源としてもう一働き。個人情報は必ず消し、外せる電池は外します(外した充電式電池は端子をテープで絶縁して、黄色い充電式電池リサイクルボックスへ)。充電式電池が取り外せない製品は、本体ごとこのボックスへ(ごみステーションには出せません)。膨張した電池は入れず、廃棄物対策課へ。各ふれあいセンターは午前9時〜午後10時、市役所は平日、リサイクルプラザは平日と第4土曜日。",
+        "desc_en": "For items that fit the 20 cm x 40 cm slot, such as mobile phones, smartphones, tablets, digital cameras, game consoles, hair dryers, electric shavers, electric toothbrushes and remote controls. The metals inside get another life. Always wipe personal data and remove removable batteries (tape the terminals of removed rechargeable batteries and put them in the yellow rechargeable battery recycling box). Products whose rechargeable battery cannot be removed go into this box as they are (they cannot go to the garbage collection point). Do not put in swollen batteries; take them to the Waste Management Division. Community centers 9:00-22:00, City Hall on weekdays, Recycle Plaza on weekdays and the 4th Saturday.",
+        "url": "https://www.city.ube.yamaguchi.jp/kurashi/gomi/genryou_recycle/1002098/1002103.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "ube-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所1階アトリウム・クリーンセンター・ノジマ座間店)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall 1F atrium, Clean Center, Nojima Zama store)",
+        "desc_ja": "スマートフォン・携帯電話・タブレット・ビデオカメラ・デジタルカメラ・ICレコーダー・電子辞書・携帯音楽プレーヤー・携帯型ゲーム機などが対象です(投入口は縦15cm×横30cm)。中の金属が資源としてもう一働き。個人情報は消してから、電池は電池切れの状態で入れます。各施設の開いている時間に。膨らんだモバイルバッテリーや携帯電話・スマートフォンは、ボックスに入れず、市役所4階のリユース推進課かクリーンセンターの窓口で職員に直接渡します。ボックスに持ち込めないときは、燃えないごみの日に出せます。",
+        "desc_en": "For smartphones, mobile phones, tablets, video cameras, digital cameras, IC recorders, electronic dictionaries, portable music players, handheld game consoles and similar items (slot: 15 cm x 30 cm). The metals inside get another life. Wipe personal data and run the battery down first. Use the boxes during facility opening hours. Swollen mobile batteries, mobile phones or smartphones must not go in the box; hand them directly to staff at the Reuse Promotion Division (City Hall 4F) or the Clean Center counter. If you cannot bring items to a box, put them out on non-burnable waste day.",
+        "url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/1002144.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "zama-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所の市民ホール・支所・市民センター・中央図書館・環境センター事務所)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall citizens' hall, branch offices, civic centers, Central Library, Environment Center office)",
+        "desc_ja": "長辺20cm程度までの、電気・電池で動く機器(携帯電話・スマートフォン・デジタルカメラ・ゲーム機・リモコン・ACアダプタ・電子たばこなど)が対象です。中の金属が資源としてもう一働き。個人情報は消してから入れます。モバイルバッテリーなどのリチウムイオン電池を使った製品も入れられます。パソコン本体は入れられません(マウス・ケーブルなどは可)。施設の開いている時間に。膨張・変形した電池が入ったもので迷うときは、入れずに資源対策課へ相談します。",
+        "desc_en": "For devices up to about 20 cm on the longest side that run on electricity or batteries (mobile phones, smartphones, digital cameras, game consoles, remote controls, AC adapters, e-cigarettes, etc.). The metals inside get another life. Wipe personal data first. Products using lithium-ion batteries, such as mobile batteries, are also accepted. Computer bodies cannot go in (mice, cables, etc. are fine). Use the boxes during facility opening hours. If an item has a swollen or deformed battery and you are unsure, do not put it in; ask the Resource Management Division.",
+        "url": "https://www.city.inazawa.aichi.jp/0000001964.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "inazawa-city"
       }
     ]
   },

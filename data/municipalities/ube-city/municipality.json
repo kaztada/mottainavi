@@ -1,0 +1,14 @@
+{
+  "slug": "ube-city",
+  "item_id_prefix": "ube",
+  "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
+  "source_type": "opendata-csv",
+  "source_license": "山口県オープンデータ利用規約(PDL1.0、CC BY 4.0 互換)",
+  "source_attribution": "出典: 山口県オープンデータカタログサイト「【宇部市】ごみ収集」(https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection)、PDL1.0(https://yamaguchi-opendata.jp/www/terms.html)。「ごみの種類とごみの出し方」(宇部市、令和8年3月18日)を、もったいナビが加工して作成",
+  "source_attribution_en": "Source: Yamaguchi Prefecture Open Data Catalog, \"[Ube City] Garbage Collection\" (https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection), PDL1.0 (https://yamaguchi-opendata.jp/www/terms.html). \"Garbage Types and How to Put Them Out\" (Ube City, March 18, 2026), processed by Mottainavi",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": "0836-33-7291",
+  "sodai_tel_mobile": "0836-33-7291",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261021"
+}

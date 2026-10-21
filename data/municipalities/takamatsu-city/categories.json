@@ -1,0 +1,56 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "燃やせるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "hasai",
+    "kind": "non-burnable",
+    "name_ja": "破砕ごみ(燃やせないごみ)",
+    "name_en": "Crushable (Non-burnable) Waste"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste"
+  },
+  {
+    "id": "kanbin",
+    "kind": "recyclable",
+    "name_ja": "缶・びん・ペットボトル",
+    "name_en": "Cans, Bottles and PET Bottles"
+  },
+  {
+    "id": "kami",
+    "kind": "paper",
+    "name_ja": "紙・布",
+    "name_en": "Paper and Cloth"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック容器包装",
+    "name_en": "Plastic Containers and Packaging"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "臨時・粗大ごみ",
+    "name_en": "Bulky Waste (application required)"
+  },
+  {
+    "id": "kaden",
+    "kind": "maker-recycle",
+    "name_ja": "家電リサイクル法対象品",
+    "name_en": "Home Appliance Recycling Law Items"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "収集不可",
+    "name_en": "Not Collected by the City"
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "slug": "fukui-city",
+  "item_id_prefix": "fki",
+  "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。「ごみ分別一覧」福井市(福井・美山地域)、福井県、クリエイティブ・コモンズ・ライセンス 表示4.0 国際(https://creativecommons.org/licenses/by/4.0/deed.ja)。越廼・清水地域のデータは含みません",
+  "source_attribution_en": "Source: This app adapts \"Garbage Sorting List\" (ごみ分別一覧), Fukui City (Fukui and Miyama areas), Fukui Prefecture, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/deed.ja). Data for the Koshino and Shimizu areas is not included",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": null,
+  "sodai_tel_mobile": null,
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261021"
+}

@@ -7444,19 +7444,23 @@
     ]
   },
   "ishinomaki-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-20",
+    "detail_ja": "公開データ(2025年4月)のあとに、市で充電式電池の出し方(2026年4月から拠点回収)とプラスチックの分け方(2026年10月から分別収集)が変わりました。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "After the city's open data (April 2025) was published, the city changed how to put out rechargeable batteries (drop-off collection from April 2026) and how to sort plastics (separate collection from October 2026). Because batteries can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "【石巻市】ごみの分別方法一覧(miyagi)",
+        "label": "宮城県のオープンデータカタログの「【石巻市】ごみの分別方法一覧」CSV(2025-04-01 現在、477品目、CC BY 4.0)",
         "url": "https://miyagi.dataeye.jp/datasets/243"
       },
       {
-        "label": "ファイル",
-        "url": "https://miyagi.dataeye.jp/resource_download/32368"
+        "label": "市の現行の案内(2026-09 発行の冊子・50音索引): 2026-04 から充電式電池の拠点回収、2026-10 からプラスチックの分別収集。データではリチウムイオン電池・モバイルバッテリー・スマホ・加熱式たばこが「収集しません・店頭回収」、プラ製品約15件が「燃やせるごみ」。新しい50音索引は市のサイトの PDF で二次利用不可"
+      },
+      {
+        "label": "2026-10-20 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・477行・データの基準日 2025・カタログの更新日 2025-06-03・ライセンスの登録 cc-by4_0"
+    "note": "Kaz 判断 2026-10-20: 保留(電池内蔵の小型家電約40件の注意も現行と違う。環境未来推進課にオープンデータの更新を依頼する候補)"
   },
   "shiogama-city": {
     "status": "no-data",
@@ -18138,15 +18142,23 @@
     "note": "総当たり 2026-10-16: csv・979行・データの基準日 不明・カタログの更新日 2024-08-24・ライセンスの登録 CC-BY-4.0"
   },
   "taito-ku": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-20",
+    "detail_ja": "公開データ(2025年7月)のあとに、区で小型充電式電池・モバイルバッテリーの出し方が変わりました(2026年7月から燃やさないごみの日に回収)。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "After the ward's open data (July 2025) was published, the ward changed how to put out small rechargeable batteries and power banks (collected on non-burnable waste day from July 2026). Because they can cause fires, we will add the ward once the data is updated.",
     "evidence": [
       {
-        "label": "ごみ分別一覧(tokyo)",
+        "label": "東京都オープンデータカタログの「ごみ分別一覧」CSV(令和7年7月9日時点、486品目、CC BY 4.0)",
         "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131067d0000000390"
+      },
+      {
+        "label": "区の現行の案内(2026-06-10 更新): 2026-07 から小型充電式電池・モバイルバッテリーを燃やさないごみの日に回収(別袋・絶縁)。データではモバイルバッテリー「区では収集できない」、小型充電式電池「販売店の回収ボックス」。区分が空の品目3件(掃除機・ストーブ・パソコン)"
+      },
+      {
+        "label": "2026-10-20 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・0行・データの基準日 2025・カタログの更新日 2025-12-12・ライセンスの登録 CC-BY-4.0"
+    "note": "Kaz 判断 2026-10-20: 保留(ほかの危険物は一致。区に品目の一覧ページが無く、冊子とデータは同じ元のため全件照合はできていない。区に更新を依頼する候補)"
   },
   "sumida-ku": {
     "status": "hold",
@@ -18555,19 +18567,23 @@
     "note": "総当たり 2026-10-16: standard・548行・データの基準日 不明・カタログの更新日 2023-06-30・ライセンスの登録 CC-BY-4.0"
   },
   "ome-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-20",
+    "detail_ja": "公開データ(2025年3月)のあとに、市で小型充電式電池・ボタン電池・モバイルバッテリーの出し方が変わりました(2025年4月から有害ごみ)。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "After the city's open data (March 2025) was published, the city changed how to put out small rechargeable batteries, button batteries and power banks (hazardous waste from April 2025). Because they can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "ゴミの分別方法一覧(tokyo)",
+        "label": "東京都オープンデータカタログの「ゴミの分別方法一覧」Excel(標準形式、1,920品目、ファイルの更新日時 2025-03-25、CC BY 4.0)",
         "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132055d0000000036"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.opendata.metro.tokyo.lg.jp/ome/ods/132055_garbage_separation.xlsx"
+        "label": "市の現行の案内: 2025-04-01 から小型充電式電池・ボタン電池・モバイルバッテリーを「有害ごみ」で収集。データでは電池の行12件が「収集・処理できません」。モバイルバッテリー・スマートフォン・ハンディファンの品目なし。注意点の列が全部空"
+      },
+      {
+        "label": "2026-10-20 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・1920行・データの基準日 不明・カタログの更新日 2025-03-25・ライセンスの登録 CC-BY-4.0"
+    "note": "Kaz 判断 2026-10-20: 保留(ほかの危険物は一致。市に更新を依頼する候補)"
   },
   "tokyo-fuchu-city": {
     "status": "hold",
@@ -19742,17 +19758,6 @@
       }
     ]
   },
-  "zama-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "市区町村のサイトの品目の一覧(xlsx)",
-        "url": "https://www.city.zama.kanagawa.jp/_res/projects/default_project/_page_/001/005/833/bunbetsu_rist__20241021.xlsx"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: xlsx・利用条件「CC BY 4.0(座間市オープンデータの利用規約・ライセンスのページあり)」。座間市オープンデータの「環境」カテゴリに「ごみ分別リスト」Excel(122KB、令和6年10月21日更新、約1058行)がある。同じ内容の元になる「ごみ・資源物分別ガイド【令和8年3月現在】品目リスト(50音別)」PDF(2.5MB)もある(R07guide02.pdf)。"
-  },
   "minamiashigara-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -20200,15 +20205,23 @@
     ]
   },
   "nagaoka-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-20",
+    "detail_ja": "公開データの基準日が2016年12月で、スマートフォン・モバイルバッテリーなど電池の品目が無く、電池の出し方も市の現行の案内と違っていました。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "The city's open data dates from December 2016. It has no entries for smartphones, power banks and similar battery items, and its battery guidance differs from the city's current guidance. Because batteries can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "市区町村のサイトの品目の一覧(csv)",
+        "label": "市のオープンデータ「ごみの分け方と出し方分別表」CSV(基準日 平成28年12月22日、837品目、CC BY 4.0。ページの更新日 2026-04-01 は規約の改定日)",
         "url": "https://www.city.nagaoka.niigata.jp/shisei/cate10/kankyo/file/03-01u.csv"
+      },
+      {
+        "label": "市の現行の案内(月2回の「スプレー缶類・発火物・有害物」の日にステーションで電池類を収集): データでは乾電池の注意が「充電式・ボタンは販売店へ」、携帯電話が「燃やさないごみ」。小型充電式電池・モバイルバッテリー・スマホ・タブレット・電子たばこ・LED電球・コイン電池の品目なし"
+      },
+      {
+        "label": "2026-10-20 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY(表示)+長野でなく長岡市オープンデータ利用規約(出典表示が必須)」。オープンデータの「環境情報」カテゴリに【オープンデータ】ごみの分け方と出し方分別表がある(環境部環境業務課)。UTF-8版03-01u.csv(59KB、約837行)とShift_JIS版03-01s.csv(41KB)。列は索引・品名・拠点回収可否・分別・出し方ほか。メタデータの最終更新日は平成28年12月22日だが、ページ更新日は2026-04-01。別に、保存版の「ごみ分別表(五十音順)」PDF(r0604-19.pdf、9ページ)と、さんあ〜る系の「ごみサク」もある。"
+    "note": "Kaz 判断 2026-10-20: 保留(市の検索システム「ごみサク」は3,179品目で CSV の約4倍。市にデータ更新を問い合わせる候補 itp@city.nagaoka.lg.jp。ライセンスは明確なので、更新されれば入れやすい)"
   },
   "sanjo-city": {
     "status": "no-data",
@@ -21847,21 +21860,6 @@
       }
     ]
   },
-  "fukui-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみ分別一覧 福井市(福井・美山地域)(福井県・県内17市町共同公開データ)(fukui-pref)",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/fukui_miyamabunbetu.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・733行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
-  },
   "tsuruga-city": {
     "status": "candidate",
     "checked_at": "2026-10-16",
@@ -22856,15 +22854,23 @@
     ]
   },
   "nagano-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-20",
+    "detail_ja": "公開データ(2025年3月)のあとに、市で充電式電池の出し方(2026年4月から集積所の「電池の日」)とプラスチックの分け方が変わりました。火災につながる品目なので、データが新しくなってから対応します。",
+    "detail_en": "After the city's open data (March 2025) was published, the city changed how to put out rechargeable batteries (a battery day at collection points from April 2026) and how to sort plastics. Because batteries can cause fires, we will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "市区町村のサイトの品目の一覧(csv)",
+        "label": "市のオープンデータ「ごみ分別辞典」CSV(最終更新日 2025年3月5日、517行、CC BY 4.0)",
         "url": "https://www.city.nagano.nagano.jp/documents/1948/gomi_bunbetsujiten_2024.csv"
+      },
+      {
+        "label": "市の現行の案内(2026-04 から充電式電池類を集積所の「電池の日」に収集、プラスチック製品を「資源プラスチック」に。2026年版の冊子): データでは充電式電池が「×(回収協力店へ)」、スマホなど電池が外せない機器が不燃ごみ。2026年版の冊子と区分が違う品目が約60件"
+      },
+      {
+        "label": "2026-10-20 の抜き取り照合(市区の現行の案内と、公開データを突き合わせた)"
       }
     ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY 4.0(クリエイティブ・コモンズ表示4.0国際)+長野市オープンデータ利用規約(令和6年4月1日改正)」。オープンデータ一覧ページに「ごみ分別辞典(CSV:47KB)」。517行、UTF-8、列は通番・名称・名称カナ・区分(可燃/不燃/缶/プラ等)・集積所・ごみ処理施設・特記事項。ファイル名は2024年版で、ページ自体の更新日は2026-10-05。"
+    "note": "Kaz 判断 2026-10-20: 保留(台帳の「2026-10-05」は一覧ページの日付で、CSV の最終更新日は 2025-03-05。区分に「?」(文字化け)49件。モバイルバッテリー・加熱式たばこ・ワイヤレスイヤホンの品目なし。再開の目安は市のオープンデータ一覧の最終更新日が変わったとき。生活環境課 026-224-7635 に更新を依頼する候補)"
   },
   "matsumoto-city": {
     "status": "no-data",
@@ -26606,7 +26612,38 @@
     ]
   },
   "kosai-city": {
-    "status": "unsurveyed"
+    "status": "no-data",
+    "checked_at": "2026-10-20",
+    "detail_ja": "市のサイトとデータカタログを確かめました。品目別の分別一覧は冊子(PDF)とアプリだけで、県のデータは2017年度の収集曜日の表でした。",
+    "detail_en": "We checked the city's website and data catalogs. The item-by-item sorting list exists only as a booklet (PDF) and an app; the prefecture's data is a collection-day table for fiscal 2017.",
+    "evidence": [
+      {
+        "label": "県のオープンデータ「ごみ回収情報(2017年度)」は2017年度の収集曜日の表で、品目の一覧ではない",
+        "url": "https://opendata.pref.shizuoka.jp/dataset/fuji-885.html"
+      },
+      {
+        "label": "市のサイトの品目の一覧は冊子の PDF(2024-02 作成、文字を取り出せない)。サイトは無断転載禁止",
+        "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/14395.html"
+      },
+      {
+        "label": "ごみ分別アプリ「さんあ〜る」(入力元にならない)",
+        "url": "https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/3127.html"
+      }
+    ],
+    "searched": [
+      {
+        "label": "市のサイトのオープンデータのページ(トップページ・ごみのページ・サイトの案内のリンクと検索)"
+      },
+      {
+        "label": "静岡県のオープンデータカタログ(品目別の分別一覧は見つからず)",
+        "url": "https://opendata.pref.shizuoka.jp/"
+      },
+      {
+        "label": "ごみサクの対応自治体の一覧(湖西市なし)",
+        "url": "https://www.gomisaku.jp/"
+      }
+    ],
+    "note": "市のサイトの確認 2026-10-20: 品目の一覧は市の冊子 PDF とさんあ〜るだけで、オープンデータは無い。2026-04 に電池内蔵の小型家電の出し方が変わっている。公式の分別ページ https://www.city.kosai.shizuoka.jp/soshikiichiran/haikibutsutaisakuka/gyomuannai/2/1/index.html"
   },
   "izu-city": {
     "status": "no-data",
@@ -27141,7 +27178,37 @@
     ]
   },
   "seto-city": {
-    "status": "unsurveyed"
+    "status": "no-data",
+    "checked_at": "2026-10-20",
+    "detail_ja": "市のサイトとオープンデータを確かめました。品目別の分別一覧は冊子(PDF)と市の検索システム・アプリだけで、オープンデータにはありませんでした。",
+    "detail_en": "We checked the city's website and open data. The item-by-item sorting list exists only as a booklet (PDF), the city's search system and an app, not as open data.",
+    "evidence": [
+      {
+        "label": "市区町村のサイトの冊子(PDF。オープンデータの表示なし)ごみ分別辞書",
+        "url": "https://www.city.seto.aichi.jp/docs/2022/03/03/00040/index.html"
+      },
+      {
+        "label": "市独自の検索システム(へらせっと大辞典。入力元にならない)",
+        "url": "http://bunbetsu.setogomi.com/"
+      },
+      {
+        "label": "市のオープンデータ一覧(施設データのみ。ごみの品目なし)",
+        "url": "https://www.city.seto.aichi.jp/docs/2017/07/15/00030/"
+      }
+    ],
+    "searched": [
+      {
+        "label": "市のオープンデータ一覧(住民向け19本・事業者向け1本とも施設一覧のみ)",
+        "url": "https://www.city.seto.aichi.jp/docs/2017/07/15/00030/"
+      },
+      {
+        "label": "愛知県オープンデータカタログ・eあいちオープンデータカタログ(2026-10-16 の総当たり。ごみ 0 件)"
+      },
+      {
+        "label": "検索エンジン(「瀬戸市 オープンデータ ごみ 分別 CSV」ほか)"
+      }
+    ],
+    "note": "市のサイトの確認 2026-10-20: 品目別の分別データはオープンデータにない。分別辞書は PDF(37MB、2023-03 ページ更新)、検索は市独自の『へらせっと大辞典』(setogomi.com)とアプリ『さんあ〜る』。10/16 の接続失敗は一時的だった。公式の分別ページ https://www.city.seto.aichi.jp/docs/2023/06/12/00013/gomi.html"
   },
   "handa-city": {
     "status": "candidate",
@@ -27531,18 +27598,33 @@
     ]
   },
   "komaki-city": {
-    "status": "unsurveyed"
-  },
-  "inazawa-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "no-data",
+    "checked_at": "2026-10-20",
+    "detail_ja": "市のサイトとオープンデータを確かめました。品目別の分別一覧は早見表(PDF)とアプリだけで、オープンデータにはありませんでした。",
+    "detail_en": "We checked the city's website and open data. The item-by-item sorting list exists only as a quick-reference table (PDF) and an app, not as open data.",
     "evidence": [
       {
-        "label": "市区町村のサイトの品目の一覧(xlsx)",
-        "url": "https://www.city.inazawa.aichi.jp/cmsfiles/contents/0000003/3563/28_232203_garbage_separation.xlsx"
+        "label": "市区町村のサイトの冊子(PDF。オープンデータの表示なし)資源・ごみの分別早見表(50音順、令和8年4月発行)",
+        "url": "https://www.city.komaki.aichi.jp/material/files/group/110/R8hayamihyou.pdf"
+      },
+      {
+        "label": "市のオープンデータライブラリ(ごみは収集量の統計2本のみ。品目の一覧なし)",
+        "url": "https://www.city.komaki.aichi.jp/admin/soshiki/shicokoshitsu/gyoukaku/innovation/di/opendata/44374.html"
       }
     ],
-    "note": "市のサイトの確認 2026-10-16: xlsx・利用条件「CC BY 4.0(クリエイティブ・コモンズ・ライセンス表示4.0国際。稲沢市オープンデータ利用規約に従う)」。オープンデータページに「ゴミの分別方法一覧」Excel 163KB、データ更新日2025-02-14(ページ更新2026-08-21)。756行(ごみ名・索引・分別区分・分別注意文・追加検索キーワード・排出方法ごとの○列)。国の標準形式ではなく市独自の列構成。"
+    "searched": [
+      {
+        "label": "市のオープンデータライブラリ(CC BY 4.0、ごみのデータは収集量の統計2本のみ)",
+        "url": "https://www.city.komaki.aichi.jp/admin/soshiki/shicokoshitsu/gyoukaku/innovation/di/opendata/44374.html"
+      },
+      {
+        "label": "愛知県オープンデータカタログ・eあいちオープンデータカタログ(2026-10-16 の総当たり。ごみ 0 件)"
+      },
+      {
+        "label": "検索エンジン(「小牧市 オープンデータ ごみ 分別 CSV」ほか)"
+      }
+    ],
+    "note": "市のサイトの確認 2026-10-20: 品目別の分別データはオープンデータにない。分別早見表は PDF(令和8年4月発行)、アプリ『さんあ〜る』あり。市のサイト内の『家庭ごみ分別検索』は他市の見本が残った状態で使えない(推定)。10/16 の接続失敗は一時的だった。公式の分別ページ https://www.city.komaki.aichi.jp/admin/soshiki/shiminseikatsu/carbonneutral/1/2/5_2/5_8/9/2/2984.html"
   },
   "shinshiro-city": {
     "status": "no-data",
@@ -35414,7 +35496,27 @@
     ]
   },
   "maniwa-city": {
-    "status": "unsurveyed"
+    "status": "candidate",
+    "checked_at": "2026-10-20",
+    "evidence": [
+      {
+        "label": "市のオープンデータ『ごみ収集関連データ』のごみの分別一覧(Excel・822品目・CC BY・2025-02-25)",
+        "url": "https://www.city.maniwa.lg.jp/soshiki/14/1801.html"
+      },
+      {
+        "label": "ごみの分別一覧 Excel 本体",
+        "url": "https://www.city.maniwa.lg.jp/uploaded/attachment/35511.xlsx"
+      },
+      {
+        "label": "県のカタログの『ごみの分別一覧』は古い URL(2018年のまま)で 404。データは市のサイトの新しい場所にある",
+        "url": "https://www.okayama-opendata.jp/datasets/2898"
+      },
+      {
+        "label": "令和8年度のごみ収集日程及び家庭ごみ分別表(市のごみの案内。更新日 2026-04-01)",
+        "url": "https://www.city.maniwa.lg.jp/soshiki/171/98300.html"
+      }
+    ],
+    "note": "調べ直し 2026-10-20: 市の Excel(822品目・CC BY・2025-02-25)がある。標準形式ではなく、ふりがながセルに混ざる。危険物の区分は市の 2025-05 の PDF・2026-04 のページと一致するが、カセットボンベの穴あけの指示だけ PDF とデータで違う。モバイルバッテリー・スマートフォンの品目なし。全件の区分の照合と粗大ごみの手数料は未確認(次の照合 第5弾の候補)"
   },
   "mimasaka-city": {
     "status": "no-data",
@@ -36406,26 +36508,43 @@
     ],
     "note": "Kaz 判断 2026-10-16: 保留(市が令和8年版のデータを出したら再開)"
   },
-  "ube-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+  "yamaguchi-city": {
+    "status": "license",
+    "checked_at": "2026-10-20",
+    "detail_ja": "市のごみ分別早見表(PDF)は見つかりましたが、市のサイトは転載禁止で、データカタログにもライセンスの登録がありません。ほかのサイトで使ってよい条件を確かめられていません。",
+    "detail_en": "We found the city's waste sorting table (PDF), but the city's website prohibits reproduction and the data catalog has no license entry. We have not been able to confirm terms that allow reuse on other sites.",
     "evidence": [
       {
-        "label": "【宇部市】ごみ収集(search-ckan-jp)",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection"
+        "label": "ごみ分別早見表(令和8年6月24日更新、PDF 約620品目)",
+        "url": "https://www.city.yamaguchi.lg.jp/soshiki/50/159263.html"
       },
       {
-        "label": "ファイル",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/9148924d-b9a7-435b-8a81-5d18fc13c1a0/resource/81545e7f-4bc5-4f1e-a422-536832cd499e/download/gomibunbetsulist.xlsx"
+        "label": "カタログ『ゴミの分別方法一覧』(ライセンス空欄・リソースは市サイトの HTML で 404)",
+        "url": "https://yamaguchi-opendata.jp/ckan/dataset/352039_garbage_separation"
       }
     ],
-    "note": "総当たり 2026-10-16: excel・1143行・データの基準日 不明・カタログの更新日 2026-03-27・ライセンスの登録 cc-by-40-intl"
-  },
-  "yamaguchi-city": {
-    "status": "unsurveyed"
+    "note": "調べ直し 2026-10-20: 市サイトの早見表 PDF(2026-06-24、約620品目・電池の新ルール反映)あり。カタログは HTML リンクのみで 404、ライセンス空欄。市サイトの著作権表示は転載禁止のため二次利用の許諾が未確認。資源循環推進課(083-941-2173)に許諾を確認できれば candidate。公式の分別ページ https://www.city.yamaguchi.lg.jp/site/gomisigen/"
   },
   "hagi-city": {
-    "status": "unsurveyed"
+    "status": "hold",
+    "checked_at": "2026-10-20",
+    "detail_ja": "市のサイトの分け方の表で、充電式電池やモバイルバッテリーの出し方が市のほかのページと違っていました。また、表をこのアプリで使ってよいかの条件を確かめられていません。確かめられてから対応します。",
+    "detail_en": "The city's sorting table on its website differs from the city's other pages on how to put out rechargeable batteries and power banks, and we have not confirmed whether the table may be used in this app. We will add the city once these are confirmed.",
+    "evidence": [
+      {
+        "label": "ごみの分け方(50音順)(2026-04-01 掲載、約760品目、HTML の表)",
+        "url": "https://www.city.hagi.lg.jp/soshiki/32/h62019.html"
+      },
+      {
+        "label": "カタログ『ごみの出し方(早見表/カレンダー/50音順)』(cc-by、登録 2021、リソースの HTML は 404)",
+        "url": "https://yamaguchi-opendata.jp/ckan/dataset/hg-garbage-howto"
+      },
+      {
+        "label": "充電式電池の処分について(2025-09-19)",
+        "url": "https://www.city.hagi.lg.jp/soshiki/32/h67254.html"
+      }
+    ],
+    "note": "調べ直し 2026-10-20: 市サイトに50音順の表(2026-04-01、約760品目)あり。ただし充電式電池が『市では収集しない』のまま・モバイルバッテリー品目なし・携帯電話が燃やせないごみで、市の他ページ(h67254、令和8年度早見表)の電池の新ルールと食い違う。ライセンスはカタログ cc-by(2021)と市サイトの転載禁止表示が食い違い、確認要(環境政策課 0838-25-3661)。ら・わ行なし、大島・見島・相島は区分が異なる。公式の分別ページ https://www.city.hagi.lg.jp/life/1/7/39/"
   },
   "kudamatsu-city": {
     "status": "candidate",
@@ -36566,7 +36685,25 @@
     "note": "総当たり 2026-10-16: pdf・0行・データの基準日 不明・カタログの更新日 2024-11-25・ライセンスの登録 (なし)(登録からは確かめられない。原文を確かめる)"
   },
   "waki-town": {
-    "status": "unsurveyed"
+    "status": "license",
+    "checked_at": "2026-10-20",
+    "detail_ja": "町の50音順の分別早見表(PDF)は見つかりましたが、町のサイトは無断での転用ができず、データカタログにもライセンスの登録がありません。ほかのサイトで使ってよい条件を確かめられていません。",
+    "detail_en": "We found the town's alphabetical sorting table (PDF), but the town's website does not allow reuse without permission and the data catalog has no license entry. We have not been able to confirm terms that allow reuse on other sites.",
+    "evidence": [
+      {
+        "label": "和木町家庭ごみ50音順分別早見表(PDF、約1,155品目、令和7年度版と推定)",
+        "url": "https://www.town.waki.lg.jp/uploaded/attachment/4775.pdf"
+      },
+      {
+        "label": "県カタログ『【和木町】ゴミの分別方法一覧』(ライセンス空欄、町ページへのリンクのみ)",
+        "url": "https://yamaguchi-opendata.jp/ckan/dataset/https-www-town-waki-lg-jp-soshiki-4-225-html"
+      },
+      {
+        "label": "町サイトの著作権(無断複製・転用不可、許諾は問い合わせ)",
+        "url": "https://www.town.waki.lg.jp/site/userguide/1802.html"
+      }
+    ],
+    "note": "調べ直し 2026-10-20: 品目表は PDF で約1,155品目あるが、町サイトの著作権で転用不可・カタログのライセンスも空。使うなら住民サービス課(0827-52-2194)に許諾が要る。県カタログのリンクは町サイト作り直しで 404(新URL /site/gomi-recycle/225.html)。危険物の区分は町の他資料と一致するが、モバイルバッテリーは表の中で食い違い、カセットボンベは品目なし"
   },
   "kaminoseki-town": {
     "status": "no-data",
@@ -36642,7 +36779,31 @@
     "note": "総当たり 2026-10-16: pdf・0行・データの基準日 不明・カタログの更新日 2025-02-12・ライセンスの登録 cc-by"
   },
   "abu-town": {
-    "status": "unsurveyed"
+    "status": "no-data",
+    "checked_at": "2026-10-20",
+    "detail_ja": "町のサイトとデータカタログを確かめました。品目の一覧は見つかりませんでした(ごみの出し方ガイドブックに載っているかは、まだ確かめられていません)。",
+    "detail_en": "We checked the town's website and data catalogs and did not find an item list (we have not yet been able to check whether the town's waste guidebook contains one).",
+    "evidence": [
+      {
+        "label": "県カタログ『【阿武町】ゴミカレンダー・分別一覧』(cc-by、町ページへのリンクのみ)",
+        "url": "https://yamaguchi-opendata.jp/ckan/dataset/02_gomi"
+      },
+      {
+        "label": "町『ゴミの収集について【R8.4.1更新】』(品目表はガイドブックPDFのみ、30MB超で取得不可)",
+        "url": "https://www.town.abu.lg.jp/guide/gominosyuusyuunituite/"
+      }
+    ],
+    "searched": [
+      {
+        "label": "山口県オープンデータカタログ(阿武町のデータは町のページへのリンクだけ)",
+        "url": "https://yamaguchi-opendata.jp/"
+      },
+      {
+        "label": "町の公式サイトのごみのページ(品目の一覧なし)",
+        "url": "https://www.town.abu.lg.jp/guide/gominosyuusyuunituite/"
+      }
+    ],
+    "note": "暫定(2026-10-20): 品目の一覧は町サイトに無く、ごみの出し方ガイドブック R8.4.1(PDF、30MB超で取得できず)に載っているかは未確認。人が PDF を開いて品目表があれば candidate に上げる。町の人口 2,861人で、区分と例だけの冊子の可能性が高い(推定)"
   },
   "tokushima-city": {
     "status": "no-data",
@@ -37229,17 +37390,6 @@
         "url": "https://data.e-gov.go.jp/"
       }
     ]
-  },
-  "takamatsu-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://opendata.takamatsu-fact.com/garbage_separation_list/data.csv"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY 4.0(クリエイティブ・コモンズ表示4.0。高松市オープンデータ利用規約、市のオープンデータページに記載)」。市のオープンデータ(GitHub takamatsu-city/opendata・CKAN)に「ごみ分別一覧(0074)」CSV/JSON/xlsx。実取得で617行(#property,name,classification,note)。データの更新日表示なし。ごみ分別ガイドブック(令和8年3月改訂第15版)PDF にも50音一覧(p.20-33)あり"
   },
   "marugame-city": {
     "status": "no-data",

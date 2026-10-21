@@ -1,0 +1,14 @@
+{
+  "slug": "zama-city",
+  "item_id_prefix": "zam",
+  "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このデータベースは以下の著作物を改変して利用しています。ごみ分別リスト(令和6年10月21日更新)、座間市、クリエイティブ・コモンズ・ライセンス表示4.0(http://creativecommons.org/licenses/by/4.0)",
+  "source_attribution_en": "Source: This database adapts the following work: \"Garbage Sorting List\" (ごみ分別リスト, updated October 21, 2024), Zama City, Creative Commons Attribution 4.0 (http://creativecommons.org/licenses/by/4.0)",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": "046-252-7560",
+  "sodai_tel_mobile": "046-252-7560",
+  "data_fetched_at": "2026-10-16",
+  "data_version": "20261021"
+}

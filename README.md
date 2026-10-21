@@ -46,6 +46,11 @@ https://mottainavi.kaztada.eco
 | 広島市(広島県)     | [広島市_家庭ごみ分別50音事典](https://hiroshima-opendata.dataeye.jp/datasets/1338)                                   | PDL1.0       |
 | 中野区(東京都)     | [ごみ分別一覧](https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139)                                    | CC BY 4.0    |
 | いわき市(福島県)   | [ごみの分別](https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html)                                     | CC BY 2.1 JP |
+| 福井市(福井県)     | [ごみ分別一覧](https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html)(福井・美山地域)                  | CC BY 4.0    |
+| 宇部市(山口県)     | [【宇部市】ごみ収集](https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection)                             | PDL1.0       |
+| 稲沢市(愛知県)     | [ゴミの分別方法一覧](https://www.city.inazawa.aichi.jp/0000003563.html)                                               | CC BY 4.0    |
+| 座間市(神奈川県)   | [ごみ分別リスト](https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html)                             | CC BY 4.0    |
+| 高松市(香川県)     | [ごみ分別一覧](https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list)                          | CC BY 4.0    |
 
 品目データを二次利用できるライセンスで公開している自治体から、順に追加しています。まだ対応していない自治体を選ぶと、その自治体の公式サイトへの案内を表示します。
 
