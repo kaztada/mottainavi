@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-21T17:46:23.701Z",
+  "generated_at": "2026-10-21T18:11:32.890Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -8204,7 +8204,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dish dryer / dishwasher-dryer"
     },
     {
       "id": "ube-0469",
