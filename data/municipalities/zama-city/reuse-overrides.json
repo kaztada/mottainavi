@@ -15,5 +15,7 @@
   "スチールラック（長辺50cm以下）": "furniture",
   "パイプラック（分解可能な金属製の棚）": "furniture",
   "ipad・タブレット": "small-appliance",
-  "携帯電話": "small-appliance"
+  "携帯電話": "small-appliance",
+  "CDプレイヤー（長辺50cm超）": null,
+  "レコードプレイヤー": null
 }

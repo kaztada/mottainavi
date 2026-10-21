@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-21T12:23:12.050Z",
+  "generated_at": "2026-10-21T17:28:00.441Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -7190,7 +7190,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -17745,7 +17745,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": "Record player (turntable)"
     },
     {
