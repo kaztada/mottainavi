@@ -1,6 +1,6 @@
 {
   "municipality_id": "takamatsu-city",
-  "generated_at": "2026-10-21T03:49:01.020Z",
+  "generated_at": "2026-10-21T04:10:59.864Z",
   "source_url": "https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list",
   "item_count": 606,
   "items": [
@@ -675,7 +675,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Indoor shoes (uwagutsu)"
     },
     {
       "id": "tkm-0038",
@@ -2440,7 +2440,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gimlet (kiri)"
     },
     {
       "id": "tkm-0137",
@@ -3406,7 +3406,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electrical outlet"
     },
     {
       "id": "tkm-0193",
@@ -5008,7 +5008,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tape dispenser"
     },
     {
       "id": "tkm-0284",
@@ -5854,7 +5854,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cylindrical dry-cell batteries"
     },
     {
       "id": "tkm-0331",
@@ -5990,7 +5990,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tablecloth (vinyl)"
     },
     {
       "id": "tkm-0339",
@@ -6075,7 +6075,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bag with handles (paper)"
     },
     {
       "id": "tkm-0344",
@@ -6211,7 +6211,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gloves (vinyl)"
     },
     {
       "id": "tkm-0352",
@@ -7391,7 +7391,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chopsticks (plastic)"
     },
     {
       "id": "tkm-0417",
@@ -7540,7 +7540,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Printer for PCs"
     },
     {
       "id": "tkm-0424",
@@ -7767,7 +7767,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanger"
     },
     {
       "id": "tkm-0437",
@@ -7784,7 +7784,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanger stand (clothes rack)"
     },
     {
       "id": "tkm-0438",
@@ -8069,7 +8069,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fertilizer bag (plastic)"
     },
     {
       "id": "tkm-0454",
@@ -9443,7 +9443,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bookcase"
     },
     {
       "id": "tkm-0532",

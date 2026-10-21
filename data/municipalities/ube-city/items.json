@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-21T03:59:04.093Z",
+  "generated_at": "2026-10-21T04:11:04.699Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -231,7 +231,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Foot mat"
     },
     {
       "id": "ube-0014",
@@ -948,7 +948,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Wireless earphones"
     },
     {
       "id": "ube-0055",
@@ -2175,7 +2175,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bath mat"
     },
     {
       "id": "ube-0124",
@@ -2673,7 +2673,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Study desk (metal)"
     },
     {
       "id": "ube-0152",
@@ -2690,7 +2690,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Study desk (wood)"
     },
     {
       "id": "ube-0153",
@@ -2707,7 +2707,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "School uniform"
     },
     {
       "id": "ube-0154",
@@ -2741,7 +2741,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Picture frame (other than wood)"
     },
     {
       "id": "ube-0156",
@@ -2996,7 +2996,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (wood)"
     },
     {
       "id": "ube-0171",
@@ -4070,7 +4070,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Machine oil"
     },
     {
       "id": "ube-0232",
@@ -4131,7 +4131,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kitchen splash guard (aluminum foil)"
     },
     {
       "id": "ube-0235",
@@ -4250,7 +4250,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bank card (cash card)"
     },
     {
       "id": "ube-0242",
@@ -4457,7 +4457,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Safe (fireproof)"
     },
     {
       "id": "ube-0254",
@@ -5402,7 +5402,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ketchup tube"
     },
     {
       "id": "ube-0308",
@@ -6056,7 +6056,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Golf shoes"
     },
     {
       "id": "ube-0346",
@@ -6175,7 +6175,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electrical outlet"
     },
     {
       "id": "ube-0353",
@@ -6226,7 +6226,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Compass (drawing tool)"
     },
     {
       "id": "ube-0356",
@@ -7081,7 +7081,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mattress pad (shiki-pad)"
     },
     {
       "id": "ube-0405",
@@ -9726,7 +9726,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Detergent container (plastic)"
     },
     {
       "id": "ube-0555",
@@ -10143,7 +10143,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Abacus (soroban; wood)"
     },
     {
       "id": "ube-0578",
@@ -10194,7 +10194,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clinical thermometer (containing mercury)"
     },
     {
       "id": "ube-0581",
@@ -10522,7 +10522,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Table tennis paddle"
     },
     {
       "id": "ube-0600",
@@ -10746,7 +10746,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Egg carton (plastic)"
     },
     {
       "id": "ube-0613",
@@ -10763,7 +10763,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Washtub"
     },
     {
       "id": "ube-0614",
@@ -11639,7 +11639,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tablecloth (vinyl)"
     },
     {
       "id": "ube-0664",
@@ -13016,7 +13016,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Natto container (paper)"
     },
     {
       "id": "ube-0740",
@@ -13033,7 +13033,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Natto container (styrofoam)"
     },
     {
       "id": "ube-0741",
@@ -13748,7 +13748,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Incandescent lamp (light bulb)"
     },
     {
       "id": "ube-0782",
@@ -14384,7 +14384,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanger"
     },
     {
       "id": "ube-0818",
@@ -15021,7 +15021,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bottle cap / lid (metal)"
     },
     {
       "id": "ube-0855",
@@ -15518,7 +15518,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon compression bag"
     },
     {
       "id": "ube-0884",
@@ -15627,7 +15627,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanging exercise bar / pull-up stand"
     },
     {
       "id": "ube-0890",
@@ -17003,7 +17003,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bowling ball"
     },
     {
       "id": "ube-0967",
@@ -17332,7 +17332,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Baby bottle"
     },
     {
       "id": "ube-0986",
@@ -17680,7 +17680,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mascara"
     },
     {
       "id": "ube-1006",
@@ -17842,7 +17842,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cutting board (plastic)"
     },
     {
       "id": "ube-1015",
@@ -18529,7 +18529,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kettle"
     },
     {
       "id": "ube-1055",
@@ -18962,7 +18962,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic wrap (cling film; used at home)"
     },
     {
       "id": "ube-1080",
@@ -19239,7 +19239,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Spiral notebook"
     },
     {
       "id": "ube-1096",
