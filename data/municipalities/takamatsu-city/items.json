@@ -1,6 +1,6 @@
 {
   "municipality_id": "takamatsu-city",
-  "generated_at": "2026-10-21T12:11:59.788Z",
+  "generated_at": "2026-10-21T12:23:13.511Z",
   "source_url": "https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list",
   "item_count": 606,
   "items": [
@@ -8860,7 +8860,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "small-appliance",
+      "reuse_category": null,
       "name_en": "Bathroom scale"
     },
     {
