@@ -6350,8 +6350,8 @@
     "pref": "神奈川県",
     "name_ja": "座間市",
     "name_en": "Zama City",
-    "status": "unsupported",
-    "official_url": "https://www.city.zama.kanagawa.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.zama.kanagawa.jp/kurashi/gomi/bunbetsu/index.html"
   },
   {
     "slug": "minamiashigara-city",
@@ -7079,8 +7079,8 @@
     "pref": "福井県",
     "name_ja": "福井市",
     "name_en": "Fukui City",
-    "status": "unsupported",
-    "official_url": "https://www.city.fukui.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.fukui.lg.jp/kurasi/kankyo/kgomi/index.html"
   },
   {
     "slug": "tsuruga-city",
@@ -9032,8 +9032,8 @@
     "pref": "愛知県",
     "name_ja": "稲沢市",
     "name_en": "Inazawa City",
-    "status": "unsupported",
-    "official_url": "https://www.city.inazawa.aichi.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.inazawa.aichi.jp/category/1-1-0-0-0-0-0-0-0-0.html"
   },
   {
     "slug": "shinshiro-city",
@@ -12191,8 +12191,8 @@
     "pref": "山口県",
     "name_ja": "宇部市",
     "name_en": "Ube City",
-    "status": "unsupported",
-    "official_url": "https://www.city.ube.yamaguchi.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.ube.yamaguchi.jp/kurashi/gomi/dashikata/index.html"
   },
   {
     "slug": "yamaguchi-city",
@@ -12569,8 +12569,8 @@
     "pref": "香川県",
     "name_ja": "高松市",
     "name_en": "Takamatsu City",
-    "status": "unsupported",
-    "official_url": "https://www.city.takamatsu.kagawa.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.takamatsu.kagawa.jp/kurashi/kurashi/gomi/index.html"
   },
   {
     "slug": "marugame-city",
