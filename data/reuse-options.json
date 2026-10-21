@@ -260,6 +260,17 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "fukui-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の使用済小型家電回収ボックスに入れる(各ふれあいセンター・市役所本庁舎1階・リサイクルプラザ)",
+        "title_en": "Drop it in a city used small-appliance collection box (community centers, City Hall main building 1F, Recycle Plaza)",
+        "desc_ja": "投入口(縦20cm×横40cm)に入る、携帯電話・スマートフォン・タブレット・デジタルカメラ・ゲーム機・ドライヤー・電気かみそり・電動歯ブラシ・リモコンなどが対象です。中の金属が資源としてもう一働き。個人情報は必ず消し、外せる電池は外します(外した充電式電池は端子をテープで絶縁して、黄色い充電式電池リサイクルボックスへ)。充電式電池が取り外せない製品は、本体ごとこのボックスへ(ごみステーションには出せません)。膨張した電池は入れず、廃棄物対策課へ。各ふれあいセンターは午前9時〜午後10時、市役所は平日、リサイクルプラザは平日と第4土曜日。",
+        "desc_en": "For items that fit the 20 cm x 40 cm slot, such as mobile phones, smartphones, tablets, digital cameras, game consoles, hair dryers, electric shavers, electric toothbrushes and remote controls. The metals inside get another life. Always wipe personal data and remove removable batteries (tape the terminals of removed rechargeable batteries and put them in the yellow rechargeable battery recycling box). Products whose rechargeable battery cannot be removed go into this box as they are (they cannot go to the garbage collection point). Do not put in swollen batteries; take them to the Waste Management Division. Community centers 9:00-22:00, City Hall on weekdays, Recycle Plaza on weekdays and the 4th Saturday.",
+        "url": "https://www.city.ube.yamaguchi.jp/kurashi/gomi/genryou_recycle/1002098/1002103.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "ube-city"
       }
     ]
   },
