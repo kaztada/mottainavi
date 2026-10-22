@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-22T02:01:26.856Z",
+  "generated_at": "2026-10-22T17:56:38.846Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -502,7 +502,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Photo album (paper)"
     },
     {
       "id": "zam-0029",
@@ -2068,7 +2068,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil (for cars)"
     },
     {
       "id": "zam-0116",

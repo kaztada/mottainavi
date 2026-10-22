@@ -1,3 +1,24 @@
 {
-  "食器": "Tableware (excluding paper and wood)"
+  "一輪車（金属製・プラスチック製）": "Unicycle / wheelbarrow (metal, plastic)",
+  "植木の枝葉": "Garden tree branches and leaves (under 3 cm thick and under 30 cm long)",
+  "おもちゃ（金属製・プラスチック製）": "Toy (metal, plastic; non-electric)",
+  "ガステーブル・コンロ": "Gas stove (gas cooktop; kitchen type; gas canister removed)",
+  "釜（ガス）": "Kama (gas-fired; e.g. gas rice cooker or gas bath boiler)",
+  "乾電池（充電式・ボタン式電池）": "Batteries (rechargeable, button cell)",
+  "くだもの等の保護材": "Protective cushioning for fruit etc. (packaging)",
+  "携帯用液晶テレビ": "Portable LCD TV (batteries removed)",
+  "米びつライサ": "Rice bin (Raisa rice dispenser)",
+  "車載用液晶テレビ": "In-car LCD TV (batteries removed)",
+  "食器": "Tableware (excluding paper and wood)",
+  "剪定枝（直径３㎝・長さ３０㎝）": "Pruned branches (up to 3 cm in diameter and up to 30 cm long)",
+  "タバコの空箱": "Empty cigarette pack (paper box only; excluding plastic wrap and foil)",
+  "ティッシュペーパーの空箱": "Empty tissue box (excluding plastic film at the opening)",
+  "トレー類": "Trays (food packaging)",
+  "ねこ砂": "Cat litter (non-paper)",
+  "バッテリー": "Battery (car battery etc.)",
+  "バット（金属製・プラスチック製）": "Bat (baseball etc.; metal, plastic; excluding children's plastic bats)",
+  "針金（少量の時）": "Metal wire (small amount)",
+  "プラスチック製品（収納ケース・水槽）": "Plastic products (storage cases, fish tanks)",
+  "ポータブルトイレ": "Bedside commode (portable toilet)",
+  "木片（太さ３㎝以上）": "Wood pieces (3 cm or more but up to 10 cm thick, up to 2 m long)"
 }
