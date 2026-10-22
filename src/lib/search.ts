@@ -180,8 +180,8 @@ export function buildSearchEntries(index: SearchIndexItem[]): SearchEntry[] {
  * あいまい検索のしきい値(小さいほど厳しい)。
  * 0.35 だと品目の少ない市でデータに無い語(ペンキ・タンス)が関係ない品目に当たり、
  * 「見つかりません→公式サイトへ」の案内にならなかったため 0.30 に下げた(2026-10-22)。
- * 0.30 では、正規化後3〜4文字の短い読みの1字抜け(かしき→加湿器)が Fuse では当たらなくなる。
- * それは下の「1字抜けの救済」(rescueOneTypo)で拾う
+ * 0.30 では、正規化後4文字の短い読みの1字抜け(かしき→加湿器)が Fuse では当たらなくなる。
+ * 別の品目だけが残る場合は、下の「1字抜けの救済」(rescueOneTypo)で本来の品目を足す
  */
 const SEARCH_THRESHOLD = 0.3
 
@@ -277,17 +277,17 @@ const MIN_RESCUE_LENGTH = 3
 
 /**
  * 品目名・読み・別名を、1字抜けの救済で比べる単位に分ける。
- * 全体と、括弧の前(加湿器(長辺50cm超)→加湿器)、「・」「、」「/」で区切った各部分(冷蔵庫・冷凍庫)
+ * 全体と、括弧の中を除いて「・」「、」「/」で区切った各部分
+ * (加湿器(長辺50cm超)→加湿器、コピー機(家庭用)、プリンター→コピー機・プリンター)
  */
 function rescueTargets(text: string): string[] {
-  const head = text.split("(")[0]
-  return [text, head, ...head.split(/[・、,/]/)]
+  return [text, ...text.replace(/\([^)]*\)?/g, "").split(/[・、,/]/)]
 }
 
 /**
  * 日本語の検索語に1字足すと、品目名・読み・別名(またはその括弧の前・区切った部分)の
  * 全体になる品目(1字抜けの打ち間違い)。
- * しきい値 0.30 で落ちる短い読みの1字抜け(かしき→かしつき、ばっり→ばってり)を拾う。
+ * しきい値 0.30 で落ちる短い読みの1字抜け(かしき→かしつき)を拾う。
  * 部分の全体との比較なので、データに無い語(たんす)が長い品目名の途中に当たることはない。
  * 1字の置き換えは対象にしない(短い語では ぺんき→べんき(便器)のような別の物に当たる)
  */
@@ -314,6 +314,9 @@ export function searchItems(
   if (!q) return []
   if (isAsciiQuery(query)) return searchEnglish(searcher, query)
   const results = searcher.fuse.search(q).map((r) => r.item.item)
+  // 救済は、あいまい検索で何か出たときに候補を足すだけ。0件なら「見つかりません→公式サイトへ」のまま。
+  // データに無い正しい語(はもの=刃物、かやく=火薬)が、1字抜けの形で別の物(履物・カヤック)だけに当たるのを防ぐ
+  if (results.length === 0) return results
   const seen = new Set(results.map((item) => item.id))
   for (const item of rescueOneTypo(searcher, q)) {
     if (seen.has(item.id)) continue

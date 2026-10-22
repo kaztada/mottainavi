@@ -12,6 +12,7 @@ import maizuruItemsFile from "../../data/municipalities/maizuru-city/items.json"
 import sukagawaItemsFile from "../../data/municipalities/sukagawa-city/items.json"
 import fukuiItemsFile from "../../data/municipalities/fukui-city/items.json"
 import zamaItemsFile from "../../data/municipalities/zama-city/items.json"
+import hirakataItemsFile from "../../data/municipalities/hirakata-city/items.json"
 import { ItemsFileSchema, SearchIndexFileSchema } from "./schemas"
 import { toSearchIndex } from "./public-data"
 
@@ -198,6 +199,7 @@ describe("しきい値 0.30 と1字抜けの救済", () => {
     sukagawa: indexOf(sukagawaItemsFile),
     fukui: indexOf(fukuiItemsFile),
     zama: indexOf(zamaItemsFile),
+    hirakata: indexOf(hirakataItemsFile),
     osaka: indexOf(itemsFile),
   }
   const searchers = {
@@ -205,6 +207,7 @@ describe("しきい値 0.30 と1字抜けの救済", () => {
     sukagawa: createSearcher(cities.sukagawa),
     fukui: createSearcher(cities.fukui),
     zama: createSearcher(cities.zama),
+    hirakata: createSearcher(cities.hirakata),
     osaka: createSearcher(cities.osaka),
   }
   type City = keyof typeof cities
@@ -263,14 +266,21 @@ describe("しきい値 0.30 と1字抜けの救済", () => {
     expectInTop("osaka", "じでんしゃ", "自転車（電動式以外のもの）", 5)
   })
 
-  it("1字抜け(短い読み)を救済で拾う", () => {
+  it("1字抜け: あいまい検索で何か出たときは、本来の品目を救済で足す", () => {
     expectInTop("osaka", "れいぞこ", "冷蔵庫・冷凍庫", 1)
-    expectInTop("osaka", "あいん", "アイロン", 1)
-    expectInTop("osaka", "えあん", "エアコン", 1)
     expectInTop("osaka", "かしき", "加湿器", 5)
-    // 0.30 の Fuse だけでは湯沸かし器だけが残り、加湿器が消えていた(Codex の指摘)
+    // 0.30 の Fuse だけでは湯沸かし器だけが残り、加湿器が消えていた(Codex の1回目の指摘)
     expectInTop("fukui", "かしき", "加湿器", 5)
-    expectInTop("fukui", "ばっり", "バッテリー", 1)
+  })
+
+  it("1字抜け: あいまい検索で何も出ないときは、救済せず「見つかりません」のまま", () => {
+    // 3文字の検索語は、データに無い正しい語(はもの=刃物、かやく=火薬)が
+    // 別の物(履物・カヤック)の1字抜けと重なるので、救済だけで結果を作らない(Codex の3回目の指摘)
+    expect(names("zama", "はもの")).toEqual([])
+    expect(names("hirakata", "かやく")).toEqual([])
+    // その代わり、短い読みの1字抜けは公式サイトへの案内になる
+    expect(names("osaka", "あいん")).toEqual([])
+    expect(names("fukui", "ばっり")).toEqual([])
   })
 
   it("1字抜けの救済は括弧の前・区切った部分とも比べる", () => {
