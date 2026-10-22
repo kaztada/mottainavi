@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-22T23:13:42.889Z",
+  "generated_at": "2026-10-22T23:25:11.525Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -846,7 +846,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wheelbarrow (hand-pushed; 1 m or longer, 50 cm or wider, 50 cm or deeper, or 10 kg or heavier)"
+      "name_en": "Wheelbarrow (hand-pushed; over 1 m long, 50 cm wide, 50 cm deep or 10 kg)"
     },
     {
       "id": "ube-0049",
@@ -5049,7 +5049,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Crocs-style rubber clogs"
+      "name_en": "Crocs (clog-style shoes)"
     },
     {
       "id": "ube-0288",
@@ -8022,7 +8022,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Food storage bag (zipper bag)"
+      "name_en": "Food storage bag (including zipper bags)"
     },
     {
       "id": "ube-0459",
@@ -13958,7 +13958,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Computer (desktop; without the PC Recycling Mark; made in or before September 2003; 1 m or longer, 50 cm or wider, 50 cm or deeper, or 10 kg or heavier)"
+      "name_en": "Computer (desktop; without the PC Recycling Mark; made in or before September 2003; over 1 m long, 50 cm wide, 50 cm deep or 10 kg)"
     },
     {
       "id": "ube-0794",
@@ -15749,7 +15749,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Flash memory"
+      "name_en": "Flash memory (USB flash drive etc.)"
     },
     {
       "id": "ube-0897",
@@ -15817,7 +15817,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pudding / jelly container"
+      "name_en": "Pudding / jelly dessert cup (container)"
     },
     {
       "id": "ube-0901",
@@ -15959,7 +15959,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Blower (rechargeable leaf blower)"
+      "name_en": "Blower / leaf blower (rechargeable)"
     },
     {
       "id": "ube-0909",
@@ -15976,7 +15976,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Blower (engine-powered leaf blower)"
+      "name_en": "Blower / leaf blower (engine-powered)"
     },
     {
       "id": "ube-0910",
@@ -16533,7 +16533,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Stroller (up to 1 m long, 50 cm wide, 50 cm deep and 10 kg)"
+      "name_en": "Stroller (under 1 m long, 50 cm wide, 50 cm deep and 10 kg)"
     },
     {
       "id": "ube-0940",
@@ -18080,7 +18080,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Milk can (food packaging; longest side under 20 cm)"
+      "name_en": "Milk can (food packaging, including powdered milk / infant formula cans; longest side under 20 cm)"
     },
     {
       "id": "ube-1029",
