@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-22T18:12:13.515Z",
+  "generated_at": "2026-10-22T18:21:03.549Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -1250,7 +1250,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Oil (for cars)"
+      "name_en": "Automotive oil (motor oil / engine oil)"
     },
     {
       "id": "fki-0070",
@@ -1301,7 +1301,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Reception room chair (with springs)"
+      "name_en": "Armchair / lounge chair (reception chair; with springs)"
     },
     {
       "id": "fki-0073",
@@ -1318,7 +1318,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Reception room chair (wood)"
+      "name_en": "Armchair / lounge chair (reception chair; wood)"
     },
     {
       "id": "fki-0074",
@@ -1335,7 +1335,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Reception room chair (metal)"
+      "name_en": "Armchair / lounge chair (reception chair; metal)"
     },
     {
       "id": "fki-0075",
@@ -10775,7 +10775,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Moth repellent container"
+      "name_en": "Insect / moth repellent container"
     },
     {
       "id": "fki-0610",
