@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-21T17:46:23.701Z",
+  "generated_at": "2026-10-21T22:23:04.195Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -8204,7 +8204,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dish dryer / dishwasher-dryer (up to 1 m long, 50 cm wide, 50 cm deep and 10 kg)"
     },
     {
       "id": "ube-0469",
