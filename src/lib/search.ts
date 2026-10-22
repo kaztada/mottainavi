@@ -276,15 +276,27 @@ function compareMatch(a: EnglishMatch, b: EnglishMatch): number {
 const MIN_RESCUE_LENGTH = 3
 
 /**
- * 日本語の検索語に1字足すと、品目名・読み・別名の「全体」になる品目(1字抜けの打ち間違い)。
+ * 品目名・読み・別名を、1字抜けの救済で比べる単位に分ける。
+ * 全体と、括弧の前(加湿器(長辺50cm超)→加湿器)、「・」「、」「/」で区切った各部分(冷蔵庫・冷凍庫)
+ */
+function rescueTargets(text: string): string[] {
+  const head = text.split("(")[0]
+  return [text, head, ...head.split(/[・、,/]/)]
+}
+
+/**
+ * 日本語の検索語に1字足すと、品目名・読み・別名(またはその括弧の前・区切った部分)の
+ * 全体になる品目(1字抜けの打ち間違い)。
  * しきい値 0.30 で落ちる短い読みの1字抜け(かしき→かしつき、ばっり→ばってり)を拾う。
- * 全体との比較なので、データに無い語(たんす)が長い品目名の一部に当たることはない。
+ * 部分の全体との比較なので、データに無い語(たんす)が長い品目名の途中に当たることはない。
  * 1字の置き換えは対象にしない(短い語では ぺんき→べんき(便器)のような別の物に当たる)
  */
 function rescueOneTypo(searcher: Searcher, q: string): SearchIndexItem[] {
   if (q.length < MIN_RESCUE_LENGTH) return []
-  const near = (target: string) =>
-    target.length === q.length + 1 && isOneTypo(q, target)
+  const near = (text: string) =>
+    rescueTargets(text).some(
+      (target) => target.length === q.length + 1 && isOneTypo(q, target)
+    )
   return searcher.entries
     .filter((e) => near(e.nn) || near(e.nk) || e.naJa.some(near))
     .map((e) => e.item)

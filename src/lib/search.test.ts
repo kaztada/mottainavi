@@ -11,6 +11,7 @@ import okinawaItemsFile from "../../data/municipalities/okinawa-city/items.json"
 import maizuruItemsFile from "../../data/municipalities/maizuru-city/items.json"
 import sukagawaItemsFile from "../../data/municipalities/sukagawa-city/items.json"
 import fukuiItemsFile from "../../data/municipalities/fukui-city/items.json"
+import zamaItemsFile from "../../data/municipalities/zama-city/items.json"
 import { ItemsFileSchema, SearchIndexFileSchema } from "./schemas"
 import { toSearchIndex } from "./public-data"
 
@@ -196,12 +197,14 @@ describe("しきい値 0.30 と1字抜けの救済", () => {
     maizuru: indexOf(maizuruItemsFile),
     sukagawa: indexOf(sukagawaItemsFile),
     fukui: indexOf(fukuiItemsFile),
+    zama: indexOf(zamaItemsFile),
     osaka: indexOf(itemsFile),
   }
   const searchers = {
     maizuru: createSearcher(cities.maizuru),
     sukagawa: createSearcher(cities.sukagawa),
     fukui: createSearcher(cities.fukui),
+    zama: createSearcher(cities.zama),
     osaka: createSearcher(cities.osaka),
   }
   type City = keyof typeof cities
@@ -268,5 +271,12 @@ describe("しきい値 0.30 と1字抜けの救済", () => {
     // 0.30 の Fuse だけでは湯沸かし器だけが残り、加湿器が消えていた(Codex の指摘)
     expectInTop("fukui", "かしき", "加湿器", 5)
     expectInTop("fukui", "ばっり", "バッテリー", 1)
+  })
+
+  it("1字抜けの救済は括弧の前・区切った部分とも比べる", () => {
+    // 加湿器(長辺50cm超): 括弧の前の「加湿器」と比べる(Codex の2回目の指摘)
+    expectInTop("zama", "かしき", "加湿器(長辺50cm超)", 5)
+    // 冷蔵庫・冷凍庫: 区切った「冷凍庫」と比べる
+    expectInTop("osaka", "れいとこ", "冷蔵庫・冷凍庫", 3)
   })
 })
