@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-22T18:04:29.574Z",
+  "generated_at": "2026-10-22T18:12:13.515Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -205,7 +205,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Oil (small amount)"
+      "name_en": "Oil (small amount; excluding kerosene, gasoline and motor oil)"
     },
     {
       "id": "fki-0011",
@@ -1935,7 +1935,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gas stove (gas cooktop; kitchen type; gas canister removed)"
+      "name_en": "Gas stove / gas cooktop (kitchen and tabletop types; gas canister removed)"
     },
     {
       "id": "fki-0109",
@@ -7055,7 +7055,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fishing net (landing net)"
+      "name_en": "Fishing net"
     },
     {
       "id": "fki-0399",
