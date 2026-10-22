@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-22T17:56:38.426Z",
+  "generated_at": "2026-10-22T18:04:29.574Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -5290,7 +5290,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Canvas shoes (sneakers, spiked shoes)"
+      "name_en": "Sneakers / canvas shoes (zukku; including spiked shoes and cleats)"
     },
     {
       "id": "fki-0299",
@@ -8715,7 +8715,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Tubular steel chair (pipe chair; including folding chairs)"
+      "name_en": "Tubular-frame chair (pipe chair; including folding chairs)"
     },
     {
       "id": "fki-0492",
