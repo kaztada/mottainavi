@@ -303,10 +303,21 @@ function isAdjacentSwap(a: string, b: string): boolean {
  * しきい値 0.30 で落ちる短い読みの1字抜け(かしき→かしつき)や、
  * 入れ替え(がすらてぶる→がらすてぶる。Fuse では2文字の誤りになる)を拾う。
  * 部分の全体との比較なので、データに無い語(たんす)が長い品目名の途中に当たることはない。
- * 1字の置き換えは対象にしない(短い語では ぺんき→べんき(便器)のような別の物に当たる)
+ * 1字の置き換えは対象にしない。短い語では、正しく打たれた別の語との区別がつかない
+ * (じどうしゃ→じてんしゃ、体温計→体重計、乾電池→充電池、ぺんき→べんき(便器))。
+ * 検索語がそのまま品目名などと一致するときも救済しない(正しく打たれた語の1字違いは別の物)
  */
 function rescueOneTypo(searcher: Searcher, q: string): SearchIndexItem[] {
   if (q.length < MIN_RESCUE_LENGTH) return []
+  // 検索語がどれかの品目名・読み・別名(の部分)とそのまま一致するなら、打ち間違いではない
+  const exact = (text: string) => rescueTargets(text).includes(q)
+  if (
+    searcher.entries.some(
+      (e) => exact(e.nn) || exact(e.nk) || e.naJa.some(exact)
+    )
+  ) {
+    return []
+  }
   const near = (text: string) =>
     rescueTargets(text).some(
       (target) =>
