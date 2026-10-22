@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-22T23:25:11.525Z",
+  "generated_at": "2026-10-22T23:33:07.810Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -4114,7 +4114,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": "Guitar (wood; up to 1 m long, 50 cm wide, 50 cm deep and 10 kg)"
+      "name_en": "Acoustic guitar (wood; up to 1 m long, 50 cm wide, 50 cm deep and 10 kg)"
     },
     {
       "id": "ube-0234",
@@ -9249,7 +9249,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Spray bottle (trigger sprayer)"
+      "name_en": "Spray bottle"
     },
     {
       "id": "ube-0528",
@@ -14163,7 +14163,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Polystyrene foam (other than packaging)"
+      "name_en": "Polystyrene foam (styrofoam; other than packaging)"
     },
     {
       "id": "ube-0805",
@@ -19030,7 +19030,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ramune bottle (marble soda bottle)"
+      "name_en": "Glass ramune bottle (marble soda bottle)"
     },
     {
       "id": "ube-1084",
