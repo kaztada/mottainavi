@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-21T22:23:04.195Z",
+  "generated_at": "2026-10-22T02:11:28.431Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -7371,7 +7371,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Photo book"
     },
     {
       "id": "ube-0421",
@@ -10211,7 +10211,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clinical thermometer (electronic / digital)"
     },
     {
       "id": "ube-0582",
@@ -18843,7 +18843,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Racket (wood)"
     },
     {
       "id": "ube-1073",
@@ -18860,7 +18860,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Racket (non-wood)"
     },
     {
       "id": "ube-1074",
