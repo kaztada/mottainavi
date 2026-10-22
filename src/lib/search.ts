@@ -181,7 +181,7 @@ export function buildSearchEntries(index: SearchIndexItem[]): SearchEntry[] {
  * 0.35 だと品目の少ない市でデータに無い語(ペンキ・タンス)が関係ない品目に当たり、
  * 「見つかりません→公式サイトへ」の案内にならなかったため 0.30 に下げた(2026-10-22)。
  * 0.30 では、正規化後4文字の短い読みの1字抜け(かしき→加湿器)が Fuse では当たらなくなる。
- * 別の品目だけが残る場合は、下の「1字抜けの救済」(rescueOneTypo)で本来の品目を足す
+ * 別の品目だけが残る場合は、下の「打ち間違いの救済」(rescueOneTypo)で本来の品目を足す
  */
 const SEARCH_THRESHOLD = 0.3
 
@@ -272,11 +272,11 @@ function compareMatch(a: EnglishMatch, b: EnglishMatch): number {
   )
 }
 
-/** 1字抜けの救済に使う検索語の最短の長さ(正規化後)。2文字以下は候補が多すぎる */
+/** 打ち間違いの救済に使う検索語の最短の長さ(正規化後)。2文字以下は候補が多すぎる */
 const MIN_RESCUE_LENGTH = 3
 
 /**
- * 品目名・読み・別名を、1字抜けの救済で比べる単位に分ける。
+ * 品目名・読み・別名を、打ち間違いの救済で比べる単位に分ける。
  * 全体と、文字・数字以外(括弧・ハイフン・「・」「、」など)で区切った各部分。括弧の中も1つの部分にする
  * (廃油(灯油・ガソリン・オイル類)→ガソリン、水槽-ガラス製→水槽、ラケット【…】→ラケット)
  */
@@ -284,10 +284,24 @@ function rescueTargets(text: string): string[] {
   return [text, ...text.split(/[^\p{L}\p{N}]+/u)]
 }
 
+/** 隣どうしの2文字を入れ替えると同じになるか(がすらてぶる→がらすてぶる) */
+function isAdjacentSwap(a: string, b: string): boolean {
+  if (a.length !== b.length) return false
+  let i = 0
+  while (i < a.length && a[i] === b[i]) i++
+  return (
+    i < a.length - 1 &&
+    a[i] === b[i + 1] &&
+    a[i + 1] === b[i] &&
+    a.slice(i + 2) === b.slice(i + 2)
+  )
+}
+
 /**
- * 日本語の検索語に1字足すと、品目名・読み・別名(またはその区切った部分)の
- * 全体になる品目(1字抜けの打ち間違い)。
- * しきい値 0.30 で落ちる短い読みの1字抜け(かしき→かしつき)を拾う。
+ * 日本語の検索語が、品目名・読み・別名(またはその区切った部分)の全体から
+ * 1字抜けたもの、または隣どうしの2文字を入れ替えたものになる品目(打ち間違い)。
+ * しきい値 0.30 で落ちる短い読みの1字抜け(かしき→かしつき)や、
+ * 入れ替え(がすらてぶる→がらすてぶる。Fuse では2文字の誤りになる)を拾う。
  * 部分の全体との比較なので、データに無い語(たんす)が長い品目名の途中に当たることはない。
  * 1字の置き換えは対象にしない(短い語では ぺんき→べんき(便器)のような別の物に当たる)
  */
@@ -295,7 +309,9 @@ function rescueOneTypo(searcher: Searcher, q: string): SearchIndexItem[] {
   if (q.length < MIN_RESCUE_LENGTH) return []
   const near = (text: string) =>
     rescueTargets(text).some(
-      (target) => target.length === q.length + 1 && isOneTypo(q, target)
+      (target) =>
+        (target.length === q.length + 1 && isOneTypo(q, target)) ||
+        isAdjacentSwap(q, target)
     )
   return searcher.entries
     .filter((e) => near(e.nn) || near(e.nk) || e.naJa.some(near))
@@ -303,7 +319,7 @@ function rescueOneTypo(searcher: Searcher, q: string): SearchIndexItem[] {
 }
 
 /**
- * クエリを正規化して検索。日本語の検索語はスコア順(その後ろに1字抜けの救済)、
+ * クエリを正規化して検索。日本語の検索語はスコア順(その後ろに打ち間違いの救済)、
  * 英数字の検索語は語単位の一致を先に並べる
  */
 export function searchItems(
