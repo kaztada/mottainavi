@@ -180,7 +180,8 @@ export function buildSearchEntries(index: SearchIndexItem[]): SearchEntry[] {
  * あいまい検索のしきい値(小さいほど厳しい)。
  * 0.35 だと品目の少ない市でデータに無い語(ペンキ・タンス)が関係ない品目に当たり、
  * 「見つかりません→公式サイトへ」の案内にならなかったため 0.30 に下げた(2026-10-22)。
- * かな・1字違いの打ち間違いは残る。0.25 以下は1字抜け(れいぞこ)が落ち始めるので下げない
+ * 0.30 では、正規化後3〜4文字の短い読みの1字抜け(かしき→加湿器)が Fuse では当たらなくなる。
+ * それは下の「1字抜けの救済」(rescueOneTypo)で拾う
  */
 const SEARCH_THRESHOLD = 0.3
 
@@ -271,7 +272,28 @@ function compareMatch(a: EnglishMatch, b: EnglishMatch): number {
   )
 }
 
-/** クエリを正規化して検索。日本語の検索語はスコア順、英数字の検索語は語単位の一致を先に並べる */
+/** 1字抜けの救済に使う検索語の最短の長さ(正規化後)。2文字以下は候補が多すぎる */
+const MIN_RESCUE_LENGTH = 3
+
+/**
+ * 日本語の検索語に1字足すと、品目名・読み・別名の「全体」になる品目(1字抜けの打ち間違い)。
+ * しきい値 0.30 で落ちる短い読みの1字抜け(かしき→かしつき、ばっり→ばってり)を拾う。
+ * 全体との比較なので、データに無い語(たんす)が長い品目名の一部に当たることはない。
+ * 1字の置き換えは対象にしない(短い語では ぺんき→べんき(便器)のような別の物に当たる)
+ */
+function rescueOneTypo(searcher: Searcher, q: string): SearchIndexItem[] {
+  if (q.length < MIN_RESCUE_LENGTH) return []
+  const near = (target: string) =>
+    target.length === q.length + 1 && isOneTypo(q, target)
+  return searcher.entries
+    .filter((e) => near(e.nn) || near(e.nk) || e.naJa.some(near))
+    .map((e) => e.item)
+}
+
+/**
+ * クエリを正規化して検索。日本語の検索語はスコア順(その後ろに1字抜けの救済)、
+ * 英数字の検索語は語単位の一致を先に並べる
+ */
 export function searchItems(
   searcher: Searcher,
   query: string
@@ -279,5 +301,12 @@ export function searchItems(
   const q = normalizeForSearch(query)
   if (!q) return []
   if (isAsciiQuery(query)) return searchEnglish(searcher, query)
-  return searcher.fuse.search(q).map((r) => r.item.item)
+  const results = searcher.fuse.search(q).map((r) => r.item.item)
+  const seen = new Set(results.map((item) => item.id))
+  for (const item of rescueOneTypo(searcher, q)) {
+    if (seen.has(item.id)) continue
+    seen.add(item.id)
+    results.push(item)
+  }
+  return results
 }
