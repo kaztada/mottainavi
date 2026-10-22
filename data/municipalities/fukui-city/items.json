@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-21T22:30:35.470Z",
+  "generated_at": "2026-10-22T02:01:26.431Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -626,7 +626,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Doghouse (metal, plastic)"
     },
     {
       "id": "fki-0035",
@@ -1562,7 +1562,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Toy (metal, plastic)"
     },
     {
       "id": "fki-0088",
@@ -3924,7 +3924,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sideboard (wood)"
     },
     {
       "id": "fki-0222",
@@ -6817,7 +6817,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Desk (wood)"
     },
     {
       "id": "fki-0385",
@@ -7383,7 +7383,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "TV stand (wood)"
     },
     {
       "id": "fki-0417",
@@ -7405,7 +7405,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "TV stand (metal)"
     },
     {
       "id": "fki-0418",
@@ -12191,7 +12191,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Racket (wood)"
     },
     {
       "id": "fki-0691",

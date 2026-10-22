@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-20T16:52:31.279Z",
+  "generated_at": "2026-10-22T02:01:23.769Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -6346,7 +6346,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Brush cutter (grass trimmer; electric)"
     },
     {
       "id": "knz-0360",
