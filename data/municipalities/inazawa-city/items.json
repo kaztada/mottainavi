@@ -1,6 +1,6 @@
 {
   "municipality_id": "inazawa-city",
-  "generated_at": "2026-10-22T02:01:27.076Z",
+  "generated_at": "2026-10-22T02:11:28.842Z",
   "source_url": "https://www.city.inazawa.aichi.jp/0000003563.html",
   "item_count": 655,
   "items": [
@@ -1752,7 +1752,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Thermometer (electronic)"
+      "name_en": "Thermometer (electronic / digital)"
     },
     {
       "id": "inz-0093",
@@ -2717,7 +2717,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Household fireworks (explosives / gunpowder)"
+      "name_en": "Explosives (household fireworks only)"
     },
     {
       "id": "inz-0145",
@@ -4362,7 +4362,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Surfboard (non-FRP / non-fiberglass)"
+      "name_en": "Surfboard (excluding FRP, fiber-reinforced plastic)"
     },
     {
       "id": "inz-0234",
@@ -4960,7 +4960,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rechargeable batteries (nickel-cadmium, nickel-metal hydride, lithium-ion)"
+      "name_en": "Rechargeable batteries (nickel-cadmium, nickel-metal hydride, lithium-ion; excluding car and electric bicycle batteries)"
     },
     {
       "id": "inz-0267",
@@ -6412,7 +6412,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Clinical thermometer (electronic)"
+      "name_en": "Clinical thermometer (electronic / digital)"
     },
     {
       "id": "inz-0343",
@@ -8334,7 +8334,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Trivet (pot stand)"
+      "name_en": "Trivet (tabletop protector for hot pots)"
     },
     {
       "id": "inz-0444",
@@ -9004,7 +9004,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (large; car batteries etc.)"
+      "name_en": "Battery (large; including car and electric bicycle batteries)"
     },
     {
       "id": "inz-0481",
@@ -9021,7 +9021,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (small rechargeable type)"
+      "name_en": "Battery (small rechargeable type; excluding car and electric bicycle batteries)"
     },
     {
       "id": "inz-0482",
