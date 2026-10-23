@@ -1,0 +1,14 @@
+{
+  "slug": "higashiyamato-city",
+  "item_id_prefix": "hym",
+  "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132209d0000000013",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "このアプリは、以下の著作物を改変して利用しています。ゴミの分別方法、東京都・東大和市、クリエイティブ・コモンズ・ライセンス 表示4.0国際(https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "source_attribution_en": "This app adapts the following work: Garbage Sorting Methods (ゴミの分別方法), Tokyo Metropolitan Government / Higashiyamato City, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "sodai_apply_url": "https://sodai-sys.jp/higashiyamato/users/",
+  "sodai_tel_landline": "042-562-6500",
+  "sodai_tel_mobile": "042-562-6500",
+  "data_fetched_at": "2026-10-23",
+  "data_version": "20261024"
+}

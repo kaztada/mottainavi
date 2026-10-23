@@ -6008,8 +6008,8 @@
     "pref": "東京都",
     "name_ja": "東大和市",
     "name_en": "Higashiyamato City",
-    "status": "unsupported",
-    "official_url": "https://www.city.higashiyamato.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.higashiyamato.lg.jp/kurashi/gomirecycle/index.html"
   },
   {
     "slug": "kiyose-city",
@@ -6980,8 +6980,8 @@
     "pref": "石川県",
     "name_ja": "白山市",
     "name_en": "Hakusan City",
-    "status": "unsupported",
-    "official_url": "https://www.city.hakusan.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.hakusan.lg.jp/seikatsu/kankyo/1001731/1005552/1005554.html"
   },
   {
     "slug": "nomi-city",

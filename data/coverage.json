@@ -18813,21 +18813,6 @@
     ],
     "note": "総当たり 2026-10-16: standard・298行・データの基準日 不明・カタログの更新日 2025-08-13・ライセンスの登録 CC-BY-4.0"
   },
-  "higashiyamato-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ゴミの分別方法一覧(tokyo)",
-        "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132209d0000000013"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.opendata.metro.tokyo.lg.jp/higashiyamato/ods/132209_garbage_separation.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: standard・376行・データの基準日 不明・カタログの更新日 2025-02-28・ライセンスの登録 CC-BY-4.0"
-  },
   "kiyose-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -21553,21 +21538,6 @@
         "url": "https://ckan.opendata.pref.ishikawa.lg.jp/"
       }
     ]
-  },
-  "hakusan-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "白山市 ゴミの分別方法一覧(search-ckan-jp)",
-        "url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/0b9aeda2-cc0f-41fd-95dd-4b6c39d898b9/resource/9c17f282-2c68-48b8-b3b9-b049d642d046/download/172103_garbage_separation.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・1264行・データの基準日 不明・カタログの更新日 2026-01-19・ライセンスの登録 cc-by"
   },
   "nomi-city": {
     "status": "no-data",
