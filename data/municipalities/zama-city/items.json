@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T07:29:41.418Z",
+  "generated_at": "2026-10-23T07:43:05.780Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -1366,7 +1366,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Window fan (with cooling function)"
+      "name_en": "Window air conditioner (window fan with cooling function)"
     },
     {
       "id": "zam-0076",
@@ -1646,7 +1646,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Painting / picture"
+      "name_en": "Painting / picture (on canvas; longest side over 50 cm)"
     },
     {
       "id": "zam-0092",
@@ -3203,7 +3203,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gas stove / tabletop gas cooktop (built-in; when no contractor is involved)"
+      "name_en": "Gas stove / gas cooktop (built-in; removed without a contractor)"
     },
     {
       "id": "zam-0181",
@@ -3220,7 +3220,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gas canister (small, including for beer servers etc.; empty)"
+      "name_en": "Gas cartridge (cassette canisters, home beer dispenser / soda maker cartridges etc.; empty)"
     },
     {
       "id": "zam-0182",
@@ -4945,7 +4945,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooler box (ice chest; longest side over 50 cm; including electric)"
+      "name_en": "Cooler box (ice chest; longest side over 50 cm; including electric types; excluding portable refrigerators)"
     },
     {
       "id": "zam-0281",
@@ -6529,7 +6529,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rice bin (rice storage container; refrigerated)"
+      "name_en": "Refrigerated rice bin (containing fluorocarbons)"
     },
     {
       "id": "zam-0372",
@@ -8425,7 +8425,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fish tank (aquarium; longest side over 50 cm)"
+      "name_en": "Fish tank (aquarium; longest side over 50 cm; excluding FRP)"
     },
     {
       "id": "zam-0478",
@@ -14314,7 +14314,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Futon (Japanese bedding)"
+      "name_en": "Futon (Japanese comforter / floor mattress)"
     },
     {
       "id": "zam-0813",
@@ -14613,7 +14613,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Player (music etc.)"
+      "name_en": "Music player / media player"
     },
     {
       "id": "zam-0830",
@@ -14732,7 +14732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Products containing fluorocarbons (CFCs)"
+      "name_en": "Products containing fluorocarbons (CFCs, HCFCs, HFCs)"
     },
     {
       "id": "zam-0837",
