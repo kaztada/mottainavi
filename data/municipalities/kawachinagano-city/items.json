@@ -1,6 +1,6 @@
 {
   "municipality_id": "kawachinagano-city",
-  "generated_at": "2026-10-23T15:03:59.503Z",
+  "generated_at": "2026-10-23T15:13:29.963Z",
   "source_url": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html",
   "item_count": 1089,
   "items": [
@@ -2790,7 +2790,10 @@
       "name_ja": "買い物袋（レジ袋）",
       "name_kana": "かいものぶくろ（れじぶくろ）",
       "name_romaji": "kaimonobukuro(rejibukuro)",
-      "aliases": [],
+      "aliases": [
+        "ビニール袋",
+        "plastic bag"
+      ],
       "dispositions": [
         {
           "category_id": "pla",
