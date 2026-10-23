@@ -1,6 +1,6 @@
 {
   "municipality_id": "natori-city",
-  "generated_at": "2026-10-23T17:26:15.340Z",
+  "generated_at": "2026-10-23T18:54:43.909Z",
   "source_url": "https://miyagi.dataeye.jp/datasets/710",
   "item_count": 880,
   "items": [
@@ -4003,8 +4003,6 @@
       "name_kana": "けいこうとう（けいこうかん）",
       "name_romaji": "keikoutou(keikoukan)",
       "aliases": [
-        "蛍光管",
-        "fluorescent light",
         "蛍光灯",
         "fluorescent tube"
       ],
@@ -4024,10 +4022,7 @@
       "name_ja": "蛍光灯（照明器具）",
       "name_kana": "けいこうとう（しょうめいきぐ）",
       "name_romaji": "keikoutou(shoumeikigu)",
-      "aliases": [
-        "蛍光管",
-        "fluorescent light"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -9478,7 +9473,6 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
-        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -11331,8 +11325,6 @@
       "name_kana": "ぴあの",
       "name_romaji": "piano",
       "aliases": [
-        "電子ピアノ",
-        "キーボード",
         "piano"
       ],
       "dispositions": [
