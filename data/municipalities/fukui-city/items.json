@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-23T14:19:44.070Z",
+  "generated_at": "2026-10-23T14:32:51.989Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -2568,6 +2568,9 @@
       "name_kana": "ぎたー（もくせいいがい）",
       "name_romaji": "gita-(mokuseiigai)",
       "aliases": [
+        "エレキギター",
+        "アコースティックギター",
+        "アコギ",
         "guitar"
       ],
       "dispositions": [
@@ -5288,6 +5291,7 @@
       "name_romaji": "suto-bu(sekiyu)",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],

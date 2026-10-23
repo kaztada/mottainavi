@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-23T14:19:44.325Z",
+  "generated_at": "2026-10-23T14:32:52.251Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -1886,6 +1886,10 @@
       "name_kana": "おうせつよういす、そふぁ（いちにんようをのぞく）",
       "name_romaji": "ousetsuyouisu,sofua(ichinin'youwonozoku)",
       "aliases": [
+        "ソファ",
+        "カウチ",
+        "sofa",
+        "couch",
         "椅子",
         "イス",
         "チェア",
@@ -8864,7 +8868,6 @@
       "name_romaji": "suto-bu(nagasa1m/haba50cm/okuyuki50cm/omosa10kgijou)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -8886,7 +8889,6 @@
       "name_romaji": "suto-bu(nagasa1m/haba50cm/okuyuki50cm/omosa10kgika)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -14412,6 +14414,7 @@
       "name_kana": "ぴあの（でんしぴあのはのぞく）",
       "name_romaji": "piano(denshipianohanozoku)",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -18640,6 +18643,7 @@
       "name_kana": "らいたー(おいるらいたーいがい)",
       "name_romaji": "raita-(oiruraita-igai)",
       "aliases": [
+        "百円ライター",
         "lighter"
       ],
       "dispositions": [

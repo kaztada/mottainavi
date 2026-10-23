@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T14:19:44.560Z",
+  "generated_at": "2026-10-23T14:32:52.494Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -1099,7 +1099,13 @@
       "name_ja": "衣類（綿なし・革製でないもの）",
       "name_kana": "いるい（めんなし・かわせいでないもの）",
       "name_romaji": "irui(mennashi/kawaseidenaimono)",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "nuno",
@@ -1116,7 +1122,13 @@
       "name_ja": "衣類（布以外）",
       "name_kana": "いるい（ぬのいがい）",
       "name_romaji": "irui(nunoigai)",
-      "aliases": [],
+      "aliases": [
+        "服",
+        "洋服",
+        "古着",
+        "clothes",
+        "clothing"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -8847,7 +8859,6 @@
       "name_romaji": "suto-bu(denki/seramikku/harogen/ka-bon)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],

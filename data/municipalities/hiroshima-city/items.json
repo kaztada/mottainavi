@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-23T14:19:43.208Z",
+  "generated_at": "2026-10-23T14:32:51.128Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -2934,6 +2934,7 @@
       "name_kana": "くーらー(えあこん)",
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
+        "クーラー",
         "エアコン",
         "エアコンディショナー",
         "air conditioner"

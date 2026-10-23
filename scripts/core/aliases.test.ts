@@ -129,16 +129,24 @@ describe("注記で別の物になる品目(Codex の指摘 2026-10-23)", () => 
     expect(aliasesOf("ライス")).toEqual([])
     expect(aliasesOf("風呂いす")).toContain("チェア")
   })
-  it("注記が1つの限定なら、注記を外した一致でも兄弟の別名は付かない。並べた注記は総称なので付く", () => {
+  it("ストーブ・電球の限定付き品目には、限定にその種類の言葉がある兄弟の別名だけ付く", () => {
     expect(aliasesOf("ストーブ（電気）")).not.toContain("石油ストーブ")
     expect(aliasesOf("ストーブ（電気）")).toContain("ヒーター")
-    expect(aliasesOf("電球（蛍光灯）")).not.toContain("LED電球")
+    expect(aliasesOf("ストーブ（電気・ガス）")).not.toContain("石油ストーブ")
+    expect(aliasesOf("ストーブ（石油）")).toContain("石油ストーブ")
     expect(aliasesOf("ストーブ（電気・ガス・灯油）")).toContain("石油ストーブ")
+    expect(aliasesOf("ストーブ（石油ストーブを除く）")).not.toContain(
+      "石油ストーブ"
+    )
     expect(aliasesOf("ストーブ　電気・ガス")).not.toContain("石油ストーブ")
     expect(aliasesOf("ストーブ　電気・ガス")).toContain("ヒーター")
+    expect(aliasesOf("電球（蛍光灯）")).not.toContain("LED電球")
+    expect(aliasesOf("ストーブ")).toContain("石油ストーブ")
+  })
+  it("ほかの語は限定が素材や用途なので、総称の品目に兄弟の別名を付ける", () => {
     expect(aliasesOf("ソファー(二人掛け用以上)")).toContain("ソファ")
-    // ストーブ・電球以外の語は、限定が素材や用途なので総称の品目に兄弟の別名を付ける
     expect(aliasesOf("ギター（木製）")).toContain("エレキギター")
+    expect(aliasesOf("ギター（電動以外）")).toContain("アコギ")
     expect(aliasesOf("パソコン（本体）")).toContain("ノートパソコン")
   })
   it("DVD・CD は機器(プレーヤー・ドライブ)の一部のとき媒体の別名を付けない", () => {

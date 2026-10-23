@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-23T14:19:39.713Z",
+  "generated_at": "2026-10-23T14:32:47.596Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -2977,7 +2977,11 @@
       "name_ja": "楽器（エレクトーン、オルガン、電子ピアノ）",
       "name_kana": "がっき（えれくとーん、おるがん、でんしぴあの）",
       "name_romaji": "gakki(erekuto-n,orugan,denshipiano)",
-      "aliases": [],
+      "aliases": [
+        "電子ピアノ",
+        "キーボード",
+        "piano"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -4651,6 +4655,7 @@
       "name_kana": "くーらー",
       "name_romaji": "ku-ra-",
       "aliases": [
+        "クーラー",
         "エアコン",
         "エアコンディショナー",
         "air conditioner"
@@ -12884,6 +12889,7 @@
       "name_kana": "でんきゅう（LEDでんきゅうふくむ）",
       "name_romaji": "denkyuu(LEDdenkyuufukumu)",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -14900,6 +14906,8 @@
       "name_romaji": "pasokon(desukutoppu/buraunkan'igai,ekishoutou)",
       "aliases": [
         "PC",
+        "ノートパソコン",
+        "デスクトップパソコン",
         "laptop",
         "computer"
       ],

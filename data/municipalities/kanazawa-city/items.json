@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-23T14:19:40.901Z",
+  "generated_at": "2026-10-23T14:32:48.799Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -5318,6 +5318,9 @@
       "name_kana": "ぎたー（でんどういがい、70cmいか）",
       "name_romaji": "gita-(dendouigai,70cmika)",
       "aliases": [
+        "エレキギター",
+        "アコースティックギター",
+        "アコギ",
         "guitar"
       ],
       "dispositions": [
@@ -5359,6 +5362,9 @@
       "name_kana": "ぎたー（でんどういがい、70cmちょう）",
       "name_romaji": "gita-(dendouigai,70cmchou)",
       "aliases": [
+        "エレキギター",
+        "アコースティックギター",
+        "アコギ",
         "guitar"
       ],
       "dispositions": [
@@ -24177,7 +24183,11 @@
       "name_ja": "ポット（金属部分80％未満、電動以外、ガラス・陶磁器製以外・プラスチック資源以外）",
       "name_kana": "ぽっと（きんぞくぶぶん80ぱーせんとみまん、でんどういがい、がらす・とうじきせいいがい・ぷらすちっくしげんいがい）",
       "name_romaji": "potto(kinzokububun80pa-sentomiman,dendouigai,garasu/toujikiseiigai/purasuchikkushigen'igai)",
-      "aliases": [],
+      "aliases": [
+        "電気ポット",
+        "電気ケトル",
+        "kettle"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",

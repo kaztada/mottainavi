@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-23T14:19:40.294Z",
+  "generated_at": "2026-10-23T14:32:48.185Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -6008,6 +6008,7 @@
       "name_kana": "くーらー(しつがいき）",
       "name_romaji": "ku-ra-(shitsugaiki)",
       "aliases": [
+        "クーラー",
         "エアコン",
         "エアコンディショナー",
         "air conditioner"

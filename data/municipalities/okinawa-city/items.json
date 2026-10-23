@@ -1,6 +1,6 @@
 {
   "municipality_id": "okinawa-city",
-  "generated_at": "2026-10-23T14:19:39.901Z",
+  "generated_at": "2026-10-23T14:32:47.790Z",
   "source_url": "https://data.bodik.jp/dataset/472115_separate_garbage_20241201",
   "item_count": 745,
   "items": [
@@ -3282,6 +3282,7 @@
       "name_kana": "くーらー",
       "name_romaji": "ku-ra-",
       "aliases": [
+        "クーラー",
         "エアコン",
         "エアコンディショナー",
         "air conditioner"

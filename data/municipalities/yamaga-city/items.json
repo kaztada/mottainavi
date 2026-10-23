@@ -1,6 +1,6 @@
 {
   "municipality_id": "yamaga-city",
-  "generated_at": "2026-10-23T14:19:41.131Z",
+  "generated_at": "2026-10-23T14:32:49.025Z",
   "source_url": "https://data.bodik.jp/dataset/432083_bunbetsu",
   "item_count": 1087,
   "items": [
@@ -4327,6 +4327,7 @@
       "name_kana": "くーらー（えあこん）",
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
+        "クーラー",
         "エアコン",
         "エアコンディショナー",
         "air conditioner"

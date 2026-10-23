@@ -1,6 +1,6 @@
 {
   "municipality_id": "sukagawa-city",
-  "generated_at": "2026-10-23T14:19:40.072Z",
+  "generated_at": "2026-10-23T14:32:47.962Z",
   "source_url": "https://www.city.sukagawa.fukushima.jp/shisei/gaiyo/opendata/1004902/8865.html",
   "item_count": 569,
   "items": [
@@ -2637,6 +2637,7 @@
       "name_kana": "くーらー（えあこん）",
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
+        "クーラー",
         "エアコン",
         "エアコンディショナー",
         "air conditioner"

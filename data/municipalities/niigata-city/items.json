@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-23T14:19:42.388Z",
+  "generated_at": "2026-10-23T14:32:50.300Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -3951,6 +3951,7 @@
       "name_kana": "くーらー（しつないき・しつがいき）",
       "name_romaji": "ku-ra-(shitsunaiki/shitsugaiki)",
       "aliases": [
+        "クーラー",
         "エアコン",
         "エアコンディショナー",
         "air conditioner"
@@ -7613,6 +7614,7 @@
       "name_romaji": "suto-bu(sekiyushiki)",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -7634,7 +7636,6 @@
       "name_romaji": "suto-bu(denki/gasushiki)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],

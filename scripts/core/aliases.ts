@@ -180,10 +180,7 @@ function undecorated(part: string): string {
   return stripped.length > 0 ? stripped : part
 }
 
-/**
- * 注記に「〜以外」「〜を除く」「〜不可」などがあるか。「油（食用以外）」「ストーブ（石油を除く）」は
- * 注記を外すと別の物になるので、注記を外した一致は使わない
- */
+/** 限定の文に「〜以外」「〜を除く」「〜不可」があるか(ストーブ（石油ストーブを除く）) */
 const NEGATION = /以外|除く|除き|を除|ではな|でな|のぞ|不可|できな|なし/
 
 /**
@@ -198,24 +195,21 @@ export function buildItemAliases(
   const out = new Set<string>(dict[name] ?? [])
   const info = analyzeName(name)
   const parts = info.parts
-  const noteStripOk = !NEGATION.test(info.notes)
-
   // 1文字の語(油・本・靴・鏡)は注記で別の物になりやすい(靴（スキー靴）・鏡（手鏡）)ので、
   // 注記のない品目名(「本類」のように末尾の言葉だけ外したものは可)のときだけ一致とみなす
   const wholeExact = cmp(undecorated(normalize(name).trim()))
-  // 注記が1つの限定(「ストーブ（電気）」「電球（蛍光灯）」)なら、その品目は下位の種類なので、
-  // STRICT_SIBLINGS の語では注記を外した一致でも兄弟の別名(石油ストーブ・LED電球)は付けない。
-  // 「（電気・ガス・灯油）」のように並べた注記は総称なので全部付ける
-  // (「ストーブ　電気・ガス」のように空白のあとに限定を書いた品目名も同じ)
-  const qualifier =
-    (info.notes.length > 0 && !/[・、，,／/＆&]/.test(info.notes)) ||
-    /\s/.test(normalize(name).trim())
+  // ストーブ・電球(STRICT_SIBLINGS)で注記や空白のあとに限定を書いた品目(「ストーブ（電気）」
+  // 「ストーブ　電気・ガス」)には、限定にその種類の言葉(石油。灯油も同じ)がある兄弟の別名だけ付ける
+  // (「ストーブ（石油）」に石油ストーブ。「ストーブ（石油を除く）」には付けない)
+  const trimmed = normalize(name).trim()
+  const spaceAt = trimmed.search(/\s/)
+  const qualText = (
+    info.notes + (spaceAt >= 0 ? trimmed.slice(spaceAt) : "")
+  ).replace(/灯油/g, "石油")
   const exactParts = new Set<string>()
-  if (noteStripOk) {
-    for (const p of parts) {
-      exactParts.add(cmp(p))
-      exactParts.add(cmp(undecorated(p)))
-    }
+  for (const p of parts) {
+    exactParts.add(cmp(p))
+    exactParts.add(cmp(undecorated(p)))
   }
   // 語で終わるかは、かなをそろえず(NFKC・小文字だけ)で見る。そろえると「スパイス」が「いす」で終わる
   const tailParts = [...new Set(parts.map((p) => undecorated(p)))]
@@ -228,10 +222,18 @@ export function buildItemAliases(
     if (k.length < 2 ? wholeExact === k : exactParts.has(k)) {
       for (const v of vals) {
         const nv = cmp(v)
-        const strict = qualifier && STRICT_SIBLINGS.has(key)
-        if (!(strict && wholeExact !== k && nv !== k && nv.includes(k))) {
-          out.add(v)
+        if (
+          qualText.length > 0 &&
+          STRICT_SIBLINGS.has(key) &&
+          wholeExact !== k &&
+          nv !== k &&
+          nv.includes(k)
+        ) {
+          // 兄弟の別名は、限定にその種類の言葉があり、否定されていないときだけ
+          const kind = nv.replace(k, "")
+          if (!cmp(qualText).includes(kind) || NEGATION.test(qualText)) continue
         }
+        out.add(v)
       }
       continue
     }
