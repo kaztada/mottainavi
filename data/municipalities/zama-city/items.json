@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T08:30:40.818Z",
+  "generated_at": "2026-10-23T08:44:32.812Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -1629,7 +1629,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Exercise equipment"
+      "name_en": "Exercise equipment (non-hydraulic)"
     },
     {
       "id": "zam-0091",
@@ -6750,7 +6750,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Compressor (including those with a generator or engine; excluding household air compressors)"
+      "name_en": "Compressor (including those with a generator or engine; excluding non-hydraulic household air compressors)"
     },
     {
       "id": "zam-0385",
@@ -10747,7 +10747,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "CO2 gas cartridge (CO2 cylinder; empty)"
+      "name_en": "CO2 cartridge / cylinder (for household soda makers / beer dispensers; empty)"
     },
     {
       "id": "zam-0610",
@@ -15926,7 +15926,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dress form / torso (for sewing; excluding mannequins, plaster forms and forms with concrete weights)"
+      "name_en": "Dress form / torso (for household sewing; excluding plaster forms and forms with concrete weights)"
     },
     {
       "id": "zam-0904",
