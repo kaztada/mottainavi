@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-22T23:33:07.810Z",
+  "generated_at": "2026-10-23T01:27:48.578Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -4352,7 +4352,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Inhaler (for asthma)"
+      "name_en": "Inhaler / nebulizer (for asthma)"
     },
     {
       "id": "ube-0248",
@@ -5801,7 +5801,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Go board / shogi board (wood; board up to 10 cm thick)"
+      "name_en": "Go board / shogi (Japanese chess) board (wood; board up to 10 cm thick)"
     },
     {
       "id": "ube-0331",
@@ -7762,7 +7762,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shogi pieces (plastic)"
+      "name_en": "Shogi pieces (Japanese chess; plastic)"
     },
     {
       "id": "ube-0444",
@@ -7779,7 +7779,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shogi pieces (wood)"
+      "name_en": "Shogi pieces (Japanese chess; wood)"
     },
     {
       "id": "ube-0445",
