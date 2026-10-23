@@ -24,14 +24,13 @@ import {
 const GOMI = "https://www.city.echizen.lg.jp/office/kankyounourin/051/"
 const DASHIKATA = GOMI + "gomirecycle/dasikata-wakekata.html" // ごみの出し方・分け方(2026-02-17)
 const YUGAI = GOMI + "gomirecycle/yugai.html" // 有害ごみの出し方(2023-11-27)
-const JUDEN = GOMI + "gomirecycle/juudennsiki-denchi.html" // 小型充電式電池(2023-11-27)
 const SODAI = GOMI + "gomirecycle/sodai.html" // 粗大ごみ(2026-06-30)
 const STOCKYARD = GOMI + "kinzokudenkiseihinkaisyu.html" // ストックヤード(2024-12-26)
 const KOGATA = GOMI + "kogata_kaden.html" // 小型家電回収ボックス(2026-03-09)
 
 const NOTE = "※もったいナビ注: "
 
-/** 電池の出し方(有害ごみのページ・小型充電式電池のページ・小型家電回収ボックスのページ) */
+/** 電池の出し方(有害ごみのページ・小型充電式電池のページ gomirecycle/juudennsiki-denchi.html 2023-11-27・小型家電回収ボックスのページ) */
 const BATTERY =
   "電池で動くものは、電池・バッテリーを外してから出します。乾電池・ボタン電池・充電式電池・モバイルバッテリー・電子たばこは、月2回の資源ごみの日に、資源ごみステーションの「有害ごみ」専用カゴへ(バッテリーが内蔵されていて取り出せない製品は、そのまま有害ごみへ。小型家電回収ボックスにそのまま入れることもできます)。小型充電式電池(ニカド・ニッケル水素・リチウムイオンなど)は、電気店などのリサイクル協力店の回収ボックスにも出せます(金属端子をテープで絶縁)。車やバイクのバッテリーは有害ごみに出せません(第2清掃センターへ直接搬入)。"
 

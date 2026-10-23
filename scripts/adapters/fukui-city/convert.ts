@@ -109,8 +109,8 @@ export function toStandardCsv(
       )
     }
     const cells = r.map((c) => c.trim())
-    const [, , name, , label, bunrui] = cells
-    let [, , , , , , joken, biko] = cells
+    const [, , name, , label, bunrui, joken] = cells
+    let biko = cells[7]
     const extra = cells.slice(EXPECTED_HEADER.length)
     const fix = fixes[name]
     if (fix) {
