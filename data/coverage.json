@@ -21920,21 +21920,6 @@
     ],
     "note": "総当たり 2026-10-16: csv・1138行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
   },
-  "sabae-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ゴミの分別(福井県鯖江市)(search-ckan-jp)",
-        "url": "https://ckan.odp.jig.jp/dataset/jp-fukui-sabae-203-odp"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://data.odp.jig.jp/viewcsv/jp/fukui/sabae/203.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・478行・データの基準日 不明・カタログの更新日 2025-07-16・ライセンスの登録 CC-BY-2.1"
-  },
   "awara-city": {
     "status": "candidate",
     "checked_at": "2026-10-16",
@@ -21949,21 +21934,6 @@
       }
     ],
     "note": "総当たり 2026-10-16: csv・766行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
-  },
-  "echizen-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみ分別一覧 越前市(福井県・県内17市町共同公開データ)(fukui-pref)",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/etizenshibunbetu.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・761行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
   },
   "fukui-sakai-city": {
     "status": "candidate",
@@ -21994,21 +21964,6 @@
       }
     ],
     "note": "総当たり 2026-10-16: csv・430行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
-  },
-  "fukui-ikeda-town": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみ分別一覧 池田町(福井県・県内17市町共同公開データ)(fukui-pref)",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/ikedatyoubunbetu.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・514行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
   },
   "minamiechizen-town": {
     "status": "candidate",

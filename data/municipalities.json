@@ -7124,8 +7124,8 @@
     "pref": "福井県",
     "name_ja": "鯖江市",
     "name_en": "Sabae City",
-    "status": "unsupported",
-    "official_url": "https://www.city.sabae.fukui.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/gomi_risaikuru/kateigomi/gominobunbetsu.html"
   },
   {
     "slug": "awara-city",
@@ -7142,8 +7142,8 @@
     "pref": "福井県",
     "name_ja": "越前市",
     "name_en": "Echizen City",
-    "status": "unsupported",
-    "official_url": "https://www.city.echizen.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/dasikata-wakekata.html"
   },
   {
     "slug": "fukui-sakai-city",
@@ -7169,8 +7169,8 @@
     "pref": "福井県",
     "name_ja": "池田町",
     "name_en": "Ikeda Town",
-    "status": "unsupported",
-    "official_url": "https://www.town.ikeda.fukui.jp/"
+    "status": "supported",
+    "official_url": "https://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001241.html"
   },
   {
     "slug": "minamiechizen-town",

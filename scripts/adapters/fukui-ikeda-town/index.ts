@@ -1,0 +1,156 @@
+import {
+  type StandardCsvAdapter,
+  type StandardCsvConfig,
+  createStandardCsvAdapter,
+  parseStandardCsv,
+} from "../../core/standard-csv"
+import {
+  type ConvertOptions,
+  LABEL_JOINER,
+  toStandardCsv,
+} from "../fukui-city/convert"
+
+/**
+ * 池田町(福井県)。福井県「ごみ分別一覧」の池田町の CSV(県内の市町の共同公開、CC BY 4.0、UTF-8、514行)。
+ * 県の掲載日は 2026-07-02。町の「50音別ごみ分別表」(R8.5.29時点)と照合済み(2026-10-23。区分が読めた372品目が全部一致、危険物も一致)。
+ * 福井市と同じ県の共通8列なので、福井市の変換(fukui-city/convert.ts)を町の設定で使う。
+ * 2つ以上の出し先が入る行(約103件。区切りは全角の空白・「・」・「、」)は、出し先ごとのカードに分ける。
+ * 粗大ごみは年2回の町内回収と清掃センターへの持込みで、事前申込制ではない(non-burnable + accepts_large_items)。
+ * ごみの処理は南越清掃組合(越前市・南越前町・池田町)。ストックヤードは越前市にある組合の施設。
+ * 町のサイト本体はオープンデータではないので、区分の説明・注記は町のページの事実を自分の言葉で書いた。
+ * 取得元の URL は data/municipalities/fukui-ikeda-town/source.json。更新は CSV の中身のハッシュで見張る。
+ */
+const PAGE = "https://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001241.html" // ごみの出し方(2026-06-25)
+
+const NOTE = "※もったいナビ注: "
+
+/** 電池の出し方(町のごみのページ・50音別ごみ分別表) */
+const BATTERY =
+  "電池で動くものは、電池を外してから出します。乾電池・充電式電池・モバイルバッテリーは「有害ごみ」です(電池が取り出せない製品は、品目ごとの案内に従います。1〜2月は有害ごみの収集がありません)。充電式電池は、電気店・ホームセンターなどのリサイクル協力店の回収ボックスにも出せます(金属端子をテープで絶縁)。"
+
+/** 南越清掃組合の施設への持込み(町のごみのページ) */
+const MOCHIKOMI =
+  "清掃センターに自分で持ち込むこともできます(燃やせるもの・畳・カーペット・布団などはエコクリーンセンター南越 0778-47-2553、平日。燃やせないもの・小型家電類・ストーブ・タンス・机・自転車などは第2清掃センター 0778-28-1370、平日と毎月第2日曜日。どちらも8:30〜16:30、10kgにつき60円)。南越清掃組合が許可した業者に戸別収集を頼むこともできます。"
+
+const STOCK =
+  "越前市のストックヤード(越前市北府1丁目3番20号。南越清掃組合の施設で、池田町の家庭のごみも持ち込める)へ自分で持ち込みます(無料。月・火・金・土・日曜日の8:30〜16:30、12月29日〜1月3日は休み)。受け入れるのは金属類・電気製品・自転車・古紙類で、状態によっては持ち帰りになります。電池・バッテリー・蛍光灯・灯油は、あらかじめ取り除きます。"
+
+const opts: ConvertOptions = {
+  cityCode: "183822",
+  cityName: "池田町",
+  requireEmptyBunrui: false,
+  labelSplit: { pattern: /[・、\s　]+/, keep: ["スプレー・ボンベ類"] },
+}
+
+/** 区分名と同じ意味の表記(これ以外は「出し方: …」で町の表記を残す) */
+const SAME = new Set([
+  "燃やせるごみ",
+  "燃やせないごみ",
+  "粗大ごみ",
+  "ストックヤード",
+  "直接搬入",
+  "有害ごみ",
+  "スプレー・ボンベ類",
+  "プラスチック製容器包装ごみ",
+  "プラスチック製容器包装",
+  "ペットボトル",
+  "あきかん",
+  "あきびん",
+  "古紙回収",
+  "家電リサイクル品",
+  "収集できません",
+  "食Uターン",
+])
+
+export const fukuiIkedaTownConfig: StandardCsvConfig = {
+  slug: "fukui-ikeda-town",
+  name: "池田町",
+  watch: {
+    kind: "page-content",
+    pageUrl:
+      "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/ikedatyoubunbetu.csv",
+    select: (text) => text,
+  },
+  encoding: "utf-8",
+  headerPrefix: "",
+  expectedMinItems: 480,
+  labelSeparator: LABEL_JOINER,
+  sameAsCategory: SAME,
+  labelToId: {
+    燃やせるごみ: "kanen",
+    燃やせないごみ: "funen",
+    // 原本の書き損じ(工具(電動式)の1行)
+    やせないごみ: "funen",
+    粗大ごみ: "sodai",
+    "粗大ごみ(小型家電)": "sodai",
+    "粗大ごみ(有価金属類)": "sodai",
+    ストックヤード: "stockyard",
+    直接搬入: "chokusetsu",
+    有害ごみ: "yugai",
+    "スプレー・ボンベ類": "spray",
+    プラスチック製容器包装ごみ: "pla",
+    プラスチック製容器包装: "pla",
+    ペットボトル: "pet",
+    あきかん: "kan",
+    あきびん: "bin",
+    古紙回収: "koshi",
+    食Uターン: "nama",
+    販売店回収: "hanbaiten",
+    販売店で回収: "hanbaiten",
+    店頭回収: "hanbaiten",
+    家電リサイクル品: "kaden",
+    収集できません: "fuka",
+  },
+  officialLink: {
+    kanen: PAGE,
+    funen: PAGE,
+    sodai: PAGE,
+    stockyard: PAGE,
+    chokusetsu: PAGE,
+    yugai: PAGE,
+    spray: PAGE,
+    pla: PAGE,
+    pet: PAGE,
+    kan: PAGE,
+    bin: PAGE,
+    koshi: PAGE,
+    nama: PAGE,
+    hanbaiten: PAGE,
+    kaden: PAGE,
+    fuka: PAGE,
+  },
+  notCollectedIds: ["fuka"],
+  // 町のページ(ごみの出し方)・50音別ごみ分別表の事実
+  categoryNotes: {
+    kanen: `指定の袋に入れて、収集日の朝8時までに地区のごみステーションへ出します。${BATTERY}`,
+    funen: `指定の袋に入れて、収集日の朝8時までに地区のごみステーションへ出します。袋に入る大きさ・持ち上げても袋が破れない重さまで。それを超えるものは粗大ごみです(品目ごとの案内に従います)。ガラス・陶磁器・刃物は新聞紙などに包み、袋に「ガラス」「刃物」と書きます。${BATTERY}`,
+    sodai: `年2回の町内の粗大ごみ回収日に出します(日は広報いけだなどで知らせます)。${MOCHIKOMI}灯油・電池は抜いてから出します。${BATTERY}`,
+    stockyard: `${STOCK}${BATTERY}`,
+    chokusetsu: `ごみステーションには出せません。第2清掃センター(0778-28-1370。平日と毎月第2日曜日の8:30〜16:30、10kgにつき60円)へ自分で持ち込みます(品目ごとの案内に従います)。灯油・電池は抜いてから出します。${BATTERY}`,
+    yugai: `決められた収集日に、地区のごみステーションへ出します(1〜2月は収集がありません)。乾電池・充電式電池・モバイルバッテリー・ライター・蛍光灯(長さ1.6mまで)・電球・水銀体温計が対象です。${BATTERY}`,
+    spray:
+      "決められた収集日に、地区のごみステーションへ出します(1〜2月は収集がありません)。屋外の火の気がないところで中身を出し切ってから、穴をあけずに出します。",
+    pla: "決められた収集日に、地区のごみステーションへ出します。水ですすぐなどしてから出します(プラマークのある容器包装)。",
+    pet: "決められた収集日に、地区のごみステーションへ出します。水ですすぐなどしてから出します。",
+    kan: "決められた収集日に、地区のごみステーションへ出します。水ですすぐなどしてから出します。",
+    bin: "決められた収集日に、地区のごみステーションへ出します。水ですすぐなどしてから出します。",
+    koshi: "町内の資源回収の日に出します(日はチラシなどで知らせます)。越前市のストックヤードにも持ち込めます(無料)。",
+    nama: "生ごみは、町の「食Uターン」事業で集めています。指定の紙袋に入れて出します(品目ごとの案内に従います)。",
+    hanbaiten: `販売店・回収協力店の回収を利用します(品目ごとの案内に従います)。${BATTERY}`,
+    kaden:
+      "町では収集しません。過去に買った店か、買い替える店に引き取りを頼みます(家電リサイクル法。リサイクル料金が必要)。自分で指定引取場所に運ぶか、業者に運搬を頼むこともできます(町のページ)。",
+    fuka: `品目ごとの案内の窓口(販売店・専門の業者など)に相談してください。${BATTERY}`,
+  },
+  itemNotes: {
+    // 町の表の中で、充電池だけ「販売店回収」。乾電池の注意(充電式も含む)と町のページの有害ごみ(乾電池、充電式電池)は有害ごみ
+    充電池: `${NOTE}町のごみのページでは、充電式電池は「有害ごみ」で出せると案内されています(下の「販売店で回収」の回収ボックスも使えます)。どちらに出すときも、金属端子をテープで絶縁します。`,
+  },
+}
+
+const base = createStandardCsvAdapter(fukuiIkedaTownConfig)
+
+export const fukuiIkedaTownAdapter: StandardCsvAdapter = {
+  ...base,
+  parse: (source) =>
+    parseStandardCsv(fukuiIkedaTownConfig, toStandardCsv(source, opts)),
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "燃やせるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "燃やせないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "non-burnable",
+    "name_ja": "粗大ごみ(町内回収・持込み)",
+    "name_en": "Large Waste (town collection / take to a facility)",
+    "accepts_large_items": true
+  },
+  {
+    "id": "stockyard",
+    "kind": "drop-off",
+    "name_ja": "ストックヤード(持込み)",
+    "name_en": "Stockyard (take it yourself)",
+    "accepts_large_items": true
+  },
+  {
+    "id": "chokusetsu",
+    "kind": "other",
+    "name_ja": "直接搬入(第2清掃センター)",
+    "name_en": "Take to the No. 2 Cleaning Center",
+    "accepts_large_items": true
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste"
+  },
+  {
+    "id": "spray",
+    "kind": "hazardous",
+    "name_ja": "スプレー・ボンベ類",
+    "name_en": "Spray Cans and Gas Canisters"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "プラスチック製容器包装ごみ",
+    "name_en": "Plastic Containers and Packaging"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "あきかん",
+    "name_en": "Cans"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "あきびん",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "koshi",
+    "kind": "paper",
+    "name_ja": "古紙回収",
+    "name_en": "Used Paper Collection"
+  },
+  {
+    "id": "nama",
+    "kind": "burnable",
+    "name_ja": "生ごみ(食Uターン)",
+    "name_en": "Food Waste (Shoku U-turn program)"
+  },
+  {
+    "id": "hanbaiten",
+    "kind": "maker-recycle",
+    "name_ja": "販売店回収",
+    "name_en": "Store Take-back"
+  },
+  {
+    "id": "kaden",
+    "kind": "maker-recycle",
+    "name_ja": "家電リサイクル品",
+    "name_en": "Home Appliance Recycling Items"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "収集できません",
+    "name_en": "Not Accepted by the Town"
+  }
+]

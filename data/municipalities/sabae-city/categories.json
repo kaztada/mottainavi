@@ -1,0 +1,148 @@
+[
+  {
+    "id": "moyasu",
+    "kind": "burnable",
+    "name_ja": "燃やすごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "moenai",
+    "kind": "non-burnable",
+    "name_ja": "燃えないごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "ogata",
+    "kind": "non-burnable",
+    "name_ja": "大型ごみ(クリーンセンターへ持込み)",
+    "name_en": "Large Waste (take to the Clean Center)",
+    "accepts_large_items": true
+  },
+  {
+    "id": "mochikomi",
+    "kind": "other",
+    "name_ja": "クリーンセンターへ持込み",
+    "name_en": "Take to the Clean Center",
+    "accepts_large_items": true
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(回収ボックス)",
+    "name_en": "Small Appliances (collection box)"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "色トレー・その他プラ容器包装",
+    "name_en": "Colored Trays and Other Plastic Packaging"
+  },
+  {
+    "id": "seihin-pla",
+    "kind": "plastic",
+    "name_ja": "容器包装以外のプラスチック類",
+    "name_en": "Plastic Products (non-packaging)"
+  },
+  {
+    "id": "shiro-tray",
+    "kind": "plastic",
+    "name_ja": "白トレー",
+    "name_en": "White Foam Trays"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "空きびん",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "空き缶",
+    "name_en": "Cans"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "zatsugami",
+    "kind": "paper",
+    "name_ja": "雑紙類",
+    "name_en": "Mixed Paper"
+  },
+  {
+    "id": "zasshi",
+    "kind": "paper",
+    "name_ja": "雑誌類",
+    "name_en": "Magazines"
+  },
+  {
+    "id": "shinbun",
+    "kind": "paper",
+    "name_ja": "新聞紙",
+    "name_en": "Newspapers"
+  },
+  {
+    "id": "danboru",
+    "kind": "paper",
+    "name_ja": "段ボール類",
+    "name_en": "Cardboard"
+  },
+  {
+    "id": "pack",
+    "kind": "paper",
+    "name_ja": "牛乳パック等",
+    "name_en": "Paper Cartons"
+  },
+  {
+    "id": "seni",
+    "kind": "paper",
+    "name_ja": "繊維類",
+    "name_en": "Textiles and Clothing"
+  },
+  {
+    "id": "oil",
+    "kind": "other",
+    "name_ja": "廃食用油(天ぷら油)",
+    "name_en": "Used Cooking Oil"
+  },
+  {
+    "id": "keikou",
+    "kind": "hazardous",
+    "name_ja": "蛍光灯",
+    "name_en": "Fluorescent Lamps"
+  },
+  {
+    "id": "spray",
+    "kind": "hazardous",
+    "name_ja": "スプレー缶類",
+    "name_en": "Spray Cans and Gas Canisters"
+  },
+  {
+    "id": "kandenchi",
+    "kind": "hazardous",
+    "name_ja": "乾電池類",
+    "name_en": "Dry-cell Batteries"
+  },
+  {
+    "id": "juden",
+    "kind": "hazardous",
+    "name_ja": "充電式電池を含む製品",
+    "name_en": "Rechargeable Batteries and Products Containing Them"
+  },
+  {
+    "id": "ink",
+    "kind": "drop-off",
+    "name_ja": "インクカートリッジ回収ボックス",
+    "name_en": "Ink Cartridge Collection Box"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市では処理不能",
+    "name_en": "Not Accepted by the City"
+  }
+]
