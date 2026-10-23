@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T08:18:43.299Z",
+  "generated_at": "2026-10-23T08:30:40.818Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -2085,7 +2085,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Oil changer (manual)"
+      "name_en": "Oil extractor / oil changer (manual)"
     },
     {
       "id": "zam-0117",
@@ -4249,7 +4249,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dry-cell batteries / rechargeable batteries / lithium-ion batteries (excluding car batteries)"
+      "name_en": "Dry-cell batteries / rechargeable batteries / lithium-ion batteries (excluding car batteries and lead-acid batteries)"
     },
     {
       "id": "zam-0241",
@@ -8331,7 +8331,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bedding (excluding bed frames, sheets and blankets)"
+      "name_en": "Bedding (excluding bed frames, futons, comforters, mattresses, sheets and blankets)"
     },
     {
       "id": "zam-0473",
