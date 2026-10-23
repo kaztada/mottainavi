@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-23T14:50:43.543Z",
+  "generated_at": "2026-10-23T15:04:00.526Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -21375,6 +21375,9 @@
       "name_kana": "CDなど(LD・DVD・ぶるーれい)・けーすをふくむ",
       "name_romaji": "CDnado(LD/DVD/buru-rei)/ke-suwofukumu",
       "aliases": [
+        "ディーブイディー",
+        "ブルーレイ",
+        "Blu-ray",
         "シーディー",
         "コンパクトディスク"
       ],

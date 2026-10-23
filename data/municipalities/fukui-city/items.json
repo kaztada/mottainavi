@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-23T14:50:47.514Z",
+  "generated_at": "2026-10-23T15:04:04.368Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -2303,7 +2303,16 @@
       "name_ja": "革製品（かばん、靴、手袋、財布等）",
       "name_kana": "かわせいひん（かばん、くつ、てぶくろ、さいふとう）",
       "name_romaji": "kawaseihin(kaban,kutsu,tebukuro,saifutou)",
-      "aliases": [],
+      "aliases": [
+        "かばん",
+        "カバン",
+        "鞄",
+        "バッグ",
+        "bag",
+        "スニーカー",
+        "革靴",
+        "shoes"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",

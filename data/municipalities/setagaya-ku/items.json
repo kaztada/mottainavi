@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-23T14:50:44.600Z",
+  "generated_at": "2026-10-23T15:04:01.568Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -5225,6 +5225,9 @@
       "name_kana": "CD（れこーど・LD・DVDなど）",
       "name_romaji": "CD(reko-do/LD/DVDnado)",
       "aliases": [
+        "ディーブイディー",
+        "ブルーレイ",
+        "Blu-ray",
         "シーディー",
         "コンパクトディスク"
       ],

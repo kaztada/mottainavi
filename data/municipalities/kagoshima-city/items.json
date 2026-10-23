@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-23T14:50:42.939Z",
+  "generated_at": "2026-10-23T15:03:59.931Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -3784,7 +3784,13 @@
       "name_ja": "革製品（鞄、ベルト、バッグ等）",
       "name_kana": "かわせいひん（かばん、べると、ばっぐとう）",
       "name_romaji": "kawaseihin(kaban,beruto,baggutou)",
-      "aliases": [],
+      "aliases": [
+        "鞄",
+        "カバン",
+        "かばん",
+        "バッグ",
+        "bag"
+      ],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -6068,7 +6074,12 @@
       "name_ja": "ゲーム機＜携帯型>バッテリーが外せないもの）",
       "name_kana": "げーむき＜けいたいがた>ばってりーがはずせないもの）",
       "name_romaji": "ge-muki＜keitaigata>batteri-gahazusenaimono)",
-      "aliases": [],
+      "aliases": [
+        "ゲーム",
+        "Switch",
+        "PlayStation",
+        "game console"
+      ],
       "dispositions": [
         {
           "category_id": "juden",
