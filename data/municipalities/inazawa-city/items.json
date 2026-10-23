@@ -1,6 +1,6 @@
 {
   "municipality_id": "inazawa-city",
-  "generated_at": "2026-10-22T02:22:25.072Z",
+  "generated_at": "2026-10-23T15:13:35.509Z",
   "source_url": "https://www.city.inazawa.aichi.jp/0000003563.html",
   "item_count": 655,
   "items": [
@@ -46,10 +46,7 @@
       "name_ja": "アイロン台",
       "name_kana": "あいろんだい",
       "name_romaji": "airondai",
-      "aliases": [
-        "スチームアイロン",
-        "iron"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -573,10 +570,7 @@
       "name_ja": "一升びん・ビールのケース（プラスチック製）",
       "name_kana": "いちしょうびん・びーるのけーす（ぷらすちっくせい）",
       "name_romaji": "ichishoubin/bi-runoke-su(purasuchikkusei)",
-      "aliases": [
-        "一升瓶",
-        "sake bottle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -694,13 +688,7 @@
       "name_ja": "衣類乾燥機",
       "name_kana": "いるいかんそうき",
       "name_romaji": "iruikansouki",
-      "aliases": [
-        "服",
-        "洋服",
-        "古着",
-        "clothes",
-        "clothing"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kaden",
@@ -753,7 +741,6 @@
       "name_romaji": "uindoeakon",
       "aliases": [
         "クーラー",
-        "エアコンディショナー",
         "air conditioner"
       ],
       "dispositions": [
@@ -947,7 +934,6 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
-        "掛け時計",
         "腕時計",
         "clock",
         "watch"
@@ -1376,7 +1362,11 @@
       "name_ja": "オートバイ",
       "name_kana": "おーとばい",
       "name_romaji": "o-tobai",
-      "aliases": [],
+      "aliases": [
+        "バイク",
+        "単車",
+        "motorcycle"
+      ],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -1795,9 +1785,7 @@
       "name_ja": "カーテンレール",
       "name_kana": "かーてんれーる",
       "name_romaji": "ka-tenre-ru",
-      "aliases": [
-        "curtain"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -2478,12 +2466,7 @@
       "name_ja": "カバー（自転車、オートバイ等）",
       "name_kana": "かばー（じてんしゃ、おーとばいとう）",
       "name_romaji": "kaba-(jitensha,o-tobaitou)",
-      "aliases": [
-        "チャリ",
-        "ママチャリ",
-        "bicycle",
-        "bike"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -2909,13 +2892,7 @@
       "name_ja": "乾燥機（衣類乾燥機除く）",
       "name_kana": "かんそうき（いるいかんそうきのぞく）",
       "name_romaji": "kansouki(iruikansoukinozoku)",
-      "aliases": [
-        "服",
-        "洋服",
-        "古着",
-        "clothes",
-        "clothing"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -3572,12 +3549,7 @@
       "name_ja": "車いす",
       "name_kana": "くるまいす",
       "name_romaji": "kurumaisu",
-      "aliases": [
-        "椅子",
-        "イス",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -3628,7 +3600,10 @@
       "name_ja": "蛍光管（家庭用）",
       "name_kana": "けいこうかん（かていよう）",
       "name_romaji": "keikoukan(kateiyou)",
-      "aliases": [],
+      "aliases": [
+        "蛍光灯",
+        "fluorescent tube"
+      ],
       "dispositions": [
         {
           "category_id": "keikou",
@@ -3662,7 +3637,17 @@
       "name_ja": "携帯電話",
       "name_kana": "けいたいでんわ",
       "name_romaji": "keitaidenwa",
-      "aliases": [],
+      "aliases": [
+        "スマホ",
+        "スマートフォン",
+        "ガラケー",
+        "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
+        "mobile phone",
+        "cell phone"
+      ],
       "dispositions": [
         {
           "category_id": "kogata",
@@ -3779,13 +3764,7 @@
       "name_ja": "毛皮（衣類）",
       "name_kana": "けがわ（いるい）",
       "name_romaji": "kegawa(irui)",
-      "aliases": [
-        "服",
-        "洋服",
-        "古着",
-        "clothes",
-        "clothing"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "nuno",
@@ -3948,12 +3927,7 @@
       "name_ja": "原動機付自転車（バイク）",
       "name_kana": "げんどうきづけじてんしゃ（ばいく）",
       "name_romaji": "gendoukizukejitensha(baiku)",
-      "aliases": [
-        "チャリ",
-        "ママチャリ",
-        "bicycle",
-        "bike"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -4612,7 +4586,10 @@
       "name_ja": "ＣＤ、ＣＤケース",
       "name_kana": "しーでぃー、しーでぃーけーす",
       "name_romaji": "shi-dei-,shi-dei-ke-su",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク"
+      ],
       "dispositions": [
         {
           "category_id": "funen",
@@ -5185,7 +5162,10 @@
       "name_ja": "除湿機",
       "name_kana": "じょしめき",
       "name_romaji": "joshimeki",
-      "aliases": [],
+      "aliases": [
+        "除湿器",
+        "dehumidifier"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -5247,13 +5227,7 @@
       "name_ja": "食器洗い乾燥機",
       "name_kana": "しょっきあらいかんそうき",
       "name_romaji": "shokkiaraikansouki",
-      "aliases": [
-        "皿",
-        "茶碗",
-        "コップ",
-        "dishes",
-        "tableware"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -5270,13 +5244,7 @@
       "name_ja": "食器棚（木製）",
       "name_kana": "しょっきたな（もくせい）",
       "name_romaji": "shokkitana(mokusei)",
-      "aliases": [
-        "皿",
-        "茶碗",
-        "コップ",
-        "dishes",
-        "tableware"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -5455,7 +5423,12 @@
       "name_ja": "スーツケース（キャリーケース）",
       "name_kana": "すーつけーす（きゃりーけーす）",
       "name_romaji": "su-tsuke-su(kyari-ke-su)",
-      "aliases": [],
+      "aliases": [
+        "キャリーバッグ",
+        "キャリーケース",
+        "suitcase",
+        "スーツケース"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6303,10 +6276,7 @@
       "name_ja": "掃除機のホース",
       "name_kana": "そうじきのほーす",
       "name_romaji": "soujikinoho-su",
-      "aliases": [
-        "クリーナー",
-        "vacuum cleaner"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -6475,12 +6445,7 @@
       "name_ja": "タイヤ（自転車・一輪車用）",
       "name_kana": "たいや（じてんしゃ・いちりんしゃよう）",
       "name_romaji": "taiya(jitensha/ichirinshayou)",
-      "aliases": [
-        "チャリ",
-        "ママチャリ",
-        "bicycle",
-        "bike"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -6514,12 +6479,7 @@
       "name_ja": "タイヤチューブ（自転車用）",
       "name_kana": "たいやちゅーぶ（じてんしゃよう）",
       "name_romaji": "taiyachu-bu(jitenshayou)",
-      "aliases": [
-        "チャリ",
-        "ママチャリ",
-        "bicycle",
-        "bike"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -6865,7 +6825,12 @@
       "name_ja": "たんす",
       "name_kana": "たんす",
       "name_romaji": "tansu",
-      "aliases": [],
+      "aliases": [
+        "たんす",
+        "箪笥",
+        "チェスト",
+        "dresser"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7091,9 +7056,7 @@
       "name_ja": "机（ベッドと一体式）",
       "name_kana": "つくえ（べっどといったいしき）",
       "name_romaji": "tsukue(beddotoittaishiki)",
-      "aliases": [
-        "bed"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7166,7 +7129,11 @@
       "name_ja": "釣り竿（竹製）",
       "name_kana": "つりざお（たけせい）",
       "name_romaji": "tsurizao(takesei)",
-      "aliases": [],
+      "aliases": [
+        "釣竿",
+        "釣りざお",
+        "fishing rod"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7188,7 +7155,11 @@
       "name_ja": "釣り竿（竹製以外）",
       "name_kana": "つりざお（たけせいいがい）",
       "name_romaji": "tsurizao(takeseiigai)",
-      "aliases": [],
+      "aliases": [
+        "釣竿",
+        "釣りざお",
+        "fishing rod"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7265,13 +7236,7 @@
       "name_ja": "ディスプレイ（パソコンモニター）",
       "name_kana": "でぃすぷれい（ぱそこんもにたー）",
       "name_romaji": "deisupurei(pasokonmonita-)",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pc",
@@ -7375,7 +7340,6 @@
       "name_romaji": "desukutoppupasokon",
       "aliases": [
         "PC",
-        "ノートパソコン",
         "デスクトップパソコン",
         "laptop",
         "computer"
@@ -7452,12 +7416,7 @@
       "name_ja": "テレビ台（金属製）",
       "name_kana": "てれびだい（きんぞくせい）",
       "name_romaji": "terebidai(kinzokusei)",
-      "aliases": [
-        "TV",
-        "液晶テレビ",
-        "ブラウン管テレビ",
-        "television"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7479,12 +7438,7 @@
       "name_ja": "テレビ台（木製）",
       "name_kana": "てれびだい（もくせい）",
       "name_romaji": "terebidai(mokusei)",
-      "aliases": [
-        "TV",
-        "液晶テレビ",
-        "ブラウン管テレビ",
-        "television"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7536,7 +7490,6 @@
       "name_romaji": "denkisuto-bu",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -8175,11 +8128,7 @@
       "name_ja": "塗料缶（スプレー缶タイプ）",
       "name_kana": "とりょうかん（すぷれーかんたいぷ）",
       "name_romaji": "toryoukan(supure-kantaipu)",
-      "aliases": [
-        "スプレー",
-        "エアゾール缶",
-        "spray can"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "hakka",
@@ -8196,11 +8145,7 @@
       "name_ja": "塗料缶（スプレー缶タイプ以外）",
       "name_kana": "とりょうかん（すぷれーかんたいぷいがい）",
       "name_romaji": "toryoukan(supure-kantaipuigai)",
-      "aliases": [
-        "スプレー",
-        "エアゾール缶",
-        "spray can"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -8641,7 +8586,6 @@
       "aliases": [
         "PC",
         "ノートパソコン",
-        "デスクトップパソコン",
         "laptop",
         "computer"
       ],
@@ -8954,13 +8898,7 @@
       "name_ja": "パソコン周辺機器（キーボード・マウスなど）",
       "name_kana": "ぱそこんしゅうへんきき（きーぼーど・まうすなど）",
       "name_romaji": "pasokonshuuhenkiki(ki-bo-do/mausunado)",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kogata",
@@ -9118,10 +9056,7 @@
       "name_ja": "刃物（包丁・ナイフ）",
       "name_kana": "はもの（ほうちょう・ないふ）",
       "name_romaji": "hamono(houchou/naifu)",
-      "aliases": [
-        "ナイフ",
-        "knife"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -9753,7 +9688,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -9809,11 +9749,7 @@
       "name_ja": "布団乾燥機",
       "name_kana": "ふとんかんそうき",
       "name_romaji": "futonkansouki",
-      "aliases": [
-        "敷布団",
-        "掛布団",
-        "futon"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -10238,12 +10174,7 @@
       "name_ja": "ペットボトルのキャップ・ラベル",
       "name_kana": "ぺっとぼとるのきゃっぷ・らべる",
       "name_romaji": "pettobotorunokyappu/raberu",
-      "aliases": [
-        "PET",
-        "ペット",
-        "plastic bottle",
-        "ぺっとぼとる"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pla",
@@ -10671,7 +10602,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Portable toilet"
+      "name_en": "Bedside commode (portable toilet)"
     },
     {
       "id": "inz-0571",

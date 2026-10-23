@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-20T14:23:50.541Z",
+  "generated_at": "2026-10-23T15:13:33.061Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -114,10 +114,7 @@
       "name_ja": "アイロン台",
       "name_kana": "あいろんだい",
       "name_romaji": "airondai",
-      "aliases": [
-        "スチームアイロン",
-        "iron"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -134,10 +131,7 @@
       "name_ja": "アイロンプリントの紙",
       "name_kana": "あいろんぷりんとのかみ",
       "name_romaji": "aironpurintonokami",
-      "aliases": [
-        "スチームアイロン",
-        "iron"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -753,10 +747,7 @@
       "name_ja": "一升びんのフタ",
       "name_kana": "いちしょうびんのふた",
       "name_romaji": "ichishoubinnofuta",
-      "aliases": [
-        "一升瓶",
-        "sake bottle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -864,13 +855,7 @@
       "name_ja": "衣類乾燥機（いるいかんそうき）",
       "name_kana": "いるいかんそうき（いるいかんそうき）",
       "name_romaji": "iruikansouki(iruikansouki)",
-      "aliases": [
-        "服",
-        "洋服",
-        "古着",
-        "clothes",
-        "clothing"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -1025,7 +1010,6 @@
       "name_romaji": "uindoueakon",
       "aliases": [
         "クーラー",
-        "エアコンディショナー",
         "air conditioner"
       ],
       "dispositions": [
@@ -1295,7 +1279,6 @@
       "aliases": [
         "TV",
         "液晶テレビ",
-        "ブラウン管テレビ",
         "television"
       ],
       "dispositions": [
@@ -1606,7 +1589,11 @@
       "name_ja": "オートバイ",
       "name_kana": "おーとばい",
       "name_romaji": "o-tobai",
-      "aliases": [],
+      "aliases": [
+        "バイク",
+        "単車",
+        "motorcycle"
+      ],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -2019,9 +2006,7 @@
       "name_ja": "カーテンレール",
       "name_kana": "かーてんれーる",
       "name_romaji": "ka-tenre-ru",
-      "aliases": [
-        "curtain"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -3367,13 +3352,7 @@
       "name_ja": "キーボード（パソコン用）",
       "name_kana": "きーぼーど（ぱそこんよう）",
       "name_romaji": "ki-bo-do(pasokon'you)",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -3942,12 +3921,7 @@
       "name_ja": "空気入れ（自転車用）",
       "name_kana": "くうきいれ（じてんしゃよう）",
       "name_romaji": "kuukiire(jitenshayou)",
-      "aliases": [
-        "チャリ",
-        "ママチャリ",
-        "bicycle",
-        "bike"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -3981,7 +3955,12 @@
       "name_ja": "クーラー（室内機・室外機）",
       "name_kana": "くーらー（しつないき・しつがいき）",
       "name_romaji": "ku-ra-(shitsunaiki/shitsugaiki)",
-      "aliases": [],
+      "aliases": [
+        "クーラー",
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -4389,12 +4368,7 @@
       "name_ja": "車いす",
       "name_kana": "くるまいす",
       "name_romaji": "kurumaisu",
-      "aliases": [
-        "椅子",
-        "イス",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -4513,7 +4487,10 @@
       "name_ja": "蛍光管",
       "name_kana": "けいこうかん",
       "name_romaji": "keikoukan",
-      "aliases": [],
+      "aliases": [
+        "蛍光灯",
+        "fluorescent tube"
+      ],
       "dispositions": [
         {
           "category_id": "tokutei",
@@ -4570,7 +4547,10 @@
         "携帯電話",
         "iPhone",
         "Android",
-        "smartphone"
+        "smartphone",
+        "ガラケー",
+        "mobile phone",
+        "cell phone"
       ],
       "dispositions": [
         {
@@ -5127,8 +5107,6 @@
       "name_kana": "こたつふとん",
       "name_romaji": "kotatsufuton",
       "aliases": [
-        "敷布団",
-        "掛布団",
         "futon"
       ],
       "dispositions": [
@@ -5640,12 +5618,7 @@
       "name_ja": "座椅子（ざいす）",
       "name_kana": "ざいす（ざいす）",
       "name_romaji": "zaisu(zaisu)",
-      "aliases": [
-        "椅子",
-        "イス",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -5849,7 +5822,10 @@
       "name_ja": "雑がみ",
       "name_kana": "ざつがみ",
       "name_romaji": "zatsugami",
-      "aliases": [],
+      "aliases": [
+        "雑紙",
+        "ミックスペーパー"
+      ],
       "dispositions": [
         {
           "category_id": "zasshi",
@@ -5902,11 +5878,7 @@
       "name_ja": "座布団",
       "name_kana": "ざぶとん",
       "name_romaji": "zabuton",
-      "aliases": [
-        "敷布団",
-        "掛布団",
-        "futon"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6095,7 +6067,10 @@
       "name_ja": "ＣＤ・ＣＤＲＯＭ（ケース含む）",
       "name_kana": "しーでぃー・ＣＤＲＯＭ（けーすふくむ）",
       "name_romaji": "shi-dei-/ＣＤＲＯＭ(ke-sufukumu)",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -6253,12 +6228,7 @@
       "name_ja": "自転車のタイヤ・チューブ",
       "name_kana": "じてんしゃのたいや・ちゅーぶ",
       "name_romaji": "jitenshanotaiya/chu-bu",
-      "aliases": [
-        "チャリ",
-        "ママチャリ",
-        "bicycle",
-        "bike"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -6275,12 +6245,7 @@
       "name_ja": "自転車の輪（リム）・チェーン",
       "name_kana": "じてんしゃのわ（りむ）・ちぇーん",
       "name_romaji": "jitenshanowa(rimu)/che-n",
-      "aliases": [
-        "チャリ",
-        "ママチャリ",
-        "bicycle",
-        "bike"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -6603,7 +6568,12 @@
       "name_ja": "充電式電池",
       "name_kana": "じゅうでんしきでんち",
       "name_romaji": "juudenshikidenchi",
-      "aliases": [],
+      "aliases": [
+        "充電池",
+        "充電電池",
+        "二次電池",
+        "rechargeable battery"
+      ],
       "dispositions": [
         {
           "category_id": "tokutei",
@@ -6999,7 +6969,10 @@
       "name_ja": "除湿機（じょしつき）",
       "name_kana": "じょしめき（じょしつき）",
       "name_romaji": "joshimeki(joshitsuki)",
-      "aliases": [],
+      "aliases": [
+        "除湿器",
+        "dehumidifier"
+      ],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -7090,13 +7063,7 @@
       "name_ja": "食器洗い器（乾燥機能付き含む）",
       "name_kana": "しょっきあらいき（かんそうきのうつきふくむ）",
       "name_romaji": "shokkiaraiki(kansoukinoutsukifukumu)",
-      "aliases": [
-        "皿",
-        "茶碗",
-        "コップ",
-        "dishes",
-        "tableware"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7113,13 +7080,7 @@
       "name_ja": "食器乾燥器",
       "name_kana": "しょっきかんそうき",
       "name_romaji": "shokkikansouki",
-      "aliases": [
-        "皿",
-        "茶碗",
-        "コップ",
-        "dishes",
-        "tableware"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7136,13 +7097,7 @@
       "name_ja": "食器棚",
       "name_kana": "しょっきたな",
       "name_romaji": "shokkitana",
-      "aliases": [
-        "皿",
-        "茶碗",
-        "コップ",
-        "dishes",
-        "tableware"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7386,7 +7341,12 @@
       "name_ja": "スーツケース（キャリーケース）",
       "name_kana": "すーつけーす（きゃりーけーす）",
       "name_romaji": "su-tsuke-su(kyari-ke-su)",
-      "aliases": [],
+      "aliases": [
+        "キャリーバッグ",
+        "キャリーケース",
+        "suitcase",
+        "スーツケース"
+      ],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -7682,7 +7642,6 @@
       "name_romaji": "suto-bu(denki/gasushiki)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -7702,12 +7661,7 @@
       "name_ja": "ストーブガード",
       "name_kana": "すとーぶがーど",
       "name_romaji": "suto-buga-do",
-      "aliases": [
-        "ヒーター",
-        "石油ストーブ",
-        "heater",
-        "stove"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7826,12 +7780,7 @@
       "name_ja": "砂時計",
       "name_kana": "すなどけい",
       "name_romaji": "sunadokei",
-      "aliases": [
-        "掛け時計",
-        "腕時計",
-        "clock",
-        "watch"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -8753,10 +8702,6 @@
       "name_kana": "そふぁーべっど",
       "name_romaji": "sofua-beddo",
       "aliases": [
-        "ソファ",
-        "カウチ",
-        "sofa",
-        "couch",
         "bed"
       ],
       "dispositions": [
@@ -8894,10 +8839,7 @@
       "name_ja": "タイプライター",
       "name_kana": "たいぷらいたー",
       "name_romaji": "taipuraita-",
-      "aliases": [
-        "百円ライター",
-        "lighter"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -9314,7 +9256,12 @@
       "name_ja": "たんす",
       "name_kana": "たんす",
       "name_romaji": "tansu",
-      "aliases": [],
+      "aliases": [
+        "たんす",
+        "箪笥",
+        "チェスト",
+        "dresser"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -9489,12 +9436,7 @@
       "name_ja": "チューナー（衛星テレビ用など）",
       "name_kana": "ちゅーなー（えいせいてれびようなど）",
       "name_romaji": "chu-na-(eiseiterebiyounado)",
-      "aliases": [
-        "TV",
-        "液晶テレビ",
-        "ブラウン管テレビ",
-        "television"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -9872,7 +9814,11 @@
       "name_ja": "釣り竿（木製・カーボン製）",
       "name_kana": "つりざお（もくせい・かーぼんせい）",
       "name_romaji": "tsurizao(mokusei/ka-bonsei)",
-      "aliases": [],
+      "aliases": [
+        "釣竿",
+        "釣りざお",
+        "fishing rod"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -9906,7 +9852,11 @@
       "name_ja": "ＤＶＤ・ＤＶＤＲＯＭ（ケース含む）",
       "name_kana": "ＤＶＤ・ＤＶＤＲＯＭ（けーすふくむ）",
       "name_romaji": "ＤＶＤ/ＤＶＤＲＯＭ(ke-sufukumu)",
-      "aliases": [],
+      "aliases": [
+        "ディーブイディー",
+        "ブルーレイ",
+        "Blu-ray"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -9940,13 +9890,7 @@
       "name_ja": "ディスプレイ（パソコン用）",
       "name_kana": "でぃすぷれい（ぱそこんよう）",
       "name_romaji": "deisupurei(pasokon'you)",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -10240,12 +10184,7 @@
       "name_ja": "テレビ台",
       "name_kana": "てれびだい",
       "name_romaji": "terebidai",
-      "aliases": [
-        "TV",
-        "液晶テレビ",
-        "ブラウン管テレビ",
-        "television"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10262,13 +10201,7 @@
       "name_ja": "テンキー（パソコン用）",
       "name_kana": "てんきー（ぱそこんよう）",
       "name_romaji": "tenki-(pasokon'you)",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -10636,12 +10569,7 @@
       "name_ja": "電動車いす",
       "name_kana": "でんどうくるまいす",
       "name_romaji": "dendoukurumaisu",
-      "aliases": [
-        "椅子",
-        "イス",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -11895,7 +11823,11 @@
       "name_ja": "バイク",
       "name_kana": "ばいく",
       "name_romaji": "baiku",
-      "aliases": [],
+      "aliases": [
+        "オートバイ",
+        "単車",
+        "motorcycle"
+      ],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -12105,13 +12037,7 @@
       "name_ja": "パソコンケース",
       "name_kana": "ぱそこんけーす",
       "name_romaji": "pasokonke-su",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -12128,13 +12054,7 @@
       "name_ja": "パソコン用ラック",
       "name_kana": "ぱそこんようらっく",
       "name_romaji": "pasokon'yourakku",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -12525,12 +12445,7 @@
       "name_ja": "ハンドル（自転車）",
       "name_kana": "はんどる（じてんしゃ）",
       "name_romaji": "handoru(jitensha)",
-      "aliases": [
-        "チャリ",
-        "ママチャリ",
-        "bicycle",
-        "bike"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -12758,10 +12673,7 @@
       "name_ja": "ビールびんのふた",
       "name_kana": "びーるびんのふた",
       "name_romaji": "bi-rubinnofuta",
-      "aliases": [
-        "ビール瓶",
-        "beer bottle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -13376,7 +13288,8 @@
       "aliases": [
         "敷布団",
         "掛布団",
-        "futon"
+        "futon",
+        "布団"
       ],
       "dispositions": [
         {
@@ -13394,11 +13307,7 @@
       "name_ja": "布団乾燥機（ふとんかんそうき）",
       "name_kana": "ふとんかんそうき（ふとんかんそうき）",
       "name_romaji": "futonkansouki(futonkansouki)",
-      "aliases": [
-        "敷布団",
-        "掛布団",
-        "futon"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -13487,8 +13396,6 @@
       "name_romaji": "purazumaterebi",
       "aliases": [
         "TV",
-        "液晶テレビ",
-        "ブラウン管テレビ",
         "television"
       ],
       "dispositions": [
@@ -13592,13 +13499,7 @@
       "name_ja": "プリンター（パソコン用など）",
       "name_kana": "ぷりんたー（ぱそこんようなど）",
       "name_romaji": "purinta-(pasokon'younado)",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -13651,8 +13552,6 @@
       "name_romaji": "purojekushonterebi",
       "aliases": [
         "TV",
-        "液晶テレビ",
-        "ブラウン管テレビ",
         "television"
       ],
       "dispositions": [
@@ -13812,10 +13711,7 @@
       "name_ja": "ヘアアイロン",
       "name_kana": "へああいろん",
       "name_romaji": "heaairon",
-      "aliases": [
-        "スチームアイロン",
-        "iron"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -13975,12 +13871,7 @@
       "name_ja": "ペットボトルのキャップ・ラベル",
       "name_kana": "ぺっとぼとるのきゃっぷ・らべる",
       "name_romaji": "pettobotorunokyappu/raberu",
-      "aliases": [
-        "PET",
-        "ペット",
-        "plastic bottle",
-        "ぺっとぼとる"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pla",
@@ -14052,12 +13943,7 @@
       "name_ja": "ベビーガード（ストーブガード含む）",
       "name_kana": "べびーがーど（すとーぶがーどふくむ）",
       "name_romaji": "bebi-ga-do(suto-buga-dofukumu)",
-      "aliases": [
-        "ヒーター",
-        "石油ストーブ",
-        "heater",
-        "stove"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -14557,8 +14443,6 @@
       "name_romaji": "po-taburuterebi",
       "aliases": [
         "TV",
-        "液晶テレビ",
-        "ブラウン管テレビ",
         "television"
       ],
       "dispositions": [
@@ -14587,7 +14471,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Portable toilet"
+      "name_en": "Bedside commode (portable toilet)"
     },
     {
       "id": "nig-0833",
@@ -14853,7 +14737,10 @@
       "name_ja": "ポリ袋",
       "name_kana": "ぽりぶくろ",
       "name_romaji": "poribukuro",
-      "aliases": [],
+      "aliases": [
+        "ビニール袋",
+        "plastic bag"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -14921,9 +14808,7 @@
       "name_ja": "本（書籍・雑誌・まんが本など）",
       "name_kana": "ほん（しょせき・ざっし・まんがほんなど）",
       "name_romaji": "hon(shoseki/zasshi/mangahonnado)",
-      "aliases": [
-        "magazine"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "zasshi",
@@ -15008,13 +14893,7 @@
       "name_ja": "マウス（パソコン用）",
       "name_kana": "まうす（ぱそこんよう）",
       "name_romaji": "mausu(pasokon'you)",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -15645,13 +15524,7 @@
       "name_ja": "メモリー（パソコン用）",
       "name_kana": "めもりー（ぱそこんよう）",
       "name_romaji": "memori-(pasokon'you)",
-      "aliases": [
-        "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
-        "laptop",
-        "computer"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -16256,10 +16129,7 @@
       "name_ja": "ラベルライター",
       "name_kana": "らべるらいたー",
       "name_romaji": "raberuraita-",
-      "aliases": [
-        "百円ライター",
-        "lighter"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "maizuru-city",
-  "generated_at": "2026-10-20T06:09:01.867Z",
+  "generated_at": "2026-10-23T15:13:31.309Z",
   "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
   "item_count": 115,
   "items": [
@@ -111,12 +111,7 @@
       "name_ja": "ペットボトルのラベル・キャップ",
       "name_kana": "ぺっとぼとるのらべる・きゃっぷ",
       "name_romaji": "pettobotorunoraberu/kyappu",
-      "aliases": [
-        "PET",
-        "ペット",
-        "plastic bottle",
-        "ぺっとぼとる"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pla",
@@ -924,7 +919,11 @@
       "name_ja": "CDプレーヤー・DVDプレーヤー（電池が取り外せるもの）",
       "name_kana": "CDぷれーやー・DVDぷれーやー（でんちがとりはずせるもの）",
       "name_romaji": "CDpure-ya-/DVDpure-ya-(denchigatorihazuserumono)",
-      "aliases": [],
+      "aliases": [
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
+      ],
       "dispositions": [
         {
           "category_id": "umetate",
@@ -1500,8 +1499,7 @@
       "name_romaji": "keikoutou(denkyuugatafukumu)",
       "aliases": [
         "蛍光管",
-        "fluorescent light",
-        "light bulb"
+        "fluorescent light"
       ],
       "dispositions": [
         {
@@ -1536,7 +1534,11 @@
       "name_ja": "CDプレーヤー・DVDプレーヤー（電池が取り外せないもの）",
       "name_kana": "CDぷれーやー・DVDぷれーやー（でんちがとりはずせないもの）",
       "name_romaji": "CDpure-ya-/DVDpure-ya-(denchigatorihazusenaimono)",
-      "aliases": [],
+      "aliases": [
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
+      ],
       "dispositions": [
         {
           "category_id": "yugai",
@@ -1981,7 +1983,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",

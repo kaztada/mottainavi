@@ -29,6 +29,7 @@ import {
   inferReuseCategory,
   katakanaToHiragana,
 } from "./enrich"
+import { buildItemAliases } from "./aliases"
 import { assignIds, emptyIdMap } from "./ids"
 import {
   COMMON_ALIASES_PATH,
@@ -187,14 +188,8 @@ export async function runPipeline(
       })
     }
 
-    // 別名マージ: 完全一致に加え、2文字以上のキーは品目名への部分一致でも付与
-    // (例: 「ペットボトル」の別名 PET を「ジュースのペットボトル」にも)
-    const aliasSet = new Set<string>(aliasesDict[raw.name_ja] ?? [])
-    for (const [key, vals] of Object.entries(aliasesDict)) {
-      if (key.length >= 2 && key !== raw.name_ja && raw.name_ja.includes(key)) {
-        for (const v of vals) aliasSet.add(v)
-      }
-    }
+    // 別名: 品目名(注記を除く)が辞書の語と一致、または語で終わるときだけ付ける(scripts/core/aliases.ts)
+    const aliases = buildItemAliases(raw.name_ja, aliasesDict)
 
     const nameKana = toKana(tokenizer, raw.name_ja)
     pending.push({
@@ -202,7 +197,7 @@ export async function runPipeline(
       name_kana: nameKana,
       // 英語モードのフォロー表示用(かな→ローマ字。かなに残った漢字はそのまま)
       name_romaji: toRomaji(nameKana),
-      aliases: [...aliasSet],
+      aliases,
       dispositions,
       sodai_fee_yen: notes.reduce<number | null>(
         (acc, n) => acc ?? extractSodaiFee(n),
