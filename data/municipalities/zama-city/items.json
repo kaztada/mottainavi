@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T08:03:27.495Z",
+  "generated_at": "2026-10-23T08:18:43.299Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -4806,7 +4806,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kyutoki (installed hot-water supply unit / gas water heater)"
+      "name_en": "Kyutoki (hot-water supply system / gas water heater)"
     },
     {
       "id": "zam-0273",
@@ -4945,7 +4945,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooler box (ice chest; longest side over 50 cm; including electric types; excluding portable refrigerators)"
+      "name_en": "Cooler box (ice chest; longest side over 50 cm; including electric types; excluding portable refrigerators and electric cooler/warmer units)"
     },
     {
       "id": "zam-0281",
@@ -11762,7 +11762,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electric saw (household)"
+      "name_en": "Electric saw (household; longest side up to 50 cm)"
     },
     {
       "id": "zam-0666",
@@ -12724,7 +12724,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Saw (electric)"
+      "name_en": "Electric saw (longest side over 50 cm)"
     },
     {
       "id": "zam-0721",
@@ -12894,7 +12894,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Pipe rack (metal shelf that can be disassembled)"
+      "name_en": "Pipe rack (metal shelf that can be disassembled; longest side up to 50 cm)"
     },
     {
       "id": "zam-0731",
@@ -17073,7 +17073,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water heater (yuwakashiki; excluding installed hot-water supply units)"
+      "name_en": "Water heater (yuwakashiki; excluding kyutoki hot-water supply systems)"
     },
     {
       "id": "zam-0970",
@@ -18023,7 +18023,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Word processor (longest side over 50 cm)"
+      "name_en": "Standalone word processor (dedicated word-processing machine; longest side over 50 cm)"
     },
     {
       "id": "zam-1025",
@@ -18074,7 +18074,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Washi / calligraphy paper (hanshi) / shoji paper"
+      "name_en": "Washi (Japanese paper) / calligraphy paper (hanshi) / shoji paper"
     },
     {
       "id": "zam-1028",
