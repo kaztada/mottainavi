@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-22T23:13:43.086Z",
+  "generated_at": "2026-10-23T08:44:32.812Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -19,7 +19,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Archery equipment (bow and arrows)"
     },
     {
       "id": "zam-0002",
@@ -36,7 +36,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "IH cooking heater / induction cooktop (built-in, for system kitchens; when no contractor is involved)"
     },
     {
       "id": "zam-0003",
@@ -53,7 +53,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "IH cooking heater / induction cooktop (freestanding)"
     },
     {
       "id": "zam-0004",
@@ -90,7 +90,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Tablet (iPad etc.)"
     },
     {
       "id": "zam-0006",
@@ -130,7 +130,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ironing board (standing type)"
     },
     {
       "id": "zam-0008",
@@ -150,7 +150,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ironing board (sit-down type; with metal parts)"
     },
     {
       "id": "zam-0009",
@@ -172,7 +172,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty can (not for food or drink)"
     },
     {
       "id": "zam-0010",
@@ -264,7 +264,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Attache case (briefcase; longest side over 50 cm)"
     },
     {
       "id": "zam-0015",
@@ -281,7 +281,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Attache case (briefcase; longest side up to 50 cm; metal)"
     },
     {
       "id": "zam-0016",
@@ -298,7 +298,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Attache case (briefcase; longest side up to 50 cm; non-metal)"
     },
     {
       "id": "zam-0017",
@@ -332,7 +332,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil (animal-based cooking oil)"
     },
     {
       "id": "zam-0019",
@@ -349,7 +349,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil (vegetable cooking oil)"
     },
     {
       "id": "zam-0020",
@@ -366,7 +366,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil (machine oil / lubricating oil)"
     },
     {
       "id": "zam-0021",
@@ -434,7 +434,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rain gutter (up to 2 m; when no contractor is involved)"
     },
     {
       "id": "zam-0025",
@@ -451,7 +451,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Knitting machine (longest side over 50 cm)"
     },
     {
       "id": "zam-0026",
@@ -468,7 +468,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Knitting machine (longest side up to 50 cm; metal or electric)"
     },
     {
       "id": "zam-0027",
@@ -485,7 +485,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Screen door / window screen (when no contractor is involved)"
     },
     {
       "id": "zam-0028",
@@ -553,7 +553,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum window sash (longest side over 50 cm; when no contractor is involved)"
     },
     {
       "id": "zam-0032",
@@ -570,7 +570,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum window sash (longest side up to 50 cm; when no contractor is involved)"
     },
     {
       "id": "zam-0033",
@@ -587,7 +587,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil pot / disposable aluminum pan"
     },
     {
       "id": "zam-0034",
@@ -604,7 +604,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil (for kitchen use)"
     },
     {
       "id": "zam-0035",
@@ -621,7 +621,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum wheel (alloy wheel; for cars)"
     },
     {
       "id": "zam-0036",
@@ -638,7 +638,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Safety shoes (resin toe cap)"
     },
     {
       "id": "zam-0037",
@@ -655,7 +655,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Safety shoes (steel toe cap)"
     },
     {
       "id": "zam-0038",
@@ -672,7 +672,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Antenna (longest side over 50 cm; when no contractor is involved)"
     },
     {
       "id": "zam-0039",
@@ -689,7 +689,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Antenna (longest side up to 50 cm; when no contractor is involved)"
     },
     {
       "id": "zam-0040",
@@ -706,7 +706,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Amplifier (longest side over 50 cm)"
     },
     {
       "id": "zam-0041",
@@ -723,7 +723,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Amplifier (longest side up to 50 cm)"
     },
     {
       "id": "zam-0042",
@@ -740,7 +740,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Easel (stand for paintings)"
     },
     {
       "id": "zam-0043",
@@ -757,7 +757,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Kimono rack (iko)"
     },
     {
       "id": "zam-0044",
@@ -791,7 +791,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothing storage case (wood, paulownia, willow wicker trunk)"
     },
     {
       "id": "zam-0046",
@@ -808,7 +808,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothing storage case (plastic, single tier)"
     },
     {
       "id": "zam-0047",
@@ -825,7 +825,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothing storage case (steel)"
     },
     {
       "id": "zam-0048",
@@ -847,7 +847,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Clothing storage case (plastic, chest-of-drawers type)"
     },
     {
       "id": "zam-0049",
@@ -864,7 +864,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothing storage case (tinplate)"
     },
     {
       "id": "zam-0050",
@@ -886,7 +886,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chair"
     },
     {
       "id": "zam-0051",
@@ -908,7 +908,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chair (folding, metal pipe)"
     },
     {
       "id": "zam-0052",
@@ -930,7 +930,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chair (desk chair; chair only)"
     },
     {
       "id": "zam-0053",
@@ -947,7 +947,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Board (plank; longest side over 50 cm)"
     },
     {
       "id": "zam-0054",
@@ -964,7 +964,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Board (plank; longest side up to 50 cm)"
     },
     {
       "id": "zam-0055",
@@ -998,7 +998,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheelbarrow (neko; non-commercial)"
     },
     {
       "id": "zam-0057",
@@ -1052,7 +1052,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Doghouse / other animal houses (without concrete or sand)"
     },
     {
       "id": "zam-0060",
@@ -1126,7 +1126,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Clothing (unpadded, non-leather)"
     },
     {
       "id": "zam-0064",
@@ -1149,7 +1149,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Clothing (non-fabric)"
     },
     {
       "id": "zam-0065",
@@ -1172,7 +1172,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Clothing (down, padded, leather)"
     },
     {
       "id": "zam-0066",
@@ -1195,7 +1195,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Clothing (fabric)"
     },
     {
       "id": "zam-0067",
@@ -1221,7 +1221,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothes dryer (other than futon dryers and hanger-type dryers with a clothes-drying function)"
     },
     {
       "id": "zam-0068",
@@ -1247,7 +1247,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon dryer with clothes-drying function / clothes-drying hanger stand (not using fluorocarbons)"
     },
     {
       "id": "zam-0069",
@@ -1332,7 +1332,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Beverages"
     },
     {
       "id": "zam-0074",
@@ -1349,7 +1349,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Windsurfing board (carbon fiber reinforced plastic; up to 2 m)"
     },
     {
       "id": "zam-0075",
@@ -1366,7 +1366,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window air conditioner (window fan with cooling function)"
     },
     {
       "id": "zam-0076",
@@ -1400,7 +1400,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flowerpot / planter (longest side over 50 cm; excluding ceramic that does not break with a hammer)"
     },
     {
       "id": "zam-0078",
@@ -1417,7 +1417,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flowerpot / planter (longest side up to 50 cm; wood, plastic)"
     },
     {
       "id": "zam-0079",
@@ -1434,7 +1434,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flowerpot / planter (longest side up to 50 cm; metal, unglazed clay, breakable ceramic)"
     },
     {
       "id": "zam-0080",
@@ -1504,7 +1504,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Waterbed (mattress part)"
     },
     {
       "id": "zam-0084",
@@ -1521,7 +1521,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Usu (large grain-pounding mortar; wood, up to 100 kg)"
     },
     {
       "id": "zam-0085",
@@ -1595,7 +1595,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Umeshu jar (glass jar for making plum liqueur)"
     },
     {
       "id": "zam-0089",
@@ -1612,7 +1612,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Urethane foam / urethane mat (longest side up to 50 cm)"
     },
     {
       "id": "zam-0090",
@@ -1629,7 +1629,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Exercise equipment"
+      "name_en": "Exercise equipment (non-hydraulic)"
     },
     {
       "id": "zam-0091",
@@ -1646,7 +1646,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Painting / picture (on canvas; longest side over 50 cm)"
     },
     {
       "id": "zam-0092",
@@ -1663,7 +1663,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air compressor (household, non-hydraulic; longest side over 50 cm)"
     },
     {
       "id": "zam-0093",
@@ -1680,7 +1680,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air compressor (household, non-hydraulic; longest side up to 50 cm)"
     },
     {
       "id": "zam-0094",
@@ -1699,7 +1699,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Air bed (inflatable mattress)"
     },
     {
       "id": "zam-0095",
@@ -1716,7 +1716,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Airsoft gun / model gun / air gun (replica)"
     },
     {
       "id": "zam-0096",
@@ -1771,7 +1771,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hygiene products (sanitary items)"
     },
     {
       "id": "zam-0099",
@@ -1805,7 +1805,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Audio-visual (AV) appliances (longest side under 50 cm; excluding TVs)"
     },
     {
       "id": "zam-0101",
@@ -1844,7 +1844,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Branches / tree trunks (up to 1 m long and 20 cm in diameter)"
     },
     {
       "id": "zam-0103",
@@ -1878,7 +1878,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "MD (MiniDisc; disc and case)"
     },
     {
       "id": "zam-0105",
@@ -1949,7 +1949,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric outboard motor (trolling motor; battery removed; excluding hydraulic types)"
     },
     {
       "id": "zam-0109",
@@ -1966,7 +1966,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plant support pole (including garden arches)"
     },
     {
       "id": "zam-0110",
@@ -1983,7 +1983,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic film (for home gardening)"
     },
     {
       "id": "zam-0111",
@@ -2017,7 +2017,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Engine oil disposal box (containing absorbed car oil)"
     },
     {
       "id": "zam-0113",
@@ -2085,7 +2085,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil extractor / oil changer (manual)"
     },
     {
       "id": "zam-0117",
@@ -2119,7 +2119,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Audio equipment (longest side over 50 cm)"
     },
     {
       "id": "zam-0119",
@@ -2170,7 +2170,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Awning (fabric sunshade / canopy)"
     },
     {
       "id": "zam-0122",
@@ -2238,7 +2238,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Money (coins, banknotes)"
     },
     {
       "id": "zam-0126",
@@ -2289,7 +2289,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plates (dishes)"
     },
     {
       "id": "zam-0129",
@@ -2306,7 +2306,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oscilloscope (non-commercial)"
     },
     {
       "id": "zam-0130",
@@ -2323,7 +2323,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ladle (for kitchen use; non-metal)"
     },
     {
       "id": "zam-0131",
@@ -2357,7 +2357,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ottoman (footrest)"
     },
     {
       "id": "zam-0133",
@@ -2391,7 +2391,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Decorative object / sculpture (objet; longest side over 50 cm; excluding stone, concrete, tile, plaster etc.)"
     },
     {
       "id": "zam-0135",
@@ -2408,7 +2408,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Obelisk (garden arch / plant support)"
     },
     {
       "id": "zam-0136",
@@ -2428,7 +2428,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Toy (longest side over 50 cm; battery removed; excluding those with lead batteries)"
     },
     {
       "id": "zam-0137",
@@ -2448,7 +2448,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Toy (longest side up to 50 cm; wood, plastic; non-electric)"
     },
     {
       "id": "zam-0138",
@@ -2468,7 +2468,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Toy (longest side up to 50 cm; metal; excluding those with lead batteries)"
     },
     {
       "id": "zam-0139",
@@ -2487,7 +2487,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Folding bed (without spring mattress)"
     },
     {
       "id": "zam-0140",
@@ -2521,7 +2521,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Greenhouse (household; excluding concrete or block bases)"
     },
     {
       "id": "zam-0142",
@@ -2538,7 +2538,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hot-water room heater (fan heater unit only; fuel emptied)"
     },
     {
       "id": "zam-0143",
@@ -2555,7 +2555,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fuel tank for hot-water room heater (longest side over 50 cm)"
     },
     {
       "id": "zam-0144",
@@ -2572,7 +2572,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Boiler for hot-water room heater (longest side over 50 cm)"
     },
     {
       "id": "zam-0145",
@@ -2589,7 +2589,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thermometer (including mercury thermometers)"
     },
     {
       "id": "zam-0146",
@@ -2644,7 +2644,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Curtain rail"
     },
     {
       "id": "zam-0149",
@@ -2718,7 +2718,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carbon paper / carbonless paper"
     },
     {
       "id": "zam-0153",
@@ -2735,7 +2735,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carbon heater"
     },
     {
       "id": "zam-0154",
@@ -2769,7 +2769,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Seashells (clams, shijimi clams, oysters etc.)"
     },
     {
       "id": "zam-0156",
@@ -2786,7 +2786,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Nursing-care toilet (bedside commode; non-ceramic)"
     },
     {
       "id": "zam-0157",
@@ -2803,7 +2803,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bath chair for nursing care (shower chair)"
     },
     {
       "id": "zam-0158",
@@ -2854,7 +2854,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shellfish"
     },
     {
       "id": "zam-0161",
@@ -2888,7 +2888,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Counter stool (non-commercial)"
     },
     {
       "id": "zam-0163",
@@ -2905,7 +2905,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mirror (longest side over 50 cm)"
     },
     {
       "id": "zam-0164",
@@ -2956,7 +2956,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Square lumber (within 20 cm x 20 cm x 2 m)"
     },
     {
       "id": "zam-0167",
@@ -2978,7 +2978,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Study desk / office desk with chair (set)"
     },
     {
       "id": "zam-0168",
@@ -2995,7 +2995,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Picture frame (longest side over 50 cm)"
     },
     {
       "id": "zam-0169",
@@ -3012,7 +3012,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Picture frame (longest side up to 50 cm)"
     },
     {
       "id": "zam-0170",
@@ -3084,7 +3084,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Umbrella stand (longest side over 50 cm; excluding unbreakable ceramic)"
     },
     {
       "id": "zam-0174",
@@ -3101,7 +3101,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sweets / confectionery (excluding waste from confectionery shops and packaging)"
     },
     {
       "id": "zam-0175",
@@ -3118,7 +3118,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Humidifier (longest side over 50 cm)"
     },
     {
       "id": "zam-0176",
@@ -3135,7 +3135,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fruit etc."
     },
     {
       "id": "zam-0177",
@@ -3169,7 +3169,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas cartridge (for home beer servers, soda makers etc.; empty)"
     },
     {
       "id": "zam-0179",
@@ -3186,7 +3186,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas stove / tabletop gas cooktop (freestanding)"
     },
     {
       "id": "zam-0180",
@@ -3203,7 +3203,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas stove / gas cooktop (built-in; removed without a contractor)"
     },
     {
       "id": "zam-0181",
@@ -3220,7 +3220,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas cartridge (cassette canisters, home beer dispenser / soda maker cartridges etc.; empty)"
     },
     {
       "id": "zam-0182",
@@ -3257,7 +3257,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas lighter (disposable 100-yen lighter; fully used up)"
     },
     {
       "id": "zam-0184",
@@ -3277,7 +3277,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas lighter (metal; fully used up)"
     },
     {
       "id": "zam-0185",
@@ -3294,7 +3294,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Portable gas stove (cassette stove / tabletop stove)"
     },
     {
       "id": "zam-0186",
@@ -3311,7 +3311,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cassette tape (including case)"
     },
     {
       "id": "zam-0187",
@@ -3328,7 +3328,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cassette deck (longest side over 50 cm)"
     },
     {
       "id": "zam-0188",
@@ -3413,7 +3413,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (aerophone; not mainly metal)"
     },
     {
       "id": "zam-0193",
@@ -3447,7 +3447,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cup noodle container (paper)"
     },
     {
       "id": "zam-0195",
@@ -3520,7 +3520,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bags / pouches (mainly non-metal)"
     },
     {
       "id": "zam-0199",
@@ -3554,7 +3554,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vase (longest side over 50 cm; excluding unbreakable ceramic)"
     },
     {
       "id": "zam-0201",
@@ -3622,7 +3622,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper plates / paper cups"
     },
     {
       "id": "zam-0205",
@@ -3661,7 +3661,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper core (rigid, cannot be bent by hand; over 50 cm and up to 2 m long)"
     },
     {
       "id": "zam-0207",
@@ -3678,7 +3678,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper core (rigid, cannot be bent by hand; up to 50 cm long)"
     },
     {
       "id": "zam-0208",
@@ -3695,7 +3695,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper core (can be bent by hand)"
     },
     {
       "id": "zam-0209",
@@ -3712,7 +3712,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper tape"
     },
     {
       "id": "zam-0210",
@@ -3882,7 +3882,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Karaoke set (household; longest side over 50 cm; excluding monitors)"
     },
     {
       "id": "zam-0220",
@@ -3899,7 +3899,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass sheet (longest side over 50 cm)"
     },
     {
       "id": "zam-0221",
@@ -3916,7 +3916,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass case (longest side over 50 cm)"
     },
     {
       "id": "zam-0222",
@@ -3933,7 +3933,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass window sash (longest side over 50 cm)"
     },
     {
       "id": "zam-0223",
@@ -3950,7 +3950,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass window sash (longest side up to 50 cm)"
     },
     {
       "id": "zam-0224",
@@ -3967,7 +3967,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass products (longest side up to 50 cm)"
     },
     {
       "id": "zam-0225",
@@ -4001,7 +4001,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Leather jacket"
     },
     {
       "id": "zam-0227",
@@ -4052,7 +4052,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Portable commode (simple toilet; plastic)"
     },
     {
       "id": "zam-0230",
@@ -4069,7 +4069,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (wind instrument 1; mainly metal)"
     },
     {
       "id": "zam-0231",
@@ -4086,7 +4086,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (wind instrument 2; mainly metal)"
     },
     {
       "id": "zam-0232",
@@ -4103,7 +4103,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (wind instrument 3; mainly metal)"
     },
     {
       "id": "zam-0233",
@@ -4120,7 +4120,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (wind instrument 4; mainly metal)"
     },
     {
       "id": "zam-0234",
@@ -4137,7 +4137,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ventilation fan (longest side over 50 cm; when no contractor is involved)"
     },
     {
       "id": "zam-0235",
@@ -4154,7 +4154,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ventilation fan (longest side up to 50 cm; when no contractor is involved)"
     },
     {
       "id": "zam-0236",
@@ -4176,7 +4176,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Toys / recreational goods (mainly non-metal, non-electric; excluding game consoles)"
     },
     {
       "id": "zam-0237",
@@ -4193,7 +4193,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cushioning material (paper)"
     },
     {
       "id": "zam-0238",
@@ -4210,7 +4210,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cushioning packaging material (plastic, styrofoam)"
     },
     {
       "id": "zam-0239",
@@ -4227,7 +4227,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Desiccant (packets found in snacks etc.)"
     },
     {
       "id": "zam-0240",
@@ -4249,7 +4249,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dry-cell batteries / rechargeable batteries / lithium-ion batteries (excluding car batteries and lead-acid batteries)"
     },
     {
       "id": "zam-0241",
@@ -4266,7 +4266,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wood plane (kanna; household)"
     },
     {
       "id": "zam-0242",
@@ -4317,7 +4317,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dried foods"
     },
     {
       "id": "zam-0245",
@@ -4374,7 +4374,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Machine oil"
     },
     {
       "id": "zam-0248",
@@ -4391,7 +4391,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Prosthetic limb (artificial arm / leg) / orthotic device (mainly metal)"
     },
     {
       "id": "zam-0249",
@@ -4430,7 +4430,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gas detector tube"
     },
     {
       "id": "zam-0251",
@@ -4447,7 +4447,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kick scooter (longest side over 50 cm; electric ones with the battery removed)"
     },
     {
       "id": "zam-0252",
@@ -4464,7 +4464,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kick scooter (longest side up to 50 cm; electric ones with the battery removed)"
     },
     {
       "id": "zam-0253",
@@ -4481,7 +4481,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wooden mallet (kizuchi; longest side over 50 cm)"
     },
     {
       "id": "zam-0254",
@@ -4498,7 +4498,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wooden mallet (kizuchi; longest side up to 50 cm)"
     },
     {
       "id": "zam-0255",
@@ -4617,7 +4617,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Kimono (unpadded) / obi (kimono sash)"
     },
     {
       "id": "zam-0262",
@@ -4702,7 +4702,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rolling suitcase (carry bag; longest side over 50 cm)"
     },
     {
       "id": "zam-0267",
@@ -4719,7 +4719,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Candle (longest side over 50 cm)"
     },
     {
       "id": "zam-0268",
@@ -4753,7 +4753,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Camping table"
     },
     {
       "id": "zam-0270",
@@ -4772,7 +4772,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Camping cot (camp bed; non-folding)"
     },
     {
       "id": "zam-0271",
@@ -4806,7 +4806,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kyutoki (hot-water supply system / gas water heater)"
     },
     {
       "id": "zam-0273",
@@ -4823,7 +4823,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Milk"
     },
     {
       "id": "zam-0274",
@@ -4843,7 +4843,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Milk cartons"
     },
     {
       "id": "zam-0275",
@@ -4860,7 +4860,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Dressing table / dresser (vanity)"
     },
     {
       "id": "zam-0276",
@@ -4911,7 +4911,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air purifier (fluorocarbon-free; longest side over 50 cm)"
     },
     {
       "id": "zam-0279",
@@ -4928,7 +4928,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Baby bassinet (Moses basket / cradle)"
     },
     {
       "id": "zam-0280",
@@ -4945,7 +4945,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooler box (ice chest; longest side over 50 cm; including electric types; excluding portable refrigerators and electric cooler/warmer units)"
     },
     {
       "id": "zam-0281",
@@ -5013,7 +5013,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicine bottle (glass)"
     },
     {
       "id": "zam-0285",
@@ -5047,7 +5047,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shoes / footwear"
     },
     {
       "id": "zam-0287",
@@ -5098,7 +5098,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cushions (longest side up to 50 cm)"
     },
     {
       "id": "zam-0290",
@@ -5200,7 +5200,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper with clips or staples attached"
     },
     {
       "id": "zam-0296",
@@ -5217,7 +5217,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cars / car parts"
     },
     {
       "id": "zam-0297",
@@ -5251,7 +5251,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheel stop (parking block; metal)"
     },
     {
       "id": "zam-0299",
@@ -5268,7 +5268,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheel stop (parking block; rubber)"
     },
     {
       "id": "zam-0300",
@@ -5285,7 +5285,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheel stop (parking block; concrete)"
     },
     {
       "id": "zam-0301",
@@ -5302,7 +5302,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheel stop (parking block; wood)"
     },
     {
       "id": "zam-0302",
@@ -5319,7 +5319,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Car cover"
     },
     {
       "id": "zam-0303",
@@ -5336,7 +5336,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Grating (metal drain cover; when no contractor is involved)"
     },
     {
       "id": "zam-0304",
@@ -5353,7 +5353,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Crate (pet carrier cage)"
     },
     {
       "id": "zam-0305",
@@ -5458,7 +5458,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Diatomaceous earth mat (longest side over 50 cm)"
     },
     {
       "id": "zam-0311",
@@ -5509,7 +5509,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gateball stick (non-metal)"
     },
     {
       "id": "zam-0314",
@@ -5526,7 +5526,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cables / cords"
     },
     {
       "id": "zam-0315",
@@ -5548,7 +5548,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home game console (1)"
     },
     {
       "id": "zam-0316",
@@ -5570,7 +5570,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home game console (2)"
     },
     {
       "id": "zam-0317",
@@ -5592,7 +5592,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home game console (3)"
     },
     {
       "id": "zam-0318",
@@ -5614,7 +5614,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home game console (4)"
     },
     {
       "id": "zam-0319",
@@ -5636,7 +5636,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home game console (5)"
     },
     {
       "id": "zam-0320",
@@ -5658,7 +5658,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home game console (6)"
     },
     {
       "id": "zam-0321",
@@ -5730,7 +5730,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cosmetics container (glass bottle, spray can)"
     },
     {
       "id": "zam-0325",
@@ -5764,7 +5764,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Shoe cabinet (getabako; longest side up to 119 cm)"
     },
     {
       "id": "zam-0327",
@@ -5781,7 +5781,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Shoe cabinet (getabako; longest side 120 cm to 200 cm)"
     },
     {
       "id": "zam-0328",
@@ -5815,7 +5815,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (string instrument 1; not mainly metal)"
     },
     {
       "id": "zam-0330",
@@ -5832,7 +5832,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (string instrument 2; not mainly metal)"
     },
     {
       "id": "zam-0331",
@@ -5849,7 +5849,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (string instrument 3; not mainly metal)"
     },
     {
       "id": "zam-0332",
@@ -5866,7 +5866,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (string instrument 4; not mainly metal)"
     },
     {
       "id": "zam-0333",
@@ -5883,7 +5883,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Doormat (longest side 50 cm or more; excluding rubber mats 3 cm or thicker)"
     },
     {
       "id": "zam-0334",
@@ -5900,7 +5900,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Doormat (longest side up to 50 cm; cloth, leather, rubber; excluding rubber mats 3 cm or thicker)"
     },
     {
       "id": "zam-0335",
@@ -5951,7 +5951,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kendo equipment (excluding wooden swords and face masks)"
     },
     {
       "id": "zam-0338",
@@ -6019,7 +6019,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tiller / cultivator (engine-powered)"
     },
     {
       "id": "zam-0342",
@@ -6036,7 +6036,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tiller / cultivator (electric; battery removed)"
     },
     {
       "id": "zam-0343",
@@ -6053,7 +6053,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Crustaceans (shrimp, crab etc.)"
     },
     {
       "id": "zam-0344",
@@ -6070,7 +6070,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Antigen test kit (COVID-19; without needle)"
     },
     {
       "id": "zam-0345",
@@ -6104,7 +6104,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Spices / condiments"
     },
     {
       "id": "zam-0347",
@@ -6121,7 +6121,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Perfume bottle"
     },
     {
       "id": "zam-0348",
@@ -6138,7 +6138,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Light and heat therapy device"
     },
     {
       "id": "zam-0349",
@@ -6155,7 +6155,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wicker trunk (kori)"
     },
     {
       "id": "zam-0350",
@@ -6206,7 +6206,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Solid fuel (for camping)"
     },
     {
       "id": "zam-0353",
@@ -6223,7 +6223,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Goza (rush mat; longest side over 2 m)"
     },
     {
       "id": "zam-0354",
@@ -6257,7 +6257,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Goza (rush mat; longest side up to 2 m; excluding goza carpets)"
     },
     {
       "id": "zam-0356",
@@ -6274,7 +6274,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper with personal information"
     },
     {
       "id": "zam-0357",
@@ -6325,7 +6325,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Children's clothes"
     },
     {
       "id": "zam-0360",
@@ -6359,7 +6359,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Go board (goban; folding)"
     },
     {
       "id": "zam-0362",
@@ -6376,7 +6376,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Copier (household; longest side over 50 cm)"
     },
     {
       "id": "zam-0363",
@@ -6410,7 +6410,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Kimono goods / dress fabric (gofuku)"
     },
     {
       "id": "zam-0365",
@@ -6427,7 +6427,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Trash can (over 45 L)"
     },
     {
       "id": "zam-0366",
@@ -6444,7 +6444,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Trash can (45 L or less; wood, plastic)"
     },
     {
       "id": "zam-0367",
@@ -6495,7 +6495,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice bin (rice storage container; wood, plastic)"
     },
     {
       "id": "zam-0370",
@@ -6529,7 +6529,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Refrigerated rice bin (containing fluorocarbons)"
     },
     {
       "id": "zam-0372",
@@ -6563,7 +6563,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cork board (longest side over 50 cm)"
     },
     {
       "id": "zam-0374",
@@ -6614,7 +6614,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Golf bag with clubs (set)"
     },
     {
       "id": "zam-0377",
@@ -6648,7 +6648,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lint roller (korokoro; adhesive roller cleaner)"
     },
     {
       "id": "zam-0379",
@@ -6682,7 +6682,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Concrete rubble / blocks"
     },
     {
       "id": "zam-0381",
@@ -6699,7 +6699,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Power strip (outlet tap)"
     },
     {
       "id": "zam-0382",
@@ -6750,7 +6750,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Compressor (including those with a generator or engine; excluding non-hydraulic household air compressors)"
     },
     {
       "id": "zam-0385",
@@ -6767,7 +6767,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Packing material (paper)"
     },
     {
       "id": "zam-0386",
@@ -6835,7 +6835,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cutting table"
     },
     {
       "id": "zam-0390",
@@ -6852,7 +6852,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Siding (artificial exterior wall material)"
     },
     {
       "id": "zam-0391",
@@ -6869,7 +6869,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sideboard (longest side up to 119 cm)"
     },
     {
       "id": "zam-0392",
@@ -6886,7 +6886,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sideboard (longest side 120 cm to 200 cm)"
     },
     {
       "id": "zam-0393",
@@ -6903,7 +6903,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fish"
     },
     {
       "id": "zam-0394",
@@ -6954,7 +6954,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window sash (when no contractor is involved)"
     },
     {
       "id": "zam-0397",
@@ -6994,7 +6994,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Zabuton (floor cushion; single-seat)"
     },
     {
       "id": "zam-0399",
@@ -7030,7 +7030,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Warning triangle (for cars; non-plastic)"
     },
     {
       "id": "zam-0401",
@@ -7047,7 +7047,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tripod (longest side over 50 cm)"
     },
     {
       "id": "zam-0402",
@@ -7083,7 +7083,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Triple bunk bed"
     },
     {
       "id": "zam-0404",
@@ -7117,7 +7117,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tricycle (adult; battery removed)"
     },
     {
       "id": "zam-0406",
@@ -7191,7 +7191,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "CD player (longest side over 50 cm)"
     },
     {
       "id": "zam-0410",
@@ -7208,7 +7208,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stickers / sticker backing sheets (paper)"
     },
     {
       "id": "zam-0411",
@@ -7231,7 +7231,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Jeans (clothing)"
     },
     {
       "id": "zam-0412",
@@ -7248,7 +7248,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gel mat"
     },
     {
       "id": "zam-0413",
@@ -7265,7 +7265,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Diorama"
     },
     {
       "id": "zam-0414",
@@ -7282,7 +7282,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Magnetic pillow"
     },
     {
       "id": "zam-0415",
@@ -7318,7 +7318,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jigsaw puzzle (paper)"
     },
     {
       "id": "zam-0417",
@@ -7386,7 +7386,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plaster / lime / diatomaceous earth (building materials)"
     },
     {
       "id": "zam-0421",
@@ -7425,7 +7425,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle (non-electric)"
     },
     {
       "id": "zam-0423",
@@ -7447,7 +7447,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle (electric; battery removed)"
     },
     {
       "id": "zam-0424",
@@ -7473,7 +7473,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle child seat (metal; longest side up to 50 cm)"
     },
     {
       "id": "zam-0425",
@@ -7495,7 +7495,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle rack"
     },
     {
       "id": "zam-0426",
@@ -7529,7 +7529,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mobility scooter (senior car; electric)"
     },
     {
       "id": "zam-0428",
@@ -7546,7 +7546,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lawn mower (household; non-engine)"
     },
     {
       "id": "zam-0429",
@@ -7580,7 +7580,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cameras / optical equipment"
     },
     {
       "id": "zam-0431",
@@ -7597,7 +7597,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Photographic materials"
     },
     {
       "id": "zam-0432",
@@ -7614,7 +7614,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jack (non-hydraulic; longest side over 50 cm)"
     },
     {
       "id": "zam-0433",
@@ -7716,7 +7716,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shampoo / detergent container (plastic packaging)"
     },
     {
       "id": "zam-0439",
@@ -7750,7 +7750,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Booster seat (junior car seat; longest side over 50 cm)"
     },
     {
       "id": "zam-0441",
@@ -7767,7 +7767,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shredder (longest side over 50 cm; non-commercial)"
     },
     {
       "id": "zam-0442",
@@ -7801,7 +7801,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Interlocking floor mat (joint mat; longest side over 50 cm)"
     },
     {
       "id": "zam-0444",
@@ -7835,7 +7835,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ruler (wood, plastic)"
     },
     {
       "id": "zam-0446",
@@ -7869,7 +7869,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shogi board (Japanese chess; folding)"
     },
     {
       "id": "zam-0448",
@@ -7886,7 +7886,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Backyard incinerator (household, simple type; excluding concrete or brick)"
     },
     {
       "id": "zam-0449",
@@ -7903,7 +7903,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Shoji (paper sliding screen)"
     },
     {
       "id": "zam-0450",
@@ -7920,7 +7920,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water purifier cartridge"
     },
     {
       "id": "zam-0451",
@@ -7937,7 +7937,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Motor for water purification tank"
     },
     {
       "id": "zam-0452",
@@ -7954,7 +7954,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "IT and home electronics peripherals (longest side under 50 cm; non-burnable types; excluding PC monitors)"
     },
     {
       "id": "zam-0453",
@@ -7971,7 +7971,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "IT and home electronics peripherals (longest side under 50 cm; burnable types)"
     },
     {
       "id": "zam-0454",
@@ -7988,7 +7988,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lighting fixture (longest side over 50 cm; excluding stand types with a concrete or stone base)"
     },
     {
       "id": "zam-0455",
@@ -8005,7 +8005,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Passenger car"
     },
     {
       "id": "zam-0456",
@@ -8039,7 +8039,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Meat"
     },
     {
       "id": "zam-0458",
@@ -8056,7 +8056,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food-soiled paper"
     },
     {
       "id": "zam-0459",
@@ -8129,7 +8129,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dehumidifier (fluorocarbon-free; longest side over 50 cm)"
     },
     {
       "id": "zam-0463",
@@ -8146,7 +8146,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Moisture absorber (disposable dehumidifying agent)"
     },
     {
       "id": "zam-0464",
@@ -8169,7 +8169,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dishwasher-dryer (longest side over 50 cm; excluding built-in types installed by a contractor)"
     },
     {
       "id": "zam-0465",
@@ -8192,7 +8192,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dish dryer (longest side over 50 cm)"
     },
     {
       "id": "zam-0466",
@@ -8215,7 +8215,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Dish cabinet (cupboard; longest side up to 119 cm)"
     },
     {
       "id": "zam-0467",
@@ -8238,7 +8238,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Dish cabinet (cupboard; longest side 120 cm to 200 cm)"
     },
     {
       "id": "zam-0468",
@@ -8261,7 +8261,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tableware (metal, glass, ceramic)"
     },
     {
       "id": "zam-0469",
@@ -8278,7 +8278,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Personal shopping cart (wheeled shopping trolley; non-folding)"
     },
     {
       "id": "zam-0470",
@@ -8295,7 +8295,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Prescription bag (paper)"
     },
     {
       "id": "zam-0471",
@@ -8312,7 +8312,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Walker cart for seniors (silver car; non-folding; non-motorized)"
     },
     {
       "id": "zam-0472",
@@ -8331,7 +8331,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bedding (excluding bed frames, futons, comforters, mattresses, sheets and blankets)"
     },
     {
       "id": "zam-0473",
@@ -8354,7 +8354,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Bedding (fabric items such as sheets and blankets)"
     },
     {
       "id": "zam-0474",
@@ -8408,7 +8408,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mercury (in thermometers and similar household instruments; excluding bottled mercury)"
     },
     {
       "id": "zam-0477",
@@ -8425,7 +8425,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fish tank (aquarium; longest side over 50 cm; excluding FRP)"
     },
     {
       "id": "zam-0478",
@@ -8442,7 +8442,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fish tank (aquarium; longest side up to 50 cm; excluding FRP)"
     },
     {
       "id": "zam-0479",
@@ -8459,7 +8459,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aquarium cooler (Peltier / fan type)"
     },
     {
       "id": "zam-0480",
@@ -8476,7 +8476,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water bottle (vacuum flask / thermos; metal)"
     },
     {
       "id": "zam-0481",
@@ -8496,7 +8496,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice cooker / rice warmer / electric rice pot"
     },
     {
       "id": "zam-0482",
@@ -8513,7 +8513,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Suit / business suit"
     },
     {
       "id": "zam-0483",
@@ -8530,7 +8530,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Suitcase (longest side over 50 cm)"
     },
     {
       "id": "zam-0484",
@@ -8547,7 +8547,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Suitcase (longest side 50 cm or less; non-metal)"
     },
     {
       "id": "zam-0485",
@@ -8666,7 +8666,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gap storage unit (slim rack for narrow spaces)"
     },
     {
       "id": "zam-0492",
@@ -8700,7 +8700,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Scuba diving set (excluding air tanks)"
     },
     {
       "id": "zam-0494",
@@ -8768,7 +8768,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Inkstone (suzuri; for calligraphy; non-plastic)"
     },
     {
       "id": "zam-0498",
@@ -8802,7 +8802,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Steam mop"
     },
     {
       "id": "zam-0500",
@@ -8819,7 +8819,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Steel rack (longest side over 50 cm and up to 119 cm)"
     },
     {
       "id": "zam-0501",
@@ -8836,7 +8836,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Steel rack (longest side 120-200 cm)"
     },
     {
       "id": "zam-0502",
@@ -8853,7 +8853,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Steel rack (longest side 50 cm or less)"
     },
     {
       "id": "zam-0503",
@@ -8870,7 +8870,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Steel locker (household; longest side up to 2 m)"
     },
     {
       "id": "zam-0504",
@@ -8887,7 +8887,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stepper (hydraulic exercise equipment; oil not drained)"
     },
     {
       "id": "zam-0505",
@@ -8926,7 +8926,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Heater (kerosene / gas space heater; excluding fan heaters)"
     },
     {
       "id": "zam-0507",
@@ -8948,7 +8948,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Heater (electric, ceramic, halogen, carbon; excluding oil-filled heaters)"
     },
     {
       "id": "zam-0508",
@@ -8987,7 +8987,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ostomy pouch (stoma appliance; for colostomy / urostomy)"
     },
     {
       "id": "zam-0510",
@@ -9021,7 +9021,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Balance bike (Strider; pedal-less two-wheeler for toddlers)"
     },
     {
       "id": "zam-0512",
@@ -9038,7 +9038,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sand / stones / gravel / pumice"
     },
     {
       "id": "zam-0513",
@@ -9072,7 +9072,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Snowboard wear"
     },
     {
       "id": "zam-0515",
@@ -9106,7 +9106,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Slatted board (sunoko)"
     },
     {
       "id": "zam-0517",
@@ -9125,7 +9125,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Slatted bed (sunoko bed frame)"
     },
     {
       "id": "zam-0518",
@@ -9159,7 +9159,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Speaker (longest side over 50 cm)"
     },
     {
       "id": "zam-0520",
@@ -9176,7 +9176,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Speaker (longest side 50 cm or less)"
     },
     {
       "id": "zam-0521",
@@ -9233,7 +9233,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Slide (household play equipment; longest side up to 2 m)"
     },
     {
       "id": "zam-0524",
@@ -9256,7 +9256,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Sports goods (martial arts uniforms; excluding belts and mawashi)"
     },
     {
       "id": "zam-0525",
@@ -9273,7 +9273,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sports goods (non-burnable types)"
     },
     {
       "id": "zam-0526",
@@ -9290,7 +9290,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sports goods (burnable types) 1"
     },
     {
       "id": "zam-0527",
@@ -9307,7 +9307,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sports goods (burnable types) 2"
     },
     {
       "id": "zam-0528",
@@ -9392,7 +9392,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sumi ink (for calligraphy)"
     },
     {
       "id": "zam-0533",
@@ -9426,7 +9426,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Step ramp (threshold ramp; excluding concrete ones and rubber ones 3 cm or thicker)"
     },
     {
       "id": "zam-0535",
@@ -9443,7 +9443,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Slot machine / pachinko machine"
     },
     {
       "id": "zam-0536",
@@ -9460,7 +9460,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sex toy (longest side 50 cm or less; mainly non-metal)"
     },
     {
       "id": "zam-0537",
@@ -9477,7 +9477,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Drafting board / drafting table (household use)"
     },
     {
       "id": "zam-0538",
@@ -9596,7 +9596,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lime / lime plaster (shikkui)"
     },
     {
       "id": "zam-0545",
@@ -9613,7 +9613,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gypsum (plaster) / gypsum board (drywall)"
     },
     {
       "id": "zam-0546",
@@ -9630,7 +9630,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Adhesive (glue, super glue etc.)"
     },
     {
       "id": "zam-0547",
@@ -9664,7 +9664,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cellophane tape dispenser (concrete, stone)"
     },
     {
       "id": "zam-0549",
@@ -9681,7 +9681,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cellophane tape dispenser (plastic; without concrete or stone weight)"
     },
     {
       "id": "zam-0550",
@@ -9698,7 +9698,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Detergent box (paper)"
     },
     {
       "id": "zam-0551",
@@ -9755,7 +9755,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Washing machine drain pan (waterproof pan)"
     },
     {
       "id": "zam-0554",
@@ -9772,7 +9772,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothespins / clothes drying hanger (mainly plastic or wood)"
     },
     {
       "id": "zam-0555",
@@ -9789,7 +9789,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothespin (plastic, wood)"
     },
     {
       "id": "zam-0556",
@@ -9806,7 +9806,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laundry hanger / square clip hanger (mainly non-metal)"
     },
     {
       "id": "zam-0557",
@@ -9843,7 +9843,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric fan / air circulator"
     },
     {
       "id": "zam-0559",
@@ -9894,7 +9894,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathroom sink unit (washstand / vanity unit)"
     },
     {
       "id": "zam-0562",
@@ -9914,7 +9914,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vacuum cleaner (including stick type)"
     },
     {
       "id": "zam-0563",
@@ -9931,7 +9931,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Solar panel (solar power system) / photovoltaic panel"
     },
     {
       "id": "zam-0564",
@@ -9948,7 +9948,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Other items (not found in the list)"
     },
     {
       "id": "zam-0565",
@@ -9965,7 +9965,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Other clothing / burnable personal belongings"
     },
     {
       "id": "zam-0566",
@@ -9982,7 +9982,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Other food and drink (liquid)"
     },
     {
       "id": "zam-0567",
@@ -9999,7 +9999,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Other food and drink (solid)"
     },
     {
       "id": "zam-0568",
@@ -10021,7 +10021,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Sofa (longest side up to 119 cm)"
     },
     {
       "id": "zam-0569",
@@ -10043,7 +10043,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Sofa (longest side 120-200 cm)"
     },
     {
       "id": "zam-0570",
@@ -10066,7 +10066,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Sofa bed (with backrest only; longest side up to 2 m; excluding spring mattresses)"
     },
     {
       "id": "zam-0571",
@@ -10117,7 +10117,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stand / base (various types; up to 2 m)"
     },
     {
       "id": "zam-0574",
@@ -10134,7 +10134,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clinical thermometer (including mercury types)"
     },
     {
       "id": "zam-0575",
@@ -10185,7 +10185,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Dining chair"
     },
     {
       "id": "zam-0578",
@@ -10202,7 +10202,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Dining table (excluding marble, stone or tile tops and hydraulic lift tables)"
     },
     {
       "id": "zam-0579",
@@ -10261,7 +10261,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tire (motorcycle, automobile)"
     },
     {
       "id": "zam-0582",
@@ -10278,7 +10278,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tire chains (metal, non-metal)"
     },
     {
       "id": "zam-0583",
@@ -10295,7 +10295,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tile (including decorative tiles)"
     },
     {
       "id": "zam-0584",
@@ -10318,7 +10318,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carpet tiles (longest side over 50 cm)"
     },
     {
       "id": "zam-0585",
@@ -10369,7 +10369,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pole pruner (long-reach pruning shears; longest side over 50 cm)"
     },
     {
       "id": "zam-0588",
@@ -10386,7 +10386,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (percussion; mainly wood or plastic)"
     },
     {
       "id": "zam-0589",
@@ -10403,7 +10403,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Musical instrument (percussion; mainly metal)"
     },
     {
       "id": "zam-0590",
@@ -10420,7 +10420,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Body pillow"
     },
     {
       "id": "zam-0591",
@@ -10490,7 +10490,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Tatami bed (frame; longest side up to 2 m)"
     },
     {
       "id": "zam-0595",
@@ -10509,7 +10509,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Tatami mat from a tatami bed"
     },
     {
       "id": "zam-0596",
@@ -10543,7 +10543,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tupperware (food storage container; plastic)"
     },
     {
       "id": "zam-0598",
@@ -10560,7 +10560,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Shelf (mainly wood or plastic; longest side up to 119 cm)"
     },
     {
       "id": "zam-0599",
@@ -10577,7 +10577,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Shelf (mainly wood or plastic; longest side 120-200 cm)"
     },
     {
       "id": "zam-0600",
@@ -10594,7 +10594,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Shelf (mainly metal; longest side up to 119 cm)"
     },
     {
       "id": "zam-0601",
@@ -10611,7 +10611,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Shelf (mainly metal; longest side 120-200 cm)"
     },
     {
       "id": "zam-0602",
@@ -10628,7 +10628,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cigarettes (including cigarette butts)"
     },
     {
       "id": "zam-0603",
@@ -10662,7 +10662,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food"
     },
     {
       "id": "zam-0605",
@@ -10679,7 +10679,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Eggs / poultry"
     },
     {
       "id": "zam-0606",
@@ -10713,7 +10713,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Washtub (longest side over 50 cm)"
     },
     {
       "id": "zam-0608",
@@ -10747,7 +10747,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "CO2 cartridge / cylinder (for household soda makers / beer dispensers; empty)"
     },
     {
       "id": "zam-0610",
@@ -10764,7 +10764,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chest of drawers (tansu; mainly wood or plastic; longest side up to 119 cm)"
     },
     {
       "id": "zam-0611",
@@ -10781,7 +10781,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chest of drawers (tansu; mainly wood or plastic; longest side 120-200 cm)"
     },
     {
       "id": "zam-0612",
@@ -10798,7 +10798,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chest of drawers (tansu; mainly metal; longest side up to 119 cm)"
     },
     {
       "id": "zam-0613",
@@ -10815,7 +10815,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chest of drawers (tansu; mainly metal; longest side 120-200 cm)"
     },
     {
       "id": "zam-0614",
@@ -10869,7 +10869,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cardboard (corrugated cardboard)"
     },
     {
       "id": "zam-0617",
@@ -10939,7 +10939,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tea (tea leaves only)"
     },
     {
       "id": "zam-0621",
@@ -10990,7 +10990,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Woodcarving chisel / small knife"
     },
     {
       "id": "zam-0624",
@@ -11024,7 +11024,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking utensils (mainly metal)"
     },
     {
       "id": "zam-0626",
@@ -11101,7 +11101,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pickling weight stone (tsukemono-ishi)"
     },
     {
       "id": "zam-0630",
@@ -11135,7 +11135,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Tension shelf (longest side over 50 cm)"
     },
     {
       "id": "zam-0632",
@@ -11152,7 +11152,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tension rod (longest side over 50 cm)"
     },
     {
       "id": "zam-0633",
@@ -11186,7 +11186,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fishing rod (wood, carbon; without metal fittings, up to 2 m long)"
     },
     {
       "id": "zam-0635",
@@ -11220,7 +11220,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "DVD player (including portable)"
     },
     {
       "id": "zam-0637",
@@ -11383,7 +11383,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Video game console"
     },
     {
       "id": "zam-0646",
@@ -11405,7 +11405,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "TV stand (longest side up to 119 cm)"
     },
     {
       "id": "zam-0647",
@@ -11427,7 +11427,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "TV stand (longest side 120-200 cm)"
     },
     {
       "id": "zam-0648",
@@ -11524,7 +11524,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electrical cord / power cord / extension cord"
     },
     {
       "id": "zam-0653",
@@ -11541,7 +11541,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric cooking pot (electric multicooker)"
     },
     {
       "id": "zam-0654",
@@ -11656,7 +11656,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Decorative lights (illumination)"
     },
     {
       "id": "zam-0660",
@@ -11728,7 +11728,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric bicycle / electric kick scooter (battery removed)"
     },
     {
       "id": "zam-0664",
@@ -11745,7 +11745,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric screwdriver (tool)"
     },
     {
       "id": "zam-0665",
@@ -11762,7 +11762,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric saw (household; longest side up to 50 cm)"
     },
     {
       "id": "zam-0666",
@@ -11798,7 +11798,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Telephone (including cell phones)"
     },
     {
       "id": "zam-0668",
@@ -11900,7 +11900,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pottery / ceramics (only those that can be broken with a hammer)"
     },
     {
       "id": "zam-0674",
@@ -11917,7 +11917,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Processed foods (tofu, kamaboko fish cake etc.)"
     },
     {
       "id": "zam-0675",
@@ -11934,7 +11934,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Animal carcass"
     },
     {
       "id": "zam-0676",
@@ -11951,7 +11951,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Animal droppings / urine"
     },
     {
       "id": "zam-0677",
@@ -11968,7 +11968,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Winnowing machine (tomi)"
     },
     {
       "id": "zam-0678",
@@ -12041,7 +12041,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Galvanized iron sheet (totan; up to 2 m long)"
     },
     {
       "id": "zam-0682",
@@ -12058,7 +12058,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Door (up to 2 m; when no contractor is involved)"
     },
     {
       "id": "zam-0683",
@@ -12095,7 +12095,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Truck"
     },
     {
       "id": "zam-0685",
@@ -12163,7 +12163,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Birdcage (longest side over 50 cm)"
     },
     {
       "id": "zam-0689",
@@ -12197,7 +12197,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dress form / torso (for sewing; excluding plaster ones and those with concrete or other weights)"
     },
     {
       "id": "zam-0691",
@@ -12214,7 +12214,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food packaging tray"
     },
     {
       "id": "zam-0692",
@@ -12248,7 +12248,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rubber boots (rain boots)"
     },
     {
       "id": "zam-0694",
@@ -12282,7 +12282,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Nagamochi (traditional storage chest for kimono)"
     },
     {
       "id": "zam-0696",
@@ -12299,7 +12299,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hatchet (nata; carpentry tool)"
     },
     {
       "id": "zam-0697",
@@ -12316,7 +12316,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pots (cooking pots, including earthenware pots)"
     },
     {
       "id": "zam-0698",
@@ -12367,7 +12367,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lead (metal)"
     },
     {
       "id": "zam-0701",
@@ -12401,7 +12401,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mollusks (squid, octopus etc.)"
     },
     {
       "id": "zam-0703",
@@ -12437,7 +12437,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dairy products"
     },
     {
       "id": "zam-0705",
@@ -12474,7 +12474,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Stuffed toy (longest side over 50 cm)"
     },
     {
       "id": "zam-0707",
@@ -12494,7 +12494,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Stuffed toy (longest side 50 cm or less)"
     },
     {
       "id": "zam-0708",
@@ -12511,7 +12511,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cloth / fabric scraps"
     },
     {
       "id": "zam-0709",
@@ -12582,7 +12582,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cat scratcher (cardboard only)"
     },
     {
       "id": "zam-0713",
@@ -12599,7 +12599,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Net (metal grid mesh)"
     },
     {
       "id": "zam-0714",
@@ -12650,7 +12650,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Farm machinery and tools"
     },
     {
       "id": "zam-0717",
@@ -12667,7 +12667,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pesticides / chemicals"
     },
     {
       "id": "zam-0718",
@@ -12724,7 +12724,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Saw (electric)"
+      "name_en": "Electric saw (longest side over 50 cm)"
     },
     {
       "id": "zam-0721",
@@ -12741,7 +12741,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Saw (non-electric)"
     },
     {
       "id": "zam-0722",
@@ -12775,7 +12775,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hard disk drive (HDD)"
     },
     {
       "id": "zam-0724",
@@ -12792,7 +12792,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Barbecue grill (longest side over 50 cm)"
     },
     {
       "id": "zam-0725",
@@ -12843,7 +12843,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bio Mailax bag (bag made from limestone)"
     },
     {
       "id": "zam-0728",
@@ -12860,7 +12860,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pipes (up to 2 m long)"
     },
     {
       "id": "zam-0729",
@@ -12877,7 +12877,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Pipe clothes rack (garment rack)"
     },
     {
       "id": "zam-0730",
@@ -12894,7 +12894,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Pipe rack (metal shelf that can be disassembled; longest side up to 50 cm)"
     },
     {
       "id": "zam-0731",
@@ -12911,7 +12911,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hybrid heater (far-infrared and oil-filled)"
     },
     {
       "id": "zam-0732",
@@ -12930,7 +12930,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Loft bed (high bed; up to 2 m when disassembled; excluding spring mattresses)"
     },
     {
       "id": "zam-0733",
@@ -12964,7 +12964,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Binder (non-paper)"
     },
     {
       "id": "zam-0735",
@@ -12981,7 +12981,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Postcard"
     },
     {
       "id": "zam-0736",
@@ -13032,7 +13032,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Scissors (longest side 50 cm or less)"
     },
     {
       "id": "zam-0739",
@@ -13066,7 +13066,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Basketball hoop (up to 2 m)"
     },
     {
       "id": "zam-0741",
@@ -13106,7 +13106,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Computer (PC; including desktops and monitors)"
     },
     {
       "id": "zam-0743",
@@ -13129,7 +13129,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Computer desk (PC rack)"
     },
     {
       "id": "zam-0744",
@@ -13146,7 +13146,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bee or wasp nest"
     },
     {
       "id": "zam-0745",
@@ -13202,7 +13202,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (for electric bicycles)"
     },
     {
       "id": "zam-0748",
@@ -13219,7 +13219,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (lithium polymer)"
     },
     {
       "id": "zam-0749",
@@ -13253,7 +13253,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bat (baseball etc.; wood, carbon)"
     },
     {
       "id": "zam-0751",
@@ -13270,7 +13270,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bat (baseball etc.; metal)"
     },
     {
       "id": "zam-0752",
@@ -13287,7 +13287,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flower stand (up to 2 m)"
     },
     {
       "id": "zam-0753",
@@ -13392,7 +13392,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Electric kick scooter / hoverboard (children's toy; excluding non-removable battery types)"
     },
     {
       "id": "zam-0759",
@@ -13460,7 +13460,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bread"
     },
     {
       "id": "zam-0763",
@@ -13477,7 +13477,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanger (plastic, metal)"
     },
     {
       "id": "zam-0764",
@@ -13494,7 +13494,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanger (wood; including with metal parts)"
     },
     {
       "id": "zam-0765",
@@ -13511,7 +13511,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Hanging chair"
     },
     {
       "id": "zam-0766",
@@ -13528,7 +13528,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanten (padded short coat)"
     },
     {
       "id": "zam-0767",
@@ -13579,7 +13579,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pierced earrings"
     },
     {
       "id": "zam-0770",
@@ -13634,7 +13634,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bead cushion (beanbag; longest side over 50 cm)"
     },
     {
       "id": "zam-0773",
@@ -13685,7 +13685,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Beer dispenser (beer server; household, fluorocarbon-free)"
     },
     {
       "id": "zam-0776",
@@ -13702,7 +13702,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Facial beauty device (longest side over 50 cm; household use)"
     },
     {
       "id": "zam-0777",
@@ -13719,7 +13719,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Facial beauty device (longest side 50 cm or less; household use)"
     },
     {
       "id": "zam-0778",
@@ -13736,7 +13736,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Drawer (longest side up to 119 cm)"
     },
     {
       "id": "zam-0779",
@@ -13753,7 +13753,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Drawer (longest side 120-200 cm)"
     },
     {
       "id": "zam-0780",
@@ -13770,7 +13770,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pizza box (paper; soiled)"
     },
     {
       "id": "zam-0781",
@@ -13804,7 +13804,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "VCR (video deck; longest side over 50 cm)"
     },
     {
       "id": "zam-0783",
@@ -13821,7 +13821,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Single-seat sofa and ottoman (footrest) set"
     },
     {
       "id": "zam-0784",
@@ -13838,7 +13838,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hina doll display set (Girls' Festival; excluding the dolls)"
     },
     {
       "id": "zam-0785",
@@ -13855,7 +13855,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hina doll display stand (hinadan; metal)"
     },
     {
       "id": "zam-0786",
@@ -13872,7 +13872,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hina doll display stand (hinadan; wood)"
     },
     {
       "id": "zam-0787",
@@ -14008,7 +14008,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glass bottle (for cosmetics, medicine etc.; other than food and beverage)"
     },
     {
       "id": "zam-0795",
@@ -14025,7 +14025,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fax machine (household; longest side over 50 cm)"
     },
     {
       "id": "zam-0796",
@@ -14059,7 +14059,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fan heater (gas, kerosene, electric)"
     },
     {
       "id": "zam-0798",
@@ -14076,7 +14076,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Artificial plant (fake greenery; longest side over 50 cm; without concrete, stone or soil)"
     },
     {
       "id": "zam-0799",
@@ -14093,7 +14093,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Artificial plant (fake greenery; longest side 50 cm or less; without concrete, stone or soil)"
     },
     {
       "id": "zam-0800",
@@ -14127,7 +14127,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Multifunction printer (household use)"
     },
     {
       "id": "zam-0802",
@@ -14161,7 +14161,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Non-woven mask"
     },
     {
       "id": "zam-0804",
@@ -14178,7 +14178,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fusuma (sliding door; for closets)"
     },
     {
       "id": "zam-0805",
@@ -14195,7 +14195,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fusuma (sliding door; for doorways)"
     },
     {
       "id": "zam-0806",
@@ -14246,7 +14246,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bubble wrap (packaging cushioning material)"
     },
     {
       "id": "zam-0809",
@@ -14263,7 +14263,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Padded envelope (bubble-lined)"
     },
     {
       "id": "zam-0810",
@@ -14297,7 +14297,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Buddhist altar (butsudan) / Buddhist altar fittings"
     },
     {
       "id": "zam-0812",
@@ -14314,7 +14314,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon (Japanese comforter / floor mattress)"
     },
     {
       "id": "zam-0813",
@@ -14443,7 +14443,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic board (longest side 50 cm or less)"
     },
     {
       "id": "zam-0820",
@@ -14477,7 +14477,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Store-bought plastic containers (Tupperware etc.)"
     },
     {
       "id": "zam-0822",
@@ -14494,7 +14494,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic board (longest side over 50 cm)"
     },
     {
       "id": "zam-0823",
@@ -14528,7 +14528,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Blanket (without padding)"
     },
     {
       "id": "zam-0825",
@@ -14562,7 +14562,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Printer (household; longest side over 50 cm)"
     },
     {
       "id": "zam-0827",
@@ -14579,7 +14579,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Printouts / handouts"
     },
     {
       "id": "zam-0828",
@@ -14613,7 +14613,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Music player / media player"
     },
     {
       "id": "zam-0830",
@@ -14681,7 +14681,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathtub cover (rigid board type)"
     },
     {
       "id": "zam-0834",
@@ -14698,7 +14698,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathtub cover (roll-up type)"
     },
     {
       "id": "zam-0835",
@@ -14715,7 +14715,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bath stool (shower chair)"
     },
     {
       "id": "zam-0836",
@@ -14732,7 +14732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Products containing fluorocarbons (CFCs, HCFCs, HFCs)"
     },
     {
       "id": "zam-0837",
@@ -14749,7 +14749,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paperweight (bunchin; calligraphy tool)"
     },
     {
       "id": "zam-0838",
@@ -14766,7 +14766,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stationery (paper)"
     },
     {
       "id": "zam-0839",
@@ -14783,7 +14783,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stationery (metal, electronic)"
     },
     {
       "id": "zam-0840",
@@ -14800,7 +14800,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stationery (non-metal)"
     },
     {
       "id": "zam-0841",
@@ -14817,7 +14817,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Stationery in general (non-metal)"
     },
     {
       "id": "zam-0842",
@@ -14854,7 +14854,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rice and grains"
     },
     {
       "id": "zam-0844",
@@ -14873,7 +14873,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bed (frame only, mainly wood; excluding spring mattresses)"
     },
     {
       "id": "zam-0845",
@@ -14892,7 +14892,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bed (frame only, mainly metal; excluding spring mattresses)"
     },
     {
       "id": "zam-0846",
@@ -14928,7 +14928,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet cage"
     },
     {
       "id": "zam-0848",
@@ -14945,7 +14945,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet playpen"
     },
     {
       "id": "zam-0849",
@@ -15006,7 +15006,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PET bottle caps and labels"
     },
     {
       "id": "zam-0852",
@@ -15023,7 +15023,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet litter (cat litter etc.; excluding natural sand)"
     },
     {
       "id": "zam-0853",
@@ -15040,7 +15040,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet toilet (litter box; longest side over 50 cm)"
     },
     {
       "id": "zam-0854",
@@ -15061,7 +15061,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Stroller (non-folding or for twins)"
     },
     {
       "id": "zam-0855",
@@ -15082,7 +15082,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Stroller (folding type; excluding twin strollers)"
     },
     {
       "id": "zam-0856",
@@ -15099,7 +15099,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Baby guard / baby gate"
     },
     {
       "id": "zam-0857",
@@ -15167,7 +15167,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Baby chair / baby bouncer"
     },
     {
       "id": "zam-0861",
@@ -15220,7 +15220,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "High-low chair (baby high chair / bouncer) / baby rack (baby seat)"
     },
     {
       "id": "zam-0864",
@@ -15237,7 +15237,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Healthtron (electric potential therapy device)"
     },
     {
       "id": "zam-0865",
@@ -15327,7 +15327,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toilet seat (heated, with bidet function)"
     },
     {
       "id": "zam-0870",
@@ -15344,7 +15344,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Toilet seat (heated only)"
     },
     {
       "id": "zam-0871",
@@ -15395,7 +15395,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Telescope / astronomical telescope"
     },
     {
       "id": "zam-0874",
@@ -15412,7 +15412,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soundproofing sheet"
     },
     {
       "id": "zam-0875",
@@ -15429,7 +15429,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Broom / mop / deck brush (non-metal handle)"
     },
     {
       "id": "zam-0876",
@@ -15463,7 +15463,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Waterproof-coated paper"
     },
     {
       "id": "zam-0878",
@@ -15480,7 +15480,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Waterproof bed sheet"
     },
     {
       "id": "zam-0879",
@@ -15514,7 +15514,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Insect repellent (household; including moth repellents)"
     },
     {
       "id": "zam-0881",
@@ -15551,7 +15551,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bowling ball"
     },
     {
       "id": "zam-0883",
@@ -15641,7 +15641,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home kamado (portable cooking stove; excluding brick)"
     },
     {
       "id": "zam-0888",
@@ -15675,7 +15675,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bread maker (home bakery; longest side over 50 cm)"
     },
     {
       "id": "zam-0890",
@@ -15760,7 +15760,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Walker (for children; baby walker)"
     },
     {
       "id": "zam-0895",
@@ -15803,7 +15803,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle child seat (longest side over 50 cm)"
     },
     {
       "id": "zam-0897",
@@ -15837,7 +15837,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Button (for clothing; non-metal)"
     },
     {
       "id": "zam-0899",
@@ -15875,7 +15875,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pot / kettle (including electric hot water pots)"
     },
     {
       "id": "zam-0901",
@@ -15909,7 +15909,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Pogo stick (children's toy)"
     },
     {
       "id": "zam-0903",
@@ -15926,7 +15926,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dress form / torso (for household sewing; excluding plaster forms and forms with concrete weights)"
     },
     {
       "id": "zam-0904",
@@ -15943,7 +15943,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic jerry can (poly tank; 20 L or less)"
     },
     {
       "id": "zam-0905",
@@ -15960,7 +15960,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic bucket (45 L or less)"
     },
     {
       "id": "zam-0906",
@@ -15977,7 +15977,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Refrigerated rice bin (fluorocarbon-free)"
     },
     {
       "id": "zam-0907",
@@ -15994,7 +15994,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ice pack (gel coolant) / antifreeze gel"
     },
     {
       "id": "zam-0908",
@@ -16028,7 +16028,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bookshelf (mainly metal; longest side up to 119 cm)"
     },
     {
       "id": "zam-0910",
@@ -16045,7 +16045,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bookshelf (mainly metal; longest side over 120 cm)"
     },
     {
       "id": "zam-0911",
@@ -16062,7 +16062,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bookshelf (mainly wood; longest side up to 119 cm)"
     },
     {
       "id": "zam-0912",
@@ -16079,7 +16079,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bookshelf (mainly wood; longest side 120-200 cm)"
     },
     {
       "id": "zam-0913",
@@ -16096,7 +16096,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Books"
     },
     {
       "id": "zam-0914",
@@ -16113,7 +16113,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mahjong table (household, including fully automatic)"
     },
     {
       "id": "zam-0915",
@@ -16336,7 +16336,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window fan (without cooling function; excluding window air conditioners)"
     },
     {
       "id": "zam-0928",
@@ -16370,7 +16370,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Nail polish"
     },
     {
       "id": "zam-0930",
@@ -16455,7 +16455,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tree trunks (over 1 m long or over 20 cm in diameter; up to 2 m long and 100 kg)"
     },
     {
       "id": "zam-0935",
@@ -16472,7 +16472,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sewing machine (longest side over 50 cm)"
     },
     {
       "id": "zam-0936",
@@ -16506,7 +16506,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mirror cabinet (not built into a washstand)"
     },
     {
       "id": "zam-0938",
@@ -16591,7 +16591,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Memo pad / memo paper"
     },
     {
       "id": "zam-0943",
@@ -16625,7 +16625,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Noodles (excluding packaging)"
     },
     {
       "id": "zam-0945",
@@ -16645,7 +16645,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Blanket (including kotatsu blankets; without padding)"
     },
     {
       "id": "zam-0946",
@@ -16679,7 +16679,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Imitation sword (replica sword)"
     },
     {
       "id": "zam-0948",
@@ -16713,7 +16713,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mop / floor wiper (metal)"
     },
     {
       "id": "zam-0950",
@@ -16736,7 +16736,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Monitor / display (for PC)"
     },
     {
       "id": "zam-0951",
@@ -16753,7 +16753,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Monitor arm (longest side over 50 cm)"
     },
     {
       "id": "zam-0952",
@@ -16787,7 +16787,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothes drying rack (folding)"
     },
     {
       "id": "zam-0954",
@@ -16804,7 +16804,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laundry pole (up to 2 m long)"
     },
     {
       "id": "zam-0955",
@@ -16821,7 +16821,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laundry pole stand (without concrete base)"
     },
     {
       "id": "zam-0956",
@@ -16881,7 +16881,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kettle"
     },
     {
       "id": "zam-0959",
@@ -16898,7 +16898,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicines (household)"
     },
     {
       "id": "zam-0960",
@@ -16915,7 +16915,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vegetables etc."
     },
     {
       "id": "zam-0961",
@@ -16971,7 +16971,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Play equipment (longest side 50 cm or less; metal)"
     },
     {
       "id": "zam-0964",
@@ -16988,7 +16988,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Play equipment (longest side 50 cm or less; non-metal)"
     },
     {
       "id": "zam-0965",
@@ -17022,7 +17022,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hot water bottle (yutanpo; tin, metal)"
     },
     {
       "id": "zam-0967",
@@ -17039,7 +17039,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Unit tatami (portable modular tatami mat)"
     },
     {
       "id": "zam-0968",
@@ -17073,7 +17073,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water heater (yuwakashiki)"
+      "name_en": "Water heater (yuwakashiki; excluding kyutoki hot-water supply systems)"
     },
     {
       "id": "zam-0970",
@@ -17090,7 +17090,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothing accessories and sundries (cloth)"
     },
     {
       "id": "zam-0971",
@@ -17107,7 +17107,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothing accessories and sundries (burnable)"
     },
     {
       "id": "zam-0972",
@@ -17212,7 +17212,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Racket (badminton; excluding fiberglass)"
     },
     {
       "id": "zam-0978",
@@ -17229,7 +17229,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Racket (tennis; excluding fiberglass)"
     },
     {
       "id": "zam-0979",
@@ -17263,7 +17263,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Radio cassette player (boombox; longest side over 50 cm)"
     },
     {
       "id": "zam-0981",
@@ -17314,7 +17314,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lattice fence (garden fence)"
     },
     {
       "id": "zam-0984",
@@ -17348,7 +17348,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laminated paper"
     },
     {
       "id": "zam-0986",
@@ -17399,7 +17399,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Laundry rack (up to 2 m)"
     },
     {
       "id": "zam-0989",
@@ -17433,7 +17433,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Reclining chair (recliner) and ottoman (footrest) set"
     },
     {
       "id": "zam-0991",
@@ -17467,7 +17467,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Beauty and health appliances"
     },
     {
       "id": "zam-0993",
@@ -17518,7 +17518,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooked food (prepared dishes)"
     },
     {
       "id": "zam-0996",
@@ -17642,7 +17642,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Frozen food"
     },
     {
       "id": "zam-1003",
@@ -17659,7 +17659,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Air cooler (cold-air fan; fluorocarbon-free)"
     },
     {
       "id": "zam-1004",
@@ -17676,7 +17676,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Evaporative air cooler (cooling fan; fluorocarbon-free)"
     },
     {
       "id": "zam-1005",
@@ -17763,7 +17763,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Receipts (including thermal paper)"
     },
     {
       "id": "zam-1010",
@@ -17834,7 +17834,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Microwave stand (mainly wood; longest side up to 119 cm)"
     },
     {
       "id": "zam-1014",
@@ -17851,7 +17851,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Microwave stand (mainly wood; longest side 120-200 cm)"
     },
     {
       "id": "zam-1015",
@@ -17868,7 +17868,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Microwave stand (mainly metal; longest side up to 119 cm)"
     },
     {
       "id": "zam-1016",
@@ -17885,7 +17885,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Microwave stand (mainly metal; longest side 120-200 cm)"
     },
     {
       "id": "zam-1017",
@@ -17972,7 +17972,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Roller blind / roller screen (up to 2 m; when no contractor is involved)"
     },
     {
       "id": "zam-1022",
@@ -17989,7 +17989,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Rocking chair"
     },
     {
       "id": "zam-1023",
@@ -18006,7 +18006,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rodeo machine (Rodeo Boy; horse-riding exercise machine)"
     },
     {
       "id": "zam-1024",
@@ -18023,7 +18023,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Standalone word processor (dedicated word-processing machine; longest side over 50 cm)"
     },
     {
       "id": "zam-1025",
@@ -18040,7 +18040,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wine cellar (wine cooler; electric)"
     },
     {
       "id": "zam-1026",
@@ -18074,7 +18074,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Washi (Japanese paper) / calligraphy paper (hanshi) / shoji paper"
     },
     {
       "id": "zam-1028",
