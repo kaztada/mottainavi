@@ -176,8 +176,17 @@ export function buildSearchEntries(index: SearchIndexItem[]): SearchEntry[] {
   }))
 }
 
+/**
+ * あいまい検索のしきい値(小さいほど厳しい)。
+ * 0.35 だと品目の少ない市でデータに無い語(ペンキ・タンス)が関係ない品目に当たり、
+ * 「見つかりません→公式サイトへ」の案内にならなかったため 0.30 に下げた(2026-10-22)。
+ * 0.30 では、正規化後4文字の短い読みの1字抜け(かしき→加湿器)が Fuse では当たらなくなる。
+ * 別の品目だけが残る場合は、下の「打ち間違いの救済」(rescueOneTypo)で本来の品目を足す
+ */
+const SEARCH_THRESHOLD = 0.3
+
 const FUSE_OPTIONS = {
-  threshold: 0.35,
+  threshold: SEARCH_THRESHOLD,
   ignoreLocation: true,
   minMatchCharLength: 1,
 }
@@ -263,7 +272,67 @@ function compareMatch(a: EnglishMatch, b: EnglishMatch): number {
   )
 }
 
-/** クエリを正規化して検索。日本語の検索語はスコア順、英数字の検索語は語単位の一致を先に並べる */
+/** 打ち間違いの救済に使う検索語の最短の長さ(正規化後)。2文字以下は候補が多すぎる */
+const MIN_RESCUE_LENGTH = 3
+
+/**
+ * 品目名・読み・別名を、打ち間違いの救済で比べる単位に分ける。
+ * 全体と、文字・数字以外(括弧・ハイフン・「・」「、」など)で区切った各部分。括弧の中も1つの部分にする
+ * (廃油(灯油・ガソリン・オイル類)→ガソリン、水槽-ガラス製→水槽、ラケット【…】→ラケット)
+ */
+function rescueTargets(text: string): string[] {
+  return [text, ...text.split(/[^\p{L}\p{N}]+/u)]
+}
+
+/** 隣どうしの2文字を入れ替えると同じになるか(がすらてぶる→がらすてぶる) */
+function isAdjacentSwap(a: string, b: string): boolean {
+  if (a.length !== b.length) return false
+  let i = 0
+  while (i < a.length && a[i] === b[i]) i++
+  return (
+    i < a.length - 1 &&
+    a[i] === b[i + 1] &&
+    a[i + 1] === b[i] &&
+    a.slice(i + 2) === b.slice(i + 2)
+  )
+}
+
+/**
+ * 日本語の検索語が、品目名・読み・別名(またはその区切った部分)の全体から
+ * 1字抜けたもの、または隣どうしの2文字を入れ替えたものになる品目(打ち間違い)。
+ * しきい値 0.30 で落ちる短い読みの1字抜け(かしき→かしつき)や、
+ * 入れ替え(がすらてぶる→がらすてぶる。Fuse では2文字の誤りになる)を拾う。
+ * 部分の全体との比較なので、データに無い語(たんす)が長い品目名の途中に当たることはない。
+ * 1字の置き換えは対象にしない。短い語では、正しく打たれた別の語との区別がつかない
+ * (じどうしゃ→じてんしゃ、体温計→体重計、乾電池→充電池、ぺんき→べんき(便器))。
+ * 検索語がそのまま品目名などと一致するときも救済しない(正しく打たれた語の1字違いは別の物)
+ */
+function rescueOneTypo(searcher: Searcher, q: string): SearchIndexItem[] {
+  if (q.length < MIN_RESCUE_LENGTH) return []
+  // 検索語がどれかの品目名・読み・別名(の部分)とそのまま一致するなら、打ち間違いではない
+  const exact = (text: string) => rescueTargets(text).includes(q)
+  if (
+    searcher.entries.some(
+      (e) => exact(e.nn) || exact(e.nk) || e.naJa.some(exact)
+    )
+  ) {
+    return []
+  }
+  const near = (text: string) =>
+    rescueTargets(text).some(
+      (target) =>
+        (target.length === q.length + 1 && isOneTypo(q, target)) ||
+        isAdjacentSwap(q, target)
+    )
+  return searcher.entries
+    .filter((e) => near(e.nn) || near(e.nk) || e.naJa.some(near))
+    .map((e) => e.item)
+}
+
+/**
+ * クエリを正規化して検索。日本語の検索語はスコア順(その後ろに打ち間違いの救済)、
+ * 英数字の検索語は語単位の一致を先に並べる
+ */
 export function searchItems(
   searcher: Searcher,
   query: string
@@ -271,5 +340,15 @@ export function searchItems(
   const q = normalizeForSearch(query)
   if (!q) return []
   if (isAsciiQuery(query)) return searchEnglish(searcher, query)
-  return searcher.fuse.search(q).map((r) => r.item.item)
+  const results = searcher.fuse.search(q).map((r) => r.item.item)
+  // 救済は、あいまい検索で何か出たときに候補を足すだけ。0件なら「見つかりません→公式サイトへ」のまま。
+  // データに無い正しい語(はもの=刃物、かやく=火薬)が、1字抜けの形で別の物(履物・カヤック)だけに当たるのを防ぐ
+  if (results.length === 0) return results
+  const seen = new Set(results.map((item) => item.id))
+  for (const item of rescueOneTypo(searcher, q)) {
+    if (seen.has(item.id)) continue
+    seen.add(item.id)
+    results.push(item)
+  }
+  return results
 }

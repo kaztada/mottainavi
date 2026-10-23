@@ -8,6 +8,11 @@ import {
 } from "./search"
 import itemsFile from "../../data/municipalities/osaka-city/items.json"
 import okinawaItemsFile from "../../data/municipalities/okinawa-city/items.json"
+import maizuruItemsFile from "../../data/municipalities/maizuru-city/items.json"
+import sukagawaItemsFile from "../../data/municipalities/sukagawa-city/items.json"
+import fukuiItemsFile from "../../data/municipalities/fukui-city/items.json"
+import zamaItemsFile from "../../data/municipalities/zama-city/items.json"
+import hirakataItemsFile from "../../data/municipalities/hirakata-city/items.json"
 import { ItemsFileSchema, SearchIndexFileSchema } from "./schemas"
 import { toSearchIndex } from "./public-data"
 
@@ -181,5 +186,120 @@ describe("英語の検索(語単位)", () => {
     expect(ja("ソファ").slice(0, 2)).toEqual(["ソファー", "ソファーベッド"])
     expect(ja("ふとん")[0]).toBe("布団")
     expect(ja("電池")).toContain("電池（ボタン型）")
+  })
+})
+
+// しきい値 0.30(2026-10-22): データに無い語で関係ない品目が出ないこと、
+// 正しい語・打ち間違い(1字の置き換え・1字抜け)では本来の品目が残ること
+describe("しきい値 0.30 と1字抜けの救済", () => {
+  const indexOf = (file: unknown) =>
+    SearchIndexFileSchema.parse(toSearchIndex(ItemsFileSchema.parse(file).items))
+  const cities = {
+    maizuru: indexOf(maizuruItemsFile),
+    sukagawa: indexOf(sukagawaItemsFile),
+    fukui: indexOf(fukuiItemsFile),
+    zama: indexOf(zamaItemsFile),
+    hirakata: indexOf(hirakataItemsFile),
+    osaka: indexOf(itemsFile),
+  }
+  const searchers = {
+    maizuru: createSearcher(cities.maizuru),
+    sukagawa: createSearcher(cities.sukagawa),
+    fukui: createSearcher(cities.fukui),
+    zama: createSearcher(cities.zama),
+    hirakata: createSearcher(cities.hirakata),
+    osaka: createSearcher(cities.osaka),
+  }
+  type City = keyof typeof cities
+  const names = (city: City, q: string) =>
+    searchItems(searchers[city], q).map((i) => i.n)
+  /** 品目名で本来の品目の ID を引く(データが変わって品目が無くなったら、ここで気づく) */
+  const idOf = (city: City, name: string) => {
+    const item = cities[city].find((i) => i.n === name)
+    expect(item, `${city} に「${name}」が無い`).toBeDefined()
+    return item!.id
+  }
+  /** 検索結果の上位 rank 件に、本来の品目が入っているか */
+  const expectInTop = (city: City, q: string, name: string, rank: number) => {
+    const ids = searchItems(searchers[city], q)
+      .slice(0, rank)
+      .map((i) => i.id)
+    expect(ids, `${city}「${q}」→「${name}」`).toContain(idOf(city, name))
+  }
+
+  it("舞鶴市: データに無い語(ペンキ・タンス・ソファー・ベッド)は何も出ない", () => {
+    for (const q of ["ペンキ", "タンス", "ソファー", "ベッド"]) {
+      expect(names("maizuru", q), q).toEqual([])
+    }
+  })
+
+  it("舞鶴市: タイヤは一輪車のタイヤだけが出る", () => {
+    expect(names("maizuru", "タイヤ")).toEqual(["一輪車のタイヤ"])
+  })
+
+  it("須賀川市: ペンキは何も出ない(便器に1字置き換えで当たらない)", () => {
+    expect(names("sukagawa", "ペンキ")).toEqual([])
+  })
+
+  it("大阪市: タイヤ・タンスは本来の品目が先頭で、関係ない品目が絞られる", () => {
+    expectInTop("osaka", "タイヤ", "タイヤ（自動車、単車用）", 1)
+    expect(names("osaka", "タイヤ").every((n) => n.includes("タイヤ"))).toBe(true)
+    expect(names("osaka", "タンス")).toEqual([
+      "たんす(最大の辺または径が30センチメートルを超えるもの）",
+    ])
+  })
+
+  it("大阪市: 正しい語・かなで本来の品目が上位に残る", () => {
+    const cases: [string, string][] = [
+      ["ぎたー", "ギター、エレキギター"],
+      ["そふぁ", "ソファー(一人掛け用)"],
+      ["れいぞうこ", "冷蔵庫・冷凍庫"],
+      ["せんぷうき", "扇風機"],
+      ["そうじき", "掃除機"],
+      ["えあこん", "エアコン"],
+      ["ふとん", "ふとん・毛布"],
+    ]
+    for (const [q, name] of cases) expectInTop("osaka", q, name, 3)
+  })
+
+  it("大阪市: 1字の置き換え(じでんしゃ)で自転車が上位に残る", () => {
+    expectInTop("osaka", "じでんしゃ", "自転車（電動式以外のもの）", 5)
+  })
+
+  it("1字抜け: あいまい検索で何か出たときは、本来の品目を救済で足す", () => {
+    expectInTop("osaka", "れいぞこ", "冷蔵庫・冷凍庫", 1)
+    expectInTop("osaka", "かしき", "加湿器", 5)
+    // 0.30 の Fuse だけでは湯沸かし器だけが残り、加湿器が消えていた(Codex の1回目の指摘)
+    expectInTop("fukui", "かしき", "加湿器", 5)
+  })
+
+  it("1字抜け: あいまい検索で何も出ないときは、救済せず「見つかりません」のまま", () => {
+    // 3文字の検索語は、データに無い正しい語(はもの=刃物、かやく=火薬)が
+    // 別の物(履物・カヤック)の1字抜けと重なるので、救済だけで結果を作らない(Codex の3回目の指摘)
+    expect(names("zama", "はもの")).toEqual([])
+    expect(names("hirakata", "かやく")).toEqual([])
+    // その代わり、短い読みの1字抜けは公式サイトへの案内になる
+    expect(names("osaka", "あいん")).toEqual([])
+    expect(names("fukui", "ばっり")).toEqual([])
+  })
+
+  it("1字抜けの救済は区切った部分(括弧の中も)とも比べる", () => {
+    // 加湿器(長辺50cm超): 括弧の前の「加湿器」と比べる(Codex の2回目の指摘)
+    expectInTop("zama", "かしき", "加湿器(長辺50cm超)", 5)
+    // 冷蔵庫・冷凍庫: 区切った「冷凍庫」と比べる
+    expectInTop("osaka", "れいとこ", "冷蔵庫・冷凍庫", 3)
+    // 括弧の中に書かれた品目とも比べる(ガソリン。Codex の4回目の指摘)
+    expectInTop("fukui", "がりん", "廃油（灯油・ガソリン・オイル類）", 5)
+  })
+
+  it("正しく打たれた語の1字違いの別の物は足さない", () => {
+    // ほうき(ほうき がある市)に歩行器(ほこうき)を足さない
+    expect(names("fukui", "ほうき")).not.toContain("歩行器")
+  })
+
+  it("隣どうしの2文字の入れ替えも救済する(Codex の5回目の指摘)", () => {
+    // Fuse では2文字の誤りになり、ガステーブル・ウレタンマットだけが残っていた
+    expectInTop("hirakata", "がすらてーぶる", "ガラステーブル（ガラス天板のみ）", 5)
+    expectInTop("fukui", "れじんまっと", "レンジマット（アルミ製）", 5)
   })
 })
