@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T07:43:05.780Z",
+  "generated_at": "2026-10-23T07:53:19.188Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -4176,7 +4176,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Toys / recreational goods (mainly non-metal; excluding game consoles)"
+      "name_en": "Toys / recreational goods (mainly non-metal, non-electric; excluding game consoles)"
     },
     {
       "id": "zam-0237",
@@ -4806,7 +4806,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Installed water heater / gas water heater (kyutoki; hot water supply unit)"
+      "name_en": "Kyutoki (installed hot-water supply unit / gas water heater)"
     },
     {
       "id": "zam-0273",
@@ -8331,7 +8331,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bedding (excluding bed frames)"
+      "name_en": "Bedding (excluding bed frames, sheets and blankets)"
     },
     {
       "id": "zam-0473",
@@ -8819,7 +8819,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Steel rack (longest side up to 119 cm)"
+      "name_en": "Steel rack (longest side over 50 cm and up to 119 cm)"
     },
     {
       "id": "zam-0501",
@@ -8887,7 +8887,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Stepper (exercise equipment)"
+      "name_en": "Stepper (hydraulic exercise equipment; oil not drained)"
     },
     {
       "id": "zam-0505",
@@ -15926,7 +15926,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dress form / torso (for sewing; excluding mannequins and plaster)"
+      "name_en": "Dress form / torso (for sewing; excluding mannequins, plaster forms and forms with concrete weights)"
     },
     {
       "id": "zam-0904",
@@ -17073,7 +17073,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water heater (yuwakashiki)"
+      "name_en": "Water heater (yuwakashiki; excluding installed kyutoki units)"
     },
     {
       "id": "zam-0970",
