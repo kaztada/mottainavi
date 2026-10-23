@@ -1,6 +1,6 @@
 {
   "municipality_id": "nakano-ku",
-  "generated_at": "2026-10-23T14:32:51.344Z",
+  "generated_at": "2026-10-23T14:50:46.827Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139",
   "item_count": 942,
   "items": [
@@ -1289,7 +1289,11 @@
       "name_ja": "乳母車（ベビーカー）",
       "name_kana": "うばぐるま（べびーかー）",
       "name_romaji": "ubaguruma(bebi-ka-)",
-      "aliases": [],
+      "aliases": [
+        "乳母車",
+        "stroller",
+        "baby carriage"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -1325,10 +1329,7 @@
       "name_romaji": "umoufuton",
       "aliases": [
         "羽毛布団",
-        "布団",
-        "敷布団",
-        "掛布団",
-        "futon"
+        "布団"
       ],
       "dispositions": [
         {
@@ -4676,7 +4677,12 @@
       "name_ja": "携帯ゲーム機器",
       "name_kana": "けいたいげーむきき",
       "name_romaji": "keitaige-mukiki",
-      "aliases": [],
+      "aliases": [
+        "ゲーム",
+        "Switch",
+        "PlayStation",
+        "game console"
+      ],
       "dispositions": [
         {
           "category_id": "kogata",

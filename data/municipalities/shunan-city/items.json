@@ -1,6 +1,6 @@
 {
   "municipality_id": "shunan-city",
-  "generated_at": "2026-10-23T14:32:49.663Z",
+  "generated_at": "2026-10-23T14:50:45.059Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352152_garbage_separation",
   "item_count": 869,
   "items": [
@@ -80,7 +80,12 @@
       "name_ja": "空き缶　飲料・食用油・食料品用（一斗缶より小さいもの）",
       "name_kana": "あきかん　いんりょう・しょくようゆ・しょくりょうひんよう（いちとかんよりちいさいもの）",
       "name_romaji": "akikan inryou/shokuyouyu/shokuryouhin'you(ichitokan'yorichiisaimono)",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "bin-kan",
@@ -97,7 +102,12 @@
       "name_ja": "空き缶　食用以外の缶容器･一斗缶以上の大きさの缶",
       "name_kana": "あきかん　しょくよういがいのかんようき･いちとかんいじょうのおおきさのかん",
       "name_romaji": "akikan shokuyouigainokan'youki･ichitokan'ijounoookisanokan",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -2678,7 +2688,10 @@
       "name_ja": "紙パック（牛乳パックなど）",
       "name_kana": "かみぱっく（ぎゅうにゅうぱっくなど）",
       "name_romaji": "kamipakku(gyuunyuupakkunado)",
-      "aliases": [],
+      "aliases": [
+        "紙パック",
+        "milk carton"
+      ],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -3062,7 +3075,8 @@
         "電池",
         "battery",
         "単三電池",
-        "単四電池"
+        "単四電池",
+        "乾電池"
       ],
       "dispositions": [
         {
@@ -5859,7 +5873,9 @@
       "name_ja": "ジュニアシート・チャイルドシート　金属がついているもの",
       "name_kana": "じゅにあしーと・ちゃいるどしーと　きんぞくがついているもの",
       "name_romaji": "juniashi-to/chairudoshi-to kinzokugatsuiteirumono",
-      "aliases": [],
+      "aliases": [
+        "child seat"
+      ],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -8111,7 +8127,9 @@
       "name_ja": "チャイルドシート・ジュニアシート　金属がついているもの",
       "name_kana": "ちゃいるどしーと・じゅにあしーと　きんぞくがついているもの",
       "name_romaji": "chairudoshi-to/juniashi-to kinzokugatsuiteirumono",
-      "aliases": [],
+      "aliases": [
+        "child seat"
+      ],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -8670,7 +8688,11 @@
       "name_ja": "釣り竿　上記以外のもの",
       "name_kana": "つりざお　じょうきいがいのもの",
       "name_romaji": "tsurizao joukiigainomono",
-      "aliases": [],
+      "aliases": [
+        "釣竿",
+        "釣りざお",
+        "fishing rod"
+      ],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -9303,7 +9325,12 @@
       "name_ja": "電池　使いきり（乾電池・リチウム・ボタン）",
       "name_kana": "でんち　つかいきり（かんでんち・りちうむ・ぼたん）",
       "name_romaji": "denchi tsukaikiri(kandenchi/richiumu/botan)",
-      "aliases": [],
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
       "dispositions": [
         {
           "category_id": "konnan",
@@ -9427,7 +9454,9 @@
       "name_ja": "電動ベッド　介護用",
       "name_kana": "でんどうべっど　かいごよう",
       "name_romaji": "dendoubeddo kaigoyou",
-      "aliases": [],
+      "aliases": [
+        "bed"
+      ],
       "dispositions": [
         {
           "category_id": "shushushinai",
@@ -11098,7 +11127,12 @@
       "name_ja": "バッグ・かばん　上記以外のもの",
       "name_kana": "ばっぐ・かばん　じょうきいがいのもの",
       "name_romaji": "baggu/kaban joukiigainomono",
-      "aliases": [],
+      "aliases": [
+        "バッグ",
+        "カバン",
+        "鞄",
+        "bag"
+      ],
       "dispositions": [
         {
           "category_id": "moyaseru",

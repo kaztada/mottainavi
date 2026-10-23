@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-23T14:32:49.225Z",
+  "generated_at": "2026-10-23T14:50:44.600Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -8192,7 +8192,12 @@
       "name_ja": "電池（乾電池）",
       "name_kana": "でんち（かんでんち）",
       "name_romaji": "denchi(kandenchi)",
-      "aliases": [],
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
       "dispositions": [
         {
           "category_id": "funen",

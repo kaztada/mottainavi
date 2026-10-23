@@ -1,6 +1,6 @@
 {
   "municipality_id": "kawachinagano-city",
-  "generated_at": "2026-10-23T14:32:47.179Z",
+  "generated_at": "2026-10-23T14:50:42.498Z",
   "source_url": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html",
   "item_count": 1089,
   "items": [
@@ -1514,7 +1514,11 @@
       "name_ja": "乳母車（ベビーカー）",
       "name_kana": "うばぐるま（べびーかー）",
       "name_romaji": "ubaguruma(bebi-ka-)",
-      "aliases": [],
+      "aliases": [
+        "乳母車",
+        "stroller",
+        "baby carriage"
+      ],
       "dispositions": [
         {
           "category_id": "moenai-sodai",
@@ -4685,9 +4689,9 @@
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
         "クーラー",
-        "エアコン",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {
@@ -5251,7 +5255,9 @@
       "name_romaji": "keikoutou(keikoukan)",
       "aliases": [
         "蛍光管",
-        "fluorescent light"
+        "fluorescent light",
+        "蛍光灯",
+        "fluorescent tube"
       ],
       "dispositions": [
         {

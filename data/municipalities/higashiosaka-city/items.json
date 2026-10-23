@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiosaka-city",
-  "generated_at": "2026-10-23T14:32:46.640Z",
+  "generated_at": "2026-10-23T14:50:41.916Z",
   "source_url": "https://data.bodik.jp/dataset/272272_28",
   "item_count": 913,
   "items": [
@@ -3735,9 +3735,9 @@
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
         "クーラー",
-        "エアコン",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {
@@ -5784,7 +5784,13 @@
       "name_ja": "じゅうたん(カーペット)",
       "name_kana": "じゅうたん(かーぺっと)",
       "name_romaji": "juutan(ka-petto)",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -9471,7 +9477,12 @@
       "name_ja": "電池(乾電池)",
       "name_kana": "でんち(かんでんち)",
       "name_romaji": "denchi(kandenchi)",
-      "aliases": [],
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
       "dispositions": [
         {
           "category_id": "kyoryokuten",

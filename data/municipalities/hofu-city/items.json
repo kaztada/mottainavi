@@ -1,6 +1,6 @@
 {
   "municipality_id": "hofu-city",
-  "generated_at": "2026-10-23T14:32:49.454Z",
+  "generated_at": "2026-10-23T14:50:44.835Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation",
   "item_count": 1239,
   "items": [
@@ -14451,7 +14451,10 @@
       "name_ja": "ナイフ（包丁）",
       "name_kana": "ないふ（ほうちょう）",
       "name_romaji": "naifu(houchou)",
-      "aliases": [],
+      "aliases": [
+        "ナイフ",
+        "knife"
+      ],
       "dispositions": [
         {
           "category_id": "moyasenai",

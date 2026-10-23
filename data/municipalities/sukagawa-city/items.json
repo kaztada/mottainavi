@@ -1,6 +1,6 @@
 {
   "municipality_id": "sukagawa-city",
-  "generated_at": "2026-10-23T14:32:47.962Z",
+  "generated_at": "2026-10-23T14:50:43.312Z",
   "source_url": "https://www.city.sukagawa.fukushima.jp/shisei/gaiyo/opendata/1004902/8865.html",
   "item_count": 569,
   "items": [
@@ -695,7 +695,11 @@
       "name_ja": "エアゾール缶（スプレー缶）",
       "name_kana": "えあぞーるかん（すぷれーかん）",
       "name_romaji": "eazo-rukan(supure-kan)",
-      "aliases": [],
+      "aliases": [
+        "スプレー",
+        "エアゾール缶",
+        "spray can"
+      ],
       "dispositions": [
         {
           "category_id": "shigen1",
@@ -2638,9 +2642,9 @@
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
         "クーラー",
-        "エアコン",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {
@@ -6503,7 +6507,10 @@
       "name_ja": "ナイフ（包丁・刃物類）",
       "name_kana": "ないふ（ほうちょう・はものるい）",
       "name_romaji": "naifu(houchou/hamonorui)",
-      "aliases": [],
+      "aliases": [
+        "ナイフ",
+        "knife"
+      ],
       "dispositions": [
         {
           "category_id": "funen",

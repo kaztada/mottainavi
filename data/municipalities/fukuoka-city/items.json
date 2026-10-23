@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-23T14:32:48.387Z",
+  "generated_at": "2026-10-23T14:50:43.744Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -2704,9 +2704,9 @@
       "name_romaji": "ku-ra-(eakontou)",
       "aliases": [
         "クーラー",
-        "エアコン",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {

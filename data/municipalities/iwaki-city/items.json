@@ -1,6 +1,6 @@
 {
   "municipality_id": "iwaki-city",
-  "generated_at": "2026-10-23T14:32:51.609Z",
+  "generated_at": "2026-10-23T14:50:47.112Z",
   "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
   "item_count": 1662,
   "items": [
@@ -9564,7 +9564,10 @@
       "name_ja": "コンパクトディスク（ＣＤ）",
       "name_kana": "こんぱくとでぃすく（しーでぃー）",
       "name_romaji": "konpakutodeisuku(shi-dei-)",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -10561,12 +10564,7 @@
       "name_ja": "磁気ふとん",
       "name_kana": "じきふとん",
       "name_romaji": "jikifuton",
-      "aliases": [
-        "布団",
-        "敷布団",
-        "掛布団",
-        "futon"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",

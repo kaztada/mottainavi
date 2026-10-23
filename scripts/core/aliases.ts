@@ -36,6 +36,7 @@ export const TAIL_ALLOW: Readonly<Record<string, readonly string[]>> = {
   携帯電話: ["端末"],
   DVD: ["ディスク", "ソフト"],
   CD: ["ディスク", "ソフト"],
+  ゲーム機: ["器"],
   新聞: ["紙"],
   蛍光灯: ["管"],
   段ボール: ["箱"],
@@ -48,9 +49,12 @@ const DECORATION = /(類|等|など|一式|全般|本体|[0-9]+)$/
 /** 注記として外すカッコ */
 const BRACKETS =
   /[（(【\[［<＜〈〔][^（()）【】\[\]［］<>＜＞〈〉〔〕]*[）)】\]］>＞〉〕]/g
-const SEPARATORS = /[・、，,／/＆&\s]+/
-/** 「ライター－金属製」「空きびん－化粧品用」のハイフンは、前の語に素材や用途を付ける区切り */
-const DASH = /[-–—―]+/
+const SEPARATORS = /[・、，,／/＆&]+/
+/**
+ * 「ライター－金属製」「空きびん－化粧品用」「空き缶　飲料用」のハイフンや空白は、前の語に素材や用途を
+ * 付ける区切り。区切った区間ごとに、「・」「、」の区切りと「〜の〜」「〜用」の判定をする
+ */
+const SEGMENT = /[-–—―\s]+/
 
 function normalize(s: string): string {
   return s.normalize("NFKC").toLowerCase()
@@ -109,7 +113,7 @@ export const STRICT_SIBLINGS: ReadonlySet<string> = new Set([
 ])
 
 /** 品目名が語と一致するときだけ付け、語で終わる品目(ワインクーラー)には付けない語 */
-export const EXACT_ONLY: ReadonlySet<string> = new Set(["クーラー"])
+export const EXACT_ONLY: ReadonlySet<string> = new Set(["クーラー", "ふとん"])
 
 /**
  * 語の前に付く言葉が決まっている語(許可リスト)。ポットは苗ポット・フラワーポット・オイルポットなどが
@@ -121,13 +125,20 @@ export const TAIL_PREFIX: Readonly<Record<string, readonly string[]>> = {
 
 /** 品目名を、注記を外した各部分(正規化済み)と、外した注記に分けたもの */
 export interface NameInfo {
+  /** 注記を外して区切った各部分(語で終わるかの判定に使う) */
   parts: string[]
+  /** parts のうち、語との一致の判定に使う部分(「自転車・バイクのアクセサリー」の自転車は除く) */
+  exact: string[]
+  /** 外した注記 */
   notes: string
+  /** カッコの中身を区切った各部分(「椅子（いす）」「バッグ（かばん）」の同義語の判定に使う) */
+  inner: string[]
 }
 
 export function analyzeName(name: string): NameInfo {
   let rest = normalize(name)
   let notes = ""
+  const inner: string[] = []
   // ※ 以降は注記
   const note = rest.indexOf("※")
   if (note >= 0) {
@@ -137,18 +148,22 @@ export function analyzeName(name: string): NameInfo {
   for (;;) {
     const next = rest.replace(BRACKETS, (m) => {
       notes += m
+      inner.push(...m.slice(1, -1).split(SEPARATORS))
       return ""
     })
     if (next === rest) break
     rest = next
   }
-  // ハイフンで区切った各区間の中で、「・」「、」などの区切りと「〜の〜」「〜用」の判定をする
-  const parts = rest
-    .split(DASH)
-    .flatMap((seg) =>
-      eligibleParts(seg.split(SEPARATORS).filter((p) => p.length > 0))
-    )
-  return { parts, notes }
+  const segments = rest
+    .split(SEGMENT)
+    .map((seg) => seg.split(SEPARATORS).filter((p) => p.length > 0))
+    .filter((seg) => seg.length > 0)
+  return {
+    parts: segments.flat(),
+    exact: segments.flatMap(eligibleParts),
+    notes,
+    inner: inner.map((p) => p.trim()).filter((p) => p.length > 0),
+  }
 }
 
 /** 注記を外して区切った品目名の各部分(正規化済み) */
@@ -207,10 +222,11 @@ export function buildItemAliases(
     info.notes + (spaceAt >= 0 ? trimmed.slice(spaceAt) : "")
   ).replace(/灯油/g, "石油")
   const exactParts = new Set<string>()
-  for (const p of parts) {
+  for (const p of info.exact) {
     exactParts.add(cmp(p))
     exactParts.add(cmp(undecorated(p)))
   }
+  const innerParts = new Set(info.inner.map((p) => cmp(undecorated(p))))
   // 語で終わるかは、かなをそろえず(NFKC・小文字だけ)で見る。そろえると「スパイス」が「いす」で終わる
   const tailParts = [...new Set(parts.map((p) => undecorated(p)))]
   const ownNames = parts.map(cmp)
@@ -219,7 +235,12 @@ export function buildItemAliases(
     const k = cmp(key)
     if (k.length === 0) continue
     // 1: 一致
-    if (k.length < 2 ? wholeExact === k : exactParts.has(k)) {
+    // 「椅子（いす）」「バッグ（かばん）」のように、カッコの中の語の別名が外の部分のときは同義語なので一致とみなす
+    const synonym =
+      k.length >= 2 &&
+      innerParts.has(k) &&
+      vals.some((v) => info.exact.some((p) => cmp(undecorated(p)) === cmp(v)))
+    if (k.length < 2 ? wholeExact === k : exactParts.has(k) || synonym) {
       for (const v of vals) {
         const nv = cmp(v)
         if (
@@ -248,7 +269,8 @@ export function buildItemAliases(
         !block.some((b) => p.endsWith(b)) &&
         (prefix.length > 0
           ? prefix.some((x) => p.endsWith(x))
-          : p.endsWith(kr) || allow.some((a) => p.endsWith(kr + a)))
+          : (p.endsWith(kr) && p !== kr) ||
+            allow.some((a) => p.endsWith(kr + a)))
     )
     if (!isTail) continue
     const drop = TAIL_DROP[key] ?? []

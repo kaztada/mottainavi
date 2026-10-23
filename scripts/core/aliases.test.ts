@@ -176,6 +176,33 @@ describe("注記で別の物になる品目(Codex の指摘 2026-10-23)", () => 
   })
 })
 
+describe("カッコの中の同義語・空白で区切った限定(Codex の4回目の指摘 2026-10-23)", () => {
+  it("カッコの中の語の別名が外の部分なら同義語として付く", () => {
+    expect(aliasesOf("椅子（いす）")).toContain("チェア")
+    expect(aliasesOf("バッグ（かばん）")).toContain("bag")
+    expect(aliasesOf("クーラー(エアコン)")).toContain("air conditioner")
+  })
+  it("用途の説明のカッコ(パソコン)は同義語ではないので付かない", () => {
+    expect(aliasesOf("液晶ディスプレイ(パソコン)")).toEqual([])
+    expect(aliasesOf("キーボード（パソコン）")).toEqual([])
+  })
+  it("空白のあとの限定は、前の語を打ち消さない(空き缶　飲料・食用油・食料品用)", () => {
+    expect(aliasesOf("空き缶　飲料・食用油・食料品用")).toContain("can")
+    expect(aliasesOf("空き缶　オイル・塗料・シンナー用など")).toContain("can")
+  })
+  it("「ガラス食器・ガラスの破片」の前の部分は語で終わるので付く", () => {
+    expect(aliasesOf("ガラス食器・ガラスの破片")).toContain("tableware")
+  })
+  it("ふとん(ひらがな)は名前が一致するときだけ。磁気ふとん・羽毛ふとんには付かない", () => {
+    expect(aliasesOf("ふとん")).toContain("敷布団")
+    expect(aliasesOf("磁気ふとん")).toEqual([])
+    expect(aliasesOf("羽毛ふとん")).toEqual([])
+  })
+  it("携帯ゲーム機器にも付く", () => {
+    expect(aliasesOf("携帯ゲーム機器")).toContain("Switch")
+  })
+})
+
 describe("許可リスト(TAIL_ALLOW): 語のあとに続いても同じ物", () => {
   it.each([
     ["タブレット端末", "iPad"],

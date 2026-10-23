@@ -1,6 +1,6 @@
 {
   "municipality_id": "hachioji-city",
-  "generated_at": "2026-10-23T14:32:50.529Z",
+  "generated_at": "2026-10-23T14:50:45.958Z",
   "source_url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html",
   "item_count": 1133,
   "items": [
@@ -11642,7 +11642,12 @@
       "name_ja": "電池（乾電池）",
       "name_kana": "でんち（かんでんち）",
       "name_romaji": "denchi(kandenchi)",
-      "aliases": [],
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
       "dispositions": [
         {
           "category_id": "yugai",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-23T14:32:50.751Z",
+  "generated_at": "2026-10-23T14:50:46.182Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -9469,7 +9469,8 @@
       "aliases": [
         "単三電池",
         "単四電池",
-        "battery"
+        "battery",
+        "電池"
       ],
       "dispositions": [
         {
@@ -10714,7 +10715,12 @@
       "name_ja": "バッグ（かばん）",
       "name_kana": "ばっぐ（かばん）",
       "name_romaji": "baggu(kaban)",
-      "aliases": [],
+      "aliases": [
+        "バッグ",
+        "カバン",
+        "鞄",
+        "bag"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",

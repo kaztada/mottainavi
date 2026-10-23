@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-23T14:32:47.596Z",
+  "generated_at": "2026-10-23T14:50:42.939Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -2960,7 +2960,10 @@
       "name_ja": "楽器（エレキギター）",
       "name_kana": "がっき（えれきぎたー）",
       "name_romaji": "gakki(erekigita-)",
-      "aliases": [],
+      "aliases": [
+        "エレキギター",
+        "guitar"
+      ],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -3015,7 +3018,12 @@
       "name_ja": "楽器（アコースティックギター、エレキギター）",
       "name_kana": "がっき（あこーすてぃっくぎたー、えれきぎたー）",
       "name_romaji": "gakki(ako-suteikkugita-,erekigita-)",
-      "aliases": [],
+      "aliases": [
+        "エレキギター",
+        "アコースティックギター",
+        "アコギ",
+        "guitar"
+      ],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -17423,12 +17431,7 @@
       "name_ja": "ベビーふとん",
       "name_kana": "べびーふとん",
       "name_romaji": "bebi-futon",
-      "aliases": [
-        "布団",
-        "敷布団",
-        "掛布団",
-        "futon"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "yamaga-city",
-  "generated_at": "2026-10-23T14:32:49.025Z",
+  "generated_at": "2026-10-23T14:50:44.396Z",
   "source_url": "https://data.bodik.jp/dataset/432083_bunbetsu",
   "item_count": 1087,
   "items": [
@@ -1308,7 +1308,11 @@
       "name_ja": "乳母車（ベビーカー）",
       "name_kana": "うばぐるま（べびーかー）",
       "name_romaji": "ubaguruma(bebi-ka-)",
-      "aliases": [],
+      "aliases": [
+        "乳母車",
+        "stroller",
+        "baby carriage"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -4328,9 +4332,9 @@
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
         "クーラー",
-        "エアコン",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {

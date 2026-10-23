@@ -1,6 +1,6 @@
 {
   "municipality_id": "koganei-city",
-  "generated_at": "2026-10-23T14:32:50.087Z",
+  "generated_at": "2026-10-23T14:50:45.503Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000038",
   "item_count": 993,
   "items": [
@@ -9302,7 +9302,12 @@
       "name_ja": "電池（乾電池）",
       "name_kana": "でんち（かんでんち）",
       "name_romaji": "denchi(kandenchi)",
-      "aliases": [],
+      "aliases": [
+        "電池",
+        "battery",
+        "単三電池",
+        "単四電池"
+      ],
       "dispositions": [
         {
           "category_id": "yugai",

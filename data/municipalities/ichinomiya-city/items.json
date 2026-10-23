@@ -1,6 +1,6 @@
 {
   "municipality_id": "ichinomiya-city",
-  "generated_at": "2026-10-23T14:32:50.944Z",
+  "generated_at": "2026-10-23T14:50:46.384Z",
   "source_url": "https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/1060886.html",
   "item_count": 689,
   "items": [
@@ -2647,9 +2647,9 @@
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
         "クーラー",
-        "エアコン",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {
@@ -7563,7 +7563,8 @@
       "aliases": [
         "単三電池",
         "単四電池",
-        "battery"
+        "battery",
+        "電池"
       ],
       "dispositions": [
         {

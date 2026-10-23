@@ -1,6 +1,6 @@
 {
   "municipality_id": "hirakata-city",
-  "generated_at": "2026-10-23T14:32:46.964Z",
+  "generated_at": "2026-10-23T14:50:42.263Z",
   "source_url": "https://www.city.hirakata.osaka.jp/0000024067.html",
   "item_count": 1761,
   "items": [
@@ -5356,7 +5356,12 @@
       "name_ja": "鞄（かばん）（プラ製・ビニール製）",
       "name_kana": "かばん（かばん）（ぷらせい・びにーるせい）",
       "name_romaji": "kaban(kaban)(purasei/bini-rusei)",
-      "aliases": [],
+      "aliases": [
+        "バッグ",
+        "カバン",
+        "鞄",
+        "bag"
+      ],
       "dispositions": [
         {
           "category_id": "ippan",

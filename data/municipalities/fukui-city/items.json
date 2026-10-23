@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-23T14:32:51.989Z",
+  "generated_at": "2026-10-23T14:50:47.514Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -999,12 +999,7 @@
       "name_ja": "羽毛ふとん",
       "name_kana": "うもうふとん",
       "name_romaji": "umoufuton",
-      "aliases": [
-        "布団",
-        "敷布団",
-        "掛布団",
-        "futon"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai-kanen",
@@ -10537,12 +10532,7 @@
       "name_ja": "ベビーふとん",
       "name_kana": "べびーふとん",
       "name_romaji": "bebi-futon",
-      "aliases": [
-        "布団",
-        "敷布団",
-        "掛布団",
-        "futon"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai-kanen",

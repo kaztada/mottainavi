@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-23T14:32:51.128Z",
+  "generated_at": "2026-10-23T14:50:46.592Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -829,7 +829,8 @@
       "aliases": [
         "クーラー",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {
@@ -2262,7 +2263,12 @@
       "name_ja": "缶（空き缶）",
       "name_kana": "かん（あきかん）",
       "name_romaji": "kan(akikan)",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -2935,9 +2941,9 @@
       "name_romaji": "ku-ra-(eakon)",
       "aliases": [
         "クーラー",
-        "エアコン",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {

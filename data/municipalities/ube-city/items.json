@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-23T14:32:52.251Z",
+  "generated_at": "2026-10-23T14:50:47.790Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -3526,7 +3526,13 @@
       "name_ja": "ガラス食器・ガラスの破片",
       "name_kana": "がらすしょっき・がらすのはへん",
       "name_romaji": "garasushokki/garasunohahen",
-      "aliases": [],
+      "aliases": [
+        "皿",
+        "茶碗",
+        "コップ",
+        "dishes",
+        "tableware"
+      ],
       "dispositions": [
         {
           "category_id": "funen",

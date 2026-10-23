@@ -1,6 +1,6 @@
 {
   "municipality_id": "inazawa-city",
-  "generated_at": "2026-10-23T14:32:52.739Z",
+  "generated_at": "2026-10-23T14:50:48.295Z",
   "source_url": "https://www.city.inazawa.aichi.jp/0000003563.html",
   "item_count": 655,
   "items": [
@@ -971,12 +971,7 @@
       "name_ja": "羽毛ふとん",
       "name_kana": "うもうふとん",
       "name_romaji": "umoufuton",
-      "aliases": [
-        "布団",
-        "敷布団",
-        "掛布団",
-        "futon"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "umou",
@@ -5431,7 +5426,8 @@
       "aliases": [
         "キャリーバッグ",
         "キャリーケース",
-        "suitcase"
+        "suitcase",
+        "スーツケース"
       ],
       "dispositions": [
         {

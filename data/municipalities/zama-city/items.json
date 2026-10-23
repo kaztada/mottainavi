@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T14:32:52.494Z",
+  "generated_at": "2026-10-23T14:50:48.043Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -10772,8 +10772,9 @@
       "name_kana": "だんぼーる（だんぼーる）",
       "name_romaji": "danbo-ru(danbo-ru)",
       "aliases": [
-        "段ボール",
-        "cardboard"
+        "ダンボール",
+        "cardboard",
+        "段ボール"
       ],
       "dispositions": [
         {

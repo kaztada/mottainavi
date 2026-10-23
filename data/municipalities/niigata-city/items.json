@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-23T14:32:50.300Z",
+  "generated_at": "2026-10-23T14:50:45.724Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -654,7 +654,12 @@
       "name_ja": "椅子（いす）",
       "name_kana": "いす（いす）",
       "name_romaji": "isu(isu)",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7339,7 +7344,8 @@
       "aliases": [
         "キャリーバッグ",
         "キャリーケース",
-        "suitcase"
+        "suitcase",
+        "スーツケース"
       ],
       "dispositions": [
         {
@@ -13282,7 +13288,8 @@
       "aliases": [
         "敷布団",
         "掛布団",
-        "futon"
+        "futon",
+        "布団"
       ],
       "dispositions": [
         {

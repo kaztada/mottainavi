@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-23T14:32:48.799Z",
+  "generated_at": "2026-10-23T14:50:44.164Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -4649,7 +4649,10 @@
       "name_ja": "紙パック（牛乳パック）",
       "name_kana": "かみぱっく（ぎゅうにゅうぱっく）",
       "name_romaji": "kamipakku(gyuunyuupakku)",
-      "aliases": [],
+      "aliases": [
+        "紙パック",
+        "milk carton"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",

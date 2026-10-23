@@ -1,6 +1,6 @@
 {
   "municipality_id": "osaka-city",
-  "generated_at": "2026-10-23T14:32:46.009Z",
+  "generated_at": "2026-10-23T14:50:41.248Z",
   "source_url": "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html",
   "item_count": 1056,
   "items": [
@@ -12664,9 +12664,10 @@
       "name_romaji": "nijidenchi(juudenshikidenchi)",
       "aliases": [
         "充電池",
-        "充電式電池",
         "充電電池",
-        "rechargeable battery"
+        "二次電池",
+        "rechargeable battery",
+        "充電式電池"
       ],
       "dispositions": [
         {
@@ -13633,7 +13634,12 @@
       "name_ja": "バッグ（かばん）",
       "name_kana": "ばっぐ（かばん）",
       "name_romaji": "baggu(kaban)",
-      "aliases": [],
+      "aliases": [
+        "バッグ",
+        "カバン",
+        "鞄",
+        "bag"
+      ],
       "dispositions": [
         {
           "category_id": "futsu",
