@@ -1,6 +1,6 @@
 {
   "municipality_id": "echizen-city",
-  "generated_at": "2026-10-23T17:13:59.622Z",
+  "generated_at": "2026-10-23T17:20:22.661Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 761,
   "items": [
@@ -1238,7 +1238,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -3486,7 +3486,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -12224,7 +12224,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Massage chair"
     },
     {
@@ -13604,7 +13604,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": "Record player (turntable)"
     },
     {

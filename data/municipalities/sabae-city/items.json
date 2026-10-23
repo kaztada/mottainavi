@@ -1,6 +1,6 @@
 {
   "municipality_id": "sabae-city",
-  "generated_at": "2026-10-23T17:12:06.061Z",
+  "generated_at": "2026-10-23T17:20:21.709Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 967,
   "items": [
@@ -682,7 +682,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -4696,7 +4696,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Wheelchair"
     },
     {
@@ -15044,7 +15044,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "clothing",
+      "reuse_category": null,
       "name_en": null
     },
     {

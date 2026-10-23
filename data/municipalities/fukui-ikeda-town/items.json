@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-ikeda-town",
-  "generated_at": "2026-10-23T17:14:00.537Z",
+  "generated_at": "2026-10-23T17:20:23.577Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 514,
   "items": [
@@ -720,7 +720,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -2408,7 +2408,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -5214,7 +5214,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -8400,7 +8400,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Massage chair"
     },
     {
@@ -9348,7 +9348,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": "Record player (turntable)"
     },
     {

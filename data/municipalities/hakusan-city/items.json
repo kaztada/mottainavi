@@ -1,6 +1,6 @@
 {
   "municipality_id": "hakusan-city",
-  "generated_at": "2026-10-23T17:18:10.077Z",
+  "generated_at": "2026-10-23T17:20:47.683Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation",
   "item_count": 1264,
   "items": [
@@ -1605,7 +1605,7 @@
       "dispositions": [
         {
           "category_id": "zasshi",
-          "note_ja": "お住まいの地区の資源ごみ(紙類)の日か、資源ごみの拠点回収場所に出します(白山市ごみ分別事典)。\n歌の出る絵本の、おもちゃ部分は電池をはずして「燃やす一般ごみ」へ。",
+          "note_ja": "※もったいナビ注: 電池で動くものは、電池を取り外してから出します。取り外した乾電池・充電式電池は、燃えないごみの日に乾電池回収箱へ(充電式電池でリサイクルマークのあるものは家電量販店などの回収にも出せます)。充電式電池が取り外せない製品・取り外し方が分からない製品(モバイルバッテリー・ワイヤレスイヤホン・コードレス掃除機など)は、燃えないごみの日に蛍光灯回収箱へ。端子部分をテープでおおって絶縁し、なるべく水にぬれないようにします。パソコン・スマートフォンは販売店やメーカーの回収へ、自動車・電動アシスト自転車・UPSなどの大型のバッテリーは販売店や取扱店へ。\nお住まいの地区の資源ごみ(紙類)の日か、資源ごみの拠点回収場所に出します(白山市ごみ分別事典)。\n歌の出る絵本の、おもちゃ部分は電池をはずして「燃やす一般ごみ」へ。",
           "official_link": "https://www.city.hakusan.lg.jp/seikatsu/kankyo/1001731/1005552/1005554.html"
         }
       ],
@@ -2571,7 +2571,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Electric nursing-care bed"
     },
     {
@@ -5215,7 +5215,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Wheelchair"
     },
     {
@@ -6297,7 +6297,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "toys-baby",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -7143,7 +7143,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": "CD player"
     },
     {
@@ -11847,7 +11847,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Desk mat"
     },
     {
@@ -12096,7 +12096,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -12197,7 +12197,6 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
-        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -12283,7 +12282,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -13188,11 +13187,7 @@
       "name_ja": "苗木等の鉢・ポット(プラスチック製)",
       "name_kana": "なえぎとうのはち・ぽっと(ぷらすちっくせい)",
       "name_romaji": "naegitounohachi/potto(purasuchikkusei)",
-      "aliases": [
-        "電気ポット",
-        "電気ケトル",
-        "kettle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -13989,7 +13984,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -16179,7 +16174,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -16213,7 +16208,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "books-media",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -17577,11 +17572,7 @@
       "name_ja": "ポット",
       "name_kana": "ぽっと",
       "name_romaji": "potto",
-      "aliases": [
-        "電気ポット",
-        "電気ケトル",
-        "kettle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moenai",
@@ -18029,7 +18020,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Massage chair"
     },
     {
@@ -20595,7 +20586,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Bath stool"
     },
     {

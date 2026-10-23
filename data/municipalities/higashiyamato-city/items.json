@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiyamato-city",
-  "generated_at": "2026-10-23T17:18:10.987Z",
+  "generated_at": "2026-10-23T17:20:26.290Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132209d0000000013",
   "item_count": 376,
   "items": [
@@ -1729,7 +1729,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Wheelchair"
     },
     {
@@ -4517,7 +4517,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "toys-baby",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -4589,7 +4589,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "clothing",
+      "reuse_category": null,
       "name_en": null
     },
     {
@@ -5974,7 +5974,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "furniture",
+      "reuse_category": null,
       "name_en": "Massage chair"
     },
     {
@@ -6268,7 +6268,7 @@
         }
       ],
       "sodai_fee_yen": null,
-      "reuse_category": "clothing",
+      "reuse_category": null,
       "name_en": null
     },
     {
