@@ -7549,21 +7549,6 @@
       }
     ]
   },
-  "natori-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "【名取市】ゴミの分別方法一覧(miyagi)",
-        "url": "https://miyagi.dataeye.jp/datasets/710"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://miyagi.dataeye.jp/resource_download/32737"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・880行・データの基準日 不明・カタログの更新日 2026-03-13・ライセンスの登録 cc-by4_0"
-  },
   "kakuda-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
