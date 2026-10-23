@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-23T14:00:44.104Z",
+  "generated_at": "2026-10-23T14:19:40.494Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -858,6 +858,7 @@
       "name_kana": "ＬＥＤでんきゅう",
       "name_romaji": "ＬＥＤdenkyuu",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -911,7 +912,7 @@
       "name_kana": "えれきぎたー",
       "name_romaji": "erekigita-",
       "aliases": [
-        "アコギ",
+        "エレキギター",
         "guitar"
       ],
       "dispositions": [
@@ -2701,7 +2702,11 @@
       "name_ja": "クーラー（エアコン等）",
       "name_kana": "くーらー（えあこんとう）",
       "name_romaji": "ku-ra-(eakontou)",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kaden",
@@ -3095,6 +3100,9 @@
         "スマートフォン",
         "ガラケー",
         "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
         "mobile phone",
         "cell phone"
       ],
@@ -4598,6 +4606,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -5114,6 +5123,7 @@
       "name_romaji": "sekiyusuto-bu",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -6521,6 +6531,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -6598,6 +6609,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -7458,6 +7470,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],

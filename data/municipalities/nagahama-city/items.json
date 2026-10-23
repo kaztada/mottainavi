@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-23T14:00:43.908Z",
+  "generated_at": "2026-10-23T14:19:40.294Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -1548,6 +1548,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -1779,6 +1780,7 @@
       "name_romaji": "ekishouterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -3037,6 +3039,7 @@
       "name_kana": "かけどけい",
       "name_romaji": "kakedokei",
       "aliases": [
+        "掛け時計",
         "clock",
         "watch"
       ],
@@ -6004,7 +6007,11 @@
       "name_ja": "クーラー(室外機）",
       "name_kana": "くーらー(しつがいき）",
       "name_romaji": "ku-ra-(shitsugaiki)",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kaden",
@@ -6146,8 +6153,6 @@
       "name_kana": "けいたいでんわ",
       "name_romaji": "keitaidenwa",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
@@ -13353,6 +13358,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -13393,7 +13399,6 @@
       "name_kana": "でんきゅう・はくねつだま（でんきゅう）",
       "name_romaji": "denkyuu/hakunetsudama(denkyuu)",
       "aliases": [
-        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -14991,6 +14996,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],
@@ -17265,6 +17271,7 @@
       "name_romaji": "buraunkanterebi",
       "aliases": [
         "TV",
+        "ブラウン管テレビ",
         "television"
       ],
       "dispositions": [
@@ -17559,6 +17566,7 @@
       "name_kana": "へあどらいやー",
       "name_romaji": "headoraiya-",
       "aliases": [
+        "ヘアドライヤー",
         "hair dryer"
       ],
       "dispositions": [

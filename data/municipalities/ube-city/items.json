@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-23T14:00:48.037Z",
+  "generated_at": "2026-10-23T14:19:44.325Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -1668,7 +1668,7 @@
       "name_kana": "えれきぎたー",
       "name_romaji": "erekigita-",
       "aliases": [
-        "アコギ",
+        "エレキギター",
         "guitar"
       ],
       "dispositions": [
@@ -5131,8 +5131,6 @@
       "name_kana": "けいたいでんわ・PHS",
       "name_romaji": "keitaidenwa/PHS",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
@@ -8286,6 +8284,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -9413,6 +9412,7 @@
       "name_romaji": "sekiyusuto-bu",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -12132,6 +12132,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -13321,6 +13322,7 @@
       "name_romaji": "no-topasokon(PCrisaikuruma-kunoarumono)",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],
@@ -13342,6 +13344,7 @@
       "name_romaji": "no-topasokon(PCrisaikuruma-kunonaimono)",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],

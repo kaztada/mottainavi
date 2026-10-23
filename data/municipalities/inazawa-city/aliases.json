@@ -1,4 +1,5 @@
 {
   "ポット": [],
-  "電気ポット": ["電気ケトル", "kettle"]
+  "電気ポット": ["電気ケトル", "kettle"],
+  "携帯電話": ["スマホ", "スマートフォン", "ガラケー", "携帯", "iPhone", "Android", "smartphone", "mobile phone", "cell phone"]
 }

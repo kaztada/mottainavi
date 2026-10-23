@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiosaka-city",
-  "generated_at": "2026-10-23T14:00:42.288Z",
+  "generated_at": "2026-10-23T14:19:38.761Z",
   "source_url": "https://data.bodik.jp/dataset/272272_28",
   "item_count": 913,
   "items": [
@@ -1258,6 +1258,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -1385,6 +1386,7 @@
       "name_romaji": "ekishouterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -1508,7 +1510,7 @@
       "name_kana": "えれきぎたー",
       "name_romaji": "erekigita-",
       "aliases": [
-        "アコギ",
+        "エレキギター",
         "guitar"
       ],
       "dispositions": [
@@ -2356,6 +2358,7 @@
       "name_kana": "かけどけい",
       "name_romaji": "kakedokei",
       "aliases": [
+        "掛け時計",
         "clock",
         "watch"
       ],
@@ -3730,7 +3733,11 @@
       "name_ja": "クーラー(エアコン)",
       "name_kana": "くーらー(えあこん)",
       "name_romaji": "ku-ra-(eakon)",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -4269,6 +4276,9 @@
         "スマートフォン",
         "ガラケー",
         "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
         "mobile phone",
         "cell phone"
       ],
@@ -6325,6 +6335,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -6777,7 +6788,6 @@
       "name_romaji": "suto-bu(gasu)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -6799,7 +6809,6 @@
       "name_romaji": "suto-bu(sekiyu)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -6821,7 +6830,6 @@
       "name_romaji": "suto-bu(denki)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -9223,6 +9231,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -9385,6 +9394,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -10758,6 +10768,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],
@@ -12632,6 +12643,7 @@
       "name_kana": "へあどらいやー",
       "name_romaji": "headoraiya-",
       "aliases": [
+        "ヘアドライヤー",
         "hair dryer"
       ],
       "dispositions": [

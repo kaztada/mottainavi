@@ -1,6 +1,6 @@
 {
   "municipality_id": "hachioji-city",
-  "generated_at": "2026-10-23T14:00:46.242Z",
+  "generated_at": "2026-10-23T14:19:42.614Z",
   "source_url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html",
   "item_count": 1133,
   "items": [
@@ -1166,6 +1166,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -1432,7 +1433,7 @@
       "name_kana": "えれきぎたー",
       "name_romaji": "erekigita-",
       "aliases": [
-        "アコギ",
+        "エレキギター",
         "guitar"
       ],
       "dispositions": [
@@ -4869,7 +4870,11 @@
       "name_ja": "クーラー",
       "name_kana": "くーらー",
       "name_romaji": "ku-ra-",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kaden",
@@ -5170,7 +5175,6 @@
         "iPhone",
         "Android",
         "smartphone",
-        "スマートフォン",
         "ガラケー",
         "mobile phone",
         "cell phone"
@@ -5198,7 +5202,6 @@
         "iPhone",
         "Android",
         "smartphone",
-        "スマートフォン",
         "ガラケー",
         "mobile phone",
         "cell phone"
@@ -8098,6 +8101,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -9097,6 +9101,7 @@
       "name_romaji": "sekiyusuto-bu",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -11561,6 +11566,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -12999,6 +13005,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],

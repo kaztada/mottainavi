@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-23T14:00:44.502Z",
+  "generated_at": "2026-10-23T14:19:40.901Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -987,6 +987,7 @@
       "name_romaji": "isu(kinzokububun80pa-sentomiman,70cmika,purasuchikkushigen'igai)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -1847,6 +1848,7 @@
       "name_romaji": "ekishouterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -5316,7 +5318,6 @@
       "name_kana": "ぎたー（でんどういがい、70cmいか）",
       "name_romaji": "gita-(dendouigai,70cmika)",
       "aliases": [
-        "アコギ",
         "guitar"
       ],
       "dispositions": [
@@ -5358,7 +5359,6 @@
       "name_kana": "ぎたー（でんどういがい、70cmちょう）",
       "name_romaji": "gita-(dendouigai,70cmchou)",
       "aliases": [
-        "アコギ",
         "guitar"
       ],
       "dispositions": [
@@ -7108,6 +7108,9 @@
         "スマートフォン",
         "ガラケー",
         "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
         "mobile phone",
         "cell phone"
       ],
@@ -13485,6 +13488,7 @@
       "name_kana": "そふぁー（すぷりんぐなし、70cmいか）",
       "name_romaji": "sofua-(supuringunashi,70cmika)",
       "aliases": [
+        "ソファ",
         "カウチ",
         "sofa",
         "couch"
@@ -16337,6 +16341,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -16377,7 +16382,6 @@
       "name_kana": "でんきゅう（はくねつとう）",
       "name_romaji": "denkyuu(hakunetsutou)",
       "aliases": [
-        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -16397,7 +16401,6 @@
       "name_kana": "でんきゅう（でんきゅうがたけいこうとう）",
       "name_romaji": "denkyuu(denkyuugatakeikoutou)",
       "aliases": [
-        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -16502,6 +16505,7 @@
       "name_kana": "でんしぴあの（2mみまん、55㎏みまん）",
       "name_romaji": "denshipiano(2mmiman,55㎏miman)",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -16522,6 +16526,7 @@
       "name_kana": "でんしぴあの（2mいじょうまたは55㎏いじょう）",
       "name_romaji": "denshipiano(2mijoumataha55㎏ijou)",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -20744,6 +20749,7 @@
       "name_kana": "ひゃくえんらいたー",
       "name_romaji": "hyakuenraita-",
       "aliases": [
+        "百円ライター",
         "lighter"
       ],
       "dispositions": [
@@ -22515,6 +22521,7 @@
       "name_kana": "へあーどらいやー",
       "name_romaji": "hea-doraiya-",
       "aliases": [
+        "ヘアドライヤー",
         "hair dryer"
       ],
       "dispositions": [

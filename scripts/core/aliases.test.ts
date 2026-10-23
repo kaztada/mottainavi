@@ -80,7 +80,10 @@ describe("buildItemAliases: 付属品・別の物には付かない(案A)", () =
 
 describe("buildItemAliases: 下位の種類(名前の最後が語)", () => {
   it("語を含まない別名だけ付く", () => {
-    expect(aliasesOf("ノートパソコン")).toEqual(["PC", "laptop", "computer"])
+    expect(aliasesOf("ノートパソコン")).toEqual(
+      expect.arrayContaining(["PC", "laptop", "computer"])
+    )
+    expect(aliasesOf("ノートパソコン")).not.toContain("デスクトップパソコン")
     expect(aliasesOf("ベビーベッド")).toEqual(["bed"])
   })
   it("兄弟の別名(石油ストーブ・LED電球)は付かない", () => {
@@ -125,6 +128,33 @@ describe("注記で別の物になる品目(Codex の指摘 2026-10-23)", () => 
     expect(aliasesOf("アイス")).toEqual([])
     expect(aliasesOf("ライス")).toEqual([])
     expect(aliasesOf("風呂いす")).toContain("チェア")
+  })
+  it("注記が1つの限定なら、注記を外した一致でも兄弟の別名は付かない。並べた注記は総称なので付く", () => {
+    expect(aliasesOf("ストーブ（電気）")).not.toContain("石油ストーブ")
+    expect(aliasesOf("ストーブ（電気）")).toContain("ヒーター")
+    expect(aliasesOf("電球（蛍光灯）")).not.toContain("LED電球")
+    expect(aliasesOf("ストーブ（電気・ガス・灯油）")).toContain("石油ストーブ")
+    expect(aliasesOf("ストーブ　電気・ガス")).not.toContain("石油ストーブ")
+    expect(aliasesOf("ストーブ　電気・ガス")).toContain("ヒーター")
+    expect(aliasesOf("ソファー(二人掛け用以上)")).toContain("ソファ")
+    // ストーブ・電球以外の語は、限定が素材や用途なので総称の品目に兄弟の別名を付ける
+    expect(aliasesOf("ギター（木製）")).toContain("エレキギター")
+    expect(aliasesOf("パソコン（本体）")).toContain("ノートパソコン")
+  })
+  it("DVD・CD は機器(プレーヤー・ドライブ)の一部のとき媒体の別名を付けない", () => {
+    expect(aliasesOf("DVD・ブルーレイディスクプレーヤー")).toEqual([])
+    expect(aliasesOf("DVD/CDドライブ")).toEqual([])
+    expect(aliasesOf("CD、CDケース")).toContain("シーディー")
+  })
+  it("アコギはエレキギターに付かない。アコースティックギターには付く", () => {
+    expect(aliasesOf("エレキギター")).not.toContain("アコギ")
+    expect(aliasesOf("エレキギター")).toContain("guitar")
+    expect(aliasesOf("アコースティックギター")).toContain("アコギ")
+    expect(aliasesOf("ギター")).toContain("アコギ")
+  })
+  it("クーラーは名前が一致するときだけ(ワインクーラーにエアコンを付けない)", () => {
+    expect(aliasesOf("クーラー(エアコン)")).toContain("エアコン")
+    expect(aliasesOf("ワインクーラー")).toEqual([])
   })
   it("兄弟の別名でも品目名自身が含むなら付く(並び順で語そのものの品目が先頭に出ない)", () => {
     expect(aliasesOf("電子オルガン・電子ピアノ")).toContain("電子ピアノ")

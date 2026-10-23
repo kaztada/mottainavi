@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-23T14:00:46.017Z",
+  "generated_at": "2026-10-23T14:19:42.388Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -1273,6 +1273,7 @@
       "name_romaji": "ekishouterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -1360,6 +1361,7 @@
       "name_kana": "ＬＥＤでんきゅう",
       "name_romaji": "ＬＥＤdenkyuu",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -3948,7 +3950,11 @@
       "name_ja": "クーラー（室内機・室外機）",
       "name_kana": "くーらー（しつないき・しつがいき）",
       "name_romaji": "ku-ra-(shitsunaiki/shitsugaiki)",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -4536,7 +4542,6 @@
         "iPhone",
         "Android",
         "smartphone",
-        "スマートフォン",
         "ガラケー",
         "mobile phone",
         "cell phone"
@@ -7206,6 +7211,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -7607,7 +7613,6 @@
       "name_romaji": "suto-bu(sekiyushiki)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -9861,11 +9866,7 @@
       "name_ja": "ＤＶＤプレーヤー・レコーダー",
       "name_kana": "ＤＶＤぷれーやー・れこーだー",
       "name_romaji": "ＤＶＤpure-ya-/reko-da-",
-      "aliases": [
-        "DVDプレイヤー",
-        "ディーブイディープレーヤー",
-        "DVD player"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",

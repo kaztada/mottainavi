@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-23T14:00:46.469Z",
+  "generated_at": "2026-10-23T14:19:42.822Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -3638,7 +3638,8 @@
       "aliases": [
         "クーラー",
         "エアコンディショナー",
-        "air conditioner"
+        "air conditioner",
+        "エアコン"
       ],
       "dispositions": [
         {
@@ -4272,8 +4273,6 @@
       "name_kana": "けいたいでんわ",
       "name_romaji": "keitaidenwa",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
@@ -6524,6 +6523,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -8517,10 +8517,7 @@
       "name_ja": "注射器（インスリン等）",
       "name_kana": "ちゅうしゃき（いんすりんとう）",
       "name_romaji": "chuushaki(insurintou)",
-      "aliases": [
-        "注射針",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "mochidashi",

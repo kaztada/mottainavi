@@ -91,6 +91,27 @@ export const TAIL_BLOCK: Readonly<Record<string, readonly string[]>> = {
 }
 
 /**
+ * 下位の種類(語で終わる品目名)には付けない別名。語を含まなくても、兄弟を指す別名
+ * (エレキギターにアコギ)
+ */
+export const TAIL_DROP: Readonly<Record<string, readonly string[]>> = {
+  ギター: ["アコギ"],
+}
+
+/**
+ * 下位の種類が互いに別の区分になりやすい語(ストーブは石油・ガス・電気、電球は LED・蛍光灯・白熱)。
+ * 注記が1つの限定(「ストーブ（電気）」)の品目には、兄弟の別名(石油ストーブ・LED電球)を付けない。
+ * ほかの語(ギターの木製・パソコンの本体)は限定が素材や用途なので、総称の品目に兄弟の別名を付ける
+ */
+export const STRICT_SIBLINGS: ReadonlySet<string> = new Set([
+  "ストーブ",
+  "電球",
+])
+
+/** 品目名が語と一致するときだけ付け、語で終わる品目(ワインクーラー)には付けない語 */
+export const EXACT_ONLY: ReadonlySet<string> = new Set(["クーラー"])
+
+/**
  * 語の前に付く言葉が決まっている語(許可リスト)。ポットは苗ポット・フラワーポット・オイルポットなどが
  * 多いので、電気ポットや湯沸かしポットのように前の言葉が合うときだけ付ける
  */
@@ -137,12 +158,18 @@ export function splitName(name: string): string[] {
 
 /**
  * 「自転車・バイクのアクセサリー」のように、最後の部分が「〜の〜」「〜用」の複合語のときは、
- * 前の部分(自転車)は最後の部分(アクセサリー)にかかる言葉なので、最後の部分だけを見る
+ * 前の部分(自転車)は最後の部分(アクセサリー)にかかる言葉なので、最後の部分だけを見る。
+ * 最後の部分が機器(プレーヤー・ドライブ・レコーダー・デッキ)のときも同じ
  */
 function eligibleParts(parts: string[]): string[] {
   if (parts.length < 2) return parts
   const last = parts[parts.length - 1]
-  return /の|用$/.test(last) ? [last] : parts
+  // 「DVD・ブルーレイディスクプレーヤー」の DVD は、プレーヤーにかかる言葉(媒体ではない)
+  return /の|用$|(プレーヤー?|プレイヤー?|ドライブ|レコーダー?|デッキ)$/.test(
+    last
+  )
+    ? [last]
+    : parts
 }
 
 /** 照合用の正規化(検索と同じ: かな・長音・全半角をそろえる) */
@@ -176,6 +203,13 @@ export function buildItemAliases(
   // 1文字の語(油・本・靴・鏡)は注記で別の物になりやすい(靴（スキー靴）・鏡（手鏡）)ので、
   // 注記のない品目名(「本類」のように末尾の言葉だけ外したものは可)のときだけ一致とみなす
   const wholeExact = cmp(undecorated(normalize(name).trim()))
+  // 注記が1つの限定(「ストーブ（電気）」「電球（蛍光灯）」)なら、その品目は下位の種類なので、
+  // STRICT_SIBLINGS の語では注記を外した一致でも兄弟の別名(石油ストーブ・LED電球)は付けない。
+  // 「（電気・ガス・灯油）」のように並べた注記は総称なので全部付ける
+  // (「ストーブ　電気・ガス」のように空白のあとに限定を書いた品目名も同じ)
+  const qualifier =
+    (info.notes.length > 0 && !/[・、，,／/＆&]/.test(info.notes)) ||
+    /\s/.test(normalize(name).trim())
   const exactParts = new Set<string>()
   if (noteStripOk) {
     for (const p of parts) {
@@ -192,10 +226,16 @@ export function buildItemAliases(
     if (k.length === 0) continue
     // 1: 一致
     if (k.length < 2 ? wholeExact === k : exactParts.has(k)) {
-      for (const v of vals) out.add(v)
+      for (const v of vals) {
+        const nv = cmp(v)
+        const strict = qualifier && STRICT_SIBLINGS.has(key)
+        if (!(strict && wholeExact !== k && nv !== k && nv.includes(k))) {
+          out.add(v)
+        }
+      }
       continue
     }
-    if (k.length < 2) continue
+    if (k.length < 2 || EXACT_ONLY.has(key)) continue
     // 2・3: 語で終わる/語+許可の言葉(遮断リスト・前の言葉の指定を除く)
     const kr = normalize(key)
     const allow = (TAIL_ALLOW[key] ?? []).map(normalize)
@@ -209,13 +249,13 @@ export function buildItemAliases(
           : p.endsWith(kr) || allow.some((a) => p.endsWith(kr + a)))
     )
     if (!isTail) continue
+    const drop = TAIL_DROP[key] ?? []
     for (const v of vals) {
+      if (drop.includes(v)) continue
       // 語を含む別名(石油ストーブ)は兄弟なので付けない。ただし品目名自身が含む別名なら付ける
-      // (「電子オルガン・電子ピアノ」に電子ピアノ。付けないと並び順で語そのものの品目が先頭に出る)
+      // (電子ピアノに電子ピアノ。付けないと並び順で語そのもの(ピアノ)の品目が先頭に出る)
       const nv = cmp(v)
-      const inOwnName = ownNames.some(
-        (o) => o.includes(nv) && !(ownNames.length === 1 && o === nv)
-      )
+      const inOwnName = ownNames.some((o) => o.includes(nv))
       if (!nv.includes(k) || inOwnName) out.add(v)
     }
   }

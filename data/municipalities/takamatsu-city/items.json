@@ -1,6 +1,6 @@
 {
   "municipality_id": "takamatsu-city",
-  "generated_at": "2026-10-23T14:00:47.589Z",
+  "generated_at": "2026-10-23T14:19:43.888Z",
   "source_url": "https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list",
   "item_count": 606,
   "items": [
@@ -2793,6 +2793,9 @@
         "スマートフォン",
         "ガラケー",
         "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
         "mobile phone",
         "cell phone"
       ],
@@ -4908,6 +4911,7 @@
       "name_romaji": "sekiyusuto-bu",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -6429,6 +6433,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],

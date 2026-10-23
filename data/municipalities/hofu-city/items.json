@@ -1,6 +1,6 @@
 {
   "municipality_id": "hofu-city",
-  "generated_at": "2026-10-23T14:00:45.141Z",
+  "generated_at": "2026-10-23T14:19:41.546Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation",
   "item_count": 1239,
   "items": [
@@ -1970,6 +1970,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -2150,6 +2151,7 @@
       "name_romaji": "ekishouterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -6462,8 +6464,6 @@
       "name_kana": "けいたいでんわ・PHS",
       "name_romaji": "keitaidenwa/PHS",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
@@ -15189,6 +15189,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],
@@ -17454,6 +17455,7 @@
       "name_romaji": "buraunkanterebi",
       "aliases": [
         "TV",
+        "ブラウン管テレビ",
         "television"
       ],
       "dispositions": [
@@ -17969,6 +17971,7 @@
       "name_kana": "へあどらいやー",
       "name_romaji": "headoraiya-",
       "aliases": [
+        "ヘアドライヤー",
         "hair dryer"
       ],
       "dispositions": [

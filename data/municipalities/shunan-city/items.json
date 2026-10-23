@@ -1,6 +1,6 @@
 {
   "municipality_id": "shunan-city",
-  "generated_at": "2026-10-23T14:00:45.366Z",
+  "generated_at": "2026-10-23T14:19:41.752Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352152_garbage_separation",
   "item_count": 869,
   "items": [
@@ -885,6 +885,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -4225,7 +4226,6 @@
         "iPhone",
         "Android",
         "smartphone",
-        "スマートフォン",
         "ガラケー",
         "mobile phone",
         "cell phone"
@@ -6723,7 +6723,6 @@
       "name_romaji": "suto-bu denki/gasu",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -6745,7 +6744,6 @@
       "name_romaji": "suto-bu touyu",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],

@@ -1,6 +1,6 @@
 {
   "municipality_id": "hirakata-city",
-  "generated_at": "2026-10-23T14:00:42.624Z",
+  "generated_at": "2026-10-23T14:19:39.093Z",
   "source_url": "https://www.city.hirakata.osaka.jp/0000024067.html",
   "item_count": 1761,
   "items": [
@@ -2326,6 +2326,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -2597,6 +2598,7 @@
       "name_romaji": "ekishouterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -8093,6 +8095,9 @@
         "スマートフォン",
         "ガラケー",
         "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
         "mobile phone",
         "cell phone"
       ],
@@ -10774,11 +10779,7 @@
       "name_ja": "ＣＤプレーヤー・デッキ",
       "name_kana": "しーでぃーぷれーやー・でっき",
       "name_romaji": "shi-dei-pure-ya-/dekki",
-      "aliases": [
-        "CDプレイヤー",
-        "シーディープレーヤー",
-        "CD player"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi",
@@ -17465,11 +17466,7 @@
       "name_ja": "ＤＶＤプレーヤー・デッキ",
       "name_kana": "ＤＶＤぷれーやー・でっき",
       "name_romaji": "ＤＶＤpure-ya-/dekki",
-      "aliases": [
-        "DVDプレイヤー",
-        "ディーブイディープレーヤー",
-        "DVD player"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi",
@@ -18674,6 +18671,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -18867,6 +18865,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -18887,6 +18886,7 @@
       "name_kana": "でんしぴあの(きーぼーどたいぷ）",
       "name_romaji": "denshipiano(ki-bo-dotaipu)",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -20971,6 +20971,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],

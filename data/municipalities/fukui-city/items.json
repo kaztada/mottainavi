@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-23T14:00:47.775Z",
+  "generated_at": "2026-10-23T14:19:44.070Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -979,6 +979,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -2567,7 +2568,6 @@
       "name_kana": "ぎたー（もくせいいがい）",
       "name_romaji": "gita-(mokuseiigai)",
       "aliases": [
-        "アコギ",
         "guitar"
       ],
       "dispositions": [
@@ -3181,8 +3181,6 @@
       "name_kana": "けいたいでんわ",
       "name_romaji": "keitaidenwa",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
@@ -5025,6 +5023,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -5289,7 +5288,6 @@
       "name_romaji": "suto-bu(sekiyu)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -5311,7 +5309,6 @@
       "name_romaji": "suto-bu(denki)",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -5990,6 +5987,7 @@
       "name_kana": "そふぁー（すぷりんぐなし）",
       "name_romaji": "sofua-(supuringunashi)",
       "aliases": [
+        "ソファ",
         "カウチ",
         "sofa",
         "couch"
@@ -7603,6 +7601,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -8566,6 +8565,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],
@@ -10297,6 +10297,7 @@
       "name_kana": "へあどらいやー",
       "name_romaji": "headoraiya-",
       "aliases": [
+        "ヘアドライヤー",
         "hair dryer"
       ],
       "dispositions": [

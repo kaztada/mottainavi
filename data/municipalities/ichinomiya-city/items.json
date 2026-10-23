@@ -1,6 +1,6 @@
 {
   "municipality_id": "ichinomiya-city",
-  "generated_at": "2026-10-23T14:00:46.677Z",
+  "generated_at": "2026-10-23T14:19:43.015Z",
   "source_url": "https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/1060886.html",
   "item_count": 689,
   "items": [
@@ -1860,6 +1860,7 @@
       "name_romaji": "kaban(hikakusei/nunoseiigai)",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],
@@ -2644,7 +2645,11 @@
       "name_ja": "クーラー（エアコン）",
       "name_kana": "くーらー（えあこん）",
       "name_romaji": "ku-ra-(eakon)",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kaden",
@@ -3253,8 +3258,6 @@
       "name_kana": "けいたいでんわ",
       "name_romaji": "keitaidenwa",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
@@ -5190,6 +5193,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -7092,11 +7096,7 @@
       "name_ja": "ＤＶＤ・ブルーレイディスクプレーヤー",
       "name_kana": "ＤＶＤ・ぶるーれいでぃすくぷれーやー",
       "name_romaji": "ＤＶＤ/buru-reideisukupure-ya-",
-      "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "lithium",

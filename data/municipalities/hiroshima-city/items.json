@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-23T14:00:46.875Z",
+  "generated_at": "2026-10-23T14:19:43.208Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -2933,7 +2933,11 @@
       "name_ja": "クーラー(エアコン)",
       "name_kana": "くーらー(えあこん)",
       "name_romaji": "ku-ra-(eakon)",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kaden",
@@ -3107,9 +3111,15 @@
       "name_kana": "けいたいでんわ",
       "name_romaji": "keitaidenwa",
       "aliases": [
-        "スマートフォン",
         "スマホ",
-        "smartphone"
+        "スマートフォン",
+        "ガラケー",
+        "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
+        "mobile phone",
+        "cell phone"
       ],
       "dispositions": [
         {
@@ -4825,6 +4835,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -6360,9 +6371,6 @@
       "name_kana": "ＤＶＤぷれーやー・ＤＶＤれこーだー",
       "name_romaji": "ＤＶＤpure-ya-/ＤＶＤreko-da-",
       "aliases": [
-        "DVDプレイヤー",
-        "ディーブイディープレーヤー",
-        "DVD player",
         "DVDレコーダ",
         "ディーブイディーレコーダー",
         "DVD recorder"
@@ -6619,6 +6627,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -8979,7 +8988,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {

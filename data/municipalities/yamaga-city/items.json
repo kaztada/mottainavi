@@ -1,6 +1,6 @@
 {
   "municipality_id": "yamaga-city",
-  "generated_at": "2026-10-23T14:00:44.725Z",
+  "generated_at": "2026-10-23T14:19:41.131Z",
   "source_url": "https://data.bodik.jp/dataset/432083_bunbetsu",
   "item_count": 1087,
   "items": [
@@ -1288,6 +1288,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -1554,6 +1555,7 @@
       "name_kana": "ＬＥＤでんきゅう",
       "name_romaji": "ＬＥＤdenkyuu",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -1573,7 +1575,7 @@
       "name_kana": "えれきぎたー",
       "name_romaji": "erekigita-",
       "aliases": [
-        "アコギ",
+        "エレキギター",
         "guitar"
       ],
       "dispositions": [
@@ -4324,7 +4326,11 @@
       "name_ja": "クーラー（エアコン）",
       "name_kana": "くーらー（えあこん）",
       "name_romaji": "ku-ra-(eakon)",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -5055,7 +5061,6 @@
         "iPhone",
         "Android",
         "smartphone",
-        "スマートフォン",
         "ガラケー",
         "mobile phone",
         "cell phone"
@@ -6910,6 +6915,7 @@
       "name_kana": "しきぶとん",
       "name_romaji": "shikibuton",
       "aliases": [
+        "敷布団",
         "futon"
       ],
       "dispositions": [
@@ -7866,6 +7872,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -8948,6 +8955,7 @@
       "name_romaji": "sekiyusuto-bu",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -10813,11 +10821,7 @@
       "name_ja": "ＤＶＤプレーヤー・レコーダー",
       "name_kana": "ＤＶＤぷれーやー・れこーだー",
       "name_romaji": "ＤＶＤpure-ya-/reko-da-",
-      "aliases": [
-        "DVDプレイヤー",
-        "ディーブイディープレーヤー",
-        "DVD player"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanamono",
@@ -11514,6 +11518,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -12813,6 +12818,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],

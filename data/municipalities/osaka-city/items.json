@@ -1,6 +1,6 @@
 {
   "municipality_id": "osaka-city",
-  "generated_at": "2026-10-23T14:00:41.658Z",
+  "generated_at": "2026-10-23T14:19:38.132Z",
   "source_url": "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html",
   "item_count": 1056,
   "items": [
@@ -1797,6 +1797,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -4499,7 +4500,11 @@
       "name_ja": "クーラー",
       "name_kana": "くーらー",
       "name_romaji": "ku-ra-",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "not-collected",
@@ -5248,8 +5253,6 @@
       "name_kana": "けいたいでんわ、PHS",
       "name_romaji": "keitaidenwa,PHS",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
@@ -11455,6 +11458,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -11590,6 +11594,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -15570,6 +15575,7 @@
       "name_kana": "へあどらいやー",
       "name_romaji": "headoraiya-",
       "aliases": [
+        "ヘアドライヤー",
         "hair dryer"
       ],
       "dispositions": [

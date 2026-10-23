@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiratsuka-city",
-  "generated_at": "2026-10-23T14:00:43.107Z",
+  "generated_at": "2026-10-23T14:19:39.495Z",
   "source_url": "https://www.city.hiratsuka.kanagawa.jp/keikaku/page81_00019.html",
   "item_count": 805,
   "items": [
@@ -1212,6 +1212,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -1406,6 +1407,7 @@
       "name_kana": "LEDでんきゅう",
       "name_romaji": "LEDdenkyuu",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -4198,8 +4200,6 @@
       "name_kana": "けいたいでんわたんまつ（こうしゅうようPHSたんまつ、すまーとふぉんをふくむ）",
       "name_romaji": "keitaidenwatanmatsu(koushuuyouPHStanmatsu,suma-tofuonwofukumu)",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
@@ -6337,6 +6337,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -7026,6 +7027,7 @@
       "name_romaji": "sekiyusuto-bu",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -8444,11 +8446,7 @@
       "name_ja": "DVDレコーダ/プレーヤ",
       "name_kana": "DVDれこーだ/ぷれーや",
       "name_romaji": "DVDreko-da/pure-ya",
-      "aliases": [
-        "DVDレコーダ",
-        "ディーブイディーレコーダー",
-        "DVD recorder"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kogata",
@@ -8940,6 +8938,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -9085,6 +9084,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -11582,6 +11582,7 @@
       "name_kana": "へあーどらいやー",
       "name_romaji": "hea-doraiya-",
       "aliases": [
+        "ヘアドライヤー",
         "hair dryer"
       ],
       "dispositions": [

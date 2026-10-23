@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-23T14:00:42.073Z",
+  "generated_at": "2026-10-23T14:19:38.539Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -2762,6 +2762,7 @@
       "name_kana": "うでどけい(べるとがきんぞく)",
       "name_romaji": "udedokei(berutogakinzoku)",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -2787,6 +2788,7 @@
       "name_kana": "うでどけい(べるとがきんぞくいがい)",
       "name_romaji": "udedokei(berutogakinzokuigai)",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -4108,6 +4110,7 @@
       "name_kana": "LEDでんきゅう",
       "name_romaji": "LEDdenkyuu",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -14417,6 +14420,9 @@
         "スマートフォン",
         "ガラケー",
         "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
         "mobile phone",
         "cell phone"
       ],
@@ -31676,6 +31682,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -31885,11 +31892,7 @@
       "name_ja": "DVD/CDドライブ",
       "name_kana": "DVD/CDどらいぶ",
       "name_romaji": "DVD/CDdoraibu",
-      "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -32121,6 +32124,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],

@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-23T14:00:43.332Z",
+  "generated_at": "2026-10-23T14:19:39.713Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -684,6 +684,7 @@
       "name_romaji": "isu<kinzokuseiigai>",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -1371,6 +1372,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -4648,7 +4650,11 @@
       "name_ja": "クーラー",
       "name_kana": "くーらー",
       "name_romaji": "ku-ra-",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "kaden",
@@ -5470,12 +5476,12 @@
       "name_kana": "けいたいでんわ、すまーとほん<ばってりーはずせる>",
       "name_romaji": "keitaidenwa,suma-tohon<batteri-hazuseru>",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
         "cell phone",
+        "スマホ",
+        "スマートフォン",
         "携帯電話",
         "smartphone"
       ],
@@ -5501,12 +5507,12 @@
       "name_kana": "けいたいでんわ、すまーとほん<ばってりーはずせない>",
       "name_romaji": "keitaidenwa,suma-tohon<batteri-hazusenai>",
       "aliases": [
-        "スマホ",
-        "スマートフォン",
         "ガラケー",
         "携帯",
         "mobile phone",
         "cell phone",
+        "スマホ",
+        "スマートフォン",
         "携帯電話",
         "smartphone"
       ],
@@ -9537,7 +9543,6 @@
       "name_romaji": "suto-bu<denki>",
       "aliases": [
         "ヒーター",
-        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -12838,6 +12843,7 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
+        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -12878,7 +12884,6 @@
       "name_kana": "でんきゅう（LEDでんきゅうふくむ）",
       "name_romaji": "denkyuu(LEDdenkyuufukumu)",
       "aliases": [
-        "LED電球",
         "light bulb"
       ],
       "dispositions": [

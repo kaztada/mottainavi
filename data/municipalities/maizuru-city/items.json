@@ -1,6 +1,6 @@
 {
   "municipality_id": "maizuru-city",
-  "generated_at": "2026-10-23T14:00:44.241Z",
+  "generated_at": "2026-10-23T14:19:40.634Z",
   "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
   "item_count": 115,
   "items": [
@@ -437,6 +437,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -921,10 +922,7 @@
       "aliases": [
         "DVDプレイヤー",
         "ディーブイディープレーヤー",
-        "DVD player",
-        "CDプレイヤー",
-        "シーディープレーヤー",
-        "CD player"
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -1539,10 +1537,7 @@
       "aliases": [
         "DVDプレイヤー",
         "ディーブイディープレーヤー",
-        "DVD player",
-        "CDプレイヤー",
-        "シーディープレーヤー",
-        "CD player"
+        "DVD player"
       ],
       "dispositions": [
         {

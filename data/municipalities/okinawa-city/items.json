@@ -1,6 +1,6 @@
 {
   "municipality_id": "okinawa-city",
-  "generated_at": "2026-10-23T14:00:43.516Z",
+  "generated_at": "2026-10-23T14:19:39.901Z",
   "source_url": "https://data.bodik.jp/dataset/472115_separate_garbage_20241201",
   "item_count": 745,
   "items": [
@@ -893,6 +893,7 @@
       "name_kana": "うでどけい",
       "name_romaji": "udedokei",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -3280,7 +3281,11 @@
       "name_ja": "クーラー",
       "name_kana": "くーらー",
       "name_romaji": "ku-ra-",
-      "aliases": [],
+      "aliases": [
+        "エアコン",
+        "エアコンディショナー",
+        "air conditioner"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -3666,6 +3671,9 @@
         "スマートフォン",
         "ガラケー",
         "携帯",
+        "iPhone",
+        "Android",
+        "smartphone",
         "mobile phone",
         "cell phone"
       ],
@@ -5503,6 +5511,7 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -6044,6 +6053,7 @@
       "name_romaji": "sekiyusuto-bu",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -7132,10 +7142,7 @@
       "name_ja": "注射器",
       "name_kana": "ちゅうしゃき",
       "name_romaji": "chuushaki",
-      "aliases": [
-        "注射針",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -8008,7 +8015,6 @@
       "name_kana": "でんきゅう（けいこうとう）",
       "name_romaji": "denkyuu(keikoutou)",
       "aliases": [
-        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -8082,6 +8088,7 @@
       "name_kana": "でんしぴあの",
       "name_romaji": "denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -9054,6 +9061,7 @@
       "name_romaji": "no-topasokon",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],
