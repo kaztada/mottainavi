@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-22T17:56:35.934Z",
+  "generated_at": "2026-10-22T23:13:40.122Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -5366,7 +5366,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Keyboard"
     },
     {
       "id": "knz-0304",
@@ -7726,7 +7726,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tools"
     },
     {
       "id": "knz-0440",
@@ -20494,7 +20494,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Calligraphy paper (hanshi) / washi (Japanese paper)"
     },
     {
       "id": "knz-1167",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-22T18:21:04.102Z",
+  "generated_at": "2026-10-22T23:13:43.086Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -70,7 +70,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ice pack (Icenon; gel coolant)"
     },
     {
       "id": "zam-0005",
@@ -6665,7 +6665,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "COVID-19 test kit (without needle)"
     },
     {
       "id": "zam-0380",
@@ -11118,7 +11118,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soil and sand"
     },
     {
       "id": "zam-0631",
@@ -17365,7 +17365,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ramune bottle (marble soda bottle)"
     },
     {
       "id": "zam-0987",
