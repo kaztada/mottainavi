@@ -16,6 +16,8 @@
     "compare-gomisaku": "tsx scripts/tools/compare-gomisaku.ts",
     "codex-review": "sh scripts/tools/codex-review.sh",
     "items-en": "tsx scripts/tools/items-en.ts",
+    "alias-impact": "tsx scripts/tools/alias-impact.ts",
+    "search-diff": "tsx scripts/tools/search-diff.ts",
     "build-registry": "tsx scripts/build-registry.ts",
     "coverage": "tsx scripts/tools/coverage.ts",
     "sweep": "tsx scripts/tools/catalog-sweep.ts",
