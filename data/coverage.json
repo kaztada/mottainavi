@@ -7724,19 +7724,21 @@
     ]
   },
   "osaki-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-23",
+    "detail_ja": "宮城県のポータルの公開データ(令和7年4月版)は、危険物の出し方が市の令和8年度の案内と合っていましたが、市のサイトの全体の早見表(PDF)が古い区分のままで、品目ごとに全件を照らし合わせることができませんでした。確かめられてから対応します。",
+    "detail_en": "Miyagi Prefecture's portal data (April 2025 edition) matched the city's FY2026 guidance for hazardous items, but the city's overall quick-reference chart (PDF) still shows older categories, so we could not check every item. We will add the city once this can be confirmed.",
     "evidence": [
       {
-        "label": "【大崎市】ごみの分別方法一覧（R7.4.1）(miyagi)",
+        "label": "宮城県オープンデータポータル「【大崎市】ごみの分別方法一覧（R7.4.1）」(CC BY 4.0)",
         "url": "https://miyagi.dataeye.jp/datasets/414"
       },
       {
-        "label": "ファイル",
-        "url": "https://miyagi.dataeye.jp/resource_download/579"
+        "label": "市の粗大ごみ・持ち込みの案内(2025-03-24)",
+        "url": "https://www.city.osaki.miyagi.jp/shisei/soshikikarasagasu/shiminkyodousuishimbu/kankyohozenka/1/3/2838.html"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・1000行・データの基準日 2025・カタログの更新日 2025-03-28・ライセンスの登録 cc-by4_0"
+    "note": "抜き取り照合 第5弾(2026-10-23、work/coverage/agent-reports/sample-osaki-natori.md)。Kaz の判断 2026-10-24: 保留(市の全体PDFが古く全件照合できない)。入れるときの条件: 区分が空の6行、素材別に複数行ある品名、ライターの確認"
   },
   "tomiya-city": {
     "status": "no-data",
@@ -10146,19 +10148,17 @@
     "note": "市のサイトの確認 2026-10-16: csv・利用条件「クリエイティブ・コモンズ・ライセンス表示2.1日本(CC BY 2.1 JP、福島市オープンデータ利用規約)」。福島市オープンデータ一覧(環境)の「ごみの分別区分(令和4年1月1日現在)」CSV 38.9KB、UTF-8 BOM、約540品目。列は 区分,品名,ワンポイント,50音(5374.jp系の形式)。データ時点は2022-01-01と古い(ページ更新2025-07-01)。同ページに地区別ごみ収集スケジュール CSV(gomi_schedule_r020801.csv)もあり。"
   },
   "aizuwakamatsu-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-23",
+    "detail_ja": "公開データ(2026年4月版のCSV)を取得できず、中身を確かめられませんでした。市は2026年7月から電池の拠点回収を始めていて、その前の版のデータの可能性があります。データを取得できたら調べ直します。",
+    "detail_en": "We could not download the open data (April 2026 CSV), so we could not check its contents. The city started collecting batteries at drop-off points in July 2026, and the data may predate that change. We will check again once the data can be downloaded.",
     "evidence": [
       {
-        "label": "会津若松市家庭ごみ分別辞典(search-ckan-jp)",
+        "label": "会津若松市家庭ごみ分別辞典(データカタログ。CSV 2026.4r1.csv は 2026-10-23 に接続できず)",
         "url": "https://data.data4citizen.jp/dataset/10210001"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://data.data4citizen.jp/dataset/06d9bafd-1044-4f97-869a-32a18835e9be/resource/131532e0-6335-4d01-a3cc-046566c31b77/download/2026.4r1.csv"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・0行・データの基準日 2026・カタログの更新日 2026-04-23・ライセンスの登録 cc-by"
+    "note": "抜き取り照合 第5弾(2026-10-23、work/coverage/agent-reports/sample-hakusan-aizuwakamatsu.md)。Kaz の判断 2026-10-24: 保留(CSV を取得できた時点で再調査)。CSV は item/synonym/answer 型の独自形式とみられる。市の公式辞書(HTML・437品目・2026-09-15 更新)は全件読めた"
   },
   "koriyama-city": {
     "status": "no-data",
@@ -21876,34 +21876,41 @@
     "note": "総当たり 2026-10-16: csv・1138行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
   },
   "awara-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-23",
+    "detail_ja": "県の共同公開データ(2026年7月)と、市の「ごみガイドブック」(2026年3月発行)を全件で比べたところ、小型の電気製品など約20品目で分け方が違っていました(どちらが新しいか分かりません)。市に確かめてから対応します。",
+    "detail_en": "When we compared the prefecture's shared open data (July 2026) with the city's garbage guidebook (published March 2026) item by item, about 20 items, mostly small electrical products, were sorted differently, and we could not tell which is newer. We will add the city after confirming with the city.",
     "evidence": [
       {
-        "label": "ごみ分別一覧 あわら市(福井県・県内17市町共同公開データ)(fukui-pref)",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html"
+        "label": "福井県「ごみ分別一覧」あわら市 awarashibunbetu.csv(766行、県の掲載日 令和8年7月2日、CC BY 4.0)",
+        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/awarashibunbetu.csv"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/awarashibunbetu.csv"
+        "label": "市の「ごみガイドブック」(令和8年3月発行。50音表と照合: 732品目中702一致、電気製品約20件が食い違い。危険物は一致)",
+        "url": "https://www.city.awara.lg.jp/mokuteki/life/life03/life0302/p001154.html"
+      },
+      {
+        "label": "確認先: 市の生活環境課 0776-73-8017(食い違う約20件。アダプター・充電器・ヘルスメーター・ラジオ・DVDプレイヤー・プリンター・ワープロなど)"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・766行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
+    "note": "抜き取り照合 第5弾(2026-10-23、work/coverage/agent-reports/sample-awara-ikeda.md)。Kaz の判断 2026-10-24: 保留(市に確認してから)。データの「市役所エコステーション」は冊子では「市役所設置専用ボックス」"
   },
   "fukui-sakai-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-23",
+    "detail_ja": "県の共同公開データは2025年1月の版で、そのあと市がリチウムイオン電池の専用の回収ボックスを置きました(2025年7月)。電池は火災につながる品目なので、県のデータが新しくなってから対応します。",
+    "detail_en": "The prefecture's shared open data is the January 2025 edition, and the city later installed dedicated collection boxes for lithium-ion batteries (July 2025). Because batteries can cause fires, we will add the city once the prefecture's data is updated.",
     "evidence": [
       {
-        "label": "ごみ分別一覧 坂井市(福井県・県内17市町共同公開データ)(fukui-pref)",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html"
+        "label": "福井県「ごみ分別一覧」坂井市 sakaishibunbetu.csv(897行、県の掲載日 令和7年1月8日、CC BY 4.0)",
+        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/sakaishibunbetu.csv"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/sakaishibunbetu.csv"
+        "label": "市の「使用済み小型家電の回収ボックス」(2025-07-29 更新。リチウムイオン電池専用の回収ボックスを設置)",
+        "url": "https://www.city.fukui-sakai.lg.jp/kankyou/kurashi/gomi/recycle/kaisyubox.html"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・897行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
+    "note": "抜き取り照合 第5弾(2026-10-23、work/coverage/agent-reports/sample-sakai-fukui.md)。Kaz の判断 2026-10-24: 保留。再開の目安: 県のデータの更新日が変わったとき(環境推進課 0776-50-3032)"
   },
   "eiheiji-town": {
     "status": "candidate",
@@ -27121,15 +27128,25 @@
     "note": "市のサイトの確認 2026-10-20: 品目別の分別データはオープンデータにない。分別辞書は PDF(37MB、2023-03 ページ更新)、検索は市独自の『へらせっと大辞典』(setogomi.com)とアプリ『さんあ〜る』。10/16 の接続失敗は一時的だった。公式の分別ページ https://www.city.seto.aichi.jp/docs/2023/06/12/00013/gomi.html"
   },
   "handa-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-23",
+    "detail_ja": "公開データの中身が2020年10月時点のもので、充電式電池や蛍光管などの出し方が市の現在の案内(令和8年度版)と違っていました。データが新しくなってから対応します。",
+    "detail_en": "The open data reflects the situation as of October 2020, and the disposal rules for items such as rechargeable batteries and fluorescent tubes differ from the city's current guidance (FY2026). We will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.city.handa.lg.jp/_res/projects/default_project/_page_/001/005/568/gomi_target.csv"
+        "label": "市のオープンデータ「半田市ごみ収集日、分別情報」gomi_target.csv(データ時点 2020年10月8日、CC BY)",
+        "url": "https://www.city.handa.lg.jp/cgi-opd/opendata_detail.cgi?id=9cc7966525bda631875354674b12a5b570401a32"
+      },
+      {
+        "label": "市の令和8年度版「家庭ごみの分別と資源の正しい出し方」(2026-04-02)",
+        "url": "https://www.city.handa.lg.jp/machi/gomi/1003067/1003068.html"
+      },
+      {
+        "label": "市の電池のページ(2026-04-01)",
+        "url": "https://www.city.handa.lg.jp/machi/gomi/1003094/1003100.html"
       }
     ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY(表示)」。オープンデータ「半田市ごみ収集日、分別情報」の gomi_target.csv(27.7KB、UTF-8 BOM、464行、列は ごみ名,索引,分別区分,分別注意文)。5374.jp 形式。データ時点2020-10-08、カタログ上のリリース日2026-03-25。地区別収集日の gomi_area_days.csv も同一データセット。品目データは約6年前で古い可能性。"
+    "note": "抜き取り照合 第5弾(2026-10-23、work/coverage/agent-reports/sample-handa-higashiyamato.md)。Kaz の判断 2026-10-24: 除外(データが2020年)。台帳の状態は保留で記録"
   },
   "kasugai-city": {
     "status": "no-data",
