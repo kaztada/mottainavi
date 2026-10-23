@@ -1,6 +1,6 @@
 {
   "municipality_id": "koganei-city",
-  "generated_at": "2026-10-23T13:37:58.456Z",
+  "generated_at": "2026-10-23T14:00:45.805Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132101d0000000038",
   "item_count": 993,
   "items": [
@@ -2522,10 +2522,7 @@
       "name_ja": "紙パック（内側が色付・アルミ付）",
       "name_kana": "かみぱっく（うちがわがいろづけ・あるみづけ）",
       "name_romaji": "kamipakku(uchigawagairozuke/arumizuke)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -2542,10 +2539,7 @@
       "name_ja": "紙パック（内側が白色）",
       "name_kana": "かみぱっく（うちがわがはくしょく）",
       "name_romaji": "kamipakku(uchigawagahakushoku)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -6071,8 +6065,9 @@
       "name_kana": "CDぷれーやー（MDぷれーやーをふくむ）",
       "name_romaji": "CDpure-ya-(MDpure-ya-wofukumu)",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -8284,10 +8279,7 @@
       "name_ja": "注射針等（在宅医療廃棄物）",
       "name_kana": "ちゅうしゃはりとう（ざいたくいりょうはいきぶつ）",
       "name_romaji": "chuushaharitou(zaitakuiryouhaikibutsu)",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shushudekinai",
@@ -8927,9 +8919,9 @@
       "name_kana": "DVDぷれいやー",
       "name_romaji": "DVDpureiya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレーヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -10212,10 +10204,7 @@
       "name_ja": "鍋（ホーロー製含む）",
       "name_kana": "なべ（ほーろーせいふくむ）",
       "name_romaji": "nabe(ho-ro-seifukumu)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinzoku",

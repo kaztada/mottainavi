@@ -1,6 +1,6 @@
 {
   "municipality_id": "iwaki-city",
-  "generated_at": "2026-10-23T13:38:00.032Z",
+  "generated_at": "2026-10-23T14:00:47.396Z",
   "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
   "item_count": 1662,
   "items": [
@@ -405,12 +405,7 @@
       "name_ja": "油（食用油）",
       "name_kana": "あぶら（しょくようゆ）",
       "name_romaji": "abura(shokuyouyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -427,12 +422,7 @@
       "name_ja": "油（廃油、鉱物性）",
       "name_kana": "あぶら（はいゆ、こうぶつせい）",
       "name_romaji": "abura(haiyu,koubutsusei)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -3604,6 +3594,7 @@
       "name_romaji": "oritatamiisu(tsuri,kyanpuyoutou)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -4222,11 +4213,7 @@
       "name_ja": "買い物袋（レジ袋）",
       "name_kana": "かいものぶくろ（れじぶくろ）",
       "name_romaji": "kaimonobukuro(rejibukuro)",
-      "aliases": [
-        "レジ袋",
-        "ビニール袋",
-        "plastic bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "yoki-pura",
@@ -4349,11 +4336,7 @@
       "name_ja": "学習机イス（キャスター付）",
       "name_kana": "がくしゅうつくえいす（きゃすたーづけ）",
       "name_romaji": "gakushuutsukueisu(kyasuta-zuke)",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -5494,10 +5477,7 @@
       "name_ja": "紙パック（内側が銀色のもの）",
       "name_kana": "かみぱっく（うちがわがぎんいろのもの）",
       "name_romaji": "kamipakku(uchigawagagin'ironomono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sonota-kami",
@@ -5514,10 +5494,7 @@
       "name_ja": "紙パック（内側が白いもの）",
       "name_kana": "かみぱっく（うちがわがしろいもの）",
       "name_romaji": "kamipakku(uchigawagashiroimono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami-pack",
@@ -7345,11 +7322,7 @@
       "name_ja": "靴（スケート用）",
       "name_kana": "くつ（すけーとよう）",
       "name_romaji": "kutsu(suke-toyou)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kaden-kinzoku",
@@ -9941,10 +9914,7 @@
       "name_ja": "酒の紙パック",
       "name_kana": "さけのかみぱっく",
       "name_romaji": "sakenokamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sonota-kami",
@@ -10513,8 +10483,9 @@
       "name_kana": "しーでぃーぷれーやー",
       "name_romaji": "shi-dei-pure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -10583,7 +10554,12 @@
       "name_ja": "磁気ふとん",
       "name_kana": "じきふとん",
       "name_romaji": "jikifuton",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -12591,6 +12567,7 @@
       "name_kana": "しんぶんし・しんぶんおりこみこうこく",
       "name_romaji": "shinbunshi/shinbun'orikomikoukoku",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -16153,12 +16130,7 @@
       "name_ja": "注射器・注射針",
       "name_kana": "ちゅうしゃき・ちゅうしゃはり",
       "name_romaji": "chuushaki/chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -16541,11 +16513,7 @@
       "name_ja": "机・テーブル（木製・プラスチック製）",
       "name_kana": "つくえ・てーぶる（もくせい・ぷらすちっくせい）",
       "name_romaji": "tsukue/te-buru(mokusei/purasuchikkusei)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -16562,11 +16530,7 @@
       "name_ja": "机・テーブル（金属製）",
       "name_kana": "つくえ・てーぶる（きんぞくせい）",
       "name_romaji": "tsukue/te-buru(kinzokusei)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -16941,9 +16905,9 @@
       "name_kana": "ＤＶＤぷれーやー",
       "name_romaji": "ＤＶＤpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -19265,10 +19229,7 @@
       "name_ja": "鍋（金属製）",
       "name_kana": "なべ（きんぞくせい）",
       "name_romaji": "nabe(kinzokusei)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kaden-kinzoku",
@@ -19285,10 +19246,7 @@
       "name_ja": "鍋（陶器製）",
       "name_kana": "なべ（とうきせい）",
       "name_romaji": "nabe(toukisei)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -20366,11 +20324,7 @@
       "name_ja": "パイプイス",
       "name_kana": "ぱいぷいす",
       "name_romaji": "paipuisu",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -22082,6 +22036,7 @@
       "name_romaji": "bini-rukaban",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],
@@ -25344,13 +25299,7 @@
       "name_kana": "ほん・えほん",
       "name_romaji": "hon/ehon",
       "aliases": [
-        "picture book",
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "book"
+        "picture book"
       ],
       "dispositions": [
         {
@@ -26198,7 +26147,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {

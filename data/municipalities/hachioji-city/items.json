@@ -1,6 +1,6 @@
 {
   "municipality_id": "hachioji-city",
-  "generated_at": "2026-10-23T13:37:58.929Z",
+  "generated_at": "2026-10-23T14:00:46.242Z",
   "source_url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html",
   "item_count": 1133,
   "items": [
@@ -1864,6 +1864,7 @@
       "name_kana": "おしいれたんす",
       "name_romaji": "oshiiretansu",
       "aliases": [
+        "たんす",
         "箪笥",
         "チェスト",
         "dresser"
@@ -2536,11 +2537,7 @@
       "name_ja": "買い物袋（レジ袋）",
       "name_kana": "かいものぶくろ（れじぶくろ）",
       "name_romaji": "kaimonobukuro(rejibukuro)",
-      "aliases": [
-        "レジ袋",
-        "ビニール袋",
-        "plastic bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pla",
@@ -3509,10 +3506,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kamipack",
@@ -6792,8 +6786,9 @@
       "name_kana": "しーでぃーぷれーやー",
       "name_romaji": "shi-dei-pure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -10515,10 +10510,7 @@
       "name_ja": "注射器本体（在宅医療廃棄物）",
       "name_kana": "ちゅうしゃきほんたい（ざいたくいりょうはいきぶつ）",
       "name_romaji": "chuushakihontai(zaitakuiryouhaikibutsu)",
-      "aliases": [
-        "注射針",
-        "syringe"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -10535,10 +10527,7 @@
       "name_ja": "注射針（在宅医療廃棄物）",
       "name_kana": "ちゅうしゃはり（ざいたくいりょうはいきぶつ）",
       "name_romaji": "chuushahari(zaitakuiryouhaikibutsu)",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shori",
@@ -11017,9 +11006,9 @@
       "name_kana": "DVDぷれーやー",
       "name_romaji": "DVDpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {

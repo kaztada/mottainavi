@@ -1,7 +1,7 @@
 /**
  * 別名の付け方を変えたときの影響の一覧(以前の付け方 legacy と今の付け方の比較)。
  *
- * 実行: npm run alias-impact [-- --out <ファイル>] [--base origin/main]
+ * 実行: npm run alias-impact [-- --out <ファイル>] [--base origin/main] [--exclude slug,slug]
  *   全自治体の品目名と別名辞書(共通+市)から、メモリ上で両方の付け方を計算して比べる。
  *   以前の付け方には比較元(--base。既定 origin/main)の辞書を、今の付け方には作業中の辞書を使う。
  *   データは書き換えない。出力:
@@ -58,7 +58,10 @@ function main() {
   const lost: string[] = []
   const gained: string[] = []
 
+  const exIdx = process.argv.indexOf("--exclude")
+  const exclude = new Set(exIdx >= 0 ? process.argv[exIdx + 1].split(",") : [])
   for (const slug of Object.keys(ADAPTERS)) {
+    if (exclude.has(slug)) continue
     const itemsPath = municipalityFile(slug, "items.json")
     if (!existsSync(itemsPath)) continue
     const names: string[] = readJson<{ items: { name_ja: string }[] }>(

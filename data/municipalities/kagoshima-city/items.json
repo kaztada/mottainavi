@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-23T13:37:55.863Z",
+  "generated_at": "2026-10-23T14:00:43.332Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -684,7 +684,6 @@
       "name_romaji": "isu<kinzokuseiigai>",
       "aliases": [
         "椅子",
-        "イス",
         "チェア",
         "chair"
       ],
@@ -3440,10 +3439,7 @@
       "name_ja": "紙パック（500ml未満）",
       "name_kana": "かみぱっく（500mlみまん）",
       "name_romaji": "kamipakku(500mlmiman)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -3460,10 +3456,7 @@
       "name_ja": "紙パック（500m以上）<内側アルミ/酒、豆乳等>",
       "name_kana": "かみぱっく（500mいじょう）<ないがわあるみ/しゅ、とうにゅうとう>",
       "name_romaji": "kamipakku(500mijou)<naigawaarumi/shu,tounyuutou>",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -3480,10 +3473,7 @@
       "name_ja": "紙パック（500ml以上）<内側アルミ無し>",
       "name_kana": "かみぱっく（500mlいじょう）<ないがわあるみなし>",
       "name_romaji": "kamipakku(500mlijou)<naigawaaruminashi>",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -8951,6 +8941,7 @@
       "name_kana": "しんぶんし、おりこみちらし",
       "name_romaji": "shinbunshi,orikomichirashi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -11373,13 +11364,7 @@
       "name_ja": "棚<金属製>",
       "name_kana": "たな<きんぞくせい>",
       "name_romaji": "tana<kinzokusei>",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinzoku",
@@ -11396,13 +11381,7 @@
       "name_ja": "棚<金属製以外>",
       "name_kana": "たな<きんぞくせいいがい>",
       "name_romaji": "tana<kinzokuseiigai>",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -11934,12 +11913,7 @@
       "name_ja": "注射器、注射針",
       "name_kana": "ちゅうしゃき、ちゅうしゃはり",
       "name_romaji": "chuushaki,chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -12245,11 +12219,7 @@
       "name_ja": "机<学習机、事務机、袖机>",
       "name_kana": "つくえ<がくしゅうつくえ、じむつくえ、そでつくえ>",
       "name_romaji": "tsukue<gakushuutsukue,jimutsukue,sodetsukue>",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -12465,9 +12435,9 @@
       "name_kana": "ＤＶＤぷれーやー（ぽーたぶる）",
       "name_romaji": "ＤＶＤpure-ya-(po-taburu)",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -12491,9 +12461,9 @@
       "name_kana": "ＤＶＤぷれーやー（ぽーたぶるいがい）",
       "name_romaji": "ＤＶＤpure-ya-(po-taburuigai)",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -14925,8 +14895,6 @@
       "name_romaji": "pasokon(desukutoppu/buraunkan'igai,ekishoutou)",
       "aliases": [
         "PC",
-        "ノートパソコン",
-        "デスクトップパソコン",
         "laptop",
         "computer"
       ],
@@ -16982,6 +16950,7 @@
       "name_romaji": "furonoisu<ki/purasei>",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -17441,7 +17410,12 @@
       "name_ja": "ベビーふとん",
       "name_kana": "べびーふとん",
       "name_romaji": "bebi-futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "moyaseru",

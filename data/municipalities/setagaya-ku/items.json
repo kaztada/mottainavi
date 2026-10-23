@@ -1,6 +1,6 @@
 {
   "municipality_id": "setagaya-ku",
-  "generated_at": "2026-10-23T13:37:57.540Z",
+  "generated_at": "2026-10-23T14:00:44.917Z",
   "source_url": "https://www.city.setagaya.lg.jp/opendata/22308.html",
   "item_count": 787,
   "items": [
@@ -178,12 +178,7 @@
       "name_ja": "油（食用油）",
       "name_kana": "あぶら（しょくようゆ）",
       "name_romaji": "abura(shokuyouyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kyoten",
@@ -205,12 +200,7 @@
       "name_ja": "油（機械）",
       "name_kana": "あぶら（きかい）",
       "name_romaji": "abura(kikai)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -247,7 +237,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -1802,11 +1793,7 @@
       "name_ja": "鏡（一辺の長さ30cm以下）",
       "name_kana": "かがみ（いちへんのながさ30cmいか）",
       "name_romaji": "kagami(ichihennonagasa30cmika)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -1823,11 +1810,7 @@
       "name_ja": "鏡（一辺の長さ30cm超）",
       "name_kana": "かがみ（いちへんのながさ30cmちょう）",
       "name_romaji": "kagami(ichihennonagasa30cmchou)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -2215,10 +2198,7 @@
       "name_ja": "紙パック（内側が白色）",
       "name_kana": "かみぱっく（うちがわがはくしょく）",
       "name_romaji": "kamipakku(uchigawagahakushoku)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kyoten",
@@ -2240,10 +2220,7 @@
       "name_ja": "紙パック（内側がアルミコーティング）",
       "name_kana": "かみぱっく（うちがわがあるみこーてぃんぐ）",
       "name_romaji": "kamipakku(uchigawagaarumiko-teingu)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -4955,7 +4932,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -5284,8 +5262,9 @@
       "name_kana": "CDぷれーやー（いちへんのながさ30cmいか）",
       "name_romaji": "CDpure-ya-(ichihennonagasa30cmika)",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -5304,8 +5283,9 @@
       "name_kana": "CDぷれーやー（いちへんのながさ30cmちょう）",
       "name_romaji": "CDpure-ya-(ichihennonagasa30cmchou)",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -7395,10 +7375,7 @@
       "name_ja": "注射針（在宅医療用）※インスリンなど",
       "name_kana": "ちゅうしゃはり（ざいたくいりょうよう）※いんすりんなど",
       "name_romaji": "chuushahari(zaitakuiryouyou)※insurinnado",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -13402,6 +13379,7 @@
       "name_romaji": "ryokoukaban(toranku)",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],

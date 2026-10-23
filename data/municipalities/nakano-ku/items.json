@@ -1,6 +1,6 @@
 {
   "municipality_id": "nakano-ku",
-  "generated_at": "2026-10-23T13:37:59.758Z",
+  "generated_at": "2026-10-23T14:00:47.116Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139",
   "item_count": 942,
   "items": [
@@ -354,12 +354,7 @@
       "name_ja": "油（食用油以外）",
       "name_kana": "あぶら（しょくようゆいがい）",
       "name_romaji": "abura(shokuyouyuigai)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -376,12 +371,7 @@
       "name_ja": "油（食用の植物油）",
       "name_kana": "あぶら（しょくようのしょくぶつゆ）",
       "name_romaji": "abura(shokuyounoshokubutsuyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "oil",
@@ -1334,7 +1324,10 @@
       "name_romaji": "umoufuton",
       "aliases": [
         "羽毛布団",
-        "布団"
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
       ],
       "dispositions": [
         {
@@ -3120,10 +3113,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -4441,11 +4431,7 @@
       "name_ja": "靴（布製・革製）",
       "name_kana": "くつ（ぬのせい・かわせい）",
       "name_romaji": "kutsu(nunosei/kawasei)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -6555,8 +6541,9 @@
       "name_romaji": "shi-dei-pureiya-",
       "aliases": [
         "オーディオ機器",
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレーヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -6575,8 +6562,9 @@
       "name_kana": "しーでぃーぷれいやー（ぽーたぶる）",
       "name_romaji": "shi-dei-pureiya-(po-taburu)",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク",
+        "CDプレーヤー",
+        "シーディープレーヤー",
+        "CD player",
         "オーディオ機器"
       ],
       "dispositions": [
@@ -9019,10 +9007,7 @@
       "name_ja": "注射針",
       "name_kana": "ちゅうしゃはり",
       "name_romaji": "chuushahari",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -9812,9 +9797,9 @@
       "name_kana": "ＤＶＤぷれいやー",
       "name_romaji": "ＤＶＤpureiya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレーヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -15799,6 +15784,7 @@
       "name_romaji": "ryokoukaban(kawasei)",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],
@@ -15820,6 +15806,7 @@
       "name_romaji": "ryokoukaban(purasuchikkusei)",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],
@@ -15841,6 +15828,7 @@
       "name_romaji": "ryokoukaban(kinzokusei)",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],

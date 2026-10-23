@@ -1,6 +1,6 @@
 {
   "municipality_id": "sukagawa-city",
-  "generated_at": "2026-10-23T13:37:56.231Z",
+  "generated_at": "2026-10-23T14:00:43.687Z",
   "source_url": "https://www.city.sukagawa.fukushima.jp/shisei/gaiyo/opendata/1004902/8865.html",
   "item_count": 569,
   "items": [
@@ -82,12 +82,7 @@
       "name_ja": "油（機械油・エンジンオイル）",
       "name_kana": "あぶら（きかいゆ・えんじんおいる）",
       "name_romaji": "abura(kikaiyu/enjin'oiru)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -104,12 +99,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -864,6 +854,7 @@
         "sofa",
         "couch",
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -1522,11 +1513,7 @@
       "name_ja": "傘（折りたたみ傘含む）",
       "name_kana": "かさ（おりたたみかさふくむ）",
       "name_romaji": "kasa(oritatamikasafukumu)",
-      "aliases": [
-        "ビニール傘",
-        "折りたたみ傘",
-        "umbrella"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -1973,10 +1960,7 @@
       "name_ja": "紙パック（牛乳パックなど飲料用）",
       "name_kana": "かみぱっく（ぎゅうにゅうぱっくなどいんりょうよう）",
       "name_romaji": "kamipakku(gyuunyuupakkunadoinryouyou)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shigen2",
@@ -3557,6 +3541,7 @@
       "name_romaji": "zaisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -3874,8 +3859,9 @@
       "name_kana": "CDぷれいやー・らじかせ",
       "name_romaji": "CDpureiya-/rajikase",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレーヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -5752,11 +5738,7 @@
       "name_ja": "机（学習机など）",
       "name_kana": "つくえ（がくしゅうつくえなど）",
       "name_romaji": "tsukue(gakushuutsukuenado)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6949,6 +6931,7 @@
       "name_romaji": "paipuisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -8342,6 +8325,7 @@
       "name_kana": "べびーたんす",
       "name_romaji": "bebi-tansu",
       "aliases": [
+        "たんす",
         "箪笥",
         "チェスト",
         "dresser"
@@ -8870,15 +8854,7 @@
       "name_ja": "本（雑誌・教科書など含む）",
       "name_kana": "ほん（ざっし・きょうかしょなどふくむ）",
       "name_romaji": "hon(zasshi/kyoukashonadofukumu)",
-      "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shigen2",
@@ -9568,6 +9544,7 @@
       "name_kana": "ようふくたんす",
       "name_romaji": "youfukutansu",
       "aliases": [
+        "たんす",
         "箪笥",
         "チェスト",
         "dresser"

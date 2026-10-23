@@ -1,6 +1,6 @@
 {
   "municipality_id": "nagahama-city",
-  "generated_at": "2026-10-23T13:37:56.458Z",
+  "generated_at": "2026-10-23T14:00:43.908Z",
   "source_url": "https://data.bodik.jp/dataset/252034_garbage_separation",
   "item_count": 1248,
   "items": [
@@ -376,12 +376,7 @@
       "name_ja": "油（食用以外）",
       "name_kana": "あぶら（しょくよういがい）",
       "name_romaji": "abura(shokuyouigai)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -398,12 +393,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -1445,7 +1435,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -2977,11 +2968,7 @@
       "name_ja": "鏡（鏡台）",
       "name_kana": "かがみ（きょうだい）",
       "name_romaji": "kagami(kyoudai)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -3601,10 +3588,7 @@
       "name_ja": "紙パック（内側が銀色のもの）",
       "name_kana": "かみぱっく（うちがわがぎんいろのもの）",
       "name_romaji": "kamipakku(uchigawagagin'ironomono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -3621,10 +3605,7 @@
       "name_ja": "紙パック（内側が白いもの）",
       "name_kana": "かみぱっく（うちがわがしろいもの）",
       "name_romaji": "kamipakku(uchigawagashiroimono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami-pack",
@@ -10720,6 +10701,7 @@
       "name_romaji": "sekiyusuto-bu/fuanhi-ta-",
       "aliases": [
         "ヒーター",
+        "石油ストーブ",
         "heater",
         "stove"
       ],
@@ -12316,12 +12298,7 @@
       "name_ja": "注射針、注射器（在宅医療用）",
       "name_kana": "ちゅうしゃはり、ちゅうしゃき（ざいたくいりょうよう）",
       "name_romaji": "chuushahari,chuushaki(zaitakuiryouyou)",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -13436,6 +13413,7 @@
       "name_kana": "でんしおるがん・でんしぴあの",
       "name_romaji": "denshiorugan/denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -14394,7 +14372,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -14514,10 +14493,7 @@
       "name_ja": "鍋（金属製）",
       "name_kana": "なべ（きんぞくせい）",
       "name_romaji": "nabe(kinzokusei)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -16889,7 +16865,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "kanen-sodai",
@@ -17112,11 +17093,7 @@
       "name_ja": "風呂のイス",
       "name_kana": "ふろのいす",
       "name_romaji": "furonoisu",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -18415,15 +18392,7 @@
       "name_ja": "本（書籍）",
       "name_kana": "ほん（しょせき）",
       "name_romaji": "hon(shoseki)",
-      "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -21396,7 +21365,10 @@
       "name_ja": "CDなど(LD・DVD・ブルーレイ)・ケースを含む",
       "name_kana": "CDなど(LD・DVD・ぶるーれい)・けーすをふくむ",
       "name_romaji": "CDnado(LD/DVD/buru-rei)/ke-suwofukumu",
-      "aliases": [],
+      "aliases": [
+        "シーディー",
+        "コンパクトディスク"
+      ],
       "dispositions": [
         {
           "category_id": "funen",
@@ -21414,8 +21386,9 @@
       "name_kana": "CDぷれーやー",
       "name_romaji": "CDpure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -21434,9 +21407,9 @@
       "name_kana": "DVDぷれーやー",
       "name_romaji": "DVDpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {

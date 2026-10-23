@@ -1,6 +1,6 @@
 {
   "municipality_id": "ube-city",
-  "generated_at": "2026-10-23T13:38:00.666Z",
+  "generated_at": "2026-10-23T14:00:48.037Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352021_garbage_collection",
   "item_count": 1127,
   "items": [
@@ -303,12 +303,7 @@
       "name_ja": "油(食用油）・廃食油",
       "name_kana": "あぶら(しょくようゆ）・はいしょくあぶら",
       "name_romaji": "abura(shokuyouyu)/haishokuabura",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -1248,6 +1243,7 @@
       "name_kana": "うでどけい・すまーとうぉっち",
       "name_romaji": "udedokei/suma-touotchi",
       "aliases": [
+        "腕時計",
         "clock",
         "watch"
       ],
@@ -1443,6 +1439,7 @@
       "name_romaji": "ekishouterebi /purazumashikiterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -1634,6 +1631,7 @@
       "name_kana": "LEDでんきゅう・LEDけいこうとう",
       "name_romaji": "LEDdenkyuu/LEDkeikoutou",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -1867,6 +1865,7 @@
         "sofa",
         "couch",
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -1887,11 +1886,8 @@
       "name_kana": "おうせつよういす、そふぁ（いちにんようをのぞく）",
       "name_romaji": "ousetsuyouisu,sofua(ichinin'youwonozoku)",
       "aliases": [
-        "ソファ",
-        "カウチ",
-        "sofa",
-        "couch",
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -2615,11 +2611,7 @@
       "name_ja": "鏡（姿見鏡）",
       "name_kana": "かがみ（すがたみきょう）",
       "name_romaji": "kagami(sugatamikyou)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -3377,10 +3369,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -6487,7 +6476,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -6959,8 +6949,9 @@
       "name_kana": "CDぷれーやー",
       "name_romaji": "CDpure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -7883,7 +7874,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -11027,12 +11019,7 @@
       "name_ja": "注射器・注射針",
       "name_kana": "ちゅうしゃき・ちゅうしゃはり",
       "name_romaji": "chuushaki/chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -11168,11 +11155,7 @@
       "name_ja": "机（両そで机を除く）",
       "name_kana": "つくえ（りょうそでつくえをのぞく）",
       "name_romaji": "tsukue(ryousodetsukuewonozoku)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -11189,11 +11172,7 @@
       "name_ja": "机・デスク(金属製）（長さ1m・幅50cm・奥行50cm・重さ10kg以下）",
       "name_kana": "つくえ・ですく(きんぞくせい）（ながさ1m・はば50cm・おくゆき50cm・おもさ10kgいか）",
       "name_romaji": "tsukue/desuku(kinzokusei)(nagasa1m/haba50cm/okuyuki50cm/omosa10kgika)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -11210,11 +11189,7 @@
       "name_ja": "机・デスク（木製）（長さ1m・幅50cm・奥行50cm・重さ10kg以下）",
       "name_kana": "つくえ・ですく（もくせい）（ながさ1m・はば50cm・おくゆき50cm・おもさ10kgいか）",
       "name_romaji": "tsukue/desuku(mokusei)(nagasa1m/haba50cm/okuyuki50cm/omosa10kgika)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -11231,11 +11206,7 @@
       "name_ja": "机（両そで）",
       "name_kana": "つくえ（りょうそで）",
       "name_romaji": "tsukue(ryousode)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -11414,9 +11385,9 @@
       "name_kana": "DVDぷれいやー",
       "name_romaji": "DVDpureiya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレーヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -12089,6 +12060,7 @@
       "name_kana": "でんしおるがん・でんしぴあの",
       "name_romaji": "denshiorugan/denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -14437,7 +14409,6 @@
       "name_kana": "ぴあの（でんしぴあのはのぞく）",
       "name_romaji": "piano(denshipianohanozoku)",
       "aliases": [
-        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -18629,7 +18600,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -18665,7 +18637,6 @@
       "name_kana": "らいたー(おいるらいたーいがい)",
       "name_romaji": "raita-(oiruraita-igai)",
       "aliases": [
-        "百円ライター",
         "lighter"
       ],
       "dispositions": [
@@ -18908,7 +18879,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -19079,11 +19051,7 @@
       "name_ja": "旅行カバン・旅行バッグ",
       "name_kana": "りょこうかばん・りょこうばっぐ",
       "name_romaji": "ryokoukaban/ryokoubaggu",
-      "aliases": [
-        "バッグ",
-        "鞄",
-        "bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen-m",

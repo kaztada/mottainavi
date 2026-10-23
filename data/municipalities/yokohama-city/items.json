@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-23T13:37:54.617Z",
+  "generated_at": "2026-10-23T14:00:42.073Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -7639,11 +7639,7 @@
       "name_ja": "買い物袋",
       "name_kana": "かいものぶくろ",
       "name_romaji": "kaimonobukuro",
-      "aliases": [
-        "レジ袋",
-        "ビニール袋",
-        "plastic bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -10179,10 +10175,7 @@
       "name_ja": "紙パック(内側がアルミ張りのもの)",
       "name_kana": "かみぱっく(ないがわがあるみばりのもの)",
       "name_romaji": "kamipakku(naigawagaarumibarinomono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -14016,6 +14009,7 @@
       "name_kana": "くっしょんそふぁー",
       "name_romaji": "kusshonsofua-",
       "aliases": [
+        "ソファ",
         "カウチ",
         "sofa",
         "couch"
@@ -16211,6 +16205,7 @@
       "name_romaji": "kodomoyouisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -18164,7 +18159,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -18182,10 +18178,7 @@
       "name_ja": "酒類の紙パック",
       "name_kana": "しゅるいのかみぱっく",
       "name_romaji": "shuruinokamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -19322,8 +19315,9 @@
       "name_kana": "CDぷれーやー",
       "name_romaji": "CDpure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -19774,7 +19768,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -19795,7 +19790,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -23472,7 +23468,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -29948,12 +29945,7 @@
       "name_ja": "注射器、注射針",
       "name_kana": "ちゅうしゃき、ちゅうしゃはり",
       "name_romaji": "chuushaki,chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kobetsu",
@@ -30982,13 +30974,7 @@
       "name_ja": "つっぱり棒・棚",
       "name_kana": "つっぱりぼう・たな",
       "name_romaji": "tsupparibou/tana",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -34384,7 +34370,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -43719,6 +43706,7 @@
       "name_romaji": "furonoisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -43807,9 +43795,9 @@
       "name_kana": "BDぷれーやー・DVDぷれーやー",
       "name_romaji": "BDpure-ya-/DVDpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -46240,7 +46228,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -47348,6 +47337,7 @@
       "name_kana": "ぺっとそふぁー",
       "name_romaji": "pettosofua-",
       "aliases": [
+        "ソファ",
         "カウチ",
         "sofa",
         "couch"
@@ -50757,6 +50747,7 @@
       "name_romaji": "maruisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -51767,7 +51758,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -51788,7 +51780,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -55545,7 +55538,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -55566,7 +55560,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -59049,10 +59044,7 @@
       "name_ja": "キャップ付き紙パック",
       "name_kana": "きゃっぷつきしぱっく",
       "name_romaji": "kyapputsukishipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -59089,7 +59081,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {

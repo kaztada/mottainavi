@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-city",
-  "generated_at": "2026-10-23T13:38:00.415Z",
+  "generated_at": "2026-10-23T14:00:47.775Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 733,
   "items": [
@@ -189,12 +189,7 @@
       "name_ja": "油（少量）",
       "name_kana": "あぶら（しょうりょう）",
       "name_romaji": "abura(shouryou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -211,12 +206,7 @@
       "name_ja": "油（多量）",
       "name_kana": "あぶら（たりょう）",
       "name_romaji": "abura(taryou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -818,10 +808,7 @@
       "name_ja": "飲料用紙パック",
       "name_kana": "いんりょうようしぱっく",
       "name_romaji": "inryouyoushipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -838,10 +825,7 @@
       "name_ja": "飲料用紙パック（内側がアルミコーティング）",
       "name_kana": "いんりょうようしぱっく（うちがわがあるみこーてぃんぐ）",
       "name_romaji": "inryouyoushipakku(uchigawagaarumiko-teingu)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -1014,7 +998,12 @@
       "name_ja": "羽毛ふとん",
       "name_kana": "うもうふとん",
       "name_romaji": "umoufuton",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "sodai-kanen",
@@ -1155,6 +1144,7 @@
       "name_kana": "LEDでんきゅう・らいと",
       "name_romaji": "LEDdenkyuu/raito",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -1752,11 +1742,7 @@
       "name_ja": "鏡（姿見）",
       "name_kana": "かがみ（すがたみ）",
       "name_romaji": "kagami(sugatami)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai-funen",
@@ -1773,11 +1759,7 @@
       "name_ja": "鏡（手鏡）",
       "name_kana": "かがみ（てかがみ）",
       "name_romaji": "kagami(tekagami)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -2585,8 +2567,6 @@
       "name_kana": "ぎたー（もくせいいがい）",
       "name_romaji": "gita-(mokuseiigai)",
       "aliases": [
-        "エレキギター",
-        "アコースティックギター",
         "アコギ",
         "guitar"
       ],
@@ -2983,11 +2963,7 @@
       "name_ja": "靴（革・布製）",
       "name_kana": "くつ（かわ・ぬのせい）",
       "name_romaji": "kutsu(kawa/nunosei)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -3230,6 +3206,7 @@
       "name_romaji": "keitaiyouekishouterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -3886,6 +3863,7 @@
       "name_romaji": "zaisu(mokusei)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -3907,6 +3885,7 @@
       "name_romaji": "zaisu(kinzokusei)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -4310,8 +4289,9 @@
       "name_kana": "CDぷれいやー",
       "name_romaji": "CDpureiya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレーヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -4574,6 +4554,7 @@
       "name_romaji": "shasaiyouekishouterebi",
       "aliases": [
         "TV",
+        "液晶テレビ",
         "television"
       ],
       "dispositions": [
@@ -6009,7 +5990,6 @@
       "name_kana": "そふぁー（すぷりんぐなし）",
       "name_romaji": "sofua-(supuringunashi)",
       "aliases": [
-        "ソファ",
         "カウチ",
         "sofa",
         "couch"
@@ -6800,11 +6780,7 @@
       "name_ja": "机（木製）",
       "name_kana": "つくえ（もくせい）",
       "name_romaji": "tsukue(mokusei)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai-kanen",
@@ -6821,11 +6797,7 @@
       "name_ja": "机（木製以外）",
       "name_kana": "つくえ（もくせいいがい）",
       "name_romaji": "tsukue(mokuseiigai)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai-funen",
@@ -7147,9 +7119,9 @@
       "name_kana": "DVDれこーだー",
       "name_romaji": "DVDreko-da-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDレコーダ",
+        "ディーブイディーレコーダー",
+        "DVD recorder"
       ],
       "dispositions": [
         {
@@ -9926,7 +9898,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "sodai-kanen",
@@ -10555,7 +10532,12 @@
       "name_ja": "ベビーふとん",
       "name_kana": "べびーふとん",
       "name_romaji": "bebi-futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "sodai-kanen",
@@ -11131,13 +11113,6 @@
       "name_kana": "ほん・ざっし",
       "name_romaji": "hon/zasshi",
       "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book",
         "magazine"
       ],
       "dispositions": [
@@ -12071,6 +12046,7 @@
       "name_kana": "ようたんす",
       "name_romaji": "youtansu",
       "aliases": [
+        "たんす",
         "箪笥",
         "チェスト",
         "dresser"
@@ -12493,11 +12469,7 @@
       "name_ja": "レジャーイス（木製）",
       "name_kana": "れじゃーいす（もくせい）",
       "name_romaji": "reja-isu(mokusei)",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -12514,11 +12486,7 @@
       "name_ja": "レジャーイス（金属製・プラスチック製）",
       "name_kana": "れじゃーいす（きんぞくせい・ぷらすちっくせい）",
       "name_romaji": "reja-isu(kinzokusei/purasuchikkusei)",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",

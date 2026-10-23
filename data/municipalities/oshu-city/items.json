@@ -1,6 +1,6 @@
 {
   "municipality_id": "oshu-city",
-  "generated_at": "2026-10-23T13:37:58.234Z",
+  "generated_at": "2026-10-23T14:00:45.587Z",
   "source_url": "https://www.city.oshu.iwate.jp/opendata/8/16379.html",
   "item_count": 1029,
   "items": [
@@ -274,12 +274,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moeru",
@@ -296,12 +291,7 @@
       "name_ja": "油（燃料用）【灯油・ガソリン等】",
       "name_kana": "あぶら（ねんりょうよう）【とうゆ・がそりんとう】",
       "name_romaji": "abura(nenryouyou)【touyu/gasorintou】",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shushushinai",
@@ -3099,11 +3089,7 @@
       "name_ja": "傘（生地）【布、ビニール】",
       "name_kana": "かさ（きじ）【ぬの、びにーる】",
       "name_romaji": "kasa(kiji)【nuno,bini-ru】",
-      "aliases": [
-        "ビニール傘",
-        "折りたたみ傘",
-        "umbrella"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moeru",
@@ -3120,11 +3106,7 @@
       "name_ja": "傘（骨）【金属】",
       "name_kana": "かさ（ほね）【きんぞく】",
       "name_romaji": "kasa(hone)【kinzoku】",
-      "aliases": [
-        "ビニール傘",
-        "折りたたみ傘",
-        "umbrella"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moenai",
@@ -3916,10 +3898,7 @@
       "name_ja": "紙パック（裏側が白色）",
       "name_kana": "かみぱっく（うらがわがはくしょく）",
       "name_romaji": "kamipakku(uragawagahakushoku)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "recycle",
@@ -3936,10 +3915,7 @@
       "name_ja": "紙パック（裏側が銀色）",
       "name_kana": "かみぱっく（うらがわがぎんいろ）",
       "name_romaji": "kamipakku(uragawagagin'iro)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moeru",
@@ -6839,6 +6815,7 @@
       "name_romaji": "zaisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -7277,8 +7254,9 @@
       "name_kana": "CDぷれーやー（けいたいがた）",
       "name_romaji": "CDpure-ya-(keitaigata)",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -10843,10 +10821,7 @@
       "name_ja": "注射針等（在宅医療系廃棄物で鋭利なもの）",
       "name_kana": "ちゅうしゃはりとう（ざいたくいりょうけいはいきぶつでえいりなもの）",
       "name_romaji": "chuushaharitou(zaitakuiryoukeihaikibutsudeeirinamono)",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shushushinai",
@@ -11225,9 +11200,9 @@
       "name_kana": "DVDぷれーやー（けいたいがた）",
       "name_romaji": "DVDpure-ya-(keitaigata)",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -11251,9 +11226,9 @@
       "name_kana": "DVDぷれーやー・れこーだー",
       "name_romaji": "DVDpure-ya-/reko-da-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -11788,6 +11763,7 @@
       "name_kana": "でんしぴあの、でんしおるがん",
       "name_romaji": "denshipiano,denshiorugan",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -13273,6 +13249,7 @@
       "name_romaji": "paipuisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],

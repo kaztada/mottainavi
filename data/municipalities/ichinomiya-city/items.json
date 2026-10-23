@@ -1,6 +1,6 @@
 {
   "municipality_id": "ichinomiya-city",
-  "generated_at": "2026-10-23T13:37:59.347Z",
+  "generated_at": "2026-10-23T14:00:46.677Z",
   "source_url": "https://www.city.ichinomiya.aichi.jp/kankyou/haikibutsutaisaku/1043987/1043988/1000388/1060886.html",
   "item_count": 689,
   "items": [
@@ -96,12 +96,7 @@
       "name_ja": "油（食用油）",
       "name_kana": "あぶら（しょくようゆ）",
       "name_romaji": "abura(shokuyouyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -118,12 +113,7 @@
       "name_ja": "油（その他の油）",
       "name_kana": "あぶら（そのたのあぶら）",
       "name_romaji": "abura(sonotanoabura)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -1870,7 +1860,6 @@
       "name_romaji": "kaban(hikakusei/nunoseiigai)",
       "aliases": [
         "バッグ",
-        "カバン",
         "鞄",
         "bag"
       ],
@@ -1958,10 +1947,7 @@
       "name_ja": "紙パック（内側が銀色）",
       "name_kana": "かみぱっく（うちがわがぎんいろ）",
       "name_romaji": "kamipakku(uchigawagagin'iro)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -1978,10 +1964,7 @@
       "name_ja": "紙パック（内側が白色）",
       "name_kana": "かみぱっく（うちがわがはくしょく）",
       "name_romaji": "kamipakku(uchigawagahakushoku)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "chonai",
@@ -2899,11 +2882,7 @@
       "name_ja": "靴（皮革製・布製・ゴム製・木製）",
       "name_kana": "くつ（ひかくせい・ぬのせい・ごむせい・もくせい）",
       "name_romaji": "kutsu(hikakusei/nunosei/gomusei/mokusei)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -2920,11 +2899,7 @@
       "name_ja": "靴（ビニール製）",
       "name_kana": "くつ（びにーるせい）",
       "name_romaji": "kutsu(bini-rusei)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -4418,8 +4393,9 @@
       "name_kana": "CDぷれーやー",
       "name_romaji": "CDpure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -6891,12 +6867,7 @@
       "name_ja": "注射器・注射針（在宅医療用）",
       "name_kana": "ちゅうしゃき・ちゅうしゃはり（ざいたくいりょうよう）",
       "name_romaji": "chuushaki/chuushahari(zaitakuiryouyou)",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -7486,6 +7457,7 @@
       "name_kana": "でんしおるがん・でんしぴあの",
       "name_romaji": "denshiorugan/denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -10930,15 +10902,7 @@
       "name_ja": "本（書籍）",
       "name_kana": "ほん（しょせき）",
       "name_romaji": "hon(shoseki)",
-      "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "chonai",

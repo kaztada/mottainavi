@@ -1,6 +1,6 @@
 {
   "municipality_id": "inazawa-city",
-  "generated_at": "2026-10-23T13:38:01.149Z",
+  "generated_at": "2026-10-23T14:00:48.518Z",
   "source_url": "https://www.city.inazawa.aichi.jp/0000003563.html",
   "item_count": 655,
   "items": [
@@ -143,12 +143,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "abura",
@@ -513,7 +508,6 @@
       "name_romaji": "isu(mokuseiigai)",
       "aliases": [
         "椅子",
-        "イス",
         "チェア",
         "chair"
       ],
@@ -975,7 +969,12 @@
       "name_ja": "羽毛ふとん",
       "name_kana": "うもうふとん",
       "name_romaji": "umoufuton",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "umou",
@@ -1280,6 +1279,7 @@
       "name_romaji": "ousetsutsukue,ousetsuisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -1625,6 +1625,7 @@
       "name_romaji": "oritatamiisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -2624,10 +2625,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -7039,11 +7037,7 @@
       "name_ja": "机（金属製）",
       "name_kana": "つくえ（きんぞくせい）",
       "name_romaji": "tsukue(kinzokusei)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7060,11 +7054,7 @@
       "name_ja": "机（ベッドと一体式）",
       "name_kana": "つくえ（べっどといったいしき）",
       "name_romaji": "tsukue(beddotoittaishiki)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -7081,11 +7071,7 @@
       "name_ja": "机（木製）",
       "name_kana": "つくえ（もくせい）",
       "name_romaji": "tsukue(mokusei)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -8706,6 +8692,7 @@
       "name_romaji": "paipuisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -9696,7 +9683,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -9999,6 +9991,7 @@
       "name_romaji": "furonoisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],

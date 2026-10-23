@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-23T13:37:58.691Z",
+  "generated_at": "2026-10-23T14:00:46.017Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -297,12 +297,7 @@
       "name_ja": "油（食用）・エンジンオイルなど",
       "name_kana": "あぶら（しょくよう）・えんじんおいるなど",
       "name_romaji": "abura(shokuyou)/enjin'oirunado",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -974,10 +969,7 @@
       "name_ja": "飲料用紙パック",
       "name_kana": "いんりょうようしぱっく",
       "name_romaji": "inryouyoushipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kamipack",
@@ -2255,11 +2247,7 @@
       "name_ja": "傘（かさ）",
       "name_kana": "かさ（かさ）",
       "name_romaji": "kasa(kasa)",
-      "aliases": [
-        "ビニール傘",
-        "折りたたみ傘",
-        "umbrella"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -2910,10 +2898,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kamipack",
@@ -6852,7 +6837,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -8179,11 +8165,7 @@
       "name_ja": "整理たんす",
       "name_kana": "せいりたんす",
       "name_romaji": "seiritansu",
-      "aliases": [
-        "箪笥",
-        "チェスト",
-        "dresser"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -9123,13 +9105,7 @@
       "name_ja": "棚（たな）",
       "name_kana": "たな（たな）",
       "name_romaji": "tana(tana)",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -9431,10 +9407,7 @@
       "name_ja": "注射針",
       "name_kana": "ちゅうしゃはり",
       "name_romaji": "chuushahari",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -9889,9 +9862,9 @@
       "name_kana": "ＤＶＤぷれーやー・れこーだー",
       "name_romaji": "ＤＶＤpure-ya-/reko-da-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -10423,6 +10396,7 @@
       "name_kana": "でんしぴあの・おるがん",
       "name_romaji": "denshipiano/orugan",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -11226,10 +11200,7 @@
       "name_ja": "鍋（なべ）",
       "name_kana": "なべ（なべ）",
       "name_romaji": "nabe(nabe)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasanai",
@@ -14828,15 +14799,7 @@
       "name_ja": "本（書籍・雑誌・まんが本など）",
       "name_kana": "ほん（しょせき・ざっし・まんがほんなど）",
       "name_romaji": "hon(shoseki/zasshi/mangahonnado)",
-      "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "zasshi",

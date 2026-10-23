@@ -1,6 +1,6 @@
 {
   "municipality_id": "hirakata-city",
-  "generated_at": "2026-10-23T13:37:55.195Z",
+  "generated_at": "2026-10-23T14:00:42.624Z",
   "source_url": "https://www.city.hirakata.osaka.jp/0000024067.html",
   "item_count": 1761,
   "items": [
@@ -443,12 +443,7 @@
       "name_ja": "油・オイル（機械用）",
       "name_kana": "あぶら・おいる（きかいよう）",
       "name_romaji": "abura/oiru(kikaiyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "konnan",
@@ -465,12 +460,7 @@
       "name_ja": "油・オイル（食用油）",
       "name_kana": "あぶら・おいる（しょくようゆ）",
       "name_romaji": "abura/oiru(shokuyouyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ippan",
@@ -1802,10 +1792,7 @@
       "name_ja": "飲料用紙パック",
       "name_kana": "いんりょうようしぱっく",
       "name_romaji": "inryouyoushipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -5367,12 +5354,7 @@
       "name_ja": "鞄（かばん）（プラ製・ビニール製）",
       "name_kana": "かばん（かばん）（ぷらせい・びにーるせい）",
       "name_romaji": "kaban(kaban)(purasei/bini-rusei)",
-      "aliases": [
-        "かばん",
-        "カバン",
-        "バッグ",
-        "bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ippan",
@@ -5389,12 +5371,7 @@
       "name_ja": "鞄（布製・革製）",
       "name_kana": "かばん（ぬのせい・かわせい）",
       "name_romaji": "kaban(nunosei/kawasei)",
-      "aliases": [
-        "かばん",
-        "カバン",
-        "バッグ",
-        "bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi",
@@ -5411,12 +5388,7 @@
       "name_ja": "鞄（籐製・金属製）",
       "name_kana": "かばん（とうせい・きんぞくせい）",
       "name_romaji": "kaban(tousei/kinzokusei)",
-      "aliases": [
-        "かばん",
-        "カバン",
-        "バッグ",
-        "bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi",
@@ -10091,10 +10063,7 @@
       "name_ja": "酒の紙パック",
       "name_kana": "さけのかみぱっく",
       "name_romaji": "sakenokamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -10785,8 +10754,9 @@
       "name_kana": "しーでぃーぷれーやー（けいたいよう）",
       "name_romaji": "shi-dei-pure-ya-(keitaiyou)",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -10805,8 +10775,9 @@
       "name_kana": "しーでぃーぷれーやー・でっき",
       "name_romaji": "shi-dei-pure-ya-/dekki",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -11863,10 +11834,7 @@
       "name_ja": "ジュースの紙パック",
       "name_kana": "じゅーすのかみぱっく",
       "name_romaji": "ju-sunokamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "bunbetsu",
@@ -15953,13 +15921,7 @@
       "name_ja": "棚（プラスチック製）",
       "name_kana": "たな（ぷらすちっくせい）",
       "name_romaji": "tana(purasuchikkusei)",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi-ogata",
@@ -15976,13 +15938,7 @@
       "name_ja": "棚（木製・金属製）",
       "name_kana": "たな（もくせい・きんぞくせい）",
       "name_romaji": "tana(mokusei/kinzokusei)",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi-ogata",
@@ -17510,9 +17466,9 @@
       "name_kana": "ＤＶＤぷれーやー・でっき",
       "name_romaji": "ＤＶＤpure-ya-/dekki",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -20262,10 +20218,7 @@
       "name_ja": "鍋（金属製・陶器製）",
       "name_kana": "なべ（きんぞくせい・とうきせい）",
       "name_romaji": "nabe(kinzokusei/toukisei)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi",
@@ -24474,11 +24427,7 @@
       "name_ja": "風呂イス（プラスチック製）",
       "name_kana": "ふろいす（ぷらすちっくせい）",
       "name_romaji": "furoisu(purasuchikkusei)",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ippan",
@@ -24495,11 +24444,7 @@
       "name_ja": "風呂イス（木製）",
       "name_kana": "ふろいす（もくせい）",
       "name_romaji": "furoisu(mokusei)",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi",
@@ -29148,10 +29093,7 @@
       "name_ja": "ラタンキャリーバッグ",
       "name_kana": "らたんきゃりーばっぐ",
       "name_romaji": "ratankyari-baggu",
-      "aliases": [
-        "スーツケース",
-        "キャリーケース"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "aragomi",

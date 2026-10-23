@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-23T13:37:57.092Z",
+  "generated_at": "2026-10-23T14:00:44.502Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -987,7 +987,6 @@
       "name_romaji": "isu(kinzokububun80pa-sentomiman,70cmika,purasuchikkushigen'igai)",
       "aliases": [
         "椅子",
-        "イス",
         "チェア",
         "chair"
       ],
@@ -1969,6 +1968,7 @@
       "name_kana": "ＬＥＤけいこうとう、ＬＥＤでんきゅう",
       "name_romaji": "ＬＥＤkeikoutou,ＬＥＤdenkyuu",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -2786,6 +2786,7 @@
       "name_romaji": "oritatamiisu(kinzokububun80pa-sentomiman,70cmika)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -2807,6 +2808,7 @@
       "name_romaji": "oritatamiisu(kinzokububun80pa-sentoijou)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -2828,6 +2830,7 @@
       "name_romaji": "oritatamiisu(kinzokububun80pa-sentomiman,70cmchou)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -3123,8 +3126,9 @@
       "name_kana": "かーしーでぃーぷれーやー",
       "name_romaji": "ka-shi-dei-pure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -3481,11 +3485,7 @@
       "name_ja": "鏡（70cm以下）",
       "name_kana": "かがみ（70cmいか）",
       "name_romaji": "kagami(70cmika)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "umetate",
@@ -3502,11 +3502,7 @@
       "name_ja": "鏡（70cm超）",
       "name_kana": "かがみ（70cmちょう）",
       "name_romaji": "kagami(70cmchou)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kobetsu",
@@ -4651,10 +4647,7 @@
       "name_ja": "紙パック（牛乳パック）",
       "name_kana": "かみぱっく（ぎゅうにゅうぱっく）",
       "name_romaji": "kamipakku(gyuunyuupakku)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -4671,10 +4664,7 @@
       "name_ja": "紙パック（牛乳パック以外のもの）",
       "name_kana": "かみぱっく（ぎゅうにゅうぱっくいがいのもの）",
       "name_romaji": "kamipakku(gyuunyuupakkuigainomono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -5326,8 +5316,6 @@
       "name_kana": "ぎたー（でんどういがい、70cmいか）",
       "name_romaji": "gita-(dendouigai,70cmika)",
       "aliases": [
-        "エレキギター",
-        "アコースティックギター",
         "アコギ",
         "guitar"
       ],
@@ -5370,8 +5358,6 @@
       "name_kana": "ぎたー（でんどういがい、70cmちょう）",
       "name_romaji": "gita-(dendouigai,70cmchou)",
       "aliases": [
-        "エレキギター",
-        "アコースティックギター",
         "アコギ",
         "guitar"
       ],
@@ -8610,6 +8596,7 @@
       "name_romaji": "zaisu(kinzokububun80pa-sentomiman,70cmika,purasuchikkushigen'igai)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -8631,6 +8618,7 @@
       "name_romaji": "zaisu(kinzokububun80pa-sentoijou)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -8652,6 +8640,7 @@
       "name_romaji": "zaisu(kinzokububun80pa-sentomiman,70cmchou)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -8673,6 +8662,7 @@
       "name_romaji": "zaisu(purasuchikkusozai100pa-sento,50㎝ika)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -9412,8 +9402,9 @@
       "name_kana": "しーでぃーぷれーやー",
       "name_romaji": "shi-dei-pure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -13494,7 +13485,6 @@
       "name_kana": "そふぁー（すぷりんぐなし、70cmいか）",
       "name_romaji": "sofua-(supuringunashi,70cmika)",
       "aliases": [
-        "ソファ",
         "カウチ",
         "sofa",
         "couch"
@@ -14867,10 +14857,7 @@
       "name_ja": "注射針（在宅治療用）",
       "name_kana": "ちゅうしゃはり（ざいたくちりょうよう）",
       "name_romaji": "chuushahari(zaitakuchiryouyou)",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -15210,11 +15197,7 @@
       "name_ja": "机（金属部分80％未満、70cm以下、プラスチック資源以外）",
       "name_kana": "つくえ（きんぞくぶぶん80ぱーせんとみまん、70cmいか、ぷらすちっくしげんいがい）",
       "name_romaji": "tsukue(kinzokububun80pa-sentomiman,70cmika,purasuchikkushigen'igai)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -15231,11 +15214,7 @@
       "name_ja": "机（金属部分80％以上）",
       "name_kana": "つくえ（きんぞくぶぶん80ぱーせんといじょう）",
       "name_romaji": "tsukue(kinzokububun80pa-sentoijou)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinzoku",
@@ -15252,11 +15231,7 @@
       "name_ja": "机（金属部分80％未満、140cm超）",
       "name_kana": "つくえ（きんぞくぶぶん80ぱーせんとみまん、140cmちょう）",
       "name_romaji": "tsukue(kinzokububun80pa-sentomiman,140cmchou)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kobetsu",
@@ -15273,11 +15248,7 @@
       "name_ja": "机（金属部分80％未満、70cm超140cm以下）",
       "name_kana": "つくえ（きんぞくぶぶん80ぱーせんとみまん、70cmちょう140cmいか）",
       "name_romaji": "tsukue(kinzokububun80pa-sentomiman,70cmchou140cmika)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kobetsu",
@@ -15294,11 +15265,7 @@
       "name_ja": "机（プラスチック素材100％、50㎝以下）",
       "name_kana": "つくえ（ぷらすちっくそざい100ぱーせんと、50㎝いか）",
       "name_romaji": "tsukue(purasuchikkusozai100pa-sento,50㎝ika)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pla",
@@ -15562,9 +15529,9 @@
       "name_kana": "ＤＶＤぷれーやー",
       "name_romaji": "ＤＶＤpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -18109,10 +18076,7 @@
       "name_ja": "鍋（金属部分80％未満、耐熱ガラス・陶磁器製）",
       "name_kana": "なべ（きんぞくぶぶん80ぱーせんとみまん、たいねつがらす・とうじきせい）",
       "name_romaji": "nabe(kinzokububun80pa-sentomiman,tainetsugarasu/toujikisei)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "umetate",
@@ -18129,10 +18093,7 @@
       "name_ja": "鍋（金属部分80％以上）",
       "name_kana": "なべ（きんぞくぶぶん80ぱーせんといじょう）",
       "name_romaji": "nabe(kinzokububun80pa-sentoijou)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinzoku",
@@ -19100,6 +19061,7 @@
       "name_romaji": "paipuisu(kinzokububun80pa-sentomiman,70cmika)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -19121,6 +19083,7 @@
       "name_romaji": "paipuisu(kinzokububun80pa-sentoijou)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -19142,6 +19105,7 @@
       "name_romaji": "paipuisu(kinzokububun80pa-sentomiman,70cmchou)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -21549,7 +21513,12 @@
       "name_ja": "ふとん（70cm以下）",
       "name_kana": "ふとん（70cmいか）",
       "name_romaji": "futon(70cmika)",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -21566,7 +21535,12 @@
       "name_ja": "ふとん（70cm超）",
       "name_kana": "ふとん（70cmちょう）",
       "name_romaji": "futon(70cmchou)",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "kobetsu",
@@ -24196,11 +24170,7 @@
       "name_ja": "ポット（金属部分80％未満、電動以外、ガラス・陶磁器製以外・プラスチック資源以外）",
       "name_kana": "ぽっと（きんぞくぶぶん80ぱーせんとみまん、でんどういがい、がらす・とうじきせいいがい・ぷらすちっくしげんいがい）",
       "name_romaji": "potto(kinzokububun80pa-sentomiman,dendouigai,garasu/toujikiseiigai/purasuchikkushigen'igai)",
-      "aliases": [
-        "電気ポット",
-        "電気ケトル",
-        "kettle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -26869,6 +26839,7 @@
       "name_romaji": "ryokoukaban(kinzokububun80pa-sentomiman,70cmika)",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],
@@ -26890,6 +26861,7 @@
       "name_romaji": "ryokoukaban(kinzokububun80pa-sentoijou)",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],
@@ -26911,6 +26883,7 @@
       "name_romaji": "ryokoukaban(kinzokububun80pa-sentomiman,70cmchou)",
       "aliases": [
         "バッグ",
+        "カバン",
         "鞄",
         "bag"
       ],

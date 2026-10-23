@@ -1,6 +1,6 @@
 {
   "municipality_id": "okinawa-city",
-  "generated_at": "2026-10-23T13:37:56.055Z",
+  "generated_at": "2026-10-23T14:00:43.516Z",
   "source_url": "https://data.bodik.jp/dataset/472115_separate_garbage_20241201",
   "item_count": 745,
   "items": [
@@ -2545,10 +2545,7 @@
       "name_ja": "紙パック（内側が銀色）",
       "name_kana": "かみぱっく（うちがわがぎんいろ）",
       "name_romaji": "kamipakku(uchigawagagin'iro)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -2565,10 +2562,7 @@
       "name_ja": "紙パック（内側が白色）",
       "name_kana": "かみぱっく（うちがわがはくしょく）",
       "name_romaji": "kamipakku(uchigawagahakushoku)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -4365,11 +4359,7 @@
       "name_ja": "座イス",
       "name_kana": "ざいす",
       "name_romaji": "zaisu",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -4834,8 +4824,9 @@
       "name_kana": "CDぷれいやー",
       "name_romaji": "CDpureiya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレーヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -5233,6 +5224,7 @@
       "name_kana": "しゅうのうたんす",
       "name_romaji": "shuunoutansu",
       "aliases": [
+        "たんす",
         "箪笥",
         "チェスト",
         "dresser"
@@ -7142,7 +7134,7 @@
       "name_romaji": "chuushaki",
       "aliases": [
         "注射針",
-        "syringe"
+        "needle"
       ],
       "dispositions": [
         {
@@ -7564,9 +7556,9 @@
       "name_kana": "DVDぷれいやー",
       "name_romaji": "DVDpureiya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレーヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -10082,11 +10074,7 @@
       "name_ja": "ビニールカバン",
       "name_kana": "びにーるかばん",
       "name_romaji": "bini-rukaban",
-      "aliases": [
-        "バッグ",
-        "鞄",
-        "bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -11685,15 +11673,7 @@
       "name_ja": "本類（マンガ・週刊誌・文庫本・図書）",
       "name_kana": "ほんるい（まんが・しゅうかんし・ぶんこぼん・としょ）",
       "name_romaji": "honrui(manga/shuukanshi/bunkobon/tosho)",
-      "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",

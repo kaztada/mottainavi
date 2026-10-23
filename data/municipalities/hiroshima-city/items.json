@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiroshima-city",
-  "generated_at": "2026-10-23T13:37:59.537Z",
+  "generated_at": "2026-10-23T14:00:46.875Z",
   "source_url": "https://hiroshima-opendata.dataeye.jp/datasets/1338",
   "item_count": 644,
   "items": [
@@ -847,7 +847,9 @@
       "name_ja": "枝(庭木の剪定ごみ)",
       "name_kana": "えだ(にわきのせんていごみ)",
       "name_romaji": "eda(niwakinosenteigomi)",
-      "aliases": [],
+      "aliases": [
+        "剪定枝"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -916,6 +918,7 @@
       "name_kana": "ＬＥＤでんきゅう・ＬＥＤけいこうかん",
       "name_romaji": "ＬＥＤdenkyuu/ＬＥＤkeikoukan",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -2074,10 +2077,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -2094,10 +2094,7 @@
       "name_ja": "紙パック(裏にアルミ箔が貼ってあるもの)",
       "name_kana": "かみぱっく(うらにあるみはくがはってあるもの)",
       "name_romaji": "kamipakku(uraniarumihakugahattearumono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -2834,11 +2831,7 @@
       "name_ja": "靴（運動靴・革靴・スリッパ・サンダル等）",
       "name_kana": "くつ（うんどうくつ・かわぐつ・すりっぱ・さんだるとう）",
       "name_romaji": "kutsu(undoukutsu/kawagutsu/surippa/sandarutou)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sonota-pla",
@@ -2855,11 +2848,7 @@
       "name_ja": "靴（安全靴・スキー靴等）",
       "name_kana": "くつ（あんぜんくつ・すきーくつとう）",
       "name_romaji": "kutsu(anzenkutsu/suki-kutsutou)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -3757,6 +3746,7 @@
       "name_romaji": "zaisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -6221,11 +6211,7 @@
       "name_ja": "机(テーブル)",
       "name_kana": "つくえ(てーぶる)",
       "name_romaji": "tsukue(te-buru)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -6374,9 +6360,12 @@
       "name_kana": "ＤＶＤぷれーやー・ＤＶＤれこーだー",
       "name_romaji": "ＤＶＤpure-ya-/ＤＶＤreko-da-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player",
+        "DVDレコーダ",
+        "ディーブイディーレコーダー",
+        "DVD recorder"
       ],
       "dispositions": [
         {
@@ -8990,8 +8979,7 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle",
-        "ぺっとぼとる"
+        "plastic bottle"
       ],
       "dispositions": [
         {

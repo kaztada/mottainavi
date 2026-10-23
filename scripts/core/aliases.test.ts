@@ -36,8 +36,9 @@ describe("buildItemAliases: 語と一致(注記を除く)", () => {
     expect(aliasesOf("ストーブ（電気・ガス・灯油）")).toContain("石油ストーブ")
     expect(aliasesOf("ペットボトル(切断したもの)")).toContain("PET")
   })
-  it("1文字の語(油・本)は完全に一致するときだけ付く", () => {
-    expect(aliasesOf("油（食用）")).toContain("cooking oil")
+  it("1文字の語(油・本)は注記のない完全一致のときだけ付く", () => {
+    expect(aliasesOf("油")).toContain("cooking oil")
+    expect(aliasesOf("油（食用）")).toEqual([])
     expect(aliasesOf("食用の油よけ")).not.toContain("cooking oil")
   })
   it("「本体」「類」「一式」と末尾の数字は外して比べる", () => {
@@ -97,13 +98,52 @@ describe("buildItemAliases: 下位の種類(名前の最後が語)", () => {
   })
 })
 
+describe("注記で別の物になる品目(Codex の指摘 2026-10-23)", () => {
+  it.each([
+    "油（食用以外）",
+    "油（機械用）",
+    "油（動物性食用油）",
+    "靴（スキー靴）",
+    "鏡（手鏡）",
+    "本（アルバム）",
+    "傘（骨）【金属】",
+    "紙パック（牛乳パック以外のもの）",
+  ])("%s には語の別名が付かない", (name) => {
+    expect(aliasesOf(name)).toEqual([])
+  })
+  it("1文字の語でも注記のない品目名・「類」だけを外した品目名には付く", () => {
+    expect(aliasesOf("油")).toContain("サラダ油")
+    expect(aliasesOf("本類")).toContain("単行本")
+    expect(aliasesOf("鏡")).toContain("姿見")
+  })
+  it("注記だけで意味が変わらない2文字以上の語には付く", () => {
+    expect(aliasesOf("ストーブ（電気・ガス・灯油）")).toContain("ヒーター")
+    expect(aliasesOf("ペットボトル(切断したもの)")).toContain("PET")
+  })
+  it("かなをそろえると語尾が合ってしまう品目(スパイス・アイス・ライス)にいすの別名を付けない", () => {
+    expect(aliasesOf("香辛料・スパイス・薬味")).toEqual([])
+    expect(aliasesOf("アイス")).toEqual([])
+    expect(aliasesOf("ライス")).toEqual([])
+    expect(aliasesOf("風呂いす")).toContain("チェア")
+  })
+  it("兄弟の別名でも品目名自身が含むなら付く(並び順で語そのものの品目が先頭に出ない)", () => {
+    expect(aliasesOf("電子オルガン・電子ピアノ")).toContain("電子ピアノ")
+    expect(aliasesOf("ガスストーブ")).not.toContain("石油ストーブ")
+    expect(aliasesOf("電気ストーブ（石油ストーブを除く）")).not.toContain(
+      "石油ストーブ"
+    )
+    expect(aliasesOf("ストーブ（石油ストーブを除く）")).not.toContain(
+      "石油ストーブ"
+    )
+  })
+})
+
 describe("許可リスト(TAIL_ALLOW): 語のあとに続いても同じ物", () => {
   it.each([
     ["タブレット端末", "iPad"],
     ["タブレット型コンピューター", "tablet"],
-    ["DVDプレーヤー", "Blu-ray"],
-    ["ＤＶＤプレイヤー（ポータブル品含む）", "ディーブイディー"],
-    ["CDプレーヤー", "シーディー"],
+    ["DVDディスク", "Blu-ray"],
+    ["CDディスク", "シーディー"],
     ["新聞紙", "newspaper"],
     ["蛍光灯管", "蛍光管"],
     ["段ボール箱", "cardboard"],
@@ -115,6 +155,7 @@ describe("許可リスト(TAIL_ALLOW): 語のあとに続いても同じ物", ()
     expect(aliasesOf("タブレット菓子のケース")).toEqual([])
     expect(aliasesOf("タブレット用ケース")).toEqual([])
     expect(aliasesOf("DVDケース")).toEqual([])
+    expect(aliasesOf("DVDプレーヤー")).not.toContain("Blu-ray")
   })
   it("許可リストの語はすべて辞書にある", () => {
     for (const key of Object.keys(TAIL_ALLOW))
@@ -135,6 +176,7 @@ describe("遮断リスト(TAIL_BLOCK)と前の言葉の指定(TAIL_PREFIX)", () 
     ["プラスチックダンボール", "cardboard"],
     ["LED蛍光管", "蛍光灯"],
     ["車いす", "chair"],
+    ["ラタンキャリーバッグ", "スーツケース"],
   ])("%s に %s は付かない", (name, alias) => {
     expect(aliasesOf(name)).not.toContain(alias)
   })
@@ -172,8 +214,6 @@ describe("言い換え辞書(1字違いでない言い換え)", () => {
     ["充電電池", "充電池"],
     ["オートバイ", "バイク"],
     ["バイク（原付）", "オートバイ"],
-    ["注射器", "注射針"],
-    ["注射針（在宅医療用）", "注射器"],
     ["ダンボール", "段ボール"],
     ["釣り竿（竹製）", "釣竿"],
     ["釣竿", "釣り竿"],
@@ -185,11 +225,20 @@ describe("言い換え辞書(1字違いでない言い換え)", () => {
     ["雑紙", "雑がみ"],
     ["ズック（スニーカー・スパイクシューズ）", "スニーカー"],
     ["ガラスくず（破片）", "割れたガラス"],
-    ["剪定ごみ(枝)", "剪定枝"],
-    ["買い物袋（レジ袋）", "ビニール袋"],
-    ["紙パック", "牛乳パック"],
+    ["ふとん", "布団"],
+    ["DVDプレーヤー", "DVD player"],
+    ["ＤＶＤプレイヤー（ポータブル品含む）", "DVDプレーヤー"],
+    ["ＣＤプレーヤー", "CD player"],
   ])("品目「%s」を「%s」で引ける", (name, alias) => {
     expect(aliasesOf(name)).toContain(alias)
+  })
+  it("針と注射器・紙パックと牛乳パック・剪定枝と落ち葉は共通辞書では言い換えない(別の区分の品目へ誘導する)", () => {
+    expect(aliasesOf("注射器本体（在宅医療廃棄物）")).not.toContain("注射針")
+    expect(aliasesOf("注射針（在宅医療廃棄物）")).not.toContain("注射器")
+    expect(aliasesOf("酒の紙パック")).not.toContain("牛乳パック")
+    expect(aliasesOf("紙パック（牛乳パック以外のもの）")).toEqual([])
+    expect(aliasesOf("剪定ごみ(刈り葉、落ち葉)")).not.toContain("剪定枝")
+    expect(aliasesOf("買い物袋")).not.toContain("レジ袋")
   })
   it("言い換えが別の品目に誤って付かない", () => {
     expect(aliasesOf("蛍光ペン")).toEqual([])

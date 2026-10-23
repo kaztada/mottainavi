@@ -1,6 +1,6 @@
 {
   "municipality_id": "hofu-city",
-  "generated_at": "2026-10-23T13:37:57.791Z",
+  "generated_at": "2026-10-23T14:00:45.141Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation",
   "item_count": 1239,
   "items": [
@@ -182,7 +182,12 @@
       "name_ja": "空き缶－飲料・食品用のもの",
       "name_kana": "あきかん－いんりょう・しょくひんようのもの",
       "name_romaji": "akikan－inryou/shokuhin'younomono",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "kan",
@@ -199,7 +204,12 @@
       "name_ja": "空き缶－飲料・食品用以外のもの",
       "name_kana": "あきかん－いんりょう・しょくひんよういがいのもの",
       "name_romaji": "akikan－inryou/shokuhin'youigainomono",
-      "aliases": [],
+      "aliases": [
+        "缶",
+        "アルミ缶",
+        "スチール缶",
+        "can"
+      ],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -216,7 +226,13 @@
       "name_ja": "空きびん－化粧品用",
       "name_kana": "あきびん－けしょうひんよう",
       "name_romaji": "akibin－keshouhin'you",
-      "aliases": [],
+      "aliases": [
+        "びん",
+        "瓶",
+        "ガラスびん",
+        "bottle",
+        "glass bottle"
+      ],
       "dispositions": [
         {
           "category_id": "bin",
@@ -233,7 +249,13 @@
       "name_ja": "空きびん－食品・飲料用",
       "name_kana": "あきびん－しょくひん・いんりょうよう",
       "name_romaji": "akibin－shokuhin/inryouyou",
-      "aliases": [],
+      "aliases": [
+        "びん",
+        "瓶",
+        "ガラスびん",
+        "bottle",
+        "glass bottle"
+      ],
       "dispositions": [
         {
           "category_id": "bin",
@@ -250,7 +272,13 @@
       "name_ja": "空きびん－農薬・劇薬用",
       "name_kana": "あきびん－のうやく・げきやくよう",
       "name_romaji": "akibin－nouyaku/gekiyakuyou",
-      "aliases": [],
+      "aliases": [
+        "びん",
+        "瓶",
+        "ガラスびん",
+        "bottle",
+        "glass bottle"
+      ],
       "dispositions": [
         {
           "category_id": "toujiki",
@@ -456,12 +484,7 @@
       "name_ja": "油－食用以外",
       "name_kana": "あぶら－しょくよういがい",
       "name_romaji": "abura－shokuyouigai",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shorishinai",
@@ -1329,10 +1352,7 @@
       "name_ja": "医療用品（家庭から出たもの）－注射針",
       "name_kana": "いりょうようひん（かていからでたもの）－ちゅうしゃはり",
       "name_romaji": "iryouyouhin(kateikaradetamono)－chuushahari",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shorishinai",
@@ -2353,6 +2373,7 @@
       "name_kana": "LEDでんきゅう、LEDけいこうかん",
       "name_romaji": "LEDdenkyuu,LEDkeikoukan",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -4357,10 +4378,7 @@
       "name_ja": "紙パック（飲料用）－内側が銀色",
       "name_kana": "かみぱっく（いんりょうよう）－ないがわがぎんいろ",
       "name_romaji": "kamipakku(inryouyou)－naigawagagin'iro",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami-yoki",
@@ -4377,10 +4395,7 @@
       "name_ja": "紙パック（飲料用）－内側が白色",
       "name_kana": "かみぱっく（いんりょうよう）－ないがわがはくしょく",
       "name_romaji": "kamipakku(inryouyou)－naigawagahakushoku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami-pack",
@@ -8053,10 +8068,7 @@
       "name_ja": "酒の容器－紙パック（内側が銀色）",
       "name_kana": "さけのようき－しぱっく（うちがわがぎんいろ）",
       "name_romaji": "sakenoyouki－shipakku(uchigawagagin'iro)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami-yoki",
@@ -8073,10 +8085,7 @@
       "name_ja": "酒の容器－紙パック（内側が白色）",
       "name_kana": "さけのようき－しぱっく（うちがわがはくしょく）",
       "name_romaji": "sakenoyouki－shipakku(uchigawagahakushoku)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami-pack",
@@ -8540,8 +8549,9 @@
       "name_kana": "CDぷれーやー",
       "name_romaji": "CDpure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -9687,6 +9697,7 @@
       "name_kana": "しんぶんし・おりこみちらし",
       "name_romaji": "shinbunshi/orikomichirashi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -12368,10 +12379,7 @@
       "name_ja": "注射針",
       "name_kana": "ちゅうしゃはり",
       "name_romaji": "chuushahari",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shorishinai",
@@ -12898,9 +12906,9 @@
       "name_kana": "DVDぷれーやー",
       "name_romaji": "DVDpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -13479,6 +13487,7 @@
       "name_kana": "でんしおるがん・でんしぴあの",
       "name_romaji": "denshiorugan/denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -14561,10 +14570,7 @@
       "name_ja": "鍋－金属製",
       "name_kana": "なべ－きんぞくせい",
       "name_romaji": "nabe－kinzokusei",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -14581,10 +14587,7 @@
       "name_ja": "鍋－陶磁器製",
       "name_kana": "なべ－とうじきせい",
       "name_romaji": "nabe－toujikisei",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "toujiki",
@@ -21016,11 +21019,7 @@
       "name_ja": "旅行カバン（キャリー付）（金属部分の長いもの）",
       "name_kana": "りょこうかばん（きゃりーづけ）（きんぞくぶぶんのながいもの）",
       "name_romaji": "ryokoukaban(kyari-zuke)(kinzokububunnonagaimono)",
-      "aliases": [
-        "バッグ",
-        "鞄",
-        "bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasenai",

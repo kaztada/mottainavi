@@ -1,6 +1,6 @@
 {
   "municipality_id": "shunan-city",
-  "generated_at": "2026-10-23T13:37:58.015Z",
+  "generated_at": "2026-10-23T14:00:45.366Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352152_garbage_separation",
   "item_count": 869,
   "items": [
@@ -229,12 +229,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -1050,6 +1045,7 @@
       "name_kana": "LEDでんきゅう・ちょくかんがたLED",
       "name_romaji": "LEDdenkyuu/chokukangataLED",
       "aliases": [
+        "LED電球",
         "light bulb"
       ],
       "dispositions": [
@@ -2681,10 +2677,7 @@
       "name_ja": "紙パック（牛乳パックなど）",
       "name_kana": "かみぱっく（ぎゅうにゅうぱっくなど）",
       "name_romaji": "kamipakku(gyuunyuupakkunado)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -5386,8 +5379,9 @@
       "name_kana": "CDぷれーやー",
       "name_romaji": "CDpure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -6326,6 +6320,7 @@
       "name_kana": "しんぶんし・ちらし・こうこく",
       "name_romaji": "shinbunshi/chirashi/koukoku",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -8151,12 +8146,7 @@
       "name_ja": "注射器・注射針",
       "name_kana": "ちゅうしゃき・ちゅうしゃはり",
       "name_romaji": "chuushaki/chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shushushinai",
@@ -8412,6 +8402,7 @@
       "name_kana": "ちらし・こうこく・しんぶんし",
       "name_romaji": "chirashi/koukoku/shinbunshi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -8736,9 +8727,9 @@
       "name_kana": "DVDぷれーやー",
       "name_romaji": "DVDpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -9187,6 +9178,7 @@
       "name_kana": "でんしおるがん・でんしぴあの",
       "name_romaji": "denshiorugan/denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -10028,10 +10020,7 @@
       "name_ja": "鍋（金属鍋・ほうろう鍋など）",
       "name_kana": "なべ（きんぞくなべ・ほうろうなべなど）",
       "name_romaji": "nabe(kinzokunabe/hourounabenado)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -13780,15 +13769,7 @@
       "name_ja": "本類（文庫本・書籍・雑誌）",
       "name_kana": "ほんるい（ぶんこぼん・しょせき・ざっし）",
       "name_romaji": "honrui(bunkobon/shoseki/zasshi)",
-      "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -14877,11 +14858,7 @@
       "name_ja": "旅行カバン（スーツケース・キャリーバッグなど）",
       "name_kana": "りょこうかばん（すーつけーす・きゃりーばっぐなど）",
       "name_romaji": "ryokoukaban(su-tsuke-su/kyari-baggunado)",
-      "aliases": [
-        "バッグ",
-        "鞄",
-        "bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasenai",

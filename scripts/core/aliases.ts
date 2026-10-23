@@ -7,10 +7,13 @@
  * 下位の種類(電気ストーブ)に「石油ストーブ」のような兄弟の別名まで付いていた(2026-10-20 の調査)。
  * 今は次のときだけ付ける(docs/data-model.md §2.5)。
  *
- *  1. 品目名(注記を除いた各部分)が語と一致 → 語の別名を全部付ける
- *  2. 品目名の各部分が語で終わる(下位の種類。ノートパソコン・ベビーベッド)
- *     → 語を含まない別名だけ付ける(PC・laptop・bed は付くが、ノートパソコンは付かない)
- *  3. 語のあとに TAIL_ALLOW の言葉が続く(タブレット端末・DVDプレーヤー)→ 2 と同じ
+ *  1. 品目名(注記を除いた各部分)が語と一致 → 語の別名を全部付ける。
+ *     注記に「以外」「除く」「不可」があるとき、1文字の語(油・本・靴・鏡)で注記があるときは
+ *     注記を外した一致を使わない(油（食用以外）・靴（スキー靴）・鏡（手鏡）に食用油・スニーカー・姿見を付けない)
+ *  2. 品目名の各部分が語で終わる(下位の種類。ノートパソコン・ベビーベッド。かなはそろえず比べる)
+ *     → 語を含まない別名だけ付ける(PC・laptop・bed は付くが、ノートパソコンは付かない)。
+ *     ただし品目名自身が含む別名なら付ける(電子オルガン・電子ピアノに電子ピアノ)
+ *  3. 語のあとに TAIL_ALLOW の言葉が続く(タブレット端末・DVDディスク)→ 2 と同じ
  *
  * カッコの中身(キーボード(パソコン用)の「パソコン用」)は用途や補足の説明なので見ない。
  */
@@ -31,16 +34,8 @@ export const TAIL_ALLOW: Readonly<Record<string, readonly string[]>> = {
   ],
   スマートフォン: ["端末"],
   携帯電話: ["端末"],
-  DVD: [
-    "プレーヤー",
-    "プレイヤー",
-    "プレーヤ",
-    "デッキ",
-    "レコーダー",
-    "レコーダ",
-    "ディスク",
-  ],
-  CD: ["プレーヤー", "プレイヤー", "プレーヤ", "デッキ", "ディスク"],
+  DVD: ["ディスク", "ソフト"],
+  CD: ["ディスク", "ソフト"],
   新聞: ["紙"],
   蛍光灯: ["管"],
   段ボール: ["箱"],
@@ -53,7 +48,9 @@ const DECORATION = /(類|等|など|一式|全般|本体|[0-9]+)$/
 /** 注記として外すカッコ */
 const BRACKETS =
   /[（(【\[［<＜〈〔][^（()）【】\[\]［］<>＜＞〈〉〔〕]*[）)】\]］>＞〉〕]/g
-const SEPARATORS = /[・、，,／/＆&\s\-–—―]+/
+const SEPARATORS = /[・、，,／/＆&\s]+/
+/** 「ライター－金属製」「空きびん－化粧品用」のハイフンは、前の語に素材や用途を付ける区切り */
+const DASH = /[-–—―]+/
 
 function normalize(s: string): string {
   return s.normalize("NFKC").toLowerCase()
@@ -80,7 +77,7 @@ export const TAIL_BLOCK: Readonly<Record<string, readonly string[]>> = {
     "チェックライター",
     "DVDライター",
   ],
-  紙パック: ["掃除機の紙パック"],
+  キャリーバッグ: ["ラタンキャリーバッグ"],
   ダンボール: [
     "プラスチックダンボール",
     "油引きダンボール",
@@ -101,18 +98,41 @@ export const TAIL_PREFIX: Readonly<Record<string, readonly string[]>> = {
   ポット: ["電気", "湯沸し", "湯沸かし", "ジャー", "保温", "魔法"],
 }
 
-/** 注記(カッコ・※以降)を外して区切った品目名の各部分(正規化済み) */
-export function splitName(name: string): string[] {
+/** 品目名を、注記を外した各部分(正規化済み)と、外した注記に分けたもの */
+export interface NameInfo {
+  parts: string[]
+  notes: string
+}
+
+export function analyzeName(name: string): NameInfo {
   let rest = normalize(name)
+  let notes = ""
   // ※ 以降は注記
   const note = rest.indexOf("※")
-  if (note >= 0) rest = rest.slice(0, note)
+  if (note >= 0) {
+    notes += rest.slice(note)
+    rest = rest.slice(0, note)
+  }
   for (;;) {
-    const next = rest.replace(BRACKETS, "")
+    const next = rest.replace(BRACKETS, (m) => {
+      notes += m
+      return ""
+    })
     if (next === rest) break
     rest = next
   }
-  return rest.split(SEPARATORS).filter((p) => p.length > 0)
+  // ハイフンで区切った各区間の中で、「・」「、」などの区切りと「〜の〜」「〜用」の判定をする
+  const parts = rest
+    .split(DASH)
+    .flatMap((seg) =>
+      eligibleParts(seg.split(SEPARATORS).filter((p) => p.length > 0))
+    )
+  return { parts, notes }
+}
+
+/** 注記を外して区切った品目名の各部分(正規化済み) */
+export function splitName(name: string): string[] {
+  return analyzeName(name).parts
 }
 
 /**
@@ -122,7 +142,7 @@ export function splitName(name: string): string[] {
 function eligibleParts(parts: string[]): string[] {
   if (parts.length < 2) return parts
   const last = parts[parts.length - 1]
-  return /[のを]|用$/.test(last) ? [last] : parts
+  return /の|用$/.test(last) ? [last] : parts
 }
 
 /** 照合用の正規化(検索と同じ: かな・長音・全半角をそろえる) */
@@ -134,6 +154,12 @@ function undecorated(part: string): string {
 }
 
 /**
+ * 注記に「〜以外」「〜を除く」「〜不可」などがあるか。「油（食用以外）」「ストーブ（石油を除く）」は
+ * 注記を外すと別の物になるので、注記を外した一致は使わない
+ */
+const NEGATION = /以外|除く|除き|を除|ではな|でな|のぞ|不可|できな|なし/
+
+/**
  * 品目名に付ける別名(重複なし)。
  * @param name 品目名(name_ja)
  * @param dict 共通辞書に市の辞書を重ねたもの
@@ -143,37 +169,54 @@ export function buildItemAliases(
   dict: Readonly<Record<string, readonly string[]>>
 ): string[] {
   const out = new Set<string>(dict[name] ?? [])
-  const parts = eligibleParts(splitName(name))
+  const info = analyzeName(name)
+  const parts = info.parts
+  const noteStripOk = !NEGATION.test(info.notes)
+
+  // 1文字の語(油・本・靴・鏡)は注記で別の物になりやすい(靴（スキー靴）・鏡（手鏡）)ので、
+  // 注記のない品目名(「本類」のように末尾の言葉だけ外したものは可)のときだけ一致とみなす
+  const wholeExact = cmp(undecorated(normalize(name).trim()))
   const exactParts = new Set<string>()
-  for (const p of parts) {
-    exactParts.add(cmp(p))
-    exactParts.add(cmp(undecorated(p)))
+  if (noteStripOk) {
+    for (const p of parts) {
+      exactParts.add(cmp(p))
+      exactParts.add(cmp(undecorated(p)))
+    }
   }
-  const tailParts = [...new Set(parts.map((p) => cmp(undecorated(p))))]
+  // 語で終わるかは、かなをそろえず(NFKC・小文字だけ)で見る。そろえると「スパイス」が「いす」で終わる
+  const tailParts = [...new Set(parts.map((p) => undecorated(p)))]
+  const ownNames = parts.map(cmp)
 
   for (const [key, vals] of Object.entries(dict)) {
     const k = cmp(key)
     if (k.length === 0) continue
     // 1: 一致
-    if (exactParts.has(k)) {
+    if (k.length < 2 ? wholeExact === k : exactParts.has(k)) {
       for (const v of vals) out.add(v)
       continue
     }
     if (k.length < 2) continue
     // 2・3: 語で終わる/語+許可の言葉(遮断リスト・前の言葉の指定を除く)
-    const allow = TAIL_ALLOW[key] ?? []
-    const block = (TAIL_BLOCK[key] ?? []).map(cmp)
-    const prefix = (TAIL_PREFIX[key] ?? []).map((x) => cmp(x) + k)
+    const kr = normalize(key)
+    const allow = (TAIL_ALLOW[key] ?? []).map(normalize)
+    const block = (TAIL_BLOCK[key] ?? []).map(normalize)
+    const prefix = (TAIL_PREFIX[key] ?? []).map((x) => normalize(x) + kr)
     const isTail = tailParts.some(
       (p) =>
         !block.some((b) => p.endsWith(b)) &&
         (prefix.length > 0
           ? prefix.some((x) => p.endsWith(x))
-          : p.endsWith(k) || allow.some((a) => p.endsWith(k + cmp(a))))
+          : p.endsWith(kr) || allow.some((a) => p.endsWith(kr + a)))
     )
     if (!isTail) continue
     for (const v of vals) {
-      if (!cmp(v).includes(k)) out.add(v)
+      // 語を含む別名(石油ストーブ)は兄弟なので付けない。ただし品目名自身が含む別名なら付ける
+      // (「電子オルガン・電子ピアノ」に電子ピアノ。付けないと並び順で語そのものの品目が先頭に出る)
+      const nv = cmp(v)
+      const inOwnName = ownNames.some(
+        (o) => o.includes(nv) && !(ownNames.length === 1 && o === nv)
+      )
+      if (!nv.includes(k) || inOwnName) out.add(v)
     }
   }
   return [...out]

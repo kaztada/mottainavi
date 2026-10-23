@@ -1,6 +1,6 @@
 {
   "municipality_id": "takamatsu-city",
-  "generated_at": "2026-10-23T13:38:00.224Z",
+  "generated_at": "2026-10-23T14:00:47.589Z",
   "source_url": "https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list",
   "item_count": 606,
   "items": [
@@ -138,12 +138,7 @@
       "name_ja": "油（廃油）",
       "name_kana": "あぶら（はいゆ）",
       "name_romaji": "abura(haiyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -160,12 +155,7 @@
       "name_ja": "油（食用油・廃食油）",
       "name_kana": "あぶら（しょくようゆ・はいしょくあぶら）",
       "name_romaji": "abura(shokuyouyu/haishokuabura)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -1754,10 +1744,7 @@
       "name_ja": "紙パック（内側が白色）",
       "name_kana": "かみぱっく（うちがわがはくしょく）",
       "name_romaji": "kamipakku(uchigawagahakushoku)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -1774,10 +1761,7 @@
       "name_ja": "紙パック（内側が白色以外）",
       "name_kana": "かみぱっく（うちがわがはくしょくいがい）",
       "name_romaji": "kamipakku(uchigawagahakushokuigai)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -3418,6 +3402,7 @@
       "name_romaji": "zaisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -3729,8 +3714,9 @@
       "name_kana": "しーでぃーぷれーやー",
       "name_romaji": "shi-dei-pure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -5080,7 +5066,9 @@
       "name_ja": "剪定ごみ（直径5cm・束の直径30cm以下・長さ50cm以下）2束まで",
       "name_kana": "せんていごみ（ちょっけい5cm・たばのちょっけい30cmいか・ながさ50cmいか）2たばまで",
       "name_romaji": "senteigomi(chokkei5cm/tabanochokkei30cmika/nagasa50cmika)2tabamade",
-      "aliases": [],
+      "aliases": [
+        "剪定枝"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -5097,7 +5085,9 @@
       "name_ja": "剪定ごみ（直径5cm・束の直径30cm以下・長さ50cm以下）3束以上",
       "name_kana": "せんていごみ（ちょっけい5cm・たばのちょっけい30cmいか・ながさ50cmいか）3たばいじょう",
       "name_romaji": "senteigomi(chokkei5cm/tabanochokkei30cmika/nagasa50cmika)3tabaijou",
-      "aliases": [],
+      "aliases": [
+        "剪定枝"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -5744,12 +5734,7 @@
       "name_ja": "注射器・注射針",
       "name_kana": "ちゅうしゃき・ちゅうしゃはり",
       "name_romaji": "chuushaki/chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -5817,11 +5802,7 @@
       "name_ja": "机（スチール机・学習机）",
       "name_kana": "つくえ（すちーるつくえ・がくしゅうつくえ）",
       "name_romaji": "tsukue(suchi-rutsukue/gakushuutsukue)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6256,7 +6237,11 @@
       "name_ja": "DVDソフト",
       "name_kana": "DVDそふと",
       "name_romaji": "DVDsofuto",
-      "aliases": [],
+      "aliases": [
+        "ディーブイディー",
+        "ブルーレイ",
+        "Blu-ray"
+      ],
       "dispositions": [
         {
           "category_id": "hasai",
@@ -6274,9 +6259,9 @@
       "name_kana": "DVDぷれーやー",
       "name_romaji": "DVDpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {

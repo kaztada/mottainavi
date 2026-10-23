@@ -1,6 +1,6 @@
 {
   "municipality_id": "maizuru-city",
-  "generated_at": "2026-10-23T13:37:56.813Z",
+  "generated_at": "2026-10-23T14:00:44.241Z",
   "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
   "item_count": 115,
   "items": [
@@ -419,10 +419,7 @@
       "name_ja": "食品の紙箱・飲料用の紙パック",
       "name_kana": "しょくひんのかみばこ・いんりょうようのかみぱっく",
       "name_romaji": "shokuhinnokamibako/inryouyounokamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -921,7 +918,14 @@
       "name_ja": "CDプレーヤー・DVDプレーヤー（電池が取り外せるもの）",
       "name_kana": "CDぷれーやー・DVDぷれーやー（でんちがとりはずせるもの）",
       "name_romaji": "CDpure-ya-/DVDpure-ya-(denchigatorihazuserumono)",
-      "aliases": [],
+      "aliases": [
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player",
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
+      ],
       "dispositions": [
         {
           "category_id": "umetate",
@@ -1383,15 +1387,7 @@
       "name_ja": "本（アルバム）",
       "name_kana": "ほん（あるばむ）",
       "name_romaji": "hon(arubamu)",
-      "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "umetate",
@@ -1540,7 +1536,14 @@
       "name_ja": "CDプレーヤー・DVDプレーヤー（電池が取り外せないもの）",
       "name_kana": "CDぷれーやー・DVDぷれーやー（でんちがとりはずせないもの）",
       "name_romaji": "CDpure-ya-/DVDpure-ya-(denchigatorihazusenaimono)",
-      "aliases": [],
+      "aliases": [
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player",
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
+      ],
       "dispositions": [
         {
           "category_id": "yugai",
@@ -1751,12 +1754,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -1990,7 +1988,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -2007,15 +2010,7 @@
       "name_ja": "本（百科事典）",
       "name_kana": "ほん（ひゃっかじてん）",
       "name_romaji": "hon(hyakkajiten)",
-      "aliases": [
-        "書籍",
-        "単行本",
-        "文庫本",
-        "絵本",
-        "えほん",
-        "picture book",
-        "book"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiosaka-city",
-  "generated_at": "2026-10-23T13:37:54.853Z",
+  "generated_at": "2026-10-23T14:00:42.288Z",
   "source_url": "https://data.bodik.jp/dataset/272272_28",
   "item_count": 913,
   "items": [
@@ -201,12 +201,7 @@
       "name_ja": "油類(食用油)",
       "name_kana": "あぶらるい(しょくようゆ)",
       "name_romaji": "aburarui(shokuyouyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kyoryokuten",
@@ -223,12 +218,7 @@
       "name_ja": "油類(食用油以外)",
       "name_kana": "あぶらるい(しょくようゆいがい)",
       "name_romaji": "aburarui(shokuyouyuigai)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -1413,7 +1403,9 @@
       "name_ja": "枝(庭木)",
       "name_kana": "えだ(にわき)",
       "name_romaji": "eda(niwaki)",
-      "aliases": [],
+      "aliases": [
+        "剪定枝"
+      ],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -2224,6 +2216,7 @@
       "name_romaji": "kaiten'isu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -2277,11 +2270,7 @@
       "name_ja": "鏡（手鏡など）",
       "name_kana": "かがみ（てかがみなど）",
       "name_romaji": "kagami(tekagaminado)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -2926,10 +2915,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "katei",
@@ -3952,11 +3938,7 @@
       "name_ja": "靴(スキー靴)",
       "name_kana": "くつ(すきーくつ)",
       "name_romaji": "kutsu(suki-kutsu)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "katei",
@@ -5390,8 +5372,9 @@
       "name_kana": "CDぷれーやー",
       "name_romaji": "CDpure-ya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -7396,9 +7379,7 @@
       "name_ja": "剪定ごみ(刈り葉、落ち葉)",
       "name_kana": "せんていごみ(がりは、おちば)",
       "name_romaji": "senteigomi(gariha,ochiba)",
-      "aliases": [
-        "剪定枝"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "katei",
@@ -8376,12 +8357,7 @@
       "name_ja": "注射器・注射針",
       "name_kana": "ちゅうしゃき・ちゅうしゃはり",
       "name_romaji": "chuushaki/chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -8764,9 +8740,9 @@
       "name_kana": "DVDでっき(ぷれいやー)",
       "name_romaji": "DVDdekki(pureiya-)",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレーヤー",
+        "DVDレコーダー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -12461,11 +12437,7 @@
       "name_ja": "風呂イス",
       "name_kana": "ふろいす",
       "name_romaji": "furoisu",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "katei",

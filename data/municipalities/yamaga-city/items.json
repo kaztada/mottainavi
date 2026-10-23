@@ -1,6 +1,6 @@
 {
   "municipality_id": "yamaga-city",
-  "generated_at": "2026-10-23T13:37:57.328Z",
+  "generated_at": "2026-10-23T14:00:44.725Z",
   "source_url": "https://data.bodik.jp/dataset/432083_bunbetsu",
   "item_count": 1087,
   "items": [
@@ -286,12 +286,7 @@
       "name_ja": "油（機械油・鉱物油）",
       "name_kana": "あぶら（きかいゆ・こうぶつゆ）",
       "name_romaji": "abura(kikaiyu/koubutsuyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -308,12 +303,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -2568,11 +2558,7 @@
       "name_ja": "鏡（ガラス製）",
       "name_kana": "かがみ（がらすせい）",
       "name_romaji": "kagami(garasusei)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanamono",
@@ -3316,10 +3302,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami-pack",
@@ -10288,12 +10271,7 @@
       "name_ja": "注射器、注射針",
       "name_kana": "ちゅうしゃき、ちゅうしゃはり",
       "name_romaji": "chuushaki,chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinshi",
@@ -10836,9 +10814,9 @@
       "name_kana": "ＤＶＤぷれーやー・れこーだー",
       "name_romaji": "ＤＶＤpure-ya-/reko-da-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -12405,10 +12383,7 @@
       "name_ja": "鍋（金属・ホーロー製）",
       "name_kana": "なべ（きんぞく・ほーろーせい）",
       "name_romaji": "nabe(kinzoku/ho-ro-sei)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanamono",
@@ -15075,6 +15050,7 @@
       "name_romaji": "furoisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],

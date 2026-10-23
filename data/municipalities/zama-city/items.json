@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T13:38:00.909Z",
+  "generated_at": "2026-10-23T14:00:48.277Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -316,12 +316,7 @@
       "name_ja": "油（動物性食用油）",
       "name_kana": "あぶら（どうぶつせいしょくようゆ）",
       "name_romaji": "abura(doubutsuseishokuyouyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -338,12 +333,7 @@
       "name_ja": "油（植物性食用油）",
       "name_kana": "あぶら（しょくぶつせいしょくようゆ）",
       "name_romaji": "abura(shokubutsuseishokuyouyu)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "abura",
@@ -360,12 +350,7 @@
       "name_ja": "油（機械油、オイル）",
       "name_kana": "あぶら（きかいゆ、おいる）",
       "name_romaji": "abura(kikaiyu,oiru)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -1114,13 +1099,7 @@
       "name_ja": "衣類（綿なし・革製でないもの）",
       "name_kana": "いるい（めんなし・かわせいでないもの）",
       "name_romaji": "irui(mennashi/kawaseidenaimono)",
-      "aliases": [
-        "服",
-        "洋服",
-        "古着",
-        "clothes",
-        "clothing"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "nuno",
@@ -1137,13 +1116,7 @@
       "name_ja": "衣類（布以外）",
       "name_kana": "いるい（ぬのいがい）",
       "name_romaji": "irui(nunoigai)",
-      "aliases": [
-        "服",
-        "洋服",
-        "古着",
-        "clothes",
-        "clothing"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -2880,11 +2853,7 @@
       "name_ja": "鏡(長辺50cm超)",
       "name_kana": "かがみ(ちょうあたり50cmちょう)",
       "name_romaji": "kagami(chouatari50cmchou)",
-      "aliases": [
-        "ミラー",
-        "姿見",
-        "mirror"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -3769,10 +3738,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kami",
@@ -5014,11 +4980,7 @@
       "name_ja": "靴・履物",
       "name_kana": "くつ・はきもの",
       "name_romaji": "kutsu/hakimono",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -6078,11 +6040,7 @@
       "name_ja": "香辛料・スパイス・薬味",
       "name_kana": "こうしんりょう・すぱいす・やくみ",
       "name_romaji": "koushinryou/supaisu/yakumi",
-      "aliases": [
-        "椅子",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -7163,8 +7121,9 @@
       "name_kana": "CDぷれいやー（ちょうあたり50cmちょう）",
       "name_romaji": "CDpureiya-(chouatari50cmchou)",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレーヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -7434,6 +7393,7 @@
       "name_romaji": "jitenshayouhojoisu(kinzokusei)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -10468,13 +10428,7 @@
       "name_ja": "棚（主に木・プラ製、長辺119㎝以内）",
       "name_kana": "たな（おもにき・ぷらせい、ちょうあたり119㎝いない）",
       "name_romaji": "tana(omoniki/purasei,chouatari119㎝inai)",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10491,13 +10445,7 @@
       "name_ja": "棚（主に木・プラ製、長辺120-200cm）",
       "name_kana": "たな（おもにき・ぷらせい、ちょうあたり120-200cm）",
       "name_romaji": "tana(omoniki/purasei,chouatari120-200cm)",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10514,13 +10462,7 @@
       "name_ja": "棚（主に金属製、長辺119㎝以内）",
       "name_kana": "たな（おもにきんぞくせい、ちょうあたり119㎝いない）",
       "name_romaji": "tana(omonikinzokusei,chouatari119㎝inai)",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10537,13 +10479,7 @@
       "name_ja": "棚（主に金属製、長辺120-200cm）",
       "name_kana": "たな（おもにきんぞくせい、ちょうあたり120-200cm）",
       "name_romaji": "tana(omonikinzokusei,chouatari120-200cm)",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10910,7 +10846,7 @@
       "name_romaji": "chuushaki",
       "aliases": [
         "注射針",
-        "syringe"
+        "needle"
       ],
       "dispositions": [
         {
@@ -11180,9 +11116,9 @@
       "name_kana": "ＤＶＤぷれいやー（ぽーたぶるひんふくむ）",
       "name_romaji": "ＤＶＤpureiya-(po-taburuhinfukumu)",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレーヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -14236,7 +14172,12 @@
       "name_ja": "ふとん（5枚まで証紙1枚で収集）",
       "name_kana": "ふとん（5まいまでしょうし1まいでしゅうしゅう）",
       "name_romaji": "futon(5maimadeshoushi1maideshuushuu)",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -15698,6 +15639,7 @@
       "name_romaji": "hojoisu(jitenshayou)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],

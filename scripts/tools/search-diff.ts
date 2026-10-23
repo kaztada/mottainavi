@@ -1,7 +1,7 @@
 /**
  * 別名の変更前後(--base と作業ツリー)で、代表的な語の検索結果がどう変わるかの一覧。
  *
- * 実行: npm run search-diff [-- --base origin/main] [--out <ファイル>] [--words 語1,語2]
+ * 実行: npm run search-diff [-- --base origin/main] [--out <ファイル>] [--words 語1,語2] [--no-self]
  *   語は既定で「別名辞書の別名語すべて+よく使う語」。各市で上位3件を比べる。
  *   データは書き換えない。出力:
  *     - 先頭が変わった組 / 以前は出ていたのに0件になる組(EMPTY) / 以前の先頭が上位3件から消える組(LOST)
@@ -40,6 +40,7 @@ const COMMON_WORDS =
 function main() {
   const base = argValue("--base") ?? "origin/main"
   const out = argValue("--out")
+  const noSelf = process.argv.includes("--no-self")
   const common = JSON.parse(
     readFileSync(COMMON_ALIASES_PATH, "utf-8")
   ) as Record<string, string[]>
@@ -90,7 +91,7 @@ function main() {
       }
     }
     // 品目名で引いたとき、その品目が上位3件に出るか(名前・読みの検索は変わらないはず)
-    for (const it of newIdx) {
+    for (const it of noSelf ? [] : newIdx) {
       selfN++
       if (
         searchItems(so, it.n)

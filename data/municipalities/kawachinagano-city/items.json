@@ -1,6 +1,6 @@
 {
   "municipality_id": "kawachinagano-city",
-  "generated_at": "2026-10-23T13:37:55.425Z",
+  "generated_at": "2026-10-23T14:00:42.852Z",
   "source_url": "https://www.city.kawachinagano.lg.jp/soshiki/15/1796.html",
   "item_count": 1089,
   "items": [
@@ -324,12 +324,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "haiyu",
@@ -346,12 +341,7 @@
       "name_ja": "油（機械用）",
       "name_kana": "あぶら（きかいよう）",
       "name_romaji": "abura(kikaiyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",
@@ -1194,10 +1184,7 @@
       "name_ja": "飲料用紙パック",
       "name_kana": "いんりょうようしぱっく",
       "name_romaji": "inryouyoushipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -2797,11 +2784,7 @@
       "name_ja": "買い物袋（レジ袋）",
       "name_kana": "かいものぶくろ（れじぶくろ）",
       "name_romaji": "kaimonobukuro(rejibukuro)",
-      "aliases": [
-        "レジ袋",
-        "ビニール袋",
-        "plastic bag"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pla",
@@ -3775,10 +3758,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -6524,6 +6504,7 @@
       "name_romaji": "zaisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -6577,10 +6558,7 @@
       "name_ja": "酒の紙パック",
       "name_kana": "さけのかみぱっく",
       "name_romaji": "sakenokamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moeru",
@@ -8685,11 +8663,7 @@
       "name_ja": "スプリング入りソファ",
       "name_kana": "すぷりんぐいりそふぁ",
       "name_romaji": "supuringuirisofua",
-      "aliases": [
-        "カウチ",
-        "sofa",
-        "couch"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moenai-sodai",
@@ -10560,12 +10534,7 @@
       "name_ja": "注射器・注射針",
       "name_kana": "ちゅうしゃき・ちゅうしゃはり",
       "name_romaji": "chuushaki/chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kobetsu",
@@ -11123,9 +11092,9 @@
       "name_kana": "ＤＶＤぷれーやー",
       "name_romaji": "ＤＶＤpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -11700,6 +11669,7 @@
       "name_kana": "でんしおるがん・でんしぴあの",
       "name_romaji": "denshiorugan/denshipiano",
       "aliases": [
+        "電子ピアノ",
         "キーボード",
         "piano"
       ],
@@ -11881,11 +11851,7 @@
       "name_ja": "電動式ソファ",
       "name_kana": "でんどうしきそふぁ",
       "name_romaji": "dendoushikisofua",
-      "aliases": [
-        "カウチ",
-        "sofa",
-        "couch"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moenai-sodai",
@@ -12715,10 +12681,7 @@
       "name_ja": "鍋（土鍋）",
       "name_kana": "なべ（どなべ）",
       "name_romaji": "nabe(donabe)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moenai-sodai",
@@ -12735,10 +12698,7 @@
       "name_ja": "鍋（金属製）",
       "name_kana": "なべ（きんぞくせい）",
       "name_romaji": "nabe(kinzokusei)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinzoku",
@@ -13360,6 +13320,7 @@
       "name_romaji": "paipuisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -15074,7 +15035,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "moenai-sodai",
@@ -17182,6 +17148,7 @@
       "name_romaji": "maruisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],

@@ -1,6 +1,6 @@
 {
   "municipality_id": "hiratsuka-city",
-  "generated_at": "2026-10-23T13:37:55.631Z",
+  "generated_at": "2026-10-23T14:00:43.107Z",
   "source_url": "https://www.city.hiratsuka.kanagawa.jp/keikaku/page81_00019.html",
   "item_count": 805,
   "items": [
@@ -310,12 +310,7 @@
       "name_ja": "油（食用以外）",
       "name_kana": "あぶら（しょくよういがい）",
       "name_romaji": "abura(shokuyouigai)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "konnan",
@@ -332,12 +327,7 @@
       "name_ja": "油（天ぷら油等）",
       "name_kana": "あぶら（てんぷらあぶらとう）",
       "name_romaji": "abura(tenpuraaburatou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "haiyu",
@@ -960,12 +950,7 @@
       "name_ja": "インスリン注射器、インスリン注射針",
       "name_kana": "いんすりんちゅうしゃき、いんすりんちゅうしゃはり",
       "name_romaji": "insurinchuushaki,insurinchuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "konnan",
@@ -1050,10 +1035,7 @@
       "name_ja": "飲料用紙パック",
       "name_kana": "いんりょうようしぱっく",
       "name_romaji": "inryouyoushipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -1760,6 +1742,7 @@
       "name_romaji": "oritatamiisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -2775,10 +2758,7 @@
       "name_ja": "紙パック",
       "name_kana": "かみぱっく",
       "name_romaji": "kamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -5042,6 +5022,7 @@
       "name_romaji": "zaisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -5166,7 +5147,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -5517,8 +5499,9 @@
       "name_kana": "CDぷれーや",
       "name_romaji": "CDpure-ya",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレイヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -5886,10 +5869,7 @@
       "name_ja": "ジュースの紙パック",
       "name_kana": "じゅーすのかみぱっく",
       "name_romaji": "ju-sunokamipakku",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi",
@@ -8163,12 +8143,7 @@
       "name_ja": "注射器、注射針",
       "name_kana": "ちゅうしゃき、ちゅうしゃはり",
       "name_romaji": "chuushaki,chuushahari",
-      "aliases": [
-        "注射針",
-        "syringe",
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "konnan",
@@ -8470,9 +8445,9 @@
       "name_kana": "DVDれこーだ/ぷれーや",
       "name_romaji": "DVDreko-da/pure-ya",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDレコーダ",
+        "ディーブイディーレコーダー",
+        "DVD recorder"
       ],
       "dispositions": [
         {
@@ -9583,10 +9558,7 @@
       "name_ja": "鍋（金属製）",
       "name_kana": "なべ（きんぞくせい）",
       "name_romaji": "nabe(kinzokusei)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kinzoku",
@@ -9603,10 +9575,7 @@
       "name_ja": "鍋（金属製以外）",
       "name_kana": "なべ（きんぞくせいいがい）",
       "name_romaji": "nabe(kinzokuseiigai)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
@@ -11209,7 +11178,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -11417,6 +11391,7 @@
       "name_romaji": "furoisu",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],

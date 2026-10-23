@@ -1,6 +1,6 @@
 {
   "municipality_id": "osaka-city",
-  "generated_at": "2026-10-23T13:37:54.188Z",
+  "generated_at": "2026-10-23T14:00:41.658Z",
   "source_url": "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html",
   "item_count": 1056,
   "items": [
@@ -602,12 +602,7 @@
       "name_ja": "油（自動車、バイク、機械用）",
       "name_kana": "あぶら（じどうしゃ、ばいく、きかいよう）",
       "name_romaji": "abura(jidousha,baiku,kikaiyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "not-collected",
@@ -624,12 +619,7 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -3526,10 +3516,7 @@
       "name_ja": "紙パック（牛乳パックなどの、内側の白いもの）",
       "name_kana": "かみぱっく（ぎゅうにゅうぱっくなどの、うちがわのしろいもの）",
       "name_romaji": "kamipakku(gyuunyuupakkunadono,uchigawanoshiroimono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "koshi-irui",
@@ -3546,10 +3533,7 @@
       "name_ja": "紙パック（日本酒などの、内側がアルミコーティングされているもの）",
       "name_kana": "かみぱっく（にっぽんしゅなどの、うちがわがあるみこーてぃんぐされているもの）",
       "name_romaji": "kamipakku(nipponshunadono,uchigawagaarumiko-teingusareteirumono)",
-      "aliases": [
-        "牛乳パック",
-        "milk carton"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -6858,8 +6842,9 @@
       "name_kana": "CDぷれいやー",
       "name_romaji": "CDpureiya-",
       "aliases": [
-        "シーディー",
-        "コンパクトディスク"
+        "CDプレーヤー",
+        "シーディープレーヤー",
+        "CD player"
       ],
       "dispositions": [
         {
@@ -7223,7 +7208,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -7669,7 +7655,8 @@
       "aliases": [
         "PET",
         "ペット",
-        "plastic bottle"
+        "plastic bottle",
+        "ぺっとぼとる"
       ],
       "dispositions": [
         {
@@ -8064,6 +8051,7 @@
       "name_kana": "しんぶんし・おりこみちらし",
       "name_romaji": "shinbunshi/orikomichirashi",
       "aliases": [
+        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -10076,13 +10064,7 @@
       "name_ja": "棚（本棚・食器棚などで最大の辺または径が30センチメートルを超えるもの）",
       "name_kana": "たな（ほんだな・しょっきたななどでさいだいのあたりまたは径が30せんちめーとるをこえるもの）",
       "name_romaji": "tana(hondana/shokkitananadodesaidainoatarimataha径ga30senchime-toruwokoerumono)",
-      "aliases": [
-        "本棚",
-        "食器棚",
-        "ラック",
-        "shelf",
-        "bookshelf"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10486,10 +10468,7 @@
       "name_ja": "注射針",
       "name_kana": "ちゅうしゃはり",
       "name_romaji": "chuushahari",
-      "aliases": [
-        "注射器",
-        "needle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "not-collected",
@@ -10676,11 +10655,7 @@
       "name_ja": "机（袖なし）",
       "name_kana": "つくえ（そでなし）",
       "name_romaji": "tsukue(sodenashi)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -10697,11 +10672,7 @@
       "name_ja": "机（袖付）",
       "name_kana": "つくえ（そでつけ）",
       "name_romaji": "tsukue(sodetsuke)",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -11016,9 +10987,9 @@
       "name_kana": "DVDぷれーやー",
       "name_romaji": "DVDpure-ya-",
       "aliases": [
-        "ディーブイディー",
-        "ブルーレイ",
-        "Blu-ray"
+        "DVDプレイヤー",
+        "ディーブイディープレーヤー",
+        "DVD player"
       ],
       "dispositions": [
         {
@@ -11133,6 +11104,7 @@
       "name_romaji": "desukutoppupasokonhontai(ki-bo-do,mausu,ke-buru,supi-ka-nado)",
       "aliases": [
         "PC",
+        "デスクトップパソコン",
         "laptop",
         "computer"
       ],
@@ -12594,10 +12566,7 @@
       "name_ja": "鍋(金属製で最大の辺または径が30センチメートル以内（柄の部分を除く）のもの）",
       "name_kana": "なべ(きんぞくせいでさいだいのあたりまたは径が30せんちめーとるいない（えのぶぶんをのぞく）のもの）",
       "name_romaji": "nabe(kinzokuseidesaidainoatarimataha径ga30senchime-toruinai(enobubunwonozoku)nomono)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "shigen",
@@ -12614,10 +12583,7 @@
       "name_ja": "鍋（ホーロー製品・土鍋で最大の辺または径が30センチメートル以内（柄の部分を除く）のもの）",
       "name_kana": "なべ（ほーろーせいひん・どなべでさいだいのあたりまたは径が30せんちめーとるいない（えのぶぶんをのぞく）のもの）",
       "name_romaji": "nabe(ho-ro-seihin/donabedesaidainoatarimataha径ga30senchime-toruinai(enobubunwonozoku)nomono)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "futsu",
@@ -13060,6 +13026,7 @@
       "name_romaji": "no-topasokonhontai(ki-bo-do,mausu,ke-buru,supi-ka-nado)",
       "aliases": [
         "PC",
+        "ノートパソコン",
         "laptop",
         "computer"
       ],
@@ -14913,7 +14880,11 @@
       "name_romaji": "futon/moufu",
       "aliases": [
         "ブランケット",
-        "blanket"
+        "blanket",
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
       ],
       "dispositions": [
         {
@@ -15433,6 +15404,7 @@
       "name_romaji": "furonoisu(purasuchikkuseidesaidainoatariga30senchime-toruinainomono)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -15454,6 +15426,7 @@
       "name_romaji": "furonoisu(purasuchikkuseiigainomonodesaidainoatariga30senchime-toruinainomono)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -17550,7 +17523,11 @@
       "name_romaji": "moufu/futon",
       "aliases": [
         "ブランケット",
-        "blanket"
+        "blanket",
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
       ],
       "dispositions": [
         {

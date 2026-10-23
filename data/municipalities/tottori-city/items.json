@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-city",
-  "generated_at": "2026-10-23T13:37:59.148Z",
+  "generated_at": "2026-10-23T14:00:46.469Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1891.html",
   "item_count": 839,
   "items": [
@@ -201,12 +201,7 @@
       "name_ja": "油（食用・食用以外）",
       "name_kana": "あぶら（しょくよう・しょくよういがい）",
       "name_romaji": "abura(shokuyou/shokuyouigai)",
-      "aliases": [
-        "食用油",
-        "サラダ油",
-        "天ぷら油",
-        "cooking oil"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -1283,6 +1278,7 @@
       "name_kana": "うれたんそふぁー",
       "name_romaji": "uretansofua-",
       "aliases": [
+        "ソファ",
         "カウチ",
         "sofa",
         "couch"
@@ -3898,11 +3894,7 @@
       "name_ja": "靴（革靴、サンダル、スニーカー、長靴、安全靴等）",
       "name_kana": "くつ（かわぐつ、さんだる、すにーかー、ながぐつ、あんぜんくつとう）",
       "name_romaji": "kutsu(kawagutsu,sandaru,suni-ka-,nagagutsu,anzenkutsutou)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -3919,11 +3911,7 @@
       "name_ja": "靴（スキー・スノーボード靴）",
       "name_kana": "くつ（すきー・すのーぼーどくつ）",
       "name_romaji": "kutsu(suki-/suno-bo-dokutsu)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "hasai",
@@ -3940,11 +3928,7 @@
       "name_ja": "靴（スケート靴）",
       "name_kana": "くつ（すけーとくつ）",
       "name_romaji": "kutsu(suke-tokutsu)",
-      "aliases": [
-        "スニーカー",
-        "革靴",
-        "shoes"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "hasai",
@@ -5391,6 +5375,7 @@
       "name_romaji": "zaisu(kinzokutoufukugousozai)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -8534,7 +8519,7 @@
       "name_romaji": "chuushaki(insurintou)",
       "aliases": [
         "注射針",
-        "syringe"
+        "needle"
       ],
       "dispositions": [
         {
@@ -8620,11 +8605,7 @@
       "name_ja": "机・学習机",
       "name_kana": "つくえ・がくしゅうつくえ",
       "name_romaji": "tsukue/gakushuutsukue",
-      "aliases": [
-        "デスク",
-        "学習机",
-        "desk"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -10100,10 +10081,7 @@
       "name_ja": "鍋（金属製・陶磁器）",
       "name_kana": "なべ（きんぞくせい・とうじき）",
       "name_romaji": "nabe(kinzokusei/toujiki)",
-      "aliases": [
-        "なべ",
-        "pot"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "hasai",
@@ -11542,7 +11520,12 @@
       "name_ja": "ふとん",
       "name_kana": "ふとん",
       "name_romaji": "futon",
-      "aliases": [],
+      "aliases": [
+        "布団",
+        "敷布団",
+        "掛布団",
+        "futon"
+      ],
       "dispositions": [
         {
           "category_id": "ogata",
@@ -12068,6 +12051,7 @@
       "name_romaji": "bebi-isu(mokusei)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
@@ -12089,6 +12073,7 @@
       "name_romaji": "bebi-isu(kinzokusei/fukugousozai)",
       "aliases": [
         "椅子",
+        "イス",
         "チェア",
         "chair"
       ],
