@@ -1,6 +1,6 @@
 {
   "municipality_id": "zama-city",
-  "generated_at": "2026-10-23T07:53:19.188Z",
+  "generated_at": "2026-10-23T08:03:27.495Z",
   "source_url": "https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html",
   "item_count": 1029,
   "items": [
@@ -485,7 +485,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Window screen (when no contractor is involved)"
+      "name_en": "Screen door / window screen (when no contractor is involved)"
     },
     {
       "id": "zam-0028",
@@ -8146,7 +8146,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dehumidifying agent (disposable)"
+      "name_en": "Moisture absorber (disposable dehumidifying agent)"
     },
     {
       "id": "zam-0464",
@@ -8408,7 +8408,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mercury (excluding bottled mercury)"
+      "name_en": "Mercury (in thermometers and similar household instruments; excluding bottled mercury)"
     },
     {
       "id": "zam-0477",
@@ -15514,7 +15514,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Moth repellent (household)"
+      "name_en": "Insect repellent (household; including moth repellents)"
     },
     {
       "id": "zam-0881",
@@ -17073,7 +17073,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Water heater (yuwakashiki; excluding installed kyutoki units)"
+      "name_en": "Water heater (yuwakashiki; excluding installed hot-water supply units)"
     },
     {
       "id": "zam-0970",
