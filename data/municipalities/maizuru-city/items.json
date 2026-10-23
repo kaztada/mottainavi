@@ -1,6 +1,6 @@
 {
   "municipality_id": "maizuru-city",
-  "generated_at": "2026-10-20T06:09:01.867Z",
+  "generated_at": "2026-10-23T13:37:56.813Z",
   "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
   "item_count": 115,
   "items": [
@@ -111,12 +111,7 @@
       "name_ja": "ペットボトルのラベル・キャップ",
       "name_kana": "ぺっとぼとるのらべる・きゃっぷ",
       "name_romaji": "pettobotorunoraberu/kyappu",
-      "aliases": [
-        "PET",
-        "ペット",
-        "plastic bottle",
-        "ぺっとぼとる"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pla",
@@ -424,7 +419,10 @@
       "name_ja": "食品の紙箱・飲料用の紙パック",
       "name_kana": "しょくひんのかみばこ・いんりょうようのかみぱっく",
       "name_romaji": "shokuhinnokamibako/inryouyounokamipakku",
-      "aliases": [],
+      "aliases": [
+        "牛乳パック",
+        "milk carton"
+      ],
       "dispositions": [
         {
           "category_id": "kami",
@@ -442,7 +440,6 @@
       "name_kana": "しんぶんし",
       "name_romaji": "shinbunshi",
       "aliases": [
-        "新聞紙",
         "newspaper"
       ],
       "dispositions": [
@@ -1386,7 +1383,15 @@
       "name_ja": "本（アルバム）",
       "name_kana": "ほん（あるばむ）",
       "name_romaji": "hon(arubamu)",
-      "aliases": [],
+      "aliases": [
+        "書籍",
+        "単行本",
+        "文庫本",
+        "絵本",
+        "えほん",
+        "picture book",
+        "book"
+      ],
       "dispositions": [
         {
           "category_id": "umetate",
@@ -1500,8 +1505,7 @@
       "name_romaji": "keikoutou(denkyuugatafukumu)",
       "aliases": [
         "蛍光管",
-        "fluorescent light",
-        "light bulb"
+        "fluorescent light"
       ],
       "dispositions": [
         {
@@ -1747,7 +1751,12 @@
       "name_ja": "油（食用）",
       "name_kana": "あぶら（しょくよう）",
       "name_romaji": "abura(shokuyou)",
-      "aliases": [],
+      "aliases": [
+        "食用油",
+        "サラダ油",
+        "天ぷら油",
+        "cooking oil"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",
@@ -1998,7 +2007,15 @@
       "name_ja": "本（百科事典）",
       "name_kana": "ほん（ひゃっかじてん）",
       "name_romaji": "hon(hyakkajiten)",
-      "aliases": [],
+      "aliases": [
+        "書籍",
+        "単行本",
+        "文庫本",
+        "絵本",
+        "えほん",
+        "picture book",
+        "book"
+      ],
       "dispositions": [
         {
           "category_id": "kanen",
