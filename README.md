@@ -57,6 +57,12 @@ https://mottainavi.kaztada.eco
 | 名取市(宮城県)     | [【名取市】ゴミの分別方法一覧](https://miyagi.dataeye.jp/datasets/710)                                                | CC BY 4.0    |
 | 白山市(石川県)     | [白山市 ゴミの分別方法一覧](https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation)          | CC BY        |
 | 東大和市(東京都)   | [ゴミの分別方法](https://catalog.data.metro.tokyo.lg.jp/dataset/t132209d0000000013)                                    | CC BY 4.0    |
+| 入間市(埼玉県)     | [【入間市】ごみの分別辞典](https://opendata.pref.saitama.lg.jp/datasets/1265)                                          | PDL1.0       |
+| 南部町(鳥取県)     | [南部町ゴミの分別方法一覧](https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html)                                 | CC BY 2.1 JP |
+| 五泉市(新潟県)     | [ゴミの分別方法一覧](https://www.city.gosen.lg.jp/organization/3/opendata/10588.html)                                  | CC BY 4.0    |
+| 蟹江町(愛知県)     | [ごみの出し方一覧](https://www.town.kanie.aichi.jp/soshiki/2/opendata.html)                                            | CC BY 4.0    |
+| 小松島市(徳島県)   | [小松島市ゴミの分別方法一覧](https://opendata.pref.tokushima.lg.jp/dataset/5149.html)                                 | CC BY        |
+| 高浜町(福井県)     | [ごみ分別一覧](https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html)                                  | CC BY 4.0    |
 
 品目データを二次利用できるライセンスで公開している自治体から、順に追加しています。まだ対応していない自治体を選ぶと、その自治体の公式サイトへの案内を表示します。
 
