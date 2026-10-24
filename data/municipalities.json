@@ -4784,7 +4784,7 @@
     "pref": "埼玉県",
     "name_ja": "入間市",
     "name_en": "Iruma City",
-    "status": "unsupported",
+    "status": "supported",
     "official_url": "https://www.city.iruma.saitama.jp/"
   },
   {
@@ -6620,7 +6620,7 @@
     "pref": "新潟県",
     "name_ja": "五泉市",
     "name_en": "Gosen City",
-    "status": "unsupported",
+    "status": "supported",
     "official_url": "https://www.city.gosen.lg.jp/"
   },
   {
@@ -7205,7 +7205,7 @@
     "pref": "福井県",
     "name_ja": "高浜町",
     "name_en": "Takahama Town",
-    "status": "unsupported",
+    "status": "supported",
     "official_url": "https://www.town.takahama.fukui.jp/"
   },
   {
@@ -9248,7 +9248,7 @@
     "pref": "愛知県",
     "name_ja": "蟹江町",
     "name_en": "Kanie Town",
-    "status": "unsupported",
+    "status": "supported",
     "official_url": "https://www.town.kanie.aichi.jp/"
   },
   {
@@ -11516,7 +11516,7 @@
     "pref": "鳥取県",
     "name_ja": "南部町",
     "name_en": "Nanbu Town",
-    "status": "unsupported",
+    "status": "supported",
     "official_url": "https://www.town.nanbu.tottori.jp/"
   },
   {
@@ -12371,7 +12371,7 @@
     "pref": "徳島県",
     "name_ja": "小松島市",
     "name_en": "Komatsushima City",
-    "status": "unsupported",
+    "status": "supported",
     "official_url": "https://www.city.komatsushima.lg.jp/"
   },
   {

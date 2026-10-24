@@ -15291,21 +15291,6 @@
       }
     ]
   },
-  "iruma-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "【入間市】ごみの分別辞典(saitama)",
-        "url": "https://opendata.pref.saitama.lg.jp/datasets/1265"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.saitama.lg.jp/resource_download/4858"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・0行・データの基準日 不明・カタログの更新日 2026-03-17・ライセンスの登録 (なし)(登録からは確かめられない。原文を確かめる)"
-  },
   "asaka-city": {
     "status": "license",
     "checked_at": "2026-10-16",
@@ -20494,17 +20479,6 @@
     ],
     "note": "市のサイトの確認 2026-10-16: xlsx・利用条件「未確認」(表示なし。原文を確かめる)。(県の棚卸しで見つけた)ごみ品目検索の一覧 xlsx(約1,000行)。利用条件は未確認"
   },
-  "gosen-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.city.gosen.lg.jp/material/files/group/1/152188_gomibunbetsu_20260401.csv"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY 4.0」。(県の棚卸しで見つけた)標準形式 CSV、2026-04-01"
-  },
   "joetsu-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -21971,21 +21945,6 @@
       }
     ],
     "note": "総当たり 2026-10-16: csv・833行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
-  },
-  "takahama-town": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみ分別一覧 高浜町(福井県・県内17市町共同公開データ)(fukui-pref)",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/takahamatyoubunbetu.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・417行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
   },
   "fukui-oi-town": {
     "status": "candidate",
@@ -28204,17 +28163,6 @@
       }
     ]
   },
-  "kanie-town": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "市区町村のサイトの品目の一覧(csv)",
-        "url": "https://www.town.kanie.aichi.jp/uploaded/attachment/25211.csv"
-      }
-    ],
-    "note": "市のサイトの確認 2026-10-16: csv・利用条件「CC BY 4.0」。(県の棚卸しで見つけた)品名・分別 CSV(約400行)、2026-09"
-  },
   "tobishima-village": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -34416,21 +34364,6 @@
       }
     ]
   },
-  "tottori-nanbu-town": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "南部町ゴミの分別方法一覧(search-ckan-jp)",
-        "url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874/resource/9580/313891_garbage_separation.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・791行・データの基準日 不明・カタログの更新日 2026-06-04・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
-  },
   "hoki-town": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -36777,21 +36710,6 @@
       }
     ],
     "note": "総当たり 2026-10-16: excel・427行・データの基準日 不明・カタログの更新日 2017-11-24・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
-  },
-  "komatsushima-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "小松島市ゴミの分別方法一覧(search-ckan-jp)",
-        "url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://opendata.pref.tokushima.lg.jp/dataset/5149/resource/17123/362034_garbage_separation.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: standard・907行・データの基準日 不明・カタログの更新日 2026-03-17・ライセンスの登録 表示（CC BY）(登録からは確かめられない。原文を確かめる)"
   },
   "anan-city": {
     "status": "no-data",
