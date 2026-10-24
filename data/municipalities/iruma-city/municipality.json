@@ -1,0 +1,14 @@
+{
+  "slug": "iruma-city",
+  "item_id_prefix": "irm",
+  "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
+  "source_type": "opendata-csv",
+  "source_license": "公共データ利用規約 第1.0版(PDL1.0)",
+  "source_attribution": "出典: 埼玉県オープンデータポータルサイト「【入間市】ごみの分別辞典」(入間市環境経済部総合クリーンセンター)(https://opendata.pref.saitama.lg.jp/datasets/1265)を加工して作成。公共データ利用規約 第1.0版(PDL1.0)",
+  "source_attribution_en": "Source: Saitama Prefecture Open Data Portal, \"Iruma City Garbage Sorting Dictionary\" (【入間市】ごみの分別辞典), Iruma City General Clean Center (https://opendata.pref.saitama.lg.jp/datasets/1265), adapted by Mottainavi. Public Data License 1.0 (PDL1.0)",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": "04-2934-5546",
+  "sodai_tel_mobile": "04-2934-5546",
+  "data_fetched_at": "2026-10-24",
+  "data_version": "20261025"
+}

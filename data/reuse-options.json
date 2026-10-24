@@ -326,6 +326,50 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "higashiyamato-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所1階市民ホール・リサイクルプラザ・各地区センターなど)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall 1F Citizens' Hall, Recycling Plaza, district centers, etc.)",
+        "desc_ja": "投入口(たて15cm×よこ33cm)に入る大きさの、スマートフォン・PHS端末・音楽プレーヤー・ラジカセ・ヘッドホン・キーボード・USBメモリ・デジタルカメラ・ゲーム機・電卓・電動歯ブラシ・リモコン・血圧計などが対象です。壊れていたり、使えなくなっていてもかまいません。中の金属が資源としてもう一働き。パソコン・ディスプレイは入れません。電池や蛍光管は外します(電池を外せない場合は、電気を使い切ってから)。外した電池のうち、リチウムイオン電池などの充電式電池は販売店やリサイクル協力店への返却を優先し、難しいときは有害ごみとして他のごみとは別の袋で出します(膨らんでいても出せます)。乾電池・ボタン電池は有害ごみです。",
+        "desc_en": "For items that fit the slot (15 cm x 33 cm), such as smartphones, PHS handsets, music players, radio-cassette players, headphones, keyboards, USB drives, digital cameras, game consoles, calculators, electric toothbrushes, remote controls and blood pressure monitors. Broken or no-longer-working items are fine. The metals inside get another life. Computers and monitors are not accepted. Remove batteries and fluorescent tubes (if a battery cannot be removed, use up its charge first). Removed rechargeable batteries such as lithium-ion ones should preferably be returned to a retailer or recycling partner store; if that is difficult, put them out as hazardous waste in a separate bag (swollen ones are accepted). Dry-cell and button batteries are hazardous waste.",
+        "url": "https://www.city.iruma.saitama.jp/soshiki/sogocleancenter/gomi/katei_gomi/dashikata/257.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "iruma-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "町の小型家電回収ボックスに入れる(役場の法勝寺庁舎・天萬庁舎)",
+        "title_en": "Drop it in a town small-appliance collection box (Hosshoji and Tenma town office buildings)",
+        "desc_ja": "携帯電話・スマートフォン、パソコン、タブレット、ゲーム機、デジタルカメラ、電卓、電子体温計、リモコン、ACアダプターなど、家庭の電気や電池で動く製品が広く対象です。中の金属が資源としてもう一働き。個人情報は必ず消去し、電池・バッテリーはできるだけ取り外し、蛍光管・電球は必ず取り外します。投入口に入らないものは町民生活課の窓口へ。事業所から出たもの、家電4品目、電子たばこ、乾電池、バッテリー、蛍光管、電球、インクカートリッジ、こたつ・電気カーペット・電気あんかなど可燃部分があるもの、石油ファンヒーターなど燃料を使うもの、ガスや油脂を含むものは回収できません。",
+        "desc_en": "A wide range of household products that run on electricity or batteries are accepted, such as mobile phones and smartphones, PCs, tablets, game consoles, digital cameras, calculators, electronic thermometers, remote controls and AC adapters. The metals inside get another life. Always erase personal data, remove batteries as far as possible, and always remove fluorescent tubes and bulbs. If an item does not fit the slot, ask at the Resident Life Division counter. Not accepted: items from businesses, the four major home appliances, e-cigarettes, dry-cell batteries, rechargeable batteries, fluorescent tubes, bulbs, ink cartridges, items with combustible parts such as kotatsu, electric carpets and electric warmers, kerosene heaters and other fuel-burning items, and items containing gas or oil.",
+        "url": "https://www.town.nanbu.tottori.jp/user/filer_public/68/cf/68cf28ad-0e33-48f4-917e-003b02264aac/gomi-kogatakaden.pdf",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "tottori-nanbu-town"
+      },
+      {
+        "type": "official",
+        "title_ja": "町の小型家電回収ボックスに入れる(役場正面入口横)/エコステーションに持ち込む(本町・学戸)",
+        "title_en": "Drop it in the town's small-appliance collection box (beside the Town Hall main entrance) or take it to an Eco Station (Honmachi / Gakuto)",
+        "desc_ja": "家庭で使い終えた小型家電(携帯電話・デジタルカメラ・ゲーム機・リモコン・ACアダプターなど)が対象です。中の金属が資源としてもう一働き。役場正面入口横のボックスは、投入口に入るサイズなら平日・祝休日を問わず入れられます。入らないものは、役場環境課(開庁時間内)か、本町エコステーション(城一丁目381番地)・学戸エコステーション(学戸七丁目92番地)へ(無料)。個人情報が入っているものは、データを消してから。充電式の電池が外せるものは電池を外し、電池は充電式小型電池の回収箱へ(拠点は役場環境課・エコステーション・図書館など7か所)。外せない製品は、このボックスではなく充電式小型電池の回収箱へ。膨らんだ充電式の製品は、ボックスに入れず役場環境課へ。家電4品目・電池着火式の石油ファンヒーター・電気毛布・木製スピーカー・業務用の電化製品は回収できません。",
+        "desc_en": "For household small appliances you no longer use (mobile phones, digital cameras, game consoles, remote controls, AC adapters, etc.). The metals inside get another life. The box beside the Town Hall main entrance accepts anything that fits the slot, any day including holidays. Items that do not fit can be taken to the Environment Division during opening hours or to the Honmachi (Shiro 1-381) or Gakuto (Gakuto 7-92) Eco Station, free of charge. Wipe personal data first. If a rechargeable battery can be removed, take it out and put it in the rechargeable-battery collection box (7 sites, incl. Town Hall Environment Division, Eco Stations, library). Products whose battery cannot be removed go to the rechargeable-battery box, not this box. Swollen rechargeable products must not go in the box; bring them to the Environment Division. The four major home appliances, battery-ignition kerosene fan heaters, electric blankets, wooden speakers and commercial appliances are not accepted.",
+        "url": "https://www.town.kanie.aichi.jp/soshiki/11/small-machine-recycle.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "kanie-town"
+      },
+      {
+        "type": "official",
+        "title_ja": "役場庁舎内の小型家電回収ボックスに入れる",
+        "title_en": "Drop it in the small-appliance collection box inside the Town Hall building",
+        "desc_ja": "高浜町では収集できないスマートフォン・タブレット・携帯電話などの小型家電は、役場庁舎内に設置の小型家電回収ボックスや、宅配回収サービス(パソコンとあわせて申込み)が使えます。中の金属が資源としてもう一働き。ボックスの場所や入れられる大きさなど、詳しくは町の公式サイトか住民生活課(0770-72-7703)でご確認ください。",
+        "desc_en": "Items the town does not collect, such as smartphones, tablets and mobile phones, can go into the small-appliance collection box inside the Town Hall building, or be sent through the home pickup service (applied for together with a PC). The metals inside get another life. For the box location and accepted sizes, please check the town's official site or the Resident Life Division (0770-72-7703).",
+        "url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p008445.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "takahama-town"
       }
     ]
   },

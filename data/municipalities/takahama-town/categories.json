@@ -1,0 +1,87 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ(緑の袋)",
+    "name_en": "Burnable Waste (green bag)"
+  },
+  {
+    "id": "fuenn",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ(黄色の袋)",
+    "name_en": "Non-burnable Waste (yellow bag)"
+  },
+  {
+    "id": "sodai",
+    "kind": "non-burnable",
+    "name_ja": "粗大ごみ(直接搬入・有料)",
+    "name_en": "Large Waste (take it yourself, fee required)",
+    "accepts_large_items": true
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "収集できません",
+    "name_en": "Not Collected"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "ビン類(茶色の袋)",
+    "name_en": "Glass Bottles (brown bag)"
+  },
+  {
+    "id": "kan",
+    "kind": "recyclable",
+    "name_ja": "缶類(半透明の袋)",
+    "name_en": "Cans (translucent bag)"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル(ピンクの袋)",
+    "name_en": "PET Bottles (pink bag)"
+  },
+  {
+    "id": "shinbun",
+    "kind": "paper",
+    "name_ja": "新聞・古紙チラシ(水色の袋)",
+    "name_en": "Newspapers and Flyers (light-blue bag)"
+  },
+  {
+    "id": "zasshi",
+    "kind": "paper",
+    "name_ja": "雑誌(黄緑の袋)",
+    "name_en": "Magazines (yellow-green bag)"
+  },
+  {
+    "id": "danboru",
+    "kind": "paper",
+    "name_ja": "ダンボール",
+    "name_en": "Cardboard"
+  },
+  {
+    "id": "sonota-kami",
+    "kind": "paper",
+    "name_ja": "その他紙(オレンジの袋)",
+    "name_en": "Other Paper (orange bag)"
+  },
+  {
+    "id": "kyoten",
+    "kind": "drop-off",
+    "name_ja": "拠点回収(公民館)",
+    "name_en": "Drop-off Point (community centers)"
+  },
+  {
+    "id": "oil",
+    "kind": "other",
+    "name_ja": "廃食用油",
+    "name_en": "Used Cooking Oil"
+  }
+]

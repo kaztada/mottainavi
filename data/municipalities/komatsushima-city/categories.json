@@ -1,0 +1,74 @@
+[
+  {
+    "id": "moeru",
+    "kind": "burnable",
+    "name_ja": "燃えるごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "廃プラスチック類",
+    "name_en": "Waste Plastics"
+  },
+  {
+    "id": "kinzoku",
+    "kind": "non-burnable",
+    "name_ja": "金属、空き缶類",
+    "name_en": "Metal and Cans"
+  },
+  {
+    "id": "garasu",
+    "kind": "non-burnable",
+    "name_ja": "ビン、ガラス類",
+    "name_en": "Glass Bottles and Glass"
+  },
+  {
+    "id": "zasshi",
+    "kind": "paper",
+    "name_ja": "雑誌類",
+    "name_en": "Magazines"
+  },
+  {
+    "id": "zatsugami",
+    "kind": "paper",
+    "name_ja": "雑誌類(雑がみ)",
+    "name_en": "Magazines (Mixed Paper)"
+  },
+  {
+    "id": "shinbun",
+    "kind": "paper",
+    "name_ja": "新聞",
+    "name_en": "Newspapers"
+  },
+  {
+    "id": "danboru",
+    "kind": "paper",
+    "name_ja": "段ボール",
+    "name_en": "Cardboard"
+  },
+  {
+    "id": "pet",
+    "kind": "recyclable",
+    "name_ja": "ペットボトル",
+    "name_en": "PET Bottles"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (reservation, free pickup)"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市で収集できないごみ",
+    "name_en": "Not Collected by the City"
+  }
+]

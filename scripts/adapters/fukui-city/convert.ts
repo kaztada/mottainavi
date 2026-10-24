@@ -10,6 +10,10 @@ import { parseCsv } from "../../core/csv"
  * 変換: 物品名 → 品目、区分 → 分別区分、条件 → 注意点 にする(ID は連番)。
  * 注意点の文字は変えない(改行コードをそろえるだけ)。「備考」に値があれば、注意点の後ろに原文のまま足す。
  * 福井市は「分類」に値が入ったら、県が使い方を変えた可能性があるので止める(他の市町は分類の値を使わない)。
+ *
+ * 列は位置ではなく見出しの名前で探す(見出しの空白・改行は取って比べる)。高浜町は、先頭に「連番」の列が付いた9列で、
+ * 見出しの前に2行の前置き(持ち込み先の案内)があり、見出しのセルに改行が入っている。
+ * 見出しに必要な列が無い・重複している・知らない名前がある、前置きの行数が違うときは止める。
  */
 export const EXPECTED_HEADER = [
   "行",
@@ -24,6 +28,9 @@ export const EXPECTED_HEADER = [
 
 /** 複数の出し先を区切って2枚のカードに分けるときの、変換後の区切り(共通アダプタの labelSeparator に指定する) */
 export const LABEL_JOINER = "／"
+
+/** 県の表が先頭などに足すことがある、使わない列の見出し(高浜町の「連番」) */
+export const IGNORED_HEADER = ["連番"]
 
 export interface ConvertOptions {
   /** 全国地方公共団体コード(6桁) */
@@ -41,6 +48,14 @@ export interface ConvertOptions {
   labelSplit?: { pattern: RegExp; keep?: readonly string[] }
   /** 区分の表記の置き換え(原文 → 置き換え後)。区切り記号が無い2区分(鯖江市の「小型家電(…)燃えないごみ」)を分ける */
   labelRewrites?: Record<string, string>
+  /** 見出し行の前にある前置きの行数(高浜町は2)。省略時は0で、見出しが先頭の行にあるものとする */
+  preambleRows?: number
+  /** 使わない列の見出しとして許す名前(高浜町は「連番」)。省略時は許さない */
+  ignoredColumns?: readonly string[]
+  /** 品目でない行(物品名)。取り除く。該当の行が無ければ止める(高浜町の「可燃物（振替）」) */
+  dropRows?: readonly string[]
+  /** 同じ物品名・同じ区分の行を1行にして、注意点を改行でつなぐ(高浜町の「石綿」)。該当が無ければ止める */
+  mergeRows?: readonly string[]
   /** 書き損じの行の直し(物品名 → 直し方)。該当の行が無ければ止める */
   rowFixes?: Record<string, { dropBiko?: boolean; dropExtra?: boolean }>
 }
@@ -83,25 +98,43 @@ export function toStandardCsv(
 ): string {
   const { cityCode, cityName } = opts
   const trailing = opts.trailingEmptyColumns ?? 0
-  const width = EXPECTED_HEADER.length + trailing
+  const preamble = opts.preambleRows ?? 0
+  const ignored = opts.ignoredColumns ?? []
   const rows = parseCsv(text.replace(/^﻿/, ""))
-  const header = rows[0]?.map((h) => h.trim())
+  // 見出しのセルは空白・改行を取って比べる(高浜町は「連番」「備考」のセル内に改行がある)
+  const header = rows[preamble]?.map((h) => h.replace(/\s/g, ""))
+  const known = [...EXPECTED_HEADER, ...ignored]
+  const col = (n: string) => header?.indexOf(n) ?? -1
   if (
     !header ||
-    EXPECTED_HEADER.some((h, i) => header[i] !== h) ||
-    header.slice(EXPECTED_HEADER.length).some((h) => h) ||
-    header.length !== width
+    EXPECTED_HEADER.some((h) => col(h) < 0) ||
+    known.some((h) => header.indexOf(h) !== header.lastIndexOf(h)) ||
+    header.some((h) => h && !known.includes(h)) ||
+    header.filter((h) => !h).length !== trailing ||
+    rows.slice(0, preamble).some((r) => r.some((c) => EXPECTED_HEADER.includes(c.replace(/\s/g, ""))))
   ) {
     throw new Error(
-      `${cityName}CSVの見出しが想定(${EXPECTED_HEADER.join(", ")}${trailing ? "+空の見出し" + trailing + "列" : ""})と違います: ${JSON.stringify(header)}`
+      `${cityName}CSVの見出しが想定(${EXPECTED_HEADER.join(", ")}${ignored.length ? "+" + ignored.join("・") : ""}${trailing ? "+空の見出し" + trailing + "列" : ""}、見出しの前に${preamble}行)と違います: ${JSON.stringify(header)}`
     )
   }
+  const width = header.length
+  const [iName, iLabel, iBunrui, iJoken, iBiko] = [
+    "物品名",
+    "区分",
+    "分類",
+    "条件",
+    "備考",
+  ].map(col)
+  const extraIdx = header.flatMap((h, i) => (h ? [] : [i]))
   const fixes = opts.rowFixes ?? {}
   const usedFixes = new Set<string>()
-  const lines = [HEADER.map(quote).join(",")]
+  const rowsOut: { id: string; name: string; label: string; note: string }[] = []
   let id = 0
-  rows.slice(1).forEach((r, i) => {
-    const lineNo = i + 2
+  const dropped = new Set<string>()
+  const merged = new Map<string, number>() // 物品名\u0000区分 → lines の位置
+  const mergedUsed = new Set<string>()
+  rows.slice(preamble + 1).forEach((r, i) => {
+    const lineNo = i + preamble + 2
     if (r.every((c) => !c.trim())) return // 空行
     if (r.length !== width) {
       throw new Error(
@@ -109,9 +142,12 @@ export function toStandardCsv(
       )
     }
     const cells = r.map((c) => c.trim())
-    const [, , name, , label, bunrui, joken] = cells
-    let biko = cells[7]
-    const extra = cells.slice(EXPECTED_HEADER.length)
+    const name = cells[iName]
+    const label = cells[iLabel]
+    const bunrui = cells[iBunrui]
+    const joken = cells[iJoken]
+    let biko = cells[iBiko]
+    const extra = extraIdx.map((k) => cells[k])
     const fix = fixes[name]
     if (fix) {
       usedFixes.add(name)
@@ -133,12 +169,28 @@ export function toStandardCsv(
         `${cityName}CSVの${lineNo}行目: 「分類」は空の前提ですが、値があります(県が列の使い方を変えた可能性): ${JSON.stringify(r)}`
       )
     }
+    if (opts.dropRows?.includes(name)) {
+      dropped.add(name)
+      return
+    }
     const note = [joken, biko].map(normalizeNote).filter(Boolean).join("\n")
-    id += 1
     const outLabel = convertLabel(label, opts, `${cityName}CSVの${lineNo}行目`)
-    lines.push(
-      [cityCode, String(id), name, outLabel, note].map(quote).join(",")
-    )
+    if (opts.mergeRows?.includes(name)) {
+      mergedUsed.add(name)
+      const key = `${name}\u0000${outLabel}`
+      const at = merged.get(key)
+      if (at !== undefined) {
+        // 同じ物品名・同じ区分の2行目以降: 注意点を足す(同じ文は足さない)
+        const cur = rowsOut[at]
+        if (note && !cur.note.split("\n").includes(note)) {
+          cur.note = [cur.note, note].filter(Boolean).join("\n")
+        }
+        return
+      }
+      merged.set(key, rowsOut.length)
+    }
+    id += 1
+    rowsOut.push({ id: String(id), name, label: outLabel, note })
   })
   const unused = Object.keys(fixes).filter((n) => !usedFixes.has(n))
   if (unused.length > 0) {
@@ -146,5 +198,18 @@ export function toStandardCsv(
       `${cityName}CSV: rowFixes の品目が見つかりません(県が直したか、削除された可能性): ${unused.join(", ")}`
     )
   }
+  const unusedDrops = (opts.dropRows ?? []).filter((n) => !dropped.has(n))
+  const unusedMerges = (opts.mergeRows ?? []).filter((n) => !mergedUsed.has(n))
+  if (unusedDrops.length > 0 || unusedMerges.length > 0) {
+    throw new Error(
+      `${cityName}CSV: dropRows・mergeRows の品目が見つかりません(県が直したか、削除された可能性): ${[...unusedDrops, ...unusedMerges].join(", ")}`
+    )
+  }
+  const lines = [
+    HEADER.map(quote).join(","),
+    ...rowsOut.map((r) =>
+      [cityCode, r.id, r.name, r.label, r.note].map(quote).join(",")
+    ),
+  ]
   return lines.join("\n") + "\n"
 }

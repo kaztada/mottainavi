@@ -1,0 +1,11 @@
+[
+  { "id": "moyasu", "kind": "burnable", "name_ja": "可燃ごみ", "name_en": "Burnable Waste" },
+  { "id": "pla", "kind": "plastic", "name_ja": "プラスチック類ごみ", "name_en": "Plastic Waste" },
+  { "id": "moenai", "kind": "non-burnable", "name_ja": "不燃ごみ", "name_en": "Non-burnable Waste" },
+  { "id": "sodai", "kind": "bulky", "name_ja": "粗大ごみ", "name_en": "Bulky Waste (reservation required)" },
+  { "id": "shigen", "kind": "recyclable", "name_ja": "資源ごみ", "name_en": "Recyclables" },
+  { "id": "kogata", "kind": "small-appliance", "name_ja": "使用済小型家電", "name_en": "Small Appliances for Recycling" },
+  { "id": "pc", "kind": "maker-recycle", "name_ja": "パソコン(PCリサイクル)", "name_en": "Personal Computers (PC Recycling)" },
+  { "id": "gareki", "kind": "other", "name_ja": "ガレキ等", "name_en": "Rubble, Soil and Sand" },
+  { "id": "fuka", "kind": "not-collected", "name_ja": "収集できません", "name_en": "Not Collected by the Town" }
+]

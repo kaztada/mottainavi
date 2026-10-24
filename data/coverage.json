@@ -18784,19 +18784,25 @@
     ]
   },
   "komae-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-24",
+    "detail_ja": "公開データは、ごみの分別辞典ではなく、市の「家庭ごみの出し方」のページの例と粗大ごみの手数料表をまとめた298品目で、缶・びん・古紙・古布などがほとんど入っていません。市がデータを分別辞典並みに広げたら対応します。",
+    "detail_en": "The open data is not a full sorting dictionary: its 298 entries are examples from the city's disposal-guide page plus the bulky-waste fee table, and items such as cans, bottles, paper and clothing are mostly missing. We will add the city once the data is expanded.",
     "evidence": [
       {
-        "label": "ゴミの分別方法一覧(tokyo)",
+        "label": "市のオープンデータ「ゴミの分別方法一覧」(基準日 2025-08-13、CC BY 4.0、298品目)",
         "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132195d0000000393"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.opendata.metro.tokyo.lg.jp/komae/132195_garbage_separation.csv"
+        "label": "市の家庭ごみの出し方(2026-09-11)",
+        "url": "https://www.city.komae.tokyo.jp/index.cfm/41,78217,323,2021,html"
+      },
+      {
+        "label": "市の粗大ごみ手数料表(令和8年9月現在)",
+        "url": "https://www.city.komae.tokyo.jp/index.cfm/41,10231,323,2021,html"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・298行・データの基準日 不明・カタログの更新日 2025-08-13・ライセンスの登録 CC-BY-4.0"
+    "note": "抜き取り照合 第6弾(2026-10-24、work/coverage/agent-reports/sample-komae.md)。Kaz の判断 2026-10-24: 保留(298品目は出し方の例と粗大ごみ手数料表で、分別辞典ではない)。再開の目安: 市がデータを分別辞典並みに広げたとき(清掃課 03-3488-5300)"
   },
   "kiyose-city": {
     "status": "no-data",
@@ -18916,19 +18922,21 @@
     ]
   },
   "hamura-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-24",
+    "detail_ja": "市は2026年4月に、小型の充電式電池などの出し方を変えましたが、公開データはまだ「収集・処理できない」のままで、現在の案内と違っていました。データが新しくなってから対応します。",
+    "detail_en": "The city changed how small rechargeable batteries and similar items are collected in April 2026, but the open data still says they cannot be collected, which differs from the current guidance. We will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "ゴミの分別方法一覧(tokyo)",
+        "label": "都のオープンデータ「ゴミの分別方法一覧」(2025-11-26、CC BY 4.0、1,618行)",
         "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132276d0000000015"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.opendata.metro.tokyo.lg.jp/hamura/132276_garbage_separation.csv"
+        "label": "市の有害ごみの出し方(2026-04-01 更新)",
+        "url": "https://www.city.hamura.tokyo.jp/0000000650.html"
       }
     ],
-    "note": "総当たり 2026-10-16: standard・1618行・データの基準日 不明・カタログの更新日 2025-11-26・ライセンスの登録 CC-BY-4.0"
+    "note": "抜き取り照合 第6弾(2026-10-24、work/coverage/agent-reports/sample-hamura.md)。Kaz の判断 2026-10-24: 保留。再開の目安: 都のカタログのファイルの更新日が 2026-04-01 より後になったとき(生活環境課 042-555-1111 内線222)"
   },
   "akiruno-city": {
     "status": "candidate",
@@ -21887,19 +21895,21 @@
     "note": "抜き取り照合 第5弾(2026-10-23、work/coverage/agent-reports/sample-sakai-fukui.md)。Kaz の判断 2026-10-24: 保留。再開の目安: 県のデータの更新日が変わったとき(環境推進課 0776-50-3032)"
   },
   "eiheiji-town": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-24",
+    "detail_ja": "公開データは2019年(平成31年)のもので、充電式電池などの出し方が、町の現在の案内と違っていました。データが新しくなってから対応します。",
+    "detail_en": "The open data dates from 2019, and the handling of rechargeable batteries and other items differs from the town's current guidance. We will add the town once the data is updated.",
     "evidence": [
       {
-        "label": "ごみ分別一覧 永平寺町(福井県・県内17市町共同公開データ)(fukui-pref)",
+        "label": "県の「ごみ分別一覧」永平寺町(県の表の更新 平成31年1月7日、CC BY 4.0、430品目)",
         "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/eiheizityoubunbetu.csv"
+        "label": "町の家庭ごみの分別表(50音別ごみ分別表 R8.2.19現在)",
+        "url": "https://www.town.eiheiji.lg.jp/200/206/216/217/p001320.html"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・430行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
+    "note": "抜き取り照合 第6弾(2026-10-24、work/coverage/agent-reports/sample-eiheiji.md)。Kaz の判断 2026-10-24: 除外(データは2019年)。台帳の状態は保留で記録。再開の目安: 県のデータの日付が新しくなったとき(住民税務課 0776-61-3945)"
   },
   "minamiechizen-town": {
     "status": "candidate",
@@ -21947,19 +21957,21 @@
     "note": "総当たり 2026-10-16: csv・833行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
   },
   "fukui-oi-town": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-24",
+    "detail_ja": "町は2026年2月に、リチウムイオン電池を有害ごみから外しましたが、公開データの電池の案内はそのままで、現在の案内と違っていました。データが新しくなってから対応します。",
+    "detail_en": "The town took lithium-ion batteries out of the hazardous-waste category in February 2026, but the open data still gives the old battery guidance, which differs from the current guidance. We will add the town once the data is updated.",
     "evidence": [
       {
-        "label": "ごみ分別一覧 おおい町(福井県・県内17市町共同公開データ)(fukui-pref)",
+        "label": "県の「ごみ分別一覧」おおい町(県の表の更新 令和8年6月29日、CC BY 4.0、1,093品目)",
         "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html"
       },
       {
-        "label": "ファイル",
-        "url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu_d/fil/ooityoubunbetu.csv"
+        "label": "町の有害ごみの日のページ(令和8年2月16日更新)",
+        "url": "http://www.town.ohi.fukui.jp/calendar/trash/p10221.html"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・1093行・データの基準日 不明・カタログの更新日 不明・ライセンスの登録 https://creativecommons.org/licenses/by/4.0/"
+    "note": "抜き取り照合 第6弾(2026-10-24、work/coverage/agent-reports/sample-oi.md)。Kaz の判断 2026-10-24: 保留。再開の目安: 県のデータの日付が新しくなってリチウムイオン電池の行が入ったとき、または町の50音表が改訂されたとき(住民窓口課 0770-77-4053、県 DX推進課 0776-20-0270)"
   },
   "fukui-wakasa-town": {
     "status": "candidate",
@@ -26175,19 +26187,21 @@
     ]
   },
   "ito-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-24",
+    "detail_ja": "公開データは201品目で、蛍光灯・水銀体温計の行がなく、充電式電池の出し方の注意も書かれていません。データが広がってから対応します。",
+    "detail_en": "The open data has only 201 items, with no entries for fluorescent lamps or mercury thermometers and no handling notes for rechargeable batteries. We will add the city once the data is expanded.",
     "evidence": [
       {
-        "label": "令和8年度伊東市ごみ・資源収集カレンダー(shizuoka)",
+        "label": "県のオープンデータ「令和8年度 分別帳データ」(2026-04-22、CC BY 4.0、201品目)",
         "url": "https://opendata.pref.shizuoka.jp/dataset/12766.html"
       },
       {
-        "label": "ファイル",
-        "url": "https://opendata.pref.shizuoka.jp/dataset/12766/resource/105867/R8%E5%88%86%E5%88%A5%E5%B8%B3%E3%83%87%E3%83%BC%E3%82%BF.csv"
+        "label": "市のごみの分別ガイドブック(2026-03-13)",
+        "url": "https://www.city.ito.shizuoka.jp/gyosei/soshikikarasagasu/kankyoka/kurashi_tetsuzuki/1/1/1/942.html"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・201行・データの基準日 2026・カタログの更新日 2026-04-22・ライセンスの登録 表示（CC BY）"
+    "note": "抜き取り照合 第6弾(2026-10-24、work/coverage/agent-reports/sample-ito.md)。Kaz の判断 2026-10-24: 保留(201品目で蛍光灯・水銀体温計の行がない)"
   },
   "shimada-city": {
     "status": "no-data",
@@ -29649,19 +29663,21 @@
     ]
   },
   "fukuchiyama-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
+    "status": "hold",
+    "checked_at": "2026-10-24",
+    "detail_ja": "公開データの中身は2021年ごろのもので、リチウムイオン電池などの出し方が、市の2026年4月からの案内と違っていました。データが新しくなってから対応します。",
+    "detail_en": "The open data dates from around 2021, and the handling of lithium-ion batteries and similar items differs from the city's guidance from April 2026. We will add the city once the data is updated.",
     "evidence": [
       {
-        "label": "【福知山市】家庭ごみの出し方(bodik)",
+        "label": "市のオープンデータ「家庭ごみの出し方」(CSV の最終更新 2021-09-21、CC BY 4.0、180行)",
         "url": "https://data.bodik.jp/dataset/262013_kateigominodashikata"
       },
       {
-        "label": "ファイル",
-        "url": "https://data.bodik.jp/dataset/d11593e3-853a-443d-bad4-0c00fcb92c49/resource/d258ea20-952d-4dd7-a971-b641d998dbda/download/kateigominodashikata.csv"
+        "label": "市の「リチウムイオン電池等の家庭ごみ収集の開始について」(2026-03-26)",
+        "url": "https://www.city.fukuchiyama.lg.jp/soshiki/24/78740.html"
       }
     ],
-    "note": "総当たり 2026-10-16: csv・0行・データの基準日 不明・カタログの更新日 2026-10-07・ライセンスの登録 cc-by-40-intl"
+    "note": "抜き取り照合 第6弾(2026-10-24、work/coverage/agent-reports/sample-fukuchiyama.md)。Kaz の判断 2026-10-24: 除外(CSV の中身は2021年)。台帳の状態は保留で記録。台帳の旧 note「0行」は誤り(180行)。カタログの更新日 2026-10-07 は説明の書き直しのみ。再開の目安: 市がデータを更新したとき(生活環境課 0773-22-1827)"
   },
   "ayabe-city": {
     "status": "no-data",
