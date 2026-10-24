@@ -1,0 +1,86 @@
+[
+  {
+    "id": "kanen",
+    "kind": "burnable",
+    "name_ja": "可燃ごみ",
+    "name_en": "Burnable Waste"
+  },
+  {
+    "id": "funen",
+    "kind": "non-burnable",
+    "name_ja": "不燃ごみ",
+    "name_en": "Non-burnable Waste"
+  },
+  {
+    "id": "sodai",
+    "kind": "bulky",
+    "name_ja": "粗大ごみ",
+    "name_en": "Bulky Waste (application required)"
+  },
+  {
+    "id": "pla",
+    "kind": "plastic",
+    "name_ja": "容器包装プラスチック",
+    "name_en": "Plastic Containers and Packaging"
+  },
+  {
+    "id": "nuno",
+    "kind": "paper",
+    "name_ja": "布類",
+    "name_en": "Textiles"
+  },
+  {
+    "id": "kami",
+    "kind": "paper",
+    "name_ja": "紙類",
+    "name_en": "Paper"
+  },
+  {
+    "id": "bin",
+    "kind": "recyclable",
+    "name_ja": "びん",
+    "name_en": "Glass Bottles"
+  },
+  {
+    "id": "spray",
+    "kind": "hazardous",
+    "name_ja": "スプレー缶類",
+    "name_en": "Spray Cans and Gas Canisters"
+  },
+  {
+    "id": "yugai",
+    "kind": "hazardous",
+    "name_ja": "有害ごみ",
+    "name_en": "Hazardous Waste"
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "小型家電(回収ボックス)",
+    "name_en": "Small Appliances (collection box)"
+  },
+  {
+    "id": "kaden",
+    "kind": "maker-recycle",
+    "name_ja": "家電リサイクル",
+    "name_en": "Home Appliance Recycling"
+  },
+  {
+    "id": "pc",
+    "kind": "maker-recycle",
+    "name_ja": "パソコン(メーカー回収など)",
+    "name_en": "PCs (manufacturer take-back etc.)"
+  },
+  {
+    "id": "kyoten",
+    "kind": "drop-off",
+    "name_ja": "拠点回収",
+    "name_en": "Collection Points"
+  },
+  {
+    "id": "fuka",
+    "kind": "not-collected",
+    "name_ja": "市では収集しないもの",
+    "name_en": "Not Collected by the City"
+  }
+]

@@ -51,6 +51,12 @@ https://mottainavi.kaztada.eco
 | 稲沢市(愛知県)     | [ゴミの分別方法一覧](https://www.city.inazawa.aichi.jp/0000003563.html)                                               | CC BY 4.0    |
 | 座間市(神奈川県)   | [ごみ分別リスト](https://www.city.zama.kanagawa.jp/opendata/opendata/kenkyo/1005833.html)                             | CC BY 4.0    |
 | 高松市(香川県)     | [ごみ分別一覧](https://opendata.smartcity-takamatsu.jp/ckan/dataset/garbage_separation_list)                          | CC BY 4.0    |
+| 鯖江市(福井県)     | [ごみ分別一覧](https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html)                                  | CC BY 4.0    |
+| 越前市(福井県)     | [ごみ分別一覧](https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html)                                  | CC BY 4.0    |
+| 池田町(福井県)     | [ごみ分別一覧](https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html)                                  | CC BY 4.0    |
+| 名取市(宮城県)     | [【名取市】ゴミの分別方法一覧](https://miyagi.dataeye.jp/datasets/710)                                                | CC BY 4.0    |
+| 白山市(石川県)     | [白山市 ゴミの分別方法一覧](https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation)          | CC BY        |
+| 東大和市(東京都)   | [ゴミの分別方法](https://catalog.data.metro.tokyo.lg.jp/dataset/t132209d0000000013)                                    | CC BY 4.0    |
 
 品目データを二次利用できるライセンスで公開している自治体から、順に追加しています。まだ対応していない自治体を選ぶと、その自治体の公式サイトへの案内を表示します。
 

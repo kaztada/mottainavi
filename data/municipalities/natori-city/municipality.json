@@ -1,0 +1,14 @@
+{
+  "slug": "natori-city",
+  "item_id_prefix": "ntr",
+  "source_url": "https://miyagi.dataeye.jp/datasets/710",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。「【名取市】ゴミの分別方法一覧」、名取市、宮城県オープンデータポータル、クリエイティブ・コモンズ・ライセンス 表示4.0 国際(https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "source_attribution_en": "Source: This app adapts \"Natori City Garbage Sorting List\" (【名取市】ゴミの分別方法一覧), Natori City, Miyagi Prefecture Open Data Portal, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/deed.ja)",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": null,
+  "sodai_tel_mobile": null,
+  "data_fetched_at": "2026-10-23",
+  "data_version": "20261024"
+}

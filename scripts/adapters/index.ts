@@ -30,6 +30,12 @@ import { fukuiCityAdapter } from "./fukui-city"
 import { ubeCityAdapter } from "./ube-city"
 import { zamaCityAdapter } from "./zama-city"
 import { inazawaCityAdapter } from "./inazawa-city"
+import { sabaeCityAdapter } from "./sabae-city"
+import { echizenCityAdapter } from "./echizen-city"
+import { fukuiIkedaTownAdapter } from "./fukui-ikeda-town"
+import { natoriCityAdapter } from "./natori-city"
+import { hakusanCityAdapter } from "./hakusan-city"
+import { higashiyamatoCityAdapter } from "./higashiyamato-city"
 
 /** 登録済みアダプタ。自治体を追加するときはここに1行足す */
 export const ADAPTERS: Record<string, MunicipalityAdapter> = {
@@ -64,4 +70,10 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [ubeCityAdapter.slug]: ubeCityAdapter,
   [zamaCityAdapter.slug]: zamaCityAdapter,
   [inazawaCityAdapter.slug]: inazawaCityAdapter,
+  [sabaeCityAdapter.slug]: sabaeCityAdapter,
+  [echizenCityAdapter.slug]: echizenCityAdapter,
+  [fukuiIkedaTownAdapter.slug]: fukuiIkedaTownAdapter,
+  [natoriCityAdapter.slug]: natoriCityAdapter,
+  [hakusanCityAdapter.slug]: hakusanCityAdapter,
+  [higashiyamatoCityAdapter.slug]: higashiyamatoCityAdapter,
 }

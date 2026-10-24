@@ -293,6 +293,39 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "inazawa-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所・スーパー・量販店など10か所)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall, supermarkets, electronics stores, etc.; 10 locations)",
+        "desc_ja": "投入口(15cm×30cm)に入る携帯電話・デジタルカメラ・ゲーム機・リモコン・ACアダプターなどが対象です。中の金属が資源としてもう一働き。設置場所は鯖江市役所・Aコープ東さばえ店・ビッグベリーマーケット北野・ワイプラザグルメ館(鯖江店・東鯖江店)・ハーツさばえ・ハーツ神中・アル・プラザ鯖江・エコネットさばえで、開館(営業)時間内に持ち込みます。個人情報は消してから。携帯電話・デジタルカメラ・ノートパソコンなどの充電式電池は取り出し、本体と別々にします(充電式電池は資源物の収集日の「充電式電池を含む製品」ボックスなどへ。取り出せないものは無理に分解せず、製品のまま「充電式電池を含む製品」ボックスへ。膨張したものも可)。乾電池・電球・蛍光灯・家電4品目は入れません。",
+        "desc_en": "For items that fit the 15 cm x 30 cm slot, such as mobile phones, digital cameras, game consoles, remote controls and AC adapters. The metals inside get another life. Boxes are at Sabae City Hall, A-coop Higashi-Sabae, Big Berry Market Kitano, Y-Plaza Gourmet-kan (Sabae and Higashi-Sabae), Hearts Sabae, Hearts Kaminaka, Al-Plaza Sabae and Econet Sabae; use them during opening hours. Wipe personal data first. Take out rechargeable batteries from mobile phones, digital cameras, laptops, etc. and keep them separate (rechargeable batteries go to the 'products containing rechargeable batteries' box on resource collection days, etc.; if a battery cannot be removed, do not take the device apart, and put the whole device in that box, swollen ones included). Dry-cell batteries, bulbs, fluorescent lamps and the four major home appliances are not accepted.",
+        "url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/gomi_risaikuru/kateigomi/kogatakadenkaishu.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "sabae-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(公民館・図書館・ハーツたけふなど22か所)",
+        "title_en": "Drop it in a city small-appliance collection box (community centers, libraries, Hearts Takefu, etc.; 22 locations)",
+        "desc_ja": "投入口(約15cm×25cm)に入るデジタルカメラ・携帯電話・ゲーム機・リモコン・ACアダプターなどが対象です。中の金属が資源としてもう一働き。持ち込める時間は施設の開館・営業時間です。個人情報は必ず消し、電池・バッテリー・蛍光灯は取り除きます(充電式電池が内蔵されていて取り外せないものは、そのまま入れられます。外した電池は資源ごみの日の有害ごみへ)。インクカートリッジ、電気毛布・電気カーペット、家電4品目は入れません。",
+        "desc_en": "For items that fit the slot (about 15 cm x 25 cm), such as digital cameras, mobile phones, game consoles, remote controls and AC adapters. The metals inside get another life. Use the boxes during facility opening hours. Always wipe personal data, and remove batteries and fluorescent lamps (items with a built-in rechargeable battery that cannot be removed may go in as they are; removed batteries go out as hazardous waste on resource collection days). Ink cartridges, electric blankets and carpets, and the four major home appliances are not accepted.",
+        "url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/kogata_kaden.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "echizen-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の小型家電回収ボックスに入れる(市役所1階入口ロビー・公民館・市民センターなど10か所)",
+        "title_en": "Drop it in a city small-appliance collection box (City Hall 1F entrance lobby, community centers, citizens' centers; 10 locations)",
+        "desc_ja": "投入口(25cm×10cm)に入るデジタルカメラ・小型ゲーム機・電気かみそり・電子辞書・ACアダプターなどが対象です。中の金属が資源としてもう一働き。個人情報などのデータは消し、取り外せる電池は取り外します(電池が取り外せないもの(ハンディファン・ワイヤレスイヤホンなど)は、そのまま入れられます)。外した乾電池は有害ごみ、充電式電池は端子をテープで絶縁して、市役所の窓口や電気店などのリサイクル協力店へ(協力店が回収するのは JBRC の会員メーカーの小型充電式電池です。会員でないメーカーの電池、メーカーが分からない電池、膨張・破損した電池、水にぬれた電池、外装の無いラミネート型の電池は協力店に出せないので、市に相談します)。事業で使ったものは回収できません。",
+        "desc_en": "For items that fit the 25 cm x 10 cm slot, such as digital cameras, small game consoles, electric shavers, electronic dictionaries and AC adapters. The metals inside get another life. Wipe personal data and remove removable batteries (items whose battery cannot be removed, such as handheld fans and wireless earphones, may go in as they are). Removed dry-cell batteries are hazardous waste; tape the terminals of rechargeable batteries and take them to the City Hall counter or recycling partner stores such as electronics shops (partner stores take only small rechargeable batteries made by JBRC member manufacturers; they do not accept batteries from non-member or unknown makers, swollen, damaged or wet batteries, or laminate batteries without an outer casing; ask the city about those). Items used for business are not accepted.",
+        "url": "https://www.city.higashiyamato.lg.jp/kurashi/gomirecycle/1001947/1001959.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "higashiyamato-city"
       }
     ]
   },

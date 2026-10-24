@@ -2318,8 +2318,8 @@
     "pref": "宮城県",
     "name_ja": "名取市",
     "name_en": "Natori City",
-    "status": "unsupported",
-    "official_url": "https://www.city.natori.miyagi.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.natori.miyagi.jp/page/4724.html"
   },
   {
     "slug": "kakuda-city",
@@ -6008,8 +6008,8 @@
     "pref": "東京都",
     "name_ja": "東大和市",
     "name_en": "Higashiyamato City",
-    "status": "unsupported",
-    "official_url": "https://www.city.higashiyamato.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.higashiyamato.lg.jp/kurashi/gomirecycle/index.html"
   },
   {
     "slug": "kiyose-city",
@@ -6980,8 +6980,8 @@
     "pref": "石川県",
     "name_ja": "白山市",
     "name_en": "Hakusan City",
-    "status": "unsupported",
-    "official_url": "https://www.city.hakusan.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.hakusan.lg.jp/seikatsu/kankyo/1001731/1005552/1005554.html"
   },
   {
     "slug": "nomi-city",
@@ -7124,8 +7124,8 @@
     "pref": "福井県",
     "name_ja": "鯖江市",
     "name_en": "Sabae City",
-    "status": "unsupported",
-    "official_url": "https://www.city.sabae.fukui.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.sabae.fukui.jp/kurashi_tetsuduki/gomi_risaikuru/kateigomi/gominobunbetsu.html"
   },
   {
     "slug": "awara-city",
@@ -7142,8 +7142,8 @@
     "pref": "福井県",
     "name_ja": "越前市",
     "name_en": "Echizen City",
-    "status": "unsupported",
-    "official_url": "https://www.city.echizen.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.echizen.lg.jp/office/kankyounourin/051/gomirecycle/dasikata-wakekata.html"
   },
   {
     "slug": "fukui-sakai-city",
@@ -7169,8 +7169,8 @@
     "pref": "福井県",
     "name_ja": "池田町",
     "name_en": "Ikeda Town",
-    "status": "unsupported",
-    "official_url": "https://www.town.ikeda.fukui.jp/"
+    "status": "supported",
+    "official_url": "https://www.town.ikeda.fukui.jp/kurashi/anzen/1361/p001241.html"
   },
   {
     "slug": "minamiechizen-town",

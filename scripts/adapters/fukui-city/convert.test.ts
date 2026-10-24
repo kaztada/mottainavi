@@ -3,7 +3,7 @@ import { join } from "node:path"
 import { describe, expect, it } from "vitest"
 import { parseCsv } from "../../core/csv"
 import { CACHE_DIR } from "../../core/paths"
-import { toStandardCsv } from "./convert"
+import { LABEL_JOINER, toStandardCsv } from "./convert"
 import { fukuiCityAdapter } from "./index"
 
 const HEAD = "行,音,物品名,キーワード,区分,分類,条件,備考\r\n"
@@ -51,6 +51,75 @@ describe("toStandardCsv(福井県の共通8列の CSV、福井市)", () => {
     expect(() =>
       toStandardCsv(HEAD + "あ,あ,アイロン,あいろん,小型家電,家電,,\r\n")
     ).toThrow(/分類/)
+  })
+})
+
+describe("toStandardCsv(市町の設定。鯖江市・越前市・池田町)", () => {
+  const base = { cityCode: "182079", cityName: "鯖江市", requireEmptyBunrui: false }
+
+  it("分類に値があっても止めず、市コードを設定から入れる", () => {
+    const rows = parseCsv(
+      toStandardCsv(HEAD + "あ,あ,アイロン,あいろん,燃えないごみ,電気製品,,\r\n", base)
+    )
+    expect(rows[1].slice(0, 4)).toEqual(["182079", "1", "アイロン", "燃えないごみ"])
+  })
+
+  it("見出しの無い末尾の列は全行空なら読み、値があれば止める(rowFixes の行だけ消す)", () => {
+    const head = "行,音,物品名,キーワード,区分,分類,条件,備考,\r\n"
+    const opts = { ...base, trailingEmptyColumns: 1 }
+    expect(
+      parseCsv(toStandardCsv(head + "あ,あ,鍋,なべ,燃えないごみ,日用品,,,\r\n", opts))[1][2]
+    ).toBe("鍋")
+    expect(() =>
+      toStandardCsv(head + "か,け,充電器,じゅうでんき,燃えないごみ,電気製品,条件,大型ごみ,別の品目\r\n", opts)
+    ).toThrow(/見出しの無い列/)
+    const fixed = parseCsv(
+      toStandardCsv(
+        head + "か,け,充電器,じゅうでんき,燃えないごみ,電気製品,条件,大型ごみ,別の品目\r\n",
+        { ...opts, rowFixes: { 充電器: { dropBiko: true, dropExtra: true } } }
+      )
+    )
+    expect(fixed[1][4]).toBe("条件")
+    // 直す行が無くなったら止める(県が直した可能性)
+    expect(() =>
+      toStandardCsv(head + "あ,あ,鍋,なべ,燃えないごみ,日用品,,,\r\n", {
+        ...opts,
+        rowFixes: { 充電器: { dropBiko: true } },
+      })
+    ).toThrow(/rowFixes/)
+  })
+
+  it("複数の出し先を区切りの記号にかかわらず LABEL_JOINER でつなぎ直す(keep の表記は分けない)", () => {
+    const opts = {
+      ...base,
+      labelSplit: { pattern: /[・、\s　]+/, keep: ["スプレー・ボンベ類"] },
+    }
+    const rows = parseCsv(
+      toStandardCsv(
+        HEAD +
+          "あ,あ,充電器,じゅうでんき,ストックヤード・小型家電回収ボックス・  燃やせないごみ,電気製品,,\r\n" +
+          "か,か,鍋,なべ,ストックヤード　燃やせないごみ,日用品,,\r\n" +
+          "さ,す,スプレー缶,すぷれーかん,スプレー・ボンベ類,日用品,,\r\n",
+        opts
+      )
+    )
+    expect(rows[1][3]).toBe(
+      ["ストックヤード", "小型家電回収ボックス", "燃やせないごみ"].join(LABEL_JOINER)
+    )
+    expect(rows[2][3]).toBe(`ストックヤード${LABEL_JOINER}燃やせないごみ`)
+    expect(rows[3][3]).toBe("スプレー・ボンベ類")
+  })
+
+  it("区切りの記号が無い2区分は labelRewrites で分ける", () => {
+    const rows = parseCsv(
+      toStandardCsv(HEAD + "あ,あ,アイロン,あいろん,小型家電（15cm×30cmのもの）燃えないごみ,電気製品,,\r\n", {
+        ...base,
+        labelRewrites: {
+          "小型家電（15cm×30cmのもの）燃えないごみ": `小型家電（15cm×30cmのもの）${LABEL_JOINER}燃えないごみ`,
+        },
+      })
+    )
+    expect(rows[1][3]).toBe(`小型家電（15cm×30cmのもの）${LABEL_JOINER}燃えないごみ`)
   })
 })
 
