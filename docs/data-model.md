@@ -585,6 +585,7 @@ add-municipality 手順(tech-stack.md §16)での最初の追加。
 - **パイプラインの検査**: 統計サマリに「英訳付与率」を出す。自治体ごとの `items.en.json` に、どの品目名とも一致しないキーがあれば警告する(キーの打ち間違いや、市が品目名を変えて訳が外れたときに気づくため。`findUnusedKeys`)
 - **市への確認事項**: 「ハンディースペンサー」(okn-0562)は何を指すか確定できず、中立な訳(`Handheld dispenser`)にとどめた
 - **米語で別の物を指す語(2026-10-20、PR #72 の7市で確定)**: 次の語は米語では別の物に読まれるので使わない、または括弧で補う。`car seat`(チャイルドシート)→ 車の座席は `Automobile seat (built-in vehicle seat)`、`gas can`(ガソリン携行缶)→ カセットボンベ等は `Gas canister`、`cooler`(クーラーボックス)→ エアコンは `Air conditioner (cooler)` のようにエアコンを先に、`portable toilet`(仮設トイレ)→ 使い捨ては `(disposable toilet bag)` を補う、`Styrofoam`(発泡スチロール)→ 建材の断熱材は `extruded polystyrene board`、`Solar system`(太陽系)→ `Solar energy system`、`gas table`(和製英語)→ `tabletop gas cooktop`、`nori` だけ(海苔)→ のり(文具)は `Glue / paste`。「使用済」の消火器は `fully discharged / empty`(`used` は中身が残る物も含む)
+- **6市町(PR #88、2026-10-25〜)**: 東大和市・池田町・越前市・名取市・鯖江市・白山市を、品目の少ない順に1市ずつ訳す(進み具合は roadmap「品目名の英訳の追加」)。東大和市で確定した語: `light bulb` は電球型蛍光灯も含むので、蛍光管が別区分の市では LED・白熱電球と書く/「コンタクトレンズ空ケース」は保存用ケース(`contact lens case`)でなく使い捨てレンズの空容器(`blister pack`)/`dry-cell` は充電式も含みうるので、充電式を別に回収する市では `(single-use)` を補う/カセットガスボンベは `Butane gas canister (cassette-type ...)`(用途だけでは収集しないガスボンベと分けられない)
 
 ## 26. 長浜市(Phase C・滋賀県)で確定した事項(2026-10-03)
 

@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-24T19:09:13.688Z",
+  "generated_at": "2026-10-24T19:01:33.945Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -1694,7 +1694,13 @@
       "name_ja": "ウッドカーペット（70cm以下）",
       "name_kana": "うっどかーぺっと（70cmいか）",
       "name_romaji": "uddoka-petto(70cmika)",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -1711,7 +1717,13 @@
       "name_ja": "ウッドカーペット（70cm超）",
       "name_kana": "うっどかーぺっと（70cmちょう）",
       "name_romaji": "uddoka-petto(70cmchou)",
-      "aliases": [],
+      "aliases": [
+        "絨毯",
+        "じゅうたん",
+        "ラグ",
+        "carpet",
+        "rug"
+      ],
       "dispositions": [
         {
           "category_id": "kobetsu",
@@ -7188,7 +7200,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cosmetics glass bottle"
     },
     {
       "id": "knz-0414",
@@ -19812,7 +19824,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Car battery (automotive battery)"
     },
     {
       "id": "knz-1139",
