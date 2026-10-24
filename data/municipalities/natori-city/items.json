@@ -1,6 +1,6 @@
 {
   "municipality_id": "natori-city",
-  "generated_at": "2026-10-23T23:51:29.187Z",
+  "generated_at": "2026-10-24T18:45:56.057Z",
   "source_url": "https://miyagi.dataeye.jp/datasets/710",
   "item_count": 880,
   "items": [
@@ -4268,7 +4268,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cosmetics container"
     },
     {
       "id": "ntr-0245",
@@ -10858,7 +10858,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Car battery (automotive battery)"
     },
     {
       "id": "ntr-0622",
