@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiyamato-city",
-  "generated_at": "2026-10-24T18:52:13.126Z",
+  "generated_at": "2026-10-24T19:01:39.415Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132209d0000000013",
   "item_count": 376,
   "items": [
@@ -781,7 +781,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gas canister (for portable stoves)"
+      "name_en": "Butane gas canister (cassette-type, for portable stoves)"
     },
     {
       "id": "hym-0045",
@@ -1198,7 +1198,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dry-cell battery / button battery"
+      "name_en": "Dry-cell battery / button battery (single-use)"
     },
     {
       "id": "hym-0068",
@@ -1611,7 +1611,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mesh net bag (for fruit etc.)"
+      "name_en": "Packaging netting (for fruit etc.)"
     },
     {
       "id": "hym-0092",
@@ -1978,7 +1978,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cord reel (electric drum cord)"
+      "name_en": "Extension cord reel (cable reel)"
     },
     {
       "id": "hym-0113",
@@ -5239,7 +5239,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Futon (thick)"
+      "name_en": "Futon (thick Japanese bedding; comforter / quilt / sleeping pad)"
     },
     {
       "id": "hym-0296",
@@ -5260,7 +5260,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Futon (thin)"
+      "name_en": "Futon (thin Japanese bedding; comforter / quilt / sleeping pad)"
     },
     {
       "id": "hym-0297",
@@ -5836,7 +5836,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Insulated pot / thermos pot (including electric pot)"
+      "name_en": "Insulated hot-water pot (including electric water boilers)"
     },
     {
       "id": "hym-0330",
@@ -6444,7 +6444,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cold pack / cooling agent"
+      "name_en": "Cooling agent"
     },
     {
       "id": "hym-0365",
