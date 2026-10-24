@@ -27,9 +27,7 @@ import {
 const GOMI = "https://www.town.takahama.fukui.jp/page/jyuminseikatu/"
 const BUNBETSU = GOMI + "p007845.html" // 家庭ごみの分け方とだし方(2026-08-28)
 const MOCHIKOMI = GOMI + "p007830.html" // ごみの直接持ち込みについて(料金は令和8年度)
-const RECYCLE = GOMI + "risaikuru.html" // 高浜町リサイクルセンター(2025-12-26)
 const LITHIUM = GOMI + "p008445.html" // リチウムイオン電池の分別をお願いします!(2025-07-31)
-const PC = GOMI + "p007847.html" // パソコン等の処分方法について(2025-04-01)
 
 const NOTE = "※もったいナビ注: "
 
