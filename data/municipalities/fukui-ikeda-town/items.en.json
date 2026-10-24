@@ -1,13 +1,13 @@
 {
+  "空き瓶（飲料・食品用以外）": "Empty glass bottle (non-food: cosmetics, perfume, non-oral medicines etc.)",
   "飲料用紙パック（ジュースなど）": "Beverage paper carton (juice etc.; aluminum-lined)",
-  "くすり瓶（薬品）": "Agrochemical bottle (other chemicals)",
+  "くすり瓶（薬品）": "Chemical bottle",
   "ジュース等の紙パック": "Juice paper carton etc. (aluminum-lined)",
   "充電器・充電コード": "Charger / charging cable (excluding power banks / mobile batteries)",
-  "錠剤容器": "Pill container (plastic)",
+  "錠剤容器": "Pill packaging (plastic containers)",
   "電化製品": "Electrical appliances (excluding TVs, washing machines, air conditioners, refrigerators/freezers, clothes dryers, PCs, dehumidifiers and devices with non-removable batteries)",
   "ナプキン": "Sanitary napkin",
   "ビニール製シート類": "Plastic sheeting (large vinyl sheets)",
-  "びん（薬品等、その他）": "Glass bottle (chemicals etc., other; excluding oral-medicine and agrochemical bottles)",
-  "ルーレット": "Roulette (ruretto; roulette wheel or tracing wheel)",
-  "冷凍枕": "Reito makura (freezer pillow)"
+  "びん（薬品等、その他）": "Glass bottle (non-oral medicines etc., other; excluding chemical and pesticide bottles)",
+  "ルーレット": "Roulette (ruretto; roulette wheel or tracing wheel)"
 }

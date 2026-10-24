@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-ikeda-town",
-  "generated_at": "2026-10-24T23:51:33.406Z",
+  "generated_at": "2026-10-24T23:58:52.354Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 514,
   "items": [
@@ -127,7 +127,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Empty glass bottle (other than beverage/food)"
+      "name_en": "Empty glass bottle (non-food: cosmetics, perfume, non-oral medicines etc.)"
     },
     {
       "id": "ikd-0007",
@@ -2270,7 +2270,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Agrochemical bottle (other chemicals)"
+      "name_en": "Chemical bottle"
     },
     {
       "id": "ikd-0119",
@@ -3532,7 +3532,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pill container (plastic)"
+      "name_en": "Pill packaging (plastic containers)"
     },
     {
       "id": "ikd-0186",
@@ -7194,7 +7194,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glass bottle (chemicals etc., other; excluding oral-medicine and agrochemical bottles)"
+      "name_en": "Glass bottle (non-oral medicines etc., other; excluding chemical and pesticide bottles)"
     },
     {
       "id": "ikd-0383",
@@ -7500,7 +7500,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Empty printer ink cartridge (household)"
+      "name_en": "Empty printer ink container (cartridge / ink bottle; household)"
     },
     {
       "id": "ikd-0400",
@@ -8420,7 +8420,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Mattress (urethane)"
+      "name_en": "Foam mattress (polyurethane)"
     },
     {
       "id": "ikd-0449",
@@ -9276,7 +9276,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Reito makura (freezer pillow)"
+      "name_en": null
     },
     {
       "id": "ikd-0496",
