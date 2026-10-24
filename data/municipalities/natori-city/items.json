@@ -1,6 +1,6 @@
 {
   "municipality_id": "natori-city",
-  "generated_at": "2026-10-24T18:45:56.057Z",
+  "generated_at": "2026-10-24T18:52:12.707Z",
   "source_url": "https://miyagi.dataeye.jp/datasets/710",
   "item_count": 880,
   "items": [
@@ -4268,7 +4268,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cosmetics container"
+      "name_en": null
     },
     {
       "id": "ntr-0245",

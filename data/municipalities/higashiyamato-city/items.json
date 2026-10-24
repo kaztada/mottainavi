@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiyamato-city",
-  "generated_at": "2026-10-24T18:45:56.477Z",
+  "generated_at": "2026-10-24T18:52:13.126Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132209d0000000013",
   "item_count": 376,
   "items": [
@@ -468,7 +468,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "LED tube / light bulb"
+      "name_en": "LED tube / LED bulb / incandescent bulb"
     },
     {
       "id": "hym-0027",
@@ -1767,7 +1767,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fluorescent tube (circular, including bulb-type)"
+      "name_en": "Fluorescent tube (including circular tubes and compact fluorescent bulbs)"
     },
     {
       "id": "hym-0101",
@@ -1857,7 +1857,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cosmetics container"
+      "name_en": "Cosmetics container (plastic)"
     },
     {
       "id": "hym-0106",
@@ -2085,7 +2085,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Contact lens case (empty)"
+      "name_en": "Contact lens blister pack (empty case)"
     },
     {
       "id": "hym-0119",
@@ -2566,7 +2566,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Room deodorizer container (plastic)"
+      "name_en": "Deodorizer container"
     },
     {
       "id": "hym-0146",
@@ -6483,7 +6483,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Air cooler / evaporative cooling fan / cold-hot air fan"
+      "name_en": "Air cooler / evaporative cooler / fan with heating and cooling modes"
     },
     {
       "id": "hym-0367",
@@ -6554,7 +6554,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Retort food container / pouch"
+      "name_en": "Retort food container / pouch (ready-to-eat meal packaging)"
     },
     {
       "id": "hym-0371",
