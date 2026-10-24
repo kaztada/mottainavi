@@ -3,8 +3,11 @@
   "くすり瓶（薬品）": "Agrochemical bottle (other chemicals)",
   "ジュース等の紙パック": "Juice paper carton etc. (aluminum-lined)",
   "充電器・充電コード": "Charger / charging cable (excluding mobile batteries)",
-  "電化製品": "Electrical appliances (excluding TVs, washing machines, air conditioners, refrigerators/freezers, clothes dryers, PCs)",
+  "錠剤容器": "Tablet container (plastic)",
+  "電化製品": "Electrical appliances (excluding TVs, washing machines, air conditioners, refrigerators/freezers, clothes dryers, PCs and dehumidifiers)",
   "ナプキン": "Sanitary napkin",
+  "ビニール製シート類": "Plastic sheeting (large vinyl sheets)",
+  "びん（薬品等、その他）": "Glass bottle (chemicals etc., other; excluding oral-medicine and agrochemical bottles)",
   "ルーレット": "Roulette",
-  "冷凍枕": "Ice pillow (reito makura; freezer-type cooling pillow)"
+  "冷凍枕": "Reito makura (freezer pillow)"
 }

@@ -1,6 +1,6 @@
 {
   "municipality_id": "echizen-city",
-  "generated_at": "2026-10-24T19:26:42.444Z",
+  "generated_at": "2026-10-24T19:35:21.236Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 761,
   "items": [
@@ -5463,7 +5463,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pill bottle (tablet container)"
+      "name_en": "Tablet container"
     },
     {
       "id": "ecz-0295",
@@ -10531,7 +10531,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glass bottle (medicines etc., other)"
+      "name_en": "Glass bottle (chemicals etc., other)"
     },
     {
       "id": "ecz-0570",
