@@ -1,6 +1,6 @@
 {
   "municipality_id": "iwaki-city",
-  "generated_at": "2026-10-23T15:13:34.388Z",
+  "generated_at": "2026-10-24T19:08:16.210Z",
   "source_url": "https://www.city.iwaki.lg.jp/www/contents/1001000001837/index.html",
   "item_count": 1662,
   "items": [
@@ -2336,13 +2336,7 @@
       "name_ja": "ウッドカーペット",
       "name_kana": "うっどかーぺっと",
       "name_romaji": "uddoka-petto",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -10113,9 +10107,7 @@
       "name_ja": "サマーベッド",
       "name_kana": "さまーべっど",
       "name_romaji": "sama-beddo",
-      "aliases": [
-        "bed"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ogata",

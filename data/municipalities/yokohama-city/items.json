@@ -1,6 +1,6 @@
 {
   "municipality_id": "yokohama-city",
-  "generated_at": "2026-10-23T15:13:29.203Z",
+  "generated_at": "2026-10-24T19:08:10.867Z",
   "source_url": "https://www.city.yokohama.lg.jp/kurashi/sumai-kurashi/gomi-recycle/gomi/dashikata.html",
   "item_count": 3413,
   "items": [
@@ -2881,13 +2881,7 @@
       "name_ja": "ウッドカーペット",
       "name_kana": "うっどかーぺっと",
       "name_romaji": "uddoka-petto",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -18390,9 +18384,7 @@
       "name_ja": "サマーベッド",
       "name_kana": "さまーべっど",
       "name_romaji": "sama-beddo",
-      "aliases": [
-        "bed"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",

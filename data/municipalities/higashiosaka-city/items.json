@@ -1,6 +1,6 @@
 {
   "municipality_id": "higashiosaka-city",
-  "generated_at": "2026-10-23T15:13:29.422Z",
+  "generated_at": "2026-10-24T19:08:11.095Z",
   "source_url": "https://data.bodik.jp/dataset/272272_28",
   "item_count": 913,
   "items": [
@@ -1234,13 +1234,7 @@
       "name_ja": "ウッドカーペット",
       "name_kana": "うっどかーぺっと",
       "name_romaji": "uddoka-petto",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "ogata",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "niigata-city",
-  "generated_at": "2026-10-23T15:13:33.061Z",
+  "generated_at": "2026-10-24T19:08:14.850Z",
   "source_url": "https://www.city.niigata.lg.jp/shisei/seisaku/it/open-data/opendata-tetsuduki/od-gomibunbetsuhyou.html",
   "item_count": 973,
   "items": [
@@ -1164,13 +1164,7 @@
       "name_ja": "ウッドカーペット",
       "name_kana": "うっどかーぺっと",
       "name_romaji": "uddoka-petto",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -5895,9 +5889,7 @@
       "name_ja": "サマーベッド",
       "name_kana": "さまーべっど",
       "name_romaji": "sama-beddo",
-      "aliases": [
-        "bed"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "komatsushima-city",
-  "generated_at": "2026-10-24T18:50:14.627Z",
+  "generated_at": "2026-10-24T19:08:19.626Z",
   "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
   "item_count": 907,
   "items": [
@@ -6534,9 +6534,7 @@
       "name_ja": "サマーベッド",
       "name_kana": "さまーべっど",
       "name_romaji": "sama-beddo",
-      "aliases": [
-        "bed"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",

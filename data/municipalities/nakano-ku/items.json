@@ -1,6 +1,6 @@
 {
   "municipality_id": "nakano-ku",
-  "generated_at": "2026-10-23T15:13:34.122Z",
+  "generated_at": "2026-10-24T19:08:15.933Z",
   "source_url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t131148d0000000139",
   "item_count": 942,
   "items": [
@@ -1245,13 +1245,7 @@
       "name_ja": "ウッドカーペット",
       "name_kana": "うっどかーぺっと",
       "name_romaji": "uddoka-petto",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -5646,9 +5640,7 @@
       "name_ja": "サマーベッド",
       "name_kana": "さまーべっど",
       "name_romaji": "sama-beddo",
-      "aliases": [
-        "bed"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
