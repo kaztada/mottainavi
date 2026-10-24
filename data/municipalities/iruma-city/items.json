@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-24T19:09:19.258Z",
+  "generated_at": "2026-10-24T19:22:06.716Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -9504,10 +9504,7 @@
       "name_ja": "蛍光灯(照明器具)",
       "name_kana": "けいこうとう(しょうめいきぐ)",
       "name_romaji": "keikoutou(shoumeikigu)",
-      "aliases": [
-        "蛍光管",
-        "fluorescent light"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",

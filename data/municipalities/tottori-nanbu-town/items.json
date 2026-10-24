@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-nanbu-town",
-  "generated_at": "2026-10-24T19:09:19.482Z",
+  "generated_at": "2026-10-24T19:22:07.599Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html",
   "item_count": 788,
   "items": [
@@ -7343,7 +7343,6 @@
       "name_kana": "でんきぽっと",
       "name_romaji": "denkipotto",
       "aliases": [
-        "電気ポット",
         "電気ケトル",
         "kettle"
       ],
@@ -8979,8 +8978,6 @@
       "name_kana": "ぴあの",
       "name_romaji": "piano",
       "aliases": [
-        "電子ピアノ",
-        "キーボード",
         "piano"
       ],
       "dispositions": [
@@ -10640,11 +10637,7 @@
       "name_ja": "ポット（魔法瓶）",
       "name_kana": "ぽっと（まほうびん）",
       "name_romaji": "potto(mahoubin)",
-      "aliases": [
-        "電気ポット",
-        "電気ケトル",
-        "kettle"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "funen",
