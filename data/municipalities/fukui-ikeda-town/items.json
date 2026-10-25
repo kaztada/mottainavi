@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-ikeda-town",
-  "generated_at": "2026-10-25T00:10:01.966Z",
+  "generated_at": "2026-10-25T00:15:51.220Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 514,
   "items": [
@@ -7058,7 +7058,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Plastic sheeting (large vinyl sheets)"
+      "name_en": "Plastic sheeting (vinyl sheets)"
     },
     {
       "id": "ikd-0375",
@@ -8147,7 +8147,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Heat-retaining material / ice pack (cold pack)"
+      "name_en": "Thermal insulation material / ice pack (cold pack)"
     },
     {
       "id": "ikd-0435",
