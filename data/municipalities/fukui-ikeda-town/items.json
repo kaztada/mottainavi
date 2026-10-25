@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-ikeda-town",
-  "generated_at": "2026-10-24T23:58:52.354Z",
+  "generated_at": "2026-10-25T00:10:01.966Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 514,
   "items": [
@@ -93,7 +93,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Empty can (other than beverage/food)"
+      "name_en": "Empty can (other than beverage/food; excluding aerosol cans and gas canisters)"
     },
     {
       "id": "ikd-0005",
@@ -127,7 +127,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Empty glass bottle (non-food: cosmetics, perfume, non-oral medicines etc.)"
+      "name_en": "Empty glass bottle (non-food: cosmetics, perfume, non-oral medicines etc.; excluding chemical and pesticide bottles)"
     },
     {
       "id": "ikd-0007",
@@ -144,7 +144,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Seasoned nori container (glass)"
+      "name_en": "Seasoned seaweed (nori) container (glass)"
     },
     {
       "id": "ikd-0008",
@@ -161,7 +161,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Seasoned nori container (plastic)"
+      "name_en": "Seasoned seaweed (nori) container (plastic)"
     },
     {
       "id": "ikd-0009",
@@ -280,7 +280,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Net (insect catching, angling)"
+      "name_en": "Net (for catching insects / recreational fishing)"
     },
     {
       "id": "ikd-0016",
@@ -3442,7 +3442,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rechargeable battery"
+      "name_en": "Rechargeable battery (excluding car batteries)"
     },
     {
       "id": "ikd-0181",

@@ -1,8 +1,10 @@
 {
-  "空き瓶（飲料・食品用以外）": "Empty glass bottle (non-food: cosmetics, perfume, non-oral medicines etc.)",
+  "空き缶（飲料・食料用以外）": "Empty can (other than beverage/food; excluding aerosol cans and gas canisters)",
+  "空き瓶（飲料・食品用以外）": "Empty glass bottle (non-food: cosmetics, perfume, non-oral medicines etc.; excluding chemical and pesticide bottles)",
   "飲料用紙パック（ジュースなど）": "Beverage paper carton (juice etc.; aluminum-lined)",
   "くすり瓶（薬品）": "Chemical bottle",
   "ジュース等の紙パック": "Juice paper carton etc. (aluminum-lined)",
+  "充電池": "Rechargeable battery (excluding car batteries)",
   "充電器・充電コード": "Charger / charging cable (excluding power banks / mobile batteries)",
   "錠剤容器": "Pill packaging (plastic containers)",
   "電化製品": "Electrical appliances (excluding TVs, washing machines, air conditioners, refrigerators/freezers, clothes dryers, PCs, dehumidifiers and devices with non-removable batteries)",
