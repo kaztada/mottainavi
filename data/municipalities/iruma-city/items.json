@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-24T23:56:36.030Z",
+  "generated_at": "2026-10-25T23:16:31.601Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -9460,7 +9460,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glow lamp (glow starter)"
     },
     {
       "id": "irm-0549",
@@ -31450,7 +31450,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Power sprayer (engine-powered)"
     },
     {
       "id": "irm-1825",
