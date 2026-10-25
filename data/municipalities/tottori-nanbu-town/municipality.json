@@ -1,0 +1,14 @@
+{
+  "slug": "tottori-nanbu-town",
+  "item_id_prefix": "tnb",
+  "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 2.1 JP",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。「南部町ゴミの分別方法一覧」、南部町、鳥取県オープンデータポータル、クリエイティブ・コモンズ・ライセンス 表示2.1 日本(https://creativecommons.org/licenses/by/2.1/jp/deed.ja)",
+  "source_attribution_en": "Source: This app adapts \"Nanbu Town Garbage Sorting List\" (南部町ゴミの分別方法一覧), Nanbu Town, Tottori Prefecture Open Data Portal, Creative Commons Attribution 2.1 Japan (https://creativecommons.org/licenses/by/2.1/jp/deed.en)",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": null,
+  "sodai_tel_mobile": null,
+  "data_fetched_at": "2026-10-24",
+  "data_version": "20261025"
+}

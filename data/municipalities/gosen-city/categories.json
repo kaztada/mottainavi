@@ -1,0 +1,15 @@
+[
+  { "id": "moeru", "kind": "burnable", "name_ja": "燃えるごみ", "name_en": "Burnable Waste" },
+  { "id": "moenai", "kind": "non-burnable", "accepts_large_items": true, "name_ja": "燃えないごみ", "name_en": "Non-burnable Waste" },
+  { "id": "yugai", "kind": "hazardous", "name_ja": "有害ごみ", "name_en": "Hazardous Waste (Batteries, Fluorescent Tubes, Mercury)" },
+  { "id": "pla", "kind": "plastic", "name_ja": "プラスチックごみ", "name_en": "Plastic Waste" },
+  { "id": "plamark", "kind": "plastic", "name_ja": "プラマークごみ", "name_en": "Plastic Container and Packaging (with Plastic Mark)" },
+  { "id": "koshi", "kind": "paper", "name_ja": "古紙類", "name_en": "Used Paper" },
+  { "id": "furugi", "kind": "paper", "name_ja": "古着", "name_en": "Used Clothing" },
+  { "id": "bin", "kind": "recyclable", "name_ja": "びん類", "name_en": "Glass Bottles" },
+  { "id": "kan", "kind": "recyclable", "name_ja": "かん類", "name_en": "Cans" },
+  { "id": "ireba", "kind": "drop-off", "name_ja": "入れ歯リサイクル", "name_en": "Denture Recycling (Collection Box)" },
+  { "id": "konan", "kind": "not-collected", "name_ja": "処理困難物", "name_en": "Items the City Cannot Process" },
+  { "id": "kaden", "kind": "not-collected", "name_ja": "家電リサイクル対象商品", "name_en": "Home Appliances under the Recycling Law" },
+  { "id": "pc", "kind": "not-collected", "name_ja": "PCリサイクル対象品", "name_en": "PCs for Maker Recycling" }
+]

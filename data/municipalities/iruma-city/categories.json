@@ -1,0 +1,10 @@
+[
+  { "id": "kanen", "kind": "burnable", "name_ja": "可燃ごみ", "name_en": "Burnable Waste" },
+  { "id": "funen", "kind": "non-burnable", "name_ja": "不燃ごみ", "name_en": "Non-burnable Waste" },
+  { "id": "pla", "kind": "plastic", "name_ja": "資源ごみ(プラスチック・ビニール類)", "name_en": "Recyclables (Plastic & Vinyl)" },
+  { "id": "paper", "kind": "paper", "name_ja": "資源ごみ(古布・紙類)", "name_en": "Recyclables (Textiles & Paper)" },
+  { "id": "bincan", "kind": "recyclable", "name_ja": "資源ごみ(ビン・缶・ペットボトル)", "name_en": "Recyclables (Bottles, Cans & PET)" },
+  { "id": "yugai", "kind": "hazardous", "name_ja": "有害ごみ", "name_en": "Hazardous Waste" },
+  { "id": "sodai", "kind": "bulky", "name_ja": "粗大ごみ(有料)", "name_en": "Bulky Waste (reservation, fee)" },
+  { "id": "taisho", "kind": "not-collected", "name_ja": "市で処理できないもの", "name_en": "Not Handled by the City" }
+]

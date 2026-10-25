@@ -1,6 +1,6 @@
 {
   "municipality_id": "kagoshima-city",
-  "generated_at": "2026-10-23T15:13:30.376Z",
+  "generated_at": "2026-10-24T19:09:12.466Z",
   "source_url": "https://data.bodik.jp/dataset/462012_gomibunbetsu",
   "item_count": 1178,
   "items": [
@@ -1308,13 +1308,7 @@
       "name_ja": "ウッドカーペット（4.5畳まで）",
       "name_kana": "うっどかーぺっと（4.5じょうまで）",
       "name_romaji": "uddoka-petto(4.5joumade)",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -1331,13 +1325,7 @@
       "name_ja": "ウッドカーペット（4.5畳超）",
       "name_kana": "うっどかーぺっと（4.5じょうちょう）",
       "name_romaji": "uddoka-petto(4.5jouchou)",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "fuka",

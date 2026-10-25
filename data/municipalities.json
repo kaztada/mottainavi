@@ -4784,8 +4784,8 @@
     "pref": "埼玉県",
     "name_ja": "入間市",
     "name_en": "Iruma City",
-    "status": "unsupported",
-    "official_url": "https://www.city.iruma.saitama.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.iruma.saitama.jp/soshiki/sogocleancenter/gomi/katei_gomi/dashikata/1727.html"
   },
   {
     "slug": "asaka-city",
@@ -6620,8 +6620,8 @@
     "pref": "新潟県",
     "name_ja": "五泉市",
     "name_en": "Gosen City",
-    "status": "unsupported",
-    "official_url": "https://www.city.gosen.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.gosen.lg.jp/organization/7/1/891.html"
   },
   {
     "slug": "joetsu-city",
@@ -7205,8 +7205,8 @@
     "pref": "福井県",
     "name_ja": "高浜町",
     "name_en": "Takahama Town",
-    "status": "unsupported",
-    "official_url": "https://www.town.takahama.fukui.jp/"
+    "status": "supported",
+    "official_url": "https://www.town.takahama.fukui.jp/page/jyuminseikatu/p007845.html"
   },
   {
     "slug": "fukui-oi-town",
@@ -9248,8 +9248,8 @@
     "pref": "愛知県",
     "name_ja": "蟹江町",
     "name_en": "Kanie Town",
-    "status": "unsupported",
-    "official_url": "https://www.town.kanie.aichi.jp/"
+    "status": "supported",
+    "official_url": "https://www.town.kanie.aichi.jp/soshiki/11/gomi-wakekata-dashikata.html"
   },
   {
     "slug": "tobishima-village",
@@ -11516,8 +11516,8 @@
     "pref": "鳥取県",
     "name_ja": "南部町",
     "name_en": "Nanbu Town",
-    "status": "unsupported",
-    "official_url": "https://www.town.nanbu.tottori.jp/"
+    "status": "supported",
+    "official_url": "https://www.town.nanbu.tottori.jp/admin/chouminseikatsuka/gomi1/"
   },
   {
     "slug": "hoki-town",
@@ -12371,8 +12371,8 @@
     "pref": "徳島県",
     "name_ja": "小松島市",
     "name_en": "Komatsushima City",
-    "status": "unsupported",
-    "official_url": "https://www.city.komatsushima.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.komatsushima.lg.jp/docs/2456481.html"
   },
   {
     "slug": "anan-city",

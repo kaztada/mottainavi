@@ -157,3 +157,83 @@ describe("福井市のアダプタ(取得済みの CSV で)", () => {
     expect(note).toContain("購入先や販売店へ相談して下さい")
   })
 })
+
+describe("toStandardCsv(列を名前で探す。高浜町の9列・前置き・見出しの改行)", () => {
+  const OPTS = {
+    cityCode: "184811",
+    cityName: "高浜町",
+    requireEmptyBunrui: false,
+    preambleRows: 2,
+    ignoredColumns: ["連番"],
+  }
+  const PRE =
+    ",,,,,,,可燃ごみの持ち込み先…若狭広域クリーンセンター,\r\n" +
+    ",,,,,,,資源ごみの持ち込み先…高浜町リサイクルセンター,\r\n"
+  const HEAD9 = '"連\r\n番",行,音,物品名,キーワード,区分,分類,条件,"備\r\n考"\r\n'
+
+  it("前置き2行と先頭の連番の列を読み飛ばし、見出しのセルの改行は取って列を探す", () => {
+    const rows = parseCsv(
+      toStandardCsv(
+        PRE +
+          HEAD9 +
+          "1,あ,あ,アイロン,あいろん,不燃ごみ,日用品,,\r\n" +
+          "2,か,か,乾電池,かんでんち,有害ごみ,日用品,袋に入れて,\r\n",
+        OPTS
+      )
+    )
+    expect(rows[1]).toEqual(["184811", "1", "アイロン", "不燃ごみ", ""])
+    expect(rows[2]).toEqual(["184811", "2", "乾電池", "有害ごみ", "袋に入れて"])
+  })
+  it("列の並びが違っても名前で探す", () => {
+    const rows = parseCsv(
+      toStandardCsv(
+        "音,行,物品名,キーワード,条件,区分,分類,備考\r\nあ,あ,アイロン,x,注意,不燃ごみ,,\r\n"
+      )
+    )
+    expect(rows[1]).toEqual(["182010", "1", "アイロン", "不燃ごみ", "注意"])
+  })
+  it("前置きの行数が違う(見出しが想定の位置に無い)と止める", () => {
+    expect(() => toStandardCsv(HEAD9 + "1,あ,あ,x,x,x,,,\r\n", OPTS)).toThrow(
+      /見出し/
+    )
+  })
+  it("必要な列が無い・重複している・知らない列があれば止める", () => {
+    expect(() =>
+      toStandardCsv("行,音,物品名,キーワード,区分,分類,条件\r\n")
+    ).toThrow(/見出し/)
+    expect(() =>
+      toStandardCsv("行,音,物品名,キーワード,区分,分類,条件,備考,条件\r\n")
+    ).toThrow(/見出し/)
+    expect(() =>
+      toStandardCsv("行,音,物品名,キーワード,区分,分類,条件,備考,新しい列\r\n")
+    ).toThrow(/見出し/)
+  })
+  it("dropRows の行を外し、mergeRows の同名・同区分の行は注意点を足して1行にする", () => {
+    const rows = parseCsv(
+      toStandardCsv(
+        PRE +
+          HEAD9 +
+          "1,い,い,石綿,x,収集できません,住,業者へ,\r\n" +
+          "2,か,か,可燃物（振替）,x,可燃物（振替）,他,祝日の説明,\r\n" +
+          "3,い,い,石綿,x,収集できません,他,販売店へ,\r\n",
+        { ...OPTS, dropRows: ["可燃物（振替）"], mergeRows: ["石綿"] }
+      )
+    )
+    expect(rows).toHaveLength(2)
+    expect(rows[1]).toEqual([
+      "184811",
+      "1",
+      "石綿",
+      "収集できません",
+      "業者へ\n販売店へ",
+    ])
+  })
+  it("dropRows・mergeRows の品目が見つからなければ止める", () => {
+    expect(() =>
+      toStandardCsv(
+        PRE + HEAD9 + "1,あ,あ,アイロン,x,不燃ごみ,,,\r\n",
+        { ...OPTS, dropRows: ["可燃物（振替）"] }
+      )
+    ).toThrow(/dropRows/)
+  })
+})

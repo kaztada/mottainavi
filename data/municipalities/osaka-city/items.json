@@ -1,6 +1,6 @@
 {
   "municipality_id": "osaka-city",
-  "generated_at": "2026-10-23T15:13:28.784Z",
+  "generated_at": "2026-10-24T19:09:10.843Z",
   "source_url": "https://www.city.osaka.lg.jp/kankyo/page/0000201907.html",
   "item_count": 1056,
   "items": [
@@ -1716,13 +1716,7 @@
       "name_ja": "ウッドカーペット(5畳未満)",
       "name_kana": "うっどかーぺっと(5じょうみまん)",
       "name_romaji": "uddoka-petto(5joumiman)",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -1739,13 +1733,7 @@
       "name_ja": "ウッドカーペット(5畳以上)",
       "name_kana": "うっどかーぺっと(5じょういじょう)",
       "name_romaji": "uddoka-petto(5jouijou)",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",

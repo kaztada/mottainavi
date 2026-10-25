@@ -36,6 +36,12 @@ import { fukuiIkedaTownAdapter } from "./fukui-ikeda-town"
 import { natoriCityAdapter } from "./natori-city"
 import { hakusanCityAdapter } from "./hakusan-city"
 import { higashiyamatoCityAdapter } from "./higashiyamato-city"
+import { irumaCityAdapter } from "./iruma-city"
+import { tottoriNanbuTownAdapter } from "./tottori-nanbu-town"
+import { gosenCityAdapter } from "./gosen-city"
+import { kanieTownAdapter } from "./kanie-town"
+import { komatsushimaCityAdapter } from "./komatsushima-city"
+import { takahamaTownAdapter } from "./takahama-town"
 
 /** 登録済みアダプタ。自治体を追加するときはここに1行足す */
 export const ADAPTERS: Record<string, MunicipalityAdapter> = {
@@ -76,4 +82,10 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [natoriCityAdapter.slug]: natoriCityAdapter,
   [hakusanCityAdapter.slug]: hakusanCityAdapter,
   [higashiyamatoCityAdapter.slug]: higashiyamatoCityAdapter,
+  [irumaCityAdapter.slug]: irumaCityAdapter,
+  [tottoriNanbuTownAdapter.slug]: tottoriNanbuTownAdapter,
+  [gosenCityAdapter.slug]: gosenCityAdapter,
+  [kanieTownAdapter.slug]: kanieTownAdapter,
+  [komatsushimaCityAdapter.slug]: komatsushimaCityAdapter,
+  [takahamaTownAdapter.slug]: takahamaTownAdapter,
 }
