@@ -1,6 +1,6 @@
 {
   "municipality_id": "hachioji-city",
-  "generated_at": "2026-10-23T15:13:33.291Z",
+  "generated_at": "2026-10-24T19:09:15.452Z",
   "source_url": "https://www.city.hachioji.tokyo.jp/contents/open/002/p005873.html",
   "item_count": 1133,
   "items": [
@@ -1125,13 +1125,7 @@
       "name_ja": "ウッドカーペット",
       "name_kana": "うっどかーぺっと",
       "name_romaji": "uddoka-petto",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",
@@ -6408,9 +6402,7 @@
       "name_ja": "サマーベッド",
       "name_kana": "さまーべっど",
       "name_romaji": "sama-beddo",
-      "aliases": [
-        "bed"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",

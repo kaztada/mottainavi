@@ -1,0 +1,14 @@
+{
+  "slug": "kanie-town",
+  "item_id_prefix": "kne",
+  "source_url": "https://www.town.kanie.aichi.jp/soshiki/2/opendata.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。「ごみの出し方一覧」、蟹江町、クリエイティブ・コモンズ・ライセンス 表示4.0国際(http://creativecommons.org/licenses/by/4.0/legalcode.ja)",
+  "source_attribution_en": "Source: This app adapts \"Garbage Disposal List\" (ごみの出し方一覧), Kanie Town, Creative Commons Attribution 4.0 International (http://creativecommons.org/licenses/by/4.0/legalcode.ja)",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": "0567-95-1111",
+  "sodai_tel_mobile": "0567-95-1111",
+  "data_fetched_at": "2026-10-24",
+  "data_version": "20261026"
+}

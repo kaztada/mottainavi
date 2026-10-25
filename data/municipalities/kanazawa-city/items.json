@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-25T00:15:46.615Z",
+  "generated_at": "2026-10-25T23:05:10.851Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -1694,13 +1694,7 @@
       "name_ja": "ウッドカーペット（70cm以下）",
       "name_kana": "うっどかーぺっと（70cmいか）",
       "name_romaji": "uddoka-petto(70cmika)",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasu",
@@ -1717,13 +1711,7 @@
       "name_ja": "ウッドカーペット（70cm超）",
       "name_kana": "うっどかーぺっと（70cmちょう）",
       "name_romaji": "uddoka-petto(70cmchou)",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kobetsu",

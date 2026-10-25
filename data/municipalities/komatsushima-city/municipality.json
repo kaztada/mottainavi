@@ -1,0 +1,14 @@
+{
+  "slug": "komatsushima-city",
+  "item_id_prefix": "kms",
+  "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY",
+  "source_attribution": "出典：徳島県オープンデータポータルサイト「小松島市ゴミの分別方法一覧」(https://opendata.pref.tokushima.lg.jp/dataset/5149.html)を加工して作成。ライセンス: 表示（CC BY）",
+  "source_attribution_en": "Source: Tokushima Prefecture Open Data Portal, \"Komatsushima City Garbage Sorting List\" (小松島市ゴミの分別方法一覧) (https://opendata.pref.tokushima.lg.jp/dataset/5149.html), modified for this app. License: Creative Commons Attribution (CC BY)",
+  "sodai_apply_url": "https://sodai-sys.jp/komatsushima/users/",
+  "sodai_tel_landline": null,
+  "sodai_tel_mobile": null,
+  "data_fetched_at": "2026-10-24",
+  "data_version": "20261026"
+}

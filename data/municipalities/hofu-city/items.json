@@ -1,6 +1,6 @@
 {
   "municipality_id": "hofu-city",
-  "generated_at": "2026-10-23T15:13:32.218Z",
+  "generated_at": "2026-10-24T19:09:14.365Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352063-garbage_separation",
   "item_count": 1239,
   "items": [
@@ -1946,13 +1946,7 @@
       "name_ja": "ウッドカーペット",
       "name_kana": "うっどかーぺっと",
       "name_romaji": "uddoka-petto",
-      "aliases": [
-        "絨毯",
-        "じゅうたん",
-        "ラグ",
-        "carpet",
-        "rug"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",
@@ -8266,9 +8260,7 @@
       "name_ja": "サマーベッド",
       "name_kana": "さまーべっど",
       "name_romaji": "sama-beddo",
-      "aliases": [
-        "bed"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "sodai",

@@ -1,0 +1,38 @@
+[
+  { "id": "kanen", "kind": "burnable", "name_ja": "可燃ごみ", "name_en": "Burnable Waste" },
+  { "id": "funen", "kind": "non-burnable", "name_ja": "不燃ごみ", "name_en": "Non-burnable Waste" },
+  {
+    "id": "funen-dai",
+    "kind": "non-burnable",
+    "name_ja": "不燃粗大ごみ(申込不要・集落の指定場所へ)",
+    "name_en": "Large Non-burnable Waste (no application; designated spot in your district)",
+    "accepts_large_items": true
+  },
+  {
+    "id": "kogata",
+    "kind": "small-appliance",
+    "name_ja": "不燃ごみ(小型家電リサイクル対象)",
+    "name_en": "Non-burnable Waste (small appliance recycling eligible)"
+  },
+  {
+    "id": "kogata-dai",
+    "kind": "small-appliance",
+    "name_ja": "不燃粗大ごみ(小型家電リサイクル対象)",
+    "name_en": "Large Non-burnable Waste (small appliance recycling eligible)",
+    "accepts_large_items": true
+  },
+  { "id": "yakuba", "kind": "hazardous", "name_ja": "役場町民生活課へ(回収ボックス)", "name_en": "Take to the Town Office (collection box)" },
+  { "id": "kandenchi", "kind": "hazardous", "name_ja": "乾電池", "name_en": "Dry-cell Batteries" },
+  { "id": "keikou", "kind": "hazardous", "name_ja": "蛍光管", "name_en": "Fluorescent Tubes" },
+  { "id": "fuka", "kind": "not-collected", "name_ja": "収集しない", "name_en": "Not Collected" },
+  { "id": "nuno", "kind": "paper", "name_ja": "布類", "name_en": "Textiles" },
+  { "id": "binkan", "kind": "recyclable", "name_ja": "ビン・缶類", "name_en": "Bottles and Cans" },
+  { "id": "saibin", "kind": "recyclable", "name_ja": "再利用ビン", "name_en": "Reusable Bottles" },
+  { "id": "pet", "kind": "recyclable", "name_ja": "ペットボトル", "name_en": "PET Bottles" },
+  { "id": "pla", "kind": "plastic", "name_ja": "軟プラ類", "name_en": "Soft Plastics" },
+  { "id": "zasshi", "kind": "paper", "name_ja": "古紙類(雑誌・雑紙)", "name_en": "Waste Paper (magazines, miscellaneous paper)" },
+  { "id": "danboru", "kind": "paper", "name_ja": "古紙類(ダンボール・箱)", "name_en": "Waste Paper (cardboard, boxes)" },
+  { "id": "pack", "kind": "paper", "name_ja": "古紙類(牛乳パック)", "name_en": "Waste Paper (milk cartons)" },
+  { "id": "shinbun", "kind": "paper", "name_ja": "古紙類(新聞・チラシ)", "name_en": "Waste Paper (newspapers, flyers)" },
+  { "id": "kozasshi", "kind": "paper", "name_ja": "小雑紙", "name_en": "Small Scraps of Paper" }
+]
