@@ -1,6 +1,6 @@
 {
   "municipality_id": "hakusan-city",
-  "generated_at": "2026-10-23T23:51:30.080Z",
+  "generated_at": "2026-10-24T19:26:43.046Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation",
   "item_count": 1264,
   "items": [
@@ -192,7 +192,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Asphalt"
     },
     {
       "id": "hks-0011",
@@ -11357,7 +11357,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Desk (steel)"
     },
     {
       "id": "hks-0652",

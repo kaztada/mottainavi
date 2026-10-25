@@ -1,6 +1,6 @@
 {
   "municipality_id": "maizuru-city",
-  "generated_at": "2026-10-23T15:13:31.309Z",
+  "generated_at": "2026-10-25T00:26:27.347Z",
   "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
   "item_count": 115,
   "items": [
@@ -1310,7 +1310,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "books-media",
-      "name_en": null
+      "name_en": "Videotapes"
     },
     {
       "id": "mzr-0074",
@@ -1565,7 +1565,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rechargeable battery (excluding car batteries)"
     },
     {
       "id": "mzr-0088",
