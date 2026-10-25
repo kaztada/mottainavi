@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-25T23:16:31.601Z",
+  "generated_at": "2026-10-25T23:34:30.804Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -9460,7 +9460,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glow lamp (glow starter)"
+      "name_en": "Fluorescent lamp starter (glow starter)"
     },
     {
       "id": "irm-0549",

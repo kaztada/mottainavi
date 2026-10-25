@@ -1,6 +1,6 @@
 {
   "municipality_id": "echizen-city",
-  "generated_at": "2026-10-25T23:27:00.528Z",
+  "generated_at": "2026-10-25T23:34:28.308Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 761,
   "items": [
@@ -3555,7 +3555,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glow lamp (glow starter)"
+      "name_en": "Fluorescent lamp starter (glow starter)"
     },
     {
       "id": "ecz-0193",
@@ -4327,7 +4327,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rice storage bin (komebitsu; Raiser rice dispenser)"
+      "name_en": "Rice storage bin / rice dispenser (komebitsu)"
     },
     {
       "id": "ecz-0233",
@@ -5573,7 +5573,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Walker cart for seniors (silver car; electric)"
+      "name_en": "Electric mobility aid for seniors (silver car / mobility scooter)"
     },
     {
       "id": "ecz-0301",
