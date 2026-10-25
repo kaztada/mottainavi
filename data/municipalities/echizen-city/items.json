@@ -1,6 +1,6 @@
 {
   "municipality_id": "echizen-city",
-  "generated_at": "2026-10-25T23:16:28.726Z",
+  "generated_at": "2026-10-25T23:27:00.528Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 761,
   "items": [
@@ -168,7 +168,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Empty glass bottle (beverage/food)"
+      "name_en": "Empty glass bottle (beverage/food; excluding returnable milk and beer bottles)"
     },
     {
       "id": "ecz-0010",
@@ -4293,7 +4293,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Copier (desktop)"
+      "name_en": "Copier (small desktop; excluding commercial office models)"
     },
     {
       "id": "ecz-0231",
@@ -4310,7 +4310,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Copier (office use)"
+      "name_en": "Copier (commercial office model)"
     },
     {
       "id": "ecz-0232",
@@ -5040,7 +5040,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ziploc bag (zipper storage bag)"
+      "name_en": "Ziploc (food storage bags / containers)"
     },
     {
       "id": "ecz-0273",
@@ -10514,7 +10514,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glass bottle (beverage, food)"
+      "name_en": "Glass bottle (beverage, food; excluding returnable milk and beer bottles)"
     },
     {
       "id": "ecz-0569",

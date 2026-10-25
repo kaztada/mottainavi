@@ -1,14 +1,18 @@
 {
   "あきかん（飲料・食品用以外）": "Empty can (other than beverage/food; excluding aerosol cans and gas canisters)",
+  "あきびん（飲料・食品用）": "Empty glass bottle (beverage/food; excluding returnable milk and beer bottles)",
   "あきびん（飲料・食品用以外）": "Empty glass bottle (non-food: cosmetics, perfume, non-oral medicines etc.; excluding chemical and pesticide bottles)",
   "飲料用紙パック（ジュースなど）": "Beverage paper carton (juice etc.; aluminum-lined)",
   "重石": "Pickling weight (omoshi; excluding natural stone)",
+  "牛乳瓶": "Milk bottle (returnable glass bottle)",
   "充電器・充電コード": "Charger / charging cable (excluding power banks / mobile batteries)",
   "錠剤容器": "Pill packaging (plastic containers)",
   "ナプキン": "Sanitary napkin / pad",
   "パイプヘッド": "Pipe head (paipu heddo)",
+  "びん（飲料用、食料用）": "Glass bottle (beverage, food; excluding returnable milk and beer bottles)",
   "びん（薬品等、その他）": "Glass bottle (other: non-oral medicine bottles etc.; excluding chemical and pesticide bottles)",
   "プラスチック製のおもちゃ": "Plastic toys (excluding toys with non-removable batteries)",
+  "プリンター機器": "Printer (household)",
   "モニター": "Monitor (PC display; without TV function)",
   "ルーレット": "Roulette (ruretto; roulette wheel, tracing wheel or measuring wheel)"
 }

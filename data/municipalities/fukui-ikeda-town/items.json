@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-ikeda-town",
-  "generated_at": "2026-10-25T00:43:35.187Z",
+  "generated_at": "2026-10-25T23:27:01.066Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 514,
   "items": [
@@ -7177,7 +7177,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glass bottle (beverage, food)"
+      "name_en": "Glass bottle (beverage, food; excluding returnable beer bottles)"
     },
     {
       "id": "ikd-0382",
