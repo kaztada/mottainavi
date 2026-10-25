@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukui-ikeda-town",
-  "generated_at": "2026-10-25T00:26:32.199Z",
+  "generated_at": "2026-10-25T00:36:25.399Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 514,
   "items": [
@@ -4692,7 +4692,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Doors / sliding doors / shoji screens etc. (tategu)"
+      "name_en": "Tategu (sliding doors, shoji screens and other fittings)"
     },
     {
       "id": "ikd-0248",
