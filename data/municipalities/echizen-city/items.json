@@ -1,6 +1,6 @@
 {
   "municipality_id": "echizen-city",
-  "generated_at": "2026-10-25T23:44:04.360Z",
+  "generated_at": "2026-10-25T23:49:21.525Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 761,
   "items": [
@@ -13476,7 +13476,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Roulette (ruretto)"
+      "name_en": null
     },
     {
       "id": "ecz-0732",
