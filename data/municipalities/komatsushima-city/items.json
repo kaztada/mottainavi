@@ -1,6 +1,6 @@
 {
   "municipality_id": "komatsushima-city",
-  "generated_at": "2026-10-26T10:29:10.682Z",
+  "generated_at": "2026-10-26T11:12:38.291Z",
   "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
   "item_count": 907,
   "items": [
@@ -5845,7 +5845,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flour bag (paper)"
     },
     {
       "id": "kms-0337",
@@ -5862,7 +5862,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flour bag (plastic)"
     },
     {
       "id": "kms-0338",
@@ -10526,7 +10526,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Batteries (rechargeable; excluding car batteries)"
     },
     {
       "id": "kms-0604",
@@ -10859,7 +10859,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kerosene pump (electric)"
     },
     {
       "id": "kms-0623",
@@ -11083,7 +11083,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint can (metal)"
     },
     {
       "id": "kms-0636",

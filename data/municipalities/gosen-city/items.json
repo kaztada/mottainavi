@@ -1,6 +1,6 @@
 {
   "municipality_id": "gosen-city",
-  "generated_at": "2026-10-24T19:35:38.391Z",
+  "generated_at": "2026-10-26T11:12:34.807Z",
   "source_url": "https://www.city.gosen.lg.jp/organization/3/opendata/10588.html",
   "item_count": 245,
   "items": [
@@ -468,7 +468,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Flowerpot (plastic)"
     },
     {
       "id": "gsn-0028",
@@ -3848,7 +3848,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home tank (stationary kerosene storage tank)"
     },
     {
       "id": "gsn-0216",
