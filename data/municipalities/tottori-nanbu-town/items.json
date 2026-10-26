@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-nanbu-town",
-  "generated_at": "2026-10-26T11:23:50.746Z",
+  "generated_at": "2026-10-26T16:09:18.267Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html",
   "item_count": 788,
   "items": [
@@ -1939,7 +1939,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Furniture (wood)"
     },
     {
       "id": "tnb-0110",
@@ -13127,7 +13127,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Sensor light (motion-sensor light)"
     },
     {
       "id": "tnb-0754",
