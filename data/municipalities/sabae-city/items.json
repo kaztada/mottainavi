@@ -1,6 +1,6 @@
 {
   "municipality_id": "sabae-city",
-  "generated_at": "2026-10-26T15:16:00.310Z",
+  "generated_at": "2026-10-26T15:27:45.516Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 967,
   "items": [
@@ -5158,7 +5158,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cosmetics container (metal)"
+      "name_en": "Cosmetics container (metal; excluding aerosol spray cans)"
     },
     {
       "id": "sbe-0289",
@@ -7560,7 +7560,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Swimming goggles / diving mask (non-plastic)"
+      "name_en": "Swimming goggles / diving mask (excluding all-plastic items)"
     },
     {
       "id": "sbe-0425",
@@ -10952,7 +10952,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Paint can (metal)"
+      "name_en": "Paint can (metal; excluding aerosol spray cans)"
     },
     {
       "id": "sbe-0611",
@@ -11346,7 +11346,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lactic acid beverage container (paper; white inside)"
+      "name_en": "Cultured milk drink container (paper; white inside)"
     },
     {
       "id": "sbe-0634",
@@ -11363,7 +11363,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lactic acid beverage container (plastic)"
+      "name_en": "Cultured milk drink container (plastic)"
     },
     {
       "id": "sbe-0635",
@@ -12310,7 +12310,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Metal wire (harigane)"
+      "name_en": "Thin metal wire (harigane)"
     },
     {
       "id": "sbe-0689",
@@ -13965,7 +13965,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Paint container (metal)"
+      "name_en": "Paint container (metal; excluding aerosol spray cans)"
     },
     {
       "id": "sbe-0783",
