@@ -1,6 +1,6 @@
 {
   "municipality_id": "hakusan-city",
-  "generated_at": "2026-10-24T19:26:43.046Z",
+  "generated_at": "2026-10-26T10:15:32.101Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation",
   "item_count": 1264,
   "items": [
@@ -18637,7 +18637,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mochi maker (household)"
     },
     {
       "id": "hks-1068",
@@ -20807,7 +20807,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Futon mattress (shikibuton)"
     },
     {
       "id": "hks-1194",
