@@ -1,6 +1,6 @@
 {
   "municipality_id": "komatsushima-city",
-  "generated_at": "2026-10-25T23:05:17.655Z",
+  "generated_at": "2026-10-25T23:16:33.816Z",
   "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
   "item_count": 907,
   "items": [
@@ -7151,7 +7151,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Garden stake (plant support pole)"
     },
     {
       "id": "kms-0413",
@@ -9672,7 +9672,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tubes (toothpaste etc.)"
     },
     {
       "id": "kms-0556",
