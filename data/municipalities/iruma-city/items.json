@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-26T16:09:17.256Z",
+  "generated_at": "2026-10-26T16:23:05.030Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -21673,7 +21673,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Screen / partition (room divider; excluding metal)"
+      "name_en": "Screen / partition (room divider)"
     },
     {
       "id": "irm-1258",

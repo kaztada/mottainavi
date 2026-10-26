@@ -1,6 +1,6 @@
 {
   "municipality_id": "hakusan-city",
-  "generated_at": "2026-10-26T16:09:15.035Z",
+  "generated_at": "2026-10-26T16:23:03.523Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation",
   "item_count": 1264,
   "items": [
@@ -118,7 +118,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Empty glass bottle (for food, drinks, medicine; excluding pesticide and poisonous chemical bottles)"
+      "name_en": "Empty glass bottle (for food, drinks, oral medicine; excluding pesticide and poisonous chemical bottles)"
     },
     {
       "id": "hks-0007",
@@ -959,7 +959,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Empty medicine bottle (glass; excluding bottles of poisonous or potent drugs)"
+      "name_en": "Empty medicine bottle (glass; oral medicine only; excluding poisonous or potent drugs)"
     },
     {
       "id": "hks-0055",
@@ -7593,7 +7593,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shovel (plastic)"
+      "name_en": "Shovel (plastic; small)"
     },
     {
       "id": "hks-0436",
@@ -8558,7 +8558,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Disposable contact lens container"
+      "name_en": "Blister pack (for disposable contact lenses)"
     },
     {
       "id": "hks-0491",
@@ -8779,7 +8779,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shovel (plastic)"
+      "name_en": "Shovel (plastic; large)"
     },
     {
       "id": "hks-0504",
@@ -8935,7 +8935,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Stainless steel mug bottle (insulated tumbler)"
+      "name_en": "Stainless steel insulated water bottle"
     },
     {
       "id": "hks-0513",
