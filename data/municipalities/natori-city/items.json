@@ -1,6 +1,6 @@
 {
   "municipality_id": "natori-city",
-  "generated_at": "2026-10-26T10:28:59.896Z",
+  "generated_at": "2026-10-26T10:39:05.049Z",
   "source_url": "https://miyagi.dataeye.jp/datasets/710",
   "item_count": 880,
   "items": [
@@ -8401,7 +8401,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tubes (metal)"
+      "name_en": "Squeeze tube (metal)"
     },
     {
       "id": "ntr-0482",
@@ -8418,7 +8418,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tubes (plastic)"
+      "name_en": "Squeeze tube (plastic)"
     },
     {
       "id": "ntr-0483",
@@ -10333,7 +10333,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Negative film"
+      "name_en": null
     },
     {
       "id": "ntr-0592",
@@ -11812,7 +11812,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Film (photographic)"
+      "name_en": null
     },
     {
       "id": "ntr-0678",
