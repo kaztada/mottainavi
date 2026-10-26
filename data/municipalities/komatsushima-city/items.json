@@ -1,6 +1,6 @@
 {
   "municipality_id": "komatsushima-city",
-  "generated_at": "2026-10-26T11:23:51.950Z",
+  "generated_at": "2026-10-26T15:38:18.712Z",
   "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
   "item_count": 907,
   "items": [
@@ -11083,7 +11083,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Paint can (metal)"
+      "name_en": "Paint can (metal; excluding 18 L cans)"
     },
     {
       "id": "kms-0636",

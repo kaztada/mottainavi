@@ -1,6 +1,6 @@
 {
   "municipality_id": "sabae-city",
-  "generated_at": "2026-10-26T15:27:45.516Z",
+  "generated_at": "2026-10-26T15:38:15.778Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 967,
   "items": [
@@ -4785,7 +4785,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fluorescent lamp (tube; 1.2 m or less)"
+      "name_en": "Fluorescent lamp (including tubes and compact fluorescent bulbs; 1.2 m or less)"
     },
     {
       "id": "sbe-0269",
@@ -5039,7 +5039,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "books-media",
-      "name_en": "Game software (CD, DVD)"
+      "name_en": "Video game discs (CD / DVD)"
     },
     {
       "id": "sbe-0282",
@@ -8429,7 +8429,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pruned branches and leaves"
+      "name_en": "Pruned branches and leaves (50 cm or less)"
     },
     {
       "id": "sbe-0474",
@@ -10343,7 +10343,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Light bulb"
+      "name_en": "Incandescent / LED light bulb (excluding fluorescent bulbs)"
     },
     {
       "id": "sbe-0579",
@@ -10506,7 +10506,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (dry-cell battery)"
+      "name_en": "Dry-cell battery (single-use)"
     },
     {
       "id": "sbe-0587",
@@ -10952,7 +10952,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Paint can (metal; excluding aerosol spray cans)"
+      "name_en": "Paint can (metal; excluding aerosol spray cans and unflattened 18 L cans)"
     },
     {
       "id": "sbe-0611",
@@ -11329,7 +11329,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Garden tree trimmings (pruning waste)"
+      "name_en": "Garden tree trimmings (over 50 cm, up to 2 m)"
     },
     {
       "id": "sbe-0633",
