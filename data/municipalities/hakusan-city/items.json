@@ -1,6 +1,6 @@
 {
   "municipality_id": "hakusan-city",
-  "generated_at": "2026-10-26T16:23:03.523Z",
+  "generated_at": "2026-10-26T16:30:50.771Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation",
   "item_count": 1264,
   "items": [
@@ -2287,7 +2287,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Storage-tank water heater (onsuiki)"
+      "name_en": "Hot water heater (onsuiki)"
     },
     {
       "id": "hks-0131",
@@ -8745,7 +8745,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Scale (metal)"
+      "name_en": null
     },
     {
       "id": "hks-0502",
@@ -15244,7 +15244,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bite-size jelly cup (gelatin dessert; plastic)"
+      "name_en": "Cup for bite-size jelly dessert (plastic)"
     },
     {
       "id": "hks-0873",
@@ -21085,7 +21085,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Nebulizer (stationary inhalation device)"
+      "name_en": "Inhaler (stationary type)"
     },
     {
       "id": "hks-1210",
