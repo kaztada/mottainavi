@@ -1,6 +1,6 @@
 {
   "municipality_id": "sabae-city",
-  "generated_at": "2026-10-26T15:38:15.778Z",
+  "generated_at": "2026-10-26T15:50:31.159Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 967,
   "items": [
@@ -583,7 +583,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Aroma oil (essential oil)"
+      "name_en": "Aroma oil (essential oil / fragrance oil)"
     },
     {
       "id": "sbe-0033",
@@ -4404,7 +4404,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fruit net (mesh bag)"
+      "name_en": "Fruit packaging net"
     },
     {
       "id": "sbe-0247",
