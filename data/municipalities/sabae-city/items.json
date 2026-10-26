@@ -1,6 +1,6 @@
 {
   "municipality_id": "sabae-city",
-  "generated_at": "2026-10-26T11:23:47.640Z",
+  "generated_at": "2026-10-26T15:16:00.310Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 967,
   "items": [
@@ -1413,7 +1413,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tree branches (pruned branches and leaves; 50 cm or less; up to 10 cm thick)"
+      "name_en": "Tree branches (pruned branches and leaves; 50 cm or less)"
     },
     {
       "id": "sbe-0079",
@@ -1430,7 +1430,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Tree branches (pruned branches and leaves; over 50 cm, up to 2 m; up to 10 cm thick)"
+      "name_en": "Tree branches (pruned branches and leaves; over 50 cm, up to 2 m)"
     },
     {
       "id": "sbe-0080",
@@ -3646,7 +3646,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wood scraps (pruned branches and leaves; 50 cm or less; up to 10 cm thick)"
+      "name_en": "Wood scraps (pruned branches and leaves; 50 cm or less)"
     },
     {
       "id": "sbe-0204",
@@ -3663,7 +3663,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wood scraps (pruned branches and leaves; over 50 cm, up to 2 m; up to 10 cm thick)"
+      "name_en": "Wood scraps (pruned branches and leaves; over 50 cm, up to 2 m)"
     },
     {
       "id": "sbe-0205",
@@ -3895,7 +3895,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Camping gas canister (isobutane canister)"
+      "name_en": "Camping gas canister (disposable fuel cartridge)"
     },
     {
       "id": "sbe-0218",
@@ -5609,7 +5609,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Children's play equipment"
+      "name_en": "Children's play equipment (excluding plastic and electrically powered items)"
     },
     {
       "id": "sbe-0314",
@@ -5626,7 +5626,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Children's play equipment (plastic)"
+      "name_en": "Children's play equipment (plastic; non-electric)"
     },
     {
       "id": "sbe-0315",
@@ -10596,7 +10596,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Door (doors, gates etc.)"
+      "name_en": null
     },
     {
       "id": "sbe-0592",
@@ -12123,7 +12123,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Computer (PC; monitor, laptop)"
+      "name_en": "Computer monitor / laptop computer"
     },
     {
       "id": "sbe-0678",
@@ -15902,7 +15902,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Skewers (yakitori)"
+      "name_en": "Wooden / bamboo skewers (for yakitori)"
     },
     {
       "id": "sbe-0893",
@@ -16830,7 +16830,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Lens (glass; from households)"
+      "name_en": null
     },
     {
       "id": "sbe-0945",
@@ -16988,7 +16988,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Waiya (type unconfirmed)"
+      "name_en": "Wire (waiya; type unconfirmed)"
     },
     {
       "id": "sbe-0954",

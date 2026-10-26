@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-26T11:23:38.598Z",
+  "generated_at": "2026-10-26T15:15:40.594Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -11615,7 +11615,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Swimming goggles / diving mask"
+      "name_en": "Swimming goggles / diving mask (excluding glass lenses and all-plastic items)"
     },
     {
       "id": "knz-0669",
@@ -25900,7 +25900,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Skewers (yakitori)"
+      "name_en": "Wooden / bamboo skewers (for yakitori)"
     },
     {
       "id": "knz-1490",
