@@ -1,6 +1,6 @@
 {
   "municipality_id": "natori-city",
-  "generated_at": "2026-10-26T10:39:05.049Z",
+  "generated_at": "2026-10-26T10:49:14.518Z",
   "source_url": "https://miyagi.dataeye.jp/datasets/710",
   "item_count": 880,
   "items": [
@@ -8828,7 +8828,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "DVD deck (player)"
+      "name_en": "DVD player / recorder (DVD deck)"
     },
     {
       "id": "ntr-0506",
@@ -12345,7 +12345,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sprayer (for home gardens; shoulder type)"
+      "name_en": "Pesticide sprayer (for home gardens; shoulder-carried)"
     },
     {
       "id": "ntr-0709",
@@ -12362,7 +12362,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sprayer (agricultural; backpack type)"
+      "name_en": "Pesticide sprayer (agricultural; backpack type)"
     },
     {
       "id": "ntr-0710",
@@ -14130,7 +14130,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mochi maker (household)"
+      "name_en": "Mochi maker (rice cake machine; household)"
     },
     {
       "id": "ntr-0812",

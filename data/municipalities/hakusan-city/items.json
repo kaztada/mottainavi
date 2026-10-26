@@ -1,6 +1,6 @@
 {
   "municipality_id": "hakusan-city",
-  "generated_at": "2026-10-26T10:15:32.101Z",
+  "generated_at": "2026-10-26T10:49:16.370Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172103_garbage_separation",
   "item_count": 1264,
   "items": [
@@ -18637,7 +18637,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Mochi maker (household)"
+      "name_en": "Mochi maker (rice cake machine; household)"
     },
     {
       "id": "hks-1068",
