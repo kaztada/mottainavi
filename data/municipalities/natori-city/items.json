@@ -1,6 +1,6 @@
 {
   "municipality_id": "natori-city",
-  "generated_at": "2026-10-26T10:15:29.809Z",
+  "generated_at": "2026-10-26T10:28:59.896Z",
   "source_url": "https://miyagi.dataeye.jp/datasets/710",
   "item_count": 880,
   "items": [
@@ -898,7 +898,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Disposable film camera (instant camera)"
+      "name_en": null
     },
     {
       "id": "ntr-0051",
@@ -2637,7 +2637,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bag (kaban)"
+      "name_en": "Bags (handbags, school bags, travel bags etc.)"
     },
     {
       "id": "ntr-0151",
@@ -7145,7 +7145,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": "Sweater (wool yarn)"
+      "name_en": "Sweater (yarn knit)"
     },
     {
       "id": "ntr-0410",
@@ -7201,7 +7201,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kerosene pump (siphon pump)"
+      "name_en": "Kerosene siphon pump (manual)"
     },
     {
       "id": "ntr-0413",
@@ -10841,7 +10841,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bag (kaban)"
+      "name_en": "Bags (handbags, school bags, travel bags etc.)"
     },
     {
       "id": "ntr-0621",
@@ -12311,7 +12311,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bath mat (for bathroom)"
+      "name_en": "Bath mat (plastic; for bathroom use)"
     },
     {
       "id": "ntr-0707",
@@ -12488,7 +12488,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "PET bottle / plastic bottle (beverage, food)"
+      "name_en": "PET plastic bottle (beverage, food)"
     },
     {
       "id": "ntr-0717",

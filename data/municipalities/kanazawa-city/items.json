@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-26T10:14:36.688Z",
+  "generated_at": "2026-10-26T10:28:22.048Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -1313,7 +1313,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Disposable film camera (instant camera)"
+      "name_en": null
     },
     {
       "id": "knz-0076",
