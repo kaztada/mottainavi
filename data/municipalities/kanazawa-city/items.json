@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-25T23:05:10.851Z",
+  "generated_at": "2026-10-26T10:28:22.048Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -757,7 +757,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Whisk"
     },
     {
       "id": "knz-0045",
@@ -7039,7 +7039,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fluorescent light fixture (lighting unit)"
     },
     {
       "id": "knz-0406",
