@@ -1,6 +1,6 @@
 {
   "municipality_id": "sabae-city",
-  "generated_at": "2026-10-26T11:12:21.979Z",
+  "generated_at": "2026-10-26T11:23:47.640Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 967,
   "items": [
@@ -2166,7 +2166,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Warm-water bidet toilet seat (Washlet type)"
+      "name_en": null
     },
     {
       "id": "sbe-0121",
@@ -2778,7 +2778,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gas water heater"
+      "name_en": null
     },
     {
       "id": "sbe-0155",
@@ -3376,7 +3376,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Glass lens (non-household; type unconfirmed)"
+      "name_en": null
     },
     {
       "id": "sbe-0189",
@@ -7299,7 +7299,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": "Cupboard (shokkidana; excluding doors and sliding panels)"
+      "name_en": "Cupboard (shokkidana; excluding building doors and sliding screens)"
     },
     {
       "id": "sbe-0410",
@@ -8256,7 +8256,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Jelly container / lid (paper)"
+      "name_en": "Jelly dessert container / lid (gelatin dessert etc.; paper)"
     },
     {
       "id": "sbe-0464",
@@ -8273,7 +8273,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Jelly container / lid (plastic)"
+      "name_en": "Jelly dessert container / lid (gelatin dessert etc.; plastic)"
     },
     {
       "id": "sbe-0465",
@@ -9387,7 +9387,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Heated toilet seat (with Washlet bidet)"
+      "name_en": null
     },
     {
       "id": "sbe-0528",
@@ -10523,7 +10523,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Batteries (rechargeable; excluding car batteries)"
+      "name_en": "Rechargeable batteries (excluding car and motorcycle batteries)"
     },
     {
       "id": "sbe-0588",
@@ -16208,7 +16208,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Small water heater (yuwakashiki; indoor-installed type)"
+      "name_en": "Water heater (yuwakashiki; indoor-installed type)"
     },
     {
       "id": "sbe-0911",
@@ -16225,7 +16225,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Small water heater (yuwakashiki; outdoor-installed type)"
+      "name_en": "Water heater (yuwakashiki; outdoor-installed type)"
     },
     {
       "id": "sbe-0912",
@@ -16988,7 +16988,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wire rope / cable (waiya; type unconfirmed)"
+      "name_en": "Waiya (type unconfirmed)"
     },
     {
       "id": "sbe-0954",

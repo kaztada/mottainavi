@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-26T11:12:31.798Z",
+  "generated_at": "2026-10-26T11:23:50.185Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -16164,7 +16164,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Swimming goggles / diving mask (non-plastic)"
+      "name_en": "Swimming goggles / diving mask (plastic)"
     },
     {
       "id": "irm-0939",
@@ -23731,7 +23731,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Batteries (rechargeable; excluding car batteries)"
+      "name_en": "Rechargeable batteries (excluding car and motorcycle batteries)"
     },
     {
       "id": "irm-1375",

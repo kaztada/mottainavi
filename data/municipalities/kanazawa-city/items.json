@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanazawa-city",
-  "generated_at": "2026-10-26T11:11:55.228Z",
+  "generated_at": "2026-10-26T11:23:38.598Z",
   "source_url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/172014-gomibunbetsujiten",
   "item_count": 1598,
   "items": [
@@ -11615,7 +11615,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Swimming goggles / diving mask (non-plastic)"
+      "name_en": "Swimming goggles / diving mask"
     },
     {
       "id": "knz-0669",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "komatsushima-city",
-  "generated_at": "2026-10-26T11:12:38.291Z",
+  "generated_at": "2026-10-26T11:23:51.950Z",
   "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
   "item_count": 907,
   "items": [
@@ -10526,7 +10526,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Batteries (rechargeable; excluding car batteries)"
+      "name_en": "Rechargeable batteries (excluding car and motorcycle batteries)"
     },
     {
       "id": "kms-0604",
