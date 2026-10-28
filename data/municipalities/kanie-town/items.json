@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanie-town",
-  "generated_at": "2026-10-28T00:43:51.191Z",
+  "generated_at": "2026-10-28T00:50:37.508Z",
   "source_url": "https://www.town.kanie.aichi.jp/soshiki/2/opendata.html",
   "item_count": 399,
   "items": [
@@ -1565,7 +1565,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dry-cell battery"
+      "name_en": "Dry-cell battery (single-use)"
     },
     {
       "id": "kne-0086",
@@ -1862,7 +1862,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Medicine bottle (oral medicine, tablets)"
+      "name_en": "Medicine bottle (glass; for oral medicine / tablets)"
     },
     {
       "id": "kne-0103",
@@ -2692,7 +2692,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Medicated patch (shippu)"
+      "name_en": "Pain relief patch (medicated patch; shippu)"
     },
     {
       "id": "kne-0149",
