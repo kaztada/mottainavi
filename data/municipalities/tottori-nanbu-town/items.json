@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-nanbu-town",
-  "generated_at": "2026-10-28T01:07:28.092Z",
+  "generated_at": "2026-10-28T07:26:22.424Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html",
   "item_count": 788,
   "items": [
@@ -95,7 +95,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty can (beverage/food)"
     },
     {
       "id": "tnb-0006",
@@ -118,7 +118,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty glass bottle (beverage/food; excluding returnable beer bottles from major Japanese brewers)"
     },
     {
       "id": "tnb-0007",
@@ -135,7 +135,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty box (paper; snack / candy boxes etc.)"
     },
     {
       "id": "tnb-0008",
@@ -158,7 +158,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Empty glass bottle (beer bottle from a major Japanese brewer)"
     },
     {
       "id": "tnb-0009",
@@ -245,7 +245,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paperboard (candy boxes etc.)"
     },
     {
       "id": "tnb-0014",
@@ -279,7 +279,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil (machine oil)"
     },
     {
       "id": "tnb-0016",
@@ -330,7 +330,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil can (cooking oil)"
     },
     {
       "id": "tnb-0019",
@@ -347,7 +347,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil can (other than cooking oil)"
     },
     {
       "id": "tnb-0020",
@@ -369,7 +369,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PET bottle (for oil; plastic bottle)"
     },
     {
       "id": "tnb-0021",
@@ -386,7 +386,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil bottle (plastic)"
     },
     {
       "id": "tnb-0022",
@@ -403,7 +403,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking oil bottle (glass)"
     },
     {
       "id": "tnb-0023",
@@ -420,7 +420,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Oil bottle (glass; other than cooking oil)"
     },
     {
       "id": "tnb-0024",
@@ -437,7 +437,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Raincoat (rain poncho; rainwear)"
     },
     {
       "id": "tnb-0025",
@@ -556,7 +556,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum container (for nabeyaki udon noodles etc.)"
     },
     {
       "id": "tnb-0032",
@@ -573,7 +573,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum range hood cover"
     },
     {
       "id": "tnb-0033",
@@ -1000,7 +1000,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Window air conditioner"
     },
     {
       "id": "tnb-0057",
@@ -1051,7 +1051,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wet wipes (wet tissues)"
     },
     {
       "id": "tnb-0060",
@@ -1201,7 +1201,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pruning shears (branch cutters)"
     },
     {
       "id": "tnb-0068",
@@ -1218,7 +1218,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Branches"
     },
     {
       "id": "tnb-0069",
@@ -1254,7 +1254,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "MO disk (magneto-optical disk) / MO drive"
     },
     {
       "id": "tnb-0071",
@@ -1271,7 +1271,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "MD (MiniDisc) / MD player"
     },
     {
       "id": "tnb-0072",
@@ -1308,7 +1308,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PVC pipe (vinyl chloride pipe)"
     },
     {
       "id": "tnb-0074",
@@ -1359,7 +1359,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Extension cord reel (retractable drum type)"
     },
     {
       "id": "tnb-0077",
@@ -1410,7 +1410,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Floral foam (Oasis; water-absorbing sponge for cut flowers)"
     },
     {
       "id": "tnb-0080",
@@ -1444,7 +1444,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bottle crown cap (metal)"
     },
     {
       "id": "tnb-0082",
@@ -1672,7 +1672,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Folding desk (metal)"
     },
     {
       "id": "tnb-0095",
@@ -1706,7 +1706,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Solar water heater (onsuiki; sun heater)"
     },
     {
       "id": "tnb-0097",
@@ -1723,7 +1723,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thermometer (alcohol-filled)"
     },
     {
       "id": "tnb-0098",
@@ -2219,7 +2219,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Butane gas canister (cassette-type; for portable gas stove)"
     },
     {
       "id": "tnb-0126",
@@ -2355,7 +2355,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hammer (tool)"
     },
     {
       "id": "tnb-0134",
@@ -2377,7 +2377,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bag (leather, vinyl)"
     },
     {
       "id": "tnb-0135",
@@ -2411,7 +2411,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kama (cooking pot; tea ceremony kettle, hagama rice pot etc.)"
     },
     {
       "id": "tnb-0137",
@@ -2445,7 +2445,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Disposable diaper (paper diaper)"
     },
     {
       "id": "tnb-0139",
@@ -2496,7 +2496,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper carton (500 ml or more)"
     },
     {
       "id": "tnb-0142",
@@ -2666,7 +2666,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Can opener"
     },
     {
       "id": "tnb-0152",
@@ -2717,7 +2717,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Can for canned goods (food)"
     },
     {
       "id": "tnb-0155",
@@ -2734,7 +2734,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wood plane (kanna; tool)"
     },
     {
       "id": "tnb-0156",
@@ -2768,7 +2768,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Beer can / juice can"
     },
     {
       "id": "tnb-0158",
@@ -2785,7 +2785,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wood"
     },
     {
       "id": "tnb-0159",
@@ -2836,7 +2836,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Keyboard (for PC, word processor)"
     },
     {
       "id": "tnb-0162",
@@ -2948,7 +2948,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheeled suitcase (carry case) / suitcase"
     },
     {
       "id": "tnb-0168",
@@ -3036,7 +3036,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kerosene pump (battery-powered)"
     },
     {
       "id": "tnb-0173",
@@ -3172,7 +3172,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Grass trimmer / brush cutter (electric motor; excluding engine-powered)"
     },
     {
       "id": "tnb-0181",
@@ -3240,7 +3240,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aluminum foil from medicine packaging (blister pack)"
     },
     {
       "id": "tnb-0185",
@@ -3257,7 +3257,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fruit protective packaging (net type, paper)"
     },
     {
       "id": "tnb-0186",
@@ -3312,7 +3312,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ground golf club (wood)"
     },
     {
       "id": "tnb-0189",
@@ -3329,7 +3329,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ground golf ball (non-wood)"
     },
     {
       "id": "tnb-0190",
@@ -3397,7 +3397,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Crayons / oil pastels (Cray-Pas)"
     },
     {
       "id": "tnb-0194",
@@ -3485,7 +3485,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Diatomaceous earth products (bath mats, coasters etc.; excluding those containing asbestos)"
     },
     {
       "id": "tnb-0199",
@@ -3602,7 +3602,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cosmetic bottle (glass)"
     },
     {
       "id": "tnb-0205",
@@ -3619,7 +3619,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cosmetic spray (aerosol can)"
     },
     {
       "id": "tnb-0206",
@@ -3687,7 +3687,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Blood pressure monitor (electric, battery-powered)"
     },
     {
       "id": "tnb-0210",
@@ -3772,7 +3772,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Melodica (keyboard harmonica; Pianica)"
     },
     {
       "id": "tnb-0215",
@@ -3823,7 +3823,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Goggles (ski, swimming)"
     },
     {
       "id": "tnb-0218",
@@ -3908,7 +3908,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Old paper (wastepaper)"
     },
     {
       "id": "tnb-0223",
@@ -3925,7 +3925,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Kotatsu (heated table; wood frame; excluding heating unit)"
     },
     {
       "id": "tnb-0224",
@@ -3942,7 +3942,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kotatsu tabletop (wood)"
     },
     {
       "id": "tnb-0225",
@@ -3959,7 +3959,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kotatsu heating unit"
     },
     {
       "id": "tnb-0226",
@@ -4046,7 +4046,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Copier (small home-use)"
     },
     {
       "id": "tnb-0231",
@@ -4063,7 +4063,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rubber products (rubber gloves, rubber boots etc.)"
     },
     {
       "id": "tnb-0232",
@@ -4182,7 +4182,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Compost bin (composter; kitchen waste container)"
     },
     {
       "id": "tnb-0239",
@@ -4199,7 +4199,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet playpen (pet circle)"
     },
     {
       "id": "tnb-0240",
@@ -4284,7 +4284,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home medical supplies (syringes etc.)"
     },
     {
       "id": "tnb-0245",
@@ -4301,7 +4301,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home medical supplies (tubes etc.; excluding syringes)"
     },
     {
       "id": "tnb-0246",
@@ -4318,7 +4318,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sake / liquor bottle (isshobin; 1.8 L glass bottle)"
     },
     {
       "id": "tnb-0247",
@@ -4352,7 +4352,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Indoor broom (zashiki-boki)"
     },
     {
       "id": "tnb-0249",
@@ -4369,7 +4369,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Booklets"
     },
     {
       "id": "tnb-0250",
@@ -4511,7 +4511,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking oil bottle (plastic; salad oil)"
     },
     {
       "id": "tnb-0258",
@@ -4545,7 +4545,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tripod (for cameras, video cameras)"
     },
     {
       "id": "tnb-0260",
@@ -4579,7 +4579,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Sander (tool)"
     },
     {
       "id": "tnb-0262",
@@ -4654,7 +4654,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "CD radio cassette player / CD player"
     },
     {
       "id": "tnb-0266",
@@ -4671,7 +4671,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Gel pad (mat)"
     },
     {
       "id": "tnb-0267",
@@ -4758,7 +4758,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Encyclopedias / dictionaries"
     },
     {
       "id": "tnb-0272",
@@ -4797,7 +4797,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bicycle air pump"
     },
     {
       "id": "tnb-0275",
@@ -4831,7 +4831,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Craft beer bottle (local beer; glass)"
     },
     {
       "id": "tnb-0277",
@@ -4882,7 +4882,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Container for shampoo or similar products (excluding pump)"
     },
     {
       "id": "tnb-0280",
@@ -4899,7 +4899,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pump dispenser (from shampoo bottles etc.)"
     },
     {
       "id": "tnb-0281",
@@ -4950,7 +4950,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rechargeable battery (excluding car batteries)"
+      "name_en": "Rechargeable battery (small household types; excluding car, motorcycle and e-bike batteries)"
     },
     {
       "id": "tnb-0284",
@@ -5001,7 +5001,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Instant water heater (kitchen)"
     },
     {
       "id": "tnb-0287",
@@ -5069,7 +5069,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soy sauce bottle (glass)"
     },
     {
       "id": "tnb-0291",
@@ -5214,7 +5214,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooking oil bottle (plastic)"
     },
     {
       "id": "tnb-0299",
@@ -5268,7 +5268,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Herbicide container (household use only)"
     },
     {
       "id": "tnb-0302",
@@ -5359,7 +5359,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paint thinner can"
     },
     {
       "id": "tnb-0307",
@@ -5413,7 +5413,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Submersible pump (motor-driven; small household type)"
     },
     {
       "id": "tnb-0310",
@@ -5447,7 +5447,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water pipe (PVC)"
     },
     {
       "id": "tnb-0312",
@@ -5829,7 +5829,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Speaker (for stereo)"
     },
     {
       "id": "tnb-0334",
@@ -5988,7 +5988,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fiber cement sheet (cement slate)"
     },
     {
       "id": "tnb-0343",
@@ -6129,7 +6129,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chinaware (ceramics)"
     },
     {
       "id": "tnb-0351",
@@ -6180,7 +6180,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Detergent container"
     },
     {
       "id": "tnb-0354",
@@ -6197,7 +6197,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Powdered laundry detergent container"
     },
     {
       "id": "tnb-0355",
@@ -6415,7 +6415,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tire (other than bicycle and wheelbarrow tires)"
     },
     {
       "id": "tnb-0367",
@@ -6534,7 +6534,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tatesu (standing reed screen)"
     },
     {
       "id": "tnb-0374",
@@ -6551,7 +6551,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Egg carton (plastic)"
     },
     {
       "id": "tnb-0375",
@@ -6681,7 +6681,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chain (tire chains for cars)"
     },
     {
       "id": "tnb-0382",
@@ -6715,7 +6715,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Storage battery (excluding small rechargeable batteries)"
     },
     {
       "id": "tnb-0384",
@@ -6732,7 +6732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carbide-tipped saw blade (chip saw)"
     },
     {
       "id": "tnb-0385",
@@ -6819,7 +6819,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tube container (mustard, wasabi etc.)"
     },
     {
       "id": "tnb-0390",
@@ -6870,7 +6870,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cane / walking stick (non-wood)"
     },
     {
       "id": "tnb-0393",
@@ -6887,7 +6887,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Desk / table (wood)"
     },
     {
       "id": "tnb-0394",
@@ -7154,7 +7154,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Digital video camera"
     },
     {
       "id": "tnb-0409",
@@ -7412,7 +7412,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Electronic organ (Electone etc.)"
     },
     {
       "id": "tnb-0423",
@@ -7489,7 +7489,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (dry-cell battery)"
+      "name_en": "Battery (single-use dry-cell; alkaline / manganese)"
     },
     {
       "id": "tnb-0427",
@@ -7523,7 +7523,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (small rechargeable battery)"
     },
     {
       "id": "tnb-0429",
@@ -7715,7 +7715,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Kerosene can"
     },
     {
       "id": "tnb-0440",
@@ -7822,7 +7822,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Printer toner (toner cartridge)"
     },
     {
       "id": "tnb-0446",
@@ -7927,7 +7927,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Drink bottle (glass; energy drink bottles etc.)"
     },
     {
       "id": "tnb-0452",
@@ -8016,7 +8016,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dressing container (glass)"
     },
     {
       "id": "tnb-0457",
@@ -8033,7 +8033,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mud (gutter sludge etc.)"
     },
     {
       "id": "tnb-0458",
@@ -8050,7 +8050,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fish box (torobako; Styrofoam (polystyrene foam))"
     },
     {
       "id": "tnb-0459",
@@ -8155,7 +8155,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Corrugated galvanized iron sheet (nami-totan)"
     },
     {
       "id": "tnb-0465",
@@ -8172,7 +8172,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Nickel-cadmium battery (rechargeable)"
     },
     {
       "id": "tnb-0466",
@@ -8189,7 +8189,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sake bottle (glass)"
     },
     {
       "id": "tnb-0467",
@@ -8277,7 +8277,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheelbarrow tire (nekoguruma)"
     },
     {
       "id": "tnb-0472",
@@ -8328,7 +8328,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Agricultural plastic film / sheet"
     },
     {
       "id": "tnb-0475",
@@ -8362,7 +8362,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bottles / cans of pesticides etc."
     },
     {
       "id": "tnb-0477",
@@ -8435,7 +8435,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Nori (seaweed) jar / can"
     },
     {
       "id": "tnb-0481",
@@ -8505,7 +8505,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Pipe-frame bed (excluding mattress)"
     },
     {
       "id": "tnb-0485",
@@ -8556,7 +8556,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Incandescent lamp (incandescent light bulb)"
     },
     {
       "id": "tnb-0488",
@@ -8607,7 +8607,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ladder (aluminum)"
     },
     {
       "id": "tnb-0491",
@@ -8630,7 +8630,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Computer (PC) / computer monitor"
     },
     {
       "id": "tnb-0492",
@@ -8647,7 +8647,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Computer desk / rack"
     },
     {
       "id": "tnb-0493",
@@ -8698,7 +8698,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (for cars, motorcycles)"
     },
     {
       "id": "tnb-0496",
@@ -8749,7 +8749,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Styrofoam (polystyrene foam) products"
     },
     {
       "id": "tnb-0499",
@@ -8766,7 +8766,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Badminton shuttlecock"
     },
     {
       "id": "tnb-0500",
@@ -8970,7 +8970,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Bread maker (home bakery)"
     },
     {
       "id": "tnb-0512",
@@ -9060,7 +9060,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Beer bottle (major Japanese brewers)"
     },
     {
       "id": "tnb-0517",
@@ -9080,7 +9080,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Beer bottle (other than major Japanese brewers)"
     },
     {
       "id": "tnb-0518",
@@ -9097,7 +9097,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Shaver / razor (electric)"
     },
     {
       "id": "tnb-0519",
@@ -9250,7 +9250,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fertilizer (solid, liquid)"
     },
     {
       "id": "tnb-0528",
@@ -9318,7 +9318,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fabric wardrobe (fancy case; pipe-frame)"
     },
     {
       "id": "tnb-0532",
@@ -9352,7 +9352,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Booster cables (jumper cables; for cars)"
     },
     {
       "id": "tnb-0534",
@@ -9454,7 +9454,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fusuma (sliding door)"
     },
     {
       "id": "tnb-0540",
@@ -9596,7 +9596,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic storage case (including small organizer boxes)"
     },
     {
       "id": "tnb-0548",
@@ -9862,7 +9862,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bed (wood)"
     },
     {
       "id": "tnb-0564",
@@ -9879,7 +9879,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet collar"
     },
     {
       "id": "tnb-0565",
@@ -9930,7 +9930,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Pet toilet pad (pee pad)"
     },
     {
       "id": "tnb-0568",
@@ -9986,7 +9986,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "PET bottle (plastic bottle; with PET recycling mark; excluding oil bottles)"
     },
     {
       "id": "tnb-0571",
@@ -10037,7 +10037,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plywood board"
     },
     {
       "id": "tnb-0574",
@@ -10071,7 +10071,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Baby chair (wood)"
     },
     {
       "id": "tnb-0576",
@@ -10230,7 +10230,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Toilet seat (including heated and bidet seats)"
     },
     {
       "id": "tnb-0585",
@@ -10281,7 +10281,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheel (bicycle etc.)"
     },
     {
       "id": "tnb-0588",
@@ -10298,7 +10298,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Boiler (kerosene)"
     },
     {
       "id": "tnb-0589",
@@ -10454,7 +10454,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hose (vinyl, rubber)"
     },
     {
       "id": "tnb-0598",
@@ -10488,7 +10488,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bedside commode (portable toilet; for nursing care)"
     },
     {
       "id": "tnb-0600",
@@ -10505,7 +10505,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Portable electric cooler / warmer"
     },
     {
       "id": "tnb-0601",
@@ -10522,7 +10522,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Inflatable boat (rubber, vinyl)"
     },
     {
       "id": "tnb-0602",
@@ -10681,7 +10681,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic jerry can (poly tank; for kerosene etc.)"
     },
     {
       "id": "tnb-0611",
@@ -10715,7 +10715,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ice pack (gel-filled; excluding hard plastic cases)"
     },
     {
       "id": "tnb-0613",
@@ -10732,7 +10732,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ice pack (hard plastic case)"
     },
     {
       "id": "tnb-0614",
@@ -10904,7 +10904,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Crutches"
     },
     {
       "id": "tnb-0624",
@@ -10938,7 +10938,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Nail polish bottle"
     },
     {
       "id": "tnb-0626",
@@ -10974,7 +10974,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mulch sheet (agricultural plastic sheet)"
     },
     {
       "id": "tnb-0628",
@@ -10991,7 +10991,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "books-media",
-      "name_en": null
+      "name_en": "Comic books (manga)"
     },
     {
       "id": "tnb-0629",
@@ -11025,7 +11025,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Sewing machine (electronic)"
     },
     {
       "id": "tnb-0631",
@@ -11283,7 +11283,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Concrete base of laundry pole stand"
     },
     {
       "id": "tnb-0646",
@@ -11334,7 +11334,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Yakiniku sauce bottle (barbecue sauce; glass)"
     },
     {
       "id": "tnb-0649",
@@ -11351,7 +11351,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Grill grate / iron griddle plate (for yakiniku)"
     },
     {
       "id": "tnb-0650",
@@ -11385,7 +11385,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Baseball (rubber ball, hardball)"
     },
     {
       "id": "tnb-0652",
@@ -11419,7 +11419,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Teacup (yunomi)"
     },
     {
       "id": "tnb-0654",
@@ -11558,7 +11558,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Ramune bottle (marble soda bottle; glass)"
     },
     {
       "id": "tnb-0662",
@@ -11609,7 +11609,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Treadmill (running machine)"
     },
     {
       "id": "tnb-0665",
@@ -11728,7 +11728,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fishing lure"
     },
     {
       "id": "tnb-0672",
@@ -11762,7 +11762,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Water cooler (drinking water dispenser; excluding commercial refrigerant units)"
     },
     {
       "id": "tnb-0674",
@@ -11920,7 +11920,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wax paper (waxed paper)"
     },
     {
       "id": "tnb-0683",
@@ -11971,7 +11971,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wiper blade (windshield wiper)"
     },
     {
       "id": "tnb-0686",
@@ -12073,7 +12073,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tights / leggings (spats)"
     },
     {
       "id": "tnb-0692",
@@ -12379,7 +12379,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Aze sheet (rice paddy levee sheet)"
     },
     {
       "id": "tnb-0710",
@@ -12396,7 +12396,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Paper core / cardboard tube"
     },
     {
       "id": "tnb-0711",
@@ -12617,7 +12617,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bamboo crafts (bamboo work)"
     },
     {
       "id": "tnb-0724",
@@ -12651,7 +12651,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food storage bag"
     },
     {
       "id": "tnb-0726",
@@ -12702,7 +12702,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Charger / charging cable (excluding power banks / mobile batteries)"
     },
     {
       "id": "tnb-0729",
@@ -12719,7 +12719,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Containers of poisons / deleterious substances"
     },
     {
       "id": "tnb-0730",
@@ -12736,7 +12736,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Agricultural containers"
     },
     {
       "id": "tnb-0731",
@@ -12770,7 +12770,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Soil and sand / rubble"
     },
     {
       "id": "tnb-0733",
@@ -12787,7 +12787,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Propane gas (propane cylinder)"
     },
     {
       "id": "tnb-0734",
@@ -12804,7 +12804,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Excrement (feces and urine)"
     },
     {
       "id": "tnb-0735",
@@ -12821,7 +12821,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Containers with oil / paint residue"
     },
     {
       "id": "tnb-0736",
@@ -12838,7 +12838,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "instruments",
-      "name_en": null
+      "name_en": "Organ (wood)"
     },
     {
       "id": "tnb-0737",
@@ -12889,7 +12889,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Induction cooktop / IH stove (tabletop)"
     },
     {
       "id": "tnb-0740",
@@ -12923,7 +12923,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Skin lotion (toner) container (plastic)"
     },
     {
       "id": "tnb-0742",
@@ -12974,7 +12974,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Towel / bath towel"
     },
     {
       "id": "tnb-0745",
@@ -13093,7 +13093,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Unit tatami / placeable tatami mat (oki-datami)"
     },
     {
       "id": "tnb-0752",
@@ -13110,7 +13110,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bath brush (bathtub scrubbing brush)"
     },
     {
       "id": "tnb-0753",
@@ -13144,7 +13144,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lighter wand (utility lighter)"
     },
     {
       "id": "tnb-0755",
@@ -13161,7 +13161,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Liquid detergent"
     },
     {
       "id": "tnb-0756",
@@ -13178,7 +13178,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Plastic jerry can cap (poly tank lid)"
     },
     {
       "id": "tnb-0757",
@@ -13195,7 +13195,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cat scratcher (cardboard)"
     },
     {
       "id": "tnb-0758",
@@ -13263,7 +13263,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Safety cone (traffic cone)"
     },
     {
       "id": "tnb-0762",
@@ -13280,7 +13280,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wheel / rim (without tire; excluding bicycle and wheelbarrow wheels)"
     },
     {
       "id": "tnb-0273",
@@ -13319,7 +13319,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bag (cloth)"
     },
     {
       "id": "tnb-0764",
@@ -13438,7 +13438,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Lipstick / lip balm"
     },
     {
       "id": "tnb-0771",
@@ -13455,7 +13455,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hair dye container"
     },
     {
       "id": "tnb-0772",
@@ -13472,7 +13472,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Makeup containers (eyeshadow, foundation etc.)"
     },
     {
       "id": "tnb-0773",
@@ -13523,7 +13523,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Capsule toy container (gachapon capsule)"
     },
     {
       "id": "tnb-0776",
@@ -13540,7 +13540,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "SIM card"
     },
     {
       "id": "tnb-0777",
@@ -13578,7 +13578,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Small refrigerator / small freezer"
     },
     {
       "id": "tnb-0779",
@@ -13612,7 +13612,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Eye drop container (plastic)"
     },
     {
       "id": "tnb-0781",
@@ -13629,7 +13629,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (rusty single-use dry-cell; alkaline / manganese)"
     },
     {
       "id": "tnb-0782",
@@ -13646,7 +13646,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Hair removal device (epilator)"
     },
     {
       "id": "tnb-0783",
@@ -13769,7 +13769,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": null
+      "name_en": "Radio-controlled toy (battery-powered)"
     }
   ]
 }
