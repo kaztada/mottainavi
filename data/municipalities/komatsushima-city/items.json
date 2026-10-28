@@ -1,6 +1,6 @@
 {
   "municipality_id": "komatsushima-city",
-  "generated_at": "2026-10-28T07:48:52.789Z",
+  "generated_at": "2026-10-28T07:58:44.747Z",
   "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
   "item_count": 907,
   "items": [
@@ -3673,7 +3673,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Carry bag (for babies; cloth)"
+      "name_en": "Baby carrier (carrying bag; cloth)"
     },
     {
       "id": "kms-0211",
@@ -10232,7 +10232,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Gloves (cloth, leather, wool yarn)"
+      "name_en": "Gloves (cloth, leather, yarn)"
     },
     {
       "id": "kms-0588",
@@ -10672,7 +10672,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Telephone (including with fax)"
+      "name_en": "Telephone (including models with fax)"
     },
     {
       "id": "kms-0612",
