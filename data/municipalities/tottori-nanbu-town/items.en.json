@@ -8,7 +8,7 @@
   "化粧スプレー": "Cosmetic spray (aerosol can)",
   "こたつ(木製)": "Kotatsu (heated table; wood frame; excluding heating unit)",
   "在宅医療用具(チューブ類など)": "Home medical supplies (tubes etc.; excluding syringes)",
-  "サラダ油（プラスチック）": "Salad oil (plastic bottle)",
+  "サラダ油（プラスチック）": "Cooking oil bottle (plastic; salad oil)",
   "シャンプーなどの容器": "Shampoo etc. container (excluding pump)",
   "水中ポンプ(モーター式)": "Submersible pump (motor-driven; small household type)",
   "卵パック": "Egg carton (plastic)",
@@ -24,5 +24,6 @@
   "保冷剤（中がジェル状のもの）": "Ice pack (gel-filled; excluding hard plastic cases)",
   "充電池": "Rechargeable battery (small household types; excluding car, motorcycle and e-bike batteries)",
   "電池（乾電池）": "Battery (single-use dry-cell; alkaline / manganese)",
-  "充電器・充電コード": "Charger / charging cable (excluding power banks / mobile batteries)"
+  "充電器・充電コード": "Charger / charging cable (excluding power banks / mobile batteries)",
+  "ホイール（自転車、ねこ車以外）": "Wheel / rim (without tire; excluding bicycle and wheelbarrow wheels)"
 }

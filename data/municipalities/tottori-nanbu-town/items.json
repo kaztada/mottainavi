@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-nanbu-town",
-  "generated_at": "2026-10-28T07:04:31.068Z",
+  "generated_at": "2026-10-28T07:12:48.555Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html",
   "item_count": 788,
   "items": [
@@ -4511,7 +4511,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Salad oil (plastic bottle)"
+      "name_en": "Cooking oil bottle (plastic; salad oil)"
     },
     {
       "id": "tnb-0258",
@@ -13280,7 +13280,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wheel (other than bicycle and wheelbarrow wheels)"
+      "name_en": "Wheel / rim (without tire; excluding bicycle and wheelbarrow wheels)"
     },
     {
       "id": "tnb-0273",
