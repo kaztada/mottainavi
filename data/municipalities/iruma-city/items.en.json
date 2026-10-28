@@ -30,7 +30,7 @@
   "ストーブ(電気式・燃料式・ガス式)": "Heater (stove; electric, fuel-burning, gas; excluding pot-belly stoves)",
   "石油タンク(屋外固定式)": "Kerosene tank (outdoor stationary type; up to 100 L)",
   "石油ポンプ(手動式・電池式)": "Kerosene pump (manual, battery-operated; excluding manual plastic ones)",
-  "石鹸皿": "Soap dish (excluding ceramic)",
+  "石鹸皿": "Soap dish (plastic only)",
   "タブレットケース": "Tablet case",
   "茶煎": "Tea whisk (chasen)",
   "彫刻刃": "Carving chisel (carving blade)",
@@ -50,7 +50,7 @@
   "ハエ帳(食卓用)": "Food cover (haicho; mesh fly screen for the dining table)",
   "梯子（はしご）": "Ladder (up to 3 m)",
   "柱": "Pillar (post)",
-  "発煙筒(自動車用)": "Smoke flare (for cars; unused)",
+  "発煙筒(自動車用)": "Road flare (automotive emergency flare; unused)",
   "引き戸(木製)": "Sliding door (wood; indoor)",
   "引き戸(スチール製・アルミ製)": "Sliding door (steel, aluminum; indoor)",
   "肥料袋(ビニール製)": "Fertilizer bag (vinyl; excluding agricultural use)",
@@ -68,5 +68,6 @@
   "冷水筒（冷水ポット）(プラスチック製・ガラス製)": "Cold water pitcher (plastic, glass; excluding all-plastic ones)",
   "Ｓ字フック（Ｓカン）": "S-hook (excluding plastic)",
   "電気温水器": "Electric water heater (excluding off-peak storage types)",
-  "雨合羽（あまがっぱ）": "Raincoat / rain poncho (vinyl)"
+  "雨合羽（あまがっぱ）": "Raincoat / rain poncho (vinyl)",
+  "鉢（はち）（プラスチック製）": "Planter pot (hachi; plastic)"
 }

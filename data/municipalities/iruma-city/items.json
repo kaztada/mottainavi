@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-28T08:27:42.938Z",
+  "generated_at": "2026-10-28T08:38:59.448Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -1919,7 +1919,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Seal ink paste (inden; for calligraphy and painting seals)"
+      "name_en": "Seal ink paste (indei; for calligraphy and painting seals)"
     },
     {
       "id": "irm-0113",
@@ -14834,7 +14834,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Jet heater (forced-air space heater)"
+      "name_en": "Jet heater (industrial portable heater; forced-air or radiant)"
     },
     {
       "id": "irm-0862",
@@ -18260,7 +18260,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Soap dish (excluding ceramic)"
+      "name_en": "Soap dish (plastic only)"
     },
     {
       "id": "irm-1060",
@@ -27291,7 +27291,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bowl / planter pot (hachi; plastic)"
+      "name_en": "Planter pot (hachi; plastic)"
     },
     {
       "id": "irm-1582",
@@ -27342,7 +27342,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Smoke flare (for cars; unused)"
+      "name_en": "Road flare (automotive emergency flare; unused)"
     },
     {
       "id": "irm-1585",
