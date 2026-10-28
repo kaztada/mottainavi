@@ -1,6 +1,6 @@
 {
   "municipality_id": "takahama-town",
-  "generated_at": "2026-10-28T01:07:30.353Z",
+  "generated_at": "2026-10-28T01:16:19.232Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 415,
   "items": [
@@ -772,7 +772,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Toys (plastic)"
+      "name_en": "Toys (plastic; excluding battery-powered / electric toys)"
     },
     {
       "id": "tkh-0043",
@@ -945,7 +945,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hand warmer (kairo) / disposable hand warmer"
+      "name_en": "Hand warmer (kairo; excluding electric / battery-powered models) / disposable hand warmer"
     },
     {
       "id": "tkh-0052",
@@ -2048,7 +2048,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Medicine case (for capsules)"
+      "name_en": null
     },
     {
       "id": "tkh-0114",
@@ -3605,7 +3605,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Slate (roofing material)"
+      "name_en": "Slate / fiber-cement sheets (building material)"
     },
     {
       "id": "tkh-0202",
@@ -4540,7 +4540,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electrical appliances (excluding air conditioners, TVs, refrigerators / freezers, washing machines, clothes dryers, PCs, mobile phones, smartphones and tablets)"
+      "name_en": "Electrical appliances (excluding air conditioners, TVs, refrigerators / freezers, electric cooling / warming cabinets, washing machines, clothes dryers, PCs, mobile phones, smartphones and tablets)"
     },
     {
       "id": "tkh-0253",
@@ -5596,7 +5596,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooking tray (prep tray / vat; metal)"
+      "name_en": "Cooking tray (prep tray; metal)"
     },
     {
       "id": "tkh-0313",
@@ -5630,7 +5630,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cooking tray (prep tray / vat; plastic)"
+      "name_en": "Cooking tray (prep tray; plastic)"
     },
     {
       "id": "tkh-0315",
