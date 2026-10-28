@@ -19,7 +19,9 @@
   "ペットボトル(リサイクルマークが表示されているもの)": "PET bottle (plastic bottle; with PET recycling mark; excluding oil bottles)",
   "ポータブル温冷庫": "Portable electric cooler / warmer",
   "冷水機": "Water cooler (drinking water dispenser; excluding commercial refrigerant units)",
-  "ネームペン": "Name pen (name-stamp pen / name-writing marker)",
   "小型冷蔵庫・小型冷凍庫": "Small refrigerator / small freezer",
-  "錆びた電池（乾電池）": "Battery (rusty dry-cell; alkaline / manganese)"
+  "錆びた電池（乾電池）": "Battery (rusty single-use dry-cell; alkaline / manganese)",
+  "保冷剤（中がジェル状のもの）": "Ice pack (gel-filled; excluding hard plastic cases)",
+  "充電池": "Rechargeable battery (small household types; excluding car, motorcycle and e-bike batteries)",
+  "電池（乾電池）": "Battery (single-use dry-cell; alkaline / manganese)"
 }

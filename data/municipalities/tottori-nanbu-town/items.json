@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-nanbu-town",
-  "generated_at": "2026-10-28T06:40:02.696Z",
+  "generated_at": "2026-10-28T06:51:37.453Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html",
   "item_count": 788,
   "items": [
@@ -2411,7 +2411,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kama (iron pot; tea ceremony kettle, hagama rice pot etc.)"
+      "name_en": "Kama (cooking pot; tea ceremony kettle, hagama rice pot etc.)"
     },
     {
       "id": "tnb-0137",
@@ -4950,7 +4950,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rechargeable battery (excluding car batteries)"
+      "name_en": "Rechargeable battery (small household types; excluding car, motorcycle and e-bike batteries)"
     },
     {
       "id": "tnb-0284",
@@ -7489,7 +7489,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (dry-cell battery)"
+      "name_en": "Battery (single-use dry-cell; alkaline / manganese)"
     },
     {
       "id": "tnb-0427",
@@ -10715,7 +10715,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Ice pack (gel-filled)"
+      "name_en": "Ice pack (gel-filled; excluding hard plastic cases)"
     },
     {
       "id": "tnb-0613",
@@ -12328,7 +12328,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Name pen (name-stamp pen / name-writing marker)"
+      "name_en": null
     },
     {
       "id": "tnb-0707",
@@ -13629,7 +13629,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (rusty dry-cell; alkaline / manganese)"
+      "name_en": "Battery (rusty single-use dry-cell; alkaline / manganese)"
     },
     {
       "id": "tnb-0782",
