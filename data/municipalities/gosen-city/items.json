@@ -1,6 +1,6 @@
 {
   "municipality_id": "gosen-city",
-  "generated_at": "2026-10-26T16:09:19.065Z",
+  "generated_at": "2026-10-28T00:13:18.943Z",
   "source_url": "https://www.city.gosen.lg.jp/organization/3/opendata/10588.html",
   "item_count": 245,
   "items": [
@@ -279,7 +279,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Chair (wood)"
     },
     {
       "id": "gsn-0017",
@@ -381,7 +381,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothing (isho)"
     },
     {
       "id": "gsn-0023",
@@ -400,7 +400,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clothes dryer"
     },
     {
       "id": "gsn-0024",
@@ -686,7 +686,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bottle cap (crown cap)"
     },
     {
       "id": "gsn-0040",
@@ -762,7 +762,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Carpet (including electric carpets)"
     },
     {
       "id": "gsn-0044",
@@ -987,7 +987,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Catalog (paper)"
     },
     {
       "id": "gsn-0057",
@@ -1004,7 +1004,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Thumbtack"
     },
     {
       "id": "gsn-0058",
@@ -1140,7 +1140,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glassware (other than empty bottles)"
     },
     {
       "id": "gsn-0066",
@@ -1191,7 +1191,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bedside commode (portable toilet; plastic)"
     },
     {
       "id": "gsn-0069",
@@ -1225,7 +1225,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Food can (canned goods; excluding aerosol cans and gas canisters)"
     },
     {
       "id": "gsn-0071",
@@ -1349,7 +1349,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Safe (fireproof)"
     },
     {
       "id": "gsn-0078",
@@ -1400,7 +1400,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cooler box (cloth)"
     },
     {
       "id": "gsn-0081",
@@ -1417,7 +1417,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dry-cleaning wrapping paper"
     },
     {
       "id": "gsn-0082",
@@ -1451,7 +1451,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Glow starter (fluorescent lamp starter)"
     },
     {
       "id": "gsn-0084",
@@ -1552,7 +1552,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Game software"
     },
     {
       "id": "gsn-0089",
@@ -1620,7 +1620,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cords / cord reel"
     },
     {
       "id": "gsn-0093",
@@ -1671,7 +1671,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Rubber products"
     },
     {
       "id": "gsn-0096",
@@ -1739,7 +1739,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Concrete debris"
     },
     {
       "id": "gsn-0100",
@@ -1756,7 +1756,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tabletop stove (portable gas stove)"
     },
     {
       "id": "gsn-0101",
@@ -1807,7 +1807,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home medical waste (syringe needles)"
     },
     {
       "id": "gsn-0104",
@@ -1824,7 +1824,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Home medical waste (other than syringe needles)"
     },
     {
       "id": "gsn-0105",
@@ -1844,7 +1844,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fish box (polystyrene foam)"
     },
     {
       "id": "gsn-0106",
@@ -1861,7 +1861,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Alcoholic beverage paper carton (silver-lined inside)"
     },
     {
       "id": "gsn-0107",
@@ -1953,7 +1953,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "CD player / radio-cassette player"
     },
     {
       "id": "gsn-0112",
@@ -2031,7 +2031,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Photos / negatives / film"
     },
     {
       "id": "gsn-0116",
@@ -2245,7 +2245,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Skis, ski poles, snowboard, roof carrier"
     },
     {
       "id": "gsn-0128",
@@ -2296,7 +2296,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Steel desk (office)"
     },
     {
       "id": "gsn-0131",
@@ -2430,7 +2430,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wash basin (plastic)"
     },
     {
       "id": "gsn-0138",
@@ -2489,7 +2489,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sled (plastic)"
     },
     {
       "id": "gsn-0141",
@@ -2506,7 +2506,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Clinical thermometer (with mercury)"
     },
     {
       "id": "gsn-0142",
@@ -2540,7 +2540,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Tire (car, motorcycle)"
     },
     {
       "id": "gsn-0144",
@@ -2574,7 +2574,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Egg carton (plastic)"
     },
     {
       "id": "gsn-0146",
@@ -2666,7 +2666,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Dustpan (plastic)"
     },
     {
       "id": "gsn-0151",
@@ -2862,7 +2862,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Video game software"
     },
     {
       "id": "gsn-0161",
@@ -2887,7 +2887,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric carpet / electric blanket"
     },
     {
       "id": "gsn-0162",
@@ -2927,7 +2927,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Light bulb (incandescent)"
     },
     {
       "id": "gsn-0164",
@@ -3101,7 +3101,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Corrugated sheet (vinyl)"
     },
     {
       "id": "gsn-0174",
@@ -3118,7 +3118,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": null
+      "name_en": "Doll (wood, cloth, plastic)"
     },
     {
       "id": "gsn-0175",
@@ -3172,7 +3172,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Cat litter (labeled burnable)"
     },
     {
       "id": "gsn-0178",
@@ -3206,7 +3206,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Farm machinery, pesticides, agricultural materials"
     },
     {
       "id": "gsn-0180",
@@ -3227,7 +3227,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Laptop computer"
     },
     {
       "id": "gsn-0181",
@@ -3358,7 +3358,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Battery (car battery etc.)"
     },
     {
       "id": "gsn-0188",
@@ -3392,7 +3392,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Hanger (plastic; without metal parts)"
     },
     {
       "id": "gsn-0190",
@@ -3426,7 +3426,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bumper (automobile)"
     },
     {
       "id": "gsn-0192",
@@ -3513,7 +3513,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Vinyl corrugated sheet"
     },
     {
       "id": "gsn-0197",
@@ -3547,7 +3547,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fax machine"
     },
     {
       "id": "gsn-0199",
@@ -3581,7 +3581,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Envelope / window envelope"
     },
     {
       "id": "gsn-0201",
@@ -3636,7 +3636,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Planter (plastic)"
     },
     {
       "id": "gsn-0204",
@@ -3653,7 +3653,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Printer (for PC)"
     },
     {
       "id": "gsn-0205",
@@ -3706,7 +3706,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bed (wood; excluding mattress)"
     },
     {
       "id": "gsn-0208",
@@ -3725,7 +3725,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Bed (metal; excluding mattress)"
     },
     {
       "id": "gsn-0209",
@@ -3950,7 +3950,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Mouse (for PC)"
     },
     {
       "id": "gsn-0222",
@@ -4037,7 +4037,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sewing machine (tabletop, household; excluding treadle sewing machines)"
     },
     {
       "id": "gsn-0227",
@@ -4054,7 +4054,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Milk can (including infant formula cans)"
     },
     {
       "id": "gsn-0228",
@@ -4142,7 +4142,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Medicine bottle (oral medicine; excluding pesticide and poisonous chemical bottles)"
     },
     {
       "id": "gsn-0233",
@@ -4159,7 +4159,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bathtub"
     },
     {
       "id": "gsn-0234",
