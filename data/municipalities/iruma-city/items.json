@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-28T08:50:39.005Z",
+  "generated_at": "2026-10-28T09:05:22.099Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -1766,7 +1766,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Personal seal / hanko case"
+      "name_en": "Case for a personal seal (hanko case)"
     },
     {
       "id": "irm-0104",
@@ -11486,7 +11486,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Rubber spatula (for cooking)"
+      "name_en": null
     },
     {
       "id": "irm-0667",
@@ -32534,7 +32534,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Spatula (wood, rubber)"
+      "name_en": null
     },
     {
       "id": "irm-1888",
