@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-28T07:34:46.208Z",
+  "generated_at": "2026-10-28T07:48:50.563Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -26448,7 +26448,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Plastic film (agricultural; mulch sheet)"
+      "name_en": "Plastic mulch film (excluding film used in farming)"
     },
     {
       "id": "irm-1533",

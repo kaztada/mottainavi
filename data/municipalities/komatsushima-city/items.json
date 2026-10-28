@@ -1,6 +1,6 @@
 {
   "municipality_id": "komatsushima-city",
-  "generated_at": "2026-10-28T07:34:49.015Z",
+  "generated_at": "2026-10-28T07:48:52.789Z",
   "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
   "item_count": 907,
   "items": [
@@ -1745,7 +1745,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Garden fence"
+      "name_en": "Garden fence (excluding construction waste)"
     },
     {
       "id": "kms-0100",
@@ -2237,7 +2237,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cassette tape (tape)"
+      "name_en": "Cassette tape (magnetic tape only)"
     },
     {
       "id": "kms-0128",
@@ -4433,7 +4433,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cushion (sponge)"
+      "name_en": "Cushion (sponge / foam)"
     },
     {
       "id": "kms-0255",
@@ -9125,7 +9125,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Compost bag / container (plastic)"
+      "name_en": "Compost packaging (plastic bag / container)"
     },
     {
       "id": "kms-0525",
@@ -9142,7 +9142,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Compost bag / container (paper)"
+      "name_en": "Compost packaging (paper bag / container)"
     },
     {
       "id": "kms-0526",
@@ -10655,7 +10655,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Fall prevention guard / fence"
+      "name_en": "Fall prevention barrier (excluding construction waste)"
     },
     {
       "id": "kms-0611",
@@ -12723,7 +12723,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Video tape (tape)"
+      "name_en": "Video tape (magnetic tape only)"
     },
     {
       "id": "kms-0731",
@@ -14368,7 +14368,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pillow (sponge)"
+      "name_en": "Pillow (sponge / foam)"
     },
     {
       "id": "kms-0826",
@@ -14991,7 +14991,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Morobuta (wooden tray box used when making mochi)"
+      "name_en": "Morobuta (tray box used when making mochi)"
     },
     {
       "id": "kms-0862",
@@ -15529,7 +15529,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Air cooler (cold-air fan)"
+      "name_en": "Air cooler (fluorocarbon-free, or with proof of fluorocarbon recovery)"
     },
     {
       "id": "kms-0893",
