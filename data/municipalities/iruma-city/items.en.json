@@ -63,8 +63,10 @@
   "マルチシート（農業用ビニール）": "Mulch sheet (plastic mulch film; excluding film used in farming)",
   "マージャン卓": "Mahjong table (excluding fully automatic tables)",
   "メガホン(スポーツ観戦用・プラスチック製）": "Megaphone (for cheering at sports; plastic; non-electric)",
-  "夜間電気温水器": "Electric water heater (off-peak night-time storage type)",
+  "夜間電気温水器": "Off-peak electric storage water heater",
   "薬品の容器": "Medicine / chemical container (plastic)",
   "冷水筒（冷水ポット）(プラスチック製・ガラス製)": "Cold water pitcher (plastic, glass; excluding all-plastic ones)",
-  "Ｓ字フック（Ｓカン）": "S-hook (excluding plastic)"
+  "Ｓ字フック（Ｓカン）": "S-hook (excluding plastic)",
+  "電気温水器": "Electric water heater (excluding off-peak storage types)",
+  "雨合羽（あまがっぱ）": "Raincoat / rain poncho (vinyl)"
 }

@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-28T08:16:59.818Z",
+  "generated_at": "2026-10-28T08:27:42.938Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -313,7 +313,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Foot-stepping board (fumidake; health equipment; bamboo)"
+      "name_en": "Foot massage tool (ashibumi-take; bamboo)"
     },
     {
       "id": "irm-0019",
@@ -330,7 +330,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Foot-stepping board (fumidake; health equipment; plastic)"
+      "name_en": "Foot massage tool (ashibumi-take; plastic)"
     },
     {
       "id": "irm-0020",
@@ -568,7 +568,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Raincoat (rain poncho)"
+      "name_en": "Raincoat / rain poncho (vinyl)"
     },
     {
       "id": "irm-0034",
@@ -1095,7 +1095,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Desk lamp with arm (arm stand; plastic)"
+      "name_en": null
     },
     {
       "id": "irm-0065",
@@ -9200,7 +9200,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Clean heater"
+      "name_en": "Forced-flue space heater (clean heater)"
     },
     {
       "id": "irm-0534",
@@ -9268,7 +9268,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cloth (wallpaper, tablecloths etc.)"
+      "name_en": "Covering material (wallpaper, tablecloths etc.)"
     },
     {
       "id": "irm-0538",
@@ -23205,7 +23205,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electric water heater"
+      "name_en": "Electric water heater (excluding off-peak storage types)"
     },
     {
       "id": "irm-1346",
@@ -25081,7 +25081,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Dry floor wiper (dry sheet mop for floor cleaning)"
+      "name_en": "Floor squeegee (dry wiper; for floor cleaning)"
     },
     {
       "id": "irm-1453",
@@ -37670,7 +37670,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Electric water heater (off-peak night-time storage type)"
+      "name_en": "Off-peak electric storage water heater"
     },
     {
       "id": "irm-2186",
