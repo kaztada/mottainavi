@@ -1,6 +1,6 @@
 {
   "municipality_id": "takahama-town",
-  "generated_at": "2026-10-26T10:15:46.651Z",
+  "generated_at": "2026-10-26T16:23:09.057Z",
   "source_url": "https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html",
   "item_count": 415,
   "items": [
@@ -4230,7 +4230,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Chainsaw"
     },
     {
       "id": "tkh-0236",
@@ -4729,7 +4729,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Electric-assist bicycle (e-bike)"
     },
     {
       "id": "tkh-0263",

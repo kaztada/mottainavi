@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-26T15:38:17.706Z",
+  "generated_at": "2026-10-26T16:23:05.030Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -7071,7 +7071,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Glass table"
     },
     {
       "id": "irm-0410",
@@ -7845,7 +7845,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "clothing",
-      "name_en": null
+      "name_en": "Life jacket (life vest)"
     },
     {
       "id": "irm-0455",
@@ -14007,7 +14007,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Fire hydrant hose (fire hose)"
     },
     {
       "id": "irm-0814",
@@ -14904,7 +14904,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Jigsaw puzzle"
     },
     {
       "id": "irm-0866",
@@ -15515,7 +15515,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Judo uniform"
     },
     {
       "id": "irm-0901",
@@ -19245,7 +19245,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Sled (for children)"
     },
     {
       "id": "irm-1117",
@@ -21673,7 +21673,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Screen / partition (room divider)"
     },
     {
       "id": "irm-1258",
@@ -25850,7 +25850,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bath additive (bath salts)"
     },
     {
       "id": "irm-1498",
@@ -27529,7 +27529,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Haramaki (belly warmer)"
     },
     {
       "id": "irm-1596",

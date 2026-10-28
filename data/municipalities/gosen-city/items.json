@@ -1,6 +1,6 @@
 {
   "municipality_id": "gosen-city",
-  "generated_at": "2026-10-26T11:12:34.807Z",
+  "generated_at": "2026-10-26T16:09:19.065Z",
   "source_url": "https://www.city.gosen.lg.jp/organization/3/opendata/10588.html",
   "item_count": 245,
   "items": [
@@ -830,7 +830,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "furniture",
-      "name_en": null
+      "name_en": "Furniture (wood)"
     },
     {
       "id": "gsn-0048",
