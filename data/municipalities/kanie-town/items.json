@@ -1,6 +1,6 @@
 {
   "municipality_id": "kanie-town",
-  "generated_at": "2026-10-28T00:36:28.032Z",
+  "generated_at": "2026-10-28T00:43:51.191Z",
   "source_url": "https://www.town.kanie.aichi.jp/soshiki/2/opendata.html",
   "item_count": 399,
   "items": [
@@ -997,7 +997,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Hot water heater (onsuiki / kyutoki)"
+      "name_en": null
     },
     {
       "id": "kne-0055",
@@ -1307,7 +1307,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Cassette gas canister (butane gas can)"
+      "name_en": "Butane gas canister (cassette-type)"
     },
     {
       "id": "kne-0072",
@@ -2225,7 +2225,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Health / fitness equipment"
+      "name_en": "Health / fitness equipment (excluding iron dumbbells)"
     },
     {
       "id": "kne-0123",
@@ -4441,7 +4441,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Light bulb"
+      "name_en": "Light bulb (incandescent / LED)"
     },
     {
       "id": "kne-0243",
@@ -4762,7 +4762,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Drink bottle cap"
+      "name_en": null
     },
     {
       "id": "kne-0259",
@@ -5310,7 +5310,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Battery (rechargeable; excluding car batteries)"
+      "name_en": "Small rechargeable battery (excluding automotive batteries)"
     },
     {
       "id": "kne-0290",
