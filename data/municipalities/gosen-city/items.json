@@ -1,6 +1,6 @@
 {
   "municipality_id": "gosen-city",
-  "generated_at": "2026-10-28T00:07:39.463Z",
+  "generated_at": "2026-10-28T00:13:18.943Z",
   "source_url": "https://www.city.gosen.lg.jp/organization/3/opendata/10588.html",
   "item_count": 245,
   "items": [
@@ -1861,7 +1861,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sake paper carton (silver inside)"
+      "name_en": "Alcoholic beverage paper carton (silver-lined inside)"
     },
     {
       "id": "gsn-0107",
@@ -4054,7 +4054,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Powdered milk can"
+      "name_en": "Milk can (including infant formula cans)"
     },
     {
       "id": "gsn-0228",
