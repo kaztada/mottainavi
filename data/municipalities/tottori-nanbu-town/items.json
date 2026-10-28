@@ -1,6 +1,6 @@
 {
   "municipality_id": "tottori-nanbu-town",
-  "generated_at": "2026-10-28T07:12:48.555Z",
+  "generated_at": "2026-10-28T07:26:22.424Z",
   "source_url": "https://odp-pref-tottori.tori-info.co.jp/dataset/1874.html",
   "item_count": 788,
   "items": [
@@ -4882,7 +4882,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Shampoo etc. container (excluding pump)"
+      "name_en": "Container for shampoo or similar products (excluding pump)"
     },
     {
       "id": "tnb-0280",
@@ -4899,7 +4899,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pump from shampoo etc. container"
+      "name_en": "Pump dispenser (from shampoo bottles etc.)"
     },
     {
       "id": "tnb-0281",
