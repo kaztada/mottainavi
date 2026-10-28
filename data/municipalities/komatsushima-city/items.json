@@ -1,6 +1,6 @@
 {
   "municipality_id": "komatsushima-city",
-  "generated_at": "2026-10-28T00:36:28.580Z",
+  "generated_at": "2026-10-28T06:40:03.902Z",
   "source_url": "https://opendata.pref.tokushima.lg.jp/dataset/5149.html",
   "item_count": 907,
   "items": [
@@ -2565,7 +2565,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bag (cloth)"
     },
     {
       "id": "kms-0147",
@@ -12565,7 +12565,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Bread maker (home bakery)"
     },
     {
       "id": "kms-0722",

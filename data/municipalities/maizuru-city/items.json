@@ -1,6 +1,6 @@
 {
   "municipality_id": "maizuru-city",
-  "generated_at": "2026-10-25T00:26:27.347Z",
+  "generated_at": "2026-10-28T06:39:12.488Z",
   "source_url": "https://data.bodik.jp/dataset/262021_garbage_separation",
   "item_count": 115,
   "items": [
@@ -1867,7 +1867,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": null
+      "name_en": "Wood"
     },
     {
       "id": "mzr-0105",

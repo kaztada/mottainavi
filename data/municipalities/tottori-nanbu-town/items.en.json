@@ -1,3 +1,25 @@
 {
-  "トレー": "Tray (soft plastic)"
+  "空きビン(飲料用・食品用)": "Empty glass bottle (beverage/food; excluding returnable beer bottles from major Japanese brewers)",
+  "空き箱(菓子箱など)": "Empty box (paper; snack / candy boxes etc.)",
+  "草刈機(モーター式)": "Grass trimmer / brush cutter (electric motor; excluding engine-powered)",
+  "グランドゴルフのスティック": "Ground golf club (wood)",
+  "グランドゴルフの球": "Ground golf ball (non-wood)",
+  "珪藻土製品（バスマット、コースターなど）": "Diatomaceous earth products (bath mats, coasters etc.; excluding those containing asbestos)",
+  "化粧スプレー": "Cosmetic spray (aerosol can)",
+  "こたつ(木製)": "Kotatsu (heated table; wood frame; excluding heating unit)",
+  "在宅医療用具(チューブ類など)": "Home medical supplies (tubes etc.; excluding syringes)",
+  "サラダ油（プラスチック）": "Salad oil (plastic bottle)",
+  "シャンプーなどの容器": "Shampoo etc. container (excluding pump)",
+  "水中ポンプ(モーター式)": "Submersible pump (motor-driven; small household type)",
+  "卵パック": "Egg carton (plastic)",
+  "蓄電池": "Storage battery (excluding small rechargeable batteries)",
+  "ドリンク瓶": "Drink bottle (glass; energy drink bottles etc.)",
+  "トレー": "Tray (soft plastic)",
+  "トロ箱": "Fish box (torobako; Styrofoam (polystyrene foam))",
+  "ペットボトル(リサイクルマークが表示されているもの)": "PET bottle (plastic bottle; with PET recycling mark; excluding oil bottles)",
+  "ポータブル温冷庫": "Portable electric cooler / warmer",
+  "冷水機": "Water cooler (drinking water dispenser; excluding commercial refrigerant units)",
+  "ネームペン": "Name pen (name-stamp pen / name-writing marker)",
+  "小型冷蔵庫・小型冷凍庫": "Small refrigerator / small freezer",
+  "錆びた電池（乾電池）": "Battery (rusty dry-cell; alkaline / manganese)"
 }
