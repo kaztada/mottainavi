@@ -1,6 +1,6 @@
 {
   "municipality_id": "iruma-city",
-  "generated_at": "2026-10-28T08:38:59.448Z",
+  "generated_at": "2026-10-28T08:50:39.005Z",
   "source_url": "https://opendata.pref.saitama.lg.jp/datasets/1265",
   "item_count": 2401,
   "items": [
@@ -8996,7 +8996,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Craft box"
+      "name_en": "Cardboard storage box (kraft box)"
     },
     {
       "id": "irm-0522",
@@ -40569,7 +40569,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wine cooler (wine refrigerator)"
+      "name_en": "Wine bucket (non-electric bottle cooler)"
     },
     {
       "id": "irm-2355",
@@ -40586,7 +40586,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Wine cellar (wine cooler)"
+      "name_en": "Wine refrigerator (wine cellar; wine cooler)"
     },
     {
       "id": "irm-2356",
@@ -40824,7 +40824,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Doll (ceramic, glass, vinyl, plastic)"
+      "name_en": null
     },
     {
       "id": "irm-2370",
