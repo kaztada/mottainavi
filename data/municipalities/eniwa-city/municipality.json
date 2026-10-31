@@ -1,0 +1,14 @@
+{
+  "slug": "eniwa-city",
+  "item_id_prefix": "enw",
+  "source_url": "https://www.harp.lg.jp/opendata/dataset/1974.html",
+  "source_type": "opendata-csv",
+  "source_license": "CC BY 4.0",
+  "source_attribution": "(仮)",
+  "source_attribution_en": "(tentative)",
+  "sodai_apply_url": null,
+  "sodai_tel_landline": null,
+  "sodai_tel_mobile": null,
+  "data_fetched_at": "2026-11-01",
+  "data_version": "20261101"
+}

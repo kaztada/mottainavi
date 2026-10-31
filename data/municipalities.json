@@ -257,8 +257,8 @@
     "pref": "北海道",
     "name_ja": "富良野市",
     "name_en": "Furano City",
-    "status": "unsupported",
-    "official_url": "https://www.city.furano.hokkaido.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.furano.hokkaido.jp/life/docs/2015022200404.html"
   },
   {
     "slug": "noboribetsu-city",
@@ -275,8 +275,8 @@
     "pref": "北海道",
     "name_ja": "恵庭市",
     "name_en": "Eniwa City",
-    "status": "unsupported",
-    "official_url": "https://www.city.eniwa.hokkaido.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/seikatsukankyoubu/kankyoseisakushitsu_haikibutsukanrika/gomi_recycle/10/20411.html"
   },
   {
     "slug": "hokkaido-date-city",
@@ -5981,8 +5981,8 @@
     "pref": "東京都",
     "name_ja": "国立市",
     "name_en": "Kunitachi City",
-    "status": "unsupported",
-    "official_url": "https://www.city.kunitachi.tokyo.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.kunitachi.tokyo.jp/soshiki/Dept05/Div03/Sec01/gyomu/gomirecycle/kateigomi/0427/1463551453526.html"
   },
   {
     "slug": "fussa-city",
@@ -7016,8 +7016,8 @@
     "pref": "石川県",
     "name_ja": "津幡町",
     "name_en": "Tsubata Town",
-    "status": "unsupported",
-    "official_url": "https://www.town.tsubata.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.town.tsubata.lg.jp/page/1363.html"
   },
   {
     "slug": "uchinada-town",
@@ -12227,8 +12227,8 @@
     "pref": "山口県",
     "name_ja": "下松市",
     "name_en": "Kudamatsu City",
-    "status": "unsupported",
-    "official_url": "https://www.city.kudamatsu.lg.jp/"
+    "status": "supported",
+    "official_url": "https://www.city.kudamatsu.lg.jp/kankyou/seikatsu/kankyou/kannrikakari/kateigomi.html"
   },
   {
     "slug": "iwakuni-city",

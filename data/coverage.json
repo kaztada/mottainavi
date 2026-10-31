@@ -881,21 +881,6 @@
       }
     ]
   },
-  "furano-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみ分別辞典【富良野市】(harp)",
-        "url": "https://www.harp.lg.jp/opendata/dataset/2228.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.harp.lg.jp/opendata/dataset/2228/resource/8280/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・1640行・データの基準日 不明・カタログの更新日 2025-07-17・ライセンスの登録 表示（CC BY）"
-  },
   "noboribetsu-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -928,21 +913,6 @@
         "url": "https://ckan.hoda.jp/"
       }
     ]
-  },
-  "eniwa-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみ分別辞典【恵庭市】(harp)",
-        "url": "https://www.harp.lg.jp/opendata/dataset/1974.html"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.harp.lg.jp/opendata/dataset/1974/resource/8021/012319_garbage%20sorting%20dictionary.xlsx"
-      }
-    ],
-    "note": "総当たり 2026-10-16: excel・1760行・データの基準日 不明・カタログの更新日 2025-05-23・ライセンスの登録 表示（CC BY）"
   },
   "hokkaido-date-city": {
     "status": "no-data",
@@ -18739,21 +18709,6 @@
     ],
     "note": "総当たり 2026-10-16: standard・1424行・データの基準日 不明・カタログの更新日 2024-03-28・ライセンスの登録 CC-BY-4.0"
   },
-  "kunitachi-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "ごみの分類一覧(tokyo)",
-        "url": "https://catalog.data.metro.tokyo.lg.jp/dataset/t132152d0000000011"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://www.opendata.metro.tokyo.lg.jp/kunitachi/132152_garbage_separation.xlsx"
-      }
-    ],
-    "note": "総当たり 2026-10-16: standard・556行・データの基準日 不明・カタログの更新日 2025-03-27・ライセンスの登録 CC-BY-4.0"
-  },
   "fussa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
@@ -21607,21 +21562,6 @@
         "url": "https://ckan.opendata.pref.ishikawa.lg.jp/"
       }
     ]
-  },
-  "tsubata-town": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "津幡町 ごみ分別辞典(search-ckan-jp)",
-        "url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/173614_recycle_separation"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://catalog-data.city.kanazawa.ishikawa.jp/dataset/f41e8520-448a-4e4d-aa7f-62414e83b5f2/resource/f3816215-fe4b-493f-8933-4f41d61b3359/download/173614_recycle_separation.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: csv・584行・データの基準日 不明・カタログの更新日 2025-08-06・ライセンスの登録 cc-by"
   },
   "uchinada-town": {
     "status": "no-data",
@@ -36421,21 +36361,6 @@
       }
     ],
     "note": "調べ直し 2026-10-20: 市サイトに50音順の表(2026-04-01、約760品目)あり。ただし充電式電池が『市では収集しない』のまま・モバイルバッテリー品目なし・携帯電話が燃やせないごみで、市の他ページ(h67254、令和8年度早見表)の電池の新ルールと食い違う。ライセンスはカタログ cc-by(2021)と市サイトの転載禁止表示が食い違い、確認要(環境政策課 0838-25-3661)。ら・わ行なし、大島・見島・相島は区分が異なる。公式の分別ページ https://www.city.hagi.lg.jp/life/1/7/39/"
-  },
-  "kudamatsu-city": {
-    "status": "candidate",
-    "checked_at": "2026-10-16",
-    "evidence": [
-      {
-        "label": "【下松市】ゴミの分別方法一覧（List of garbage separation methods in Kudamatsu City）(search-ckan-jp)",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/352071_garbage_separation"
-      },
-      {
-        "label": "ファイル",
-        "url": "https://yamaguchi-opendata.jp/ckan/dataset/43e41e34-ab16-4a73-9928-322a00f832b5/resource/893b262c-38cd-4c9a-8b9a-fd52107efba6/download/352071_garbage_separation_en.csv"
-      }
-    ],
-    "note": "総当たり 2026-10-16: standard・1475行・データの基準日 不明・カタログの更新日 2025-01-16・ライセンスの登録 cc-by"
   },
   "iwakuni-city": {
     "status": "hold",
