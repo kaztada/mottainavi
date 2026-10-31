@@ -1,6 +1,6 @@
 {
   "municipality_id": "kudamatsu-city",
-  "generated_at": "2026-10-31T17:23:15.504Z",
+  "generated_at": "2026-10-31T17:33:22.392Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352071_garbage_separation",
   "item_count": 1474,
   "items": [
@@ -3099,7 +3099,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Toy (plastic; no metal, no batteries)"
+      "name_en": "Toy (plastic; no metal; non-battery-powered)"
     },
     {
       "id": "kdm-0178",
@@ -5135,7 +5135,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Toy (with batteries)"
+      "name_en": "Toy (battery-powered)"
     },
     {
       "id": "kdm-0295",
@@ -5152,7 +5152,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "toys-baby",
-      "name_en": "Toy (plastic; no metal, no batteries)"
+      "name_en": "Toy (plastic; no metal; non-battery-powered)"
     },
     {
       "id": "kdm-0296",
@@ -13317,7 +13317,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Bathroom scale (without battery)"
+      "name_en": "Bathroom scale (non-battery-powered)"
     },
     {
       "id": "kdm-0766",
@@ -13334,7 +13334,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Bathroom scale (with battery)"
+      "name_en": "Bathroom scale (battery-powered)"
     },
     {
       "id": "kdm-0767",
@@ -25161,7 +25161,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": "small-appliance",
-      "name_en": "Range (microwave oven, microwave oven with oven function, gas range) / range stand (gas stove, tabletop gas cooktop)"
+      "name_en": "Microwave oven / combination microwave and oven / gas range / tabletop gas cooktop"
     },
     {
       "id": "kdm-1450",
