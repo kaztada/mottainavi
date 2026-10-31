@@ -22,7 +22,6 @@ import { UMOU_LABEL, toStandardCsv } from "./convert"
  * 取得元の URL は data/municipalities/kudamatsu-city/source.json。更新は山口県カタログの API で見張る(英語版のリソースを選ばない)。
  */
 const BASE = "https://www.city.kudamatsu.lg.jp/kankyou/seikatsu/kankyou/kannrikakari/"
-const KATEI = BASE + "kateigomi.html" // 家庭ごみの出し方(2026-06-10)
 const MOYASU = BASE + "moyasu.html" // 燃やす(可燃)ごみ(2026-06-10)
 const OOGATA_KANEN = BASE + "oogatakanen.html" // 大型の燃やすごみ(2026-06-11)
 const KANEN = BASE + "kanen.html" // 可燃系資源(2026-06-10)

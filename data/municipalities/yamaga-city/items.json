@@ -1,6 +1,6 @@
 {
   "municipality_id": "yamaga-city",
-  "generated_at": "2026-10-31T15:27:54.182Z",
+  "generated_at": "2026-10-24T19:09:13.925Z",
   "source_url": "https://data.bodik.jp/dataset/432083_bunbetsu",
   "item_count": 1087,
   "items": [
@@ -15053,7 +15053,12 @@
       "name_ja": "風呂いす",
       "name_kana": "ふろいす",
       "name_romaji": "furoisu",
-      "aliases": [],
+      "aliases": [
+        "椅子",
+        "イス",
+        "チェア",
+        "chair"
+      ],
       "dispositions": [
         {
           "category_id": "moyasu",
