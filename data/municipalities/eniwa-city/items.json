@@ -1,6 +1,6 @@
 {
   "municipality_id": "eniwa-city",
-  "generated_at": "2026-10-31T15:54:09.239Z",
+  "generated_at": "2026-10-31T16:02:37.661Z",
   "source_url": "https://www.harp.lg.jp/opendata/dataset/1974.html",
   "item_count": 1756,
   "items": [
@@ -6376,9 +6376,9 @@
       "name_romaji": "kandenchi",
       "aliases": [
         "電池",
+        "battery",
         "単三電池",
-        "単四電池",
-        "battery"
+        "単四電池"
       ],
       "dispositions": [
         {
@@ -18555,9 +18555,7 @@
       "name_ja": "乾電池、電池の外装フィルム",
       "name_kana": "かんでんち、でんちのがいそうふぃるむ",
       "name_romaji": "kandenchi,denchinogaisoufyirumu",
-      "aliases": [
-        "battery"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "pla",
