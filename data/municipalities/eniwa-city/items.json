@@ -1,6 +1,6 @@
 {
   "municipality_id": "eniwa-city",
-  "generated_at": "2026-10-31T15:25:43.017Z",
+  "generated_at": "2026-10-31T15:28:02.841Z",
   "source_url": "https://www.harp.lg.jp/opendata/dataset/1974.html",
   "item_count": 1756,
   "items": [
@@ -17627,9 +17627,7 @@
       "name_ja": "テープライター",
       "name_kana": "てーぷらいたー",
       "name_romaji": "te-puraita-",
-      "aliases": [
-        "lighter"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyasenai",
@@ -24287,12 +24285,7 @@
       "name_ja": "風呂いす",
       "name_kana": "ふろいす",
       "name_romaji": "furoisu",
-      "aliases": [
-        "椅子",
-        "イス",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "moyaseru",

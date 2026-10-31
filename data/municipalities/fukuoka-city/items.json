@@ -1,6 +1,6 @@
 {
   "municipality_id": "fukuoka-city",
-  "generated_at": "2026-10-23T15:13:31.172Z",
+  "generated_at": "2026-10-31T15:27:53.224Z",
   "source_url": "https://data.bodik.jp/dataset/401307_disposing-method",
   "item_count": 599,
   "items": [
@@ -8621,12 +8621,7 @@
       "name_ja": "風呂いす",
       "name_kana": "ふろいす",
       "name_romaji": "furoisu",
-      "aliases": [
-        "椅子",
-        "イス",
-        "チェア",
-        "chair"
-      ],
+      "aliases": [],
       "dispositions": [
         {
           "category_id": "kanen",
