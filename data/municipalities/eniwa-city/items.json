@@ -1,6 +1,6 @@
 {
   "municipality_id": "eniwa-city",
-  "generated_at": "2026-10-31T15:41:15.172Z",
+  "generated_at": "2026-10-31T15:54:09.239Z",
   "source_url": "https://www.harp.lg.jp/opendata/dataset/1974.html",
   "item_count": 1756,
   "items": [
@@ -6376,9 +6376,9 @@
       "name_romaji": "kandenchi",
       "aliases": [
         "電池",
-        "battery",
         "単三電池",
-        "単四電池"
+        "単四電池",
+        "battery"
       ],
       "dispositions": [
         {
@@ -18561,7 +18561,7 @@
       "dispositions": [
         {
           "category_id": "pla",
-          "note_ja": "資源物の有料の指定袋はありません。プラマークが目印で、汚れていないものを中身の見える袋に入れて口を結び、収集日の朝8時30分までに出します(汚れているものは燃やせるごみへ。品目ごとの案内があれば、それに従います)。\n中身の見える袋に入れて出してください。「資源物(★プラスチック容器包装)」\n■汚れているもの、プラマークの無いものは「燃やせるごみ」で指定ごみ袋に入れて出してください。",
+          "note_ja": "※もったいナビ注: この行は、電池を包んでいた外装フィルムだけの案内です。電池本体は「資源物(電池)」へ。\n資源物の有料の指定袋はありません。プラマークが目印で、汚れていないものを中身の見える袋に入れて口を結び、収集日の朝8時30分までに出します(汚れているものは燃やせるごみへ。品目ごとの案内があれば、それに従います)。\n中身の見える袋に入れて出してください。「資源物(★プラスチック容器包装)」\n■汚れているもの、プラマークの無いものは「燃やせるごみ」で指定ごみ袋に入れて出してください。",
           "official_link": "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/seikatsukankyoubu/kankyoseisakushitsu_haikibutsukanrika/gomi_recycle/10/20411.html"
         }
       ],

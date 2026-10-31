@@ -1,6 +1,6 @@
 {
   "municipality_id": "furano-city",
-  "generated_at": "2026-10-31T15:41:13.072Z",
+  "generated_at": "2026-10-31T15:54:07.199Z",
   "source_url": "https://www.harp.lg.jp/opendata/dataset/2228.html",
   "item_count": 1637,
   "items": [
@@ -1522,7 +1522,6 @@
       "name_kana": "えれきぎたー",
       "name_romaji": "erekigita-",
       "aliases": [
-        "エレキギター",
         "guitar"
       ],
       "dispositions": [
@@ -5250,7 +5249,6 @@
       "name_kana": "ぎたー",
       "name_romaji": "gita-",
       "aliases": [
-        "エレキギター",
         "アコースティックギター",
         "アコギ",
         "guitar"
