@@ -1,8 +1,19 @@
 [
-  {
-    "id": "tmp",
-    "kind": "other",
-    "name_ja": "仮",
-    "name_en": "tmp"
-  }
+  {"id": "moyaseru", "kind": "burnable", "name_ja": "燃やせるごみ", "name_en": "Burnable Waste"},
+  {"id": "nama", "kind": "other", "name_ja": "生ごみ", "name_en": "Food Waste"},
+  {"id": "moyasenai", "kind": "non-burnable", "name_ja": "燃やせないごみ", "name_en": "Non-burnable Waste"},
+  {"id": "kiken", "kind": "hazardous", "name_ja": "キケンごみ", "name_en": "Dangerous Waste (fire risk)"},
+  {"id": "sodai", "kind": "bulky", "name_ja": "粗大ごみ", "name_en": "Bulky Waste (reservation required)"},
+  {"id": "sodai-tel", "kind": "bulky", "name_ja": "粗大ごみ(電話申込のみ)", "name_en": "Bulky Waste (reservation by phone only)"},
+  {"id": "bincan", "kind": "recyclable", "name_ja": "資源物(ペットボトル・缶・びん)", "name_en": "Recyclables (PET Bottles, Cans, Bottles)"},
+  {"id": "pla", "kind": "plastic", "name_ja": "資源物(プラスチック容器包装)", "name_en": "Recyclables (Plastic Packaging)"},
+  {"id": "kamipack", "kind": "paper", "name_ja": "資源物(紙パック)", "name_en": "Recyclables (Paper Cartons)"},
+  {"id": "danboru", "kind": "paper", "name_ja": "資源物(ダンボール)", "name_en": "Recyclables (Cardboard)"},
+  {"id": "shinbun", "kind": "paper", "name_ja": "資源物(新聞)", "name_en": "Recyclables (Newspapers)"},
+  {"id": "zasshi", "kind": "paper", "name_ja": "資源物(雑誌・本)", "name_en": "Recyclables (Magazines, Books)"},
+  {"id": "keikokan", "kind": "hazardous", "name_ja": "資源物(蛍光管・LED・水銀使用製品)", "name_en": "Recyclables (Fluorescent Lamps, LEDs, Mercury Products)"},
+  {"id": "denchi", "kind": "hazardous", "name_ja": "資源物(電池)", "name_en": "Recyclables (Batteries)"},
+  {"id": "jibun", "kind": "not-collected", "name_ja": "自分で処分するもの", "name_en": "Not Collected: Dispose of Yourself"},
+  {"id": "shushu-shinai", "kind": "not-collected", "name_ja": "市で収集しないもの", "name_en": "Not Collected by the City"},
+  {"id": "kaden", "kind": "not-collected", "name_ja": "家電リサイクル法対象品目", "name_en": "Home Appliance Recycling Act Items (Not Collected)"}
 ]

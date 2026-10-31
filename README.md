@@ -63,6 +63,11 @@ https://mottainavi.kaztada.eco
 | 蟹江町(愛知県)     | [ごみの出し方一覧](https://www.town.kanie.aichi.jp/soshiki/2/opendata.html)                                            | CC BY 4.0    |
 | 小松島市(徳島県)   | [小松島市ゴミの分別方法一覧](https://opendata.pref.tokushima.lg.jp/dataset/5149.html)                                 | CC BY        |
 | 高浜町(福井県)     | [ごみ分別一覧](https://www.pref.fukui.lg.jp/doc/dx-suishin/list_ct_gomibunbetu.html)                                  | CC BY 4.0    |
+| 富良野市(北海道)   | [ごみ分別辞典【富良野市】](https://www.harp.lg.jp/opendata/dataset/2228.html)                                         | CC BY 4.0    |
+| 津幡町(石川県)     | [ごみ分別辞典](https://www.town.tsubata.lg.jp/page/1773.html)                                                         | CC BY 4.0    |
+| 国立市(東京都)     | [ごみの分類一覧](https://catalog.data.metro.tokyo.lg.jp/dataset/t132152d0000000011)                                    | CC BY 4.0    |
+| 恵庭市(北海道)     | [ごみ分別辞典【恵庭市】](https://www.harp.lg.jp/opendata/dataset/1974.html)                                            | CC BY 4.0    |
+| 下松市(山口県)     | [【下松市】ゴミの分別方法一覧](https://yamaguchi-opendata.jp/ckan/dataset/352071_garbage_separation)                  | PDL1.0       |
 
 品目データを二次利用できるライセンスで公開している自治体から、順に追加しています。まだ対応していない自治体を選ぶと、その自治体の公式サイトへの案内を表示します。
 

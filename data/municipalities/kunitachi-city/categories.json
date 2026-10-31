@@ -1,8 +1,15 @@
 [
-  {
-    "id": "tmp",
-    "kind": "other",
-    "name_ja": "仮",
-    "name_en": "tmp"
-  }
+  { "id": "kanen", "kind": "burnable", "name_ja": "可燃ごみ", "name_en": "Burnable Waste" },
+  { "id": "funen", "kind": "non-burnable", "name_ja": "不燃ごみ", "name_en": "Non-burnable Waste" },
+  { "id": "pla", "kind": "plastic", "name_ja": "容器包装プラスチック", "name_en": "Plastic Containers and Packaging" },
+  { "id": "zatsugami", "kind": "paper", "name_ja": "雑がみ", "name_en": "Mixed Paper" },
+  { "id": "kofu", "kind": "paper", "name_ja": "古布類", "name_en": "Used Clothing and Fabric" },
+  { "id": "bin", "kind": "recyclable", "name_ja": "びん", "name_en": "Glass Bottles" },
+  { "id": "kan", "kind": "recyclable", "name_ja": "かん", "name_en": "Cans" },
+  { "id": "kogata", "kind": "small-appliance", "name_ja": "小型家電製品", "name_en": "Small Appliances" },
+  { "id": "yugai", "kind": "hazardous", "name_ja": "有害ごみ", "name_en": "Hazardous Waste (batteries, lamps, thermometers)" },
+  { "id": "kiken", "kind": "hazardous", "name_ja": "危険物", "name_en": "Dangerous Items (spray cans, lighters, glass, blades)" },
+  { "id": "sentei", "kind": "other", "name_ja": "せん定枝等(事前申し込み制)", "name_en": "Pruned Branches, Leaves and Grass (advance request required)" },
+  { "id": "sodai", "kind": "bulky", "name_ja": "粗大ごみ", "name_en": "Bulky Waste (reservation required)" },
+  { "id": "fuka", "kind": "not-collected", "name_ja": "市では収集できないもの", "name_en": "Not Collected by the City" }
 ]

@@ -1,8 +1,14 @@
 [
-  {
-    "id": "tmp",
-    "kind": "other",
-    "name_ja": "仮",
-    "name_en": "tmp"
-  }
+  { "id": "moeru", "kind": "burnable", "name_ja": "もえるごみ", "name_en": "Burnable Waste" },
+  { "id": "moenai", "kind": "non-burnable", "name_ja": "もえないごみ", "name_en": "Non-burnable Waste" },
+  { "id": "sodai", "kind": "bulky", "name_ja": "粗大ごみ", "name_en": "Bulky Waste (reservation required)" },
+  { "id": "yoki", "kind": "recyclable", "name_ja": "容器包装(リサイクル)", "name_en": "Containers and Packaging (Recycling)" },
+  { "id": "shigen", "kind": "hazardous", "name_ja": "資源ごみ(専用コンテナ)", "name_en": "Resource Waste (dedicated containers)" },
+  { "id": "koshi", "kind": "paper", "name_ja": "資源ごみ(古紙類)", "name_en": "Resource Waste (Used Paper)" },
+  { "id": "shudan", "kind": "drop-off", "name_ja": "集団回収", "name_en": "Community Collection" },
+  { "id": "konnan", "kind": "not-collected", "name_ja": "処理困難物", "name_en": "Difficult-to-Process Items (Not Collected by the Town)" },
+  { "id": "kaden", "kind": "not-collected", "name_ja": "家電リサイクル", "name_en": "Home Appliance Recycling (Not Collected by the Town)" },
+  { "id": "pc", "kind": "maker-recycle", "name_ja": "パソコンリサイクル", "name_en": "PC Recycling" },
+  { "id": "hanbai", "kind": "maker-recycle", "name_ja": "販売店へ返却", "name_en": "Return to the Retailer" },
+  { "id": "tento", "kind": "maker-recycle", "name_ja": "店頭回収", "name_en": "In-store Collection" }
 ]

@@ -4,11 +4,11 @@
   "source_url": "https://www.harp.lg.jp/opendata/dataset/1974.html",
   "source_type": "opendata-csv",
   "source_license": "CC BY 4.0",
-  "source_attribution": "(仮)",
-  "source_attribution_en": "(tentative)",
+  "source_attribution": "出典: このアプリは以下の著作物を改変して利用しています。恵庭市 廃棄物管理課「012319_garbage sorting dictionary.csv」(https://www.harp.lg.jp/opendata/dataset/1974/resource/8020/012319_garbage%20sorting%20dictionary.csv)、北海道オープンデータポータル「ごみ分別辞典【恵庭市】」、クリエイティブ・コモンズ・ライセンス 表示4.0国際(https://creativecommons.org/licenses/by/4.0/legalcode.ja)",
+  "source_attribution_en": "Source: This app adapts \"012319_garbage sorting dictionary.csv\" (https://www.harp.lg.jp/opendata/dataset/1974/resource/8020/012319_garbage%20sorting%20dictionary.csv), Waste Management Division, Eniwa City, from \"Garbage Sorting Dictionary [Eniwa City]\" (ごみ分別辞典【恵庭市】) on the Hokkaido Open Data Portal, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/legalcode.ja)",
   "sodai_apply_url": null,
-  "sodai_tel_landline": null,
-  "sodai_tel_mobile": null,
-  "data_fetched_at": "2026-11-01",
+  "sodai_tel_landline": "0123-29-7440",
+  "sodai_tel_mobile": "0123-29-7440",
+  "data_fetched_at": "2026-10-26",
   "data_version": "20261101"
 }

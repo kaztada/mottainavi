@@ -4,11 +4,11 @@
   "source_url": "https://www.harp.lg.jp/opendata/dataset/2228.html",
   "source_type": "opendata-csv",
   "source_license": "CC BY 4.0",
-  "source_attribution": "(仮)",
-  "source_attribution_en": "(tentative)",
-  "sodai_apply_url": null,
-  "sodai_tel_landline": null,
-  "sodai_tel_mobile": null,
-  "data_fetched_at": "2026-11-01",
+  "source_attribution": "出典: 富良野市「ごみ分別.csv」(https://www.harp.lg.jp/opendata/dataset/2228/resource/8280/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5.csv)、北海道オープンデータポータル「ごみ分別辞典【富良野市】」、クリエイティブ・コモンズ・ライセンス 表示4.0国際(https://creativecommons.org/licenses/by/4.0/legalcode.ja)。もったいナビが加工して作成",
+  "source_attribution_en": "Source: \"ごみ分別.csv\" (https://www.harp.lg.jp/opendata/dataset/2228/resource/8280/%E3%81%94%E3%81%BF%E5%88%86%E5%88%A5.csv), Furano City, from \"Garbage Sorting Dictionary [Furano City]\" (ごみ分別辞典【富良野市】) on the Hokkaido Open Data Portal, Creative Commons Attribution 4.0 International (https://creativecommons.org/licenses/by/4.0/legalcode.ja). Adapted by Mottainavi",
+  "sodai_apply_url": "https://www.city.furano.hokkaido.jp/life/docs/1446986.html",
+  "sodai_tel_landline": "0167-39-2308",
+  "sodai_tel_mobile": "0167-39-2308",
+  "data_fetched_at": "2026-10-26",
   "data_version": "20261101"
 }

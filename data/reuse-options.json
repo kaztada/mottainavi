@@ -34,6 +34,17 @@
         "url": null,
         "effort": "low",
         "money": "free"
+      },
+      {
+        "type": "official",
+        "title_ja": "組合の拠点回収や、はばたき事業所に出す",
+        "title_en": "Take it to the Kahoku-gun-shi association's collection days or to Habataki Jigyosho",
+        "desc_ja": "津幡町では、古着を河北郡市リサイクルプラザの拠点回収(月2回程度。冬は休みあり)や、はばたき事業所(毎日受付)に出す手もあります。洗濯してから、中身が見える透明な袋に入れて出します。汚れがひどいものと、事業所から出るものは回収していません。日程は河北郡市広域事務組合(076-288-4545)、はばたき事業所は社会福祉法人やまびこ(076-289-2277)へ。",
+        "desc_en": "In Tsubata, used clothing can also go to the collection days at the Kahoku-gun-shi Recycling Plaza (about twice a month, with a winter break) or to Habataki Jigyosho (accepted daily). Wash it first and put it in a clear bag. Very dirty items and items from businesses are not accepted. For dates, contact the Kahoku-gun-shi Association (076-288-4545); for Habataki Jigyosho, contact the social welfare corporation Yamabiko (076-289-2277).",
+        "url": "https://www.town.tsubata.lg.jp/page/1384.html",
+        "effort": "medium",
+        "money": "free",
+        "municipality_id": "tsubata-town"
       }
     ]
   },
@@ -370,6 +381,50 @@
         "effort": "low",
         "money": "free",
         "municipality_id": "takahama-town"
+      },
+      {
+        "type": "official",
+        "title_ja": "市役所1階の小型家電回収ボックスに入れる",
+        "title_en": "Drop it in the small-appliance collection box on the 1st floor of City Hall",
+        "desc_ja": "入口(幅34cm×高さ12cm)に入る小型家電が対象です。中の金属が資源としてもう一働き。個人情報の入ったものはデータを消し、乾電池は抜いて有害ごみへ。小型充電式電池が外せるものは外して有害ごみか排出協力店へ(協力店は JBRC の会員メーカーの電池だけで、膨らんだ・破損した・水にぬれた電池などは持ち込めません)。膨らんだ、発火したモバイルバッテリーはボックスに入れず、ごみ減量課清掃係の窓口へ。パソコンとタブレットは市では収集しないので、メーカーの回収か宅配回収へ。詳しくは市のカレンダーか清掃係(042-576-2119)でご確認ください。",
+        "desc_en": "For small appliances that fit the 34 cm x 12 cm slot. The metals inside get another life. Wipe personal data and take out dry-cell batteries (hazardous waste). Remove rechargeable batteries if you can, and put them out as hazardous waste or take them to a cooperating store (stores accept only batteries from JBRC member makers, and not swollen, damaged or wet ones). Do not put swollen or burnt mobile batteries in the box; take them to the Cleaning Section counter at City Hall. PCs and tablets are not collected by the city; use the maker's collection or courier pickup. For details, see the city's calendar or call the Cleaning Section (042-576-2119).",
+        "url": "https://www.city.kunitachi.tokyo.jp/soshiki/Dept05/Div03/Sec01/gyomu/gomirecycle/kateigomi/0427/12249.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "kunitachi-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市と協定のある宅配回収(リネットジャパン)に出す",
+        "title_en": "Send it through the courier pickup partnered with the city (Renet Japan)",
+        "desc_ja": "国立市はリネットジャパンリサイクルと協定を結び、宅配便でパソコン・小型家電を回収しています。パソコンを含む回収は1箱分が無料です(箱のサイズに決まりがあります)。個人情報のデータは消してから。申込み方法と対象は同社のホームページでご確認ください。",
+        "desc_en": "Kunitachi City has an agreement with Renet Japan Recycling to collect PCs and small appliances by courier. One box is free if it includes a PC (box size limits apply). Wipe personal data first. Check the company's website for how to apply and what is accepted.",
+        "url": "https://www.city.kunitachi.tokyo.jp/soshiki/Dept05/Div03/Sec01/gyomu/gomirecycle/kateigomi/0427/12249.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "kunitachi-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "市の窓口の小型家電回収に持ち込む",
+        "title_en": "Bring it to the city's small-appliance collection counter",
+        "desc_ja": "恵庭市は、市役所の廃棄物管理課窓口(2階22番)・島松支所・恵み野出張所で、家庭の小型家電を無料で回収しています。中の金属が資源としてもう一働き。バッテリーや電池、電球は外し、個人情報は自分で消してから持ち込みます。箱や紙袋は引き取れません。対象は市の一覧にある品目で、家電リサイクル法の対象品目、パソコン用モニター、フロン類を使った製品、木製のスピーカー、電気カーペットや電気毛布などの布製品は回収できません。膨らんだり傷ついたりした電池が入っているものは、持ち込む前に廃棄物管理課(0123-33-3131)に確かめてください。詳しくは市のごみ分別事典(P26〜27)で。",
+        "desc_en": "Eniwa City collects household small appliances free of charge at the Waste Management Division counter in City Hall (2F, counter 22), the Shimamatsu Branch Office and the Megumino Branch Office. The metals inside get another life. Remove batteries and bulbs and erase any personal data yourself before bringing an item in. Boxes and paper bags cannot be accepted. Only items on the city's list are collected: items under the Home Appliance Recycling Act, PC monitors, products using CFCs, wooden speakers and fabric products such as electric carpets and blankets are not. If an item has a swollen or damaged battery, check with the Waste Management Division (0123-33-3131) before bringing it in. See pages 26-27 of the city's sorting guide for details.",
+        "url": "https://www.city.eniwa.hokkaido.jp/soshikikarasagasu/seikatsukankyoubu/kankyoseisakushitsu_haikibutsukanrika/gomi_recycle/10/20411.html",
+        "effort": "low",
+        "money": "free",
+        "municipality_id": "eniwa-city"
+      },
+      {
+        "type": "official",
+        "title_ja": "パソコンと一緒に宅配便リサイクルに出す(リネットジャパン)",
+        "title_en": "Send it with a PC through the home-pickup recycling service (Renet Japan)",
+        "desc_ja": "下松市はごみステーションでの小型家電の収集(緑色の袋、月1回)のほかに、パソコンの処分先として民間事業者の宅配便リサイクルを案内しています。パソコンと一緒に小型家電も回収してもらえる、という手もあります(一部有料のサービスがあります)。申込みはインターネットか FAX で、問い合わせは 0570-085-800(10〜17時)。電池・灯油・ガスを使うものなど送れない物があるかもしれないので、対象は申込みのページで確かめてから。個人情報のデータは消しておきます。",
+        "desc_en": "Besides collecting small appliances at garbage stations (green bag, once a month), Kudamatsu City points residents to a private home-pickup recycling service for PCs. You can also send small appliances along with a PC (some options are paid). Apply online or by fax; inquiries at 0570-085-800 (10:00-17:00). Some items, such as those with batteries, kerosene or gas, may not be accepted, so check the application page first. Erase any personal data beforehand.",
+        "url": "https://www.city.kudamatsu.lg.jp/kankyou/pasokonkaisyuu.html",
+        "effort": "medium",
+        "money": "free",
+        "municipality_id": "kudamatsu-city"
       }
     ]
   },

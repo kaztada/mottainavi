@@ -4,11 +4,11 @@
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352071_garbage_separation",
   "source_type": "opendata-csv",
   "source_license": "PDL1.0(CC BY 4.0 と互換)",
-  "source_attribution": "(仮)",
-  "source_attribution_en": "(tentative)",
-  "sodai_apply_url": null,
-  "sodai_tel_landline": null,
-  "sodai_tel_mobile": null,
-  "data_fetched_at": "2026-11-01",
+  "source_attribution": "出典: 山口県オープンデータカタログサイト「【下松市】ゴミの分別方法一覧」(下松市)(https://yamaguchi-opendata.jp/ckan/dataset/352071_garbage_separation)、PDL1.0(https://yamaguchi-opendata.jp/www/terms.html)。もったいナビが加工して作成",
+  "source_attribution_en": "Source: \"List of garbage separation methods in Kudamatsu City\" (Kudamatsu City), Yamaguchi Prefecture Open Data Catalog (https://yamaguchi-opendata.jp/ckan/dataset/352071_garbage_separation), Public Data License 1.0 (https://yamaguchi-opendata.jp/www/terms.html). Adapted by Mottainavi",
+  "sodai_apply_url": "https://www.city.kudamatsu.lg.jp/kankyou/seikatsu/kankyou/kannrikakari/oogatafunen.html",
+  "sodai_tel_landline": "0833-45-1829",
+  "sodai_tel_mobile": "0833-45-1829",
+  "data_fetched_at": "2026-10-26",
   "data_version": "20261101"
 }
