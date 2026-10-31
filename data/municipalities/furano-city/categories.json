@@ -1,0 +1,23 @@
+[
+  { "id": "kokei", "kind": "burnable", "name_ja": "固形燃料ごみ", "name_en": "Solid Fuel Waste (Burnable)" },
+  { "id": "pla", "kind": "plastic", "name_ja": "プラスチック類", "name_en": "Plastics (with the plastic mark)" },
+  { "id": "pet", "kind": "recyclable", "name_ja": "ペットボトル", "name_en": "PET Bottles" },
+  { "id": "nama", "kind": "other", "name_ja": "生ごみ", "name_en": "Kitchen Waste" },
+  { "id": "can", "kind": "recyclable", "name_ja": "空き缶", "name_en": "Empty Cans" },
+  { "id": "kinzoku", "kind": "non-burnable", "name_ja": "金属類", "name_en": "Metals" },
+  { "id": "bin", "kind": "recyclable", "name_ja": "空きびん", "name_en": "Empty Bottles" },
+  { "id": "toujiki", "kind": "non-burnable", "name_ja": "陶磁器・ガラス", "name_en": "Ceramics and Glass" },
+  { "id": "paper", "kind": "paper", "name_ja": "新聞・雑誌類", "name_en": "Newspapers, Magazines, Cardboard, Paper Cartons" },
+  { "id": "eda", "kind": "other", "name_ja": "枝草類", "name_en": "Branches and Grass" },
+  { "id": "denchi", "kind": "hazardous", "name_ja": "乾電池・蛍光管", "name_en": "Batteries and Fluorescent Lamps" },
+  { "id": "eisei", "kind": "other", "name_ja": "衛生用品", "name_en": "Sanitary Items" },
+  { "id": "hai", "kind": "other", "name_ja": "灰", "name_en": "Ash, Stones and Concrete Blocks" },
+  { "id": "dobutsu", "kind": "other", "name_ja": "動物死体", "name_en": "Animal Carcasses" },
+  { "id": "ogata", "kind": "bulky", "name_ja": "大型ごみ", "name_en": "Large Waste (reservation required)" },
+  { "id": "denki", "kind": "bulky", "name_ja": "電気製品", "name_en": "Electrical Appliances (reservation required)" },
+  { "id": "kiken", "kind": "hazardous", "name_ja": "危険ごみ", "name_en": "Dangerous Waste (bring to City Hall or a branch office)" },
+  { "id": "pc", "kind": "maker-recycle", "name_ja": "パソコン", "name_en": "Personal Computers (manufacturer recycling)" },
+  { "id": "kaden", "kind": "not-collected", "name_ja": "家電リサイクル品", "name_en": "Home Appliance Recycling Items (not collected by the city)" },
+  { "id": "iryo", "kind": "not-collected", "name_ja": "在宅医療ごみ", "name_en": "Home Medical Waste (not collected by the city)" },
+  { "id": "fuka", "kind": "not-collected", "name_ja": "収集できません", "name_en": "Not Collected by the City" }
+]

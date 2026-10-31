@@ -8,13 +8,15 @@ import {
   legacyItemAliases,
   splitName,
 } from "./aliases"
-import { COMMON_ALIASES_PATH } from "./paths"
+import { COMMON_ALIASES_PATH, municipalityFile } from "./paths"
 
 const common: Record<string, string[]> = JSON.parse(
   readFileSync(COMMON_ALIASES_PATH, "utf-8")
 )
 
 const aliasesOf = (name: string, dict = common) => buildItemAliases(name, dict)
+const eniwaAliases = (): Record<string, string[]> =>
+  JSON.parse(readFileSync(municipalityFile("eniwa-city", "aliases.json"), "utf-8"))
 
 describe("splitName", () => {
   it("カッコ・※以降の注記を外し、「・」「、」で区切る", () => {
@@ -266,13 +268,20 @@ describe("遮断リスト(TAIL_BLOCK)と前の言葉の指定(TAIL_PREFIX)", () 
     expect(aliasesOf("湯沸かしポット")).toContain("kettle")
     expect(aliasesOf("ポット")).toContain("kettle")
   })
-  it("リストの語はすべて辞書にある", () => {
+  it("リストの語はすべて辞書にある(「電池」は恵庭市の辞書の語)", () => {
+    const dict = { ...common, ...eniwaAliases() }
     for (const key of [
       ...Object.keys(TAIL_BLOCK),
       ...Object.keys(TAIL_PREFIX),
     ]) {
-      expect(common).toHaveProperty(key)
+      expect(dict).toHaveProperty(key)
     }
+  })
+  it("電池の外装フィルムの行に、電池本体の別名を付けない(恵庭市)", () => {
+    const dict = { ...common, ...eniwaAliases() }
+    expect(buildItemAliases("乾電池、電池の外装フィルム", dict)).toEqual([])
+    expect(buildItemAliases("乾電池", dict)).toContain("battery")
+    expect(buildItemAliases("電池", dict)).toContain("battery")
   })
 })
 

@@ -1,0 +1,19 @@
+[
+  { "id": "moyasu", "kind": "burnable", "name_ja": "燃やす袋ごみ", "name_en": "Burnable Waste (white bag)" },
+  { "id": "oogata-kanen", "kind": "burnable", "name_ja": "大型可燃ごみ", "name_en": "Large Burnable Waste", "accepts_large_items": true },
+  { "id": "kanen-shigen", "kind": "paper", "name_ja": "可燃系資源", "name_en": "Paper and Clothing for Recycling" },
+  { "id": "yoki-pla", "kind": "plastic", "name_ja": "プラスチック製容器包装", "name_en": "Plastic Containers and Packaging" },
+  { "id": "sonota-pla", "kind": "plastic", "name_ja": "その他プラスチック類", "name_en": "Other Plastics" },
+  { "id": "bin-kan", "kind": "recyclable", "name_ja": "びん・かん類", "name_en": "Bottles and Cans" },
+  { "id": "pet", "kind": "recyclable", "name_ja": "ペットボトル", "name_en": "PET Bottles" },
+  { "id": "kinzoku", "kind": "non-burnable", "name_ja": "金属類", "name_en": "Metals" },
+  { "id": "kogata", "kind": "small-appliance", "name_ja": "小型家電品", "name_en": "Small Appliances" },
+  { "id": "umetate", "kind": "non-burnable", "name_ja": "埋立ごみ", "name_en": "Landfill Waste" },
+  { "id": "yugai", "kind": "hazardous", "name_ja": "有害ごみ", "name_en": "Hazardous Waste" },
+  { "id": "oogata-funen", "kind": "bulky", "name_ja": "大型不燃ごみ(届出制)", "name_en": "Large Non-burnable Waste (advance notice required)" },
+  { "id": "umou", "kind": "drop-off", "name_ja": "羽毛製品の回収", "name_en": "Down Products Collection" },
+  { "id": "konnan", "kind": "not-collected", "name_ja": "市では収集しないごみ(処理が困難なごみ)", "name_en": "Not Collected by the City (Difficult-to-process Waste)" },
+  { "id": "konnan-recycle", "kind": "not-collected", "name_ja": "市では収集しないごみ(処理が困難なごみのリサイクル)", "name_en": "Not Collected by the City (Recycling of Difficult-to-process Waste)" },
+  { "id": "kaden", "kind": "not-collected", "name_ja": "市では収集しないごみ(特定家庭用機器)", "name_en": "Not Collected by the City (Home Appliance Recycling Law)" },
+  { "id": "pc", "kind": "not-collected", "name_ja": "市では収集しないごみ(パソコン)", "name_en": "Not Collected by the City (Personal Computers)" }
+]

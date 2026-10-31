@@ -42,6 +42,11 @@ import { gosenCityAdapter } from "./gosen-city"
 import { kanieTownAdapter } from "./kanie-town"
 import { komatsushimaCityAdapter } from "./komatsushima-city"
 import { takahamaTownAdapter } from "./takahama-town"
+import { furanoCityAdapter } from "./furano-city"
+import { tsubataTownAdapter } from "./tsubata-town"
+import { kunitachiCityAdapter } from "./kunitachi-city"
+import { eniwaCityAdapter } from "./eniwa-city"
+import { kudamatsuCityAdapter } from "./kudamatsu-city"
 
 /** 登録済みアダプタ。自治体を追加するときはここに1行足す */
 export const ADAPTERS: Record<string, MunicipalityAdapter> = {
@@ -88,4 +93,9 @@ export const ADAPTERS: Record<string, MunicipalityAdapter> = {
   [kanieTownAdapter.slug]: kanieTownAdapter,
   [komatsushimaCityAdapter.slug]: komatsushimaCityAdapter,
   [takahamaTownAdapter.slug]: takahamaTownAdapter,
+  [furanoCityAdapter.slug]: furanoCityAdapter,
+  [tsubataTownAdapter.slug]: tsubataTownAdapter,
+  [kunitachiCityAdapter.slug]: kunitachiCityAdapter,
+  [eniwaCityAdapter.slug]: eniwaCityAdapter,
+  [kudamatsuCityAdapter.slug]: kudamatsuCityAdapter,
 }
