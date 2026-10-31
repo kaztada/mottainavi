@@ -50,13 +50,18 @@ export function feeNote(
   biko: string
 ): string | null {
   if (!fee) return null
+  // 備考に「粗大料金はサイズによる」などとある品目の金額は、決まった額ではなく例として見せる
+  const varies = /粗大料金は.+による/.test(biko)
+  const amount = varies
+    ? `の例: ${fee}円(大きさや方式で変わるので、申込みのときに確かめてください)`
+    : `: ${fee}円`
   if (label === SODAI_LABEL) {
     return fee === "計量"
       ? "粗大ごみ処理券: 計量(10kgにつき500円)"
-      : `粗大ごみ処理券: ${fee}円`
+      : `粗大ごみ処理券${amount}`
   }
   if (!/^\d+$/.test(fee) || !biko.includes("粗大ごみ")) return null
-  return `粗大ごみになるときの処理券: ${fee}円`
+  return `粗大ごみになるときの処理券${amount}`
 }
 
 interface Row {
