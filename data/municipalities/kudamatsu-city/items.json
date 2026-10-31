@@ -1,6 +1,6 @@
 {
   "municipality_id": "kudamatsu-city",
-  "generated_at": "2026-10-31T17:08:31.054Z",
+  "generated_at": "2026-10-31T17:23:15.504Z",
   "source_url": "https://yamaguchi-opendata.jp/ckan/dataset/352071_garbage_separation",
   "item_count": 1474,
   "items": [
@@ -5519,7 +5519,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Kitchen tray (cooking vat)"
+      "name_en": "Food prep tray (kitchen tray)"
     },
     {
       "id": "kdm-0317",
@@ -11540,7 +11540,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Stainless steel cooking tray (kitchen vat)"
+      "name_en": "Stainless steel food prep tray (for cooking)"
     },
     {
       "id": "kdm-0664",

@@ -1,6 +1,6 @@
 {
   "municipality_id": "furano-city",
-  "generated_at": "2026-10-31T17:08:29.566Z",
+  "generated_at": "2026-10-31T17:23:13.577Z",
   "source_url": "https://www.harp.lg.jp/opendata/dataset/2228.html",
   "item_count": 1637,
   "items": [
@@ -8843,7 +8843,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Sander blade (whetstone)"
+      "name_en": "Abrasive wheel (for a sander / grinder)"
     },
     {
       "id": "frn-0513",
@@ -11872,7 +11872,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Snow helper (snow removal tool; metal)"
+      "name_en": "Snow traction board (vehicle recovery aid; metal)"
     },
     {
       "id": "frn-0688",
@@ -11889,7 +11889,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Snow helper (snow removal tool; plastic)"
+      "name_en": "Snow traction board (vehicle recovery aid; plastic)"
     },
     {
       "id": "frn-0689",
@@ -26214,7 +26214,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Monitor (other than computer monitors)"
+      "name_en": null
     },
     {
       "id": "frn-1518",
