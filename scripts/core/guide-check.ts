@@ -170,8 +170,11 @@ export function headText(page: PageInfo): string {
  * (本文の別の告知の文脈で除かない。本文に「旧事業は終了しました」が残っていても、
  * 題名が「ごみ分別検索は終了しました」に変われば知らせる)
  */
-export function freshHeadStopWords(t: { knownStopContexts?: string[] }, page: PageInfo): string[] {
-  const known = new Set(t.knownStopContexts ?? [])
+export function freshHeadStopWords(
+  t: { knownHeadStopContexts?: string[] },
+  page: PageInfo
+): string[] {
+  const known = new Set(t.knownHeadStopContexts ?? [])
   const fresh = stopContexts(headText(page)).filter((c) => !known.has(c))
   return STOP_WORDS.filter((w) => fresh.some((c) => c.includes(w)))
 }
@@ -243,6 +246,10 @@ export type WatchTarget = {
   mustLinkTo?: string
   /** 導線のページ: 入れるときに見た、本文の停止の語の文脈 */
   knownStopContexts?: string[]
+  /** 導線のページ: 入れるときに見た、題名・見出しの停止の語の文脈(本文とは分けて比べる) */
+  knownHeadStopContexts?: string[]
+  /** PDF に直接つなぐ導線(PDF でなくなったら中身が変わった) */
+  expectPdf?: boolean
 }
 
 export type Judgement = {
@@ -323,8 +330,10 @@ export function judge(
     return { verdict: "review", reasons: [`状態コード ${outcome.status}(本文なし)`] }
   }
 
-  // 資料: リンクの付け替えとハッシュ
+  // 資料: リンクの付け替えとハッシュ。PDF でなくなったら中身が変わった
   if (t.role === "document") {
+    if (!isPdf(outcome))
+      reasons.push(`資料が PDF ではなくなりました(${outcome.content_type ?? "形が不明"})`)
     if (page && page.body && page.status === 200 && isHtml(page) && t.expectedDocumentUrl) {
       const info = readOutcomePage(page)
       const link = info ? findLinkTo(info, t.expectedDocumentUrl) : null
@@ -345,6 +354,13 @@ export function judge(
     if (outcome.sha256 !== t.expectedSha256)
       return { verdict: "changed", reasons: ["資料の中身(ハッシュ)が変わりました"] }
     return { verdict: "ok", reasons }
+  }
+  // PDF に直接つなぐ導線が PDF でなくなった(ページに置き換わった・転送された)。画面の版や検索の可否が合わなくなる
+  if (t.expectPdf) {
+    return {
+      verdict: "changed",
+      reasons: [`PDF ではなくなりました(${outcome.content_type ?? "形が不明"}): ${outcome.final_url}`],
+    }
   }
   if (!isHtml(outcome)) {
     return { verdict: "review", reasons: [`HTML でも PDF でもありません: ${outcome.content_type}`] }

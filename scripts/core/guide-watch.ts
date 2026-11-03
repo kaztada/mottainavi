@@ -35,7 +35,9 @@ export function buildTargets(
         allowedHosts,
         expectedFinalUrl: l.via ? (l.final_url ?? l.url) : undefined,
         expectedSha256: l.target === "pdf" ? l.document_sha256 : undefined,
+        expectPdf: l.target === "pdf",
         knownStopContexts: l.known_stop_contexts,
+        knownHeadStopContexts: l.known_head_stop_contexts,
       })
       if (l.document_url)
         out.push({

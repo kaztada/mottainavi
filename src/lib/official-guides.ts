@@ -109,6 +109,8 @@ export const GuideLinkBaseSchema = z.object({
       .optional(),
     /** 入れるときに人が見た、本文の停止の語の文脈(見張りでは新しい文脈だけを知らせる。画面には出さない) */
     known_stop_contexts: z.array(z.string().min(1)).optional(),
+    /** 同じく、題名・見出しの停止の語の文脈(本文の文脈とは分けて比べる) */
+    known_head_stop_contexts: z.array(z.string().min(1)).optional(),
     /** 確かめたときの最終の行き先(転送されるとき。外部のサイトは市を表すパスやクエリまで見る) */
     final_url: HttpUrlSchema.optional(),
     via: ViaSchema.optional(),

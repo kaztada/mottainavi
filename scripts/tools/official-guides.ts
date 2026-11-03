@@ -4,6 +4,8 @@
  *   npm run guides -- hosts                      市のホストの表(data/municipal-hosts.json)を作り直す
  *   npm run guides -- check <下書き.json> [--report <出力.json>]   下書きの導線を確かめる(書かない)
  *   npm run guides -- apply <下書き.json>         確かめて、通った導線と電話だけを書く
+ *   npm run guides -- remove <slug> [<種類>|phone]  その市の導線(種類を書けばその1件、phone なら電話)を外す。
+ *                                                見張りで誤案内の疑いが見つかったときなど。予定の表のその市の行も直す
  *   npm run guides -- report                     いまの導線の一覧
  *
  * 取得は politeFetch の既定(キャッシュ優先。CLAUDE.md「再実行はキャッシュ優先」)。同じ URL は1回だけ。
@@ -226,6 +228,7 @@ async function checkLink(
 
   let title: string | null = null
   let stopCtx: string[] | undefined
+  let headStopCtx: string[] | undefined
   let documentLinkText: string | undefined
   let documentSha: string | undefined
   if (l.target === "pdf") {
@@ -243,7 +246,8 @@ async function checkLink(
         flags.push("ごみの語が無い")
       const stop = containsAny(head, STOP_WORDS)
       if (stop.length > 0) flags.push(`題名・見出しに停止の語: ${stop.join("・")}`)
-      stopCtx = [...new Set([...stopContexts(page.text), ...stopContexts(headText(page))])].sort()
+      stopCtx = stopContexts(page.text)
+      headStopCtx = stopContexts(headText(page))
       if (stopCtx.length > 0) flags.push(`本文に停止の語(人が見る): ${stopCtx.slice(0, 3).join(" / ")}`)
       const old = containsAny(page.text, OLD_WORDS)
       if (old.length > 0) flags.push(`本文に古さの告知: ${old.join("・")}`)
@@ -292,6 +296,7 @@ async function checkLink(
     document_link_text: documentLinkText,
     document_sha256: documentSha,
     known_stop_contexts: stopCtx && stopCtx.length > 0 ? stopCtx : undefined,
+    known_head_stop_contexts: headStopCtx && headStopCtx.length > 0 ? headStopCtx : undefined,
     final_url:
       comparableUrl(o.final_url) !== comparableUrl(l.url) || l.via ? o.final_url : undefined,
     via: l.via,
@@ -432,6 +437,32 @@ async function main() {
     return
   }
 
+  if (cmd === "remove") {
+    if (!arg) throw new Error("外す市の slug を指定してください")
+    const what = process.argv[4]
+    const guides = { ...files.guides }
+    const entry = guides[arg]
+    if (!entry) throw new Error(`導線がありません: ${arg}`)
+    let reviews = [...files.reviews]
+    if (!what) {
+      delete guides[arg]
+      reviews = reviews.filter((r) => r.slug !== arg)
+    } else if (what === "phone") {
+      guides[arg] = { ...entry, phone: undefined }
+      reviews = reviews.filter((r) => !(r.slug === arg && r.due === PHONE_REVIEW_DUE))
+    } else {
+      guides[arg] = { ...entry, links: entry.links.filter((l) => l.kind !== what) }
+    }
+    const left = guides[arg]
+    if (left && left.links.length === 0 && !left.phone) {
+      delete guides[arg]
+      reviews = reviews.filter((r) => r.slug !== arg)
+    }
+    writeGuideFiles({ ...files, guides, reviews }, registry)
+    console.log(`外しました: ${arg}${what ? ` の ${what}` : ""}`)
+    return
+  }
+
   if (cmd === "report") {
     for (const e of registry) {
       const g = files.guides[e.slug]
@@ -443,7 +474,7 @@ async function main() {
   }
 
   console.error(
-    "使い方: npm run guides -- hosts | check <下書き.json> [--report <出力.json>] | apply <下書き.json> | report"
+    "使い方: npm run guides -- hosts | check <下書き.json> [--report <出力.json>] | apply <下書き.json> | remove <slug> [<種類>|phone] | report"
   )
   process.exit(1)
 }

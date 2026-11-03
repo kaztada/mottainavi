@@ -173,7 +173,8 @@
         "url": "https://www.city.akita.lg.jp/kurashi/recycle/1006071/1006255.html",
         "target": "html-page",
         "document": "html",
-        "searchable": true
+        "searchable": true,
+        "partial": true
       }
     ],
     "phone": {
@@ -216,6 +217,10 @@
         "target": "pdf",
         "document": "image-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2023-11",
+          "precision": "month"
+        },
         "document_sha256": "1c5578d19254bd72c4fa634a6800b46bd63f77fed998e5d1ddb2d189bcd6aecd"
       }
     ],
@@ -390,7 +395,8 @@
         "url": "https://www.city.oyama.tochigi.jp/kurashi/gomi-seikatsu/gomi-recycle/page006580.html",
         "target": "html-page",
         "document": "html",
-        "searchable": true
+        "searchable": true,
+        "partial": true
       }
     ],
     "phone": {
@@ -564,12 +570,14 @@
     "checked_at": "2026-11-04",
     "links": [
       {
-        "kind": "list",
-        "url": "https://www.city.sayama.saitama.jp/kurashi/gomi/syusyubunbetsu/gomi_ziten.files/R7gomibunbetsu_a.pdf",
-        "target": "pdf",
-        "document": "text-pdf",
+        "kind": "search",
+        "url": "https://www.city.sayama.saitama.jp/kurashi/gomi/syusyubunbetsu/gomi_ziten.html",
+        "target": "html-page",
+        "document": "search",
         "searchable": false,
-        "document_sha256": "c5b50c7b88c7d949ea2d54b6e38e5018645445292c1c38c723665f9aa4d5f7b0"
+        "known_stop_contexts": [
+          "所の届け出（新設・変更・廃止）ごみ集積所は、利用者の"
+        ]
       }
     ],
     "source": "市区町村のサイトの確認 2026-10-16(own-site.json)"
@@ -678,12 +686,6 @@
         "scope": "area-selector"
       }
     ],
-    "phone": {
-      "dept_ja": "環境経済部 資源循環推進課 廃棄物収集係",
-      "tel": "0480-85-1111",
-      "source_url": "https://www.city.kuki.lg.jp/machizukuri/gomi/bunbetsu/1007473.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "fujimi-city": {
@@ -1330,12 +1332,6 @@
         "document_sha256": "848361c115831fee67f5fe6dca4e50edc3cddc120ccd8aaab49c74be5783f696"
       }
     ],
-    "phone": {
-      "dept_ja": "生活環境課",
-      "tel": "025-526-5111",
-      "source_url": "https://www.city.joetsu.niigata.jp/soshiki/seikatsu/bunnbetugaido.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "toyama-city": {
@@ -1632,8 +1628,8 @@
         "document": "image-pdf",
         "searchable": false,
         "edition": {
-          "value": "2026-02-25",
-          "precision": "day"
+          "value": "2026-01",
+          "precision": "month"
         },
         "document_url": "https://www.city.kasugai.lg.jp/_res/projects/default_project/_page_/001/032/952/hinmokubetuichiranR8.pdf",
         "document_link_text": "資源・ごみ品目別一覧 （PDF 3.6MB）",
@@ -1930,16 +1926,6 @@
     },
     "source": "第2群の調査 2026-11-01"
   },
-  "uji-city": {
-    "checked_at": "2026-11-04",
-    "phone": {
-      "dept_ja": "人権環境部 まち美化推進課",
-      "tel": "0774-22-3141",
-      "source_url": "https://www.city.uji.kyoto.jp/site/gomi/36803.html",
-      "checked_at": "2026-11-04"
-    },
-    "source": "第2群の調査 2026-11-01"
-  },
   "osaka-sakai-city": {
     "checked_at": "2026-11-04",
     "links": [
@@ -2064,7 +2050,8 @@
         "url": "https://www.city.amagasaki.hyogo.jp/kurashi/gomi/manner/dasikata/1037516.html",
         "target": "html-page",
         "document": "html",
-        "searchable": true
+        "searchable": true,
+        "partial": true
       }
     ],
     "phone": {
@@ -2131,7 +2118,8 @@
         "url": "https://www.city.nara.lg.jp/soshiki/99/227813.html",
         "target": "html-page",
         "document": "html",
-        "searchable": true
+        "searchable": true,
+        "partial": true
       }
     ],
     "source": "第2群の調査 2026-11-01"
@@ -2614,6 +2602,10 @@
         "target": "pdf",
         "document": "image-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2023-04",
+          "precision": "month"
+        },
         "document_sha256": "446ac686dc04935fc0cd9363f59bb1bf765ff279d0712f13152c5fc315f1eef3"
       }
     ],

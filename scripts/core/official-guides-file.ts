@@ -55,6 +55,8 @@ function linkToJson(l: GuideLink): Record<string, unknown> {
   if (l.document_sha256) out.document_sha256 = l.document_sha256
   if (l.known_stop_contexts && l.known_stop_contexts.length > 0)
     out.known_stop_contexts = [...l.known_stop_contexts]
+  if (l.known_head_stop_contexts && l.known_head_stop_contexts.length > 0)
+    out.known_head_stop_contexts = [...l.known_head_stop_contexts]
   if (l.final_url) out.final_url = l.final_url
   if (l.via) out.via = { id: l.via.id, linked_from: l.via.linked_from }
   return out

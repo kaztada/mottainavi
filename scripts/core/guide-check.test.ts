@@ -83,21 +83,32 @@ describe("judge: 判定の表の順", () => {
   it("入れるときに人が見た見出しの停止の語は、毎月は知らせない", () => {
     const body = html("A市", "<h2>サービス休止情報</h2><p>ごみ</p>")
     const page = readPage(body.toString(), "https://x/")
-    const known = [...stopContexts(page.text), ...stopContexts(`${page.title} ${page.headings}`)]
-    expect(judge(guide({ knownStopContexts: known }), got({ body })).verdict).toBe("ok")
+    const t = guide({
+      knownStopContexts: stopContexts(page.text),
+      knownHeadStopContexts: stopContexts(`${page.title} ${page.headings}`),
+    })
+    expect(judge(t, got({ body })).verdict).toBe("ok")
   })
   it("本文に確かめた停止の告知が残っていても、題名・見出しの新しい停止の告知は知らせる", () => {
-    const before = html("ごみ|A市", "<h1>ごみの分け方</h1><p>A市のごみ。旧事業は終了しました</p>")
+    const before = html("ごみ|A市", "<h1>ごみの分け方</h1><p>A市のごみ。ごみ分別検索は終了しました</p>")
     const page = readPage(before.toString(), "https://x/")
-    const known = [...stopContexts(page.text), ...stopContexts(`${page.title} ${page.headings}`)]
-    expect(judge(guide({ knownStopContexts: known }), got({ body: before })).verdict).toBe("ok")
-    const after = html("ごみ分別検索は終了しました|A市", "<h1>ごみの分け方</h1><p>A市のごみ。旧事業は終了しました</p>")
-    expect(judge(guide({ knownStopContexts: known }), got({ body: after })).verdict).toBe("suspect-content")
+    const t = guide({
+      knownStopContexts: stopContexts(page.text),
+      knownHeadStopContexts: stopContexts(`${page.title} ${page.headings}`),
+    })
+    expect(judge(t, got({ body: before })).verdict).toBe("ok")
+    // 本文と同じ文脈の告知が題名に出ても、本文の記録では除かない
+    const after = html("A市", "<h1>ごみ分別検索は終了しました</h1><p>A市のごみ。ごみ分別検索は終了しました</p>")
+    expect(judge(t, got({ body: after })).verdict).toBe("suspect-content")
   })
   it("404 でも本文の題名・見出しに停止の告知があれば、切れたより先に誤案内の疑い", () => {
     const o = got({ status: 404, body: html("A市", "<h1>検索システムの提供を終了しました</h1><p>ごみ</p>") })
     expect(judge(guide(), o).verdict).toBe("suspect-content")
     expect(judge(guide(), got({ status: 404, body: html("Not Found", "<p>ページがありません</p>") })).verdict).toBe("broken")
+  })
+  it("PDF に直接つなぐ導線が HTML に置き換わったら中身が変わった", () => {
+    const t = guide({ url: `https://${CITY}/a.pdf`, expectedSha256: "1".repeat(64), expectPdf: true })
+    expect(judge(t, got()).verdict).toBe("changed")
   })
   it("PDF の記録したハッシュが無ければ要確認", () => {
     const pdf = got({ final_url: `https://${CITY}/a.pdf`, content_type: "application/pdf", body: Buffer.from("%PDF-1.7") })

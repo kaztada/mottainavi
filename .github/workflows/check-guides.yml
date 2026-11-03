@@ -87,6 +87,8 @@ jobs:
               gh issue create --title "$WATCH_TITLE" --body-file body.md
             fi
           elif [ -n "$num" ]; then
+            # 閉じる前に、今月の状態(何か月続いたか)を本文に残す。次の月はこの状態から数える
+            gh issue edit "$num" --body-file body.md
             gh issue comment "$num" --body "$today のリンクの見張りでは、人が見るものはありませんでした。閉じます。"
             gh issue close "$num"
           fi
