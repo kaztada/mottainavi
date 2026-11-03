@@ -143,6 +143,9 @@ export const GuideLinkSchema = GuideLinkBaseSchema.superRefine((l, ctx) => {
       issue("searchable は html か text-pdf のときだけ true")
     if (l.document_link_text && !l.document_url)
       issue("document_link_text は document_url があるときだけ")
+    // 見張りで資料の差し替えを見つけるため、PDF に直接つなぐ導線と中の資料にはハッシュが要る
+    if ((l.target === "pdf" || l.document_url) && !l.document_sha256)
+      issue("PDF に直接つなぐ導線と、中の資料のある導線には document_sha256 が要る")
     // 地区を選ぶ入口では、確かめた1本の版や文字の有無を入口全体のものとして出さない
     if (l.scope === "area-selector" && (l.edition || l.searchable))
       issue("area-selector の導線は edition を持たず、searchable を false にする")

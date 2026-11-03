@@ -92,6 +92,12 @@ describe("nextState: 取得できないが続いた月の数", () => {
     const s2 = nextState(again, "2027-01", ["u1"])
     expect(s2.streak).toEqual({ u1: 2 })
   })
+  it("見張らなかった月を挟んだら数え直す", () => {
+    const nov = nextState(null, "2026-11", ["u1"])
+    expect(nextState(nov, "2027-01", ["u1"]).streak).toEqual({ u1: 1 })
+    const dec = nextState(nextState(null, "2026-12", ["u1"]), "2027-01", ["u1"])
+    expect(dec.streak).toEqual({ u1: 2 })
+  })
   it("Issue の本文に書いて読み戻せる", () => {
     const s = nextState(null, "2026-12", ["u1"])
     const body = renderWatchBody([], s, "2026-12-01")

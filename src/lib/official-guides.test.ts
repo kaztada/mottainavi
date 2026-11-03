@@ -91,15 +91,19 @@ describe("GuideLinkSchema: 種類と資料の形の組み合わせ", () => {
       ...over,
     }).success
   it("PDF に直接つなぐなら document は text-pdf か image-pdf", () => {
-    expect(bad({ target: "pdf", document: "html" })).toBe(false)
-    expect(bad({ target: "pdf", document: "text-pdf" })).toBe(true)
+    expect(bad({ target: "pdf", document: "html", document_sha256: "a".repeat(64) })).toBe(false)
+    expect(bad({ target: "pdf", document: "text-pdf", document_sha256: "a".repeat(64) })).toBe(true)
   })
-  it("ページから PDF を開く導線には document_url が要る", () => {
+  it("ページから PDF を開く導線には document_url が要り、PDF にはハッシュが要る", () => {
+    const sha = "a".repeat(64)
     expect(bad({ document: "text-pdf" })).toBe(false)
-    expect(bad({ document: "text-pdf", document_url: "https://www.city.a.lg.jp/a.pdf" })).toBe(true)
+    expect(bad({ document: "text-pdf", document_url: "https://www.city.a.lg.jp/a.pdf" })).toBe(false)
+    expect(bad({ document: "text-pdf", document_url: "https://www.city.a.lg.jp/a.pdf", document_sha256: sha })).toBe(true)
+    expect(bad({ target: "pdf", document: "text-pdf" })).toBe(false)
+    expect(bad({ target: "pdf", document: "text-pdf", document_sha256: sha })).toBe(true)
   })
   it("画像の PDF は searchable にできない", () => {
-    expect(bad({ target: "pdf", document: "image-pdf", searchable: true })).toBe(false)
+    expect(bad({ target: "pdf", document: "image-pdf", searchable: true, document_sha256: "a".repeat(64) })).toBe(false)
   })
   it("地区を選ぶ入口は版を持たず、searchable にしない", () => {
     expect(bad({ scope: "area-selector", searchable: false, edition: { value: "2026", precision: "year" } })).toBe(false)
@@ -188,7 +192,7 @@ describe("officialGuideProblems: 止まる例", () => {
   it("中の資料・最終の行き先が別のホスト", () => {
     expect(
       problems({
-        guides: { a: entry([link({ document: "text-pdf", document_url: "https://www.city.b.lg.jp/a.pdf" })]) },
+        guides: { a: entry([link({ document: "text-pdf", document_url: "https://www.city.b.lg.jp/a.pdf", document_sha256: "a".repeat(64) })]) },
       }).join()
     ).toMatch(/document_url/)
     expect(problems({ guides: { a: entry([link({ final_url: "https://evil.example.com/" })]) } }).join()).toMatch(/final_url/)

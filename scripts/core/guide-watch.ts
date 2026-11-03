@@ -92,12 +92,25 @@ export function parseState(body: string | null | undefined): WatchState | null {
  * 「取得できない」の続いた月の数。同じ月の手動のやり直しは数えない(前の月までの数に足し直す)。
  * 正常などに戻った URL は消す
  */
+/** 前の月(YYYY-MM) */
+export function previousMonth(month: string): string {
+  const [y, m] = month.split("-").map(Number)
+  return m === 1 ? `${y - 1}-12` : `${y}-${String(m - 1).padStart(2, "0")}`
+}
+
 export function nextState(
   prev: WatchState | null,
   month: string,
   unreachableUrls: readonly string[]
 ): WatchState {
-  const base = prev ? (prev.month === month ? prev.base : prev.streak) : {}
+  // 同じ月のやり直しは前の月までの数に足し直す。前の月の状態でなければ(見張らなかった月を挟んだ)数え直す
+  const base = !prev
+    ? {}
+    : prev.month === month
+      ? prev.base
+      : prev.month === previousMonth(month)
+        ? prev.streak
+        : {}
   const streak: Record<string, number> = {}
   for (const url of [...new Set(unreachableUrls)].sort()) streak[url] = (base[url] ?? 0) + 1
   return { month, base, streak }

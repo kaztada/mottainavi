@@ -54,12 +54,14 @@ jobs:
             echo "skip=true" >> "$GITHUB_OUTPUT"
           fi
 
+      # 前の月の状態は、閉じた Issue のものも読む(人が閉じたあとも「何か月続いたか」を引き継ぐ)。
+      # 書き換える先は開いている Issue だけ(無ければ作る)
       - name: 前の Issue の本文(前の月の状態)
         if: steps.when.outputs.skip != 'true' && github.event_name != 'pull_request'
         run: |
-          gh issue list --state open --search "in:title \"$WATCH_TITLE\"" --json number,body --jq '.[0] // {}' > prev.json
+          gh issue list --state all --search "in:title \"$WATCH_TITLE\"" --json number,body,state --jq '.[0] // {}' > prev.json
           jq -r '.body // ""' prev.json > prev.md
-          jq -r '.number // ""' prev.json > num.txt
+          jq -r 'if .state == "OPEN" then .number else "" end // ""' prev.json > num.txt
 
       - name: 見張り
         if: steps.when.outputs.skip != 'true'

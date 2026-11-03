@@ -184,16 +184,6 @@
     },
     "source": "第2群の調査 2026-11-01"
   },
-  "yamagata-yamagata-city": {
-    "checked_at": "2026-11-04",
-    "phone": {
-      "dept_ja": "環境部 循環型社会推進課 分別収集係",
-      "tel": "023-641-1212",
-      "source_url": "https://www.city.yamagata-yamagata.lg.jp/kurashi/gomi/1006506/1006508/1001857.html",
-      "checked_at": "2026-11-04"
-    },
-    "source": "第2群の調査 2026-11-01"
-  },
   "tsuruoka-city": {
     "checked_at": "2026-11-04",
     "links": [
@@ -249,13 +239,6 @@
         "document_sha256": "8ba5de8e38ac3b3fcce6ef7270cac186af583d9840c2ad1f9e1a38af6ba94db8"
       }
     ],
-    "phone": {
-      "dept_ja": "市民生活環境部 廃棄物減量推進課",
-      "tel": "0294-22-3111",
-      "note_ja": "内線547、569、751",
-      "source_url": "https://www.city.hitachi.lg.jp/kurashi_tetsuzuki/gomi_recycle/1002216/1002234/1002236.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "tsuchiura-city": {
@@ -513,6 +496,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2026",
+          "precision": "fiscal-year"
+        },
         "partial": true,
         "document_sha256": "032430cc46f4ddf25238da8598803b073e303d677a5891bb83d00c0af2966ae7"
       }
@@ -708,6 +695,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": true,
+        "edition": {
+          "value": "2026-07",
+          "precision": "month"
+        },
         "document_sha256": "366d124bbfe339ac9472de26219533dbb7a4053c0c92996e4a59716fd5bf9cf1"
       }
     ],
@@ -941,6 +932,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2025-11",
+          "precision": "month"
+        },
         "document_sha256": "0eb4143c44c968eb910ee567e5c3741f6b419fe0def5f5c82fabf21d5f05c6bc"
       }
     ],
@@ -1605,6 +1600,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2025-03",
+          "precision": "month"
+        },
         "document_sha256": "478705883450cd8f262b0f674289f1142ecf4315491d462c03d56af875656040"
       }
     ],
@@ -1839,6 +1838,10 @@
         "target": "html-page",
         "document": "text-pdf",
         "searchable": true,
+        "edition": {
+          "value": "2025-08",
+          "precision": "month"
+        },
         "document_url": "https://www.city.suzuka.lg.jp/_res/projects/default_project/_page_/001/015/784/gominoshiori_kaiteiban_2025.pdf",
         "document_link_text": "ごみのしおり （PDF 6.3MB）",
         "document_sha256": "306b395d95921a2671f41956f86bec9023a10cb88a00572d094e3b725d1d8338"
@@ -1899,6 +1902,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2024",
+          "precision": "year"
+        },
         "document_sha256": "1b34424d75e0a6f90c362e3bb96e02d099655c4a544ba8b8eaf18199ab9632f0"
       }
     ],
@@ -2273,6 +2280,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2026-06-24",
+          "precision": "day"
+        },
         "document_sha256": "0293c60cd2433e4325cfe2c7da6ece4912717247ae4ac8c694c19fb550e2ca3e"
       }
     ],
@@ -2448,6 +2459,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2023-10",
+          "precision": "month"
+        },
         "document_sha256": "ce9829aafc261133cba31978a2cfa88e1d959d12771ef0586a68f4fa2cead368"
       }
     ],
@@ -2524,6 +2539,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": false,
+        "edition": {
+          "value": "2026-08",
+          "precision": "month"
+        },
         "document_sha256": "6befc1bd23d4a8a0bb047a713a548c9752a55c28f9dd5b956cb565431767c7e4"
       }
     ],

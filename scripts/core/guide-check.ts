@@ -141,11 +141,39 @@ export function textHasTel(text: string, tel: string): boolean {
   return runs.some((r) => telDigits(r).includes(want))
 }
 
+/** 本文で、その番号の前後(前20字・後15字)に「代表」とあるか(代表の番号は載せない) */
+export function textHasRepresentativeTel(text: string, tel: string): boolean {
+  const want = telDigits(tel)
+  const re = /[0-9０-９][0-9０-９\-‐－―ー−()（）\s]{6,20}[0-9０-９]/g
+  for (const m of text.matchAll(re)) {
+    if (!telDigits(m[0]).includes(want)) continue
+    const around = text.slice(Math.max(0, m.index - 20), m.index + m[0].length + 15)
+    if (around.includes("代表")) return true
+  }
+  return false
+}
+
 /** 担当課の名前の最後の単位(「環境局 生活環境部 収集計画課」→「収集計画課」)が本文にあるか */
 export function textHasDept(text: string, dept: string): boolean {
   const units = dept.split(/[\s　]+/).filter(Boolean)
   const last = units[units.length - 1]
   return Boolean(last) && text.replace(/\s+/g, "").includes(last.replace(/\s+/g, ""))
+}
+
+/** 題名と見出しの文字(停止の告知を探す範囲) */
+export function headText(page: PageInfo): string {
+  return `${page.title} ${page.headings}`
+}
+
+/**
+ * 題名・見出しの、入れるときに見ていない停止の語。題名・見出しの文脈(前後12文字)で比べる
+ * (本文の別の告知の文脈で除かない。本文に「旧事業は終了しました」が残っていても、
+ * 題名が「ごみ分別検索は終了しました」に変われば知らせる)
+ */
+export function freshHeadStopWords(t: { knownStopContexts?: string[] }, page: PageInfo): string[] {
+  const known = new Set(t.knownStopContexts ?? [])
+  const fresh = stopContexts(headText(page)).filter((c) => !known.has(c))
+  return STOP_WORDS.filter((w) => fresh.some((c) => c.includes(w)))
 }
 
 export type FailureKind = "unreachable" | "broken" | null
@@ -278,6 +306,17 @@ export function judge(
     }
   }
   if (failure === "broken") {
+    // 404・410 でも本文の HTML が読めれば、導線のページの停止の告知を先に見る(表の順: 3 が 4 より先)
+    if (t.role === "guide" && outcome.body && isHtml(outcome)) {
+      const stop = freshHeadStopWords(t, readPage(decodeText(outcome.body, outcome.content_type), outcome.final_url))
+      if (stop.length > 0)
+        return {
+          verdict: "suspect-content",
+          reasons: [
+            `状態コード ${outcome.status} の本文の題名・見出しに停止の語があります: ${stop.join("・")}`,
+          ],
+        }
+    }
     return { verdict: "broken", reasons: [outcome.error ?? `状態コード ${outcome.status}`] }
   }
   if (outcome.status !== 200 || !outcome.body) {
@@ -293,14 +332,17 @@ export function judge(
       else if (t.expectedDocumentLinkText && link.text !== t.expectedDocumentLinkText)
         reasons.push(`資料へのリンクの文言が変わりました: ${link.text}`)
     }
-    if (t.expectedSha256 && outcome.sha256 && outcome.sha256 !== t.expectedSha256)
-      reasons.push("資料の中身(ハッシュ)が変わりました")
+    if (!t.expectedSha256)
+      return { verdict: "review", reasons: [...reasons, "記録した資料のハッシュがありません"] }
+    if (outcome.sha256 !== t.expectedSha256) reasons.push("資料の中身(ハッシュ)が変わりました")
     return reasons.length > 0 ? { verdict: "changed", reasons } : { verdict: "ok", reasons }
   }
 
   // PDF に直接つなぐ導線は、ハッシュだけを見る
   if (isPdf(outcome)) {
-    if (t.expectedSha256 && outcome.sha256 !== t.expectedSha256)
+    if (!t.expectedSha256)
+      return { verdict: "review", reasons: ["記録した資料のハッシュがありません"] }
+    if (outcome.sha256 !== t.expectedSha256)
       return { verdict: "changed", reasons: ["資料の中身(ハッシュ)が変わりました"] }
     return { verdict: "ok", reasons }
   }
@@ -309,15 +351,12 @@ export function judge(
   }
 
   const info = readPage(decodeText(outcome.body, outcome.content_type), outcome.final_url)
-  const head = `${info.title} ${info.headings}`
 
   // 3 誤案内の疑い(本文)。入れるときに人が見た文脈(knownStopContexts)は知らせない
   const known = new Set(t.knownStopContexts ?? [])
   const freshContexts = stopContexts(info.text).filter((c) => !known.has(c))
   if (t.role === "guide") {
-    const stop = containsAny(head, STOP_WORDS).filter(
-      (w) => freshContexts.some((c) => c.includes(w)) || !info.text.includes(w)
-    )
+    const stop = freshHeadStopWords(t, info)
     if (stop.length > 0)
       return {
         verdict: "suspect-content",
@@ -340,7 +379,7 @@ export function judge(
     // (さんあ〜るの入口のように、ページに市の名前が無いものがある)
     if (!t.expectedFinalUrl && !t.names.some((n) => info.text.includes(n) || info.title.includes(n)))
       reasons.push("題名・本文に市の名前がありません")
-    if (t.role === "guide" && containsAny(`${head} ${info.text}`, GARBAGE_WORDS).length === 0)
+    if (t.role === "guide" && containsAny(`${headText(info)} ${info.text}`, GARBAGE_WORDS).length === 0)
       reasons.push("ごみの語(ごみ・分別・資源)がありません")
     if (t.role === "guide" && freshContexts.length > 0)
       reasons.push(

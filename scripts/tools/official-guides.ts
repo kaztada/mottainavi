@@ -34,9 +34,11 @@ import {
   findLinkTo,
   isHtml,
   isPdf,
+  headText,
   readOutcomePage,
   stopContexts,
   textHasDept,
+  textHasRepresentativeTel,
   textHasTel,
   type FetchOutcome,
 } from "../core/guide-check"
@@ -175,7 +177,11 @@ async function checkCity(
     const o = await get(draft.phone.source_url)
     const page = o.status === 200 ? readOutcomePage(o) : null
     if (!page) problems.push(`ページを読めない(状態コード ${o.status}${o.error ? `、${o.error}` : ""})`)
+    else if (!cityHosts.includes(hostOf(o.final_url)))
+      problems.push(`確かめるページの行き先が市のホストでない: ${o.final_url}`)
     else {
+      if (textHasRepresentativeTel(page.text, draft.phone.tel))
+        problems.push(`番号の近くに「代表」とある(代表の番号は載せない。2026-11-04 Kaz 判断)`)
       if (!textHasTel(page.text, draft.phone.tel)) problems.push(`本文に番号 ${draft.phone.tel} が無い`)
       if (!textHasDept(page.text, draft.phone.dept_ja))
         problems.push(`本文に担当課の名前(${draft.phone.dept_ja} の最後の単位)が無い`)
@@ -237,7 +243,7 @@ async function checkLink(
         flags.push("ごみの語が無い")
       const stop = containsAny(head, STOP_WORDS)
       if (stop.length > 0) flags.push(`題名・見出しに停止の語: ${stop.join("・")}`)
-      stopCtx = stopContexts(page.text)
+      stopCtx = [...new Set([...stopContexts(page.text), ...stopContexts(headText(page))])].sort()
       if (stopCtx.length > 0) flags.push(`本文に停止の語(人が見る): ${stopCtx.slice(0, 3).join(" / ")}`)
       const old = containsAny(page.text, OLD_WORDS)
       if (old.length > 0) flags.push(`本文に古さの告知: ${old.join("・")}`)

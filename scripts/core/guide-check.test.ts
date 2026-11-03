@@ -7,6 +7,7 @@ import {
   readPage,
   stopContexts,
   textHasDept,
+  textHasRepresentativeTel,
   textHasTel,
   type FetchOutcome,
   type WatchTarget,
@@ -81,8 +82,30 @@ describe("judge: 判定の表の順", () => {
   })
   it("入れるときに人が見た見出しの停止の語は、毎月は知らせない", () => {
     const body = html("A市", "<h2>サービス休止情報</h2><p>ごみ</p>")
-    const known = stopContexts(readPage(body.toString(), "https://x/").text)
+    const page = readPage(body.toString(), "https://x/")
+    const known = [...stopContexts(page.text), ...stopContexts(`${page.title} ${page.headings}`)]
     expect(judge(guide({ knownStopContexts: known }), got({ body })).verdict).toBe("ok")
+  })
+  it("本文に確かめた停止の告知が残っていても、題名・見出しの新しい停止の告知は知らせる", () => {
+    const before = html("ごみ|A市", "<h1>ごみの分け方</h1><p>A市のごみ。旧事業は終了しました</p>")
+    const page = readPage(before.toString(), "https://x/")
+    const known = [...stopContexts(page.text), ...stopContexts(`${page.title} ${page.headings}`)]
+    expect(judge(guide({ knownStopContexts: known }), got({ body: before })).verdict).toBe("ok")
+    const after = html("ごみ分別検索は終了しました|A市", "<h1>ごみの分け方</h1><p>A市のごみ。旧事業は終了しました</p>")
+    expect(judge(guide({ knownStopContexts: known }), got({ body: after })).verdict).toBe("suspect-content")
+  })
+  it("404 でも本文の題名・見出しに停止の告知があれば、切れたより先に誤案内の疑い", () => {
+    const o = got({ status: 404, body: html("A市", "<h1>検索システムの提供を終了しました</h1><p>ごみ</p>") })
+    expect(judge(guide(), o).verdict).toBe("suspect-content")
+    expect(judge(guide(), got({ status: 404, body: html("Not Found", "<p>ページがありません</p>") })).verdict).toBe("broken")
+  })
+  it("PDF の記録したハッシュが無ければ要確認", () => {
+    const pdf = got({ final_url: `https://${CITY}/a.pdf`, content_type: "application/pdf", body: Buffer.from("%PDF-1.7") })
+    expect(judge(guide({ url: `https://${CITY}/a.pdf` }), pdf).verdict).toBe("review")
+  })
+  it("番号の近くに「代表」とあるかを見る", () => {
+    expect(textHasRepresentativeTel("電話 023-641-1212（代表）内線686", "023-641-1212")).toBe(true)
+    expect(textHasRepresentativeTel("電話 0138-51-0796(直通)", "0138-51-0796")).toBe(false)
   })
   it("中身が変わった: 市の名前・ごみの語が消えた", () => {
     expect(judge(guide(), got({ body: html("お知らせ", "<p>ごみの分け方</p>") })).verdict).toBe("changed")
