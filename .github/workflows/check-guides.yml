@@ -59,9 +59,12 @@ jobs:
       - name: 前の Issue の本文(前の月の状態)
         if: steps.when.outputs.skip != 'true' && github.event_name != 'pull_request'
         run: |
-          gh issue list --state all --search "in:title \"$WATCH_TITLE\"" --json number,body,state --jq '.[0] // {}' > prev.json
+          # 検索は関連度の順なので、題名がちょうど同じものを作った日の新しい順に並べ直して先頭を使う
+          gh issue list --state all --limit 100 --search "in:title \"$WATCH_TITLE\" sort:created-desc" --json number,title,body,createdAt \
+            --jq '[.[] | select(.title == env.WATCH_TITLE)] | sort_by(.createdAt) | reverse | .[0] // {}' > prev.json
           jq -r '.body // ""' prev.json > prev.md
-          jq -r 'if .state == "OPEN" then .number else "" end // ""' prev.json > num.txt
+          gh issue list --state open --limit 100 --search "in:title \"$WATCH_TITLE\" sort:created-desc" --json number,title,createdAt \
+            --jq '[.[] | select(.title == env.WATCH_TITLE)] | sort_by(.createdAt) | reverse | .[0].number // ""' > num.txt
 
       - name: 見張り
         if: steps.when.outputs.skip != 'true'
@@ -117,9 +120,12 @@ jobs:
       # 知らせた印は Issue の本文にある。閉じた Issue の印も読む(閉じたあとに同じ予定を二重に知らせない)
       - name: 予定日が来たもの
         run: |
-          gh issue list --state all --search "in:title \"$REVIEW_TITLE\"" --json number,body,state --jq '.[0] // {}' > prev.json
+          # 検索は関連度の順なので、題名がちょうど同じものを作った日の新しい順に並べ直して先頭を使う
+          gh issue list --state all --limit 100 --search "in:title \"$REVIEW_TITLE\" sort:created-desc" --json number,title,body,createdAt \
+            --jq '[.[] | select(.title == env.REVIEW_TITLE)] | sort_by(.createdAt) | reverse | .[0] // {}' > prev.json
           jq -r '.body // ""' prev.json > prev.md
-          jq -r 'if .state == "OPEN" then .number else "" end // ""' prev.json > num.txt
+          gh issue list --state open --limit 100 --search "in:title \"$REVIEW_TITLE\" sort:created-desc" --json number,title,createdAt \
+            --jq '[.[] | select(.title == env.REVIEW_TITLE)] | sort_by(.createdAt) | reverse | .[0].number // ""' > num.txt
           npm run --silent check-guides -- reviews --previous prev.md --out body.md --comment comment.md > result.json
           cat result.json
 
