@@ -8,10 +8,6 @@
         "target": "html-page",
         "document": "text-pdf",
         "searchable": true,
-        "edition": {
-          "value": "2026-07-08",
-          "precision": "day"
-        },
         "partial": true,
         "document_url": "https://www.city.hakodate.hokkaido.jp/docs/2014012100816/file_contents/2014012100816_hk_docs_2014012100816_files_bunbetujiten.pdf",
         "document_link_text": "家庭ごみ分別辞典",
@@ -578,6 +574,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": true,
+        "edition": {
+          "value": "2026-03",
+          "precision": "month"
+        },
         "document_sha256": "458a462cc1e1b83b311fc805775358b17b2f5501850b7ee87bab7e702d8743b9"
       }
     ],
@@ -925,6 +925,7 @@
           "value": "2025-11",
           "precision": "month"
         },
+        "partial": true,
         "document_sha256": "0eb4143c44c968eb910ee567e5c3741f6b419fe0def5f5c82fabf21d5f05c6bc"
       }
     ],
@@ -991,7 +992,7 @@
         "document": "image-pdf",
         "searchable": false,
         "edition": {
-          "value": "2026-04",
+          "value": "2026-06",
           "precision": "month"
         },
         "document_url": "https://www.city.toshima.lg.jp/documents/1053/20260714182641.pdf",
@@ -1026,10 +1027,6 @@
         "target": "html-page",
         "document": "text-pdf",
         "searchable": true,
-        "edition": {
-          "value": "2026-05-12",
-          "precision": "day"
-        },
         "partial": true,
         "document_url": "https://www.city.adachi.tokyo.jp/documents/46173/gomihp.pdf",
         "document_link_text": "これは何ごみ？（粗大ごみ料金表）50音順（PDF：294KB）",
@@ -1104,7 +1101,8 @@
         "url": "https://www.city.kawasaki.jp/kurashi/category/261-1-10-2-0-0-0-0-0-0.html",
         "target": "html-page",
         "document": "html",
-        "searchable": true
+        "searchable": true,
+        "partial": true
       }
     ],
     "phone": {
@@ -1197,10 +1195,6 @@
         "target": "html-page",
         "document": "text-pdf",
         "searchable": true,
-        "edition": {
-          "value": "2026-05-12",
-          "precision": "day"
-        },
         "document_url": "https://www.city.odawara.kanagawa.jp/global-image/units/578533/1-20260512170914_b6a02e02a65949.pdf",
         "document_link_text": "Ｐ14～23 ごみと資源の分け方リスト PDF形式 ：350.2ＫＢ",
         "document_sha256": "25cd2a124575038b058dd364b7347ba2fdb20ea0b62adb71f1a56bff330a4fa4"
@@ -1373,10 +1367,6 @@
         "target": "html-page",
         "document": "text-pdf",
         "searchable": true,
-        "edition": {
-          "value": "2025",
-          "precision": "year"
-        },
         "document_url": "https://www.city.kofu.lg.jp/documents/19794/2025wakekatadashikata_japanese_15_32.pdf",
         "document_link_text": "15〜32ページ：50音順ごみ分別辞典（PDF：1,399KB）",
         "document_sha256": "0bbe2ebd6f6fe3d56b59ff223c71b5d01ec7d5cf1fbd754be025fbf334f24cfd"
@@ -1398,8 +1388,7 @@
         "url": "https://www.city.matsumoto.nagano.jp/life/5/40/266/",
         "target": "html-page",
         "document": "html",
-        "searchable": true,
-        "partial": true
+        "searchable": true
       }
     ],
     "phone": {
@@ -1690,7 +1679,7 @@
         "document": "text-pdf",
         "searchable": true,
         "edition": {
-          "value": "2026-06",
+          "value": "2026-04",
           "precision": "month"
         },
         "document_url": "https://www.city.toyota.aichi.jp/_res/projects/default_project/_page_/001/024/063/r0806/01.pdf",
@@ -1760,10 +1749,6 @@
         "target": "html-page",
         "document": "text-pdf",
         "searchable": true,
-        "edition": {
-          "value": "2025-03-14",
-          "precision": "day"
-        },
         "document_url": "https://www.city.yokkaichi.lg.jp/www/contents/1001000001550/simple/hinnmokubetuichirann.pdf",
         "document_sha256": "8db2386a79a9d55a9693bea5fc0c90aed6d1fe2b01c22f58ede2841f4623a33f"
       }
@@ -1887,9 +1872,10 @@
         "document": "text-pdf",
         "searchable": false,
         "edition": {
-          "value": "2024",
-          "precision": "year"
+          "value": "2024-12",
+          "precision": "month"
         },
+        "partial": true,
         "document_sha256": "1b34424d75e0a6f90c362e3bb96e02d099655c4a544ba8b8eaf18199ab9632f0"
       }
     ],
@@ -1955,10 +1941,6 @@
         "target": "html-page",
         "document": "text-pdf",
         "searchable": true,
-        "edition": {
-          "value": "2024-04",
-          "precision": "month"
-        },
         "partial": true,
         "document_url": "https://www.city.toyonaka.osaka.jp/kurashi/gomi_risaikuru_bika/bunbetsu_dashikata/bunbetsusasshi.files/R6_syllabary_order.pdf",
         "document_link_text": "ごみと再生資源の分け方・出し方（50音順）（PDF：2,486KB）",
@@ -2244,7 +2226,11 @@
         "url": "https://www.city.hatsukaichi.hiroshima.jp/soshiki/31/78355.html",
         "target": "html-page",
         "document": "html",
-        "searchable": true
+        "searchable": true,
+        "edition": {
+          "value": "2026-04",
+          "precision": "month"
+        }
       }
     ],
     "source": "市区町村のサイトの確認 2026-10-16(own-site.json)"
@@ -2303,18 +2289,14 @@
     "checked_at": "2026-11-04",
     "links": [
       {
-        "kind": "list",
-        "url": "https://www.city.matsuyama.ehime.jp/kurashi/gomi/dashikata/bunbetsu_jiten_katei.html",
+        "kind": "top",
+        "url": "https://www.city.matsuyama.ehime.jp/kurashi/gomi/dashikata/kateigomi.html",
         "target": "html-page",
-        "document": "text-pdf",
-        "searchable": true,
-        "edition": {
-          "value": "2025-04",
-          "precision": "month"
-        },
-        "document_url": "https://www.city.matsuyama.ehime.jp/kurashi/gomi/dashikata/bunbetsu_jiten_katei.files/R7.4gomibunbeturyouP16-44.pdf",
-        "document_link_text": "ごみ分別はやわかり帳P16～P44(分別辞典)（PDF：2,920KB）",
-        "document_sha256": "3289e2f6c297bc5243a41ac7b15d57e6cec21433b189050ceaaf247514cab577",
+        "document": "html",
+        "searchable": false,
+        "label_ja": "地区ごとの分別の案内(地区を選ぶページ)",
+        "label_en": "Sorting guides by district (choose your district)",
+        "scope": "area-selector",
         "known_stop_contexts": [
           "C）を実施します（募集は終了しました）市のごみ処理施",
           "み集積場所の設置・変更・廃止・閲覧について≪令和6年",
@@ -2335,12 +2317,14 @@
     "checked_at": "2026-11-04",
     "links": [
       {
-        "kind": "list",
-        "url": "https://www.city.imabari.ehime.jp/recycle/siryo/gomi_bunbetu.pdf",
-        "target": "pdf",
-        "document": "text-pdf",
-        "searchable": true,
-        "document_sha256": "f837e760231112babbdafbf7ad37c8adcc63fa3c9a14cc9b5d4e51bb1bb6380e"
+        "kind": "top",
+        "url": "https://www.city.imabari.ehime.jp/recycle/siryo/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "label_ja": "地区ごとの分別の案内(地区を選ぶページ)",
+        "label_en": "Sorting guides by district (choose your district)",
+        "scope": "area-selector"
       }
     ],
     "source": "市区町村のサイトの確認 2026-10-16(own-site.json)"
@@ -2455,6 +2439,10 @@
         "target": "pdf",
         "document": "text-pdf",
         "searchable": true,
+        "edition": {
+          "value": "2026-04-28",
+          "precision": "day"
+        },
         "document_sha256": "d76b9089406016b51ae8a12dca16998e41867020ced5b41e89b92dbfe8115c88"
       }
     ],
@@ -2535,6 +2523,10 @@
         "target": "html-page",
         "document": "text-pdf",
         "searchable": true,
+        "edition": {
+          "value": "2026-04",
+          "precision": "month"
+        },
         "document_url": "https://www.city.oita.oita.jp/o141/kurashi/gomi/documents/p18p49.pdf",
         "document_link_text": "P18～P49 分別事典・索引（PDF：3,144KB）",
         "document_sha256": "cb0dfe8444c0a8cae3eaafdf7bdceb1a6ac692f44fa7770138c8043857a15c16"
@@ -2596,6 +2588,7 @@
           "value": "2023-04",
           "precision": "month"
         },
+        "partial": true,
         "document_sha256": "446ac686dc04935fc0cd9363f59bb1bf765ff279d0712f13152c5fc315f1eef3"
       }
     ],
