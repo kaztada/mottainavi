@@ -118,6 +118,23 @@ describe("judge: 判定の表の順", () => {
     expect(textHasRepresentativeTel("電話 023-641-1212（代表）内線686", "023-641-1212")).toBe(true)
     expect(textHasRepresentativeTel("電話 0138-51-0796(直通)", "0138-51-0796")).toBe(false)
   })
+  it("同じ問い合わせ欄の、住所を挟んだ前の「代表」も見る", () => {
+    const city = "このページに関するお問い合わせ先 環境部 代表 〒515-0803 松阪市町平尾町351-2 Tel：0598-53-4470 メール"
+    expect(textHasRepresentativeTel(city, "0598-53-4470")).toBe(true)
+    const office = "お問い合わせ 市役所代表 〒390-0851 長野県松本市島内7576番地1 電話：0263-34-3000"
+    expect(textHasRepresentativeTel(office, "0263-34-3000")).toBe(true)
+  })
+  it("「〇〇課代表」は課の番号なので数えない", () => {
+    const dept = "このページに関するお問い合わせ先 環境部ごみ減量推進課代表 〒963-8601福島県郡山市朝日一丁目23-7 西庁舎4階 Tel：024-924-2181 Fax：024-935-6790"
+    expect(textHasRepresentativeTel(dept, "024-924-2181")).toBe(false)
+    const head = "お問い合わせ先 環境部一般廃棄物対策課代表問い合わせ先 〒370-8501 群馬県高崎市高松町35番地1 Tel：027-321-1253"
+    expect(textHasRepresentativeTel(head, "027-321-1253")).toBe(false)
+  })
+  it("ほかの番号に付いた「代表」は数えない", () => {
+    const two = "電話 0598-51-1111（代表） 清掃事業課 電話 0598-53-4470"
+    expect(textHasRepresentativeTel(two, "0598-53-4470")).toBe(false)
+    expect(textHasRepresentativeTel(two, "0598-51-1111")).toBe(true)
+  })
   it("中身が変わった: 市の名前・ごみの語が消えた", () => {
     expect(judge(guide(), got({ body: html("お知らせ", "<p>ごみの分け方</p>") })).verdict).toBe("changed")
     expect(judge(guide(), got({ body: html("A市", "<p>観光案内</p>") })).verdict).toBe("changed")

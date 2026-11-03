@@ -141,14 +141,38 @@ export function textHasTel(text: string, tel: string): boolean {
   return runs.some((r) => telDigits(r).includes(want))
 }
 
-/** 本文で、その番号の前後(前20字・後15字)に「代表」とあるか(代表の番号は載せない) */
+/** 「〇〇課代表」の形(問い合わせ欄の見出しで、その課の番号を指す。市の代表番号ではない) */
+const DEPT_REPRESENTATIVE = /(課|係|室|センター|担当|グループ|事務所)$/
+
+/**
+ * 本文で、その番号が市の代表番号として書かれているか(代表の番号は載せない)。
+ * 番号のすぐ後(次の電話番号の前まで、15字以内)の「代表」と、同じ問い合わせ欄の中で番号より前
+ * (前の電話番号のあとから、最大120字。「問い合わせ」「問合せ」があればそこから)の「代表」を見る。
+ * 前の「代表」が「〇〇課代表」の形なら課の番号なので数えない(郡山市「環境部ごみ減量推進課代表 〒… Tel：…」)。
+ * 前の電話番号のすぐ後(15字以内)の「代表」は、その番号のものなので数えない。
+ * 郵便番号や番地は電話番号に数えない(0で始まる10〜11桁だけ)
+ */
 export function textHasRepresentativeTel(text: string, tel: string): boolean {
   const want = telDigits(tel)
-  const re = /[0-9０-９][0-9０-９\-‐－―ー−()（）\s]{6,20}[0-9０-９]/g
-  for (const m of text.matchAll(re)) {
+  const runs = [...text.matchAll(/[0-9０-９][0-9０-９\-‐－―ー−()（）\s]{6,20}[0-9０-９]/g)].filter((m) =>
+    /^0\d{9,10}$/.test(telDigits(m[0])),
+  )
+  for (let i = 0; i < runs.length; i++) {
+    const m = runs[i]
     if (!telDigits(m[0]).includes(want)) continue
-    const around = text.slice(Math.max(0, m.index - 20), m.index + m[0].length + 15)
-    if (around.includes("代表")) return true
+    const end = m.index + m[0].length
+    const prevEnd = i > 0 ? runs[i - 1].index + runs[i - 1][0].length : -Infinity
+    const nextStart = i + 1 < runs.length ? runs[i + 1].index : text.length
+    if (text.slice(end, Math.min(end + 15, nextStart)).includes("代表")) return true
+    let start = Math.max(0, prevEnd, m.index - 120)
+    const head = text.slice(start, m.index)
+    const block = Math.max(head.lastIndexOf("問い合わせ"), head.lastIndexOf("問合せ"))
+    if (block >= 0) start += block
+    const before = text.slice(start, m.index)
+    for (let j = before.indexOf("代表"); j >= 0; j = before.indexOf("代表", j + 1)) {
+      if (start + j - prevEnd <= 15) continue
+      if (!DEPT_REPRESENTATIVE.test(before.slice(0, j))) return true
+    }
   }
   return false
 }
