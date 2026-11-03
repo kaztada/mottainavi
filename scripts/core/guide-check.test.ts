@@ -135,6 +135,24 @@ describe("judge: 判定の表の順", () => {
     expect(textHasRepresentativeTel(two, "0598-53-4470")).toBe(false)
     expect(textHasRepresentativeTel(two, "0598-51-1111")).toBe(true)
   })
+  it("後ろの番号を説明する「代表電話」は後ろの番号のもの", () => {
+    const t = "お問い合わせ 環境課 直通 029-273-2966 代表電話 029-273-0111"
+    expect(textHasRepresentativeTel(t, "029-273-2966")).toBe(false)
+    expect(textHasRepresentativeTel(t, "029-273-0111")).toBe(true)
+  })
+  it("住所の末尾の数字と電話番号をつながない", () => {
+    const t = "松戸市役所 〒271-8588 千葉県松戸市根本387番地の5 047-366-1111（代表）"
+    expect(textHasRepresentativeTel(t, "047-366-1111")).toBe(true)
+  })
+  it("番号のすぐ後のかっこの中の「代表」は、その番号のもの", () => {
+    const t = "目黒区役所 電話：03-3715-1111（コールセンター・代表） ごみ減量課 電話 03-5722-9327"
+    expect(textHasRepresentativeTel(t, "03-3715-1111")).toBe(true)
+    expect(textHasRepresentativeTel(t, "03-5722-9327")).toBe(false)
+  })
+  it("「代表的」は「代表」に数えない", () => {
+    const t = "代表的な品目を掲載しています。お問い合わせ 清掃課 電話 0138-51-0796"
+    expect(textHasRepresentativeTel(t, "0138-51-0796")).toBe(false)
+  })
   it("中身が変わった: 市の名前・ごみの語が消えた", () => {
     expect(judge(guide(), got({ body: html("お知らせ", "<p>ごみの分け方</p>") })).verdict).toBe("changed")
     expect(judge(guide(), got({ body: html("A市", "<p>観光案内</p>") })).verdict).toBe("changed")

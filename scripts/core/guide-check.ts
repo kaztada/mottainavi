@@ -144,35 +144,53 @@ export function textHasTel(text: string, tel: string): boolean {
 /** 「〇〇課代表」の形(問い合わせ欄の見出しで、その課の番号を指す。市の代表番号ではない) */
 const DEPT_REPRESENTATIVE = /(課|係|室|センター|担当|グループ|事務所)$/
 
+type TelRun = { index: number; end: number; digits: string }
+
+/**
+ * 本文の電話番号。0で始まる10〜11桁を、3つの数字の組に分けて書いたもの(区切りはハイフン類・かっこ・空白)。
+ * 前後に数字が続くものは除く(住所の「387番地の5 047-366-1111」を1つの番号にしない。郵便番号は2組なので入らない)
+ */
+function telRuns(text: string): TelRun[] {
+  const d = "[0-9０-９]"
+  const sep = "(?:\\s?[\\-‐－―ー−()（）]\\s?|\\s)"
+  const re = new RegExp(`(?<!${d})[（(]?0${d}{0,4}${sep}${d}{1,4}${sep}${d}{3,4}(?!${d})`, "g")
+  return [...text.matchAll(re)]
+    .map((m) => ({ index: m.index, end: m.index + m[0].length, digits: telDigits(m[0]) }))
+    .filter((r) => /^0\d{9,10}$/.test(r.digits))
+}
+
+/**
+ * 「代表」(代表的・代表者などは除く)が、どの電話番号の見出しか。
+ * 前の番号のすぐ後のかっこの中「047-366-1111(代表)」「03-3715-1111(コールセンター・代表)」→ 前の番号。
+ * 後ろにすぐ番号が続く「代表電話 029-273-0111」「代表:03-…」→ 後ろの番号。
+ * 前の番号のすぐ後に空白だけを挟む「0263-34-3000 代表」→ 前の番号。
+ * それ以外は、同じ問い合わせ欄の中(120字以内で、間に「問い合わせ」「問合せ」が無い)の後ろの番号
+ * (松阪市の型「環境部 代表 〒515-0803 …Tel:0598-53-4470」)
+ */
+function representativeOwner(text: string, runs: TelRun[], p: number): TelRun | null {
+  const prev = [...runs].reverse().find((r) => r.end <= p) ?? null
+  const next = runs.find((r) => r.index >= p + 2) ?? null
+  const gapPrev = prev ? text.slice(prev.end, p) : null
+  const gapNext = next ? text.slice(p + 2, next.index) : null
+  if (gapPrev !== null && /^\s*[（(][^（()）\n]{0,12}$/.test(gapPrev)) return prev
+  if (gapNext !== null && /^[\s:：]*(電話|番号|TEL|Tel|tel|ＴＥＬ)?[\s:：]*$/.test(gapNext)) return next
+  if (gapPrev !== null && /^\s*$/.test(gapPrev)) return prev
+  if (next && gapNext !== null && next.index - p <= 120 && !/問い?合わ?せ/.test(gapNext)) return next
+  return null
+}
+
 /**
  * 本文で、その番号が市の代表番号として書かれているか(代表の番号は載せない)。
- * 番号のすぐ後(次の電話番号の前まで、15字以内)の「代表」と、同じ問い合わせ欄の中で番号より前
- * (前の電話番号のあとから、最大120字。「問い合わせ」「問合せ」があればそこから)の「代表」を見る。
- * 前の「代表」が「〇〇課代表」の形なら課の番号なので数えない(郡山市「環境部ごみ減量推進課代表 〒… Tel：…」)。
- * 前の電話番号のすぐ後(15字以内)の「代表」は、その番号のものなので数えない。
- * 郵便番号や番地は電話番号に数えない(0で始まる10〜11桁だけ)
+ * 本文の「代表」ごとに、どの番号の見出しかを決めて(`representativeOwner`)、その番号が当の番号なら代表とみなす。
+ * 「〇〇課代表」の形は課の番号なので数えない(郡山市「環境部ごみ減量推進課代表 〒… Tel：…」)
  */
 export function textHasRepresentativeTel(text: string, tel: string): boolean {
   const want = telDigits(tel)
-  const runs = [...text.matchAll(/[0-9０-９][0-9０-９\-‐－―ー−()（）\s]{6,20}[0-9０-９]/g)].filter((m) =>
-    /^0\d{9,10}$/.test(telDigits(m[0])),
-  )
-  for (let i = 0; i < runs.length; i++) {
-    const m = runs[i]
-    if (!telDigits(m[0]).includes(want)) continue
-    const end = m.index + m[0].length
-    const prevEnd = i > 0 ? runs[i - 1].index + runs[i - 1][0].length : -Infinity
-    const nextStart = i + 1 < runs.length ? runs[i + 1].index : text.length
-    if (text.slice(end, Math.min(end + 15, nextStart)).includes("代表")) return true
-    let start = Math.max(0, prevEnd, m.index - 120)
-    const head = text.slice(start, m.index)
-    const block = Math.max(head.lastIndexOf("問い合わせ"), head.lastIndexOf("問合せ"))
-    if (block >= 0) start += block
-    const before = text.slice(start, m.index)
-    for (let j = before.indexOf("代表"); j >= 0; j = before.indexOf("代表", j + 1)) {
-      if (start + j - prevEnd <= 15) continue
-      if (!DEPT_REPRESENTATIVE.test(before.slice(0, j))) return true
-    }
+  const runs = telRuns(text)
+  for (const m of text.matchAll(/代表(?!的|者|例|取締)/g)) {
+    if (DEPT_REPRESENTATIVE.test(text.slice(Math.max(0, m.index - 10), m.index))) continue
+    const owner = representativeOwner(text, runs, m.index)
+    if (owner && owner.digits === want) return true
   }
   return false
 }
