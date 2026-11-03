@@ -103,9 +103,21 @@ export type FetchRecord = z.infer<typeof FetchRecordSchema>
  */
 export type CurlRunner = (args: string[], timeoutMs: number) => Promise<string>
 
+/**
+ * 見張りの1回の実行。その実行の中では、記録があっても1回は取り直し(転送先も含む)、2回目からは
+ * その実行で取った結果を返す(同じ URL を2回取らない)。入れる作業(キャッシュ優先)では使わない
+ */
+export type FetchRun = { fetched: Set<string> }
+
+export function createFetchRun(): FetchRun {
+  return { fetched: new Set() }
+}
+
 export type FetchOptions = {
   /** 記録があっても取り直す(その1件だけ) */
   refresh?: boolean
+  /** 見張りの実行(転送先も含めて、その実行で1回ずつ取り直す) */
+  run?: FetchRun
   /** 失敗の記録(curl の失敗・2xx でない応答)がある URL を取り直す */
   retryFailed?: boolean
   /** curl の --max-time(秒) */
@@ -301,6 +313,8 @@ export function createFetcher(config: FetcherConfig): Fetcher {
   const fromLog = (url: string, opts: FetchOptions): FetchResult | null => {
     const record = syncLog().get(url)
     if (!record || opts.refresh) return null
+    // 見張りの実行で、まだ取っていない URL は取り直す
+    if (opts.run && !opts.run.fetched.has(url)) return null
     if (!isFetchOk(record)) {
       if (opts.retryFailed) return null
       return { record, body: readBody(record), fromCache: true }
@@ -481,8 +495,10 @@ export function createFetcher(config: FetcherConfig): Fetcher {
       const latest = syncLog().get(url)
       if (latest && JSON.stringify(latest) !== before) {
         const body = readBody(latest)
-        if (body || !isFetchOk(latest))
+        if (body || !isFetchOk(latest)) {
+          opts.run?.fetched.add(url)
           return { record: latest, body, fromCache: true }
+        }
       }
       const host = hostKey(url)
       // 行き先ごとにそのホストのロックと待ち時間を通す
@@ -517,7 +533,7 @@ export function createFetcher(config: FetcherConfig): Fetcher {
           let sub: FetchResult | null = null
           try {
             // refresh は元の URL の1件だけ(取得済みの転送先は取り直さない)。retryFailed は引き継ぐ
-            // (転送先の失敗が、元の URL の失敗なので)
+            // (転送先の失敗が、元の URL の失敗なので)。見張りの実行(run)も引き継ぎ、転送先もその実行で取り直す
             sub = await fetchOne(next.href, { ...opts, refresh: false }, [
               ...chain,
               url,
@@ -554,6 +570,7 @@ export function createFetcher(config: FetcherConfig): Fetcher {
       record = { ...record, url, final_url: record.final_url || url }
       mkdirSync(dirname(logPath), { recursive: true })
       appendFileSync(logPath, JSON.stringify(record) + "\n")
+      opts.run?.fetched.add(url)
       return { record, body, fromCache: false }
     }
     return withHostLock(

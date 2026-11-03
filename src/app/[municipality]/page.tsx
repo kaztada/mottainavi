@@ -5,10 +5,13 @@ import { UnsupportedShell } from "@/components/UnsupportedShell"
 import {
   getCategories,
   getMunicipality,
+  getNationalReuseCategories,
   getPublicCoverage,
+  getPublicGuides,
   getRegistry,
   getRegistryEntry,
   getSupportedEntries,
+  getTopUrl,
 } from "@/lib/data"
 
 type Params = { params: Promise<{ municipality: string }> }
@@ -52,8 +55,16 @@ export default async function MunicipalityHome({ params }: Params) {
   if (entry.status !== "supported") {
     return (
       <UnsupportedShell
-        entry={entry}
+        entry={{
+          slug: entry.slug,
+          pref: entry.pref,
+          name_ja: entry.name_ja,
+          name_en: entry.name_en,
+        }}
         coverage={getPublicCoverage(entry.slug)}
+        guides={getPublicGuides(entry.slug)}
+        topUrl={getTopUrl(entry.slug)}
+        reuseCategories={getNationalReuseCategories()}
         supported={supported}
       />
     )

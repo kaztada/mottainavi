@@ -14,6 +14,7 @@ import { afterEach, describe, expect, it } from "vitest"
 import {
   type CurlRunner,
   type FetchRecord,
+  createFetchRun,
   createFetcher,
   curlArgs,
   decodeText,
@@ -549,5 +550,42 @@ describe("decodeText", () => {
     expect(decodeText(html, "text/html")).toBe(
       '<html><head><meta charset="EUC-JP"></head><body>ごみ'
     )
+  })
+})
+
+describe("createFetcher: 見張りの実行(run)", () => {
+  const A = "https://a.example/old"
+  const B = "https://b.example/new"
+  const site = (url: string, n: number): Reply =>
+    url === B ? ok(`B${n}`) : { status: 301, body: "moved", location: B }
+
+  it("記録があっても、その実行では転送先も含めて1回ずつ取り直す", async () => {
+    const s = setup(site)
+    await s.fetcher.fetch(A)
+    expect(s.calls).toEqual([A, B])
+    const run = createFetchRun()
+    const again = await s.fetcher.fetch(A, { run })
+    expect(s.calls).toEqual([A, B, A, B])
+    expect(again.fromCache).toBe(false)
+    expect(again.body?.toString("utf-8")).toBe("B4")
+    expect(run.fetched.has(A) && run.fetched.has(B)).toBe(true)
+  })
+
+  it("同じ実行の中では、同じ URL を2回取らない(転送先を直接頼んでも)", async () => {
+    const s = setup(site)
+    const run = createFetchRun()
+    await s.fetcher.fetch(A, { run })
+    const b = await s.fetcher.fetch(B, { run })
+    const a = await s.fetcher.fetch(A, { run })
+    expect(s.calls).toEqual([A, B])
+    expect(b.fromCache && a.fromCache).toBe(true)
+  })
+
+  it("run を渡さなければ、今までどおり記録を返す(入れる作業はキャッシュ優先)", async () => {
+    const s = setup(site)
+    await s.fetcher.fetch(A)
+    const again = await s.fetcher.fetch(A)
+    expect(again.fromCache).toBe(true)
+    expect(s.calls).toEqual([A, B])
   })
 })

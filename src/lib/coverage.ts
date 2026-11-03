@@ -13,7 +13,7 @@ export { COVERAGE_STATUSES, type CoverageStatus, type PublicCoverage }
 
 
 /** 実在する日付か(2026-02-30 などを拒否する) */
-function isRealDate(s: string): boolean {
+export function isRealDate(s: string): boolean {
   const d = new Date(`${s}T00:00:00Z`)
   return !Number.isNaN(d.getTime()) && d.toISOString().slice(0, 10) === s
 }

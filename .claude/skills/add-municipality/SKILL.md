@@ -72,7 +72,7 @@ CLAUDE.md の「プラン → 承認 → 実装」に従い、プランモード
 1. `scripts/adapters/<slug>/index.ts` — `StandardCsvConfig`(列名に接頭辞が無い CSV は `headerPrefix: ""`。更新の見張り方 `watch`、文字コード、列名の接頭辞、区分の表記 → 区分ID、公式リンク、収集しない区分、区分の説明)。取得元の URL は `data/municipalities/<slug>/source.json`(`file_url` と `fingerprint`。`fingerprint` は空文字で始めれば、最初の見張りが記録する)
 2. `scripts/adapters/index.ts` に1行追加
 3. `data/municipalities/<slug>/categories.json`、`municipality.json`、`reuse-overrides.json`(最初は `{}`)
-4. `data/municipalities.json` の該当行を `supported` にし、`official_url` を入れる(未対応のときに市のトップページの URL が入っていることがある。対応したら市のごみのページに置き換える)。**同じコミットで、仕分けの台帳(`data/coverage.json`)からその市を消す**(`npm run coverage -- sync`。消し忘れるとビルドが止まる。data-model.md §30)
+4. `data/municipalities.json` の該当行を `supported` にし、`official_url` を入れる(未対応のときに市のトップページの URL が入っていることがある。対応したら市のごみのページに置き換える)。**同じコミットで、仕分けの台帳(`data/coverage.json`)からその市を消す**(`npm run coverage -- sync`。消し忘れるとビルドが止まる。data-model.md §30)。**公式への導線(`data/official-guides.json`)にその市があれば消し、予定の表(`data/guide-reviews.json`)のその市の行も消して、`npm run guides -- hosts` で市のホストの表を作り直す**(対応済みの市に導線が残るとビルドが止まる。data-model.md §40)
 5. `data/reuse-options.json` に市の小型家電回収ボックス(`municipality_id` 付き。市の案内ページで設置場所を確認)
 
 slug はレジストリ(`data/municipalities.json`)にあるものを使い、変えない。`item_id_prefix` は既存と重ならない英小文字3字。`data_version` は作業日(yyyymmdd)。

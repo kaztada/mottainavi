@@ -1,0 +1,43 @@
+{
+  "delight-system": {
+    "name_ja": "さんあ〜る(ごみ分別アプリの Web 版)",
+    "name_en": "San-aru (web version of the sorting app)",
+    "hosts": [
+      "manage.delight-system.com"
+    ],
+    "terms_url": null,
+    "checked_at": "2026-11-04",
+    "note": "市のページが案内している入口へのリンクだけを使う。リンクの規約は見つけていない"
+  },
+  "fujisawa-gomi": {
+    "name_ja": "藤沢市ごみ検索システム",
+    "name_en": "Fujisawa City waste search system",
+    "hosts": [
+      "fujisawa-city.sakura.ne.jp"
+    ],
+    "terms_url": null,
+    "checked_at": "2026-11-04",
+    "note": "藤沢市のページが案内している外部の検索システム。リンクの規約は見つけていない"
+  },
+  "gomisaku": {
+    "name_ja": "ごみサク(ごみ分別辞典のサイト)",
+    "name_en": "Gomisaku (waste sorting dictionary site)",
+    "hosts": [
+      "gomisaku.jp",
+      "www.gomisaku.jp"
+    ],
+    "terms_url": "https://www.gomisaku.jp/articles/tos/",
+    "checked_at": "2026-11-01",
+    "note": "第2群の調査で取得した利用規約の本文で、リンクは原則として自由(提携と誤認させるリンクは不可)を確かめた"
+  },
+  "ssu-iwata": {
+    "name_ja": "しっぺいのゴミチェッカー(静岡産業大学と磐田市の共同のサイト)",
+    "name_en": "Shippei Garbage Checker (joint site of Shizuoka Sangyo University and Iwata City)",
+    "hosts": [
+      "www.ssu.ac.jp"
+    ],
+    "terms_url": null,
+    "checked_at": "2026-11-04",
+    "note": "磐田市のページが案内している外部のサイト。ホストは大学全体なので、導線の URL は確かめた最終の URL まで見張る"
+  }
+}
