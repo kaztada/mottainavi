@@ -127,12 +127,13 @@ jobs:
         run: |
           due=$(jq -r .due result.json)
           num=$(cat num.txt)
+          # 知らせた印(body.md)は、コメントを送れたあとで書く。送れなければ印が残らず、翌日にもう一度知らせる
           if [ "$due" != "0" ]; then
-            if [ -n "$num" ]; then
-              gh issue edit "$num" --body-file body.md
-              gh issue comment "$num" --body-file comment.md
-            else
-              num=$(gh issue create --title "$REVIEW_TITLE" --body-file body.md | grep -o '[0-9]*$')
-              gh issue comment "$num" --body-file comment.md
+            if [ -z "$num" ]; then
+              # 新しく作るときは、前の印(閉じた Issue の本文)だけを持った本文で作る
+              { echo "予定日の確認の記録です。"; echo; cat prev.md; } > first.md
+              num=$(gh issue create --title "$REVIEW_TITLE" --body-file first.md | grep -o '[0-9]*$')
             fi
+            gh issue comment "$num" --body-file comment.md
+            gh issue edit "$num" --body-file body.md
           fi

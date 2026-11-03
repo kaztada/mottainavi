@@ -150,13 +150,17 @@ const NUMBER_LABEL = /^[\s:：.．]*(?:(?:電話|番号|TEL|Tel|tel|ＴＥＬ|�
 type TelRun = { index: number; end: number; digits: string }
 
 /**
- * 本文の電話番号。0で始まる10〜11桁を、3つの数字の組に分けて書いたもの(区切りはハイフン類・かっこ・空白。全角も)。
+ * 本文の電話番号。0で始まる10〜11桁を、3つの数字の組に分けて書いたもの(区切りはハイフン類・かっこ・空白。全角も)か、
+ * 区切りのない10〜11桁(「0337151111」)。
  * 前後に数字が続くものは除く(住所の「387番地の5 047-366-1111」を1つの番号にしない。郵便番号は2組なので入らない)
  */
 function telRuns(text: string): TelRun[] {
   const d = "[0-9０-９]"
   const sep = "(?:\\s?[\\-‐－―ー−()（）]\\s?|\\s)"
-  const re = new RegExp(`(?<!${d})[（(]?[0０]${d}{0,4}${sep}${d}{1,4}${sep}${d}{3,4}(?!${d})`, "g")
+  const re = new RegExp(
+    `(?<!${d})(?:[（(]?[0０]${d}{0,4}${sep}${d}{1,4}${sep}${d}{3,4}|[0０]${d}{9,10})(?!${d})`,
+    "g",
+  )
   return [...text.matchAll(re)]
     .map((m) => ({ index: m.index, end: m.index + m[0].length, digits: telDigits(m[0]) }))
     .filter((r) => /^0\d{9,10}$/.test(r.digits))
