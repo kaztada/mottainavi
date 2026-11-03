@@ -10210,10 +10210,11 @@
   "shimane-misato-town": {
     "top_url": "https://www.town.shimane-misato.lg.jp/",
     "hosts": [
+      "gov.town.shimane-misato.lg.jp",
       "www.town.shimane-misato.lg.jp"
     ],
-    "checked_at": "2026-10-15",
-    "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
+    "checked_at": "2026-11-04",
+    "basis": "人が確かめた: official-url の確かめ(2026-10-15)。2026-11-04 にトップが gov.town.shimane-misato.lg.jp へ転送されることを確かめて足した(題名「美郷町 行政ホームページ」、下の欄に「島根県美郷町役場 〒699-4692 島根県邑智郡美郷町粕渕168番地」)"
   },
   "onan-town": {
     "top_url": "https://www.town.ohnan.lg.jp/",
