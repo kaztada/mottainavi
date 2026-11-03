@@ -63,6 +63,10 @@ describe("judge: 判定の表の順", () => {
       judge(guide(), got({ status: 0, body: null, error: "curl の終了コード 60: SSL certificate problem: unable to get local issuer certificate" })).tlsChain
     ).toBe(true)
     expect(judge(guide(), got({ status: 503, body: null })).tlsChain).toBeUndefined()
+    // 終了コード 60 でも、連鎖の不足でないもの(自己署名・有効期間の前)は人が見るものに入れる
+    for (const e of ["self-signed certificate", "certificate is not yet valid"]) {
+      expect(judge(guide(), got({ status: 0, body: null, error: `curl の終了コード 60: SSL certificate problem: ${e}` })).tlsChain).toBeUndefined()
+    }
   })
   it("切れた: 404・410・名前の引けないホスト・証明書の期限切れ", () => {
     expect(judge(guide(), got({ status: 404, body: null })).verdict).toBe("broken")

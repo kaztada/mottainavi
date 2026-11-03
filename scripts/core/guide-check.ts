@@ -308,10 +308,18 @@ export type Judgement = {
   tlsChain?: boolean
 }
 
-/** 証明書の連鎖の不足か(期限切れ・名前の不一致は除く) */
+/**
+ * 証明書の連鎖の不足か(中間の証明書がサーバから送られず、Linux の curl では補えないもの)。
+ * curl の終了コード 60 は証明書の検証の失敗をまとめて表すので、連鎖の不足を表す文言のときだけにする
+ * (自己署名・有効期間の前・期限切れ・名前の不一致は数えず、人が見るものに入れる)
+ */
 export function isTlsChainError(o: FetchOutcome): boolean {
   const err = o.error ?? ""
-  return /終了コード 60/.test(err) && classifyFailure(o) === "unreachable"
+  return (
+    /終了コード 60/.test(err) &&
+    /unable to get local issuer certificate|unable to verify the first certificate|unable to get issuer certificate/i.test(err) &&
+    classifyFailure(o) === "unreachable"
+  )
 }
 
 /**
