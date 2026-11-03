@@ -12,6 +12,7 @@
           "value": "2026-07-08",
           "precision": "day"
         },
+        "partial": true,
         "document_url": "https://www.city.hakodate.hokkaido.jp/docs/2014012100816/file_contents/2014012100816_hk_docs_2014012100816_files_bunbetujiten.pdf",
         "document_link_text": "家庭ごみ分別辞典",
         "document_sha256": "228ba7ff87250a74628ba5a6a10d9457fb56fb81afae7c78c8a0d0da2f9647c4"
@@ -108,20 +109,6 @@
       "checked_at": "2026-11-04"
     },
     "source": "第2群の調査 2026-11-01"
-  },
-  "ebetsu-city": {
-    "checked_at": "2026-11-04",
-    "links": [
-      {
-        "kind": "list",
-        "url": "https://www.city.ebetsu.hokkaido.jp/uploaded/attachment/71880.pdf",
-        "target": "pdf",
-        "document": "image-pdf",
-        "searchable": false,
-        "document_sha256": "7a12e062e6e06b093511ed78984bd341554dd6e65b4673c50178a42a74dd3be4"
-      }
-    ],
-    "source": "市区町村のサイトの確認 2026-10-16(own-site.json)"
   },
   "morioka-city": {
     "checked_at": "2026-11-04",
@@ -956,6 +943,7 @@
           "value": "2026-04",
           "precision": "month"
         },
+        "partial": true,
         "document_url": "https://www.city.meguro.tokyo.jp/documents/4395/r804_50onichiran.pdf",
         "document_link_text": "資源・ごみの分別品目一覧（50音順：令和8年4月改訂）（PDF：2,127KB）",
         "document_sha256": "7c834292eb19568fc8e6c030e27754c28177e03f7207a84689cf24da08dabe39"
@@ -1971,6 +1959,7 @@
           "value": "2024-04",
           "precision": "month"
         },
+        "partial": true,
         "document_url": "https://www.city.toyonaka.osaka.jp/kurashi/gomi_risaikuru_bika/bunbetsu_dashikata/bunbetsusasshi.files/R6_syllabary_order.pdf",
         "document_link_text": "ごみと再生資源の分け方・出し方（50音順）（PDF：2,486KB）",
         "document_sha256": "be7b5f2bd2ab2ef96e924cdb8419ee5e39e9705579280c1ed48d129bc1a33edf"
@@ -2070,7 +2059,8 @@
         "url": "https://www.city.itami.lg.jp/SOSIKI/SHIMIN/KANKYOC/bunbetu50on/index.html",
         "target": "html-page",
         "document": "html",
-        "searchable": true
+        "searchable": true,
+        "partial": true
       }
     ],
     "phone": {
