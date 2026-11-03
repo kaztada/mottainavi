@@ -149,6 +149,21 @@ describe("judge: 判定の表の順", () => {
     expect(textHasRepresentativeTel(t, "03-3715-1111")).toBe(true)
     expect(textHasRepresentativeTel(t, "03-5722-9327")).toBe(false)
   })
+  it("「代表電話番号」「代表 TEL.」も後ろの番号のもの", () => {
+    const t = "直通 029-273-2966 代表電話番号：029-273-0111"
+    expect(textHasRepresentativeTel(t, "029-273-2966")).toBe(false)
+    expect(textHasRepresentativeTel(t, "029-273-0111")).toBe(true)
+    const u = "直通 029-273-2966 代表 TEL. 029-273-0111"
+    expect(textHasRepresentativeTel(u, "029-273-2966")).toBe(false)
+    expect(textHasRepresentativeTel(u, "029-273-0111")).toBe(true)
+  })
+  it("全角の番号の「代表」も見る", () => {
+    expect(textHasRepresentativeTel("電話 ０３－３７１５－１１１１（代表）", "03-3715-1111")).toBe(true)
+  })
+  it("「〇〇課 代表」(あいだに空白)も課の番号", () => {
+    const t = "このページに関するお問い合わせ先 環境部ごみ減量推進課 代表 〒963-8601 福島県郡山市朝日一丁目23-7 Tel：024-924-2181"
+    expect(textHasRepresentativeTel(t, "024-924-2181")).toBe(false)
+  })
   it("「代表的」は「代表」に数えない", () => {
     const t = "代表的な品目を掲載しています。お問い合わせ 清掃課 電話 0138-51-0796"
     expect(textHasRepresentativeTel(t, "0138-51-0796")).toBe(false)
