@@ -189,6 +189,38 @@ export function normalizeUrl(url: string): string {
   return u.href
 }
 
+/**
+ * 署名つきの一時的な URL(S3 の presigned URL など)から、鍵と署名のパラメータを伏せる。
+ * CKAN のダウンロードは S3 の署名つき URL へ転送され、そこには一時的なアクセスキーが入る。
+ * 記録はコミットするので、そのまま書くと GitHub の secret scanning に検出される(2026-11)
+ */
+const SIGNED_URL_PARAMS = new Set([
+  "x-amz-credential",
+  "x-amz-security-token",
+  "x-amz-signature",
+  "awsaccesskeyid",
+  "signature",
+  "x-goog-credential",
+  "x-goog-signature",
+])
+
+export function redactSignedUrl(url: string): string {
+  let u: URL
+  try {
+    u = new URL(url)
+  } catch {
+    return url
+  }
+  let changed = false
+  for (const key of [...u.searchParams.keys()]) {
+    if (SIGNED_URL_PARAMS.has(key.toLowerCase())) {
+      u.searchParams.set(key, "REDACTED")
+      changed = true
+    }
+  }
+  return changed ? u.href : url
+}
+
 /** 本文のファイル名にする鍵(URL の sha256 の先頭24文字) */
 export function urlKey(url: string): string {
   return createHash("sha256").update(url).digest("hex").slice(0, 24)
@@ -569,7 +601,13 @@ export function createFetcher(config: FetcherConfig): Fetcher {
       }
       record = { ...record, url, final_url: record.final_url || url }
       mkdirSync(dirname(logPath), { recursive: true })
-      appendFileSync(logPath, JSON.stringify(record) + "\n")
+      // 署名つき URL の鍵は記録に残さない(署名は毎回変わるので、記録の鍵としても使い回さない)
+      const logged = {
+        ...record,
+        url: redactSignedUrl(record.url),
+        final_url: redactSignedUrl(record.final_url),
+      }
+      appendFileSync(logPath, JSON.stringify(logged) + "\n")
       opts.run?.fetched.add(url)
       return { record, body, fromCache: false }
     }
