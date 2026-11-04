@@ -138,6 +138,18 @@ describe("judge: 判定の表の順", () => {
     const after = "お問い合わせ 収集計画課 電話 06-6630-3259" + "い".repeat(70) + "代表電話 06-6208-8181"
     expect(phoneProblems(after, "06-6630-3259", "収集計画課")).toEqual([])
   })
+  it("電話: 番号が何か所かに出るときは、1か所でも前後に「代表」があれば出さない", () => {
+    const tail = "い".repeat(200)
+    // 郵便番号と市外局番を組にして別の番号として切り出さない(Codex の12回目の指摘)
+    const t = `お問い合わせ 清掃課 電話 019-626-3733${tail}清掃課 〒020-8531 019-626-3733（代表）`
+    expect(phoneProblems(t, "019-626-3733", "清掃課").some((p) => p.includes("「代表」"))).toBe(true)
+    // ダッシュの類の区切り、となりの欄の数字とつながった番号も見る
+    const dash = `お問い合わせ 清掃課 電話 019-626-3733${tail}清掃課 019–626–3733（代表）`
+    expect(phoneProblems(dash, "019-626-3733", "清掃課").some((p) => p.includes("「代表」"))).toBe(true)
+    const glued = `お問い合わせ 清掃課 電話 019-626-3733${tail}清掃課 〒020-8531019-626-3733（代表）`
+    expect(phoneProblems(glued, "019-626-3733", "清掃課").some((p) => p.includes("「代表」"))).toBe(true)
+    expect(telContexts(glued, "019-626-3733")).toHaveLength(2)
+  })
   it("電話: 番号が本文に無ければ出さない", () => {
     expect(phoneProblems("お問い合わせ 清掃課 電話 044-200-2584", "044-200-2583", "清掃課")).toEqual(["本文に番号 044-200-2583 が無い"])
   })

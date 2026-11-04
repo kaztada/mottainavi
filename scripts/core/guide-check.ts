@@ -137,31 +137,27 @@ export function telDigits(s: string): string {
 const TEL_CONTEXT_BEFORE = 120
 const TEL_CONTEXT_AFTER = 60
 
-type TelRun = { index: number; end: number; digits: string }
-
-/**
- * 本文の電話番号。0で始まる10〜11桁を、3つの数字の組に分けて書いたもの(区切りはハイフン類・かっこ・空白。全角も)か、
- * 区切りのない10〜11桁(「0337151111」)。
- * 前後に数字が続くものは除く(住所の「387番地の5 047-366-1111」を1つの番号にしない。郵便番号は2組なので入らない)
- */
-function telRuns(text: string): TelRun[] {
-  const d = "[0-9０-９]"
-  const sep = "(?:\\s?[\\-‐－―ー−()（）]\\s?|\\s)"
-  const re = new RegExp(
-    `(?<!${d})(?:[（(]?[0０]${d}{0,4}${sep}${d}{1,4}${sep}${d}{3,4}|[0０]${d}{9,10})(?!${d})`,
-    "g",
-  )
-  return [...text.matchAll(re)]
-    .map((m) => ({ index: m.index, end: m.index + m[0].length, digits: telDigits(m[0]) }))
-    .filter((r) => /^0\d{9,10}$/.test(r.digits))
+/** 番号を探すための本文。全角の数字を半角に、文字と数字以外(空白・ハイフンやダッシュの類・かっこなど)と「ー」を「~」にする(長さは変えない) */
+function telSearchText(text: string): string {
+  return text
+    .replace(/[０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0))
+    .replace(/[^\p{L}\p{N}]|ー/gu, (c) => "~".repeat(c.length))
 }
 
-/** 本文の中の、その番号が出てくる所ごとの前後(問い合わせ欄の目安)。空白は詰める。番号が無ければ空 */
+/**
+ * 本文の中の、その番号が出てくる所ごとの前後(問い合わせ欄の目安)。空白は詰める。番号が無ければ空。
+ * 番号の数字の並びそのものを探す(数字は全角も同じ。数字のあいだには区切りを1か所に3字まで許す)。
+ * ほかの数字の並び(郵便番号など)と組にして切り出さないので、「〒020-8531 019-626-3733」の番号も見落とさない。
+ * 前後に数字が続いていても数える(本文の文字を取り出すと、となりの欄の数字とすき間なくつながることがある「〒020-8531019-626-3733」。
+ * 迷う番号は出さないので、見落とすより多めに見る)
+ */
 export function telContexts(text: string, tel: string): string[] {
-  const want = telDigits(tel)
-  return telRuns(text)
-    .filter((r) => r.digits === want)
-    .map((r) => text.slice(Math.max(0, r.index - TEL_CONTEXT_BEFORE), r.end + TEL_CONTEXT_AFTER).replace(/\s+/g, ""))
+  const digits = telDigits(tel)
+  if (!digits) return []
+  const re = new RegExp([...digits].join("~{0,3}"), "g")
+  return [...telSearchText(text).matchAll(re)].map((m) =>
+    text.slice(Math.max(0, m.index - TEL_CONTEXT_BEFORE), m.index + m[0].length + TEL_CONTEXT_AFTER).replace(/\s+/g, ""),
+  )
 }
 
 /**
