@@ -651,10 +651,29 @@ const tryDecode = (
 }
 
 /**
+ * UTF-8 として読めない字が、読めた字(0x80 以上)の 10% 以下なら、壊れた字が少し混じっただけの UTF-8 と見る。
+ * 本物の Shift_JIS・EUC-JP を UTF-8 として読むと、読めない字が読めた字の数倍になる(保存した本文で
+ * 2.8 倍以上。UTF-8 の中に壊れた字が3つあった北広島市のトップは 0.13%)。字の少ない短いページでも
+ * 壊れた字1つで外れないよう、線は 10% にした
+ */
+function mostlyUtf8(text: string): boolean {
+  let bad = 0
+  let good = 0
+  for (const ch of text) {
+    const c = ch.codePointAt(0) ?? 0
+    if (c === 0xfffd) bad++
+    else if (c >= 0x80) good++
+  }
+  return bad * 10 <= good
+}
+
+/**
  * 本文を文字に直す(UTF-8(BOM あり・なし)、Shift_JIS(CP932)、EUC-JP)。
  * Content-Type に charset があればそれを使う。ただし UTF-8 と書いてあって UTF-8 として読めないとき
  * (自治体のサイトでときどきある)は、書いていないのと同じに扱う。書いていなければ UTF-8 として読めるか
- * 確かめ、読めなければ HTML の <meta charset>、それも無ければ Shift_JIS として読む
+ * 確かめ、読めなければ HTML の <meta charset>、それも無ければ、壊れた字が少し混じっただけの UTF-8 は
+ * UTF-8 のまま(全体を Shift_JIS として読むと文字化けして、題名の停止の告知や市の名前を見落とす)、
+ * それ以外は Shift_JIS として読む
  */
 export function decodeText(body: Buffer, contentType: string | null): string {
   const declared = contentType
@@ -672,5 +691,7 @@ export function decodeText(body: Buffer, contentType: string | null): string {
     const text = tryDecode(body, meta, false)
     if (text !== null) return text
   }
+  const loose = new TextDecoder("utf-8").decode(body)
+  if (mostlyUtf8(loose)) return loose
   return new TextDecoder("shift_jis").decode(body)
 }

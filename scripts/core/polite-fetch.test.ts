@@ -542,6 +542,22 @@ describe("decodeText", () => {
     expect(decodeText(SJIS_GOMI, "text/csv; charset=utf-8")).toBe("ごみ")
   })
 
+  it("壊れた字が少し混じっただけの UTF-8 は、Shift_JIS として読み直さない", () => {
+    const body = Buffer.concat([
+      Buffer.from("<title>ごみ分別検索は終了しました|A市</title>", "utf-8"),
+      Buffer.from([0xff]),
+      Buffer.from("<p>A市のごみの分け方</p>", "utf-8"),
+    ])
+    for (const ct of ["text/html; charset=utf-8", "text/html", null]) {
+      const text = decodeText(body, ct)
+      expect(text).toContain("ごみ分別検索は終了しました|A市")
+      expect(text).toContain("A市のごみの分け方")
+    }
+    // 本物の Shift_JIS は、UTF-8 と書いてあっても Shift_JIS として読む
+    const sjis = Buffer.concat([SJIS_GOMI, Buffer.from("abc", "latin1"), SJIS_GOMI])
+    expect(decodeText(sjis, "text/html; charset=utf-8")).toBe("ごみabcごみ")
+  })
+
   it("charset が無ければ HTML の meta charset を見る", () => {
     const html = Buffer.concat([
       Buffer.from('<html><head><meta charset="EUC-JP"></head><body>', "latin1"),

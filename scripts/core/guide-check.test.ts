@@ -79,6 +79,14 @@ describe("judge: 判定の表の順", () => {
     const o = got({ body: html("ごみ分別サーチ一時停止|A市", "<p>A市 ごみ</p>") })
     expect(judge(guide(), o).verdict).toBe("suspect-content")
   })
+  it("UTF-8 の本文に壊れた字が混じっていても、題名の停止の語を見落とさない", () => {
+    const body = Buffer.concat([
+      Buffer.from("<!doctype html><html><head><title>ごみ分別検索は終了しました|A市</title></head><body>"),
+      Buffer.from([0xff]),
+      Buffer.from("<p>A市のごみの分け方</p></body></html>"),
+    ])
+    expect(judge(guide(), got({ body })).verdict).toBe("suspect-content")
+  })
   it("200 の停止の画面は、入れたときにも見張りでも止まる(見出し)", () => {
     const o = got({ body: html("A市", "<h2>検索システムの提供を終了しました</h2><p>ごみ</p>") })
     expect(judge(guide(), o).verdict).toBe("suspect-content")
