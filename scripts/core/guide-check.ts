@@ -133,19 +133,9 @@ export function telDigits(s: string): string {
     .replace(/[^0-9]/g, "")
 }
 
-/** 本文に、その電話番号があるか(区切りの違い・全角は同じとみなす) */
-export function textHasTel(text: string, tel: string): boolean {
-  const want = telDigits(tel)
-  // 数字とハイフン類・空白の続きを拾い、数字だけにして比べる
-  const runs = text.match(/[0-9０-９][0-9０-９\-‐－―ー−()（）\s]{6,20}[0-9０-９]/g) ?? []
-  return runs.some((r) => telDigits(r).includes(want))
-}
-
-/** 「〇〇課代表」「〇〇課 代表」の形(問い合わせ欄の見出しで、その課の番号を指す。市の代表番号ではない) */
-const DEPT_REPRESENTATIVE = /(課|係|室|センター|担当|グループ|事務所)\s*$/
-
-/** 「代表」と後ろの番号のあいだに入る見出しの語(「代表電話番号:」「代表 TEL.」など) */
-const NUMBER_LABEL = /^[\s:：.．]*(?:(?:電話|番号|TEL|Tel|tel|ＴＥＬ|Ｔｅｌ)[\s:：.．]*){0,2}$/
+/** 電話番号の前後で見る範囲(問い合わせ欄の目安。番号の前120字・後60字) */
+const TEL_CONTEXT_BEFORE = 120
+const TEL_CONTEXT_AFTER = 60
 
 type TelRun = { index: number; end: number; digits: string }
 
@@ -166,47 +156,32 @@ function telRuns(text: string): TelRun[] {
     .filter((r) => /^0\d{9,10}$/.test(r.digits))
 }
 
-/**
- * 「代表」(代表的・代表者などは除く)が、どの電話番号の見出しか。
- * 前の番号のすぐ後のかっこの中「047-366-1111(代表)」「03-3715-1111(コールセンター・代表)」→ 前の番号。
- * 後ろにすぐ番号が続く「代表電話 029-273-0111」「代表電話番号:03-…」「代表:03-…」→ 後ろの番号。
- * 前の番号のすぐ後に空白だけを挟む「0263-34-3000 代表」→ 前の番号。
- * それ以外は、同じ問い合わせ欄の中(120字以内で、間に「問い合わせ」「問合せ」が無い)の後ろの番号
- * (松阪市の型「環境部 代表 〒515-0803 …Tel:0598-53-4470」)
- */
-function representativeOwner(text: string, runs: TelRun[], p: number): TelRun | null {
-  const prev = [...runs].reverse().find((r) => r.end <= p) ?? null
-  const next = runs.find((r) => r.index >= p + 2) ?? null
-  const gapPrev = prev ? text.slice(prev.end, p) : null
-  const gapNext = next ? text.slice(p + 2, next.index) : null
-  if (gapPrev !== null && /^\s*[（(][^（()）\n]{0,12}$/.test(gapPrev)) return prev
-  if (gapNext !== null && NUMBER_LABEL.test(gapNext)) return next
-  if (gapPrev !== null && /^\s*$/.test(gapPrev)) return prev
-  if (next && gapNext !== null && next.index - p <= 120 && !/問い?合わ?せ/.test(gapNext)) return next
-  return null
-}
-
-/**
- * 本文で、その番号が市の代表番号として書かれているか(代表の番号は載せない)。
- * 本文の「代表」ごとに、どの番号の見出しかを決めて(`representativeOwner`)、その番号が当の番号なら代表とみなす。
- * 「〇〇課代表」「〇〇課 代表」の形は課の番号なので数えない(郡山市「環境部ごみ減量推進課代表 〒… Tel：…」)
- */
-export function textHasRepresentativeTel(text: string, tel: string): boolean {
+/** 本文の中の、その番号が出てくる所ごとの前後(問い合わせ欄の目安)。空白は詰める。番号が無ければ空 */
+export function telContexts(text: string, tel: string): string[] {
   const want = telDigits(tel)
-  const runs = telRuns(text)
-  for (const m of text.matchAll(/代表(?!的|者|例|取締)/g)) {
-    if (DEPT_REPRESENTATIVE.test(text.slice(Math.max(0, m.index - 10), m.index))) continue
-    const owner = representativeOwner(text, runs, m.index)
-    if (owner && owner.digits === want) return true
-  }
-  return false
+  return telRuns(text)
+    .filter((r) => r.digits === want)
+    .map((r) => text.slice(Math.max(0, r.index - TEL_CONTEXT_BEFORE), r.end + TEL_CONTEXT_AFTER).replace(/\s+/g, ""))
 }
 
-/** 担当課の名前の最後の単位(「環境局 生活環境部 収集計画課」→「収集計画課」)が本文にあるか */
-export function textHasDept(text: string, dept: string): boolean {
-  const units = dept.split(/[\s　]+/).filter(Boolean)
-  const last = units[units.length - 1]
-  return Boolean(last) && text.replace(/\s+/g, "").includes(last.replace(/\s+/g, ""))
+/**
+ * 担当課の電話を載せられない理由(空なら載せてよい)。2026-11-04 Kaz 判断「迷う番号は出さない」:
+ * - 本文にその番号がある(区切り・全角の違いは同じとみなす)
+ * - 番号の前後(前120字・後60字)に、担当課の名前の最後の単位(「環境局 生活環境部 収集計画課」→「収集計画課」)がある
+ * - 番号の前後のどこにも「代表」の字が無い。書き方(「代表電話」「課代表」「課 代表」「代表的」など)は問わず、
+ *   どの番号の見出しかも見分けない
+ */
+export function phoneProblems(text: string, tel: string, dept: string): string[] {
+  const contexts = telContexts(text, tel)
+  if (contexts.length === 0) return [`本文に番号 ${tel} が無い`]
+  const problems: string[] = []
+  const units = dept.split(/\s+/).filter(Boolean)
+  const last = units[units.length - 1] ?? ""
+  if (!last || !contexts.some((c) => c.includes(last)))
+    problems.push(`番号の前後(前${TEL_CONTEXT_BEFORE}字・後${TEL_CONTEXT_AFTER}字)に担当課の名前(${dept} の最後の単位)が無い`)
+  if (contexts.some((c) => c.includes("代表")))
+    problems.push(`番号の前後(前${TEL_CONTEXT_BEFORE}字・後${TEL_CONTEXT_AFTER}字)に「代表」の字がある(迷う番号は出さない。2026-11-04 Kaz 判断)`)
+  return problems
 }
 
 /** 題名と見出しの文字(停止の告知を探す範囲) */

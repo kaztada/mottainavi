@@ -38,10 +38,8 @@ import {
   isPdf,
   headText,
   readOutcomePage,
+  phoneProblems,
   stopContexts,
-  textHasDept,
-  textHasRepresentativeTel,
-  textHasTel,
   type FetchOutcome,
 } from "../core/guide-check"
 import {
@@ -181,13 +179,7 @@ async function checkCity(
     if (!page) problems.push(`ページを読めない(状態コード ${o.status}${o.error ? `、${o.error}` : ""})`)
     else if (!cityHosts.includes(hostOf(o.final_url)))
       problems.push(`確かめるページの行き先が市のホストでない: ${o.final_url}`)
-    else {
-      if (textHasRepresentativeTel(page.text, draft.phone.tel))
-        problems.push(`市の代表番号として書かれている(番号のすぐ後か、同じ問い合わせ欄の前に「代表」。「〇〇課代表」は除く。代表の番号は載せない。2026-11-04 Kaz 判断)`)
-      if (!textHasTel(page.text, draft.phone.tel)) problems.push(`本文に番号 ${draft.phone.tel} が無い`)
-      if (!textHasDept(page.text, draft.phone.dept_ja))
-        problems.push(`本文に担当課の名前(${draft.phone.dept_ja} の最後の単位)が無い`)
-    }
+    else problems.push(...phoneProblems(page.text, draft.phone.tel, draft.phone.dept_ja))
     phone = { ok: problems.length === 0, problems }
   }
   return { slug, links, phone }

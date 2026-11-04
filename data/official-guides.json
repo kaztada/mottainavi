@@ -181,16 +181,6 @@
     ],
     "source": "市区町村のサイトの確認 2026-10-16(own-site.json)"
   },
-  "koriyama-city": {
-    "checked_at": "2026-11-04",
-    "phone": {
-      "dept_ja": "環境部 ごみ減量推進課",
-      "tel": "024-924-2181",
-      "source_url": "https://www.city.koriyama.lg.jp/soshiki/55/1050.html",
-      "checked_at": "2026-11-04"
-    },
-    "source": "第2群の調査 2026-11-01"
-  },
   "mito-city": {
     "checked_at": "2026-11-04",
     "links": [
@@ -297,12 +287,6 @@
         "partial": true
       }
     ],
-    "phone": {
-      "dept_ja": "廃棄物対策課",
-      "tel": "029-273-2966",
-      "source_url": "https://www.city.hitachinaka.lg.jp/kurashi/gomi/1002999/1008747.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "utsunomiya-city": {
@@ -427,12 +411,6 @@
         "searchable": false
       }
     ],
-    "phone": {
-      "dept_ja": "環境部 一般廃棄物対策課",
-      "tel": "027-321-1253",
-      "source_url": "https://www.city.takasaki.gunma.jp/page/2171.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "isesaki-city": {
@@ -468,12 +446,6 @@
         "searchable": false
       }
     ],
-    "phone": {
-      "dept_ja": "産業環境部 清掃事業課",
-      "tel": "0276-31-8153",
-      "source_url": "https://www.city.ota.gunma.jp/site/gomi/1056442.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "saitama-city": {
@@ -1391,12 +1363,6 @@
         "searchable": true
       }
     ],
-    "phone": {
-      "dept_ja": "資源循環推進課",
-      "tel": "0263-47-1096",
-      "source_url": "https://www.city.matsumoto.nagano.jp/soshiki/53/2831.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "ueda-city": {
@@ -1410,12 +1376,6 @@
         "searchable": false
       }
     ],
-    "phone": {
-      "dept_ja": "環境部 廃棄物対策課",
-      "tel": "0268-22-0666",
-      "source_url": "https://www.city.ueda.nagano.jp/soshiki/haiki/2466.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "gifu-city": {
@@ -1775,16 +1735,6 @@
     ],
     "source": "市区町村のサイトの確認 2026-10-16(own-site.json)"
   },
-  "matsusaka-city": {
-    "checked_at": "2026-11-04",
-    "phone": {
-      "dept_ja": "環境生活部 清掃事業課",
-      "tel": "0598-53-4470",
-      "source_url": "https://www.city.matsusaka.mie.jp/site/gomi-recycle/gaidobukku.html",
-      "checked_at": "2026-11-04"
-    },
-    "source": "第2群の調査 2026-11-01"
-  },
   "kuwana-city": {
     "checked_at": "2026-11-04",
     "links": [
@@ -1963,12 +1913,6 @@
         ]
       }
     ],
-    "phone": {
-      "dept_ja": "清掃業務課",
-      "tel": "072-669-1153",
-      "source_url": "https://www.city.takatsuki.osaka.jp/soshiki/27/2108.html",
-      "checked_at": "2026-11-04"
-    },
     "source": "第2群の調査 2026-11-01"
   },
   "ibaraki-city": {
