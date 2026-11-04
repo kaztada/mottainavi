@@ -29,8 +29,8 @@
         "type": "donation",
         "title_ja": "店頭回収・寄付プログラムに出す",
         "title_en": "Donate through clothing collection programs",
-        "desc_ja": "ユニクロ・H&Mなどの店頭ボックスや、寄付団体の宅配回収など。買い物ついでに出せる気軽さです。",
-        "desc_en": "In-store boxes (UNIQLO, H&M, etc.) or courier pickup by donation programs. As easy as your next shopping trip.",
+        "desc_ja": "ユニクロ・H&Mなどの店頭ボックスや、寄付団体の宅配回収など。買い物ついでに出せる気軽さです。受け付ける物や、回収しているお店は、出す前に確かめてみてください。",
+        "desc_en": "In-store boxes (UNIQLO, H&M, etc.) or courier pickup by donation programs. As easy as your next shopping trip. Check first what they accept and which stores collect.",
         "url": null,
         "effort": "low",
         "money": "free"
@@ -459,8 +459,8 @@
         "type": "give",
         "title_ja": "地域の譲り合いで、もらい手を探す(ジモティーなど)",
         "title_en": "Local giveaway platforms",
-        "desc_ja": "粗大ごみに出す前に、近所で欲しい人を探してみる手もあります。引き取りに来てもらえることも。",
-        "desc_en": "Before putting it out as bulky waste, try finding a neighbor who wants it — some will even come pick it up.",
+        "desc_ja": "ごみに出す前に、近所で欲しい人を探してみる手もあります。引き取りに来てもらえることも。",
+        "desc_en": "Before throwing it out, try finding a neighbor who wants it — some will even come pick it up.",
         "url": null,
         "effort": "medium",
         "money": "free"
@@ -529,8 +529,8 @@
         "type": "donation",
         "title_ja": "図書施設や団体に寄贈する",
         "title_en": "Donate to libraries/charities",
-        "desc_ja": "地域の文庫や寄付プログラムへ。誰かの「はじめての一冊」になるかもしれません。",
-        "desc_en": "Donate to local reading rooms or book charities. It might become someone's very first favorite book.",
+        "desc_ja": "地域の文庫や寄付プログラムへ。誰かの「はじめての一冊」になるかもしれません。受け入れているかは、先に確かめてみてください。",
+        "desc_en": "Donate to local reading rooms or book charities. It might become someone's very first favorite book. Check first whether they accept donations.",
         "url": null,
         "effort": "medium",
         "money": "free"
@@ -575,7 +575,7 @@
         "title_ja": "楽器店の買取・下取りに出す",
         "title_en": "Instrument shop trade-in",
         "desc_ja": "楽器は中古市場がしっかりあります。捨てるのは最後の手段にして、まず査定だけでも、という手も。",
-        "desc_en": "Instruments have a healthy secondhand market. Make disposal the last resort — a quick appraisal costs nothing.",
+        "desc_en": "Instruments have a healthy secondhand market. Make disposal the last resort — getting an appraisal first is one option.",
         "url": null,
         "effort": "medium",
         "money": "earn"
@@ -591,8 +591,8 @@
         "type": "official",
         "title_ja": "購入店・販売店へ返す",
         "title_en": "Return to the retailer",
-        "desc_ja": "ビールびんや一升びんは、返せばそのまま再使用(リユース)されます。いちばんシンプルなリユース、かもしれません。",
-        "desc_en": "Beer bottles and issho-bin are reused as-is when returned. Perhaps the simplest form of reuse.",
+        "desc_ja": "ビールびんや一升びんは、返せばそのまま再使用(リユース)されます。いちばんシンプルなリユース、かもしれません。引き取るかは、お店によって違います。",
+        "desc_en": "Beer bottles and issho-bin are reused as-is when returned. Perhaps the simplest form of reuse. Whether a shop takes them back depends on the shop.",
         "url": null,
         "effort": "low",
         "money": "free"

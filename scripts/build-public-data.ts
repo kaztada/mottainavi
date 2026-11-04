@@ -24,6 +24,8 @@ import {
   CoverageFileSchema,
   assertCoverageMatchesRegistry,
 } from "../src/lib/coverage"
+import { assertOfficialGuides } from "../src/lib/official-guides"
+import { readGuideFiles } from "./core/official-guides-file"
 import { buildAllPrefMaps, type Topology } from "./core/map"
 import {
   MAP_SOURCE_PATH,
@@ -44,6 +46,8 @@ async function main() {
     CoverageFileSchema.parse(await readJson(COVERAGE_PATH)),
     registry
   )
+  // 公式への導線の4つのファイルとレジストリの食い違い(対応済みの市に導線が残っている、別の市のホストなど)があれば止める
+  assertOfficialGuides(readGuideFiles(), registry)
 
   await rm(PUBLIC_DATA_DIR, { recursive: true, force: true })
   await mkdir(PUBLIC_DATA_DIR, { recursive: true })

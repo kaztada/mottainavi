@@ -1,0 +1,145 @@
+# 公式への導線の見張り(docs/tech-stack.md の「公式への導線の見張り」の節)。
+# 月1回(毎月第1火曜)、未対応の市のページに出る全部の URL(導線・中の資料・紹介元・市のトップ)を
+# 1回ずつ取り直して判定し、人が見るものがあれば Issue に書く。自動では直さない(PR も作らない)。
+# 見直しの予定日(data/guide-reviews.json)は、毎日ネットワークに出ずに確かめて、来たものを Issue で知らせる。
+name: 公式への導線の見張り
+
+on:
+  schedule:
+    - cron: "0 21 * * 1" # 毎週火曜 6:00(日本時間)。リンクの見張りは第1火曜だけ動かす
+    - cron: "30 22 * * *" # 毎日 7:30(日本時間)。見直しの予定日だけ
+  workflow_dispatch:
+  # 見張りの仕組みを変える PR では、Issue を作らない確認だけを、少しの件数で動かす
+  pull_request:
+    paths:
+      - ".github/workflows/check-guides.yml"
+      - "scripts/check-guides.ts"
+      - "scripts/core/guide-check.ts"
+      - "scripts/core/guide-watch.ts"
+
+concurrency:
+  group: check-guides
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+  issues: write
+
+env:
+  WATCH_TITLE: "公式への導線: リンクを確かめてください"
+  REVIEW_TITLE: "公式への導線: 見直しの予定日が来ました"
+
+jobs:
+  links:
+    # 第1火曜の定期実行・手動・PR(確認だけ)
+    if: github.event_name != 'schedule' || github.event.schedule == '0 21 * * 1'
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: 第1火曜か(定期実行のとき)
+        id: when
+        run: |
+          if [ "${{ github.event_name }}" = "schedule" ] && [ "$(TZ=Asia/Tokyo date +%-d)" -gt 7 ]; then
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # 前の月の状態は、閉じた Issue のものも読む(人が閉じたあとも「何か月続いたか」を引き継ぐ)。
+      # 書き換える先は開いている Issue だけ(無ければ作る)
+      - name: 前の Issue の本文(前の月の状態)
+        if: steps.when.outputs.skip != 'true' && github.event_name != 'pull_request'
+        run: |
+          # 検索は関連度の順なので、題名がちょうど同じものを作った日の新しい順に並べ直して先頭を使う
+          gh issue list --state all --limit 100 --search "in:title \"$WATCH_TITLE\" sort:created-desc" --json number,title,body,createdAt \
+            --jq '[.[] | select(.title == env.WATCH_TITLE)] | sort_by(.createdAt) | reverse | .[0] // {}' > prev.json
+          jq -r '.body // ""' prev.json > prev.md
+          gh issue list --state open --limit 100 --search "in:title \"$WATCH_TITLE\" sort:created-desc" --json number,title,createdAt \
+            --jq '[.[] | select(.title == env.WATCH_TITLE)] | sort_by(.createdAt) | reverse | .[0].number // ""' > num.txt
+
+      - name: 見張り
+        if: steps.when.outputs.skip != 'true'
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            npm run --silent check-guides -- --limit 20 --out body.md > result.json
+          else
+            npm run --silent check-guides -- --previous prev.md --out body.md > result.json
+          fi
+          cat result.json
+
+      - name: Issue に書く・閉じる
+        if: steps.when.outputs.skip != 'true' && github.event_name != 'pull_request'
+        run: |
+          attention=$(jq -r .attention result.json)
+          num=$(cat num.txt)
+          today=$(TZ=Asia/Tokyo date +%F)
+          if [ "$attention" = "true" ]; then
+            if [ -n "$num" ]; then
+              gh issue edit "$num" --body-file body.md
+              gh issue comment "$num" --body "$today のリンクの見張りで、本文を今月の結果に書き換えました。"
+            else
+              gh issue create --title "$WATCH_TITLE" --body-file body.md
+            fi
+          elif [ -n "$num" ]; then
+            # 閉じる前に、今月の状態(何か月続いたか)を本文に残す。次の月はこの状態から数える
+            gh issue edit "$num" --body-file body.md
+            gh issue comment "$num" --body "$today のリンクの見張りでは、人が見るものはありませんでした。閉じます。"
+            gh issue close "$num"
+          fi
+
+      - name: 見張りの結果(PR のとき)
+        if: github.event_name == 'pull_request'
+        run: cat body.md
+
+  reviews:
+    # 毎日の定期実行・手動(ネットワークに出ない)
+    if: github.event_name == 'workflow_dispatch' || github.event.schedule == '30 22 * * *'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GH_TOKEN: ${{ github.token }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      # 知らせた印は Issue の本文にある。閉じた Issue の印も読む(閉じたあとに同じ予定を二重に知らせない)
+      - name: 予定日が来たもの
+        run: |
+          # 検索は関連度の順なので、題名がちょうど同じものを作った日の新しい順に並べ直して先頭を使う
+          gh issue list --state all --limit 100 --search "in:title \"$REVIEW_TITLE\" sort:created-desc" --json number,title,body,createdAt \
+            --jq '[.[] | select(.title == env.REVIEW_TITLE)] | sort_by(.createdAt) | reverse | .[0] // {}' > prev.json
+          jq -r '.body // ""' prev.json > prev.md
+          gh issue list --state open --limit 100 --search "in:title \"$REVIEW_TITLE\" sort:created-desc" --json number,title,createdAt \
+            --jq '[.[] | select(.title == env.REVIEW_TITLE)] | sort_by(.createdAt) | reverse | .[0].number // ""' > num.txt
+          npm run --silent check-guides -- reviews --previous prev.md --out body.md --comment comment.md > result.json
+          cat result.json
+
+      - name: Issue で知らせる
+        run: |
+          due=$(jq -r .due result.json)
+          num=$(cat num.txt)
+          # 知らせた印(body.md)は、コメントを送れたあとで書く。送れなければ印が残らず、翌日にもう一度知らせる
+          if [ "$due" != "0" ]; then
+            if [ -z "$num" ]; then
+              # 新しく作るときは、前の印(閉じた Issue の本文)だけを持った本文で作る
+              { echo "予定日の確認の記録です。"; echo; cat prev.md; } > first.md
+              num=$(gh issue create --title "$REVIEW_TITLE" --body-file first.md | grep -o '[0-9]*$')
+            fi
+            gh issue comment "$num" --body-file comment.md
+            gh issue edit "$num" --body-file body.md
+          fi

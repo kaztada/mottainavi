@@ -24,6 +24,16 @@ import {
   type CoverageFile,
   type PublicCoverage,
 } from "./coverage"
+import {
+  GuideReviewsFileSchema,
+  GuideServicesFileSchema,
+  MunicipalHostsFileSchema,
+  OfficialGuidesFileSchema,
+  assertOfficialGuides,
+  toPublicGuides,
+  type GuideFiles,
+  type PublicGuides,
+} from "./official-guides"
 
 const DATA_DIR = join(process.cwd(), "data")
 
@@ -34,6 +44,7 @@ function readJson(...segments: string[]): unknown {
 let registryCache: RegistryEntry[] | null = null
 let reuseCache: ReuseCategory[] | null = null
 let coverageCache: CoverageFile | null = null
+let guideFilesCache: GuideFiles | null = null
 const municipalityCache = new Map<string, Municipality>()
 const categoriesCache = new Map<string, Category[]>()
 
@@ -102,6 +113,39 @@ export function getCoverageCounts(): CoverageCounts {
   return countCoverage(getCoverage(), getRegistry())
 }
 
+/**
+ * 公式への導線の4つのファイル(data-model.md の導線の節)。
+ * レジストリと食い違っていたら止める(開発サーバーでも、ビルドでも)
+ */
+export function getGuideFiles(): GuideFiles {
+  if (!guideFilesCache) {
+    const files: GuideFiles = {
+      guides: OfficialGuidesFileSchema.parse(readJson("official-guides.json")),
+      hosts: MunicipalHostsFileSchema.parse(readJson("municipal-hosts.json")),
+      services: GuideServicesFileSchema.parse(readJson("official-guide-hosts.json")),
+      reviews: GuideReviewsFileSchema.parse(readJson("guide-reviews.json")),
+    }
+    assertOfficialGuides(files, getRegistry())
+    guideFilesCache = files
+  }
+  return guideFilesCache
+}
+
+/** 未対応ページに出す導線と電話(中の資料の URL・紹介元などはページに入れない)。無ければ null */
+export function getPublicGuides(slug: string): PublicGuides | null {
+  const files = getGuideFiles()
+  const entry = files.guides[slug]
+  return entry ? toPublicGuides(entry, files.services) : null
+}
+
+/**
+ * 「公式サイトを見る」の行き先。市のホストの表で確かめた市のトップ(top_url)だけを使う
+ * (レジストリの official_url は市のトップでないことがある。堺市は委託先の分別辞典)
+ */
+export function getTopUrl(slug: string): string | null {
+  return getGuideFiles().hosts[slug]?.top_url ?? null
+}
+
 /** 自治体の収集区分 */
 export function getCategories(slug: string): Category[] {
   const cached = categoriesCache.get(slug)
@@ -119,16 +163,22 @@ export function getCategories(slug: string): Category[] {
  * 選択肢が1つも残らないカテゴリは除く。
  */
 export function getReuseCategories(slug: string): ReuseCategory[] {
+  return filterReuse((o) => !o.municipality_id || o.municipality_id === slug)
+}
+
+/** 全国共通の手放し導線だけ(未対応の市のページ用。その市だけの選択肢は出さない) */
+export function getNationalReuseCategories(): ReuseCategory[] {
+  return filterReuse((o) => !o.municipality_id)
+}
+
+function filterReuse(
+  keep: (o: ReuseCategory["options"][number]) => boolean
+): ReuseCategory[] {
   reuseCache ??= z
     .array(ReuseCategorySchema)
     .parse(readJson("reuse-options.json"))
   return reuseCache
-    .map((rc) => ({
-      ...rc,
-      options: rc.options.filter(
-        (o) => !o.municipality_id || o.municipality_id === slug
-      ),
-    }))
+    .map((rc) => ({ ...rc, options: rc.options.filter(keep) }))
     .filter((rc) => rc.options.length > 0)
 }
 

@@ -20,6 +20,8 @@
     "search-diff": "tsx scripts/tools/search-diff.ts",
     "build-registry": "tsx scripts/build-registry.ts",
     "coverage": "tsx scripts/tools/coverage.ts",
+    "guides": "tsx scripts/tools/official-guides.ts",
+    "check-guides": "tsx scripts/check-guides.ts",
     "sweep": "tsx scripts/tools/catalog-sweep.ts",
     "fetch": "tsx scripts/tools/fetch.ts"
   },

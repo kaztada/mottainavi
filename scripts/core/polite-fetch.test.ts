@@ -14,6 +14,8 @@ import { afterEach, describe, expect, it } from "vitest"
 import {
   type CurlRunner,
   type FetchRecord,
+  OFFLINE_REFUSAL,
+  createFetchRun,
   createFetcher,
   curlArgs,
   decodeText,
@@ -216,9 +218,20 @@ describe("createFetcher: 同じ URL は1回だけ", () => {
     const off = s.make(true)
     expect((await off.fetch("https://a.example/")).fromCache).toBe(true)
     await expect(off.fetch("https://a.example/other")).rejects.toThrow(
-      /オフライン/
+      OFFLINE_REFUSAL
     )
     expect(s.calls).toHaveLength(1)
+  })
+
+  it("オフラインなら、記録があっても保存した本文が無い URL は取りに行かずに断る", async () => {
+    const s = setup(() => ok())
+    await s.fetcher.fetch("https://a.example/")
+    rmSync(join(s.root, "work/fetch"), { recursive: true, force: true })
+    await expect(s.make(true).fetch("https://a.example/")).rejects.toThrow(
+      OFFLINE_REFUSAL
+    )
+    expect(s.calls).toHaveLength(1)
+    expect(s.logLines()).toHaveLength(1)
   })
 })
 
@@ -541,6 +554,22 @@ describe("decodeText", () => {
     expect(decodeText(SJIS_GOMI, "text/csv; charset=utf-8")).toBe("ごみ")
   })
 
+  it("壊れた字が少し混じっただけの UTF-8 は、Shift_JIS として読み直さない", () => {
+    const body = Buffer.concat([
+      Buffer.from("<title>ごみ分別検索は終了しました|A市</title>", "utf-8"),
+      Buffer.from([0xff]),
+      Buffer.from("<p>A市のごみの分け方</p>", "utf-8"),
+    ])
+    for (const ct of ["text/html; charset=utf-8", "text/html", null]) {
+      const text = decodeText(body, ct)
+      expect(text).toContain("ごみ分別検索は終了しました|A市")
+      expect(text).toContain("A市のごみの分け方")
+    }
+    // 本物の Shift_JIS は、UTF-8 と書いてあっても Shift_JIS として読む
+    const sjis = Buffer.concat([SJIS_GOMI, Buffer.from("abc", "latin1"), SJIS_GOMI])
+    expect(decodeText(sjis, "text/html; charset=utf-8")).toBe("ごみabcごみ")
+  })
+
   it("charset が無ければ HTML の meta charset を見る", () => {
     const html = Buffer.concat([
       Buffer.from('<html><head><meta charset="EUC-JP"></head><body>', "latin1"),
@@ -549,5 +578,42 @@ describe("decodeText", () => {
     expect(decodeText(html, "text/html")).toBe(
       '<html><head><meta charset="EUC-JP"></head><body>ごみ'
     )
+  })
+})
+
+describe("createFetcher: 見張りの実行(run)", () => {
+  const A = "https://a.example/old"
+  const B = "https://b.example/new"
+  const site = (url: string, n: number): Reply =>
+    url === B ? ok(`B${n}`) : { status: 301, body: "moved", location: B }
+
+  it("記録があっても、その実行では転送先も含めて1回ずつ取り直す", async () => {
+    const s = setup(site)
+    await s.fetcher.fetch(A)
+    expect(s.calls).toEqual([A, B])
+    const run = createFetchRun()
+    const again = await s.fetcher.fetch(A, { run })
+    expect(s.calls).toEqual([A, B, A, B])
+    expect(again.fromCache).toBe(false)
+    expect(again.body?.toString("utf-8")).toBe("B4")
+    expect(run.fetched.has(A) && run.fetched.has(B)).toBe(true)
+  })
+
+  it("同じ実行の中では、同じ URL を2回取らない(転送先を直接頼んでも)", async () => {
+    const s = setup(site)
+    const run = createFetchRun()
+    await s.fetcher.fetch(A, { run })
+    const b = await s.fetcher.fetch(B, { run })
+    const a = await s.fetcher.fetch(A, { run })
+    expect(s.calls).toEqual([A, B])
+    expect(b.fromCache && a.fromCache).toBe(true)
+  })
+
+  it("run を渡さなければ、今までどおり記録を返す(入れる作業はキャッシュ優先)", async () => {
+    const s = setup(site)
+    await s.fetcher.fetch(A)
+    const again = await s.fetcher.fetch(A)
+    expect(again.fromCache).toBe(true)
+    expect(s.calls).toEqual([A, B])
   })
 })
