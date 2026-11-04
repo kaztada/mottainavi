@@ -107,6 +107,9 @@ export type CurlRunner = (args: string[], timeoutMs: number) => Promise<string>
  * 見張りの1回の実行。その実行の中では、記録があっても1回は取り直し(転送先も含む)、2回目からは
  * その実行で取った結果を返す(同じ URL を2回取らない)。入れる作業(キャッシュ優先)では使わない
  */
+/** オフライン実行で、記録(または保存した本文)の無い URL を断るときの文言の頭 */
+export const OFFLINE_REFUSAL = "オフライン実行(MOTTAINAVI_OFFLINE=1)のため取得しません"
+
 export type FetchRun = { fetched: Set<string> }
 
 export function createFetchRun(): FetchRun {
@@ -480,10 +483,7 @@ export function createFetcher(config: FetcherConfig): Fetcher {
     const url = normalizeUrl(rawUrl)
     const cached = fromLog(url, opts)
     if (cached) return cached
-    if (offline)
-      throw new Error(
-        `オフライン実行(MOTTAINAVI_OFFLINE=1)のため取得しません。記録がありません: ${url}`
-      )
+    if (offline) throw new Error(`${OFFLINE_REFUSAL}。記録か保存した本文がありません: ${url}`)
     const before = JSON.stringify(syncLog().get(url) ?? null)
     mkdirSync(bodyDir, { recursive: true })
     const bodyPath = join(bodyDir, `${urlKey(url)}.bin`)

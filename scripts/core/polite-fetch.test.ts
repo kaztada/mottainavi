@@ -14,6 +14,7 @@ import { afterEach, describe, expect, it } from "vitest"
 import {
   type CurlRunner,
   type FetchRecord,
+  OFFLINE_REFUSAL,
   createFetchRun,
   createFetcher,
   curlArgs,
@@ -217,9 +218,20 @@ describe("createFetcher: 同じ URL は1回だけ", () => {
     const off = s.make(true)
     expect((await off.fetch("https://a.example/")).fromCache).toBe(true)
     await expect(off.fetch("https://a.example/other")).rejects.toThrow(
-      /オフライン/
+      OFFLINE_REFUSAL
     )
     expect(s.calls).toHaveLength(1)
+  })
+
+  it("オフラインなら、記録があっても保存した本文が無い URL は取りに行かずに断る", async () => {
+    const s = setup(() => ok())
+    await s.fetcher.fetch("https://a.example/")
+    rmSync(join(s.root, "work/fetch"), { recursive: true, force: true })
+    await expect(s.make(true).fetch("https://a.example/")).rejects.toThrow(
+      OFFLINE_REFUSAL
+    )
+    expect(s.calls).toHaveLength(1)
+    expect(s.logLines()).toHaveLength(1)
   })
 })
 

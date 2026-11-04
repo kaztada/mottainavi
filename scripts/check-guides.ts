@@ -6,7 +6,8 @@
  *       その実行で1回ずつ取り直して判定する(scripts/core/guide-check.ts の判定の表)。
  *       標準出力に {"attention": 正常でないものがあるか, "counts": …} を出す。自動では直さない
  *       --roles top,guide,document,linked-from  見張る対象の種類をしぼる
- *       --cached  取り直さず、記録にある結果で判定する(手元で判定を確かめるとき。見張りでは使わない)
+ *       --cached  取り直さず、記録にある結果で判定する(手元で判定を確かめるとき。見張りでは使わない)。
+ *                 市のサイトには出ない(記録や保存した本文の無い URL は「要確認」にする)
  *   npm run check-guides -- reviews [--previous <前の Issue の本文>] [--out <本文>] [--comment <コメント>]
  *       見直しの予定日の確認(毎日。ネットワークに出ない)。標準出力に {"due": 予定日が来た件数}
  *
@@ -30,7 +31,11 @@ import {
   type WatchResult,
 } from "./core/guide-watch"
 import { readGuideFiles } from "./core/official-guides-file"
-import { createFetchRun, politeFetch, type FetchRun } from "./core/polite-fetch"
+import { OFFLINE_REFUSAL, createFetchRun, politeFetch, type FetchRun } from "./core/polite-fetch"
+
+const CACHED = process.argv.includes("--cached")
+// --cached では市のサイトに出ない(politeFetch は記録と保存した本文のある URL だけを返す。CI と同じ作り)
+if (CACHED) process.env.MOTTAINAVI_OFFLINE = "1"
 
 function argValue(name: string): string | null {
   const i = process.argv.indexOf(name)
@@ -77,7 +82,7 @@ async function watch() {
   const roles = argValue("--roles")?.split(",")
   if (roles) targets = targets.filter((t) => roles.includes(t.role))
   if (Number.isFinite(limit)) targets = targets.slice(0, limit)
-  const run = process.argv.includes("--cached") ? undefined : createFetchRun()
+  const run = CACHED ? undefined : createFetchRun()
   const results: WatchResult[] = new Array(targets.length)
   let next = 0
   const worker = async () => {
@@ -86,7 +91,13 @@ async function watch() {
       const t = targets[i]
       const outcome = await fetchOutcome(t.url, run)
       const page = t.pageUrl ? await fetchOutcome(t.pageUrl, run) : undefined
-      results[i] = { target: t, judgement: judge(t, outcome, page) }
+      const missing = [outcome, page].some((o) => o?.error?.startsWith(OFFLINE_REFUSAL))
+      results[i] = {
+        target: t,
+        judgement: missing
+          ? { verdict: "review", reasons: ["保存した記録か本文がありません(--cached では取りに行かない)"] }
+          : judge(t, outcome, page),
+      }
       if (i % 50 === 0) process.stderr.write(`${i}/${targets.length}\n`)
     }
   }
