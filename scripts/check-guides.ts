@@ -51,25 +51,32 @@ const readOptional = (path: string | null) => {
   }
 }
 
-async function fetchOutcome(url: string, run: FetchRun | undefined): Promise<FetchOutcome> {
+/**
+ * 1件取って判定の形にする。missing は、記録が無い・本文を保存した記録なのに本文のファイルが無い
+ * (--cached で、記録だけでは判定できないもの。失敗の記録も、本文があれば題名の停止の告知を見るので)
+ */
+async function fetchOutcome(
+  url: string,
+  run: FetchRun | undefined
+): Promise<{ outcome: FetchOutcome; missing: boolean }> {
   try {
     const { record, body } = await politeFetch(url, run ? { run } : {})
     return {
-      status: record.status,
-      final_url: record.final_url,
-      content_type: record.content_type,
-      error: record.error,
-      body,
-      sha256: record.sha256,
+      outcome: {
+        status: record.status,
+        final_url: record.final_url,
+        content_type: record.content_type,
+        error: record.error,
+        body,
+        sha256: record.sha256,
+      },
+      missing: Boolean(record.file) && !body,
     }
   } catch (e) {
+    const error = e instanceof Error ? e.message : String(e)
     return {
-      status: 0,
-      final_url: url,
-      content_type: null,
-      error: e instanceof Error ? e.message : String(e),
-      body: null,
-      sha256: null,
+      outcome: { status: 0, final_url: url, content_type: null, error, body: null, sha256: null },
+      missing: error.startsWith(OFFLINE_REFUSAL),
     }
   }
 }
@@ -89,14 +96,14 @@ async function watch() {
     while (next < targets.length) {
       const i = next++
       const t = targets[i]
-      const outcome = await fetchOutcome(t.url, run)
+      const got = await fetchOutcome(t.url, run)
       const page = t.pageUrl ? await fetchOutcome(t.pageUrl, run) : undefined
-      const missing = [outcome, page].some((o) => o?.error?.startsWith(OFFLINE_REFUSAL))
       results[i] = {
         target: t,
-        judgement: missing
-          ? { verdict: "review", reasons: ["保存した記録か本文がありません(--cached では取りに行かない)"] }
-          : judge(t, outcome, page),
+        judgement:
+          got.missing || page?.missing
+            ? { verdict: "review", reasons: ["保存した記録か本文がありません(--cached では取りに行かない)"] }
+            : judge(t, got.outcome, page?.outcome),
       }
       if (i % 50 === 0) process.stderr.write(`${i}/${targets.length}\n`)
     }
