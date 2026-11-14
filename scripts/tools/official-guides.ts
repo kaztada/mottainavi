@@ -8,8 +8,12 @@
  *                                                見張りで誤案内の疑いが見つかったときなど。予定の表のその市の行も直す
  *   npm run guides -- report                     いまの導線の一覧
  *
- * 取得は politeFetch の既定(キャッシュ優先。CLAUDE.md「再実行はキャッシュ優先」)。同じ URL は1回だけ。
- * 1市につき確かめる URL は4つまで(導線のページ・中の資料・外部サイトの紹介元・電話を確かめるページ)。
+ *   npm run guides -- fetch <slug> <URL>         入口を探すために1件取得し、題名とごみの語のリンクを出す(上限に数える)
+ *
+ * 取得は politeFetch と同じ置き場所・間隔(キャッシュ優先。CLAUDE.md「再実行はキャッシュ優先」)。同じ URL は1回だけ。
+ * 1市につき確かめる URL は3つまで(導線のページ・中の資料・外部サイトの紹介元。入口探しで開いたページも数える)、
+ * 接続は転送と再試行を含めて8回まで(scripts/core/guide-budget.ts)。電話は、その3つのどれかの本文で確かめる。
+ * 使った URL と接続の回数は work/official-guides-budget.json に残す(コミットしない)。
  *
  * 下書きの形: { "<slug>": { links: [導線(目印の項目なし)+ override?], phone?: {dept_ja, tel, note_ja?, source_url},
  *   source, reviews?: [{due, reason_ja}] } }。override は、人が見て受け入れた旗の理由(書き込みには残さない)
@@ -48,14 +52,30 @@ import {
   writeGuideFiles,
   type UrlCheckRecord,
 } from "../core/official-guides-file"
-import { CACHE_DIR } from "../core/paths"
-import { politeFetch } from "../core/polite-fetch"
+import {
+  MAX_URLS_PER_CITY,
+  budgetedFetch,
+  countingCurl,
+  isRefusal,
+  overBudget,
+  readBudget,
+  writeBudget,
+  type Budget,
+} from "../core/guide-budget"
+import { CACHE_DIR, ROOT } from "../core/paths"
+import {
+  FETCH_BODY_DIR,
+  FETCH_LOG_PATH,
+  createFetcher,
+  realCurl,
+  type Fetcher,
+} from "../core/polite-fetch"
 import { join } from "node:path"
 
 const OFFICIAL_URL_CHECK_PATH = join(CACHE_DIR, "official-url-check.json")
 /** 電話を載せた市の見直しの期日(4月の組織の改正の前。2026-11-04 Kaz 判断) */
 export const PHONE_REVIEW_DUE = "2027-03-01"
-const MAX_URLS_PER_CITY = 4
+const BUDGET_PATH = join(ROOT, "work/official-guides-budget.json")
 
 // ---- 下書きの確かめ ----
 
@@ -94,9 +114,43 @@ const DraftEntrySchema = z.object({
 type DraftEntry = z.infer<typeof DraftEntrySchema>
 const DraftFileSchema = z.record(SlugSchema, DraftEntrySchema)
 
-async function get(url: string): Promise<FetchOutcome> {
+/** politeFetch と同じ置き場所・間隔で、curl を動かした回数を数える取得器 */
+let fetcher: Fetcher | null = null
+function getFetcher(): Fetcher {
+  if (!fetcher)
+    fetcher = createFetcher({
+      root: ROOT,
+      logPath: FETCH_LOG_PATH,
+      bodyDir: FETCH_BODY_DIR,
+      hostDir: join(FETCH_BODY_DIR, ".hosts"),
+      curl: countingCurl(realCurl),
+      offline: process.env.MOTTAINAVI_OFFLINE === "1",
+    })
+  return fetcher
+}
+
+let budget: Budget | null = null
+function getBudget(): Budget {
+  if (!budget) budget = readBudget(BUDGET_PATH)
+  return budget
+}
+
+type Getter = (url: string) => Promise<FetchOutcome>
+
+/** その市の上限の中で取得する。上限で断ったときは、取得できなかった結果にする */
+function getterFor(slug: string): Getter {
+  return async (url) => {
+    const b = getBudget()
+    const r = await budgetedFetch(b, slug, url, rawGet, () => writeBudget(BUDGET_PATH, b))
+    if (isRefusal(r))
+      return { status: 0, final_url: url, content_type: null, error: `上限で取得しない: ${r.reason}`, body: null, sha256: null }
+    return r
+  }
+}
+
+async function rawGet(url: string): Promise<FetchOutcome> {
   try {
-    const { record, body } = await politeFetch(url)
+    const { record, body } = await getFetcher().fetch(url)
     return {
       status: record.status,
       final_url: record.final_url,
@@ -143,6 +197,7 @@ async function checkCity(
   files: GuideFiles
 ): Promise<CityCheck> {
   const cityHosts = files.hosts[slug]?.hosts ?? []
+  const get = getterFor(slug)
   const urls = new Set<string>()
   for (const l of draft.links) {
     urls.add(l.url)
@@ -167,7 +222,7 @@ async function checkCity(
   }
 
   const links: LinkCheck[] = []
-  for (const l of draft.links) links.push(await checkLink(l, entry, cityHosts, files))
+  for (const l of draft.links) links.push(await checkLink(l, entry, cityHosts, files, get))
 
   let phone: CityCheck["phone"] = null
   if (draft.phone) {
@@ -182,6 +237,15 @@ async function checkCity(
     else problems.push(...phoneProblems(page.text, draft.phone.tel, draft.phone.dept_ja))
     phone = { ok: problems.length === 0, problems }
   }
+  // 確かめる途中で上限を超えた市は、導線も電話も載せずに保留する
+  const over = overBudget(getBudget()[slug])
+  if (over) {
+    for (const l of links) {
+      l.ok = false
+      l.problems.push(`保留: ${over}`)
+    }
+    if (phone) phone = { ok: false, problems: [...phone.problems, `保留: ${over}`] }
+  }
   return { slug, links, phone }
 }
 
@@ -189,7 +253,8 @@ async function checkLink(
   l: DraftLink,
   entry: RegistryEntry,
   cityHosts: string[],
-  files: GuideFiles
+  files: GuideFiles,
+  get: Getter
 ): Promise<LinkCheck> {
   const problems: string[] = []
   const flags: string[] = []
@@ -455,6 +520,30 @@ async function main() {
     return
   }
 
+  if (cmd === "fetch") {
+    const url = process.argv[4]
+    if (!arg || !url) throw new Error("使い方: npm run guides -- fetch <slug> <URL>")
+    if (!registry.some((e) => e.slug === arg)) throw new Error(`レジストリに無い市: ${arg}`)
+    const o = await getterFor(arg)(url)
+    const usage = getBudget()[arg]
+    console.log(`状態 ${o.status}${o.error ? `(${o.error})` : ""} ${o.content_type ?? ""}`)
+    console.log(`行き先 ${o.final_url}`)
+    console.log(`この市で使った URL ${usage?.urls.length ?? 0}/${MAX_URLS_PER_CITY}・接続 ${usage?.connections ?? 0} 回`)
+    const page = o.status === 200 ? readOutcomePage(o) : null
+    if (page) {
+      console.log(`題名 ${page.title}`)
+      const seen = new Set<string>()
+      for (const l of page.links) {
+        const t = l.text
+        if (seen.has(l.href)) continue
+        if (containsAny(t, GARBAGE_WORDS).length === 0 && !/\.pdf($|\?)/i.test(l.href)) continue
+        seen.add(l.href)
+        console.log(`  ${t.slice(0, 40)}\t${l.href}`)
+      }
+    }
+    return
+  }
+
   if (cmd === "report") {
     for (const e of registry) {
       const g = files.guides[e.slug]
@@ -466,7 +555,7 @@ async function main() {
   }
 
   console.error(
-    "使い方: npm run guides -- hosts | check <下書き.json> [--report <出力.json>] | apply <下書き.json> | remove <slug> [<種類>|phone] | report"
+    "使い方: npm run guides -- hosts | check <下書き.json> [--report <出力.json>] | apply <下書き.json> | remove <slug> [<種類>|phone] | fetch <slug> <URL> | report"
   )
   process.exit(1)
 }
