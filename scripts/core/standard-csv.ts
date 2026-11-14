@@ -18,6 +18,8 @@ export interface StandardCsvConfig {
   name: string
   /** データ更新の見張り方。取得元の URL は data/municipalities/<slug>/source.json に置く */
   watch: WatchSpec
+  /** 見張りからは取得を断られる理由(MunicipalityAdapter.watchLocalOnly) */
+  watchLocalOnly?: string
   /** 原本の文字コード。shift_jis(CP932)のときは UTF-8 に復号したものをキャッシュに置く */
   encoding: "utf-8" | "shift_jis"
   /** 列名の接頭辞(自治体によって「ごみの分別方法_」「ゴミの分別方法_」と表記が違う) */
@@ -322,6 +324,7 @@ export function createStandardCsvAdapter(
     config,
     slug: config.slug,
     watch: config.watch,
+    watchLocalOnly: config.watchLocalOnly,
     async fetchSource({ refresh }) {
       const sourceUrl = readSource(config.slug).file_url
       if (config.encoding === "utf-8") {

@@ -32,6 +32,11 @@ export interface MunicipalityAdapter {
   watch?: WatchSpec
   /** 更新を検出しても自動では作り直せない理由(あれば、作り直さずに知らせる) */
   manualUpdateReason?: string
+  /**
+   * 見張り(GitHub Actions)からは取得を断られる理由(あれば、取得できなかったときに Issue にせず、
+   * 「手元で確かめる」として PR の本文にだけ出す。月1回、手元の Mac から確かめる。2026-11-15 Kaz 判断)
+   */
+  watchLocalOnly?: string
 }
 
 /** データ更新の検出方法。週1回、対象を1回だけ取得して前回の目印(fingerprint)と比べる */

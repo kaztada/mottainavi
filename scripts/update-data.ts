@@ -67,6 +67,7 @@ async function update(
   try {
     detected = await checkWatch(adapter.watch)
   } catch (err) {
+    if (adapter.watchLocalOnly) return { slug, status: "local-check", reason: adapter.watchLocalOnly }
     return { slug, status: "check-failed", reason: String(err) }
   }
   if (detected.fingerprint === state.fingerprint) {
