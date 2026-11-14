@@ -13,7 +13,7 @@
  * 取得は politeFetch と同じ置き場所・間隔(キャッシュ優先。CLAUDE.md「再実行はキャッシュ優先」)。同じ URL は1回だけ。
  * 1市につき確かめる URL は3つまで(導線のページ・中の資料・外部サイトの紹介元。入口探しで開いたページも数える)、
  * 接続は転送と再試行を含めて8回まで(scripts/core/guide-budget.ts)。電話は、その3つのどれかの本文で確かめる。
- * 使った URL と接続の回数は work/official-guides-budget.json に残す(コミットしない)。
+ * 使った URL と接続の回数は work/official-guides-budget/<slug>.json に残す(コミットしない)。
  *
  * 下書きの形: { "<slug>": { links: [導線(目印の項目なし)+ override?], phone?: {dept_ja, tel, note_ja?, source_url},
  *   source, reviews?: [{due, reason_ja}] } }。override は、人が見て受け入れた旗の理由(書き込みには残さない)
@@ -59,7 +59,7 @@ import {
   isRefusal,
   overBudget,
   readBudget,
-  writeBudget,
+  writeCityUsage,
   type Budget,
 } from "../core/guide-budget"
 import { CACHE_DIR, ROOT } from "../core/paths"
@@ -75,7 +75,7 @@ import { join } from "node:path"
 const OFFICIAL_URL_CHECK_PATH = join(CACHE_DIR, "official-url-check.json")
 /** 電話を載せた市の見直しの期日(4月の組織の改正の前。2026-11-04 Kaz 判断) */
 export const PHONE_REVIEW_DUE = "2027-03-01"
-const BUDGET_PATH = join(ROOT, "work/official-guides-budget.json")
+const BUDGET_DIR = join(ROOT, "work/official-guides-budget")
 
 // ---- 下書きの確かめ ----
 
@@ -131,7 +131,7 @@ function getFetcher(): Fetcher {
 
 let budget: Budget | null = null
 function getBudget(): Budget {
-  if (!budget) budget = readBudget(BUDGET_PATH)
+  if (!budget) budget = readBudget(BUDGET_DIR)
   return budget
 }
 
@@ -141,7 +141,7 @@ type Getter = (url: string) => Promise<FetchOutcome>
 function getterFor(slug: string): Getter {
   return async (url) => {
     const b = getBudget()
-    const r = await budgetedFetch(b, slug, url, rawGet, () => writeBudget(BUDGET_PATH, b))
+    const r = await budgetedFetch(b, slug, url, rawGet, (u) => writeCityUsage(BUDGET_DIR, slug, u))
     if (isRefusal(r))
       return { status: 0, final_url: url, content_type: null, error: `上限で取得しない: ${r.reason}`, body: null, sha256: null }
     return r

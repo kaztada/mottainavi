@@ -6,12 +6,12 @@
  * - 接続は転送の各段と再試行を含めて8回まで(curl を動かした回数。記録から返したときは数えない)
  * - 上限に収まらない市は、その市の導線を載せずに保留する
  *
- * 使った URL と接続の回数は、実行をまたいで手元の記録(work/ の JSON。コミットしない)に残す。
+ * 使った URL と接続の回数は、実行をまたいで手元の記録(work/ の市ごとの JSON。コミットしない)に残す。
  * 再実行はキャッシュ優先なので、2回目からは接続が増えない。
  */
 import { AsyncLocalStorage } from "node:async_hooks"
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs"
-import { dirname } from "node:path"
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs"
+import { join } from "node:path"
 
 export const MAX_URLS_PER_CITY = 3
 export const MAX_CONNECTIONS_PER_CITY = 8
@@ -19,15 +19,23 @@ export const MAX_CONNECTIONS_PER_CITY = 8
 export type CityUsage = { urls: string[]; connections: number }
 export type Budget = Record<string, CityUsage>
 
-export function readBudget(path: string): Budget {
-  if (!existsSync(path)) return {}
-  return JSON.parse(readFileSync(path, "utf-8")) as Budget
+/**
+ * 記録は市ごとに1ファイル(<dir>/<slug>.json)。いくつかのプロセスが別々の市を同時に確かめても、
+ * ほかの市の記録を上書きしない(同じ市を同時に2つのプロセスで確かめないこと)
+ */
+export function readBudget(dir: string): Budget {
+  if (!existsSync(dir)) return {}
+  const out: Budget = {}
+  for (const f of readdirSync(dir)) {
+    if (!f.endsWith(".json")) continue
+    out[f.slice(0, -5)] = JSON.parse(readFileSync(join(dir, f), "utf-8")) as CityUsage
+  }
+  return out
 }
 
-export function writeBudget(path: string, budget: Budget): void {
-  mkdirSync(dirname(path), { recursive: true })
-  const sorted = Object.fromEntries(Object.entries(budget).sort(([a], [b]) => a.localeCompare(b)))
-  writeFileSync(path, JSON.stringify(sorted, null, 2) + "\n")
+export function writeCityUsage(dir: string, slug: string, usage: CityUsage): void {
+  mkdirSync(dir, { recursive: true })
+  writeFileSync(join(dir, `${slug}.json`), JSON.stringify(usage, null, 2) + "\n")
 }
 
 /** 上限を超えたか(超えた市は保留) */
@@ -66,7 +74,7 @@ export async function budgetedFetch<T>(
   slug: string,
   url: string,
   fetchFn: (url: string) => Promise<T>,
-  save?: () => void
+  save?: (usage: CityUsage) => void
 ): Promise<T | BudgetRefusal> {
   const usage = (budget[slug] ??= { urls: [], connections: 0 })
   const known = usage.urls.includes(url)
@@ -80,7 +88,7 @@ export async function budgetedFetch<T>(
   } finally {
     if (!known) usage.urls.push(url)
     usage.connections += counter.connections
-    save?.()
+    save?.(usage)
   }
 }
 
