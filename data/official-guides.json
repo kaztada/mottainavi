@@ -623,7 +623,7 @@
         "url": "https://www.city.kamisu.ibaraki.jp/living/gomi/1000956/1000980/index.html",
         "target": "html-page",
         "document": "html",
-        "searchable": true
+        "searchable": false
       },
       {
         "kind": "top",
@@ -3444,6 +3444,7 @@
         "target": "html-page",
         "document": "image-pdf",
         "searchable": false,
+        "partial": true,
         "document_url": "https://www.city.matsubara.lg.jp/fs/2/9/8/4/0/7/_/gomi_2025_ALL.pdf",
         "document_link_text": "全体(PDF 6.77MB)",
         "document_sha256": "b84cdec7bf09bf67f8f06d816d9855e736f688b9c279aacd8697b632aa3dbe35"
@@ -4246,6 +4247,7 @@
         "target": "html-page",
         "document": "image-pdf",
         "searchable": false,
+        "partial": true,
         "document_url": "https://www.city.omura.nagasaki.jp/kankyousoumu/kurashi/gomi/documents/13-29.pdf",
         "document_link_text": "各種分類表・ごみ出し分別一覧表（50音順）（PDF：2,642KB）",
         "document_sha256": "c23d867d42146b668349e4a6556519973e28989da2de4fc5959f88c3f050bff6"

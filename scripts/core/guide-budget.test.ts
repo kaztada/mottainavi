@@ -3,6 +3,7 @@ import {
   MAX_CONNECTIONS_PER_CITY,
   MAX_URLS_PER_CITY,
   budgetedFetch,
+  holdReason,
   countingCurl,
   isRefusal,
   overBudget,
@@ -95,5 +96,19 @@ describe("budgetedFetch", () => {
     const b: Budget = {}
     await budgetedFetch(b, "a", "https://a/1", fakeFetch({ "https://a/1": 1 }))
     expect(b.a.connections).toBe(1)
+  })
+})
+
+describe("holdReason", () => {
+  it("確かめる途中で上限のために取得を断ったら、ほかが上限内でも市ごと保留", () => {
+    expect(holdReason({ urls: ["1", "2", "3"], connections: 3 }, ["1市で確かめる URL は 3 つまで"])).toMatch(
+      /上限のため確かめきれない/
+    )
+  })
+  it("断りが無く上限内なら保留にしない", () => {
+    expect(holdReason({ urls: ["1", "2", "3"], connections: 8 }, [])).toBeNull()
+  })
+  it("断りが無くても上限を超えていれば保留", () => {
+    expect(holdReason({ urls: ["1"], connections: 9 }, [])).toMatch(/8 回を超えた/)
   })
 })

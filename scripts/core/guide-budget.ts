@@ -48,6 +48,12 @@ export function overBudget(usage: CityUsage | undefined): string | null {
   return null
 }
 
+/** 市を保留にする理由(上限を超えた、または確かめる途中で上限のために取得を断った)。無ければ null */
+export function holdReason(usage: CityUsage | undefined, refusals: readonly string[]): string | null {
+  if (refusals.length > 0) return `上限のため確かめきれない: ${refusals[0]}`
+  return overBudget(usage)
+}
+
 /** curl を動かした回数を、いま確かめている市に付ける */
 const current = new AsyncLocalStorage<{ connections: number }>()
 

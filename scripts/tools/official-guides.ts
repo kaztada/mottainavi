@@ -56,8 +56,8 @@ import {
   MAX_URLS_PER_CITY,
   budgetedFetch,
   countingCurl,
+  holdReason,
   isRefusal,
-  overBudget,
   readBudget,
   writeCityUsage,
   type Budget,
@@ -137,13 +137,18 @@ function getBudget(): Budget {
 
 type Getter = (url: string) => Promise<FetchOutcome>
 
-/** その市の上限の中で取得する。上限で断ったときは、取得できなかった結果にする */
-function getterFor(slug: string): Getter {
+/**
+ * その市の上限の中で取得する。上限で断ったときは、取得できなかった結果にして、断った理由を refusals に残す
+ * (確かめに要る URL が上限に収まらない市は、ほかの導線や電話が通っても市ごと保留にするため)
+ */
+function getterFor(slug: string, refusals: string[] = []): Getter {
   return async (url) => {
     const b = getBudget()
     const r = await budgetedFetch(b, slug, url, rawGet, (u) => writeCityUsage(BUDGET_DIR, slug, u))
-    if (isRefusal(r))
+    if (isRefusal(r)) {
+      refusals.push(r.reason)
       return { status: 0, final_url: url, content_type: null, error: `上限で取得しない: ${r.reason}`, body: null, sha256: null }
+    }
     return r
   }
 }
@@ -197,7 +202,8 @@ async function checkCity(
   files: GuideFiles
 ): Promise<CityCheck> {
   const cityHosts = files.hosts[slug]?.hosts ?? []
-  const get = getterFor(slug)
+  const refusals: string[] = []
+  const get = getterFor(slug, refusals)
   const urls = new Set<string>()
   for (const l of draft.links) {
     urls.add(l.url)
@@ -238,7 +244,7 @@ async function checkCity(
     phone = { ok: problems.length === 0, problems }
   }
   // 確かめる途中で上限を超えた市は、導線も電話も載せずに保留する
-  const over = overBudget(getBudget()[slug])
+  const over = holdReason(getBudget()[slug], refusals)
   if (over) {
     for (const l of links) {
       l.ok = false
