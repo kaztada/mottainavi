@@ -21,6 +21,8 @@ export type UpdateOutcome =
   | { slug: string; status: "needs-attention"; reason: string }
   /** 掲載ページ・API を確認できなかった */
   | { slug: string; status: "check-failed"; reason: string }
+  /** 見張りからは取得を断られる自治体で、確認できなかった(Issue にしない。手元で確かめる) */
+  | { slug: string; status: "local-check"; reason: string }
 
 /** 日本時間の今日(YYYY-MM-DD) */
 export function todayJst(now: Date = new Date()): string {
@@ -132,6 +134,12 @@ export function renderReport(
   const unchanged = of("unchanged")
   if (unchanged.length > 0) {
     lines.push(`- 変更なし: ${unchanged.map((o) => o.slug).join(", ")}`)
+  }
+  const localCheck = of("local-check")
+  if (localCheck.length > 0) {
+    lines.push(
+      `- 手元で確かめる(見張りからは取得を断られる。月1回、手元の Mac から確かめる): ${localCheck.map((o) => `${o.slug}(${o.reason})`).join(", ")}`
+    )
   }
   const unwatched = of("unwatched")
   if (unwatched.length > 0) {

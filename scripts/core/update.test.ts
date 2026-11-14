@@ -122,6 +122,20 @@ describe("renderReport", () => {
     expect(r.attention).toContain("**b-city**(確認できませんでした): 取得失敗: 403")
     expect(r.attention).toContain("データ更新を進めて")
   })
+  it("見張りからは取得を断られる自治体は Issue にせず、PR の本文に「手元で確かめる」と出す", () => {
+    const r = renderReport(
+      [
+        { slug: "a-city", status: "local-check", reason: "ポータルが 403 で断る" },
+        { slug: "b-city", status: "unchanged" },
+      ],
+      WATCH,
+      "2026-10-05"
+    )
+    expect(r.needsAttention).toBe(false)
+    expect(r.attention).toBe("")
+    expect(r.body).toContain("手元で確かめる")
+    expect(r.body).toContain("a-city(ポータルが 403 で断る)")
+  })
   it("何も無ければ PR も Issue も作らない", () => {
     const r = renderReport([{ slug: "a-city", status: "unchanged" }], WATCH, "2026-10-05")
     expect(r.hasChanges).toBe(false)

@@ -58,6 +58,8 @@ Issue の理由ごとに対応する。作業はブランチ `data/<slug>-<日�
 - **itemNotes の品目が CSV に無い**: 市が品目名を変えたか、食い違いを直した可能性。新しいデータでその品目を探し、注記を付け替えるか外す
 - **河内長野市(PDF)**: `source.json` の `file_url` を新しい PDF にする → `npm run build-data -- --municipality kawachinagano-city --refresh`(PDF を取得してエラーで止まるのが正常)→ `python3 scripts/adapters/kawachinagano-city/extract_text.py`(pypdf が無ければ `uv run --with pypdf python …`)→ もう一度 build-data → **切り出した品目を PDF のページ画像と30品目以上照合する**(行の崩れは見た目では分からない)
 - **確認できませんでした(掲載ページのリンクが見つからない・複数ある・取得失敗)**: 市がページの構成を変えた可能性。掲載ページを開いて、アダプタの `watch`(`linkText` や `pageUrl`)を直す。GitHub のサーバーからだけ届かない場合は、その旨を Kaz に伝える
+  - 毎回断られる取得元(入間市の埼玉県オープンデータポータルなど)は、アダプタに `watchLocalOnly`(理由)を書く。見張りは Issue にせず、PR の本文に「手元で確かめる」と出す(2026-11-15 Kaz 判断)
+  - `watchLocalOnly` の市は月1回、手元の Mac から取得元を1回だけ取得して、前回の目印(`source.json` の fingerprint。ページ自体がデータの市は中身の SHA-256)と比べる。変わっていたら、ふつうの更新と同じく作り直して PR にする。変わっていなければ、結果を引き継ぎメモに一行書く
 - **PR を作れませんでした**: ブランチは push 済み。`gh pr create --head <ブランチ>` で PR を作る。Kaz に、GitHub Actions の PR 作成の許可がオフになっていないか確かめてもらう
 
 どの場合も、`data_version` を必ず上げ(`npm run check-data` が検査する)、`data_fetched_at` を取得日にする。コミットしてから `npm run build-data -- --all` → `npm run check-data` → テスト・lint・ビルド。PR を作る前に Codex の二重チェック(`npm run codex-review`、tech-stack.md §18)をして、指摘を確かめて直す(直したらコミットして、もう一度実行する)。PR を作り、Vercel と CI が緑になってからマージボタンを渡す。Issue は PR の本文に `Closes #<番号>` と書いて閉じる。

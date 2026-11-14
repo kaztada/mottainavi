@@ -43,6 +43,7 @@ export const irumaCityConfig: StandardCsvConfig = {
     pageUrl: "https://opendata.pref.saitama.lg.jp/resource_download/4858",
     select: (text) => text,
   },
+  watchLocalOnly: "埼玉県オープンデータポータルが GitHub のサーバーからの取得を 403 で断る(2026-11-02・11-09)",
   encoding: "shift_jis",
   headerPrefix: "",
   expectedMinItems: 2300,
