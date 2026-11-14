@@ -448,6 +448,12 @@ async function main() {
     if (!arg) throw new Error("下書きのファイルを指定してください")
     const { draft, results } = await checkDraft(arg, files, registry)
     printResults(results)
+    // 入口探しで上限のために断ったページのある市(保留にはしない。人が見て、断ったページが要る導線でないか確かめる)
+    for (const r of results) {
+      const refused = getBudget()[r.slug]?.refused ?? []
+      if (refused.length > 0)
+        console.log(`(入口探しで断ったページ) ${r.slug}: ${refused.map((x) => x.url).join(" ")}`)
+    }
     const reportIdx = process.argv.indexOf("--report")
     if (reportIdx >= 0) {
       const out = results.map((r) => ({

@@ -48,6 +48,7 @@ describe("budgetedFetch", () => {
     const r = await budgetedFetch(b, "a", "https://a/4", f)
     expect(isRefusal(r)).toBe(true)
     expect(b.a.urls).toHaveLength(3)
+    expect(b.a.refused?.map((x) => x.url)).toEqual(["https://a/4"])
     expect(b.a.connections).toBe(3)
     // 使った URL の取り直し(記録から返す)は断らない
     expect(isRefusal(await budgetedFetch(b, "a", "https://a/2", fakeFetch({ "https://a/2": 0 })))).toBe(false)

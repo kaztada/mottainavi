@@ -16,7 +16,12 @@ import { join } from "node:path"
 export const MAX_URLS_PER_CITY = 3
 export const MAX_CONNECTIONS_PER_CITY = 8
 
-export type CityUsage = { urls: string[]; connections: number }
+export type CityUsage = {
+  urls: string[]
+  connections: number
+  /** 上限のために取得を断った URL と理由(記録だけ。入口探しで断ったものは、下書きに入らないので保留にはしない) */
+  refused?: { url: string; reason: string }[]
+}
 export type Budget = Record<string, CityUsage>
 
 /**
@@ -48,7 +53,14 @@ export function overBudget(usage: CityUsage | undefined): string | null {
   return null
 }
 
-/** 市を保留にする理由(上限を超えた、または確かめる途中で上限のために取得を断った)。無ければ null */
+/**
+ * 市を保留にする理由。無ければ null。
+ * - 上限を超えた(取得の途中で8回を超えた)
+ * - 下書きを確かめる途中(check・apply)で、上限のために取得を断った(refusals はその実行で断ったもの)。
+ *   確かめに要る URL が上限に収まらないので、ほかの導線や電話が通っても市ごと保留にする
+ * 入口探し(fetch)で断ったものは保留の理由にしない(断ったページは下書きに入らず、載せる導線はすべて
+ * 上限の中で確かめたもの。記録 refused には残る)
+ */
 export function holdReason(usage: CityUsage | undefined, refusals: readonly string[]): string | null {
   if (refusals.length > 0) return `上限のため確かめきれない: ${refusals[0]}`
   return overBudget(usage)
@@ -84,10 +96,15 @@ export async function budgetedFetch<T>(
 ): Promise<T | BudgetRefusal> {
   const usage = (budget[slug] ??= { urls: [], connections: 0 })
   const known = usage.urls.includes(url)
+  const refuse = (reason: string): BudgetRefusal => {
+    ;(usage.refused ??= []).push({ url, reason })
+    save?.(usage)
+    return { refused: true, reason }
+  }
   if (!known && usage.urls.length >= MAX_URLS_PER_CITY)
-    return { refused: true, reason: `1市で確かめる URL は ${MAX_URLS_PER_CITY} つまで(使ったもの: ${usage.urls.join(" ")})` }
+    return refuse(`1市で確かめる URL は ${MAX_URLS_PER_CITY} つまで(使ったもの: ${usage.urls.join(" ")})`)
   if (usage.connections >= MAX_CONNECTIONS_PER_CITY && !known)
-    return { refused: true, reason: `1市の接続は ${MAX_CONNECTIONS_PER_CITY} 回まで(使った回数: ${usage.connections})` }
+    return refuse(`1市の接続は ${MAX_CONNECTIONS_PER_CITY} 回まで(使った回数: ${usage.connections})`)
   const counter = { connections: 0 }
   try {
     return await current.run(counter, () => fetchFn(url))
