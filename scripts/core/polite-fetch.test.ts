@@ -436,6 +436,26 @@ describe("createFetcher: 転送", () => {
     expect(s.fetcher.readLog().get(A)?.final_url).toContain("REDACTED")
   })
 
+  it("署名つき URL は伏せた URL で記録を引く(同じ回で2度頼んでも取りに行くのは1回)", async () => {
+    const S =
+      "https://bucket.s3.amazonaws.com/a.csv?X-Amz-Credential=ASIAEXAMPLE&X-Amz-Signature=sig"
+    const s = setup(() => ok("csv"))
+    await s.fetcher.fetch(S)
+    const again = await s.fetcher.fetch(S)
+    expect(again.fromCache).toBe(true)
+    expect(s.calls).toHaveLength(1)
+  })
+
+  it("Azure の SAS の署名(sig)と、エラーの文の中の URL も伏せる", async () => {
+    const Z =
+      "https://acct.blob.core.windows.net/c/a.csv?sv=2024-01-01&se=2026-01-01&sr=b&sp=r&sig=SECRETSIG"
+    expect(redactSignedUrl(Z)).not.toContain("SECRETSIG")
+    const s = setup(() => ({ fail: 22, stderr: `curl: (22) The requested URL returned error: 403 ${Z}` }))
+    await s.fetcher.fetch(Z).catch(() => null)
+    expect(s.logLines().join("\n")).toContain("REDACTED")
+    expect(s.logLines().join("\n")).not.toContain("SECRETSIG")
+  })
+
   it("転送先が取得済みなら取りに行かない(別の元の URL からでも)", async () => {
     const s = setup(site)
     await s.fetcher.fetch(A)

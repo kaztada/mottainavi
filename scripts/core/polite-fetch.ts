@@ -202,6 +202,8 @@ const SIGNED_URL_PARAMS = new Set([
   "signature",
   "x-goog-credential",
   "x-goog-signature",
+  // Azure の SAS(共有アクセス署名)
+  "sig",
 ])
 
 export function redactSignedUrl(url: string): string {
@@ -219,6 +221,11 @@ export function redactSignedUrl(url: string): string {
     }
   }
   return changed ? u.href : url
+}
+
+/** 文の中の URL(エラーの文など)から、署名つき URL の鍵を伏せる */
+export function redactUrlsInText(text: string): string {
+  return text.replace(/https?:\/\/[^\s"'<>]+/g, (u) => redactSignedUrl(u))
 }
 
 /** 本文のファイル名にする鍵(URL の sha256 の先頭24文字) */
@@ -346,7 +353,7 @@ export function createFetcher(config: FetcherConfig): Fetcher {
 
   /** 記録で答えられるならその結果。取りに行くべきなら null */
   const fromLog = (url: string, opts: FetchOptions): FetchResult | null => {
-    const record = syncLog().get(url)
+    const record = syncLog().get(redactSignedUrl(url))
     if (!record || opts.refresh) return null
     // 見張りの実行で、まだ取っていない URL は取り直す
     if (opts.run && !opts.run.fetched.has(url)) return null
@@ -516,7 +523,7 @@ export function createFetcher(config: FetcherConfig): Fetcher {
     const cached = fromLog(url, opts)
     if (cached) return cached
     if (offline) throw new Error(`${OFFLINE_REFUSAL}。記録か保存した本文がありません: ${url}`)
-    const before = JSON.stringify(syncLog().get(url) ?? null)
+    const before = JSON.stringify(syncLog().get(redactSignedUrl(url)) ?? null)
     mkdirSync(bodyDir, { recursive: true })
     const bodyPath = join(bodyDir, `${urlKey(url)}.bin`)
     // URL ごとのロックを、転送をたどり終えて記録を書くまで持つ(同じ URL を二重に取りに行かない)。
@@ -524,7 +531,7 @@ export function createFetcher(config: FetcherConfig): Fetcher {
     // (A→B と B→A を同時に)で待ち合わないよう、転送先では待つ時間に上限を置く
     const run = async (): Promise<FetchResult> => {
       // ロックを待つあいだに、ほかの呼び出し(ほかのプロセス)が同じ URL を取っていたら、それを使う
-      const latest = syncLog().get(url)
+      const latest = syncLog().get(redactSignedUrl(url))
       if (latest && JSON.stringify(latest) !== before) {
         const body = readBody(latest)
         if (body || !isFetchOk(latest)) {
@@ -601,11 +608,12 @@ export function createFetcher(config: FetcherConfig): Fetcher {
       }
       record = { ...record, url, final_url: record.final_url || url }
       mkdirSync(dirname(logPath), { recursive: true })
-      // 署名つき URL の鍵は記録に残さない(署名は毎回変わるので、記録の鍵としても使い回さない)
+      // 署名つき URL の鍵は記録に残さない。記録は伏せた URL で引く(同じ資料なら署名が違っても同じ記録)
       const logged = {
         ...record,
         url: redactSignedUrl(record.url),
         final_url: redactSignedUrl(record.final_url),
+        ...(record.error ? { error: redactUrlsInText(record.error) } : {}),
       }
       appendFileSync(logPath, JSON.stringify(logged) + "\n")
       opts.run?.fetched.add(url)
