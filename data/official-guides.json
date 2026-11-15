@@ -1761,15 +1761,6 @@
   },
   "fujioka-city": {
     "checked_at": "2026-11-15",
-    "links": [
-      {
-        "kind": "list",
-        "url": "https://www.city.fujioka.gunma.jp/soshiki/sinrinkankyobu/seisocenter/1/2357.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "森林環境部 清掃センター",
       "tel": "0274-23-8305",
@@ -3829,14 +3820,6 @@
     "checked_at": "2026-11-15",
     "links": [
       {
-        "kind": "list",
-        "url": "https://www.city.murakami.lg.jp/site/gomi-bunbetsu/50on-kensaku.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false,
-        "partial": true
-      },
-      {
         "kind": "top",
         "url": "https://www.city.murakami.lg.jp/life/1/1/7/",
         "target": "html-page",
@@ -4524,26 +4507,6 @@
       "checked_at": "2026-11-15"
     },
     "source": "公式への導線 3段目 2026-11-15"
-  },
-  "minokamo-city": {
-    "checked_at": "2026-11-15",
-    "links": [
-      {
-        "kind": "list",
-        "url": "https://www.city.minokamo.lg.jp/soshiki/15/1733.html",
-        "target": "html-page",
-        "document": "text-pdf",
-        "searchable": true,
-        "edition": {
-          "value": "2025-04-01",
-          "precision": "day"
-        },
-        "document_url": "https://www.city.minokamo.lg.jp/uploaded/attachment/17440.pdf",
-        "document_link_text": "家庭ごみの分別と出し方（50音順） [PDFファイル／6.88MB]",
-        "document_sha256": "c2ef29898f87923d59e7f25fa8ea60048c29f17dea76afedff3af2be717410aa"
-      }
-    ],
-    "source": "公式への導線 4段目 2026-11-15"
   },
   "toki-city": {
     "checked_at": "2026-11-15",
