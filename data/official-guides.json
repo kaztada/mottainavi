@@ -512,6 +512,23 @@
     "checked_at": "2026-11-15",
     "links": [
       {
+        "kind": "list",
+        "url": "https://www.city.yurihonjo.lg.jp/1000006/1001992/1004026.html",
+        "target": "html-page",
+        "document": "image-pdf",
+        "searchable": false,
+        "edition": {
+          "value": "2026",
+          "precision": "year"
+        },
+        "document_url": "https://www.city.yurihonjo.lg.jp/_res/projects/default_project/_page_/001/004/026/gaidoook.pdf",
+        "document_link_text": "ごみの分別ガイドブック（令和8年） （PDF 11.6MB）",
+        "document_sha256": "99b81970bcc118885238696f5025e692d09923b96d3bfd1cbec802d3e486bcf1",
+        "known_stop_contexts": [
+          "移ごみ集積所設置（移動・廃止）届についてクリーンアッ"
+        ]
+      },
+      {
         "kind": "top",
         "url": "https://www.city.yurihonjo.lg.jp/1000006/1001992/1004026.html",
         "target": "html-page",
@@ -4761,6 +4778,13 @@
         "url": "https://www.city.joyo.kyoto.jp/category/6-14-5-3-2-0-0-0-0-0.html",
         "target": "html-page",
         "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.city.joyo.kyoto.jp/0000001804.html",
+        "target": "html-page",
+        "document": "app",
         "searchable": false
       }
     ],
