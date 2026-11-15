@@ -8124,21 +8124,6 @@
   },
   "kikuchi-city": {
     "checked_at": "2026-11-15",
-    "links": [
-      {
-        "kind": "list",
-        "url": "https://www.city.kikuchi.lg.jp/article/view/1196/15468.html",
-        "target": "html-page",
-        "document": "text-pdf",
-        "searchable": true,
-        "document_url": "https://www.city.kikuchi.lg.jp/d?q=db7e1d51ccd34ad06a73be116064872b.pdf",
-        "document_link_text": "菊池市ごみの分け方・出し方(PDF 約13MB)",
-        "document_sha256": "18d589d693e09fba927172635f0bcdec57cdf67a72cbd78d157860c141f168b1",
-        "known_stop_contexts": [
-          "処理計画、分別収集計画等停止ホーム>生活情報>ごみ・"
-        ]
-      }
-    ],
     "phone": {
       "dept_ja": "市民環境部 環境課 廃棄物対策係",
       "tel": "0968-25-7217",
