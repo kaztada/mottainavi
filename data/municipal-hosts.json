@@ -7567,9 +7567,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "kakegawa-city": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.city.kakegawa.shizuoka.jp/",
+    "hosts": [
+      "www.city.kakegawa.shizuoka.jp"
+    ],
+    "checked_at": "2026-11-15",
+    "basis": "人が確かめた: 2026-11-15 に市のトップに1回接続。題名は「ポータルサイト」だが、本文の庁舎案内に「掛川市役所 〒436-8650 静岡県掛川市長谷一丁目1番地の1」と法人番号、末尾に「Kakegawa City」"
   },
   "fujieda-city": {
     "top_url": "https://www.city.fujieda.shizuoka.jp/",
@@ -9131,9 +9134,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "nishinomiya-city": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.nishi.or.jp/",
+    "hosts": [
+      "www.nishi.or.jp"
+    ],
+    "checked_at": "2026-11-15",
+    "basis": "人が確かめた: 2026-11-15 に市のトップに1回接続(題名「西宮市ホームページ」、末尾に「Copyright 1997 Nishinomiya City」)。町名別のごみカレンダーの subsite.nishi.or.jp は入れていない"
   },
   "sumoto-city": {
     "top_url": "https://www.city.sumoto.lg.jp/",
