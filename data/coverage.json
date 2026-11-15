@@ -25356,8 +25356,8 @@
   "mizuho-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。瑞穂市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Mizuho City's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。瑞穂市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Mizuho City's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -27188,8 +27188,8 @@
   "aichi-tsushima-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。津島市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Tsushima City's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。津島市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Tsushima City's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -27685,8 +27685,8 @@
   "takahama-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。高浜市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Takahama City's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。高浜市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Takahama City's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -33475,8 +33475,8 @@
   "kinokawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。紀の川市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Kinokawa City's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。紀の川市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Kinokawa City's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
