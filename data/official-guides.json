@@ -5945,13 +5945,6 @@
     "checked_at": "2026-11-15",
     "links": [
       {
-        "kind": "search",
-        "url": "https://www.city.shiga-konan.lg.jp/kurashi/gomi/kateigomi/3818.html",
-        "target": "html-page",
-        "document": "search",
-        "searchable": false
-      },
-      {
         "kind": "top",
         "url": "https://www.city.shiga-konan.lg.jp/kurashi/gomi/index.html",
         "target": "html-page",
@@ -8067,20 +8060,6 @@
   "arao-city": {
     "checked_at": "2026-11-15",
     "links": [
-      {
-        "kind": "list",
-        "url": "https://www.city.arao.lg.jp/kurashi/gomi/page1202.html",
-        "target": "html-page",
-        "document": "text-pdf",
-        "searchable": true,
-        "edition": {
-          "value": "2025-04",
-          "precision": "month"
-        },
-        "document_url": "https://www.city.arao.lg.jp/fs/2/1/7/4/6/3/_/_R7.4_____________.pdf",
-        "document_link_text": "(令和7年4月改訂)荒尾市ごみルール読本 (PDF 19.2MB)",
-        "document_sha256": "b5cdda84217b1ba9e7ae0779e728896d6ccca5d597bd20744fe3682f80fd0aba"
-      },
       {
         "kind": "top",
         "url": "https://www.city.arao.lg.jp/kurashi/gomi/",
