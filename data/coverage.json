@@ -300,8 +300,8 @@
   "abashiri-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。網走市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Abashiri City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。網走市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Abashiri City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -383,8 +383,8 @@
   "wakkanai-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。稚内市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Wakkanai City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。稚内市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Wakkanai City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -752,8 +752,8 @@
   "takikawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。滝川市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Takikawa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。滝川市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Takikawa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -884,8 +884,8 @@
   "noboribetsu-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。登別市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Noboribetsu City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。登別市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Noboribetsu City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -917,8 +917,8 @@
   "hokkaido-date-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。伊達市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Date City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。伊達市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Date City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -1016,8 +1016,8 @@
   "hokkaido-hokuto-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。北斗市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Hokuto City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。北斗市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Hokuto City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -5770,8 +5770,8 @@
   "kuroishi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。黒石市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kuroishi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。黒石市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kuroishi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -5849,8 +5849,8 @@
   "misawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。三沢市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Misawa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。三沢市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Misawa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -6494,8 +6494,8 @@
   "miyako-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。宮古市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Miyako City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。宮古市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Miyako City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -6523,8 +6523,8 @@
   "ofunato-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。大船渡市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Ofunato City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。大船渡市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Ofunato City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -6610,8 +6610,8 @@
   "kuji-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。久慈市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kuji City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。久慈市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kuji City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -7507,8 +7507,8 @@
   "shiroishi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。白石市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Shiroishi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。白石市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Shiroishi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -7594,8 +7594,8 @@
   "iwanuma-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。岩沼市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Iwanuma City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。岩沼市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Iwanuma City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -7681,8 +7681,8 @@
   "higashimatsushima-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。東松島市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Higashimatsushima City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。東松島市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Higashimatsushima City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -8400,8 +8400,8 @@
   "noshiro-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。能代市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Noshiro City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。能代市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Noshiro City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -8516,8 +8516,8 @@
   "yuzawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。湯沢市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Yuzawa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。湯沢市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Yuzawa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -8603,8 +8603,8 @@
   "katagami-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。潟上市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Katagami City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。潟上市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Katagami City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -9220,8 +9220,8 @@
   "shinjo-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。新庄市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Shinjo City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。新庄市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Shinjo City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -9249,8 +9249,8 @@
   "sagae-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。寒河江市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Sagae City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。寒河江市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Sagae City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -10211,8 +10211,8 @@
   "kitakata-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。喜多方市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kitakata City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。喜多方市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kitakata City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -10240,8 +10240,8 @@
   "soma-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。相馬市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Soma City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。相馬市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Soma City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -10298,8 +10298,8 @@
   "tamura-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。田村市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Tamura City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。田村市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Tamura City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -10385,8 +10385,8 @@
   "motomiya-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。本宮市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Motomiya City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。本宮市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Motomiya City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -11943,8 +11943,8 @@
   "shimotsuma-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。下妻市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Shimotsuma City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。下妻市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Shimotsuma City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -12591,8 +12591,8 @@
   "hokota-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。鉾田市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Hokota City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。鉾田市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Hokota City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -13828,8 +13828,8 @@
   "numata-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。沼田市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Numata City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。沼田市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Numata City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -19715,8 +19715,8 @@
   "minamiashigara-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。南足柄市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Minamiashigara City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。南足柄市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Minamiashigara City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -20516,8 +20516,8 @@
   "agano-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。阿賀野市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Agano City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。阿賀野市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Agano City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -21163,8 +21163,8 @@
   "nanto-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。南砺市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Nanto City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。南砺市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Nanto City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -26609,8 +26609,8 @@
   "izunokuni-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。伊豆の国市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Izunokuni City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。伊豆の国市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Izunokuni City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -27527,8 +27527,8 @@
   "shinshiro-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。新城市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Shinshiro City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。新城市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Shinshiro City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -28733,8 +28733,8 @@
   "inabe-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。いなべ市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Inabe City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。いなべ市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Inabe City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -28758,8 +28758,8 @@
   "shima-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。志摩市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Shima City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。志摩市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Shima City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -29401,8 +29401,8 @@
   "takashima-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。高島市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Takashima City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。高島市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Takashima City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -29457,8 +29457,8 @@
   "maibara-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。米原市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Maibara City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。米原市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Maibara City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -31035,8 +31035,8 @@
   "sumoto-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。洲本市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Sumoto City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。洲本市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Sumoto City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -31199,8 +31199,8 @@
   "ako-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。赤穂市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Ako City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。赤穂市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Ako City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -31232,8 +31232,8 @@
   "nishiwaki-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。西脇市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Nishiwaki City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。西脇市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Nishiwaki City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -31459,8 +31459,8 @@
   "kasai-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。加西市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kasai City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。加西市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kasai City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -31492,8 +31492,8 @@
   "tanbasasayama-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。丹波篠山市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Tanbasasayama City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。丹波篠山市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Tanbasasayama City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -31591,8 +31591,8 @@
   "minamiawaji-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。南あわじ市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Minamiawaji City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。南あわじ市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Minamiawaji City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -31657,8 +31657,8 @@
   "awaji-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。淡路市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Awaji City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。淡路市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Awaji City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -31723,8 +31723,8 @@
   "kato-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。加東市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kato City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。加東市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kato City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -32471,8 +32471,8 @@
   "katsuragi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。葛城市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Katsuragi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。葛城市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Katsuragi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -33339,8 +33339,8 @@
   "kainan-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。海南市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kainan City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。海南市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kainan City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -34081,8 +34081,8 @@
   "kurayoshi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。倉吉市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kurayoshi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。倉吉市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kurayoshi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -34588,8 +34588,8 @@
   "masuda-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。益田市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Masuda City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。益田市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Masuda City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -34702,8 +34702,8 @@
   "unnan-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。雲南市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Unnan City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。雲南市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Unnan City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -35314,8 +35314,8 @@
   "setochi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。瀬戸内市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Setochi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。瀬戸内市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Setochi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -35343,8 +35343,8 @@
   "akaiwa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。赤磐市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Akaiwa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。赤磐市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Akaiwa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -35890,8 +35890,8 @@
   "hiroshima-fuchu-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。府中市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Fuchu City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。府中市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Fuchu City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -36738,8 +36738,8 @@
   "yoshinogawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。吉野川市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Yoshinogawa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。吉野川市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Yoshinogawa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -37356,8 +37356,8 @@
   "sanuki-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。さぬき市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Sanuki City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。さぬき市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Sanuki City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -37878,8 +37878,8 @@
   "ozu-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。大洲市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Ozu City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。大洲市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Ozu City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -37903,8 +37903,8 @@
   "iyo-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。伊予市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Iyo City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。伊予市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Iyo City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -38325,8 +38325,8 @@
   "nankoku-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。南国市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Nankoku City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。南国市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Nankoku City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -39336,8 +39336,8 @@
   "tagawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。田川市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Tagawa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。田川市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Tagawa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -39436,8 +39436,8 @@
   "okawa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。大川市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Okawa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。大川市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Okawa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -39486,8 +39486,8 @@
   "buzen-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。豊前市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Buzen City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。豊前市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Buzen City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -39511,8 +39511,8 @@
   "nakama-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。中間市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Nakama City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。中間市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Nakama City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -39734,8 +39734,8 @@
   "ukiha-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。うきは市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Ukiha City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。うきは市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Ukiha City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -39759,8 +39759,8 @@
   "miyawaka-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。宮若市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Miyawaka City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。宮若市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Miyawaka City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -39784,8 +39784,8 @@
   "kama-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。嘉麻市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kama City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。嘉麻市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kama City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -39834,8 +39834,8 @@
   "miyama-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。みやま市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Miyama City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。みやま市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Miyama City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -40753,8 +40753,8 @@
   "taku-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。多久市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Taku City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。多久市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Taku City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -40816,8 +40816,8 @@
   "saga-kashima-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。鹿島市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kashima City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。鹿島市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kashima City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -40856,8 +40856,8 @@
   "ureshino-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。嬉野市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Ureshino City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。嬉野市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Ureshino City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -40881,8 +40881,8 @@
   "kanzaki-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。神埼市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kanzaki City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。神埼市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kanzaki City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41204,8 +41204,8 @@
   "shimabara-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。島原市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Shimabara City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。島原市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Shimabara City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41285,8 +41285,8 @@
   "hirado-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。平戸市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Hirado City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。平戸市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Hirado City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41335,8 +41335,8 @@
   "nagasaki-tsushima-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。対馬市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Tsushima City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。対馬市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Tsushima City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41385,8 +41385,8 @@
   "goto-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。五島市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Goto City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。五島市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Goto City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41410,8 +41410,8 @@
   "saikai-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。西海市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Saikai City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。西海市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Saikai City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41435,8 +41435,8 @@
   "unzen-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。雲仙市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Unzen City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。雲仙市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Unzen City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41460,8 +41460,8 @@
   "minamishimabara-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。南島原市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Minamishimabara City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。南島原市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Minamishimabara City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41727,8 +41727,8 @@
   "hitoyoshi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。人吉市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Hitoyoshi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。人吉市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Hitoyoshi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41785,8 +41785,8 @@
   "minamata-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。水俣市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Minamata City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。水俣市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Minamata City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41872,8 +41872,8 @@
   "uto-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。宇土市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Uto City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。宇土市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Uto City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41901,8 +41901,8 @@
   "kamiamakusa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。上天草市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kamiamakusa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。上天草市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kamiamakusa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -41959,8 +41959,8 @@
   "aso-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。阿蘇市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Aso City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。阿蘇市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Aso City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -43103,8 +43103,8 @@
   "tsukumi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。津久見市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Tsukumi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。津久見市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Tsukumi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -43128,8 +43128,8 @@
   "taketa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。竹田市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Taketa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。竹田市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Taketa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -43153,8 +43153,8 @@
   "bungotakada-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。豊後高田市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Bungotakada City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。豊後高田市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Bungotakada City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -43178,8 +43178,8 @@
   "kitsuki-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。杵築市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kitsuki City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。杵築市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kitsuki City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -43268,8 +43268,8 @@
   "kunisaki-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。国東市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kunisaki City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。国東市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kunisaki City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -43494,8 +43494,8 @@
   "kobayashi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。小林市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kobayashi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。小林市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kobayashi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -43544,8 +43544,8 @@
   "kushima-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。串間市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Kushima City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。串間市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Kushima City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -43594,8 +43594,8 @@
   "ebino-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。えびの市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Ebino City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。えびの市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Ebino City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44069,8 +44069,8 @@
   "makurazaki-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。枕崎市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Makurazaki City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。枕崎市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Makurazaki City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44094,8 +44094,8 @@
   "akune-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。阿久根市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Akune City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。阿久根市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Akune City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44144,8 +44144,8 @@
   "ibusuki-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。指宿市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Ibusuki City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。指宿市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Ibusuki City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44169,8 +44169,8 @@
   "nishinomote-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。西之表市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Nishinomote City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。西之表市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Nishinomote City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44194,8 +44194,8 @@
   "tarumizu-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。垂水市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Tarumizu City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。垂水市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Tarumizu City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44244,8 +44244,8 @@
   "hioki-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。日置市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Hioki City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。日置市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Hioki City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44269,8 +44269,8 @@
   "so-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。曽於市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked So City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。曽於市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked So City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44346,8 +44346,8 @@
   "minamisatsuma-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。南さつま市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Minamisatsuma City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。南さつま市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Minamisatsuma City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44371,8 +44371,8 @@
   "shibushi-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。志布志市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Shibushi City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。志布志市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Shibushi City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44421,8 +44421,8 @@
   "minamikyushu-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。南九州市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Minamikyushu City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。南九州市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Minamikyushu City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44446,8 +44446,8 @@
   "isa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。伊佐市のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Isa City's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。伊佐市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Isa City's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
