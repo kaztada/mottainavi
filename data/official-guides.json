@@ -1752,13 +1752,6 @@
     "checked_at": "2026-11-15",
     "links": [
       {
-        "kind": "app",
-        "url": "https://www.city.midori.gunma.jp/kurashi/1001622/1001711/1009982.html",
-        "target": "html-page",
-        "document": "app",
-        "searchable": false
-      },
-      {
         "kind": "top",
         "url": "https://www.city.midori.gunma.jp/kurashi/1001622/1001711/index.html",
         "target": "html-page",
