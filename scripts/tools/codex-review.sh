@@ -72,9 +72,10 @@ ${FOCUS:+今回とくに見てほしい点: ${FOCUS}
 fi
 
 echo "Codex のレビューを始めます(比較元: ${BASE})。結果: ${OUT} / ログ: ${OUT}.log" >&2
-# モデルとエフォートは Kaz の指定(2026-10-04): GPT-6.1-Sol・high。同じコミットで GPT-6-Astra・medium と比べ、
-# 指摘は同じ2件+新しい2件、トークンは約1.5倍だった。変えたいときは環境変数で上書きする
-MODEL="${CODEX_REVIEW_MODEL:-gpt-6.1-sol}"
+# モデルとエフォートは Kaz の指定: GPT-6.2-Sol・high(2026-11-18。その前は GPT-6.1-Sol、2026-10-04)。
+# 6.1-Sol を GPT-6-Astra・medium と同じコミットで比べたときは、指摘は同じ2件+新しい2件、トークンは約1.5倍だった。
+# 変えたいときは環境変数で上書きする
+MODEL="${CODEX_REVIEW_MODEL:-gpt-6.2-sol}"
 EFFORT="${CODEX_REVIEW_EFFORT:-high}"
 echo "モデル: ${MODEL} / エフォート: ${EFFORT}" >&2
 codex exec -m "$MODEL" -s read-only -c 'notify=[]' -c "model_reasoning_effort=\"${EFFORT}\"" \
