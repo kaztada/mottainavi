@@ -1,6 +1,6 @@
 {
   "municipality_id": "hirakata-city",
-  "generated_at": "2026-10-24T19:09:11.825Z",
+  "generated_at": "2026-11-16T00:40:15.203Z",
   "source_url": "https://www.city.hirakata.osaka.jp/0000024067.html",
   "item_count": 1761,
   "items": [
@@ -23380,10 +23380,10 @@
       "name_en": "Finalizer (video / audio enhancer)"
     },
     {
-      "id": "hrk-1348",
-      "name_ja": "ファイル（紙製・プラスチック製）",
-      "name_kana": "ふぁいる（かみせい・ぷらすちっくせい）",
-      "name_romaji": "fuairu(kamisei/purasuchikkusei)",
+      "id": "hrk-1762",
+      "name_ja": "ファイル（紙製）",
+      "name_kana": "ふぁいる（かみせい）",
+      "name_romaji": "fuairu(kamisei)",
       "aliases": [],
       "dispositions": [
         {
@@ -23394,7 +23394,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "File folder (paper, plastic)"
+      "name_en": "File folder (paper)"
     },
     {
       "id": "hrk-1349",
@@ -25061,10 +25061,10 @@
       "name_en": "Pet cage (metal)"
     },
     {
-      "id": "hrk-1446",
-      "name_ja": "ペットサークル（プスチックラ製）",
-      "name_kana": "ぺっとさーくる（ぷすちっくらせい）",
-      "name_romaji": "pettosa-kuru(pusuchikkurasei)",
+      "id": "hrk-1763",
+      "name_ja": "ペットサークル（プラスチック製）",
+      "name_kana": "ぺっとさーくる（ぷらすちっくせい）",
+      "name_romaji": "pettosa-kuru(purasuchikkusei)",
       "aliases": [],
       "dispositions": [
         {
@@ -25075,7 +25075,7 @@
       ],
       "sodai_fee_yen": null,
       "reuse_category": null,
-      "name_en": "Pet playpen (plastic)"
+      "name_en": null
     },
     {
       "id": "hrk-1447",

@@ -3255,9 +3255,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "joso-city": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.city.joso.lg.jp/",
+    "hosts": [
+      "www.city.joso.lg.jp"
+    ],
+    "checked_at": "2026-11-15",
+    "basis": "人が確かめた: 2026-11-15 に市のトップに1回接続。題名「トップページ | 常総市公式ホームページ」、地方公共団体だけが使える lg.jp のドメイン(本文の多くは JavaScript で出るため住所は本文で確かめられない)"
   },
   "hitachiota-city": {
     "top_url": "https://www.city.hitachiota.ibaraki.jp/",
