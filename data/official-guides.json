@@ -1196,15 +1196,6 @@
   },
   "kitakata-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.kitakata.fukushima.jp/soshiki/kankyo/19711.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "市民部 市民生活課 環境政策推進室",
       "tel": "0241-24-5285",
@@ -8373,18 +8364,6 @@
   },
   "kurayoshi-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.kurayoshi.lg.jp/1878.htm",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false,
-        "known_stop_contexts": [
-          "のボックス回収を6月末で終了しました小型家電のリサイ"
-        ]
-      }
-    ],
     "phone": {
       "dept_ja": "市民生活部 環境課",
       "tel": "0858-22-8168",
@@ -10414,19 +10393,6 @@
       }
     ],
     "source": "公式への導線 3段目 2026-11-15"
-  },
-  "taketa-city": {
-    "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.taketa.oita.jp/kurashi_tetsuzuki/gomi_recycling/trash/3763.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
-    "source": "公式への導線 5段目 2026-11-18"
   },
   "bungotakada-city": {
     "checked_at": "2026-11-19",
