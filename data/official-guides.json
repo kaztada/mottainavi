@@ -512,18 +512,6 @@
   },
   "miyako-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "list",
-        "url": "https://www.city.miyako.iwate.jp/gyosei/soshiki/seikatsu/1/3/1657.html",
-        "target": "html-page",
-        "document": "text-pdf",
-        "searchable": true,
-        "document_url": "https://www.city.miyako.iwate.jp/material/files/group/16/R6gomibunnbetuzitenn50onn_63844105.pdf",
-        "document_link_text": "50音別分別表（全ページ） (PDFファイル: 510.4KB)",
-        "document_sha256": "2cb0742ed30057f6d3cf351602ed82fe3342dae256f9a04a9d1b4fafa7ec9127"
-      }
-    ],
     "phone": {
       "dept_ja": "市民生活部 くらし安全課 環境係",
       "tel": "0193-64-6488",
@@ -1082,18 +1070,6 @@
   },
   "sagae-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "list",
-        "url": "https://www.city.sagae.yamagata.jp/kurashi/gomi/bunbetu/discretion.html",
-        "target": "html-page",
-        "document": "text-pdf",
-        "searchable": true,
-        "document_url": "https://www.city.sagae.yamagata.jp/kurashi/gomi/bunbetu/discretion.files/wakekatasassi.pdf",
-        "document_link_text": "ごみの分け方・出し方冊子（PDF：8,001KB）",
-        "document_sha256": "f9aad40e250b09979ef7ff420262a1620324ef160a49d3530de15c89d3c9eae9"
-      }
-    ],
     "phone": {
       "dept_ja": "市民生活課 地球温暖化対策室",
       "tel": "0237-85-1914",
@@ -7173,13 +7149,6 @@
         "target": "html-page",
         "document": "search",
         "searchable": false
-      },
-      {
-        "kind": "top",
-        "url": "https://www.city.kishiwada.lg.jp/page/170-dasikata.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
       }
     ],
     "phone": {
@@ -9695,16 +9664,6 @@
     "checked_at": "2026-11-19",
     "links": [
       {
-        "kind": "search",
-        "url": "https://www.city.miyawaka.lg.jp/dynamic/word_l/pub/default.aspx?c_id=28",
-        "target": "html-page",
-        "document": "search",
-        "searchable": false,
-        "known_stop_contexts": [
-          "標各種計画行財政改革押印廃止施政方針職員・財政職員採"
-        ]
-      },
-      {
         "kind": "top",
         "url": "https://www.city.miyawaka.lg.jp/dynamic/hpkiji/pub/List.aspx?c_id=3&class_set_id=1&class_id=25",
         "target": "html-page",
@@ -10083,13 +10042,6 @@
   "unzen-city": {
     "checked_at": "2026-11-19",
     "links": [
-      {
-        "kind": "search",
-        "url": "https://www.city.unzen.nagasaki.jp/dynamic/word_l/pub/default.aspx?c_id=24",
-        "target": "html-page",
-        "document": "search",
-        "searchable": false
-      },
       {
         "kind": "top",
         "url": "https://www.city.unzen.nagasaki.jp/list00170.html",
