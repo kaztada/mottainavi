@@ -43,15 +43,6 @@
   },
   "muroran-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.muroran.lg.jp/life/?content=264",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "生活環境部 環境課 環境係",
       "tel": "0143-22-1481",
@@ -161,16 +152,6 @@
           "id": "gomisaku",
           "linked_from": "https://www.city.abashiri.hokkaido.jp/soshiki/10/1871.html"
         }
-      },
-      {
-        "kind": "list",
-        "url": "https://www.city.abashiri.hokkaido.jp/soshiki/10/1871.html",
-        "target": "html-page",
-        "document": "text-pdf",
-        "searchable": true,
-        "document_url": "https://www.city.abashiri.hokkaido.jp/uploaded/attachment/8082.pdf",
-        "document_link_text": "ごみの分け方・出し方ガイドブック [PDFファイル／8.13MB]",
-        "document_sha256": "7bec4d1895aacabbcca64062ff497d3dbdeebfa2609e4c3f058e2190f0da574d"
       }
     ],
     "phone": {
@@ -291,15 +272,6 @@
   },
   "hokkaido-date-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "list",
-        "url": "https://www.city.date.hokkaido.jp/hotnews/detail/00000425.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": true
-      }
-    ],
     "phone": {
       "dept_ja": "経済環境部 環境衛生課 環境衛生係",
       "tel": "0142-82-3245",
@@ -906,13 +878,6 @@
     "checked_at": "2026-11-19",
     "links": [
       {
-        "kind": "list",
-        "url": "https://www.city.higashimatsushima.miyagi.jp/kurashi/sumiyoimachini/gomidashikata-genryo/gomidashikata/gomidashikata50on.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": true
-      },
-      {
         "kind": "top",
         "url": "https://www.city.higashimatsushima.miyagi.jp/kurashi/sumiyoimachini/gomidashikata-genryo/gomidashikata/index.html",
         "target": "html-page",
@@ -1304,14 +1269,6 @@
     "checked_at": "2026-11-19",
     "links": [
       {
-        "kind": "list",
-        "url": "https://www.city.aizuwakamatsu.fukushima.jp/docs/2009120800017/",
-        "target": "html-page",
-        "document": "html",
-        "searchable": true,
-        "partial": true
-      },
-      {
         "kind": "top",
         "url": "https://www.city.aizuwakamatsu.fukushima.jp/category/bunya/gomi/gomishori/more@docs_1.html",
         "target": "html-page",
@@ -1431,15 +1388,6 @@
   },
   "tamura-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.tamura.lg.jp/soshiki/8/seikatu-gomi-dasikata1.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "環境課 廃棄物対策係",
       "tel": "0247-81-2272",
@@ -9120,18 +9068,6 @@
   },
   "sanyoonoda-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.sanyo-onoda.lg.jp/soshiki/14/howtotrash3104.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false,
-        "known_stop_contexts": [
-          "報入札結果発注見通し指名停止業者各種申請・登録制度要"
-        ]
-      }
-    ],
     "phone": {
       "dept_ja": "環境衛生センター",
       "tel": "0836-83-3651",
@@ -9927,15 +9863,6 @@
   },
   "kama-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.kama.lg.jp/site/gomi-bunbetu-recycle/32726.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "環境課 廃棄物処理係",
       "tel": "0948-42-7429",
@@ -10795,15 +10722,6 @@
   },
   "miyazaki-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.miyazaki.miyazaki.jp/life/trash/fractionation/200484.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "環境部 循環社会推進課",
       "tel": "0985-21-1761",
