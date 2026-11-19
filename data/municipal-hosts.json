@@ -5983,12 +5983,13 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "tonami-city": {
-    "top_url": "https://www.city.tonami.toyama.jp/",
+    "top_url": "https://www.city.tonami.lg.jp/",
     "hosts": [
+      "www.city.tonami.lg.jp",
       "www.city.tonami.toyama.jp"
     ],
-    "checked_at": "2026-10-15",
-    "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
+    "checked_at": "2026-11-19",
+    "basis": "人が確かめた: 2026-11-19 に市のトップに1回接続。題名「砺波市役所」、末尾に法人番号 7000020162086 と「〒939-1398 富山県砺波市栄町7番3号」。旧ドメイン www.city.tonami.toyama.jp のページは www.city.tonami.lg.jp へ転送される(2026-11-18 の調べで確かめた)"
   },
   "oyabe-city": {
     "top_url": "https://www.city.oyabe.toyama.jp/",
@@ -12809,9 +12810,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "bungoono-city": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.bungo-ohno.jp/",
+    "hosts": [
+      "www.bungo-ohno.jp"
+    ],
+    "checked_at": "2026-11-19",
+    "basis": "人が確かめた: 2026-11-19 に市のトップに1回接続。題名「トップページ | 豊後大野市」、末尾に法人番号 4000020442127 と「〒879-7198 大分県豊後大野市三重町市場1200番地」"
   },
   "yufu-city": {
     "top_url": "https://www.city.yufu.oita.jp/",
