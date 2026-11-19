@@ -44421,8 +44421,8 @@
   "minamikyushu-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。南九州市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Minamikyushu City's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。南九州市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Minamikyushu City's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -44446,8 +44446,8 @@
   "isa-city": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。伊佐市のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Isa City's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。伊佐市のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Isa City's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"

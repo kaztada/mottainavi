@@ -10786,33 +10786,8 @@
     ],
     "source": "公式への導線 5段目 2026-11-18"
   },
-  "minamikyushu-city": {
-    "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "search",
-        "url": "https://www.city.minamikyushu.lg.jp/benrinavi/gomi_search/kateigomi/2273.html",
-        "target": "html-page",
-        "document": "search",
-        "searchable": false
-      }
-    ],
-    "source": "公式への導線 5段目 2026-11-18"
-  },
   "isa-city": {
     "checked_at": "2026-11-19",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.city.isa.kagoshima.jp/life/living/gomi/",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false,
-        "known_stop_contexts": [
-          "の席では開始から３０分、終了前１０分間は席を立たずに"
-        ]
-      }
-    ],
     "phone": {
       "dept_ja": "環境政策課",
       "tel": "0995-22-1060",
