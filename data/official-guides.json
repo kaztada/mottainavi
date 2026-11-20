@@ -638,6 +638,1105 @@
     },
     "source": "公式への導線 4段目 2026-11-15"
   },
+  "tobetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.tobetsu.hokkaido.jp/life/1/9/41/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "25年8月6日更新【開催終了しました】「2025とう",
+          "26年3月2日更新【開催終了しました】とうべつゆるエ",
+          "26年6月1日更新【開催終了しました】「とうべつゆる",
+          "5年10月1日更新【開催終了しました】「とうべつゆる",
+          "トを開催しました！【開催終了しました】「とうべつゆる",
+          "年10月13日更新【開催終了しました】「とうべつゆる",
+          "年12月15日更新【開催終了しました】とうべつ・ゆる"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境生活課 環境対策係",
+      "tel": "0133-23-2503",
+      "source_url": "https://www.town.tobetsu.hokkaido.jp/soshiki/kankyo/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shinshinotsu-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.shinshinotsu.hokkaido.jp/hotnews/category/13.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "matsumae-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.matsumae.hokkaido.jp/hotnews/category/321.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "燃える粗大ごみ」の回収の終了についてごみの減量化の徹"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 生活環境係",
+      "tel": "0139-42-2633",
+      "source_url": "https://www.town.matsumae.hokkaido.jp/hotnews/detail/00000113.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shiriuchi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shiriuchi.hokkaido.jp/kurashi/recycle/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "kikonai-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kikonai.hokkaido.jp/kurashi/seikatsu/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "nanae-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.nanae.hokkaido.jp/hotnews/category/142.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "明・半透明袋の一時使用の終了について（お知らせ）ごみ"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境生活課 廃棄物対策係",
+      "tel": "0138-65-2516",
+      "source_url": "https://www.town.nanae.hokkaido.jp/hotnews/detail/00000416.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shikabe-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shikabe.lg.jp/kurashi_tetsuzuki/gomi_recycle/gominofumbetsu_shushu/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "民生課 生活環境係",
+      "tel": "01372-7-5290",
+      "source_url": "https://www.town.shikabe.lg.jp/kurashi_tetsuzuki/gomi_recycle/gominofumbetsu_shushu/1131.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "hokkaido-mori-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.hokkaido-mori.lg.jp/seikatsunobamen/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境課",
+      "tel": "01374-8-3320",
+      "source_url": "https://www.town.hokkaido-mori.lg.jp/soshiki/kankyo/3/484.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "yakumo-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.yakumo.lg.jp/life/1/4/14/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境水道課",
+      "tel": "0137-63-2020",
+      "source_url": "https://www.town.yakumo.lg.jp/soshiki/suidou/gomi-bumbetsu-yakumo.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "oshamanbe-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.oshamambe.lg.jp/life/1/3/127/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 生活環境係",
+      "tel": "01377-2-2453",
+      "source_url": "https://www.town.oshamambe.lg.jp/soshiki/6/510.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "hokkaido-hiyama-esashi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.hokkaido-esashi.jp/modules/lifeinfo/category0026.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kaminokuni-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kaminokuni.lg.jp/hotnews/lifeevent/7.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "assabu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.assabu.lg.jp/life/1/12/63/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "otobe-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "町民課 保健衛生係",
+      "tel": "0139-62-2858",
+      "source_url": "https://www.town.otobe.lg.jp/section/choumin/e0taal0000000obg.html?cp=e0taal00000000qb&cs=c01s2",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "setana-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.setana.lg.jp/kurashi/kankyou/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "niseko-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.niseko.lg.jp/kurashi/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.niseko.lg.jp/kurashi/gomi/gomi_appli/",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kyogoku-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town-kyogoku.jp/life/1/9/39/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "kutchan-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kutchan.hokkaido.jp/Living_Information/gomi-risaikuru/kateigomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "ントクラウド以外の環境へ移行することに関する公表資料"
+        ]
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.kutchan.hokkaido.jp/Living_Information/gomi-risaikuru/kateigomi/4138/",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false,
+        "known_stop_contexts": [
+          "ントクラウド以外の環境へ移行することに関する公表資料"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民環境課 環境対策室 環境係",
+      "tel": "0136-56-8008",
+      "source_url": "https://www.town.kutchan.hokkaido.jp/Living_Information/gomi-risaikuru/kateigomi/4138/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "iwanai-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.iwanai.hokkaido.jp/%e6%9a%ae%e3%82%89%e3%81%97%e3%82%ac%e3%82%a4%e3%83%89/%e3%81%94%e3%81%bf%e3%83%bb%e3%83%aa%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "furubira-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.furubira.lg.jp/life/detail.php?id=12",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 生活環境係",
+      "tel": "0135-48-9838",
+      "source_url": "https://www.town.furubira.lg.jp/life/detail.php?id=12",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "niki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.niki.hokkaido.jp/section/jyuminka/irv9760000000utb.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民環境課 環境衛生係",
+      "tel": "0135-32-2513",
+      "source_url": "https://www.town.niki.hokkaido.jp/section/jyuminka/irv9760000000utb.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "yoichi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.yoichi.hokkaido.jp/kurashi/kurashinojouhou/eisei-gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境対策課",
+      "tel": "0135-21-2118",
+      "source_url": "https://www.town.yoichi.hokkaido.jp/kurashi/kurashinojouhou/eisei-gomi/index.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nanporo-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "住民課 環境交通係",
+      "tel": "011-398-7047",
+      "source_url": "https://www.town.nanporo.hokkaido.jp/life/waste/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "naie-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.naie.hokkaido.jp/kurashi/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "建設環境課 都市環境係",
+      "tel": "0125-65-2116",
+      "source_url": "https://www.town.naie.hokkaido.jp/kurashi/gomi/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kamisunagawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://town.kamisunagawa.hokkaido.jp/useful/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "建設環境課 環境管理係",
+      "tel": "0125-62-2221",
+      "source_url": "https://town.kamisunagawa.hokkaido.jp/useful/gomi/679.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "yuni-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.yuni.lg.jp/kurashi/gomi_kankyou_pet",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 環境・交通担当",
+      "tel": "0123-83-3902",
+      "source_url": "https://www.town.yuni.lg.jp/kurashi/gomi_kankyou_pet/gomi",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "kuriyama-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kuriyama.hokkaido.jp/site/trash/list72-221.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境生活課 環境政策グループ",
+      "tel": "0123-73-7511",
+      "source_url": "https://www.town.kuriyama.hokkaido.jp/site/trash/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "tsukigata-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.tsukigata.hokkaido.jp/life/1/7/29/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "shintotsukawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shintotsukawa.lg.jp/hotnews/category/118.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 住民活動グループ",
+      "tel": "0125-76-2130",
+      "source_url": "https://www.town.shintotsukawa.lg.jp/hotnews/detail/00005063.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "moseushi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.moseushi.hokkaido.jp/kurashi/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 住民グループ",
+      "tel": "0164-32-2031",
+      "source_url": "https://www.town.moseushi.hokkaido.jp/kurashi/gomi/bunbetu.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "numata-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "住民生活課 生活環境グループ",
+      "tel": "0164-35-2115",
+      "source_url": "https://www.town.numata.hokkaido.jp/section/jyuumin/ujj7s300000007ix.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "takasu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.takasu.hokkaido.jp/life/1/9/30/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 住民生活係",
+      "tel": "0166-74-3083",
+      "source_url": "https://www.town.takasu.hokkaido.jp/soshiki/18.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "higashikagura-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.higashikagura.lg.jp/c2_kurashi/seikatsu/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "search",
+        "url": "https://www.gomisaku.jp/0324/",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false,
+        "final_url": "https://www.gomisaku.jp/0324/",
+        "via": {
+          "id": "gomisaku",
+          "linked_from": "https://www.town.higashikagura.lg.jp/docs/12002.html"
+        }
+      }
+    ],
+    "phone": {
+      "dept_ja": "くらしの窓口課 環境生活係",
+      "tel": "0166-83-5402",
+      "source_url": "https://www.town.higashikagura.lg.jp/docs/12002.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "toma-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.tohma.hokkaido.jp/living/07/01",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "pippu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.pippu.hokkaido.jp/cms/life/p1rhin0000002h59.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "税務住民課 住民環境係",
+      "tel": "0166-85-4803",
+      "source_url": "https://www.town.pippu.hokkaido.jp/cms/section/jyuuminn/p1rhin00000022y2.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "aibetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.aibetsu.hokkaido.jp/01/05/01",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "hokkaido-kamikawa-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "くらし生活課 環境対策係",
+      "tel": "01658-2-4051",
+      "source_url": "https://www.town.hokkaido-kamikawa.lg.jp/section/d57c9r000000694g.html?cp=h8nafq0000000a6m&cs=c01_09s0",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "biei-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://town.biei.hokkaido.jp/life/environment/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課 住民生活係",
+      "tel": "0166-92-4294",
+      "source_url": "https://town.biei.hokkaido.jp/life/environment/20230101.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kamifurano-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "町民生活課 生活環境班",
+      "tel": "0167-45-6985",
+      "source_url": "https://www.town.kamifurano.hokkaido.jp/index.php?id=304",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nakafurano-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.nakafurano.lg.jp/hotnews/category/111.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "税務住民課 生活環境係",
+      "tel": "0167-44-2124",
+      "source_url": "https://www.town.nakafurano.lg.jp/hotnews/detail/00002651.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "minamifurano-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "search",
+        "url": "https://www.gomisaku.jp/0372/?lang=ja",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false,
+        "final_url": "https://www.gomisaku.jp/0372/?lang=ja",
+        "via": {
+          "id": "gomisaku",
+          "linked_from": "https://www.town.minamifurano.hokkaido.jp/kurashi-info/dust/gomikensaku/"
+        }
+      }
+    ],
+    "phone": {
+      "dept_ja": "建設課 環境衛生係",
+      "tel": "0167-52-2179",
+      "source_url": "https://www.town.minamifurano.hokkaido.jp/kurashi-info/dust/gomikensaku/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "shimokawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shimokawa.hokkaido.jp/section/kurashi/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "bifuka-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "住民生活課 生活環境グループ 環境生活係",
+      "tel": "01656-2-1615",
+      "source_url": "https://www.town.bifuka.hokkaido.jp/cms/section/jyuuminn/i63vp6000000ap8h.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "mashike-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.mashike.hokkaido.jp/division/chomin/chominkankyo/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 町民環境係",
+      "tel": "0164-53-1112",
+      "source_url": "https://www.town.mashike.hokkaido.jp/division/chomin/chominkankyo/gomi/1781686397.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "obira-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "http://www.town.obira.hokkaido.jp/hotnews/category/106.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "final_url": "https://www.town.obira.hokkaido.jp/hotnews/category/106.html"
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "tomamae-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "http://www.town.tomamae.lg.jp/section/chomin/lg6iib0000000pjw.html?cp=lg6iib0000000jpj&cs=cl14",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "て資源ごみ(布類)の受入停止について破砕ごみ袋（40",
+          "ードの新規交付申請等受付終了についてスマートフォン用",
+          "書戸籍届書への押印義務が廃止されました戸籍証明書の広",
+          "険証の新規発行・再発行の終了について（国民健康保険・"
+        ]
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "haboro-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "町民課 環境衛生係",
+      "tel": "0164-68-7003",
+      "source_url": "https://www.town.haboro.lg.jp/kurashi/kankyo/gomi/dashikata.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "enbetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.embetsu.hokkaido.jp/c10/c1080/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 住民係",
+      "tel": "01632-7-2113",
+      "source_url": "https://www.town.embetsu.hokkaido.jp/docs/3731.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "sarufutsu-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.sarufutsu.hokkaido.jp/hotnews/detail/00000219.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 生活環境係",
+      "tel": "01635-2-3133",
+      "source_url": "https://www.vill.sarufutsu.hokkaido.jp/hotnews/detail/00000219.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "hamatonbetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "http://www.town.hamatonbetsu.hokkaido.jp/category/?category=13",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "hokkaido-soya-esashi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.esashi.jp/life/environmental/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 環境生活係",
+      "tel": "0163-62-1237",
+      "source_url": "https://www.esashi.jp/life/environmental/gomi.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "toyotomi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.toyotomi.hokkaido.jp/section/chominka/a7cug60000000xa8.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 生活環境係",
+      "tel": "0162-73-1037",
+      "source_url": "https://www.town.toyotomi.hokkaido.jp/section/chominka/a7cug60000000xa8.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "rebun-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.rebun.hokkaido.jp/hotnews/category/103.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "bihoro-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.bihoro.hokkaido.jp/site/gomi-bihoro/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "建設部 環境管理課 環境衛生グループ",
+      "tel": "0152-77-6550",
+      "source_url": "https://www.town.bihoro.hokkaido.jp/site/gomi-bihoro/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "tsubetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "search",
+        "url": "https://www.town.tsubetsu.hokkaido.jp/benri/gomi_search/kateigomi/1225.html",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false
+      },
+      {
+        "kind": "top",
+        "url": "https://www.town.tsubetsu.hokkaido.jp/benri/gomi_search/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民企画課 住民環境係",
+      "tel": "0152-77-8377",
+      "source_url": "https://www.town.tsubetsu.hokkaido.jp/benri/gomi_search/index.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "shari-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shari.hokkaido.jp/kurashinojoho/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "総務部 環境課 生活環境係",
+      "tel": "0152-26-8217",
+      "source_url": "https://www.town.shari.hokkaido.jp/kurashinojoho/gomi_recycle/522.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kiyosato-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kiyosato.hokkaido.jp/life/?category=13",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "より】資源ごみ袋の指定を廃止します新着情報一覧ごみの"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 町民生活グループ",
+      "tel": "0152-25-2157",
+      "source_url": "https://www.town.kiyosato.hokkaido.jp/life/?content=760",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "kunneppu-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "町民課 町民生活係",
+      "tel": "0157-47-2203",
+      "source_url": "https://www.town.kunneppu.hokkaido.jp/kantan/garbage.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "oketo-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "search",
+        "url": "http://www.gomisaku.jp/0144/",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false,
+        "final_url": "https://www.gomisaku.jp/0144/",
+        "via": {
+          "id": "gomisaku",
+          "linked_from": "https://www.town.oketo.hokkaido.jp/kurashi/gomi/gomisaku/"
+        }
+      },
+      {
+        "kind": "top",
+        "url": "https://www.town.oketo.hokkaido.jp/kurashi/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民生活課",
+      "tel": "0157-52-3315",
+      "source_url": "https://www.town.oketo.hokkaido.jp/kurashi/gomi/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "saroma-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.saroma.hokkaido.jp/machi/gomi_kankyou/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "engaru-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://engaru.jp/life/?cat=6",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "粗大ごみ置き場の受け入れ停止について低濃度PCB含有",
+          "集及び各ごみ処理場受入の休止についてくらし・手続きの"
+        ]
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "yubetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.yubetsu.lg.jp/70kurashi/02life/03gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "final_url": "https://www.town.yubetsu.lg.jp/administration/life/category/?category=51"
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.yubetsu.lg.jp/administration/life/detail.html?content=1526",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民税務課 住民生活グループ",
+      "tel": "01586-2-5863",
+      "note_ja": "上湧別庁舎",
+      "source_url": "https://www.town.yubetsu.lg.jp/administration/life/detail.html?content=1526",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "takinoe-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://town.takinoue.hokkaido.jp/kurashi/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課 住民活動・環境係",
+      "tel": "0158-29-3615",
+      "source_url": "https://town.takinoue.hokkaido.jp/kurashi/gomi/20200827-01.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
   "nishiokoppe-village": {
     "checked_at": "2026-11-15",
     "links": [
@@ -659,6 +1758,762 @@
       "checked_at": "2026-11-15"
     },
     "source": "公式への導線 2段目 2026-11-15"
+  },
+  "omu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.oumu.hokkaido.jp/kurashi_tetsuzuki/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "ozora-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ozora.hokkaido.jp/mokuteki/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "search",
+        "url": "https://www.gomisaku.jp/0195/",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false,
+        "final_url": "https://www.gomisaku.jp/0195/",
+        "via": {
+          "id": "gomisaku",
+          "linked_from": "https://www.town.ozora.hokkaido.jp/mokuteki/gomi/1832.html"
+        }
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 住民グループ",
+      "tel": "0152-77-8071",
+      "source_url": "https://www.town.ozora.hokkaido.jp/mokuteki/gomi/1832.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "toyora-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.toyoura.hokkaido.jp/hotnews/category/103.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 町民係",
+      "tel": "0142-83-1406",
+      "source_url": "https://www.town.toyoura.hokkaido.jp/hotnews/detail/00005821.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "sobetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.sobetsu.lg.jp/kurashi/joho/gomi.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "shiraoi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shiraoi.hokkaido.jp/kurashi/7/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民生活部 町民サービス課 環境係",
+      "tel": "0144-82-2265",
+      "source_url": "https://www.town.shiraoi.hokkaido.jp/docs/page2013010900015.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "atsuma-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.atsuma.lg.jp/life/1/2/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 町民生活グループ",
+      "tel": "0145-26-7871",
+      "source_url": "https://www.town.atsuma.lg.jp/page/1370.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "toyako-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "http://www.town.toyako.hokkaido.jp/town_guide/garbage_and_recycling/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "経済部 生活環境課",
+      "tel": "0142-74-3006",
+      "source_url": "http://www.town.toyako.hokkaido.jp/town_guide/garbage_and_recycling/gar002/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "abira-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "app",
+        "url": "https://www.town.abira.lg.jp/gyosei/digi",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "mukawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.mukawa.lg.jp/3988.htm",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民生活課 ゼロカーボン推進グループ",
+      "tel": "0145-47-7150",
+      "note_ja": "本庁",
+      "source_url": "https://www.town.mukawa.lg.jp/2027.htm",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hokkaido-hidaka-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.hidaka.hokkaido.jp/life/?category=12",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "・小型家電拠点回収の一部廃止について（富川公会堂）廃"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課 環境生活・アイヌ政策グループ",
+      "tel": "01456-2-6182",
+      "note_ja": "門別地区",
+      "source_url": "https://www.town.hidaka.hokkaido.jp/life/?content=755",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "niikappu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.niikappu.jp/kurashi/sekatsu/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民生活課 町民生活グループ",
+      "tel": "0146-47-2112",
+      "source_url": "https://www.niikappu.jp/kurashi/sekatsu/gomi/gomifukuro.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "urakawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.urakawa.hokkaido.jp/gyosei/life/?category=7",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "ページの緊急メンテナンス終了についてくらし・手続きオ"
+        ]
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.urakawa.hokkaido.jp/gyosei/life/?content=4626",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false,
+        "known_stop_contexts": [
+          "ページの緊急メンテナンス終了についてくらし・手続きオ"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課",
+      "tel": "0146-26-9001",
+      "source_url": "https://www.town.urakawa.hokkaido.jp/gyosei/life/?content=4626",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "erimo-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "町民生活課 環境生活係",
+      "tel": "01466-2-4621",
+      "source_url": "https://www.town.erimo.lg.jp/section/choumin/u9c3nn0000000lmm.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "shinhidaka-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.shinhidaka-hokkaido.jp/hotnews/detail/00003727.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課 環境・生活安全係",
+      "tel": "0146-49-0289",
+      "note_ja": "静内庁舎",
+      "source_url": "https://www.shinhidaka-hokkaido.jp/hotnews/detail/00003727.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "otofuke-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.otofuke.hokkaido.jp/kurashi/kankyo/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.otofuke.hokkaido.jp/kurashi/kankyo/gomi/bunbetsu_apuri.html",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shihoro-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.shihoro.jp/life/category/?category=49",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 生活環境係",
+      "tel": "01564-5-5231",
+      "source_url": "https://www.shihoro.jp/life/detail.php?content=607",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kamishihoro-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.kamishihoro.jp/page/00000055",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shikaoi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shikaoi.lg.jp/kurashi/life/gomi_recycle/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "（令和8年度の利用期間は終了しました。）ごみ・リサイ"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 住民生活係",
+      "tel": "0156-66-4031",
+      "source_url": "https://www.town.shikaoi.lg.jp/kurashi/life/gomi_recycle/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shintoku-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.shintoku-town.jp/kurashi-tetuduki/gomi_recycle/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課",
+      "tel": "0156-64-0528",
+      "source_url": "https://www.shintoku-town.jp/kurashi-tetuduki/gomi_recycle/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nakasatsunai-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.nakasatsunai.hokkaido.jp/kurashi/gomi_kankyou/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "校教育社会教育部活動地域移行スポーツ文化・芸術学校給"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 住民グループ",
+      "tel": "0155-67-2493",
+      "source_url": "https://www.vill.nakasatsunai.hokkaido.jp/kurashi/gomi_kankyou/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "sarabetsu-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.sarabetsu.jp/kurashi/sumai_seikatsu/dust_recycle/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課",
+      "tel": "0155-52-2112",
+      "source_url": "https://www.sarabetsu.jp/kurashi/sumai_seikatsu/dust_recycle/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "hokkaido-taiki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.taiki.hokkaido.jp/seikatsunobamen/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 住民活動係",
+      "tel": "01558-6-2116",
+      "source_url": "https://www.town.taiki.hokkaido.jp/seikatsunobamen/gomi/1638.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hiro-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.hiroo.lg.jp/kurashi/seikatsu/gomi/dashikata/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 環境生活係",
+      "tel": "01558-2-0171",
+      "source_url": "https://www.town.hiroo.lg.jp/kurashi/seikatsu/gomi/dashikata/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "makubetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.makubetsu.lg.jp/kurashi/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "防災環境課 地域環境係",
+      "tel": "0155-54-6601",
+      "source_url": "https://www.town.makubetsu.lg.jp/kurashi/gomi/kateigomi/928.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hokkaido-ikeda-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "給食部活動・部活動の地域移行教育委員会からのお知らせ"
+        ]
+      },
+      {
+        "kind": "search",
+        "url": "https://www.gomisaku.jp/0273/?lang=ja",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false,
+        "final_url": "https://www.gomisaku.jp/0273/?lang=ja",
+        "via": {
+          "id": "gomisaku",
+          "linked_from": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/gomi/type/9838.html"
+        }
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課 環境住宅係",
+      "tel": "015-572-3114",
+      "source_url": "https://www.town.hokkaido-ikeda.lg.jp/kurashi/gomi/type/9838.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "toyokoro-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.toyokoro.jp/life/1/7/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 生活環境係",
+      "tel": "015-574-2213",
+      "source_url": "https://www.toyokoro.jp/page/1114.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "honbetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.honbetsu.hokkaido.jp/web/life/life01.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 町民生活担当",
+      "tel": "0156-22-8128",
+      "source_url": "https://www.town.honbetsu.hokkaido.jp/web/life/details/post_64.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "ashoro-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ashoro.hokkaido.jp/kurashi/kurashi-tetsuzuki/gomi-kankyo/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kushiro-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "http://www.town.kushiro.lg.jp/living-guide/00011.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境生活課 環境保全係",
+      "tel": "0154-62-2119",
+      "source_url": "http://www.town.kushiro.lg.jp/living-guide/10204/00011/462404150312.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "akkeshi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.akkeshi-town.jp/kurashi/sumai/gomi_recycle/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hamanaka-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.townhamanaka.jp/kurashi_kankyou/kankyou/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民環境課 生活環境係",
+      "tel": "0153-62-2192",
+      "source_url": "https://www.townhamanaka.jp/kurashi_kankyou/kankyou/gomi_bunbetsu.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shibecha-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://town.shibecha.hokkaido.jp/kurashi/sougou/gomi_kankyou_eisei_dog/gomi_recycle/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "teshikaga-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.teshikaga.hokkaido.jp/kurashi/kurashi_tetsuzuki/gomi_kankyo/1/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境生活課 環境係",
+      "tel": "015-482-2934",
+      "source_url": "https://www.town.teshikaga.hokkaido.jp/kurashi/kurashi_tetsuzuki/gomi_kankyo/1/1108.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "tsurui-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.tsurui.lg.jp/kurashi_tetsuzuki/seikatsu_kankyo/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課 生活環境係",
+      "tel": "0154-64-2113",
+      "source_url": "https://www.vill.tsurui.lg.jp/kurashi_tetsuzuki/seikatsu_kankyo/index.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
+  },
+  "shiranuka-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shiranuka.lg.jp/section/hoken/nfml630000000ey9.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "betsukai-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://betsukai.jp/kurashi/life/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "のくみ取りし尿処理証紙の廃止のお知らせ消費生活筆界特"
+        ]
+      },
+      {
+        "kind": "search",
+        "url": "https://www.gomisaku.jp/0257/?lang=ja",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false,
+        "final_url": "https://www.gomisaku.jp/0257/?lang=ja",
+        "via": {
+          "id": "gomisaku",
+          "linked_from": "https://betsukai.jp/kurashi/life/gomi/poster_jiten/"
+        }
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課 町民生活担当",
+      "tel": "0153-74-9647",
+      "source_url": "https://betsukai.jp/kurashi/life/gomi/poster_jiten/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nakashibetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.nakashibetsu.jp/kurashi/seikatsu/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活課 環境衛生係",
+      "tel": "0153-74-0890",
+      "source_url": "https://www.nakashibetsu.jp/kurashi/seikatsu/gomi/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shibetsu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.shibetsutown.jp/life/?category=14",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "0日に枝捨て場利用期間が終了します2025年12月2",
+          "0日に枝捨て場利用期間が終了します5月1日より枝捨て"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課",
+      "tel": "0153-85-7243",
+      "source_url": "https://www.shibetsutown.jp/life/?content=627",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "rausu-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.rausu-town.jp/pages/cat/2",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民環境課",
+      "tel": "0153-87-2115",
+      "source_url": "https://www.rausu-town.jp/pages/view/9",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 塊E2 2026-11-21"
   },
   "aomori-city": {
     "checked_at": "2026-11-15",
@@ -8400,6 +10255,267 @@
     },
     "source": "公式への導線 3段目 2026-11-15"
   },
+  "kisosaki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kisosaki.lg.jp/category/4-6-0-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.kisosaki.lg.jp/0000002155.html",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課",
+      "tel": "0567-68-6103",
+      "source_url": "https://www.town.kisosaki.lg.jp/0000002155.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "toin-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.toin.lg.jp/scene/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "みらい環境課",
+      "tel": "0594-86-2807",
+      "source_url": "https://www.town.toin.lg.jp/kurashi_tetsuzuki/gomi_kankyo_eisei/1/1/1860.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "komono-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www2.town.komono.mie.jp/life/1/7/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "棄物収集運搬業の新規許可停止について家庭ごみの一覧エ"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境課 環境係",
+      "tel": "059-391-1150",
+      "source_url": "https://www2.town.komono.mie.jp/soshiki/9/9034.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kawagoe-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kawagoe.mie.jp/kurashi/gomi/1001621/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課",
+      "tel": "059-366-7163",
+      "source_url": "https://www.town.kawagoe.mie.jp/kurashi/gomi/1001621/1001622.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "taki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.taki.mie.jp/life/soshiki/kankyo/gomi_kankyo_pet/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境生活課 美化センター係",
+      "tel": "0598-38-3776",
+      "source_url": "https://www.town.taki.mie.jp/life/soshiki/somu/809.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "odai-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.odaitown.jp/lifeevent/5/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課",
+      "tel": "0598-82-3787",
+      "source_url": "https://www.odaitown.jp/kurashi_tetsuzuki/gomi_kankyo/1/902.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "tamaki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://kizuna.town.tamaki.mie.jp/kurashi/kankyo/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "税務住民課",
+      "tel": "0596-58-8201",
+      "source_url": "https://kizuna.town.tamaki.mie.jp/kurashi/kankyo/gomi/gomi.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "watarai-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.watarai.lg.jp/category_list.php?frmCd=1-8-1-0-0",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境水道課 環境水道係",
+      "tel": "0596-62-2415",
+      "source_url": "https://www.town.watarai.lg.jp/contents_detail.php?frmId=911",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "mie-taiki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.taiki.mie.jp/kurashi_tetsuzuki/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境水道課",
+      "tel": "0598-86-2245",
+      "source_url": "https://www.town.taiki.mie.jp/kurashi_tetsuzuki/gomi_recycle/kateigomi/1029.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "minamiise-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.minamiise.lg.jp/admin/bamen/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境生活課",
+      "tel": "0599-66-1154",
+      "source_url": "https://www.town.minamiise.lg.jp/admin/bamen/gomi/1376.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "mie-kihoku-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.mie-kihoku.lg.jp/category/kurashi/gomi_kankyo/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "mie-mihama-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.mihama.mie.jp/life_scene/10/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課 環境係",
+      "tel": "05979-3-0513",
+      "source_url": "https://www.town.mihama.mie.jp/life_scene/10/1699.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kiho-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kiho.lg.jp/life/handbook/refuse/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.kiho.lg.jp/gomiapp/",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false,
+        "known_stop_contexts": [
+          "とでダウンロードページに移行することができます。iO"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境衛生課",
+      "tel": "0735-33-0338",
+      "source_url": "https://www.town.kiho.lg.jp/gomiapp/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
   "otsu-city": {
     "checked_at": "2026-11-04",
     "links": [
@@ -8638,6 +10754,97 @@
       }
     ],
     "source": "公式への導線 5段目 2026-11-18"
+  },
+  "riyuo-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ryuoh.shiga.jp/life/gomi_recycle/gomi_recycle.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活安全課",
+      "tel": "0748-58-3703",
+      "source_url": "https://www.town.ryuoh.shiga.jp/life/gomi_recycle/gomi_rule.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "aisho-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.aisho.shiga.jp/bamen/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "くらし安全環境課",
+      "tel": "0749-42-7699",
+      "source_url": "https://www.town.aisho.shiga.jp/bamen/gomi/1716.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "toyosato-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.toyosato.shiga.jp/category/24-2-1-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "22年1月18日]浄化槽廃止届の様式について[202"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課",
+      "tel": "0749-35-8115",
+      "source_url": "https://www.town.toyosato.shiga.jp/0000003242.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "taga-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.taga.lg.jp/kurashi_tetsuzuki_guide/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "search",
+        "url": "https://www.gomisaku.jp/0076/",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false,
+        "final_url": "https://www.gomisaku.jp/0076/",
+        "via": {
+          "id": "gomisaku",
+          "linked_from": "https://www.town.taga.lg.jp/kurashi_tetsuzuki_guide/gomi_recycle/1/2831.html"
+        }
+      }
+    ],
+    "phone": {
+      "dept_ja": "産業環境課 環境生活係",
+      "tel": "0749-48-8117",
+      "source_url": "https://www.town.taga.lg.jp/kurashi_tetsuzuki_guide/gomi_recycle/1/2831.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
   },
   "kyoto-city": {
     "checked_at": "2026-11-04",
@@ -8942,6 +11149,228 @@
       "checked_at": "2026-11-20"
     },
     "source": "公式への導線 6段目 2026-11-20"
+  },
+  "oyamazaki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.oyamazaki.kyoto.jp/bamenkensaku/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kumiyama-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kumiyama.lg.jp/category/1-4-0-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "search",
+        "url": "https://www.gomisaku.jp/0156/?lang=ja",
+        "target": "html-page",
+        "document": "search",
+        "searchable": false,
+        "final_url": "https://www.gomisaku.jp/0156/?lang=ja",
+        "via": {
+          "id": "gomisaku",
+          "linked_from": "https://www.town.kumiyama.lg.jp/0000004955.html"
+        }
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 生活衛生係",
+      "tel": "075-631-9917",
+      "source_url": "https://www.town.kumiyama.lg.jp/0000004955.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "ide-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ide.kyoto.jp/kurashinojoho/seikatsu_gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "産業環境課",
+      "tel": "0774-82-6168",
+      "source_url": "https://www.town.ide.kyoto.jp/kurashinojoho/seikatsu_gomi/1394010043095.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "ujitawara-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ujitawara.kyoto.jp/benrijoho/kankyoeisei/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "農林環境課 環境係",
+      "tel": "0774-88-6639",
+      "source_url": "https://www.town.ujitawara.kyoto.jp/benrijoho/kankyoeisei/2215.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kasagi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kasagi.lg.jp/category_list.php?frmCd=4-4-0-0-0",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "税住民課",
+      "tel": "0743-95-2302",
+      "source_url": "https://www.town.kasagi.lg.jp/contents_detail.php?co=cat&frmId=51&frmCd=4-4-0-0-0",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "wazuka-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.wazuka.lg.jp/mokuteki/gomi_kankyo/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境衛生課",
+      "tel": "0774-78-3007",
+      "source_url": "https://www.town.wazuka.lg.jp/mokuteki/gomi_kankyo/gominobumbetsu/1699.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "seika-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.seika.kyoto.jp/life_event/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.seika.kyoto.jp/kakuka/kankyo/2/gominitteiziten/17785.html",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "健康福祉環境部 環境推進課 資源循環係",
+      "tel": "0774-95-1925",
+      "source_url": "https://www.town.seika.kyoto.jp/life_event/gomi/19016.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "minamiyamashiro-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.minamiyamashiro.lg.jp/category/20-2-3-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "建設環境課",
+      "tel": "0743-93-0106",
+      "source_url": "https://www.vill.minamiyamashiro.lg.jp/0000001996.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kyotanba-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kyotamba.kyoto.jp/kurashi_tetsuzuki/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "地域振興課",
+      "tel": "0771-82-3801",
+      "source_url": "https://www.town.kyotamba.kyoto.jp/kurashi_tetsuzuki/gomi_recycle/3923.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "ine-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ine.kyoto.jp/mokuteki/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課 住民環境係",
+      "tel": "0772-32-0503",
+      "source_url": "https://www.town.ine.kyoto.jp/mokuteki/gomi/1098.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "yosano-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.yosano.lg.jp/life/environment/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "農林環境課",
+      "tel": "0772-43-9023",
+      "source_url": "https://www.town.yosano.lg.jp/life/environment/garbage/gomi/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
   },
   "osaka-sakai-city": {
     "checked_at": "2026-11-04",
@@ -9459,6 +11888,179 @@
       }
     ],
     "source": "公式への導線 4段目 2026-11-15"
+  },
+  "shimamoto-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shimamoto.lg.jp/life/1/5/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "都市創造部 環境課",
+      "tel": "075-962-2863",
+      "source_url": "https://www.town.shimamoto.lg.jp/soshiki/17/1482.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "toyono-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.toyono.osaka.jp/kurashi/recycle-gomi-kankyou/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境課",
+      "tel": "072-736-1190",
+      "source_url": "https://www.town.toyono.osaka.jp/kurashi/recycle-gomi-kankyou/gomi/page002469.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nose-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.nose.osaka.jp/bamen/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "まちづくり推進部 みどり環境課 環境衛生担当",
+      "tel": "072-734-3171",
+      "source_url": "https://www.town.nose.osaka.jp/bamen/gomi_recycle/2521.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "tadaoka-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.tadaoka.osaka.jp/kurashi/gomi_kankyou_petto/katei_gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kumatori-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kumatori.lg.jp/life_event/gomi.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "tajiri-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.tajiri.osaka.jp/mokutekibetsudesagasu/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 生活環境係",
+      "tel": "072-466-5005",
+      "source_url": "https://www.town.tajiri.osaka.jp/gomi_doro_suido/gomi_recycle/gominowakekata_dashikata/1623.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "osaka-misaki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.misaki.osaka.jp/scene/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "しあわせ創造部 生活環境課 生活環境係",
+      "tel": "072-492-2714",
+      "source_url": "https://www.town.misaki.osaka.jp/scene/gomi/1116.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "osaka-taishi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "http://www.town.taishi.osaka.jp/mokutekibetu/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "final_url": "https://www.town.taishi.osaka.jp/mokutekibetu/gomi/index.html"
+      }
+    ],
+    "phone": {
+      "dept_ja": "まちづくり推進部 環境農林課",
+      "tel": "0721-98-5522",
+      "source_url": "https://www.town.taishi.osaka.jp/kurashi/gomi_kankyo/gomi_shinyosyusyu/3375.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kanan-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kanan.osaka.jp/kurashi_tetsuzuki/kankyo_gomi/2/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "chihayaakasaka-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.chihayaakasaka.osaka.jp/kurashi/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "産業建設部 農林環境課",
+      "tel": "0721-26-7128",
+      "source_url": "https://www.vill.chihayaakasaka.osaka.jp/kakuka/sangyokensetsu/nourinkankyou/4/2_1/707.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
   },
   "kobe-city": {
     "checked_at": "2026-11-19",
@@ -10011,6 +12613,233 @@
     ],
     "source": "公式への導線 3段目 2026-11-15"
   },
+  "inagawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.inagawa.lg.jp/kurashi_tetsuzuki/recycle/garbage/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "taka-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.taka.lg.jp/category_guide/contents_type=569",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活安全課",
+      "tel": "0795-32-4777",
+      "source_url": "https://www.town.taka.lg.jp/category_guide/detail/id=40649",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hyogo-inami-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.hyogo-inami.lg.jp/category/1-5-0-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.hyogo-inami.lg.jp/0000003989.html",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "経済環境部 生活環境課 環境係",
+      "tel": "079-492-9140",
+      "source_url": "https://www.town.hyogo-inami.lg.jp/0000003989.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "harima-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.harima.lg.jp/kurashi/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民協働部 産業環境課",
+      "tel": "079-435-2721",
+      "source_url": "https://www.town.harima.lg.jp/sangyo/kurashi/gomi/wakekata/kandenchi.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "ichikawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ichikawa.lg.jp/menu/7",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民環境課 生活環境係",
+      "tel": "0790-26-1011",
+      "source_url": "https://www.town.ichikawa.lg.jp/info/83",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "fukusaki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.fukusaki.hyogo.jp/category/5-10-3-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "助事業について（申請受付終了）[2026年6月15日",
+          "狂犬病予防接種集合注射の廃止について[2025年2月"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課",
+      "tel": "0790-27-8604",
+      "source_url": "https://www.town.fukusaki.hyogo.jp/0000003577.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hyogo-kamikawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kamikawa.hyogo.jp/category/9-9-0-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課",
+      "tel": "0790-34-0963",
+      "source_url": "https://www.town.kamikawa.hyogo.jp/category/9-9-0-0-0-0-0-0-0-0.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hyogo-taishi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.hyogo-taishi.lg.jp/mokuteki/seikatsu_gomi/gomigomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活福祉部 生活環境課",
+      "tel": "079-277-1015",
+      "source_url": "https://www.town.hyogo-taishi.lg.jp/mokuteki/seikatsu_gomi/gomigomi/1426133961149.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kamigori-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kamigori.hyogo.jp/life_scene/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 環境衛生係",
+      "tel": "0791-52-1115",
+      "source_url": "https://www.town.kamigori.hyogo.jp/soshiki/juminka/gyomuannai/gomi_recycle/katei/1/7661.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "sayo-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.sayo.lg.jp/cms-sypher/www/life/result.jsp?life_genre=011",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 環境衛生対策室",
+      "tel": "0790-82-0293",
+      "source_url": "https://www.town.sayo.lg.jp/cms-sypher/www/info/detail.jsp?id=1514",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hyogo-kami-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.mikata-kami.lg.jp/lifescene/gomi-recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "町民課",
+      "tel": "0796-36-1110",
+      "source_url": "https://www.town.mikata-kami.lg.jp/kurashi-tetsuzuki/gomi-kankyo-pet/5/2919.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shinonsen-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shinonsen.hyogo.jp/p/list/C0516/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
   "nara-city": {
     "checked_at": "2026-11-04",
     "links": [
@@ -10242,6 +13071,450 @@
     ],
     "source": "公式への導線 6段目 2026-11-20"
   },
+  "yamazoe-village": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "環境衛生課",
+      "tel": "0743-85-0047",
+      "source_url": "https://www.vill.yamazoe.nara.jp/life/kurashi_guide/seikatsu/kaishuubi",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "heguri-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.heguri.nara.jp/life/1/9/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課",
+      "tel": "0745-45-1439",
+      "source_url": "https://www.town.heguri.nara.jp/soshiki/8/1474.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "sango-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.sango.nara.jp/life/1/6/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住環境政策課 清掃センター",
+      "tel": "0745-73-6518",
+      "source_url": "https://www.town.sango.nara.jp/soshiki/17/2134.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "ikaruga-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ikaruga.nara.jp/category/5-7-0-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "ando-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.ando.nara.jp/category/1-2-0-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nara-kawanishi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.nara-kawanishi.lg.jp/category/18-18-5-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民保険課",
+      "tel": "0745-44-2611",
+      "source_url": "https://www.town.nara-kawanishi.lg.jp/0000008935.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "miyake-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.miyake.lg.jp/life/1/4/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "tawaramoto-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.tawaramoto.nara.jp/mokuteki_bamen/gomi/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.tawaramoto.nara.jp/mokuteki_bamen/gomi/gomi/13593.html",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境管理課 ゼロカーボンシティ推進係",
+      "tel": "0744-33-5003",
+      "source_url": "https://www.town.tawaramoto.nara.jp/mokuteki_bamen/gomi/gomi/13593.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "soni-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.soni.nara.jp/menu/3",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "mitsue-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.mitsue.nara.jp/kurashi/annai/juminseikatsuka/1/2/1/242.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "takatori-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.takatori.nara.jp/category_list.php?frmCd=5-16-0-0-0",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "2日]浄化槽の使用休止と廃止について[2024年5月",
+          "9月22日]浄化槽の使用休止と廃止について[2024"
+        ]
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "asuka-village": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "クリーンセンター",
+      "tel": "0744-54-3239",
+      "source_url": "https://www.asukamura.jp/kurashi_sumaitokurashi_gomi_gomi.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kanmaki-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kanmaki.nara.jp/soshiki/kensetsu/gyomu/gomikankyo/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "建設環境課",
+      "tel": "0745-76-2504",
+      "source_url": "https://www.town.kanmaki.nara.jp/soshiki/kensetsu/gyomu/gomikankyo/gomi/2872.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "oji-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.oji.nara.jp/kurashinonavi/gomi_kankyo/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "koriyo-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.koryo.nara.jp/category/21-11-0-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.koryo.nara.jp/0000002267.html",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false,
+        "known_stop_contexts": [
+          "器等設置費補助申請受付の終了について広陵町指定ごみ袋"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民環境部 リレーセンター業務課",
+      "tel": "0745-57-2000",
+      "source_url": "https://www.town.koryo.nara.jp/0000002267.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kawai-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kawai.nara.jp/kurashi/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境対策課",
+      "tel": "0745-32-0706",
+      "source_url": "https://www.town.kawai.nara.jp/kurashi/gomi/3137.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "yoshino-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.yoshino.nara.jp/information/gomi-recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "暮らし環境整備課 環境対策室",
+      "tel": "0746-32-9024",
+      "source_url": "https://www.town.yoshino.nara.jp/information/gomi-recycle/957.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "oyodo-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.oyodo.lg.jp/category/6-16-4-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      },
+      {
+        "kind": "app",
+        "url": "https://www.town.oyodo.lg.jp/0000001458.html",
+        "target": "html-page",
+        "document": "app",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "建設環境部 環境整備課",
+      "tel": "0747-52-5548",
+      "source_url": "https://www.town.oyodo.lg.jp/0000001458.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shimoichi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shimoichi.lg.jp/0000000149.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "、平成24年5月をもって終了しましたのでご注意くださ"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課",
+      "tel": "0747-52-5901",
+      "note_ja": "紫水苑",
+      "source_url": "https://www.town.shimoichi.lg.jp/0000000149.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "tenkawa-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.tenkawa.nara.jp/office/life/environment/attention",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "む場合、ATMによる振込終了後に郵便局窓口で振替払込"
+        ]
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nosegawa-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.nosegawa.nara.jp/top/life/environment/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "totsukawa-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.totsukawa.lg.jp/life/environment/gomi/calendar/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "衛生センター",
+      "tel": "0746-63-0391",
+      "source_url": "https://www.vill.totsukawa.lg.jp/life/environment/gomi/calendar/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shimokitayama-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.shimokitayama.nara.jp/kurashi/kankyou.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kamikitayama-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.kamikitayama.nara.jp/mokutekikarasagasu/gomishuushuu/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課",
+      "tel": "07468-3-0223",
+      "source_url": "https://www.vill.kamikitayama.nara.jp/mokutekikarasagasu/gomishuushuu/1115.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nara-kawakami-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.vill.kawakami.nara.jp/life/docs/2017020600132/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "、「可燃の特大袋」は販売停止となりました。Q３.証紙",
+          "をもって、ごみ処理業務を終了いたしました。予約受付日",
+          "をもって、ごみ処理業務を終了いたしました。現在、大淀"
+        ]
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "higashiyoshino-village": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://vill.higashiyoshino.nara.jp/life/garbage_bunbetsu/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
   "wakayama-city": {
     "checked_at": "2026-11-15",
     "links": [
@@ -10391,6 +13664,324 @@
       }
     ],
     "source": "公式への導線 4段目 2026-11-15"
+  },
+  "kimino-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kimino.wakayama.jp/sagasu/juminka/gomi_recycling/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課",
+      "tel": "073-489-5903",
+      "source_url": "https://www.town.kimino.wakayama.jp/sagasu/juminka/gomi_recycling/319.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "katsuragi-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.katsuragi.wakayama.jp/010/060/010/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kudoyama-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kudoyama.lg.jp/jumin/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "koya-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.koya.wakayama.jp/kurashi/gomi",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課 環境衛生係",
+      "tel": "0736-56-3760",
+      "source_url": "https://www.town.koya.wakayama.jp/kurashi/gomi/27840.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "yuasa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.yuasa.wakayama.jp/life/1/3/12/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課 環境係",
+      "tel": "0737-64-1102",
+      "source_url": "https://www.town.yuasa.wakayama.jp/soshiki/5/3133.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hirogawa-town": {
+    "checked_at": "2026-11-21",
+    "phone": {
+      "dept_ja": "住民環境課 環境班",
+      "tel": "0737-23-7714",
+      "source_url": "https://www.town.hirogawa.wakayama.jp/juumin/gomi.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "aridagawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.aridagawa.lg.jp/top/kurashi/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "wakayama-hidaka-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "http://www.town.wakayama-hidaka.lg.jp/bunya/recycle/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false,
+        "known_stop_contexts": [
+          "導入支援事業補助金（受付終了）（2026年5月22日"
+        ]
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民生活課",
+      "tel": "0738-63-3800",
+      "source_url": "http://www.town.wakayama-hidaka.lg.jp/docs/2024082100012/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "yura-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "http://www.town.yura.wakayama.jp/bunya/recycle/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民福祉課",
+      "tel": "0738-65-0201",
+      "source_url": "http://www.town.yura.wakayama.jp/docs/2014011700505/",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "wakayama-inami-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.wakayama-inami.lg.jp/category/7-0-0-0-0-0-0-0-0-0.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課",
+      "tel": "0738-42-1732",
+      "source_url": "https://www.town.wakayama-inami.lg.jp/0000000457.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "minabe-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.minabe.lg.jp/kurashi/09/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課",
+      "tel": "0739-72-3605",
+      "source_url": "https://www.town.minabe.lg.jp/kurashi/09/01/2013092400014.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "hidakagawa-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.hidakagawa.lg.jp/kurashi/gomi_kankyo/gomi_recycle/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課",
+      "tel": "0738-22-1701",
+      "source_url": "https://www.town.hidakagawa.lg.jp/kurashi/gomi_kankyo/gomi_recycle/gomi_bunnbetu.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "shirahama-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.shirahama.wakayama.jp/raifu/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "生活環境課 清掃センター",
+      "tel": "0739-45-3800",
+      "source_url": "https://www.town.shirahama.wakayama.jp/soshiki/seikatsu/seiso/gyomu/gomi/waste_syori/1450338476972.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kamitonda-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kamitonda.lg.jp/soshiki/jyumin/gomi/gominituite/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 住民・環境班",
+      "tel": "0739-34-2372",
+      "source_url": "https://www.town.kamitonda.lg.jp/soshiki/jyumin/gomi/gominituite/index.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "susami-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.susami.lg.jp/kurashi/06/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "環境保健課",
+      "tel": "0739-55-4803",
+      "source_url": "https://www.town.susami.lg.jp/kurashi/06/02/2015103100104.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "nachikatsura-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.nachikatsuura.wakayama.jp/info/4",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "クリーンセンター",
+      "tel": "0735-52-4564",
+      "source_url": "https://www.town.nachikatsuura.wakayama.jp/info/4",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "taiji-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.taiji.wakayama.jp/kurashi/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "清掃センター",
+      "tel": "0735-59-3758",
+      "source_url": "https://www.town.taiji.wakayama.jp/kurashi/gomi/index.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
+  },
+  "kushimoto-town": {
+    "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.kushimoto.wakayama.jp/kurashi/gomi/",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
+    "phone": {
+      "dept_ja": "住民課 環境グループ",
+      "tel": "0735-67-7217",
+      "source_url": "https://www.town.kushimoto.wakayama.jp/kurashi/gomi/index.html",
+      "checked_at": "2026-11-21"
+    },
+    "source": "公式への導線 7段目 2026-11-21"
   },
   "yonago-city": {
     "checked_at": "2026-11-04",
