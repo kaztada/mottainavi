@@ -8272,9 +8272,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "kumano-city": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.city.kumano.lg.jp/",
+    "hosts": [
+      "www.city.kumano.lg.jp"
+    ],
+    "checked_at": "2026-11-20",
+    "basis": "人が確かめた: 2026-11-20 に市のトップに1回接続。題名「三重県熊野市」、本文に「熊野市役所 〒519-4392 三重県熊野市井戸町796」"
   },
   "inabe-city": {
     "top_url": "https://www.city.inabe.mie.jp/",
