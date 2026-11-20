@@ -1234,15 +1234,6 @@
   },
   "pippu-town": {
     "checked_at": "2026-11-21",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.pippu.hokkaido.jp/cms/life/p1rhin0000002h59.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "税務住民課 住民環境係",
       "tel": "0166-85-4803",
@@ -13947,15 +13938,6 @@
   },
   "taiji-town": {
     "checked_at": "2026-11-21",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.taiji.wakayama.jp/kurashi/gomi/index.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "清掃センター",
       "tel": "0735-59-3758",
