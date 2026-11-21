@@ -567,9 +567,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "akaigawa-village": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.akaigawa.com/",
+    "hosts": [
+      "www.akaigawa.com"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に村のトップに1回接続。題名「人と自然が育む美しい村 赤井川村」、本文に「〒046-0592 北海道余市郡赤井川村字赤井川74番地2」"
   },
   "nanporo-town": {
     "top_url": "https://www.town.nanporo.hokkaido.jp/",
@@ -1586,9 +1589,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "itayanagi-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.itayanagi.aomori.jp/",
+    "hosts": [
+      "www.town.itayanagi.aomori.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「板柳町」、本文に「〒038-3692 青森県北津軽郡板柳町大字板柳字土井239-3」"
   },
   "tsuruta-town": {
     "top_url": "https://www.town.tsuruta.lg.jp/",
@@ -2198,9 +2204,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "shichigahama-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.shichigahama.com/",
+    "hosts": [
+      "www.shichigahama.com"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「うみ・ひと・まち 宮城県七ヶ浜町」、本文に「七ヶ浜町役場 郵便番号 985-8577 宮城県宮城郡七ヶ浜町東宮浜字丑谷辺5番地の1」"
   },
   "rifu-town": {
     "top_url": "https://www.town.rifu.miyagi.jp/",
@@ -10116,9 +10125,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "hokuei-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.e-hokuei.net/",
+    "hosts": [
+      "www.e-hokuei.net"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「北栄町公式ホームページ トップページ」、本文に「大栄庁舎 〒689-2292 鳥取県東伯郡北栄町由良宿423-1」"
   },
   "hiezu-village": {
     "top_url": "https://www.hiezu.jp/",
@@ -10144,9 +10156,12 @@
     "basis": "自動: 対応済みの市のごみのページ(official_url)のホスト"
   },
   "hoki-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.houki-town.jp/",
+    "hosts": [
+      "www.houki-town.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「伯耆町公式ウェブサイト」、本文に「伯耆町役場 〒689-4133 鳥取県西伯郡伯耆町吉長37番地3」"
   },
   "nichinan-town": {
     "top_url": "https://www.town.nichinan.lg.jp/",
@@ -10718,9 +10733,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "jinsekikogen-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.jinsekigun.jp/",
+    "hosts": [
+      "www.jinsekigun.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「広島県・神石郡 神石高原町(じんせきこうげんちょう)」、本文に「神石高原町役場 〒720-1522 広島県神石郡神石高原町小畠1701番地」"
   },
   "shimonoseki-city": {
     "top_url": "https://www.city.shimonoseki.lg.jp/",
@@ -11299,9 +11317,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "masaki-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.masaki.ehime.jp/",
+    "hosts": [
+      "www.town.masaki.ehime.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「松前町公式ホームページ｜四国・愛媛 まさき トップページ」、本文に「松前町役場 〒791-3192 愛媛県伊予郡松前町大字筒井631番地」"
   },
   "tobe-town": {
     "top_url": "https://www.town.tobe.ehime.jp/",
