@@ -302,9 +302,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "fukushima-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.fukushima.hokkaido.jp/",
+    "hosts": [
+      "www.town.fukushima.hokkaido.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名は空。本文に「福島町役場 〒049-1392 北海道松前郡福島町字福島820番地」"
   },
   "shiriuchi-town": {
     "top_url": "https://www.town.shiriuchi.hokkaido.jp/",
@@ -435,17 +438,21 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "kuromatsunai-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "http://www.kuromatsunai.com/",
+    "hosts": [
+      "www.kuromatsunai.com"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。https は TLS のエラー(unrecognized name)で、http で接続。題名「黒松内町」、末尾に「黒松内町 〒048-0192 北海道寿都郡黒松内町字黒松内302番地1」"
   },
   "rankoshi-town": {
-    "top_url": "https://www.town.rankoshi.hokkaido.jp/",
+    "top_url": "https://town.rankoshi.hokkaido.jp/",
     "hosts": [
+      "town.rankoshi.hokkaido.jp",
       "www.town.rankoshi.hokkaido.jp"
     ],
-    "checked_at": "2026-10-15",
-    "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップ(www なし)に1回接続。題名「北海道蘭越町～ロマンあふれる花のまち」、末尾に「蘭越町役場 〒048-1392 北海道磯谷郡蘭越町蘭越町258番地5」。www 付きのトップは 403 で、町の PDF は www なしのホストにある(7段目の調べ)"
   },
   "niseko-town": {
     "top_url": "https://www.town.niseko.lg.jp/",
@@ -597,9 +604,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "naganuma-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.maoi-net.jp/",
+    "hosts": [
+      "www.maoi-net.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「北海道長沼町[まおいネット]」、末尾に「長沼町役場 〒069-1392 北海道夕張郡長沼町中央北1丁目1番1号」"
   },
   "kuriyama-town": {
     "top_url": "https://www.town.kuriyama.hokkaido.jp/",
@@ -771,14 +781,20 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "wassamu-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.wassamu.hokkaido.jp/",
+    "hosts": [
+      "www.town.wassamu.hokkaido.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「自然の恵み野 和寒/わっさむ町」、末尾に「〒098-0192 北海道上川郡和寒町字西町120番地」"
   },
   "kenbuchi-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.kembuchi.hokkaido.jp/",
+    "hosts": [
+      "www.town.kembuchi.hokkaido.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「絵本の里けんぶち町」、末尾に「剣淵町役場 〒098-0392 北海道上川郡剣淵町仲町37番1号」"
   },
   "shimokawa-town": {
     "top_url": "https://www.town.shimokawa.hokkaido.jp/",
@@ -869,9 +885,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "teshio-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.teshiotown.hokkaido.jp/",
+    "hosts": [
+      "www.teshiotown.hokkaido.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「北海道天塩町」、末尾に「〒098-3398 北海道天塩郡天塩町新栄通8丁目1466-113」"
   },
   "sarufutsu-village": {
     "top_url": "https://www.vill.sarufutsu.hokkaido.jp/",
@@ -975,9 +994,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "koshimizu-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.koshimizu.hokkaido.jp/",
+    "hosts": [
+      "www.town.koshimizu.hokkaido.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「北海道小清水町」、末尾に「〒099-3698 北海道斜里郡小清水町元町2丁目1番1号」と「小清水町法人番号8000020015474」"
   },
   "kunneppu-town": {
     "top_url": "https://www.town.kunneppu.hokkaido.jp/",
@@ -1220,9 +1242,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "memuro-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.memuro.net/",
+    "hosts": [
+      "www.memuro.net"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「北海道芽室町」、末尾に「〒082-8651 北海道河西郡芽室町東2条2丁目14 芽室町役場」"
   },
   "nakasatsunai-village": {
     "top_url": "https://www.vill.nakasatsunai.hokkaido.jp/",
@@ -8328,9 +8353,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "mie-asahi-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www2.town.asahi.mie.jp/",
+    "hosts": [
+      "www2.town.asahi.mie.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。www.town.asahi.mie.jp は名前を引けず、www2 に接続(https://www2.town.asahi.mie.jp/www/index.html へ転送)。題名「朝日町トップページ」、末尾に「朝日町役場 郵便番号：510-8522 住所：三重県三重郡朝日町大字小向893番地」"
   },
   "kawagoe-town": {
     "top_url": "https://www.town.kawagoe.mie.jp/",
@@ -8349,9 +8377,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "mie-meiwa-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.meiwa.mie.jp/",
+    "hosts": [
+      "www.town.meiwa.mie.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「ホーム／明和町ホームページ - 多気郡」、末尾に「三重県明和町 〒515-0332 三重県多気郡明和町大字馬之上945」"
   },
   "odai-town": {
     "top_url": "https://www.odaitown.jp/",
@@ -8521,9 +8552,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "shiga-hino-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.shiga-hino.lg.jp/",
+    "hosts": [
+      "www.town.shiga-hino.lg.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「日野町役場」、末尾に「日野町役場 所在地：〒529-1698 滋賀県蒲生郡日野町河原一丁目1番地」"
   },
   "riyuo-town": {
     "top_url": "https://www.town.ryuoh.shiga.jp/",
@@ -8550,9 +8584,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "kora-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.kouratown.jp/",
+    "hosts": [
+      "www.kouratown.jp"
+    ],
+    "checked_at": "2026-11-21",
+    "basis": "人が確かめた: 2026-11-21 に町のトップに1回接続。題名「ホーム／甲良町」、末尾に「甲良町役場 〒522-0244 滋賀県犬上郡甲良町在士353-1」"
   },
   "taga-town": {
     "top_url": "https://www.town.taga.lg.jp/",
