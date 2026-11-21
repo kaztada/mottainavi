@@ -4357,8 +4357,8 @@
   "sobetsu-town": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。壮瞥町のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Sobetsu Town's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。壮瞥町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Sobetsu Town's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -7785,8 +7785,8 @@
   "shichikashuku-town": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。七ヶ宿町のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Shichikashuku Town's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。七ヶ宿町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Shichikashuku Town's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -36963,8 +36963,8 @@
   "naka-town": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。那賀町のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Naka Town's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。那賀町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Naka Town's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
