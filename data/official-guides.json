@@ -1287,15 +1287,6 @@
   },
   "hokuryu-town": {
     "checked_at": "2026-11-22",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.hokuryu.hokkaido.jp/purpose/gomi/",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "こども・くらし応援課 戸籍・町民生活係",
       "tel": "0164-34-7030",
