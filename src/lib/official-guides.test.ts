@@ -358,6 +358,11 @@ describe("自治体の種類で文言を出し分ける(2026-11-21 Kaz 判断)",
     expect(fill(en["guides.oldEdition"], { kind: kindWord("village", "en") })).toContain(
       "the village's pages"
     )
+    // 東京の区は英語の名前が「… City」でも ward(2026-11-21 Kaz 判断)
+    expect(kindWord(municipalityKind("世田谷区"), "en")).toBe("ward")
+    expect(fill(en["guides.phoneNote"], { date: "D", kind: kindWord("ward", "en") })).toContain(
+      "the ward's waste page"
+    )
   })
   it("決まった文言に「市の」が残っていない(差し込みに置き換えた)", () => {
     for (const lang of ["ja", "en"] as const) {
