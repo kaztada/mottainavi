@@ -5578,8 +5578,8 @@
   "shiranuka-town": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。白糠町のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We checked Shiranuka Town's own sorting guide page, but have not checked whether it can be used as item data.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。白糠町のサイトは個別には確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We have not checked Shiranuka Town's own website individually.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"
@@ -33950,8 +33950,8 @@
   "taiji-town": {
     "status": "no-data",
     "checked_at": "2026-10-16",
-    "detail_ja": "国内のオープンデータのカタログで探しました。太地町のサイトは個別には確かめていません。",
-    "detail_en": "We searched Japan's open data catalogs. We have not checked Taiji Town's own website individually.",
+    "detail_ja": "国内のオープンデータのカタログで探しました。太地町のサイトでは分別の案内のページを確かめましたが、品目のデータとして使えるかは確かめていません。",
+    "detail_en": "We searched Japan's open data catalogs. We checked Taiji Town's own sorting guide page, but have not checked whether it can be used as item data.",
     "evidence": [
       {
         "label": "データカタログの総当たり(2026-10-16)。品目別の分別データは見つからなかった"

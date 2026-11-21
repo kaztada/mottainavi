@@ -2398,19 +2398,6 @@
     },
     "source": "公式への導線 7段目 塊E2 2026-11-21"
   },
-  "shiranuka-town": {
-    "checked_at": "2026-11-21",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.shiranuka.lg.jp/section/hoken/nfml630000000ey9.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
-    "source": "公式への導線 7段目 2026-11-21"
-  },
   "betsukai-town": {
     "checked_at": "2026-11-21",
     "links": [
@@ -13938,6 +13925,15 @@
   },
   "taiji-town": {
     "checked_at": "2026-11-21",
+    "links": [
+      {
+        "kind": "top",
+        "url": "https://www.town.taiji.wakayama.jp/kurashi/gomi/index.html",
+        "target": "html-page",
+        "document": "html",
+        "searchable": false
+      }
+    ],
     "phone": {
       "dept_ja": "清掃センター",
       "tel": "0735-59-3758",
