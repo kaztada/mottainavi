@@ -19,6 +19,8 @@ import {
 } from "@/lib/coverage-display"
 import {
   formatEdition,
+  kindWord,
+  municipalityKind,
   telHref,
   type GuideKind,
   type PublicGuideLink,
@@ -74,6 +76,8 @@ export function UnsupportedShell({
   const { lang } = useLang()
   const t = useT()
   const name = lang === "en" ? entry.name_en : entry.name_ja
+  // 決まった文言の「市」「町」「村」「区」(英語は city/town/village/ward)。2026-11-21 Kaz 判断
+  const kind = kindWord(municipalityKind(entry.name_ja), lang)
   const detail = lang === "en" ? coverage.detail_en : coverage.detail_ja
   const hasGuides = guides !== null && (guides.links.length > 0 || guides.phone !== null)
   return (
@@ -118,12 +122,12 @@ export function UnsupportedShell({
             className="rounded-2xl border border-border bg-card p-5 text-sm leading-relaxed"
           >
             <h2 id="guides-heading" className="font-bold leading-snug">
-              {t("guides.heading", { municipality: name })}
+              {t("guides.heading", { municipality: name, kind })}
             </h2>
             {guides.links.length > 0 && (
               <ul className="mt-3 flex flex-col gap-2.5">
                 {guides.links.map((l) => (
-                  <GuideLinkItem key={l.kind} link={l} name={name} />
+                  <GuideLinkItem key={l.kind} link={l} name={name} kind={kind} />
                 ))}
               </ul>
             )}
@@ -146,6 +150,7 @@ export function UnsupportedShell({
                 <p className="mt-1 text-xs text-muted">
                   {t("guides.phoneNote", {
                     date: formatCheckedAt(guides.phone.checked_at, lang),
+                    kind,
                   })}
                 </p>
               </div>
@@ -168,7 +173,7 @@ export function UnsupportedShell({
             <BatteryWarning className="size-4 shrink-0" aria-hidden />
             {t("battery.heading")}
           </h2>
-          <p className="mt-1">{t("battery.body")}</p>
+          <p className="mt-1">{t("battery.body", { kind })}</p>
         </section>
 
         {reuseCategories.length > 0 && (
@@ -241,7 +246,15 @@ function OfficialButton({ topUrl, name }: { topUrl: string | null; name: string 
 }
 
 /** 導線1件: 種類(文字+アイコン)・リンク・添え書き(外部のサイト・地区・代表的な品目・版・検索の可否) */
-function GuideLinkItem({ link, name }: { link: PublicGuideLink; name: string }) {
+function GuideLinkItem({
+  link,
+  name,
+  kind,
+}: {
+  link: PublicGuideLink
+  name: string
+  kind: string
+}) {
   const { lang } = useLang()
   const t = useT()
   const Icon = KIND_ICON[link.kind]
@@ -260,7 +273,7 @@ function GuideLinkItem({ link, name }: { link: PublicGuideLink; name: string }) 
   if (link.scope === "area-selector") notes.push(t("guides.areaSelector"))
   if (link.partial) notes.push(t("guides.partial"))
   if (link.edition) notes.push(formatEdition(link.edition, lang))
-  if (link.edition_old) notes.push(t("guides.oldEdition"))
+  if (link.edition_old) notes.push(t("guides.oldEdition", { kind }))
   if (link.document === "image-pdf") notes.push(t("guides.imagePdf"))
   else if (link.searchable && link.document === "text-pdf")
     notes.push(t(link.target === "pdf" ? "guides.searchPdf" : "guides.searchPdfOnPage"))

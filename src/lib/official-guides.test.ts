@@ -15,6 +15,7 @@ import {
   type GuideFiles,
   type GuideLink,
 } from "./official-guides"
+import { kindWord, municipalityKind } from "./official-guides-display"
 import { RegistryFileSchema, type RegistryEntry } from "./schemas"
 import {
   buildHosts,
@@ -295,9 +296,75 @@ describe("画面の文言", () => {
     expect(ja["guides.doc.top"]).toBeTruthy()
   })
   it("電池の一文は「燃えるごみに混ぜず」(「など」を付けない。2026-11-04 Kaz)", () => {
-    expect(ui("ja")["battery.body"]).toBe(
+    expect(fill(ui("ja")["battery.body"], { kind: "市" })).toBe(
       "出し方は市町村で違います。燃えるごみに混ぜず、市の案内で確かめてください。"
     )
+  })
+})
+
+/** 画面の t() と同じ置き換え */
+const fill = (text: string, params: Record<string, string>) =>
+  Object.entries(params).reduce((t, [k, v]) => t.replaceAll(`{${k}}`, v), text)
+
+describe("自治体の種類で文言を出し分ける(2026-11-21 Kaz 判断)", () => {
+  it("名前の末尾の字から種類を出す", () => {
+    expect(municipalityKind("川口市")).toBe("city")
+    expect(municipalityKind("四日市市")).toBe("city")
+    expect(municipalityKind("置戸町")).toBe("town")
+    expect(municipalityKind("余市町")).toBe("town")
+    expect(municipalityKind("中札内村")).toBe("village")
+    expect(municipalityKind("世田谷区")).toBe("ward")
+    expect(municipalityKind("どこか")).toBe("city")
+  })
+  it("レジストリの全市区町村が市・町・村・区のどれかで終わる", () => {
+    for (const e of registry) expect(e.name_ja, e.slug).toMatch(/[市町村区]$/)
+  })
+  it("市の表示は今までと同じ", () => {
+    const ja = ui("ja")
+    const en = ui("en")
+    const k = kindWord(municipalityKind("川口市"), "ja")
+    const ke = kindWord(municipalityKind("川口市"), "en")
+    expect(fill(ja["guides.heading"], { municipality: "川口市", kind: k })).toBe(
+      "川口市の分別の調べ方(市の公式の案内)"
+    )
+    expect(fill(ja["guides.phoneNote"], { date: "D", kind: k })).toBe(
+      "Dに確かめた番号です。番号は変わることがあります。つながらないときは市のごみのページで確かめてください。"
+    )
+    expect(fill(ja["guides.oldEdition"], { kind: k })).toBe(
+      "古い版の可能性があります。新しい版があるかは市のページで確かめてください。"
+    )
+    expect(fill(en["guides.phoneNote"], { date: "D", kind: ke })).toBe(
+      "Number confirmed on D. Numbers can change — if you cannot get through, check the city's waste page."
+    )
+    expect(fill(en["guides.oldEdition"], { kind: ke })).toBe(
+      "This may be an old edition. Check the city's pages for a newer one."
+    )
+  })
+  it("町・村・区は「町」「村」「区」、英語は town/village/ward", () => {
+    const ja = ui("ja")
+    const en = ui("en")
+    expect(fill(ja["guides.heading"], { municipality: "置戸町", kind: kindWord("town", "ja") })).toBe(
+      "置戸町の分別の調べ方(町の公式の案内)"
+    )
+    expect(fill(ja["battery.body"], { kind: kindWord("village", "ja") })).toBe(
+      "出し方は市町村で違います。燃えるごみに混ぜず、村の案内で確かめてください。"
+    )
+    expect(fill(ja["guides.phoneNote"], { date: "D", kind: kindWord("ward", "ja") })).toContain(
+      "区のごみのページ"
+    )
+    expect(fill(en["guides.phoneNote"], { date: "D", kind: kindWord("town", "en") })).toContain(
+      "the town's waste page"
+    )
+    expect(fill(en["guides.oldEdition"], { kind: kindWord("village", "en") })).toContain(
+      "the village's pages"
+    )
+  })
+  it("決まった文言に「市の」が残っていない(差し込みに置き換えた)", () => {
+    for (const lang of ["ja", "en"] as const) {
+      const d = ui(lang)
+      for (const k of ["guides.heading", "guides.oldEdition", "guides.phoneNote", "battery.body"])
+        expect(d[k], `${lang} ${k}`).not.toMatch(/市の|the city's/)
+    }
   })
 })
 
