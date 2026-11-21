@@ -1057,15 +1057,6 @@
   },
   "furubira-town": {
     "checked_at": "2026-11-21",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.furubira.lg.jp/life/detail.php?id=12",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "町民課 生活環境係",
       "tel": "0135-48-9838",
@@ -3227,15 +3218,6 @@
   },
   "higashidori-village": {
     "checked_at": "2026-11-21",
-    "links": [
-      {
-        "kind": "top",
-        "url": "http://www.vill.higashidoori.lg.jp/kensui/page000081.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "健康福祉課 福祉グループ",
       "tel": "0175-28-5800",
@@ -13400,6 +13382,12 @@
         "searchable": false
       }
     ],
+    "phone": {
+      "dept_ja": "環境センター",
+      "tel": "072-452-6200",
+      "source_url": "https://www.town.kumatori.lg.jp/kurashi/kankyo_gomi/12662.html",
+      "checked_at": "2026-11-21"
+    },
     "source": "公式への導線 7段目 2026-11-21"
   },
   "tajiri-town": {
@@ -15377,15 +15365,6 @@
   },
   "taiji-town": {
     "checked_at": "2026-11-21",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.taiji.wakayama.jp/kurashi/gomi/index.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "清掃センター",
       "tel": "0735-59-3758",
@@ -16746,6 +16725,12 @@
         "searchable": false
       }
     ],
+    "phone": {
+      "dept_ja": "町民生活部 環境センター",
+      "tel": "082-823-4601",
+      "source_url": "https://www.town.kaita.lg.jp/soshiki/10/135455.html",
+      "checked_at": "2026-11-21"
+    },
     "source": "公式への導線 8段目 2026-11-21"
   },
   "kumano-town": {
