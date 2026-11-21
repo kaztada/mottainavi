@@ -1506,20 +1506,6 @@
     },
     "source": "公式への導線 7段目 塊E2 2026-11-21"
   },
-  "otoineppu-village": {
-    "checked_at": "2026-11-22",
-    "links": [
-      {
-        "kind": "top",
-        "url": "http://www.vill.otoineppu.hokkaido.jp/kurashi/gomi_kankyou/gomi_kankyou.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false,
-        "final_url": "https://www.vill.otoineppu.hokkaido.jp/kurashi/gomi_kankyou/gomi_kankyou.html"
-      }
-    ],
-    "source": "公式への導線 8段目 2026-11-21"
-  },
   "hokkaido-nakagawa-town": {
     "checked_at": "2026-11-22",
     "links": [
