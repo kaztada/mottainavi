@@ -2626,9 +2626,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "yamagata-asahi-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.asahi.yamagata.jp/",
+    "hosts": [
+      "www.town.asahi.yamagata.jp"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に町のトップに1回接続。題名「ホーム／朝日町ホームページ トップページ」、本文に「役場所在地 〒990-1442 山形県西村山郡朝日町宮宿1115」"
   },
   "oe-town": {
     "top_url": "https://www.town.oe.yamagata.jp/",
@@ -2719,9 +2722,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "yamagata-oguni-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.oguni.yamagata.jp/",
+    "hosts": [
+      "www.town.oguni.yamagata.jp"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に町のトップに1回接続。題名「小国町ホームページ トップページ」、本文に「小国町役場 法人番号9000020064017 〒999-1363 山形県西置賜郡小国町大字小国小坂町2-70」"
   },
   "shirataka-town": {
     "top_url": "https://www.town.shirataka.lg.jp/",
@@ -2938,9 +2944,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "minamiaizu-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.minamiaizu.lg.jp/",
+    "hosts": [
+      "www.town.minamiaizu.lg.jp"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に町のトップに1回接続。題名「ホーム／南会津町」、本文に「南会津町役場本庁舎 〒967-0004 福島県南会津郡南会津町田島字後原甲3531番地1」"
   },
   "kitashiobara-village": {
     "top_url": "https://www.vill.kitashiobara.fukushima.jp/",
@@ -3015,9 +3024,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "fukushima-showa-village": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.vill.showa.fukushima.jp/",
+    "hosts": [
+      "www.vill.showa.fukushima.jp"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に村のトップに1回接続。題名「昭和村 - からむし織とかすみ草の里」、本文に「昭和村役場 〒968-0103 福島県大沼郡昭和村下中津川字中島652」"
   },
   "aizumisato-town": {
     "top_url": "https://www.town.aizumisato.fukushima.jp/",
@@ -3204,9 +3216,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "katsurao-village": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.katsurao.org/",
+    "hosts": [
+      "www.katsurao.org"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に村のトップに1回接続。題名「葛尾村ホームページ トップページ」、本文に「葛尾村役場 〒979-1602 福島県双葉郡葛尾村大字落合字落合16 法人番号 8000020075485」"
   },
   "shinchi-town": {
     "top_url": "https://www.shinchi-town.jp/",
@@ -3914,9 +3929,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "nanmoku-village": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://nanmoku.ne.jp/",
+    "hosts": [
+      "nanmoku.ne.jp"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に村のトップに1回接続。vill.nanmoku.gunma.jp は名前を引けず、nanmoku.ne.jp に接続。題名「トップページ - 群馬県なんもく村」、本文に「群馬県南牧村役場 〒370-2806 群馬県甘楽郡南牧村大字大日向1098」"
   },
   "kanra-town": {
     "top_url": "https://www.town.kanra.lg.jp/",
@@ -12015,9 +12033,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "hirokawa-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.hirokawa.fukuoka.jp/",
+    "hosts": [
+      "www.town.hirokawa.fukuoka.jp"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に町のトップに1回接続。題名「ホーム／広川町」、本文に「広川町役場 法人番号9000020405442」「〒834-0115 福岡県八女郡広川町大字新代1804番地」"
   },
   "kawara-town": {
     "top_url": "https://www.town.kawara.fukuoka.jp/",
@@ -12044,9 +12065,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "fukuoka-kawasaki-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town-kawasaki.com/",
+    "hosts": [
+      "www.town-kawasaki.com"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に町のトップに1回接続。town.kawasaki.fukuoka.jp は名前を引けず、www.town-kawasaki.com に接続。題名「ReBorn！KAWASAKIMACHI：福岡県田川郡川崎町」、本文に「川崎町役場 〒827-8501 福岡県田川郡川崎町大字田原789-2」"
   },
   "oto-town": {
     "top_url": "https://www.town.oto.fukuoka.jp/",
@@ -12057,9 +12081,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "aka-village": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.akamura.net/",
+    "hosts": [
+      "www.akamura.net"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に村のトップに1回接続。題名「赤村公式ホームページ」、本文に「赤村役場 〒824-0432 福岡県田川郡赤村内田1188」"
   },
   "fukuchi-town": {
     "top_url": "https://www.town.fukuchi.lg.jp/",
@@ -12428,9 +12455,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "shinkamigoto-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://official.shinkamigoto.net/",
+    "hosts": [
+      "official.shinkamigoto.net"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に町のトップに1回接続。題名「新上五島町公式サイト | 長崎県 五島列島 しんかみごとうちょう」、本文に「新上五島町役場 〒857-4495 長崎県南松浦郡新上五島町青方郷1585-1」"
   },
   "kumamoto-city": {
     "top_url": "https://www.city.kumamoto.jp/",
@@ -12608,9 +12638,12 @@
     "basis": "自動: official-url の確かめ(Wikidata の候補に1回接続、data-model §30)"
   },
   "kumamoto-oguni-town": {
-    "top_url": null,
-    "hosts": [],
-    "basis": "自動: 確かめた市のトップが無い(人が確かめて入れる)"
+    "top_url": "https://www.town.kumamoto-oguni.lg.jp/",
+    "hosts": [
+      "www.town.kumamoto-oguni.lg.jp"
+    ],
+    "checked_at": "2026-11-22",
+    "basis": "人が確かめた: 2026-11-22 に町のトップに1回接続。題名「ホーム / 小国町」、本文に「小国町役場 〒869-2592 熊本県阿蘇郡小国町宮原1567-1」"
   },
   "ubuyama-village": {
     "top_url": "https://www.ubuyama-v.jp/",
