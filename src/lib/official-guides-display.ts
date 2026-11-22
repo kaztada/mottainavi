@@ -136,3 +136,24 @@ export function isOldEdition(ed: Edition, today: string): boolean {
 export function telHref(tel: string): string {
   return `tel:${tel.replace(/[^0-9]/g, "")}`
 }
+
+/** 自治体の種類(名前の末尾の字)。公式への導線まわりの決まった文言を出し分ける(2026-11-21 Kaz 判断) */
+export type MunicipalityKind = "city" | "town" | "village" | "ward"
+
+const KIND_BY_SUFFIX: Record<string, MunicipalityKind> = {
+  市: "city",
+  町: "town",
+  村: "village",
+  区: "ward",
+}
+
+/** 名前の末尾の字(市・町・村・区)から種類を出す。どれでもなければ市として扱う(今の表示を変えない) */
+export function municipalityKind(nameJa: string): MunicipalityKind {
+  return KIND_BY_SUFFIX[nameJa.slice(-1)] ?? "city"
+}
+
+/** 文言に差し込む種類の語。日本語は「市」「町」「村」「区」、英語は city/town/village/ward */
+export function kindWord(kind: MunicipalityKind, lang: "ja" | "en"): string {
+  if (lang === "en") return kind
+  return { city: "市", town: "町", village: "村", ward: "区" }[kind]
+}
