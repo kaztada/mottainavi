@@ -22692,15 +22692,6 @@
   },
   "morotsuka-village": {
     "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.vill.morotsuka.miyazaki.jp/life-scene/gomi-kankyo/index.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "住民生活課",
       "tel": "0982-65-1119",
