@@ -4972,19 +4972,6 @@
     },
     "source": "公式への導線 9段目 2026-11-22"
   },
-  "kahoku-town": {
-    "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.kahoku.yamagata.jp/kurasi_tetuzuki/gomi/kateigomi/index.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
-    "source": "公式への導線 9段目 2026-11-22"
-  },
   "nishikawa-town": {
     "checked_at": "2026-11-24",
     "links": [
@@ -5862,15 +5849,6 @@
   },
   "hirata-village": {
     "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.vill.hirata.fukushima.jp/life/1/6/24/",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "住民課 生活環境係",
       "tel": "0247-55-3112",
