@@ -5947,19 +5947,6 @@
     ],
     "source": "公式への導線 9段目 2026-11-22"
   },
-  "kawauchi-village": {
-    "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.kawauchimura.jp/kurashi/sumai-seikatsu/gominodashikata-kumitori/",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
-    "source": "公式への導線 9段目 2026-11-22"
-  },
   "okuma-town": {
     "checked_at": "2026-11-24",
     "links": [
@@ -6648,19 +6635,6 @@
       "source_url": "https://www.vill.tokai.ibaraki.jp/common_pages/gomi_kensaku/gomirisaikuru/5382.html",
       "checked_at": "2026-11-24"
     },
-    "source": "公式への導線 9段目 2026-11-22"
-  },
-  "daigo-town": {
-    "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.daigo.ibaraki.jp/page/dir005426.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "source": "公式への導線 9段目 2026-11-22"
   },
   "miho-village": {
@@ -7515,34 +7489,12 @@
   },
   "ueno-village": {
     "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.uenomura.jp/admin/life/gomi/",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "保健福祉課",
       "tel": "0274-59-2309",
       "source_url": "https://www.uenomura.jp/admin/life/gomi/weekly.html",
       "checked_at": "2026-11-24"
     },
-    "source": "公式への導線 9段目 2026-11-22"
-  },
-  "kanna-town": {
-    "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.kanna.gunma.jp/soshiki/juminseikatsuka_kaikeishitsu/waste-environment-animals/waste-sorting-recycling/index.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "source": "公式への導線 9段目 2026-11-22"
   },
   "kanra-town": {
@@ -20652,19 +20604,6 @@
     },
     "source": "公式への導線 9段目 2026-11-22"
   },
-  "sue-town": {
-    "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.sue.fukuoka.jp/mokuteki/gomi/4/7938.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
-    "source": "公式への導線 9段目 2026-11-22"
-  },
   "shingu-town": {
     "checked_at": "2026-11-24",
     "phone": {
@@ -20673,19 +20612,6 @@
       "source_url": "https://www.town.shingu.fukuoka.jp/kurashi/gomi/4731.html",
       "checked_at": "2026-11-24"
     },
-    "source": "公式への導線 9段目 2026-11-22"
-  },
-  "hisayama-town": {
-    "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.hisayama.fukuoka.jp/gyosei/kurashi/gomi/index.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "source": "公式への導線 9段目 2026-11-22"
   },
   "kasuya-town": {
