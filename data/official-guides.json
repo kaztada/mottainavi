@@ -4955,15 +4955,6 @@
   },
   "nakayama-town": {
     "checked_at": "2026-11-24",
-    "links": [
-      {
-        "kind": "top",
-        "url": "https://www.town.nakayama.yamagata.jp/kurashi_navi/gomi_recycle/1419.html",
-        "target": "html-page",
-        "document": "html",
-        "searchable": false
-      }
-    ],
     "phone": {
       "dept_ja": "住民税務課 住民グループ",
       "tel": "023-662-2113",
